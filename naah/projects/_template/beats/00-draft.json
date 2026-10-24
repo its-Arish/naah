@@ -1,0 +1,91 @@
+{
+ "title": "The Story of Tea",
+ "sections": [
+  {
+   "title": "Cold Open",
+   "card": false,
+   "beats": [
+    {
+     "id": "s01b01",
+     "shot": "host",
+     "type": "HOST",
+     "text": "In 1610, a Dutch ship unloaded a strange dried leaf in Amsterdam."
+    },
+    {
+     "id": "s01b02",
+     "shot": "example",
+     "type": "STORY",
+     "text": "Within two hundred years, an entire empire would be rearranged around it."
+    }
+   ]
+  },
+  {
+   "title": "Act 1: A Leaf from China",
+   "beats": [
+    {
+     "id": "s02b01",
+     "shot": "host",
+     "type": "HOST",
+     "text": "Legend says a Chinese emperor was boiling water when a few leaves blew into his pot."
+    },
+    {
+     "id": "s02b02",
+     "shot": "example",
+     "type": "STORY",
+     "text": "He tasted it, liked it, and *tea* was born.",
+     "date": -2737,
+     "sfx": [
+      [
+       "pop",
+       "w:tea"
+      ],
+      [
+       "thud",
+       44
+      ]
+     ]
+    },
+    {
+     "id": "s02b03",
+     "shot": "example",
+     "type": "STORY",
+     "text": "Probably not true, but a great story.",
+     "date": -2737,
+     "gag": true
+    },
+    {
+     "id": "s02b04",
+     "shot": "sketch",
+     "type": "SKETCH",
+     "speaker": "A",
+     "text": "Your Majesty, there are leaves in your water."
+    },
+    {
+     "id": "s02b05",
+     "shot": "sketch",
+     "type": "SKETCH",
+     "speaker": "B",
+     "text": "Leave them. I'm inventing something."
+    }
+   ]
+  },
+  {
+   "title": "Act 2: Britain Gets Thirsty",
+   "beats": [
+    {
+     "id": "s03b01",
+     "shot": "host",
+     "type": "HOST",
+     "text": "When a Portuguese princess married the English king, she brought tea with her."
+    },
+    {
+     "id": "s03b02",
+     "shot": "example",
+     "type": "STORY",
+     "text": "Soon, the whole country was *hooked*.",
+     "date": 1662
+    }
+   ]
+  }
+ ]
+}

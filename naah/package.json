@@ -1,0 +1,27 @@
+{
+  "name": "history-cartoon-studio",
+  "version": "1.0.0",
+  "description": "Script in, animated history explainer out: a hand-drawn narrator, physics-based motion, synthesised sound effects. Every frame is React + SVG, rendered headless.",
+  "license": "MIT",
+  "type": "module",
+  "private": false,
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "doctor": "node scripts/studio.mjs doctor",
+    "studio": "node scripts/studio.mjs",
+    "test": "tsx --test tests/*.test.ts",
+    "demo": "node scripts/studio.mjs all physics-demo"
+  },
+  "dependencies": {
+    "esbuild": "^0.25.0",
+    "playwright": "^1.50.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0"
+  }
+}

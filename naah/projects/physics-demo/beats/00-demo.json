@@ -1,0 +1,186 @@
+{
+ "title": "How Things Fall",
+ "sections": [
+  {
+   "title": "Intro",
+   "card": false,
+   "beats": [
+    {
+     "id": "intro",
+     "type": "HOST",
+     "text": "Every motion in this studio is computed from *real physics*, frame by frame.",
+     "sfx": [
+      [
+       "pop",
+       "w:physics,"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Act 1: Gravity",
+   "beats": [
+    {
+     "id": "drop",
+     "type": "STORY",
+     "date": 1638,
+     "text": "Drop three crates. Same *gravity*, different *bounciness*.",
+     "hold": 5.5,
+     "sfx": [
+      [
+       "thud",
+       38,
+       1.0
+      ],
+      [
+       "thud",
+       47,
+       0.35
+      ],
+      [
+       "thud",
+       63,
+       0.55
+      ],
+      [
+       "thud",
+       75,
+       0.3
+      ],
+      [
+       "thud",
+       77,
+       0.6
+      ],
+      [
+       "thud",
+       80,
+       0.15
+      ],
+      [
+       "boing",
+       77,
+       0.35
+      ],
+      [
+       "thud",
+       105,
+       0.45
+      ],
+      [
+       "thud",
+       124,
+       0.3
+      ],
+      [
+       "thud",
+       137,
+       0.2
+      ],
+      [
+       "thud",
+       146,
+       0.12
+      ]
+     ]
+    },
+    {
+     "id": "arc",
+     "type": "STORY",
+     "date": 1638,
+     "text": "A cannonball follows a perfect *parabola*, then bounces and rolls to a stop.",
+     "hold": 6,
+     "sfx": [
+      [
+       "drum",
+       12,
+       1.0
+      ],
+      [
+       "thud",
+       66,
+       0.9
+      ],
+      [
+       "thud",
+       92,
+       0.5
+      ],
+      [
+       "thud",
+       104,
+       0.25
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Act 2: Things that swing",
+   "beats": [
+    {
+     "id": "topple",
+     "type": "STORY",
+     "date": null,
+     "text": "A tall pole *topples* like a real rigid rod. Slow at first, then fast.",
+     "hold": 5.5,
+     "sfx": [
+      [
+       "slam",
+       82,
+       0.9
+      ],
+      [
+       "thud",
+       82,
+       0.8
+      ]
+     ]
+    },
+    {
+     "id": "pendulum",
+     "type": "STORY",
+     "text": "A hanging sign *swings* and slowly settles.",
+     "hold": 5
+    },
+    {
+     "id": "springs",
+     "type": "INSERT",
+     "text": "Springs: *bouncy*, balanced, and *stiff*.",
+     "hold": 4.5,
+     "sfx": [
+      [
+       "boing",
+       10,
+       0.6
+      ],
+      [
+       "pop",
+       10,
+       0.5
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Act 3: Life",
+   "beats": [
+    {
+     "id": "walk",
+     "type": "STORY",
+     "text": "And characters walk, wave and lean, with loose cloth that keeps moving after they stop.",
+     "hold": 6.5,
+     "sfx": [
+      [
+       "pop",
+       90,
+       0.4
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}
