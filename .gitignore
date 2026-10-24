@@ -1,0 +1,11 @@
+node_modules/
+projects/*/build/
+projects/*/out/
+__pycache__/
+*.pyc
+.DS_Store
+# Voiceovers: compressed files (.mp3 / .m4a / .ogg) can be committed.
+# Uncompressed audio is too big for GitHub; compress it first (see docs/VOICEOVER.md).
+projects/*/voiceover.wav
+projects/*/voiceover.aiff
+projects/*/voiceover.flac

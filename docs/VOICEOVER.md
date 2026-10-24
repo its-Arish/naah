@@ -23,6 +23,14 @@ Without a voiceover the film is narrated by its captions, and timing comes from 
 - **Lip-sync.** The recording's loudness per frame becomes mouth shapes (closed / half / open, held on twos), and that envelope is moved onto the video timeline along with the voice. The narrator's mouth therefore moves with your actual voice, not a fake flap.
 - **Mix.** The voice is played at full level and the sound effects at 0.55 underneath. There is no music unless you add it.
 
+## Keeping it small (and committing it to GitHub)
+
+Narration doesn't need music quality. Compress before you commit or upload:
+```
+ffmpeg -i voiceover.wav -ac 1 -b:a 64k voiceover.mp3      # ≈ 0.5 MB per minute
+```
+A compressed voiceover can be committed next to `script.md`, so Claude gets the script and the voice together from the repo. WAV, AIFF and FLAC files are ignored by git. GitHub blocks files over 100 MB. Remember that in a public repo your voice is public too, and that every re-recording you push stays in the repo's history.
+
 ## Tips
 
 - Re-run `align` whenever you change the beats or the recording.
