@@ -15,7 +15,9 @@ Without a voiceover the film is narrated by its captions, and timing comes from 
 
 - **Alignment.**
   - If `faster-whisper` (or `openai-whisper`) is installed (`pip install faster-whisper`), every word gets its own timestamp, matched in order against the script.
-  - Otherwise the aligner finds the pauses in the recording with `ffmpeg silencedetect` and shares the speech time out across beats in proportion to their word counts, snapping each boundary to the nearest pause. On a clean read this lands within a few hundredths of a second; the test suite checks it against a synthetic recording.
+  - Otherwise the aligner finds every pause in the recording. It then uses dynamic programming to place each beat boundary on a pause, picking from all possible placements the one where every beat's speaking time best fits its text at your *local* pace. That makes it robust to speeding up and slowing down over a long read. On a synthetic test (slow, then fast, then normal) 35 of 36 beats landed within 0.02 s; the miss was right where the speed suddenly doubled.
+  - Before aligning, pauses longer than `voMaxPause` (project.json, default 1.5 s; set 0 to keep them) are shortened. The trimmed recording, `build/voiceover_edit.m4a`, is what gets mixed into the film.
+  - The aligner lists beats whose spoken length is far from their text. That usually means a skipped or added line, or a deliberately slow or acted delivery.
 - **Timeline.**
   - Each beat starts when its first word is spoken, and captions appear as the words are said.
   - The opening title plays before the voice starts.
@@ -30,6 +32,14 @@ Narration doesn't need music quality. Compress before you commit or upload:
 ffmpeg -i voiceover.wav -ac 1 -b:a 64k voiceover.mp3      # ≈ 0.5 MB per minute
 ```
 A compressed voiceover can be committed next to `script.md`, so Claude gets the script and the voice together from the repo. WAV, AIFF and FLAC files are ignored by git. GitHub blocks files over 100 MB. Remember that in a public repo your voice is public too, and that every re-recording you push stays in the repo's history.
+
+## Fixing a line that's out of sync
+
+Watch the result, note **when you start saying** the line that's off (the time in *your* recording), and pin it in `projects/<name>/vo_anchors.json`:
+```json
+{ "b7_6": "19:41.0", "c1": "39:02.5" }
+```
+The keys are beat ids from `beats/*.json`; the values are `mm:ss.s` or seconds. Re-run `studio align`, then `studio check`. Every other beat re-fits around the pins, so one pin usually fixes a whole stretch.
 
 ## Tips
 

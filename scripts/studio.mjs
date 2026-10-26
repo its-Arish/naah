@@ -196,7 +196,8 @@ const commands = {
     const video = projPath(flag('--video', 'out/video.mp4'));
     const tl = JSON.parse(fs.readFileSync(path.join(BUILD, 'timeline.json'), 'utf8'));
     const out = path.join(OUT, `${projectName}.mp4`);
-    const vo = ['voiceover.mp3', 'voiceover.wav', 'voiceover.m4a'].map((f) => path.join(P, f)).find((f) => fs.existsSync(f));
+    // the aligner may have written a version with long dead air shortened; timings refer to that one
+    const vo = [path.join(BUILD, 'voiceover_edit.m4a'), ...['voiceover.mp3', 'voiceover.wav', 'voiceover.m4a', 'voiceover.ogg'].map((f) => path.join(P, f))].find((f) => fs.existsSync(f));
     const args = ['-v', 'error', '-y', '-i', video, '-i', path.join(BUILD, 'sfx.wav')];
     if (vo) {
       // play each slice of the recording at its place on the video timeline (section cards open gaps)

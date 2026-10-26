@@ -188,7 +188,8 @@ def scribble(d=1.0):
         L = 0.06 + rng.random() * 0.1
         s = int(tt * SR)
         seg = bp(noise(L), 2500, 7000) * np.sin(np.pi * t_(L) / L)
-        out[s:s + len(seg)] += seg
+        n_ = min(len(seg), len(out) - s)  # the last stroke may run past the end
+        out[s:s + n_] += seg[:n_]
         tt += L + rng.random() * 0.05
     return norm(out, 0.45)
 
