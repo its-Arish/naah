@@ -11,6 +11,24 @@ Without a voiceover the film is narrated by its captions, and timing comes from 
    node scripts/studio.mjs all <name>         # render, sfx, mix voice + sfx
    ```
 
+## Best results: add a subtitle file (voiceover.srt)
+
+The recording alone tells the studio *when* you speak, but not *what* you're saying. Without that, a long read with changes of pace can drift. The fix is a free auto-caption export of your recording, saved as `projects/<name>/voiceover.srt` next to the MP3:
+
+- **CapCut**: Auto captions, then Export → Captions → SRT.
+- **YouTube**: upload as unlisted, then Studio → Subtitles → download `.srt`.
+- **MacWhisper** or **Descript** also work.
+
+With it, `studio align`:
+- **matches script to speech:** lines the script up against your spoken words (numbers and contractions match either way, e.g. "1739" = "seventeen thirty-nine"), so each scene starts when you start its line
+- **cleans up disfluencies:** finds stutters, cut-off words, repeats ("in, in") and retakes, where you restart a line after a false start. It drops them from the captions, and cuts them from the audio too, but only where clean pauses make a safe cut. Deliberate repetition ("again, and again, and again") is kept.
+- **keeps the right wording:** lines you read as written keep the script's spelling, because auto-captions mishear names and numbers. Lines you reworded show what you actually said.
+- **drops skipped lines:** beats you skipped are dropped. Silent visual beats (no narration) are held for their `hold` seconds.
+- **respects tone:** keeps your silences around `quiet` (sombre) beats and shortens other dead air.
+- **reports:** writes `build/vo_report.md` listing every stutter (cut or kept), skipped line, ad-lib and reworded line.
+
+To set a caption by hand (a mishearing, or a line you want worded differently), add it to `projects/<name>/vo_captions.json` as `{ "beat_id": "Caption text with *emphasis*." }`. Timing still comes from your voice.
+
 ## What happens
 
 - **Alignment.**

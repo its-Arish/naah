@@ -87,7 +87,12 @@ const voSegments = [];
 let shift = 0, shiftAtSeg = 0, segSrc = 0, afterCard = false;
 
 let lastDate = null, lastShot = 'opening';
-const flat = sections.flatMap((sec, si) => sec.beats.map((b, bi) => ({ sec, si, b, bi, last: bi === sec.beats.length - 1 })));
+// With a voiceover, beats the reader skipped (vo_align "skip") are dropped; "bi" and "last" are
+// recomputed so section cards still open on the first beat that is actually spoken.
+const flat = sections.flatMap((sec, si) => {
+  const kept = sec.beats.filter((b) => !(align && voById[b.id]?.skip));
+  return kept.map((b, bi) => ({ sec, si, b, bi, last: bi === kept.length - 1 }));
+});
 
 flat.forEach(({ sec, si, b, bi, last }, k) => {
   // ---------- section card
@@ -113,8 +118,8 @@ flat.forEach(({ sec, si, b, bi, last }, k) => {
     }
   }
 
-  // ---------- the beat
-  const words = tokenize(b.text);
+  // ---------- the beat (captions show what was actually said when the alignment provides it)
+  const words = tokenize(align && voById[b.id].text ? voById[b.id].text : b.text);
   const lead = 6;
   let from = t, dur, ws, talkEnd;
   if (!align) {
@@ -125,6 +130,20 @@ flat.forEach(({ sec, si, b, bi, last }, k) => {
     const revealSpan = F(Math.min(words.length / WPS, s * 0.7));
     ws = words.map((w, i) => ({ ...w, at: lead + Math.round((i / Math.max(1, words.length)) * revealSpan) }));
     talkEnd = lead + revealSpan + 4;
+  } else if (voById[b.id].silent) {
+    // A beat with no narration (a visual gag, a black screen): cut the recording in the pause
+    // here and hold the picture for the beat's "hold" seconds, like a section card.
+    const spokenV = (dir) => { for (let q = k + dir; q >= 0 && q < flat.length; q += dir) { const x = voById[flat[q].b.id]; if (!x.silent) return x; } return null; };
+    const pv = spokenV(-1), nv = spokenV(1);
+    const cut = pv && nv ? (pv.end + nv.start) / 2 : pv ? pv.end + 0.2 : 0;
+    from = Math.max(t, OPEN + F(cut) + shift);
+    const prev = shots[shots.length - 1];
+    if (prev.words && prev.words.length) prev.dur = from - prev.from;
+    voSegments.push({ src: [segSrc, cut], at: (OPEN + F(segSrc) + shiftAtSeg) / FPS });
+    segSrc = cut;
+    dur = F(b.hold ?? 2.5); ws = []; talkEnd = 0;
+    shift += from + dur - (OPEN + F(cut) + shift); shiftAtSeg = shift;
+    afterCard = true;
   } else {
     const v = voById[b.id];
     const startAbs = OPEN + F(v.start) + shift;

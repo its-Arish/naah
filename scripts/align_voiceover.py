@@ -34,6 +34,10 @@ os.makedirs(BUILD, exist_ok=True)
 vo = next((os.path.join(P, f) for f in ('voiceover.mp3', 'voiceover.wav', 'voiceover.m4a', 'voiceover.aac', 'voiceover.ogg') if os.path.exists(os.path.join(P, f))), None)
 if not vo:
     sys.exit('No voiceover.mp3/.wav/.m4a in ' + P)
+# A subtitle file of the recording (voiceover.srt) gives far better timing: use it when present.
+if os.path.exists(os.path.join(P, 'voiceover.srt')):
+    r = subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'align_srt.py'), P, str(FPS)])
+    sys.exit(r.returncode)
 cfg = {'openingSeconds': 4.5}
 if os.path.exists(os.path.join(P, 'project.json')):
     cfg.update(json.load(open(os.path.join(P, 'project.json'))))
