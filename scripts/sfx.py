@@ -254,9 +254,165 @@ def bleat(d=0.9):
     return norm(bp(x, 300, 4000), 0.6)
 
 
+
+# ------------------------------------------------------------------ "premium" set (Shorts): cinematic hits, risers, foley
+def tail(x, d=0.6, mix=0.18):
+    """Cheap room reverb: convolve with exponentially decaying filtered noise."""
+    ir = lp(noise(d), 5000) * np.exp(-6 * t_(d) / d)
+    ir /= np.sqrt(np.sum(ir ** 2)) + 1e-9
+    wet = np.convolve(x, ir)[: len(x) + int(d * SR)]
+    out = np.zeros(len(wet)); out[: len(x)] += x
+    return out + wet * mix
+
+def impact(d=1.4):
+    t = t_(d)
+    sub = np.sin(2 * np.pi * np.cumsum(60 * (35 / 60) ** (t / d)) / SR) * np.exp(-3.2 * t)
+    body = lp(noise(d), 900) * np.exp(-9 * t) * 0.8
+    click = hp(noise(0.012), 2000); body[: len(click)] += click * 0.6
+    return norm(tail(sub * 1.1 + body, 1.0, 0.25), 0.95)
+
+def boom(d=2.2):
+    t = t_(d)
+    sub = np.sin(2 * np.pi * np.cumsum(48 * (28 / 48) ** (t / d)) / SR) * np.exp(-1.8 * t)
+    rum = lp(noise(d), 260) * np.exp(-2.2 * t)
+    return norm(tail(sub + rum * 0.9, 1.4, 0.3), 0.95)
+
+def riser(d=1.1):
+    """Noise that sweeps up through 12 bands, plus a rising tone, swelling into the next hit."""
+    t = t_(d); x = noise(d); out = np.zeros(len(t))
+    bands = np.geomspace(300, 7000, 12)
+    for i, f in enumerate(bands):
+        c = (i + 0.5) / len(bands)
+        out += bp(x, f * 0.75, min(f * 1.3, 20000)) * np.exp(-((t / d - c) ** 2) / 0.02)
+    tone = sweep(160, 880, d) * 0.2
+    return norm((out + tone) * (t / d) ** 1.8, 0.8)
+
+def swish(d=0.32):
+    x = noise(d); out = np.zeros(len(x)); seg = int(0.02 * SR)
+    for i in range(0, len(x), seg):
+        f = 600 + 4000 * np.sin(np.pi * i / len(x))
+        out[i:i + seg] = bp(x[i:i + seg], f * 0.6, min(f * 1.6, 20000))
+    return norm(lp(out, 9000) * np.sin(np.pi * t_(d) / d) ** 1.5, 0.75)
+
+def pop2():
+    d = 0.16; t = t_(d)
+    x = sweep(380, 950, d) * np.exp(-22 * t) + sweep(760, 1900, d) * np.exp(-30 * t) * 0.3
+    return norm(tail(x, 0.25, 0.12), 0.8)
+
+def sparkle(d=0.9):
+    out = np.zeros(int(d * SR))
+    for k in range(12):
+        s = int(rng.random() * (d - 0.25) * SR); f = 2400 + rng.random() * 3600
+        p = ping(f, 0.22, (1, 2.01, 3.03)) * (0.4 + 0.6 * rng.random())
+        out[s:s + len(p)] += p[: len(out) - s]
+    return norm(tail(hp(out, 1500), 0.6, 0.3), 0.6)
+
+def deflate(d=0.8):
+    t = t_(d)
+    w = sweep(900, 140, d) * np.exp(-2.5 * t) * 0.6
+    air = bp(noise(d), 800, 3000) * np.exp(-4 * t) * 0.5
+    return norm(w + air, 0.7)
+
+def stamp():
+    th = thud(0.3); sl = hp(noise(0.06), 1500) * np.exp(-60 * t_(0.06))
+    out = np.zeros(int(0.4 * SR)); out[: len(th)] += th; out[: len(sl)] += sl * 0.7
+    return norm(tail(out, 0.3, 0.15), 0.9)
+
+def hit():
+    d = 0.35; t = t_(d)
+    k = np.sin(2 * np.pi * np.cumsum(95 * (45 / 95) ** (t / d)) / SR) * np.exp(-11 * t)
+    sn = bp(noise(d), 1500, 6000) * np.exp(-28 * t) * 0.5
+    return norm(tail(k + sn, 0.5, 0.2), 0.95)
+
+def glitch(d=0.45):
+    out = np.zeros(int(d * SR)); n = int(0.03 * SR)
+    for i in range(0, len(out) - n, n):
+        if rng.random() < 0.6:
+            f = 200 + rng.random() * 1800
+            out[i:i + n] = np.sign(np.sin(2 * np.pi * f * t_(0.03))) * 0.4 + hp(noise(0.03), 3000) * 0.3
+    return norm(lp(out, 7000), 0.55)
+
+def crack():
+    d = 0.9; t = t_(d)
+    snap = hp(noise(d), 1200) * np.exp(-40 * t)
+    rum = lp(noise(d), 300) * np.exp(-4 * t)
+    return norm(tail(snap + rum * 0.7, 0.6, 0.2), 0.9)
+
+def creak(d=1.1):
+    t = t_(d)
+    f = 140 + 60 * np.sin(2 * np.pi * 1.3 * t) + 25 * rng.standard_normal(len(t)).cumsum() / np.sqrt(len(t))
+    saw = 2 * ((np.cumsum(f) / SR) % 1) - 1
+    grain = (rng.random(len(t)) < 0.002).astype(float)
+    return norm(bp(saw * (0.6 + 0.4 * lp(grain * 40, 60)), 300, 2500) * np.sin(np.pi * t / d), 0.6)
+
+def steps():
+    out = np.zeros(int(1.4 * SR))
+    for k in range(4):
+        th = thud(0.18) * (0.8 - k * 0.12); s = int(k * 0.32 * SR)
+        out[s:s + len(th)] += th
+    return norm(lp(out, 2500), 0.7)
+
+def drone(d=5.5):
+    t = t_(d)
+    x = sum(np.sin(2 * np.pi * f * t + rng.random()) * a for f, a in [(55, 1), (82.4, 0.6), (110, 0.4), (164.8, 0.2)])
+    return norm(lp(x, 500) * np.minimum(1, t / 1.2) * np.minimum(1, (d - t) / 1.5), 0.5)
+
+def machine(d=2.4):
+    out = np.zeros(int(d * SR))
+    for k in range(int(d / 0.3)):
+        a_, b_ = clang(0.2), thud(0.15); c = np.zeros(max(len(a_), len(b_))); c[:len(a_)] += a_ * 0.4; c[:len(b_)] += b_ * 0.6; s = int(k * 0.3 * SR)
+        out[s:s + len(c)] += c[: len(out) - s]
+    return norm(lp(out, 4000), 0.6)
+
+def anvil():
+    p = ping(1180, 1.2, (1, 2.72, 5.12, 8.1)); q = ping(1630, 0.9, (1, 2.3)); p[: len(q)] += q * 0.5
+    i = impact(0.8)
+    out = np.zeros(max(len(p), len(i))); out[: len(p)] += p * 0.7; out[: len(i)] += i * 0.6
+    return norm(tail(out, 0.8, 0.25), 0.9)
+
+
+def music_bed(d, quiet=()):
+    """A light, curious documentary bed: soft pad chords + gentle pulse. Ducked under the voice later."""
+    t = t_(d)
+    bpm = 100; beat = 60 / bpm
+    chords = [(57, 60, 64), (53, 57, 60), (48, 52, 55), (55, 59, 62)]   # Am F C G (MIDI)
+    hz = lambda m: 440 * 2 ** ((m - 69) / 12)
+    bar = beat * 8
+    pad = np.zeros(len(t))
+    for ci in range(int(d / bar) + 1):
+        a, b = int(ci * bar * SR), min(len(t), int((ci + 1) * bar * SR) + int(0.3 * SR))
+        if a >= len(t): break
+        tt = np.arange(b - a) / SR
+        ch = chords[ci % 4]
+        seg = sum(sum(np.sin(2 * np.pi * hz(m) * k * tt + k) / k ** 1.6 for k in (1, 2, 3)) for m in ch)
+        seg += np.sin(2 * np.pi * hz(ch[0] - 12) * tt) * 0.9
+        fade = np.minimum(1, tt / 0.4) * np.minimum(1, (tt[-1] - tt + 1e-3) / 0.4)
+        pad[a:b] += seg * fade
+    pad = lp(pad, 1400) * 0.22
+    pulse = np.zeros(len(t))
+    k = np.sin(2 * np.pi * np.cumsum(70 * (45 / 70) ** (t_(0.2) / 0.2)) / SR) * np.exp(-14 * t_(0.2))
+    hh = hp(noise(0.05), 7000) * np.exp(-70 * t_(0.05))
+    for i in range(int(d / beat)):
+        s = int(i * beat * SR)
+        if i % 2 == 0 and s + len(k) < len(pulse): pulse[s:s + len(k)] += k * 0.5
+        s2 = int((i + 0.5) * beat * SR)
+        if s2 + len(hh) < len(pulse): pulse[s2:s2 + len(hh)] += hh * 0.12
+    x = pad + pulse
+    g = np.ones(len(t))
+    for a, b in quiet:                         # sombre passages: the music steps back
+        ia, ib = int(a * SR), int(b * SR)
+        ramp = int(0.8 * SR)
+        g[max(0, ia - ramp):ia] = np.minimum(g[max(0, ia - ramp):ia], np.linspace(1, 0.15, ia - max(0, ia - ramp)))
+        g[ia:ib] = 0.15
+        g[ib:ib + ramp] = np.minimum(g[ib:ib + ramp], np.linspace(0.15, 1, len(g[ib:ib + ramp])))
+    x *= g * np.minimum(1, t / 1.0) * np.minimum(1, (d - t) / 1.5)
+    return norm(x, 0.8)
+
 SHOTS = dict(bleat=bleat, whoosh=whoosh, tick=tick, ticks=ticks, pop=pop, pops=pops, boing=boing, thud=thud, drum=drum, coins=coins,
              kaching=kaching, ding=ding, clang=clang, slam=slam, slide_down=slide_down, paper=paper, scribble=scribble,
-             blip=blip, sob=sob, neigh=neigh, rumble=rumble)
+             blip=blip, sob=sob, neigh=neigh, rumble=rumble,
+             impact=impact, boom=boom, riser=riser, swish=swish, pop2=pop2, sparkle=sparkle, deflate=deflate, stamp=stamp,
+             hit=hit, glitch=glitch, crack=crack, creak=creak, steps=steps, drone=drone, machine=machine, anvil=anvil)
 
 
 # ------------------------------------------------------------------ ambience beds
@@ -316,6 +472,11 @@ def main():
         e = min(N, s + len(bed))
         mix[s:e] += (bed * fade)[:e - s] * 0.22
     mix = np.tanh(mix * 1.1) * 0.89  # soft limiter
+    if data.get('music'):
+        m = music_bed(data['duration'] + 1, data.get('quiet', []))
+        mp = out_path.replace('sfx.wav', 'music.wav')
+        wavfile.write(mp, SR, (np.stack([m, m], 1) * 32767).astype(np.int16))
+        print('wrote', mp)
     stereo = np.stack([mix, mix], 1)
     wavfile.write(out_path, SR, (stereo * 32767).astype(np.int16))
     print('wrote', out_path, f'{N / SR:.1f}s', 'peak', float(np.max(np.abs(mix))))

@@ -6,6 +6,10 @@ import { FPS, spring } from './physics';
 export * from './physics';
 export const WIDTH = 1920;
 export const HEIGHT = 1080;
+/** Frame size of the current project (16:9 by default; set "width"/"height" in project.json, e.g. 1080×1920 for Shorts). */
+let FRAME = { w: WIDTH, h: HEIGHT };
+export const setFrameSize = (w: number, h: number) => { FRAME = { w, h }; };
+export const frameSize = () => FRAME;
 
 const FrameCtx = createContext(0);
 const DurCtx = createContext(1);

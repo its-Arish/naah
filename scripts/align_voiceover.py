@@ -234,7 +234,8 @@ def align_with_silence():
         return None  # not enough pauses to separate the beats
     reward = 0.35 * np.log1p(np.concatenate([[0.0], plen, [0.0]]) / 0.25)  # longer pause, better boundary
     K = 60  # max pauses spanned by one beat
-    W_T = float(os.environ.get("VO_W_TIME", 2.0)); W_S = float(os.environ.get("VO_W_SYL", 0.0))
+    W_T = float(os.environ.get("VO_W_TIME", cfg.get("voAlign", {}).get("time", 2.0)))  # weight: speaking time vs text length
+    W_S = float(os.environ.get("VO_W_SYL", cfg.get("voAlign", {}).get("syllables", 0.0)))  # weight: syllables heard vs written
 
     # optional manual pins: vo_anchors.json {"beat_id": "mm:ss.s" | seconds} in the ORIGINAL recording
     anchors = {}

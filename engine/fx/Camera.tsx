@@ -1,5 +1,5 @@
 import React, { createContext, useContext } from 'react';
-import { useCurrentFrame, useDuration, interpolate, Easing, shake as shakeFn } from '../lib/core';
+import { useCurrentFrame, useDuration, interpolate, Easing, shake as shakeFn, frameSize } from '../lib/core';
 
 export type CamMove = {
   // zoom keys: from → to over the shot; push = a quick push-in at a given frame
@@ -21,7 +21,8 @@ export const useCam = () => useContext(CamCtx);
 export const CameraRig: React.FC<{ move?: CamMove; children: React.ReactNode; seed?: string }> = ({ move = {}, children, seed = 'cam' }) => {
   const f = useCurrentFrame();
   const d = useDuration();
-  const { zoomFrom = 1, zoomTo = 1.04, panFrom = [0, 0], panTo = [0, 0], focus = [960, 540], push, shakes = [] } = move;
+  const { w: W, h: H } = frameSize();
+  const { zoomFrom = 1, zoomTo = 1.04, panFrom = [0, 0], panTo = [0, 0], focus = [W / 2, H / 2], push, shakes = [] } = move;
   let zoom = interpolate(f, [0, d], [zoomFrom, zoomTo], Easing.inOut);
   let blur = 0;
   if (push) {
@@ -42,7 +43,7 @@ export const CameraRig: React.FC<{ move?: CamMove; children: React.ReactNode; se
   return (
     <CamCtx.Provider value={{ zoom, fx: focus[0], fy: focus[1], px, py }}>
       <div style={{ position: 'absolute', inset: 0, overflow: 'hidden', transform: `translate(${sx}px, ${sy}px)`, filter: blur > 0.2 ? `blur(${blur}px)` : undefined }}>
-        <svg width={1920} height={1080} viewBox="0 0 1920 1080" style={{ position: 'absolute', inset: 0 }}>
+        <svg width={W} height={H} viewBox={`0 0 ${W} ${H}`} style={{ position: 'absolute', inset: 0 }}>
           {children}
         </svg>
       </div>

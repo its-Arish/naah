@@ -140,14 +140,14 @@ const commands = {
     fs.rmSync(dir, { recursive: true, force: true }); fs.mkdirSync(dir, { recursive: true });
     const { chromium } = await importDep('playwright');
     const browser = await chromium.launch({ executablePath: chromiumExecutable(), args: ['--allow-file-access-from-files'] });
-    const page = await browser.newPage({ viewport: { width: 1920, height: 1080 } });
+    const page = await browser.newPage({ viewport: { width: tl.width ?? 1920, height: tl.height ?? 1080 } });
     page.on('pageerror', (e) => console.log('pageerror:', e.message));
     await page.goto('file://' + path.join(BUILD, 'dist', 'index.html'));
     await page.waitForFunction(() => window.__ready === true);
     for (const f of frames) { await page.evaluate((n) => window.__setFrame(n), f); await page.screenshot({ path: path.join(dir, `f${String(f).padStart(6, '0')}.png`) }); }
     await browser.close();
     // contact sheets, 4×4 per page
-    sh('ffmpeg', ['-v', 'error', '-y', '-pattern_type', 'glob', '-i', path.join(dir, 'f*.png'), '-vf', 'scale=480:-1,tile=4x4', path.join(dir, 'sheet_%02d.png')]);
+    sh('ffmpeg', ['-v', 'error', '-y', '-pattern_type', 'glob', '-i', path.join(dir, 'f*.png'), '-vf', `scale=${(tl.width ?? 1920) > (tl.height ?? 1080) ? 480 : 270}:-1,tile=4x${(tl.width ?? 1920) > (tl.height ?? 1080) ? 4 : 2}`, path.join(dir, 'sheet_%02d.png')]);
     console.log(`${frames.length} stills → ${path.relative(ROOT, dir)} (look at sheet_*.png)`);
   },
 
@@ -168,7 +168,7 @@ const commands = {
       if (a >= b) return null;
       const part = path.join(parts, `part${w}.mp4`);
       const ff = spawn('ffmpeg', ['-y', '-loglevel', 'error', '-f', 'image2pipe', '-framerate', String(tl.fps), '-c:v', 'mjpeg', '-i', '-', '-c:v', 'libx264', '-preset', 'medium', '-crf', '20', '-pix_fmt', 'yuv420p', '-r', String(tl.fps), part], { stdio: ['pipe', 'inherit', 'inherit'] });
-      const page = await browser.newPage({ viewport: { width: 1920, height: 1080 } });
+      const page = await browser.newPage({ viewport: { width: tl.width ?? 1920, height: tl.height ?? 1080 } });
       page.on('pageerror', (e) => console.log('pageerror:', e.message));
       await page.goto('file://' + path.join(BUILD, 'dist', 'index.html'));
       await page.waitForFunction(() => window.__ready === true);
@@ -199,7 +199,29 @@ const commands = {
     // the aligner may have written a version with long dead air shortened; timings refer to that one
     const vo = [path.join(BUILD, 'voiceover_edit.m4a'), ...['voiceover.mp3', 'voiceover.wav', 'voiceover.m4a', 'voiceover.ogg'].map((f) => path.join(P, f))].find((f) => fs.existsSync(f));
     const args = ['-v', 'error', '-y', '-i', video, '-i', path.join(BUILD, 'sfx.wav')];
-    if (vo) {
+    const mix = config().mix;
+    const music = path.join(BUILD, 'music.wav');
+    if (vo && mix) {
+      // Voice-first mix: the voice is levelled, effects sit underneath and duck a little when it speaks,
+      // the music bed (if any) ducks hard under the voice, and the result is normalised for the platform.
+      const segs = tl.voSegments ?? [{ src: [0, null], at: tl.voOffset ?? 0 }];
+      const parts = segs.map((g, i) => { const ms = Math.round(g.at * 1000); return `[2:a]atrim=start=${g.src[0]}${g.src[1] === null ? '' : `:end=${g.src[1]}`},asetpts=PTS-STARTPTS,adelay=${ms}|${ms}[v${i}]`; });
+      const ins = segs.map((_, i) => `[v${i}]`).join('');
+      const hasMusic = (mix.music ?? 0) > 0 && fs.existsSync(music);
+      args.push('-i', vo);
+      if (hasMusic) args.push('-i', music);
+      const g = [
+        ...parts,
+        `${ins}amix=inputs=${segs.length}:normalize=0,loudnorm=I=-16:TP=-2:LRA=9,volume=${mix.voice ?? 1}[vl]`,
+        `[vl]apad=whole_dur=${(tl.total / tl.fps).toFixed(3)},asplit=3[vmix][vk1][vk2]`, // pad so the ducking keys last the whole video
+        `[1:a]volume=${mix.sfx ?? 0.35}[s0]`,
+        `[s0][vk1]sidechaincompress=threshold=0.05:ratio=3:attack=10:release=250[s]`,
+        hasMusic ? `[3:a]volume=${mix.music}[m0]` : null,
+        hasMusic ? `[m0][vk2]sidechaincompress=threshold=0.015:ratio=10:attack=15:release=400[m]` : `[vk2]anullsink`,
+        `[vmix][s]${hasMusic ? '[m]' : ''}amix=inputs=${hasMusic ? 3 : 2}:duration=longest:normalize=0,loudnorm=I=${mix.loudness ?? -14}:TP=-1:LRA=11,aresample=48000[a]`,
+      ].filter(Boolean);
+      args.push('-filter_complex', g.join(';'), '-map', '0:v', '-map', '[a]');
+    } else if (vo) {
       // play each slice of the recording at its place on the video timeline (section cards open gaps)
       const segs = tl.voSegments ?? [{ src: [0, null], at: tl.voOffset ?? 0 }];
       const parts = segs.map((g, i) => { const ms = Math.round(g.at * 1000); return `[2:a]atrim=start=${g.src[0]}${g.src[1] === null ? '' : `:end=${g.src[1]}`},asetpts=PTS-STARTPTS,adelay=${ms}|${ms}[v${i}]`; });

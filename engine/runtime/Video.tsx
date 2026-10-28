@@ -13,6 +13,8 @@ const shots = (timeline as any).shots as Shot[];
 const opt = (k: string): any => (project as Record<string, unknown>)[k];
 const SHOTS: Record<string, React.FC<{ s: Shot }>> = opt('SHOTS');
 const Card: React.FC<{ s: Shot }> = opt('Card') ?? DefaultCard;
+/** A project can export Overlay to replace the standard captions / date tag (e.g. word-by-word captions for Shorts). */
+const Overlay: React.FC<{ s: Shot }> | undefined = opt('Overlay');
 
 /** Speech-bubble placement for SKETCH dialogue: A = right-hand speaker, B = left-hand (seated) speaker. */
 const BUBBLES: Record<string, { x: number; y: number; w: number; tailX: number; tailY: number }> = opt('BUBBLES') ?? {
@@ -28,9 +30,11 @@ export const Video: React.FC = () => (
       return (
         <Sequence key={s.id} from={s.from} duration={s.dur}>
           {Comp ? <Comp s={s} /> : <Missing s={s} name={key} />}
-          {s.words && s.words.length > 0 && s.kind === 'SKETCH' && <Bubble words={s.words} {...BUBBLES[s.speaker ?? 'A']} />}
-          {s.words && s.words.length > 0 && s.kind !== 'SKETCH' && <Narration words={s.words} variant={s.kind === 'HOST' ? 'host' : 'caption'} />}
-          {s.words && <DateTag from={s.prevDate ?? null} to={s.date ?? null} />}
+          {Overlay ? <Overlay s={s} /> : (<>
+            {s.words && s.words.length > 0 && s.kind === 'SKETCH' && <Bubble words={s.words} {...BUBBLES[s.speaker ?? 'A']} />}
+            {s.words && s.words.length > 0 && s.kind !== 'SKETCH' && <Narration words={s.words} variant={s.kind === 'HOST' ? 'host' : 'caption'} />}
+            {s.words && <DateTag from={s.prevDate ?? null} to={s.date ?? null} />}
+          </>)}
         </Sequence>
       );
     })}

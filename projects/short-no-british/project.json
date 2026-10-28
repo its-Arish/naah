@@ -1,0 +1,21 @@
+{
+ "title": "What If the British Never Came?",
+ "width": 1080,
+ "height": 1920,
+ "fps": 30,
+ "openingSeconds": 0,
+ "cardSeconds": 0,
+ "endSeconds": 1.6,
+ "voMaxPause": 0.6,
+ "mix": {
+  "voice": 1.0,
+  "sfx": 0.26,
+  "music": 0.11,
+  "duck": true,
+  "loudness": -14
+ },
+ "voAlign": {
+  "time": 1.5,
+  "syllables": 1
+ }
+}

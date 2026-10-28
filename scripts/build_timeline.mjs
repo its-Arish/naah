@@ -160,7 +160,7 @@ flat.forEach(({ sec, si, b, bi, last }, k) => {
   }
   const date = b.date ?? null;
   const shotId = b.shot ?? b.id;
-  shots.push({ id: b.id, shot: shotId, kind: b.type, speaker: b.speaker, section: sec.title, from, dur, words: ws, gag: !!b.gag, date, prevDate: date === null ? null : lastDate, talkEnd });
+  shots.push({ id: b.id, shot: shotId, kind: b.type, speaker: b.speaker, section: sec.title, from, dur, words: ws, gag: !!b.gag, quiet: !!b.quiet, date, prevDate: date === null ? null : lastDate, talkEnd });
 
   // ---------- automatic sound cues
   const T = from / FPS;
@@ -210,8 +210,9 @@ const secs = [];
 shots.forEach((sh) => { const k = sh.section ?? sh.title; if (!k) return; const l = secs[secs.length - 1]; if (l && l.title === k) l.end = sh.from + sh.dur; else secs.push({ title: k, start: sh.from, end: sh.from + sh.dur }); });
 
 fs.writeFileSync(path.join(BUILD, 'sections.json'), JSON.stringify(secs, null, 1));
-fs.writeFileSync(path.join(BUILD, 'timeline.json'), JSON.stringify({ fps: FPS, total: t, voOffset, voSegments: align ? voSegments : undefined, shots }, null, 1));
-fs.writeFileSync(path.join(BUILD, 'cues.json'), JSON.stringify({ duration: t / FPS, cues, amb: merged }, null, 1));
+fs.writeFileSync(path.join(BUILD, 'timeline.json'), JSON.stringify({ fps: FPS, width: cfg.width ?? 1920, height: cfg.height ?? 1080, total: t, voOffset, voSegments: align ? voSegments : undefined, shots }, null, 1));
+const quietRanges = shots.filter((sh) => sh.quiet).map((sh) => [sh.from / FPS, (sh.from + sh.dur) / FPS]);
+fs.writeFileSync(path.join(BUILD, 'cues.json'), JSON.stringify({ duration: t / FPS, cues, amb: merged, music: !!(cfg.mix && cfg.mix.music > 0), quiet: quietRanges }, null, 1));
 const n = shots.filter((s) => s.words).length;
 const mmss = `${Math.floor(t / FPS / 60)}:${String(Math.round((t / FPS) % 60)).padStart(2, '0')}`;
 console.log(`${n} beats in ${secs.length} sections, ${t} frames = ${mmss}${align ? ' (timed to voiceover)' : ''}; ${cues.length} sound cues`);
