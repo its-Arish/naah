@@ -371,6 +371,104 @@ def anvil():
     return norm(tail(out, 0.8, 0.25), 0.9)
 
 
+
+# ------------------------------------------------------------------ scored background music (moods per section)
+HZ = lambda m: 440 * 2 ** ((m - 69) / 12)
+PROGS = {   # chord roots as semitones above the key, with quality
+    'minor': [[(0, 'm'), (8, 'M'), (3, 'M'), (10, 'M')], [(0, 'm'), (5, 'm'), (8, 'M'), (7, 'M')], [(0, 'm'), (10, 'M'), (8, 'M'), (10, 'M')]],
+    'major': [[(0, 'M'), (7, 'M'), (9, 'm'), (5, 'M')], [(0, 'M'), (5, 'M'), (9, 'm'), (7, 'M')], [(0, 'M'), (4, 'm'), (5, 'M'), (7, 'M')]],
+}
+KEYS = [57, 50, 52, 55, 53, 48, 59, 54]  # A, D, E, G, F, C, B, F# (MIDI roots, one per section, cycling)
+def chord_notes(root, q):
+    return [root, root + (3 if q == 'm' else 4), root + 7]
+
+def pad_voice(notes, n, bright=1200, detune=0.004):
+    t = np.arange(n) / SR
+    x = np.zeros(len(t))
+    for m in notes:
+        for dt in (-detune, 0, detune):
+            f = HZ(m) * (1 + dt)
+            x += sum(np.sin(2 * np.pi * f * k * t + k * 1.7) / k ** 1.4 for k in (1, 2, 3, 4))
+    return lp(x, bright) / (len(notes) * 3)
+
+def pluck(f, d=0.5):
+    """Karplus-Strong plucked string."""
+    n = int(SR / f); buf = rng.uniform(-1, 1, n); out = np.zeros(int(d * SR))
+    for i in range(len(out)):
+        out[i] = buf[i % n]
+        buf[i % n] = 0.5 * (buf[i % n] + buf[(i + 1) % n]) * 0.996
+    return out * np.exp(-3 * t_(d))
+
+def mood_track(mood, d, sec_index):
+    t = t_(d); x = np.zeros(len(t))
+    key = KEYS[sec_index % len(KEYS)]
+    if mood in ('none', 'silence'):
+        return x
+    if mood == 'sombre':   # monotonous: root + fifth drone, slow swell, no rhythm
+        for m, a in ((key - 24, 1.0), (key - 17, 0.6), (key - 12, 0.35)):
+            x += np.sin(2 * np.pi * HZ(m) * t) * a * (0.75 + 0.25 * np.sin(2 * np.pi * t / 11 + m))
+        return lp(x, 400) * 0.5
+    scale = 'major' if mood in ('curious', 'grand', 'playful') and sec_index % 3 != 2 else 'minor'
+    prog = PROGS[scale][sec_index % len(PROGS[scale])]
+    bpm = {'curious': 92, 'grand': 66, 'tension': 84, 'modern': 100, 'playful': 112}.get(mood, 90)
+    beat = 60 / bpm; bar = beat * 4
+    chord_len = bar * (2 if mood in ('grand', 'tension') else 1)
+    n_ch = int(d / chord_len) + 1
+    for ci in range(n_ch):
+        a = int(ci * chord_len * SR)
+        if a >= len(t): break
+        root, q = prog[ci % len(prog)]
+        notes = chord_notes(key + root - 12, q)
+        L = min(len(t) - a, int((chord_len + 0.4) * SR))
+        tt = np.arange(L) / SR
+        env_ = np.minimum(1, tt / (0.6 if mood != 'playful' else 0.05)) * np.minimum(1, (tt[-1] - tt + 1e-3) / 0.4)
+        if mood in ('grand', 'curious', 'modern', 'tension'):
+            x[a:a + L] += pad_voice(notes, L, bright=900 if mood != 'grand' else 1500) * env_ * (0.9 if mood == 'grand' else 0.55)
+        # bass
+        x[a:a + L] += np.sin(2 * np.pi * HZ(notes[0] - 12) * tt) * env_ * 0.35
+        # movement inside the chord
+        steps = int(chord_len / (beat / 2))
+        for k in range(steps):
+            s0 = a + int(k * beat / 2 * SR)
+            if s0 >= len(t): break
+            if mood == 'curious' and k % 2 == 0:
+                p_ = pluck(HZ(notes[(k // 2) % 3] + 12), 0.6) * 0.25
+            elif mood == 'playful' and k % 2 == 0:
+                p_ = pluck(HZ(notes[[0, 2, 1, 2][(k // 2) % 4]] + (12 if k % 4 else 0)), 0.3) * 0.3
+            elif mood == 'tension':
+                p_ = np.sin(2 * np.pi * HZ(notes[0] - 12) * t_(0.18)) * np.exp(-14 * t_(0.18)) * 0.35
+            elif mood == 'modern' and k % 2 == 0:
+                p_ = np.sin(2 * np.pi * np.cumsum(70 * (45 / 70) ** (t_(0.2) / 0.2)) / SR) * np.exp(-14 * t_(0.2)) * (0.35 if k % 4 == 0 else 0.0)
+            elif mood == 'modern':
+                p_ = hp(noise(0.05), 7000) * np.exp(-70 * t_(0.05)) * 0.06
+            else:
+                continue
+            e_ = min(len(t), s0 + len(p_)); x[s0:e_] += p_[: e_ - s0]
+    if mood == 'tension':   # thin high shimmer
+        x += np.sin(2 * np.pi * HZ(key + 24) * t) * 0.04 * (0.5 + 0.5 * np.sin(2 * np.pi * t / 5))
+    return x
+
+def music_score(d, segments, quiet=()):
+    """segments: [[start, end, mood, section_index], ...]; moods crossfade over 1.5 s; quiet beats sink to a whisper."""
+    out = np.zeros(int(d * SR)); xf = 1.5
+    for start, end, mood, si in segments:
+        a = max(0.0, start - xf / 2); b = min(d, end + xf / 2)
+        seg = mood_track(mood, b - a, int(si))
+        n = len(seg); ramp = int(xf * SR)
+        w = np.ones(n)
+        if a > 0: w[:ramp] = np.sin(np.linspace(0, np.pi / 2, min(ramp, n))) ** 2 if n >= ramp else w[:ramp]
+        if b < d: w[-ramp:] = np.cos(np.linspace(0, np.pi / 2, min(ramp, n))) ** 2 if n >= ramp else w[-ramp:]
+        i0 = int(a * SR); i1 = min(len(out), i0 + n)
+        out[i0:i1] += (seg * w)[: i1 - i0]
+    g = np.ones(len(out))
+    for a, b in quiet:
+        ia, ib = int(a * SR), int(b * SR); ramp = int(0.8 * SR)
+        g[ia:ib] = np.minimum(g[ia:ib], 0.25)
+        g[max(0, ia - ramp):ia] = np.minimum(g[max(0, ia - ramp):ia], np.linspace(1, 0.25, ia - max(0, ia - ramp)))
+        g[ib:ib + ramp] = np.minimum(g[ib:ib + ramp], np.linspace(0.25, 1, len(g[ib:ib + ramp])))
+    out *= g
+    return norm(out, 0.8)
+
 def music_bed(d, quiet=()):
     """A light, curious documentary bed: soft pad chords + gentle pulse. Ducked under the voice later."""
     t = t_(d)
@@ -473,7 +571,7 @@ def main():
         mix[s:e] += (bed * fade)[:e - s] * 0.22
     mix = np.tanh(mix * 1.1) * 0.89  # soft limiter
     if data.get('music'):
-        m = music_bed(data['duration'] + 1, data.get('quiet', []))
+        m = music_score(data['duration'] + 1, data['score'], data.get('quiet', [])) if data.get('score') else music_bed(data['duration'] + 1, data.get('quiet', []))
         mp = out_path.replace('sfx.wav', 'music.wav')
         wavfile.write(mp, SR, (np.stack([m, m], 1) * 32767).astype(np.int16))
         print('wrote', mp)

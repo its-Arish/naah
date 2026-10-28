@@ -98,7 +98,7 @@ flat.forEach(({ sec, si, b, bi, last }, k) => {
   // ---------- section card
   if (bi === 0 && sec.card !== false) {
     if (!align) {
-      shots.push({ id: 'card' + si, kind: 'CARD', title: sec.title, n: si, from: t, dur: CARD });
+      shots.push({ id: 'card' + si, kind: 'CARD', title: sec.title, n: si, from: t, dur: CARD, mood: sec.mood, si });
       cues.push(['whoosh', t / FPS, 0.7], ['paper', t / FPS + 0.15, 0.7]);
       t += CARD; lastShot = 'card';
     } else {
@@ -111,7 +111,7 @@ flat.forEach(({ sec, si, b, bi, last }, k) => {
       if (prev.words) prev.dur = cardFrom - prev.from;
       voSegments.push({ src: [segSrc, cut], at: (OPEN + F(segSrc) + shiftAtSeg) / FPS });
       segSrc = cut;
-      shots.push({ id: 'card' + si, kind: 'CARD', title: sec.title, n: si, from: cardFrom, dur: CARD });
+      shots.push({ id: 'card' + si, kind: 'CARD', title: sec.title, n: si, from: cardFrom, dur: CARD, mood: sec.mood, si });
       cues.push(['whoosh', cardFrom / FPS, 0.7], ['paper', cardFrom / FPS + 0.15, 0.7]);
       shift += CARD; shiftAtSeg = shift;
       t = cardFrom + CARD; lastShot = 'card'; afterCard = true;
@@ -160,7 +160,7 @@ flat.forEach(({ sec, si, b, bi, last }, k) => {
   }
   const date = b.date ?? null;
   const shotId = b.shot ?? b.id;
-  shots.push({ id: b.id, shot: shotId, kind: b.type, speaker: b.speaker, section: sec.title, from, dur, words: ws, gag: !!b.gag, quiet: !!b.quiet, date, prevDate: date === null ? null : lastDate, talkEnd });
+  shots.push({ id: b.id, shot: shotId, kind: b.type, speaker: b.speaker, section: sec.title, from, dur, words: ws, gag: !!b.gag, quiet: !!b.quiet, mood: b.mood ?? sec.mood ?? (b.quiet ? 'sombre' : undefined), si, date, prevDate: date === null ? null : lastDate, talkEnd });
 
   // ---------- automatic sound cues
   const T = from / FPS;
@@ -212,7 +212,15 @@ shots.forEach((sh) => { const k = sh.section ?? sh.title; if (!k) return; const 
 fs.writeFileSync(path.join(BUILD, 'sections.json'), JSON.stringify(secs, null, 1));
 fs.writeFileSync(path.join(BUILD, 'timeline.json'), JSON.stringify({ fps: FPS, width: cfg.width ?? 1920, height: cfg.height ?? 1080, total: t, voOffset, voSegments: align ? voSegments : undefined, shots }, null, 1));
 const quietRanges = shots.filter((sh) => sh.quiet).map((sh) => [sh.from / FPS, (sh.from + sh.dur) / FPS]);
-fs.writeFileSync(path.join(BUILD, 'cues.json'), JSON.stringify({ duration: t / FPS, cues, amb: merged, music: !!(cfg.mix && cfg.mix.music > 0), quiet: quietRanges }, null, 1));
+// music score: a section's "mood" (curious | grand | tension | sombre | modern | playful | none), overridable per beat
+const score = [];
+shots.forEach((sh) => {
+  if (!sh.mood) return;
+  const l = score[score.length - 1];
+  if (l && l[2] === sh.mood && Math.abs(l[1] - sh.from / FPS) < 0.05) l[1] = (sh.from + sh.dur) / FPS;
+  else score.push([sh.from / FPS, (sh.from + sh.dur) / FPS, sh.mood, sh.si ?? 0]);
+});
+fs.writeFileSync(path.join(BUILD, 'cues.json'), JSON.stringify({ duration: t / FPS, cues, amb: merged, music: !!(cfg.mix && cfg.mix.music > 0), quiet: quietRanges, score: score.length ? score : undefined }, null, 1));
 const n = shots.filter((s) => s.words).length;
 const mmss = `${Math.floor(t / FPS / 60)}:${String(Math.round((t / FPS) % 60)).padStart(2, '0')}`;
 console.log(`${n} beats in ${secs.length} sections, ${t} frames = ${mmss}${align ? ' (timed to voiceover)' : ''}; ${cues.length} sound cues`);
