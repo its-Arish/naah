@@ -262,7 +262,7 @@ const commands = {
       const m = [...(r.stderr ?? '').matchAll(/I:\s+(-?[\d.]+) LUFS/g)].pop();
       const gain = m ? Math.max(-12, Math.min(24, -16 - parseFloat(m[1]))) : 0;
       const tmp = voiceOut + '.tmp.wav';
-      sh('ffmpeg', ['-v', 'error', '-y', '-i', voiceOut, '-af', `volume=${gain.toFixed(2)}dB*${mix.voice},alimiter=limit=0.89:level=false`, '-c:a', 'pcm_s24le', tmp]);
+      sh('ffmpeg', ['-v', 'error', '-y', '-i', voiceOut, '-af', `volume=${gain.toFixed(2)}dB*${mix.voice},alimiter=limit=0.89:level=false,apad=whole_dur=${total},atrim=end=${total}`, '-c:a', 'pcm_s24le', tmp]);
       fs.renameSync(tmp, voiceOut);
     }
     const stem = (src, vol, thr, ratio, att, rel, out) => {
