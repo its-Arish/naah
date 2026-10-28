@@ -8,7 +8,7 @@
  "mix": {
   "voice": 1.0,
   "sfx": 0.3,
-  "music": 0.1,
+  "music": 0.75,
   "duck": true,
   "loudness": -14
  }

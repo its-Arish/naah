@@ -571,7 +571,15 @@ def main():
         mix[s:e] += (bed * fade)[:e - s] * 0.22
     mix = np.tanh(mix * 1.1) * 0.89  # soft limiter
     if data.get('music'):
-        m = music_score(data['duration'] + 1, data['score'], data.get('quiet', [])) if data.get('score') else music_bed(data['duration'] + 1, data.get('quiet', []))
+        m = None
+        if data.get('phrases'):
+            sys.path.insert(0, __import__('os').path.dirname(__import__('os').path.abspath(__file__)))
+            import score as _score
+            if _score.available():
+                m = _score.render(data['phrases'], data['duration'] + 1, data.get('quiet', []))
+                print('music: sampled instruments, following the narration')
+        if m is None:
+            m = music_score(data['duration'] + 1, data['score'], data.get('quiet', [])) if data.get('score') else music_bed(data['duration'] + 1, data.get('quiet', []))
         mp = out_path.replace('sfx.wav', 'music.wav')
         wavfile.write(mp, SR, (np.stack([m, m], 1) * 32767).astype(np.int16))
         print('wrote', mp)

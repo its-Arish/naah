@@ -220,7 +220,12 @@ shots.forEach((sh) => {
   if (l && l[2] === sh.mood && Math.abs(l[1] - sh.from / FPS) < 0.05) l[1] = (sh.from + sh.dur) / FPS;
   else score.push([sh.from / FPS, (sh.from + sh.dur) / FPS, sh.mood, sh.si ?? 0]);
 });
-fs.writeFileSync(path.join(BUILD, 'cues.json'), JSON.stringify({ duration: t / FPS, cues, amb: merged, music: !!(cfg.mix && cfg.mix.music > 0), quiet: quietRanges, score: score.length ? score : undefined }, null, 1));
+// phrases for the music: one per spoken beat (when it starts/ends, emphasis times, whether a sentence ends) + section cards
+const phrases = shots.filter((sh) => (sh.words && sh.words.length) || sh.kind === 'CARD').map((sh) => sh.kind === 'CARD'
+  ? { s: sh.from / FPS, e: (sh.from + sh.dur) / FPS, mood: sh.mood, si: sh.si ?? sh.n ?? 0, card: true }
+  : { s: (sh.from + (sh.words[0]?.at ?? 0)) / FPS, e: (sh.from + Math.min(sh.dur, sh.talkEnd ?? sh.dur)) / FPS, mood: sh.mood, si: sh.si ?? 0,
+      em: sh.words.filter((w) => w.em).map((w) => (sh.from + w.at) / FPS), stop: /[.?!]["')]*$/.test(sh.words[sh.words.length - 1].w) });
+fs.writeFileSync(path.join(BUILD, 'cues.json'), JSON.stringify({ duration: t / FPS, cues, amb: merged, music: !!(cfg.mix && cfg.mix.music > 0), quiet: quietRanges, score: score.length ? score : undefined, phrases: phrases.some((p) => p.mood) ? phrases : undefined }, null, 1));
 const n = shots.filter((s) => s.words).length;
 const mmss = `${Math.floor(t / FPS / 60)}:${String(Math.round((t / FPS) % 60)).padStart(2, '0')}`;
 console.log(`${n} beats in ${secs.length} sections, ${t} frames = ${mmss}${align ? ' (timed to voiceover)' : ''}; ${cues.length} sound cues`);

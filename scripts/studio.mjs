@@ -220,7 +220,7 @@ const commands = {
         `[1:a]volume=${mix.sfx ?? 0.35}[s0]`,
         `[s0][vk1]sidechaincompress=threshold=0.05:ratio=3:attack=10:release=250[s]`,
         hasMusic ? `[3:a]volume=${mix.music}[m0]` : null,
-        hasMusic ? `[m0][vk2]sidechaincompress=threshold=0.015:ratio=10:attack=15:release=400[m]` : `[vk2]anullsink`,
+        hasMusic ? `[m0][vk2]sidechaincompress=threshold=0.03:ratio=4:attack=40:release=600[m]` : `[vk2]anullsink`,
         `[vmix][s]${hasMusic ? '[m]' : ''}amix=inputs=${hasMusic ? 3 : 2}:duration=longest:normalize=0,loudnorm=I=${mix.loudness ?? -14}:TP=-1:LRA=11,aresample=48000[a]`,
       ].filter(Boolean);
       args.push('-filter_complex', g.join(';'), '-map', '0:v', '-map', '[a]');
