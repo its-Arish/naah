@@ -94,12 +94,14 @@ export const Spotlight: React.FC<{ at: number; text?: string; x?: number; y?: nu
 };
 
 /** Label that pops on, with a little pointer line (e.g. "Kathmandu"). */
+/** A solid dark outline drawn with text-shadows (keeps thin handwriting legible, unlike -webkit-text-stroke). */
+const outline = (w: number) => [...Array(16)].map((_, i) => `${(Math.cos((i / 16) * Math.PI * 2) * w).toFixed(1)}px ${(Math.sin((i / 16) * Math.PI * 2) * w).toFixed(1)}px 0 #000`).join(',') + `, 0 ${w * 1.4}px ${w * 2}px rgba(0,0,0,0.5)`;
 export const Label: React.FC<{ text: string; x: number; y: number; at: number; color?: string; size?: number; rot?: number }> = ({ text, x, y, at, color = '#fff', size = 54, rot = 0 }) => {
   const f = useCurrentFrame();
   const s = popScale(f, at);
   if (s <= 0) return null;
   return (
-    <div style={{ position: 'absolute', left: x, top: y, transform: `translate(-50%,-50%) rotate(${rot}deg) scale(${s})`, fontFamily: 'Hand', fontSize: size, color, WebkitTextStroke: '8px #000', paintOrder: 'stroke fill', whiteSpace: 'nowrap' }}>
+    <div style={{ position: 'absolute', left: x, top: y, transform: `translate(-50%,-50%) rotate(${rot}deg) scale(${s})`, fontFamily: 'Hand', fontSize: size, color, textShadow: outline(Math.max(2.5, size * 0.06)), whiteSpace: 'nowrap' }}>
       {text}
     </div>
   );

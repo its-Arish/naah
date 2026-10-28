@@ -252,8 +252,26 @@ const commands = {
       sh('ffmpeg', ['-v', 'error', '-y', '-i', vo, '-filter_complex', `${parts.join(';')};${segs.map((_, i) => `[v${i}]`).join('')}amix=inputs=${segs.length}:normalize=0,apad=whole_dur=${total},atrim=end=${total}[a]`, '-map', '[a]', '-ar', '48000', '-c:a', 'pcm_s24le', path.join(dir, '1-voice.wav')]);
     }
     const fx = path.join(BUILD, 'sfx.wav'), music = path.join(BUILD, 'music.wav');
-    if (fs.existsSync(fx)) sh('ffmpeg', ['-v', 'error', '-y', '-i', fx, '-af', `apad=whole_dur=${total},atrim=end=${total}`, '-ar', '48000', '-c:a', 'pcm_s24le', path.join(dir, '2-sfx.wav')]);
-    if (fs.existsSync(music)) sh('ffmpeg', ['-v', 'error', '-y', '-i', music, '-af', `apad=whole_dur=${total},atrim=end=${total}`, '-ar', '48000', '-c:a', 'pcm_s24le', path.join(dir, '3-music.wav')]);
+    // Stems come out already balanced: put all three on the timeline at 0 dB and you hear the finished mix
+    // (voice on top). The voice gets one clean static gain to the mix loudness; effects and music carry
+    // their mix volume and the ducking under the voice.
+    const mix = { voice: 1, sfx: 0.3, music: 0.75, duck: true, ...(config().mix ?? {}) };
+    const voiceOut = path.join(dir, '1-voice.wav');
+    if (vo) {
+      const r = spawnSync('ffmpeg', ['-hide_banner', '-i', voiceOut, '-af', 'ebur128', '-f', 'null', '-'], { encoding: 'utf8' });
+      const m = [...(r.stderr ?? '').matchAll(/I:\s+(-?[\d.]+) LUFS/g)].pop();
+      const gain = m ? Math.max(-12, Math.min(24, -16 - parseFloat(m[1]))) : 0;
+      const tmp = voiceOut + '.tmp.wav';
+      sh('ffmpeg', ['-v', 'error', '-y', '-i', voiceOut, '-af', `volume=${gain.toFixed(2)}dB*${mix.voice},alimiter=limit=0.89:level=false`, '-c:a', 'pcm_s24le', tmp]);
+      fs.renameSync(tmp, voiceOut);
+    }
+    const stem = (src, vol, thr, ratio, att, rel, out) => {
+      const duck = mix.duck && vo;
+      const fc = duck ? `[0:a]volume=${vol},apad=whole_dur=${total},atrim=end=${total}[x];[1:a]aformat=channel_layouts=stereo[k];[x][k]sidechaincompress=threshold=${thr}:ratio=${ratio}:attack=${att}:release=${rel}[a]` : `[0:a]volume=${vol},apad=whole_dur=${total},atrim=end=${total}[a]`;
+      sh('ffmpeg', ['-v', 'error', '-y', '-i', src, ...(duck ? ['-i', voiceOut] : []), '-filter_complex', fc, '-map', '[a]', '-ar', '48000', '-c:a', 'pcm_s24le', out]);
+    };
+    if (fs.existsSync(fx)) stem(fx, mix.sfx, 0.05, 3, 10, 250, path.join(dir, '2-sfx.wav'));
+    if (fs.existsSync(music) && mix.music > 0) stem(music, mix.music, 0.03, 4, 40, 600, path.join(dir, '3-music.wav'));
     const video = path.join(OUT, 'video.mp4');
     if (fs.existsSync(video) && fs.existsSync(fx)) {
       const ins = ['-i', video, '-i', path.join(dir, '2-sfx.wav'), ...(fs.existsSync(music) ? ['-i', path.join(dir, '3-music.wav')] : [])];

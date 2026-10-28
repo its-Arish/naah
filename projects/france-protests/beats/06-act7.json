@@ -1,0 +1,275 @@
+{
+ "sections": [
+  {
+   "title": "Act 7: Two Wars and a General",
+   "beats": [
+    {
+     "id": "s08b01",
+     "shot": "ww1",
+     "type": "INSERT",
+     "text": "World War One took around 1.4 million French soldiers.",
+     "date": 1918,
+     "sfx": [],
+     "quiet": true
+    },
+    {
+     "id": "s08b02",
+     "shot": "ww1",
+     "type": "INSERT",
+     "text": "By some counts, more than a quarter of French men aged 18 to 27 were killed.",
+     "date": 1918,
+     "sfx": [],
+     "quiet": true
+    },
+    {
+     "id": "s08b03",
+     "shot": "fall1940",
+     "type": "INSERT",
+     "text": "Then in 1940 Germany conquered France in about six weeks.",
+     "date": 1940,
+     "sfx": [
+      [
+       "rumble",
+       8,
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s08b04",
+     "shot": "vichy",
+     "type": "INSERT",
+     "text": "A marshal signed an armistice, a collaborating government set up in the spa town",
+     "date": 1940,
+     "sfx": [
+      [
+       "paper",
+       "w:armistice,",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s08b05",
+     "shot": "vichy",
+     "type": "INSERT",
+     "text": "of Vichy, and a general nobody had heard of,",
+     "date": 1940,
+     "sfx": [
+      [
+       "pop2",
+       "w:general",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s08b06",
+     "shot": "radio",
+     "type": "STORY",
+     "text": "Charles de Gaulle, spoke on the radio from London on 18 June and told",
+     "date": 1940,
+     "sfx": [
+      [
+       "blip",
+       6,
+       0.3
+      ]
+     ],
+     "mood": "grand"
+    },
+    {
+     "id": "s08b07",
+     "shot": "radio",
+     "type": "STORY",
+     "text": "the French that France had lost a battle, not the war.",
+     "date": 1940,
+     "sfx": [
+      [
+       "blip",
+       6,
+       0.3
+      ]
+     ],
+     "mood": "grand"
+    },
+    {
+     "id": "s08b08",
+     "shot": "liberation",
+     "type": "STORY",
+     "text": "After liberation in 1944, France tried again.",
+     "date": 1944,
+     "sfx": [
+      [
+       "pops",
+       10,
+       0.3
+      ]
+     ],
+     "mood": "grand"
+    },
+    {
+     "id": "s08b09",
+     "shot": "revolving_door",
+     "type": "INSERT",
+     "text": "The Fourth Republic, born in 1946, put parliament in charge and kept the president weak.",
+     "date": 1946,
+     "sfx": []
+    },
+    {
+     "id": "s08b10",
+     "shot": "revolving_door",
+     "type": "INSERT",
+     "text": "It went through more than twenty governments in twelve years.",
+     "date": 1958,
+     "sfx": [
+      [
+       "whoosh",
+       4,
+       0.3
+      ],
+      [
+       "ticks",
+       "w:twenty",
+       0.4
+      ]
+     ],
+     "mood": "playful"
+    },
+    {
+     "id": "s08b11",
+     "shot": "algeria58",
+     "type": "STORY",
+     "text": "When a crisis over Algeria in 1958 pushed the army toward revolt,",
+     "date": 1958,
+     "sfx": [
+      [
+       "drum",
+       4,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s08b12",
+     "shot": "algeria58",
+     "type": "STORY",
+     "text": "parliament turned to the one man everybody trusted.",
+     "date": 1958,
+     "sfx": []
+    },
+    {
+     "id": "s08b13",
+     "shot": "fifth_republic",
+     "type": "INSERT",
+     "text": "De Gaulle rewrote the constitution.",
+     "date": 1958,
+     "sfx": [
+      [
+       "paper",
+       "w:rewrote",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s08b14",
+     "shot": "fifth_republic",
+     "type": "INSERT",
+     "text": "The Fifth Republic, the one France still has,",
+     "date": 1958,
+     "sfx": [
+      [
+       "thud",
+       "w:Fifth",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s08b15",
+     "shot": "fifth_republic",
+     "type": "INSERT",
+     "text": "gave the president enormous power, and from 1962 the president was elected directly by the people.",
+     "date": 1962,
+     "sfx": [
+      [
+       "riser",
+       "w:enormous",
+       0.4
+      ],
+      [
+       "kaching",
+       "w:1962",
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s08b16",
+     "shot": "fifth_republic",
+     "type": "INSERT",
+     "text": "A strong president, and a National Assembly that can bring down the president's government.",
+     "date": 1958,
+     "sfx": [
+      [
+       "boing",
+       "w:down",
+       0.5
+      ],
+      [
+       "thud",
+       124,
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s08b17",
+     "shot": "remember_design",
+     "type": "HOST",
+     "text": "Remember that design.",
+     "date": null,
+     "sfx": [
+      [
+       "stamp",
+       "w:design.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s08b18",
+     "shot": "remember_design",
+     "type": "HOST",
+     "text": "It matters later.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s08b19",
+     "shot": "unshakeable",
+     "type": "INSERT",
+     "text": "De Gaulle believed he had built a republic that couldn't be shaken.",
+     "date": 1958,
+     "sfx": []
+    },
+    {
+     "id": "s08b20",
+     "shot": "unshakeable",
+     "type": "INSERT",
+     "text": "Ten years later, a rule about who could visit whose dormitory nearly proved him wrong.",
+     "date": 1968,
+     "sfx": [
+      [
+       "crack",
+       "w:nearly",
+       0.6
+      ]
+     ]
+    }
+   ],
+   "mood": "sombre"
+  }
+ ]
+}

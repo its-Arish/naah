@@ -1,0 +1,850 @@
+{
+ "title": "The French Revolution vs Today",
+ "sections": [
+  {
+   "title": "Cold Open",
+   "card": false,
+   "beats": [
+    {
+     "id": "s01b01",
+     "shot": "co_host",
+     "type": "HOST",
+     "text": "On the day the Bastille fell, 14 July 1789,",
+     "date": 1789,
+     "sfx": [
+      [
+       "drum",
+       "w:1789,",
+       0.8
+      ]
+     ]
+    },
+    {
+     "id": "s01b02",
+     "shot": "diary_desk",
+     "type": "STORY",
+     "text": "King Louis XVI sat down and wrote a single word in his diary.",
+     "date": 1789,
+     "sfx": [
+      [
+       "scribble",
+       20,
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s01b03",
+     "shot": "rien",
+     "type": "INSERT",
+     "text": "'Nothing.'",
+     "date": 1789,
+     "sfx": [
+      [
+       "hit",
+       "w:'Nothing.'",
+       0.6
+      ]
+     ],
+     "hold": 2.5
+    },
+    {
+     "id": "s01b04",
+     "shot": "hunt",
+     "type": "STORY",
+     "text": "He wasn't being poetic.",
+     "date": 1789,
+     "sfx": []
+    },
+    {
+     "id": "s01b05",
+     "shot": "hunt",
+     "type": "STORY",
+     "text": "He had been out hunting, he hadn't killed anything,",
+     "date": 1789,
+     "sfx": [
+      [
+       "boing",
+       "w:anything,",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s01b06",
+     "shot": "hunt",
+     "type": "STORY",
+     "text": "and that was the entire report.",
+     "date": 1789,
+     "sfx": [
+      [
+       "blip",
+       "w:report.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s01b07",
+     "shot": "bastille_far",
+     "type": "STORY",
+     "text": "While a crowd stormed a fortress twelve miles from his palace,",
+     "date": 1789,
+     "sfx": [
+      [
+       "rumble",
+       0,
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s01b08",
+     "shot": "split_king",
+     "type": "STORY",
+     "text": "the king of France was logging a bad day of hunting.",
+     "date": 1789,
+     "sfx": [
+      [
+       "scribble",
+       "w:logging",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s01b09",
+     "shot": "jump237",
+     "type": "INSERT",
+     "text": "Now jump forward 237 years.",
+     "date": 2026,
+     "sfx": [
+      [
+       "riser",
+       0,
+       0.6
+      ],
+      [
+       "impact",
+       "w:years.",
+       0.8
+      ]
+     ]
+    },
+    {
+     "id": "s01b10",
+     "shot": "map_oct17",
+     "type": "INSERT",
+     "text": "On Saturday 17 October 2026, more than half a million people marched across France.",
+     "date": 2026,
+     "sfx": [
+      [
+       "pops",
+       "w:marched",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s01b11",
+     "shot": "limoges",
+     "type": "STORY",
+     "text": "A town hall in Limoges was set on fire.",
+     "date": 2026,
+     "sfx": [],
+     "quiet": true
+    },
+    {
+     "id": "s01b12",
+     "shot": "map_counts",
+     "type": "INSERT",
+     "text": "Nearly 1,800 people were arrested in a single day,",
+     "date": 2026,
+     "sfx": [
+      [
+       "stamp",
+       "w:arrested",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s01b13",
+     "shot": "map_counts",
+     "type": "INSERT",
+     "text": "a record 855 of them in Paris, and more than 500 police officers were injured.",
+     "date": 2026,
+     "sfx": [
+      [
+       "stamp",
+       "w:855",
+       0.6
+      ],
+      [
+       "stamp",
+       "w:injured.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s01b14",
+     "shot": "not_coup",
+     "type": "STORY",
+     "text": "And it didn't start with a coup, or a war, or an election.",
+     "date": 2026,
+     "sfx": [
+      [
+       "hit",
+       "w:coup,",
+       0.5
+      ],
+      [
+       "hit",
+       "w:war,",
+       0.5
+      ],
+      [
+       "hit",
+       "w:election.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s01b15",
+     "shot": "school",
+     "type": "STORY",
+     "text": "It started with teenagers complaining that their school didn't have enough teachers.",
+     "date": 2026,
+     "sfx": [
+      [
+       "pop2",
+       "w:teenagers",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s01b16",
+     "shot": "co_question",
+     "type": "HOST",
+     "text": "So a lot of people are asking the obvious question.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s01b17",
+     "shot": "co_question",
+     "type": "HOST",
+     "text": "Is France heading for another revolution?",
+     "date": null,
+     "sfx": [
+      [
+       "impact",
+       "w:revolution?",
+       0.7
+      ]
+     ]
+    },
+    {
+     "id": "s01b18",
+     "shot": "checklist_tease",
+     "type": "INSERT",
+     "text": "I'm not going to give you a headline.",
+     "date": null,
+     "sfx": [
+      [
+       "swish",
+       0,
+       0.5
+      ],
+      [
+       "pop2",
+       "w:three",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s01b19",
+     "shot": "todo_imgoingtog",
+     "type": "STORY",
+     "text": "I'm going to give you the whole story,"
+    },
+    {
+     "id": "s01b20",
+     "shot": "scan",
+     "type": "INSERT",
+     "text": "the thousand-year version, and then we're going to run today's France through the same",
+     "date": 2026,
+     "sfx": [
+      [
+       "glitch",
+       "w:checklist.",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s01b21",
+     "shot": "todo_checklisth",
+     "type": "STORY",
+     "text": "checklist historians use for 1789 and see what comes out."
+    },
+    {
+     "id": "s01b22",
+     "shot": "internet",
+     "type": "INSERT",
+     "text": "And the answer is not what either side of the internet is telling you.",
+     "date": null,
+     "sfx": [
+      [
+       "pops",
+       "w:internet",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s01b23",
+     "shot": "rewind",
+     "type": "STORY",
+     "text": "To start, we have to go back about 1,500 years,",
+     "mood": "curious",
+     "date": 500,
+     "sfx": [
+      [
+       "riser",
+       0,
+       0.5
+      ],
+      [
+       "swish",
+       "w:years,",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s01b24",
+     "shot": "clovis",
+     "type": "STORY",
+     "text": "to a pagan warlord who got baptised and accidentally invented a country.",
+     "mood": "curious",
+     "date": 500,
+     "sfx": [
+      [
+       "sparkle",
+       "w:baptised",
+       0.5
+      ]
+     ]
+    }
+   ],
+   "mood": "tension"
+  },
+  {
+   "title": "Act 1: The Warlord, the Emperor and the Sun King",
+   "beats": [
+    {
+     "id": "s02b01",
+     "shot": "gaul",
+     "type": "INSERT",
+     "text": "Before France, there was Gaul.",
+     "date": -50,
+     "sfx": []
+    },
+    {
+     "id": "s02b02",
+     "shot": "caesar",
+     "type": "STORY",
+     "text": "Julius Caesar conquered it around 50 BC and Rome ran it for centuries.",
+     "date": -50,
+     "sfx": [
+      [
+       "drum",
+       "w:conquered",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s02b03",
+     "shot": "rome_falls",
+     "type": "STORY",
+     "text": "Then Rome collapsed, and a Germanic people called the Franks moved in.",
+     "date": 476,
+     "sfx": [
+      [
+       "crack",
+       "w:collapsed,",
+       0.7
+      ]
+     ]
+    },
+    {
+     "id": "s02b04",
+     "shot": "franks_name",
+     "type": "HOST",
+     "text": "Yes, that is where the word 'France' comes from.",
+     "date": null,
+     "sfx": [
+      [
+       "pop2",
+       "w:'France'",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s02b05",
+     "shot": "franks_name",
+     "type": "HOST",
+     "text": "The country is literally named after the tribe that invaded it.",
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       "w:invaded",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s02b06",
+     "shot": "clovis",
+     "type": "STORY",
+     "text": "Their leader, Clovis, converted to Christianity around the year 500,",
+     "date": 500,
+     "sfx": [
+      [
+       "sparkle",
+       "w:Christianity",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s02b07",
+     "shot": "clovis",
+     "type": "STORY",
+     "text": "and that one decision made the Church his ally and turned a warlord into a king.",
+     "date": 500,
+     "sfx": [
+      [
+       "thud",
+       "w:king.",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s02b08",
+     "shot": "charlemagne",
+     "type": "STORY",
+     "text": "Three centuries later, Charlemagne was crowned emperor by the pope on Christmas Day, 800.",
+     "date": 800,
+     "sfx": [
+      [
+       "ding",
+       "w:crowned",
+       0.6
+      ]
+     ],
+     "mood": "grand"
+    },
+    {
+     "id": "s02b09",
+     "shot": "verdun",
+     "type": "INSERT",
+     "text": "Then his grandsons split the empire in three at the Treaty of Verdun in",
+     "date": 843,
+     "sfx": []
+    },
+    {
+     "id": "s02b10",
+     "shot": "verdun",
+     "type": "INSERT",
+     "text": "843, a treaty being just an official agreement,",
+     "date": 843,
+     "sfx": [
+      [
+       "crack",
+       "w:843,",
+       0.8
+      ]
+     ]
+    },
+    {
+     "id": "s02b11",
+     "shot": "verdun",
+     "type": "INSERT",
+     "text": "and the western chunk became, roughly, France.",
+     "date": 843,
+     "sfx": [
+      [
+       "sparkle",
+       "w:France.",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s02b12",
+     "shot": "capet",
+     "type": "STORY",
+     "text": "In 987 the nobles picked a minor lord called Hugh Capet as king,",
+     "date": 987,
+     "sfx": [
+      [
+       "pop2",
+       "w:Capet",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s02b13",
+     "shot": "capet",
+     "type": "STORY",
+     "text": "mostly because he looked weak.",
+     "date": 987,
+     "sfx": [
+      [
+       "boing",
+       "w:weak.",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s02b14",
+     "shot": "capet_tree",
+     "type": "INSERT",
+     "text": "His family, in various branches, would hold the throne for more than 800 years.",
+     "date": 987,
+     "sfx": [
+      [
+       "pops",
+       "w:800",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s02b15",
+     "shot": "remember_capet",
+     "type": "HOST",
+     "text": "Remember the name Capet.",
+     "date": null,
+     "sfx": [
+      [
+       "stamp",
+       "w:Capet.",
+       0.7
+      ]
+     ]
+    },
+    {
+     "id": "s02b16",
+     "shot": "remember_capet",
+     "type": "HOST",
+     "text": "It comes back in a very uncomfortable way.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s02b17",
+     "shot": "england",
+     "type": "STORY",
+     "text": "Then England tried to take the whole kingdom.",
+     "date": 1337,
+     "sfx": [
+      [
+       "whoosh",
+       0,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s02b18",
+     "shot": "hundred",
+     "type": "INSERT",
+     "text": "The Hundred Years' War ran from 1337 to 1453,",
+     "date": 1337,
+     "sfx": []
+    },
+    {
+     "id": "s02b19",
+     "shot": "hundred",
+     "type": "INSERT",
+     "text": "which is actually 116 years, because nobody checked the maths.",
+     "date": 1453,
+     "sfx": [
+      [
+       "boing",
+       "w:116",
+       0.5
+      ],
+      [
+       "slide_down",
+       "w:maths.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s02b20",
+     "shot": "joan",
+     "type": "STORY",
+     "text": "A teenage peasant girl, Joan of Arc, lifted the siege of Orleans in 1429",
+     "date": 1429,
+     "sfx": [
+      [
+       "gallop",
+       0,
+       0.35
+      ],
+      [
+       "drum",
+       "w:Orleans",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s02b21",
+     "shot": "joan_memorial",
+     "type": "STORY",
+     "text": "and was burned at the stake two years later.",
+     "date": 1431,
+     "sfx": [],
+     "quiet": true
+    },
+    {
+     "id": "s02b22",
+     "shot": "joan_memorial",
+     "type": "STORY",
+     "text": "She was nineteen.",
+     "date": 1431,
+     "sfx": [],
+     "quiet": true
+    },
+    {
+     "id": "s02b23",
+     "shot": "england_leaves",
+     "type": "STORY",
+     "text": "England lost anyway.",
+     "date": 1453,
+     "sfx": [
+      [
+       "whoosh",
+       4,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s02b24",
+     "shot": "sunking",
+     "type": "STORY",
+     "text": "Then came the man who built the system: Louis XIV, the Sun King.",
+     "date": 1643,
+     "sfx": [
+      [
+       "impact",
+       "w:Sun",
+       0.6
+      ],
+      [
+       "sparkle",
+       "w:King.",
+       0.5
+      ]
+     ],
+     "mood": "grand"
+    },
+    {
+     "id": "s02b25",
+     "shot": "sunking",
+     "type": "STORY",
+     "text": "He ruled for 72 years, the longest reign in European history.",
+     "date": 1715,
+     "sfx": [
+      [
+       "ticks",
+       "w:72",
+       0.5
+      ]
+     ],
+     "mood": "grand"
+    },
+    {
+     "id": "s02b26",
+     "shot": "fronde",
+     "type": "STORY",
+     "text": "As a child he had lived through a rebellion by his own nobles,",
+     "date": 1648,
+     "sfx": [
+      [
+       "rumble",
+       "w:rebellion",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s02b27",
+     "shot": "fronde",
+     "type": "STORY",
+     "text": "and he never forgot it.",
+     "date": 1648,
+     "sfx": []
+    },
+    {
+     "id": "s02b28",
+     "shot": "versailles",
+     "type": "STORY",
+     "text": "So he built Versailles, moved thousands of courtiers in,",
+     "date": 1682,
+     "sfx": [
+      [
+       "swish",
+       0,
+       0.4
+      ]
+     ],
+     "mood": "grand"
+    },
+    {
+     "id": "s02b29",
+     "shot": "shirt",
+     "type": "STORY",
+     "text": "and had the greatest aristocrats in France compete for the honour of handing him his shirt.",
+     "date": 1682,
+     "sfx": [
+      [
+       "pop2",
+       "w:shirt.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s02b30",
+     "shot": "shirt",
+     "type": "STORY",
+     "text": "If your rivals are busy fighting over your shirt,",
+     "date": 1682,
+     "sfx": []
+    },
+    {
+     "id": "s02b31",
+     "shot": "shirt",
+     "type": "STORY",
+     "text": "they have no time to plot against you.",
+     "date": 1682,
+     "sfx": [
+      [
+       "boing",
+       "w:plot",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s02b32",
+     "shot": "etat",
+     "type": "HOST",
+     "text": "He probably never said 'I am the state.' He just ran the country as if he had.",
+     "date": null,
+     "sfx": [
+      [
+       "stamp",
+       "w:said",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s02b33",
+     "shot": "expensive",
+     "type": "STORY",
+     "text": "But Versailles was expensive, and so were his wars.",
+     "date": 1700,
+     "sfx": [
+      [
+       "coins",
+       "w:expensive,",
+       0.5
+      ],
+      [
+       "boom",
+       "w:wars.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s02b34",
+     "shot": "debt1715",
+     "type": "STORY",
+     "text": "He died in 1715 leaving enormous debts, and that bill didn't disappear.",
+     "date": 1715,
+     "sfx": [
+      [
+       "slide_down",
+       "w:debts,",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s02b35",
+     "shot": "bill_passed",
+     "type": "STORY",
+     "text": "It got handed down the family tree, with interest,",
+     "date": 1715,
+     "sfx": [
+      [
+       "paper",
+       0,
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s02b36",
+     "shot": "bill_passed",
+     "type": "STORY",
+     "text": "for seventy years, until it landed on the desk of a shy man whose",
+     "date": 1774,
+     "sfx": [
+      [
+       "paper",
+       0,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s02b37",
+     "shot": "locksmith",
+     "type": "STORY",
+     "text": "favourite hobby was making locks, and who had absolutely no idea how to fix a budget.",
+     "date": 1774,
+     "sfx": [
+      [
+       "thud",
+       "w:budget.",
+       0.7
+      ]
+     ]
+    }
+   ],
+   "mood": "curious"
+  }
+ ]
+}

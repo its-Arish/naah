@@ -1,0 +1,574 @@
+{
+ "sections": [
+  {
+   "title": "Act 11: Same Fire, Different Arsonists",
+   "beats": [
+    {
+     "id": "s12b01",
+     "shot": "smoke",
+     "type": "HOST",
+     "text": "Everyone looking at the same smoke is describing a different fire.",
+     "date": null,
+     "sfx": [
+      [
+       "pops",
+       "w:different",
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s12b02",
+     "shot": "smoke",
+     "type": "HOST",
+     "text": "So let me walk through what each camp is actually saying,",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s12b03",
+     "shot": "smoke",
+     "type": "HOST",
+     "text": "in the version its own supporters would recognise.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s12b04",
+     "shot": "gov_camp",
+     "type": "INSERT",
+     "text": "The government says a peaceful protest was hijacked by a violent minority.",
+     "date": 2026,
+     "sfx": [
+      [
+       "pop2",
+       2,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s12b05",
+     "shot": "gov_camp",
+     "type": "INSERT",
+     "text": "The President said there was no room for violence and that rioters would be prosecuted.",
+     "date": 2026,
+     "sfx": [
+      [
+       "pop2",
+       2,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s12b06",
+     "shot": "gov_camp",
+     "type": "INSERT",
+     "text": "The Prime Minister said nobody would impose a political agenda through violence,",
+     "date": 2026,
+     "sfx": [
+      [
+       "pop2",
+       2,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s12b07",
+     "shot": "gov_camp",
+     "type": "INSERT",
+     "text": "and accused the far-left France Unbowed party of using the unrest as a warm-up",
+     "date": 2026,
+     "sfx": [
+      [
+       "pop2",
+       2,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s12b08",
+     "shot": "gov_camp",
+     "type": "INSERT",
+     "text": "for the presidential election.",
+     "date": 2026,
+     "sfx": [
+      [
+       "pop2",
+       2,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s12b09",
+     "shot": "lfi_camp",
+     "type": "INSERT",
+     "text": "That party's leader, Jean-Luc Melenchon, rejected the charge and told the Prime Minister to",
+     "date": 2026,
+     "sfx": [
+      [
+       "pop2",
+       2,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s12b10",
+     "shot": "lfi_camp",
+     "type": "INSERT",
+     "text": "prove it or apologise.",
+     "date": 2026,
+     "sfx": [
+      [
+       "pop2",
+       2,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s12b11",
+     "shot": "lfi_camp",
+     "type": "INSERT",
+     "text": "He has backed the students and criticised the use of tear gas and batons against young people.",
+     "date": 2026,
+     "sfx": [
+      [
+       "pop2",
+       2,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s12b12",
+     "shot": "rn_camp",
+     "type": "INSERT",
+     "text": "On the other side, the far-right National Rally says the government has failed at",
+     "date": 2026,
+     "sfx": [
+      [
+       "pop2",
+       2,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s12b13",
+     "shot": "rn_camp",
+     "type": "INSERT",
+     "text": "the most basic job of a state, keeping order.",
+     "date": 2026,
+     "sfx": [
+      [
+       "pop2",
+       2,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s12b14",
+     "shot": "rn_camp",
+     "type": "INSERT",
+     "text": "Its president, Jordan Bardella, called the President's televised address lamentable.",
+     "date": 2026,
+     "sfx": [
+      [
+       "pop2",
+       2,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s12b15",
+     "shot": "rn_camp",
+     "type": "INSERT",
+     "text": "Marine Le Pen called the government exhausted and incapable,",
+     "date": 2026,
+     "sfx": [
+      [
+       "pop2",
+       2,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s12b16",
+     "shot": "rn_camp",
+     "type": "INSERT",
+     "text": "and said rioters had spoiled a demonstration held in defence of purchasing power.",
+     "date": 2026,
+     "sfx": [
+      [
+       "pop2",
+       2,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s12b17",
+     "shot": "abroad",
+     "type": "INSERT",
+     "text": "Abroad, Donald Trump blamed 'mass migration' and Islam.",
+     "date": 2026,
+     "sfx": [
+      [
+       "pop2",
+       2,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s12b18",
+     "shot": "abroad",
+     "type": "INSERT",
+     "text": "President Macron's reply was that foreign leaders were exploiting French riots for their own",
+     "date": 2026,
+     "sfx": [
+      [
+       "pop2",
+       2,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s12b19",
+     "shot": "abroad",
+     "type": "INSERT",
+     "text": "election purposes, with American midterms days away.",
+     "date": 2026,
+     "sfx": [
+      [
+       "pop2",
+       2,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s12b20",
+     "shot": "analysts",
+     "type": "INSERT",
+     "text": "And the economists and analysts, mostly, point at three things:",
+     "date": 2026,
+     "sfx": [
+      [
+       "pops",
+       "w:three",
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s12b21",
+     "shot": "analysts",
+     "type": "INSERT",
+     "text": "debt, prices and under-funded schools.",
+     "date": 2026,
+     "sfx": [
+      [
+       "pop2",
+       "w:debt,",
+       0.4
+      ],
+      [
+       "pop2",
+       "w:prices",
+       0.4
+      ],
+      [
+       "pop2",
+       "w:schools.",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s12b22",
+     "shot": "analysts",
+     "type": "INSERT",
+     "text": "Some add that the movement has drifted from school grievances toward plain lawlessness.",
+     "date": 2026,
+     "sfx": []
+    },
+    {
+     "id": "s12b23",
+     "shot": "both_sides",
+     "type": "INSERT",
+     "text": "Each side has a point its supporters would want you to hear.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s12b24",
+     "shot": "both_sides",
+     "type": "INSERT",
+     "text": "Those condemning the violence note that half a million people marched,",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s12b25",
+     "shot": "both_sides",
+     "type": "INSERT",
+     "text": "that the people who pay for arson and looting are shopkeepers,",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s12b26",
+     "shot": "both_sides",
+     "type": "INSERT",
+     "text": "local workers and public services, and that no grievance justifies it.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s12b27",
+     "shot": "both_sides",
+     "type": "INSERT",
+     "text": "Those defending the protesters note that the school staffing figures are documented,",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s12b28",
+     "shot": "both_sides",
+     "type": "INSERT",
+     "text": "that the grievances were real before anyone threw anything,",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s12b29",
+     "shot": "both_sides",
+     "type": "INSERT",
+     "text": "and that policing deserves scrutiny.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s12b30",
+     "shot": "both_sides",
+     "type": "INSERT",
+     "text": "Both of those can be true at once.",
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       "w:true",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s12b31",
+     "shot": "not_telling",
+     "type": "HOST",
+     "text": "I'm not going to tell you which camp is right.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s12b32",
+     "shot": "not_telling",
+     "type": "HOST",
+     "text": "What I can do is show you what history says about moments like this.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s12b33",
+     "shot": "not_telling",
+     "type": "HOST",
+     "text": "But first, a look at what the people in the middle of it are actually facing.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s12b34",
+     "shot": "sketch_budget",
+     "type": "SKETCH",
+     "speaker": "A",
+     "text": "We need to find 43 billion euros.",
+     "date": 2026,
+     "sfx": [
+      [
+       "kaching",
+       "w:43",
+       0.3
+      ]
+     ],
+     "mood": "playful"
+    },
+    {
+     "id": "s12b35",
+     "shot": "sketch_budget",
+     "type": "SKETCH",
+     "speaker": "B",
+     "text": "Raise taxes?",
+     "date": 2026,
+     "sfx": [],
+     "mood": "playful"
+    },
+    {
+     "id": "s12b36",
+     "shot": "sketch_budget",
+     "type": "SKETCH",
+     "speaker": "A",
+     "text": "The wealthy will leave.",
+     "date": 2026,
+     "sfx": [],
+     "mood": "playful"
+    },
+    {
+     "id": "s12b37",
+     "shot": "sketch_budget",
+     "type": "SKETCH",
+     "speaker": "B",
+     "text": "Cut spending?",
+     "date": 2026,
+     "sfx": [],
+     "mood": "playful"
+    },
+    {
+     "id": "s12b38",
+     "shot": "sketch_budget",
+     "type": "SKETCH",
+     "speaker": "A",
+     "text": "On what?",
+     "date": 2026,
+     "sfx": [],
+     "mood": "playful"
+    },
+    {
+     "id": "s12b39",
+     "shot": "sketch_budget",
+     "type": "SKETCH",
+     "speaker": "B",
+     "text": "Schools.",
+     "date": 2026,
+     "sfx": [],
+     "mood": "playful"
+    },
+    {
+     "id": "s12b40",
+     "shot": "sketch_budget",
+     "type": "SKETCH",
+     "speaker": "A",
+     "text": "The schools are on strike.",
+     "date": 2026,
+     "sfx": [
+      [
+       "slam",
+       8,
+       0.4
+      ]
+     ],
+     "mood": "playful"
+    },
+    {
+     "id": "s12b41",
+     "shot": "sketch_budget",
+     "type": "SKETCH",
+     "speaker": "B",
+     "text": "Pensions?",
+     "date": 2026,
+     "sfx": [],
+     "mood": "playful"
+    },
+    {
+     "id": "s12b42",
+     "shot": "sketch_budget",
+     "type": "SKETCH",
+     "speaker": "A",
+     "text": "Last time we touched pensions, the country caught fire.",
+     "date": 2026,
+     "sfx": [
+      [
+       "boom",
+       "w:fire.",
+       0.3
+      ]
+     ],
+     "mood": "playful"
+    },
+    {
+     "id": "s12b43",
+     "shot": "sketch_budget",
+     "type": "SKETCH",
+     "speaker": "B",
+     "text": "Borrow more?",
+     "date": 2026,
+     "sfx": [],
+     "mood": "playful"
+    },
+    {
+     "id": "s12b44",
+     "shot": "sketch_budget",
+     "type": "SKETCH",
+     "speaker": "A",
+     "text": "The markets are charging us the highest rate in twenty years.",
+     "date": 2026,
+     "sfx": [],
+     "mood": "playful"
+    },
+    {
+     "id": "s12b45",
+     "shot": "sketch_budget",
+     "type": "SKETCH",
+     "speaker": "B",
+     "text": "So what's the plan?",
+     "date": 2026,
+     "sfx": [],
+     "mood": "playful"
+    },
+    {
+     "id": "s12b46",
+     "shot": "sketch_budget",
+     "type": "SKETCH",
+     "speaker": "A",
+     "text": "We'll form a committee.",
+     "date": 2026,
+     "sfx": [
+      [
+       "boing",
+       "w:committee.",
+       0.4
+      ]
+     ],
+     "mood": "playful"
+    },
+    {
+     "id": "s12b47",
+     "shot": "sketch_budget",
+     "type": "SKETCH",
+     "speaker": "B",
+     "text": "Oh good. A committee.",
+     "date": 2026,
+     "sfx": [
+      [
+       "deflate",
+       6,
+       0.3
+      ]
+     ],
+     "mood": "playful"
+    }
+   ],
+   "mood": "modern"
+  }
+ ]
+}

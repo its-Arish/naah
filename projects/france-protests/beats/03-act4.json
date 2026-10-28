@@ -1,0 +1,454 @@
+{
+ "sections": [
+  {
+   "title": "Act 4: The Disguise",
+   "beats": [
+    {
+     "id": "s05b01",
+     "shot": "night_flight",
+     "type": "HOST",
+     "text": "On the night of 20 June 1791, Louis XVI,",
+     "date": null,
+     "sfx": [
+      [
+       "drum",
+       "w:1791,",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s05b02",
+     "shot": "escape",
+     "type": "STORY",
+     "text": "Marie Antoinette and their children slipped out of the Tuileries Palace in Paris,",
+     "date": 1791,
+     "sfx": [
+      [
+       "steps",
+       4,
+       0.35
+      ]
+     ],
+     "amb": "camp"
+    },
+    {
+     "id": "s05b03",
+     "shot": "escape",
+     "type": "STORY",
+     "text": "the king dressed as a valet, heading for loyal troops near the border.",
+     "date": 1791,
+     "sfx": [
+      [
+       "steps",
+       4,
+       0.35
+      ],
+      [
+       "pop2",
+       "w:valet,",
+       0.5
+      ]
+     ],
+     "amb": "camp"
+    },
+    {
+     "id": "s05b04",
+     "shot": "varennes_map",
+     "type": "INSERT",
+     "text": "They made it most of the way.",
+     "date": 1791,
+     "sfx": [
+      [
+       "whoosh",
+       4,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s05b05",
+     "shot": "varennes_stop",
+     "type": "STORY",
+     "text": "Then, at a town called Varennes, they were stopped.",
+     "date": 1791,
+     "sfx": [
+      [
+       "gallop",
+       0,
+       0.35
+      ],
+      [
+       "slam",
+       "w:stopped.",
+       0.7
+      ]
+     ]
+    },
+    {
+     "id": "s05b06",
+     "shot": "banknote",
+     "type": "INSERT",
+     "text": "Stories say a postmaster recognised the king from his portrait on a banknote.",
+     "date": 1791,
+     "sfx": [
+      [
+       "paper",
+       4,
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s05b07",
+     "shot": "banknote",
+     "type": "INSERT",
+     "text": "Historians argue about the details.",
+     "date": 1791,
+     "sfx": [
+      [
+       "stamp",
+       "w:argue",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s05b08",
+     "shot": "march_back",
+     "type": "STORY",
+     "text": "They don't argue about the result: the royal family was marched back to Paris in near silence.",
+     "date": 1791,
+     "sfx": [],
+     "amb": "wind"
+    },
+    {
+     "id": "s05b09",
+     "shot": "scales",
+     "type": "INSERT",
+     "text": "This mattered more than any speech.",
+     "date": 1791,
+     "sfx": []
+    },
+    {
+     "id": "s05b10",
+     "shot": "scales",
+     "type": "INSERT",
+     "text": "Until then, most French people wanted a king under a constitution.",
+     "date": 1791,
+     "sfx": [
+      [
+       "pop2",
+       "w:constitution.",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s05b11",
+     "shot": "scales",
+     "type": "INSERT",
+     "text": "After Varennes, many decided the king had never believed in any of it.",
+     "date": 1791,
+     "sfx": [
+      [
+       "creak",
+       "w:never",
+       0.6
+      ],
+      [
+       "thud",
+       82,
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s05b12",
+     "shot": "scales",
+     "type": "INSERT",
+     "text": "The idea of no king at all stopped being unthinkable.",
+     "date": 1791,
+     "sfx": [
+      [
+       "pop2",
+       "w:king",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s05b13",
+     "shot": "war",
+     "type": "INSERT",
+     "text": "Then came war.",
+     "date": 1792,
+     "sfx": [
+      [
+       "drum",
+       "w:war.",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s05b14",
+     "shot": "war",
+     "type": "INSERT",
+     "text": "In April 1792 France declared war on Austria.",
+     "date": 1792,
+     "sfx": [
+      [
+       "clang",
+       "w:war",
+       0.8
+      ]
+     ]
+    },
+    {
+     "id": "s05b15",
+     "shot": "manifesto",
+     "type": "INSERT",
+     "text": "That summer, the commander of the Austrian and Prussian armies threatened Paris with destruction",
+     "date": 1792,
+     "sfx": [
+      [
+       "paper",
+       2,
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s05b16",
+     "shot": "manifesto",
+     "type": "INSERT",
+     "text": "if the royal family was harmed.",
+     "date": 1792,
+     "sfx": [
+      [
+       "paper",
+       2,
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s05b17",
+     "shot": "backfire",
+     "type": "HOST",
+     "text": "It backfired spectacularly.",
+     "date": null,
+     "sfx": [
+      [
+       "boom",
+       "w:backfired",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s05b18",
+     "shot": "tuileries_storm",
+     "type": "STORY",
+     "text": "On 10 August 1792 a crowd stormed the Tuileries,",
+     "date": 1792,
+     "sfx": [
+      [
+       "rumble",
+       0,
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s05b19",
+     "shot": "tuileries_storm",
+     "type": "STORY",
+     "text": "hundreds of the king's Swiss Guards were killed,",
+     "date": 1792,
+     "sfx": [],
+     "quiet": true
+    },
+    {
+     "id": "s05b20",
+     "shot": "tuileries_storm",
+     "type": "STORY",
+     "text": "and the monarchy was suspended.",
+     "date": 1792,
+     "sfx": [
+      [
+       "thud",
+       46,
+       0.8
+      ]
+     ]
+    },
+    {
+     "id": "s05b21",
+     "shot": "republic",
+     "type": "STORY",
+     "text": "By September France was a republic.",
+     "date": 1792,
+     "sfx": [
+      [
+       "ding",
+       "w:republic.",
+       0.6
+      ],
+      [
+       "pops",
+       44,
+       0.3
+      ]
+     ],
+     "mood": "grand"
+    },
+    {
+     "id": "s05b22",
+     "shot": "trial",
+     "type": "STORY",
+     "text": "At his trial, the king was stripped of his titles and called 'Citizen Louis",
+     "date": 1793,
+     "sfx": [
+      [
+       "stamp",
+       "w:Citizen",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s05b23",
+     "shot": "trial",
+     "type": "STORY",
+     "text": "Capet.' There's that name again.",
+     "date": 1793,
+     "sfx": [
+      [
+       "ding",
+       "w:again.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s05b24",
+     "shot": "jan21",
+     "type": "STORY",
+     "text": "On 21 January 1793 he was guillotined in what is now the Place de la Concorde.",
+     "date": 1793,
+     "sfx": [],
+     "quiet": true,
+     "mood": "sombre"
+    },
+    {
+     "id": "s05b25",
+     "shot": "marie_oct",
+     "type": "INSERT",
+     "text": "Marie Antoinette followed on 16 October.",
+     "date": 1793,
+     "sfx": [],
+     "quiet": true,
+     "mood": "sombre"
+    },
+    {
+     "id": "s05b26",
+     "shot": "marie_oct",
+     "type": "INSERT",
+     "text": "October again.",
+     "date": 1793,
+     "sfx": [],
+     "quiet": true,
+     "mood": "sombre"
+    },
+    {
+     "id": "s05b27",
+     "shot": "besieged",
+     "type": "INSERT",
+     "text": "With the king dead, every monarchy in Europe was at war with France,",
+     "date": 1793,
+     "sfx": [
+      [
+       "drum",
+       4,
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s05b28",
+     "shot": "besieged",
+     "type": "INSERT",
+     "text": "there were uprisings inside the country, prices were spiralling,",
+     "date": 1793,
+     "sfx": [
+      [
+       "rumble",
+       "w:uprisings",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s05b29",
+     "shot": "besieged",
+     "type": "INSERT",
+     "text": "and fear took over.",
+     "date": 1793,
+     "sfx": [],
+     "mood": "sombre"
+    },
+    {
+     "id": "s05b30",
+     "shot": "robespierre_intro",
+     "type": "STORY",
+     "text": "The revolution needed someone to protect it, and it found a small-town lawyer who",
+     "date": 1793,
+     "sfx": [
+      [
+       "pop2",
+       "w:lawyer",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s05b31",
+     "shot": "robespierre_intro",
+     "type": "STORY",
+     "text": "didn't drink, didn't gamble, and was nicknamed The Incorruptible.",
+     "date": 1793,
+     "sfx": [
+      [
+       "hit",
+       "w:drink,",
+       0.4
+      ],
+      [
+       "hit",
+       "w:gamble,",
+       0.4
+      ],
+      [
+       "stamp",
+       "w:Incorruptible.",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s05b32",
+     "shot": "death_count",
+     "type": "INSERT",
+     "text": "The government he dominated would sentence around seventeen thousand people to death in ten months.",
+     "date": 1794,
+     "sfx": [],
+     "quiet": true,
+     "mood": "sombre"
+    }
+   ],
+   "mood": "tension"
+  }
+ ]
+}

@@ -1,0 +1,756 @@
+{
+ "sections": [
+  {
+   "title": "Act 3: The Tennis Court, the Prison and the Diary",
+   "beats": [
+    {
+     "id": "s04b01",
+     "shot": "eg_open",
+     "type": "HOST",
+     "text": "The Estates-General opened at Versailles on 5 May 1789.",
+     "date": null,
+     "sfx": [
+      [
+       "drum",
+       "w:May",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s04b02",
+     "shot": "eg_hall",
+     "type": "STORY",
+     "text": "Three estates, one hall.",
+     "date": 1789,
+     "sfx": [
+      [
+       "pops",
+       4,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s04b03",
+     "shot": "eg_hall",
+     "type": "STORY",
+     "text": "And here's how voting worked.",
+     "date": 1789,
+     "sfx": [
+      [
+       "pops",
+       "w:600,",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s04b04",
+     "shot": "sketch_vote",
+     "type": "SKETCH",
+     "speaker": "A",
+     "text": "So there are three estates, and each gets one vote.",
+     "mood": "playful",
+     "date": 1789,
+     "sfx": []
+    },
+    {
+     "id": "s04b05",
+     "shot": "sketch_vote",
+     "type": "SKETCH",
+     "speaker": "B",
+     "text": "Correct. Ancient and fair.",
+     "mood": "playful",
+     "date": 1789,
+     "sfx": []
+    },
+    {
+     "id": "s04b06",
+     "shot": "sketch_vote",
+     "type": "SKETCH",
+     "speaker": "A",
+     "text": "But we're ninety-eight percent of France.",
+     "mood": "playful",
+     "date": 1789,
+     "sfx": []
+    },
+    {
+     "id": "s04b07",
+     "shot": "sketch_vote",
+     "type": "SKETCH",
+     "speaker": "B",
+     "text": "And you get one vote.",
+     "mood": "playful",
+     "date": 1789,
+     "sfx": []
+    },
+    {
+     "id": "s04b08",
+     "shot": "sketch_vote",
+     "type": "SKETCH",
+     "speaker": "A",
+     "text": "And the clergy?",
+     "mood": "playful",
+     "date": 1789,
+     "sfx": []
+    },
+    {
+     "id": "s04b09",
+     "shot": "sketch_vote",
+     "type": "SKETCH",
+     "speaker": "B",
+     "text": "One vote.",
+     "mood": "playful",
+     "date": 1789,
+     "sfx": []
+    },
+    {
+     "id": "s04b10",
+     "shot": "sketch_vote",
+     "type": "SKETCH",
+     "speaker": "A",
+     "text": "And you?",
+     "mood": "playful",
+     "date": 1789,
+     "sfx": []
+    },
+    {
+     "id": "s04b11",
+     "shot": "sketch_vote",
+     "type": "SKETCH",
+     "speaker": "B",
+     "text": "One vote.",
+     "mood": "playful",
+     "date": 1789,
+     "sfx": []
+    },
+    {
+     "id": "s04b12",
+     "shot": "sketch_vote",
+     "type": "SKETCH",
+     "speaker": "A",
+     "text": "So two percent of the country controls two thirds of the votes.",
+     "mood": "playful",
+     "date": 1789,
+     "sfx": []
+    },
+    {
+     "id": "s04b13",
+     "shot": "sketch_vote",
+     "type": "SKETCH",
+     "speaker": "B",
+     "text": "It's tradition.",
+     "mood": "playful",
+     "date": 1789,
+     "sfx": []
+    },
+    {
+     "id": "s04b14",
+     "shot": "sketch_vote",
+     "type": "SKETCH",
+     "speaker": "A",
+     "text": "It's maths.",
+     "mood": "playful",
+     "date": 1789,
+     "sfx": []
+    },
+    {
+     "id": "s04b15",
+     "shot": "sketch_vote",
+     "type": "SKETCH",
+     "speaker": "B",
+     "text": "Tradition is just maths that's been around longer.",
+     "mood": "playful",
+     "date": 1789,
+     "sfx": []
+    },
+    {
+     "id": "s04b16",
+     "shot": "national_assembly",
+     "type": "STORY",
+     "text": "The Third Estate refused to play along.",
+     "date": 1789,
+     "sfx": [
+      [
+       "hit",
+       "w:refused",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s04b17",
+     "shot": "national_assembly",
+     "type": "STORY",
+     "text": "On 17 June it declared itself the National Assembly, the voice of the nation.",
+     "date": 1789,
+     "sfx": [
+      [
+       "stamp",
+       "w:National",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s04b18",
+     "shot": "hall_locked",
+     "type": "STORY",
+     "text": "Three days later it found its meeting hall locked and guarded,",
+     "date": 1789,
+     "sfx": [
+      [
+       "clang",
+       "w:locked",
+       0.7
+      ]
+     ]
+    },
+    {
+     "id": "s04b19",
+     "shot": "tennis_oath",
+     "type": "STORY",
+     "text": "so the deputies marched to an indoor tennis court nearby and swore an oath",
+     "date": 1789,
+     "sfx": []
+    },
+    {
+     "id": "s04b20",
+     "shot": "tennis_oath",
+     "type": "STORY",
+     "text": "not to leave until France had a constitution,",
+     "date": 1789,
+     "sfx": []
+    },
+    {
+     "id": "s04b21",
+     "shot": "tennis_oath",
+     "type": "STORY",
+     "text": "which is just the written rulebook for how a country is run.",
+     "date": 1789,
+     "sfx": []
+    },
+    {
+     "id": "s04b22",
+     "shot": "tennis_oath",
+     "type": "STORY",
+     "text": "That's the Tennis Court Oath, 20 June 1789,",
+     "date": 1789,
+     "sfx": [
+      [
+       "impact",
+       "w:Tennis",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s04b23",
+     "shot": "tennis_oath",
+     "type": "STORY",
+     "text": "the moment the people stopped asking and started claiming.",
+     "date": 1789,
+     "sfx": []
+    },
+    {
+     "id": "s04b24",
+     "shot": "necker",
+     "type": "INSERT",
+     "text": "The king's answer was to move troops toward Paris and sack the popular finance",
+     "date": 1789,
+     "sfx": [
+      [
+       "drum",
+       "w:troops",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s04b25",
+     "shot": "necker",
+     "type": "INSERT",
+     "text": "minister, Jacques Necker, on 11 July.",
+     "date": 1789,
+     "sfx": [
+      [
+       "stamp",
+       "w:Necker,",
+       0.7
+      ]
+     ]
+    },
+    {
+     "id": "s04b26",
+     "shot": "necker",
+     "type": "STORY",
+     "text": "Paris heard 'the soldiers are coming' and exploded.",
+     "date": 1789,
+     "sfx": [
+      [
+       "rumble",
+       "w:exploded.",
+       0.7
+      ]
+     ]
+    },
+    {
+     "id": "s04b27",
+     "shot": "bastille_day",
+     "type": "STORY",
+     "text": "On 14 July a crowd hunting for gunpowder and weapons went to the Bastille,",
+     "date": 1789,
+     "sfx": [
+      [
+       "rumble",
+       0,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s04b28",
+     "shot": "bastille_day",
+     "type": "STORY",
+     "text": "a royal fortress-prison in the east of the city.",
+     "date": 1789,
+     "sfx": [
+      [
+       "rumble",
+       0,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s04b29",
+     "shot": "seven",
+     "type": "STORY",
+     "text": "And here's the part that broke me when I was researching this.",
+     "date": 1789,
+     "sfx": []
+    },
+    {
+     "id": "s04b30",
+     "shot": "seven",
+     "type": "STORY",
+     "text": "The Bastille held exactly seven prisoners.",
+     "date": 1789,
+     "sfx": [
+      [
+       "ding",
+       "w:seven",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s04b31",
+     "shot": "seven",
+     "type": "STORY",
+     "text": "Four forgers, two men judged insane, and one nobleman locked up by his own family.",
+     "date": 1789,
+     "sfx": [
+      [
+       "pop2",
+       "w:forgers,",
+       0.5
+      ],
+      [
+       "pop2",
+       "w:insane,",
+       0.5
+      ],
+      [
+       "pop2",
+       "w:nobleman",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s04b32",
+     "shot": "seven",
+     "type": "STORY",
+     "text": "That was the great symbol of tyranny.",
+     "date": 1789,
+     "sfx": []
+    },
+    {
+     "id": "s04b33",
+     "shot": "seven",
+     "type": "STORY",
+     "text": "Seven men, and a lot of gunpowder.",
+     "date": 1789,
+     "sfx": [
+      [
+       "boing",
+       "w:gunpowder.",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s04b34",
+     "shot": "bastille_toll",
+     "type": "STORY",
+     "text": "Around a hundred attackers died in the fighting.",
+     "date": 1789,
+     "sfx": [],
+     "quiet": true
+    },
+    {
+     "id": "s04b35",
+     "shot": "bastille_toll",
+     "type": "STORY",
+     "text": "The governor, Bernard de Launay, was killed and his head was paraded on a pike.",
+     "date": 1789,
+     "sfx": [],
+     "quiet": true
+    },
+    {
+     "id": "s04b36",
+     "shot": "bastille_toll",
+     "type": "STORY",
+     "text": "That was day one of liberty.",
+     "date": 1789,
+     "sfx": [],
+     "quiet": true
+    },
+    {
+     "id": "s04b37",
+     "shot": "king_wrote",
+     "type": "INSERT",
+     "text": "And the king?",
+     "date": 1789,
+     "sfx": []
+    },
+    {
+     "id": "s04b38",
+     "shot": "king_wrote",
+     "type": "INSERT",
+     "text": "We know what he wrote.",
+     "date": 1789,
+     "sfx": []
+    },
+    {
+     "id": "s04b39",
+     "shot": "sketch_nothing",
+     "type": "SKETCH",
+     "speaker": "A",
+     "text": "Sire, the Bastille has fallen.",
+     "mood": "playful",
+     "date": 1789,
+     "sfx": []
+    },
+    {
+     "id": "s04b40",
+     "shot": "sketch_nothing",
+     "type": "SKETCH",
+     "speaker": "B",
+     "text": "Is it a revolt?",
+     "mood": "playful",
+     "date": 1789,
+     "sfx": []
+    },
+    {
+     "id": "s04b41",
+     "shot": "sketch_nothing",
+     "type": "SKETCH",
+     "speaker": "A",
+     "text": "No, Sire. It is a revolution.",
+     "mood": "playful",
+     "date": 1789,
+     "sfx": []
+    },
+    {
+     "id": "s04b42",
+     "shot": "sketch_nothing",
+     "type": "SKETCH",
+     "speaker": "B",
+     "text": "...Did I shoot anything today?",
+     "mood": "playful",
+     "date": 1789,
+     "sfx": []
+    },
+    {
+     "id": "s04b43",
+     "shot": "sketch_nothing",
+     "type": "SKETCH",
+     "speaker": "A",
+     "text": "No, Sire.",
+     "mood": "playful",
+     "date": 1789,
+     "sfx": []
+    },
+    {
+     "id": "s04b44",
+     "shot": "sketch_nothing",
+     "type": "SKETCH",
+     "speaker": "B",
+     "text": "Then I shall write 'Nothing.'",
+     "mood": "playful",
+     "date": 1789,
+     "sfx": []
+    },
+    {
+     "id": "s04b45",
+     "shot": "sketch_nothing",
+     "type": "SKETCH",
+     "speaker": "A",
+     "text": "Sire, the capital is in the hands of the crowd.",
+     "mood": "playful",
+     "date": 1789,
+     "sfx": []
+    },
+    {
+     "id": "s04b46",
+     "shot": "sketch_nothing",
+     "type": "SKETCH",
+     "speaker": "B",
+     "text": "Nothing, and a note about the weather.",
+     "mood": "playful",
+     "date": 1789,
+     "sfx": []
+    },
+    {
+     "id": "s04b47",
+     "shot": "subscribe",
+     "type": "HOST",
+     "text": "Quick pause.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s04b48",
+     "shot": "subscribe",
+     "type": "HOST",
+     "text": "If you want the rest of this, the Terror,",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s04b49",
+     "shot": "subscribe",
+     "type": "HOST",
+     "text": "the emperor, and why France is on its fifth republic,",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s04b50",
+     "shot": "subscribe",
+     "type": "HOST",
+     "text": "a subscribe genuinely helps, and it costs less than a baguette.",
+     "date": null,
+     "sfx": [
+      [
+       "pop2",
+       "w:subscribe",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s04b51",
+     "shot": "aug4",
+     "type": "STORY",
+     "text": "In August the revolution wrote its mission statement.",
+     "date": 1789,
+     "sfx": [],
+     "mood": "grand"
+    },
+    {
+     "id": "s04b52",
+     "shot": "aug4",
+     "type": "STORY",
+     "text": "On the night of 4 August the nobles gave up their feudal privileges,",
+     "date": 1789,
+     "sfx": [
+      [
+       "paper",
+       "w:privileges,",
+       0.7
+      ]
+     ],
+     "mood": "grand"
+    },
+    {
+     "id": "s04b53",
+     "shot": "declaration",
+     "type": "INSERT",
+     "text": "and on 26 August the Assembly adopted the Declaration of the Rights of Man",
+     "date": 1789,
+     "sfx": [
+      [
+       "paper",
+       4,
+       0.6
+      ]
+     ],
+     "mood": "grand"
+    },
+    {
+     "id": "s04b54",
+     "shot": "declaration",
+     "type": "INSERT",
+     "text": "and of the Citizen, which says people are born free and equal in rights.",
+     "date": 1789,
+     "sfx": [
+      [
+       "paper",
+       4,
+       0.6
+      ]
+     ],
+     "mood": "grand"
+    },
+    {
+     "id": "s04b55",
+     "shot": "declaration",
+     "type": "INSERT",
+     "text": "It was one of the most influential documents of the modern world.",
+     "date": 1789,
+     "sfx": [
+      [
+       "paper",
+       4,
+       0.6
+      ]
+     ],
+     "mood": "grand"
+    },
+    {
+     "id": "s04b56",
+     "shot": "no_bread",
+     "type": "STORY",
+     "text": "But rights don't fill stomachs, and bread was still scarce.",
+     "date": 1789,
+     "sfx": []
+    },
+    {
+     "id": "s04b57",
+     "shot": "womens_march",
+     "type": "INSERT",
+     "text": "So on 5 October 1789, thousands of Paris women,",
+     "date": 1789,
+     "sfx": [
+      [
+       "steps",
+       6,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s04b58",
+     "shot": "womens_march",
+     "type": "INSERT",
+     "text": "many of them market sellers, marched about twelve miles in the rain to Versailles demanding bread.",
+     "date": 1789,
+     "sfx": [
+      [
+       "steps",
+       6,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s04b59",
+     "shot": "womens_march",
+     "type": "INSERT",
+     "text": "By the next day they had brought the royal family back to Paris,",
+     "date": 1789,
+     "sfx": []
+    },
+    {
+     "id": "s04b60",
+     "shot": "womens_march",
+     "type": "INSERT",
+     "text": "effectively as guests of the people.",
+     "date": 1789,
+     "sfx": []
+    },
+    {
+     "id": "s04b61",
+     "shot": "october_cal",
+     "type": "HOST",
+     "text": "Keep that image in your back pocket.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s04b62",
+     "shot": "october_cal",
+     "type": "HOST",
+     "text": "When prices spike and the government seems deaf,",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s04b63",
+     "shot": "october_cal",
+     "type": "HOST",
+     "text": "the crowd goes to where the power sleeps.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s04b64",
+     "shot": "october_cal",
+     "type": "HOST",
+     "text": "And notice the month.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s04b65",
+     "shot": "october_cal",
+     "type": "HOST",
+     "text": "October.",
+     "date": null,
+     "sfx": [
+      [
+       "impact",
+       "w:October.",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s04b66",
+     "shot": "disguise_tease",
+     "type": "STORY",
+     "text": "For two years the king and the revolution tried to share one country.",
+     "date": 1789,
+     "sfx": []
+    },
+    {
+     "id": "s04b67",
+     "shot": "disguise_tease",
+     "type": "STORY",
+     "text": "It ended with a midnight escape attempt, in disguise,",
+     "date": 1791,
+     "sfx": [
+      [
+       "steps",
+       "w:escape",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s04b68",
+     "shot": "disguise_tease",
+     "type": "STORY",
+     "text": "with the king pretending to be somebody's servant.",
+     "date": 1791,
+     "sfx": []
+    }
+   ],
+   "mood": "tension"
+  }
+ ]
+}

@@ -1,0 +1,652 @@
+{
+ "sections": [
+  {
+   "title": "Act 10: October 2026",
+   "beats": [
+    {
+     "id": "s11b01",
+     "shot": "mid_sept",
+     "type": "HOST",
+     "text": "It began in mid-September, with two things happening at once.",
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       "w:mid-September,",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s11b02",
+     "shot": "port_blockade",
+     "type": "INSERT",
+     "text": "On the south coast, fishermen blockaded the port of Nice and a fuel depot",
+     "date": 2026,
+     "sfx": [
+      [
+       "pop2",
+       "w:Nice",
+       0.4
+      ]
+     ],
+     "amb": "waves"
+    },
+    {
+     "id": "s11b03",
+     "shot": "port_blockade",
+     "type": "INSERT",
+     "text": "near Sete, furious about the price of diesel.",
+     "date": 2026,
+     "sfx": [
+      [
+       "pop2",
+       "w:Sete,",
+       0.4
+      ],
+      [
+       "riser",
+       "w:diesel.",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s11b04",
+     "shot": "school_block",
+     "type": "STORY",
+     "text": "And in the suburbs of Paris and other cities,",
+     "date": 2026,
+     "sfx": []
+    },
+    {
+     "id": "s11b05",
+     "shot": "school_block",
+     "type": "STORY",
+     "text": "high school students started blockading their own schools,",
+     "date": 2026,
+     "sfx": [
+      [
+       "slam",
+       "w:blockading",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s11b06",
+     "shot": "school_block",
+     "type": "STORY",
+     "text": "over teacher shortages, overcrowded classes and buildings that can't cope with the heat.",
+     "date": 2026,
+     "sfx": [
+      [
+       "stamp",
+       "w:teacher",
+       0.3
+      ],
+      [
+       "stamp",
+       "w:overcrowded",
+       0.3
+      ],
+      [
+       "stamp",
+       "w:heat.",
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s11b07",
+     "shot": "school_block",
+     "type": "STORY",
+     "text": "By early October, one analysis counted more than 700 secondary schools disrupted.",
+     "date": 2026,
+     "sfx": [
+      [
+       "ticks",
+       "w:700",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s11b08",
+     "shot": "march7",
+     "type": "STORY",
+     "text": "On 7 October, around a quarter of a million people marched.",
+     "date": 2026,
+     "sfx": [
+      [
+       "drum",
+       4,
+       0.4
+      ],
+      [
+       "ticks",
+       "w:quarter",
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s11b09",
+     "shot": "why_schools",
+     "type": "HOST",
+     "text": "Why schools?",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s11b10",
+     "shot": "classroom",
+     "type": "STORY",
+     "text": "One union survey of more than a thousand schools found that at the start",
+     "date": 2026,
+     "sfx": []
+    },
+    {
+     "id": "s11b11",
+     "shot": "classroom",
+     "type": "STORY",
+     "text": "of the year, 53 percent of secondary schools were missing at least one teacher.",
+     "date": 2026,
+     "sfx": [
+      [
+       "impact",
+       "w:53",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s11b12",
+     "shot": "classroom",
+     "type": "STORY",
+     "text": "Reports describe classes of 35 or even 40 students.",
+     "date": 2026,
+     "sfx": [
+      [
+       "pops",
+       "w:35",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s11b13",
+     "shot": "add_money",
+     "type": "HOST",
+     "text": "Then add money.",
+     "date": null,
+     "sfx": [
+      [
+       "coins",
+       "w:money.",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s11b14",
+     "shot": "prices",
+     "type": "INSERT",
+     "text": "Prices rose 3.1 percent in the year to September,",
+     "date": 2026,
+     "sfx": [
+      [
+       "pop2",
+       "w:3.1",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s11b15",
+     "shot": "prices",
+     "type": "INSERT",
+     "text": "up from 2.4 percent in August.",
+     "date": 2026,
+     "sfx": [
+      [
+       "pop2",
+       "w:2.4",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s11b16",
+     "shot": "prices",
+     "type": "INSERT",
+     "text": "Diesel is around 2 euros 37 a litre.",
+     "date": 2026,
+     "sfx": [
+      [
+       "kaching",
+       "w:€2.37",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s11b17",
+     "shot": "prices",
+     "type": "INSERT",
+     "text": "Reports tie the energy squeeze to the war in Iran.",
+     "date": 2026,
+     "sfx": []
+    },
+    {
+     "id": "s11b18",
+     "shot": "add_money",
+     "type": "HOST",
+     "text": "And then add the debt.",
+     "date": null,
+     "sfx": [
+      [
+       "thud",
+       "w:debt.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s11b19",
+     "shot": "debt_gauge",
+     "type": "INSERT",
+     "text": "France's public debt is about 119 percent of its entire economy,",
+     "date": 2026,
+     "sfx": [
+      [
+       "riser",
+       2,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s11b20",
+     "shot": "debt_gauge",
+     "type": "INSERT",
+     "text": "roughly four trillion dollars, the highest ratio since the aftermath of World War Two.",
+     "date": 2026,
+     "sfx": []
+    },
+    {
+     "id": "s11b21",
+     "shot": "debt_gauge",
+     "type": "INSERT",
+     "text": "The deficit is 5.4 percent of GDP, the 2027 budget aims for 5 percent,",
+     "date": 2026,
+     "sfx": [
+      [
+       "pop2",
+       "w:5.4",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s11b22",
+     "shot": "debt_gauge",
+     "type": "INSERT",
+     "text": "and that means finding about 43 billion euros in savings.",
+     "date": 2026,
+     "sfx": [
+      [
+       "kaching",
+       "w:43",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s11b23",
+     "shot": "debt_gauge",
+     "type": "INSERT",
+     "text": "Government borrowing costs hit their highest level in more than twenty years.",
+     "date": 2026,
+     "sfx": [
+      [
+       "riser",
+       2,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s11b24",
+     "shot": "debt_gauge",
+     "type": "INSERT",
+     "text": "One projection says the interest bill alone could near 100 billion dollars a year by 2027.",
+     "date": 2026,
+     "sfx": [
+      [
+       "coins",
+       6,
+       0.4
+      ],
+      [
+       "coins",
+       20,
+       0.4
+      ],
+      [
+       "coins",
+       34,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s11b25",
+     "shot": "collision",
+     "type": "INSERT",
+     "text": "Here's the collision.",
+     "date": 2026,
+     "sfx": [
+      [
+       "whoosh",
+       2,
+       0.4
+      ],
+      [
+       "boom",
+       26,
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s11b26",
+     "shot": "collision",
+     "type": "INSERT",
+     "text": "Students and teachers are demanding more spending, at the exact moment a government that",
+     "date": 2026,
+     "sfx": []
+    },
+    {
+     "id": "s11b27",
+     "shot": "collision",
+     "type": "INSERT",
+     "text": "has to cut spending is trying to pass a budget through a split parliament.",
+     "date": 2026,
+     "sfx": []
+    },
+    {
+     "id": "s11b28",
+     "shot": "merge",
+     "type": "INSERT",
+     "text": "On 17 October, the school movement merged with a revived Yellow Vest network,",
+     "date": 2026,
+     "sfx": [
+      [
+       "whoosh",
+       4,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s11b29",
+     "shot": "merge",
+     "type": "INSERT",
+     "text": "unions, retirees, farmers and climate campaigners into one national day of protest over the cost of living.",
+     "date": 2026,
+     "sfx": [
+      [
+       "whoosh",
+       4,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s11b30",
+     "shot": "turnout",
+     "type": "STORY",
+     "text": "The Interior Ministry counted about 550,000 people, around 110,000 of them in Paris.",
+     "date": 2026,
+     "sfx": [
+      [
+       "ticks",
+       "w:550,000",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s11b31",
+     "shot": "turnout",
+     "type": "INSERT",
+     "text": "By Reuters' account, that was bigger than the Yellow Vests at their peak,",
+     "date": 2026,
+     "sfx": []
+    },
+    {
+     "id": "s11b32",
+     "shot": "turnout",
+     "type": "INSERT",
+     "text": "and far smaller than the 2023 pension protests.",
+     "date": 2026,
+     "sfx": []
+    },
+    {
+     "id": "s11b33",
+     "shot": "peaceful",
+     "type": "STORY",
+     "text": "Most of them marched peacefully.",
+     "date": 2026,
+     "sfx": [],
+     "amb": "birds"
+    },
+    {
+     "id": "s11b34",
+     "shot": "night_damage",
+     "type": "STORY",
+     "text": "But violent groups attacked town halls and police stations,",
+     "date": 2026,
+     "sfx": [],
+     "quiet": true,
+     "mood": "sombre"
+    },
+    {
+     "id": "s11b35",
+     "shot": "night_damage",
+     "type": "STORY",
+     "text": "set cars on fire and looted shops.",
+     "date": 2026,
+     "sfx": [],
+     "quiet": true,
+     "mood": "sombre"
+    },
+    {
+     "id": "s11b36",
+     "shot": "night_damage",
+     "type": "STORY",
+     "text": "The city hall in Limoges was burned.",
+     "date": 2026,
+     "sfx": [],
+     "quiet": true,
+     "mood": "sombre"
+    },
+    {
+     "id": "s11b37",
+     "shot": "prefect_callback",
+     "type": "STORY",
+     "text": "In Bordeaux, a masked crowd forced its way into the residence of the local prefect.",
+     "date": 2026,
+     "sfx": []
+    },
+    {
+     "id": "s11b38",
+     "shot": "prefect_callback",
+     "type": "INSERT",
+     "text": "Yes, that prefect, the office Napoleon invented 226 years ago.",
+     "date": 2026,
+     "sfx": [
+      [
+       "stamp",
+       "w:prefect,",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s11b39",
+     "shot": "toll",
+     "type": "INSERT",
+     "text": "The toll, as reported: nearly 1,800 arrests across the country,",
+     "date": 2026,
+     "sfx": [],
+     "quiet": true,
+     "mood": "sombre"
+    },
+    {
+     "id": "s11b40",
+     "shot": "toll",
+     "type": "INSERT",
+     "text": "a record 855 in Paris, and more than 500 police officers injured.",
+     "date": 2026,
+     "sfx": [
+      [
+       "pop2",
+       "w:injured.",
+       0.3
+      ]
+     ],
+     "quiet": true,
+     "mood": "sombre"
+    },
+    {
+     "id": "s11b41",
+     "shot": "quiet_candle",
+     "type": "INSERT",
+     "text": "One protester died after a cardiac arrest in Paris.",
+     "date": 2026,
+     "sfx": [],
+     "quiet": true,
+     "mood": "sombre"
+    },
+    {
+     "id": "s11b42",
+     "shot": "quiet_candle",
+     "type": "INSERT",
+     "text": "The Interior Minister confirmed that another person lost a hand in clashes with police,",
+     "date": 2026,
+     "sfx": [],
+     "quiet": true,
+     "mood": "sombre"
+    },
+    {
+     "id": "s11b43",
+     "shot": "quiet_candle",
+     "type": "INSERT",
+     "text": "and allegations of excessive force against young protesters are being scrutinised.",
+     "date": 2026,
+     "sfx": [],
+     "quiet": true,
+     "mood": "sombre"
+    },
+    {
+     "id": "s11b44",
+     "shot": "curfew",
+     "type": "INSERT",
+     "text": "The response was curfews.",
+     "date": 2026,
+     "sfx": [
+      [
+       "ticks",
+       4,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s11b45",
+     "shot": "curfew",
+     "type": "INSERT",
+     "text": "Overnight curfews in two areas of Paris, and curfews for under-18s in cities including Lille and Nice.",
+     "date": 2026,
+     "sfx": [
+      [
+       "ticks",
+       4,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s11b46",
+     "shot": "cooled",
+     "type": "INSERT",
+     "text": "The government says the protests cooled afterwards, and another national day of protest is planned this weekend.",
+     "date": 2026,
+     "sfx": []
+    },
+    {
+     "id": "s11b47",
+     "shot": "cooled",
+     "type": "INSERT",
+     "text": "Smaller protests over living costs have also appeared in Belgium, Portugal and Italy.",
+     "date": 2026,
+     "sfx": [
+      [
+       "pop2",
+       "w:Belgium,",
+       0.4
+      ],
+      [
+       "pop2",
+       "w:Portugal",
+       0.4
+      ],
+      [
+       "pop2",
+       "w:Italy.",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s11b48",
+     "shot": "moodys",
+     "type": "INSERT",
+     "text": "And Moody's, the credit rating agency, was due to rule on France's debt rating on 23 October.",
+     "date": 2026,
+     "sfx": [
+      [
+       "drum",
+       "w:23",
+       0.4
+      ],
+      [
+       "ding",
+       "w:October.",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s11b49",
+     "shot": "split",
+     "type": "HOST",
+     "text": "So what's driving it?",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s11b50",
+     "shot": "split",
+     "type": "HOST",
+     "text": "That's where people split.",
+     "date": null,
+     "sfx": []
+    }
+   ],
+   "mood": "modern"
+  }
+ ]
+}

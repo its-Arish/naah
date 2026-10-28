@@ -1,0 +1,568 @@
+{
+ "sections": [
+  {
+   "title": "Act 6: The Emperor, the Flight and the Flames",
+   "beats": [
+    {
+     "id": "s07b01",
+     "shot": "napoleon_host",
+     "type": "HOST",
+     "text": "His name was Napoleon Bonaparte.",
+     "date": null,
+     "sfx": [
+      [
+       "drum",
+       "w:Napoleon",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s07b02",
+     "shot": "brumaire",
+     "type": "STORY",
+     "text": "In November 1799 he took power in a coup,",
+     "date": 1799,
+     "sfx": [
+      [
+       "boing",
+       10,
+       0.4
+      ],
+      [
+       "boing",
+       24,
+       0.4
+      ],
+      [
+       "boing",
+       38,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s07b03",
+     "shot": "coronation",
+     "type": "STORY",
+     "text": "and in 1804 he crowned himself emperor, literally taking the crown from the pope's hands.",
+     "date": 1804,
+     "sfx": [
+      [
+       "whoosh",
+       "w:taking",
+       0.5
+      ],
+      [
+       "ding",
+       "w:pope's",
+       0.5
+      ]
+     ],
+     "mood": "grand"
+    },
+    {
+     "id": "s07b04",
+     "shot": "full_circle",
+     "type": "INSERT",
+     "text": "A revolution that began by beheading a king had ended with an emperor.",
+     "date": 1804,
+     "sfx": [
+      [
+       "hit",
+       "w:king",
+       0.4
+      ],
+      [
+       "sparkle",
+       "w:emperor.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s07b05",
+     "shot": "civil_code",
+     "type": "INSERT",
+     "text": "But he also built things that are still here.",
+     "date": 1804,
+     "sfx": [
+      [
+       "pops",
+       6,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s07b06",
+     "shot": "civil_code",
+     "type": "INSERT",
+     "text": "The Civil Code of 1804 is still the foundation of French law.",
+     "date": 1804,
+     "sfx": [
+      [
+       "thud",
+       14,
+       0.8
+      ]
+     ]
+    },
+    {
+     "id": "s07b07",
+     "shot": "prefects",
+     "type": "INSERT",
+     "text": "And in 1800 he created the prefects, officials who run each region on behalf",
+     "date": 1800,
+     "sfx": [
+      [
+       "pops",
+       "w:prefects,",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s07b08",
+     "shot": "prefects",
+     "type": "INSERT",
+     "text": "of the central government in Paris.",
+     "date": 1800,
+     "sfx": []
+    },
+    {
+     "id": "s07b09",
+     "shot": "prefects",
+     "type": "INSERT",
+     "text": "Remember the prefects.",
+     "date": 1800,
+     "sfx": [
+      [
+       "stamp",
+       "w:prefects.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s07b10",
+     "shot": "prefects",
+     "type": "INSERT",
+     "text": "They come back.",
+     "date": 1800,
+     "sfx": []
+    },
+    {
+     "id": "s07b11",
+     "shot": "height",
+     "type": "INSERT",
+     "text": "And the legend that he was tiny?",
+     "date": null,
+     "sfx": [
+      [
+       "boing",
+       "w:tiny?",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s07b12",
+     "shot": "height",
+     "type": "INSERT",
+     "text": "He was about five foot six or seven, normal for his time.",
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       "w:five",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s07b13",
+     "shot": "height",
+     "type": "INSERT",
+     "text": "The myth comes from French and English inches being different lengths,",
+     "date": null,
+     "sfx": [
+      [
+       "slide",
+       6,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s07b14",
+     "shot": "height",
+     "type": "INSERT",
+     "text": "and some very effective British cartoons.",
+     "date": 1803,
+     "sfx": [
+      [
+       "paper",
+       2,
+       0.4
+      ]
+     ],
+     "mood": "playful"
+    },
+    {
+     "id": "s07b15",
+     "shot": "waterloo",
+     "type": "STORY",
+     "text": "He lost at Waterloo on 18 June 1815, and the Bourbon kings came back.",
+     "date": 1815,
+     "sfx": [
+      [
+       "rumble",
+       0,
+       0.4
+      ],
+      [
+       "pop2",
+       "w:Bourbon",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s07b16",
+     "shot": "schedule",
+     "type": "HOST",
+     "text": "Then France did something remarkable.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s07b17",
+     "shot": "schedule",
+     "type": "HOST",
+     "text": "It started overthrowing them on a schedule.",
+     "date": null,
+     "sfx": [
+      [
+       "ticks",
+       "w:schedule.",
+       0.5
+      ]
+     ],
+     "mood": "playful"
+    },
+    {
+     "id": "s07b18",
+     "shot": "july1830",
+     "type": "STORY",
+     "text": "In July 1830, three days of street fighting toppled Charles X,",
+     "date": 1830,
+     "sfx": [
+      [
+       "drum",
+       "w:fighting",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s07b19",
+     "shot": "july1830",
+     "type": "STORY",
+     "text": "who had tried to muzzle the press.",
+     "date": 1830,
+     "sfx": [
+      [
+       "stamp",
+       "w:muzzle",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s07b20",
+     "shot": "mr_smith",
+     "type": "STORY",
+     "text": "In 1848 it happened again, and the new king,",
+     "date": 1848,
+     "sfx": [
+      [
+       "steps",
+       4,
+       0.3
+      ]
+     ],
+     "mood": "playful"
+    },
+    {
+     "id": "s07b21",
+     "shot": "mr_smith",
+     "type": "STORY",
+     "text": "Louis-Philippe, fled to England under the name 'Mr Smith.' The Second Republic elected Napoleon's nephew as president.",
+     "date": 1848,
+     "sfx": [
+      [
+       "pop2",
+       "w:Smith.",
+       0.5
+      ],
+      [
+       "kaching",
+       "w:elected",
+       0.4
+      ]
+     ],
+     "mood": "playful"
+    },
+    {
+     "id": "s07b22",
+     "shot": "nap3",
+     "type": "INSERT",
+     "text": "The constitution barred him from a second term,",
+     "date": 1851,
+     "sfx": []
+    },
+    {
+     "id": "s07b23",
+     "shot": "nap3",
+     "type": "INSERT",
+     "text": "so in 1851 he took power in a coup and became Emperor Napoleon III.",
+     "date": 1852,
+     "sfx": [
+      [
+       "paper",
+       "w:coup",
+       0.7
+      ],
+      [
+       "sparkle",
+       "w:Emperor",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s07b24",
+     "shot": "boulevards",
+     "type": "INSERT",
+     "text": "He rebuilt Paris with wide boulevards, partly, many historians say,",
+     "date": 1860,
+     "sfx": [
+      [
+       "slide",
+       6,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s07b25",
+     "shot": "boulevards",
+     "type": "INSERT",
+     "text": "to make barricades harder to build and troops easier to move.",
+     "date": 1860,
+     "sfx": [
+      [
+       "steps",
+       0,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s07b26",
+     "shot": "didnt_save",
+     "type": "HOST",
+     "text": "It didn't save him.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s07b27",
+     "shot": "sedan",
+     "type": "STORY",
+     "text": "In September 1870 he was captured by the Prussians at Sedan,",
+     "date": 1870,
+     "sfx": [
+      [
+       "drum",
+       "w:captured",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s07b28",
+     "shot": "sedan",
+     "type": "STORY",
+     "text": "and the Third Republic was declared.",
+     "date": 1870,
+     "sfx": [
+      [
+       "stamp",
+       "w:Third",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s07b29",
+     "shot": "siege",
+     "type": "INSERT",
+     "text": "Paris was besieged for four months, and its starving citizens ate the zoo, including the elephants.",
+     "date": 1870,
+     "sfx": [
+      [
+       "drum",
+       4,
+       0.4
+      ],
+      [
+       "pop2",
+       "w:zoo,",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s07b30",
+     "shot": "commune",
+     "type": "STORY",
+     "text": "Then, in March 1871, Parisians rose against the national government and set up their",
+     "date": 1871,
+     "sfx": []
+    },
+    {
+     "id": "s07b31",
+     "shot": "commune",
+     "type": "STORY",
+     "text": "own, the Paris Commune.",
+     "date": 1871,
+     "sfx": [
+      [
+       "whoosh",
+       "w:Commune.",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s07b32",
+     "shot": "commune",
+     "type": "STORY",
+     "text": "It lasted 72 days.",
+     "date": 1871,
+     "sfx": [
+      [
+       "ticks",
+       4,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s07b33",
+     "shot": "bloody_week",
+     "type": "STORY",
+     "text": "In 'Bloody Week' in May, government troops retook the city,",
+     "date": 1871,
+     "sfx": [],
+     "quiet": true,
+     "mood": "sombre"
+    },
+    {
+     "id": "s07b34",
+     "shot": "bloody_week",
+     "type": "STORY",
+     "text": "killing somewhere between 10,000 and 20,000 people.",
+     "date": 1871,
+     "sfx": [],
+     "quiet": true,
+     "mood": "sombre"
+    },
+    {
+     "id": "s07b35",
+     "shot": "palace_flames",
+     "type": "STORY",
+     "text": "Fires burned across Paris, including the Tuileries Palace,",
+     "date": 1871,
+     "sfx": [
+      [
+       "crack",
+       4,
+       0.4
+      ]
+     ],
+     "amb": "camp",
+     "mood": "sombre"
+    },
+    {
+     "id": "s07b36",
+     "shot": "palace_flames",
+     "type": "STORY",
+     "text": "the same palace the king had fled in disguise eighty years earlier.",
+     "date": 1871,
+     "sfx": [
+      [
+       "whoosh",
+       "w:palace",
+       0.4
+      ]
+     ],
+     "amb": "camp",
+     "mood": "sombre"
+    },
+    {
+     "id": "s07b37",
+     "shot": "regime_tally",
+     "type": "INSERT",
+     "text": "So in under a century, France had run through two empires,",
+     "date": 1871,
+     "sfx": [
+      [
+       "pop2",
+       "w:empires,",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s07b38",
+     "shot": "regime_tally",
+     "type": "INSERT",
+     "text": "two republics and three kinds of monarchy.",
+     "date": 1871,
+     "sfx": [
+      [
+       "pop2",
+       "w:republics",
+       0.5
+      ],
+      [
+       "pops",
+       "w:monarchy.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s07b39",
+     "shot": "not_done",
+     "type": "HOST",
+     "text": "And it wasn't done.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s07b40",
+     "shot": "not_done",
+     "type": "HOST",
+     "text": "The next seventy years would cost it almost everything.",
+     "date": null,
+     "sfx": []
+    }
+   ],
+   "mood": "grand"
+  }
+ ]
+}

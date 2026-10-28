@@ -1,0 +1,691 @@
+{
+ "sections": [
+  {
+   "title": "Act 12: 1789 vs 2026",
+   "beats": [
+    {
+     "id": "s13b01",
+     "shot": "goldstone",
+     "type": "HOST",
+     "text": "The political scientist Jack Goldstone spent a career studying why states break down.",
+     "date": null,
+     "sfx": [
+      [
+       "pop2",
+       "w:Goldstone",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s13b02",
+     "shot": "goldstone",
+     "type": "HOST",
+     "text": "His answer was that it tends to happen when three things line up.",
+     "date": null,
+     "sfx": [
+      [
+       "pops",
+       "w:three",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s13b03",
+     "shot": "conditions",
+     "type": "INSERT",
+     "text": "One, the state is in a fiscal crisis and can't pay its bills.",
+     "date": null,
+     "sfx": [
+      [
+       "pop2",
+       4,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s13b04",
+     "shot": "conditions",
+     "type": "INSERT",
+     "text": "Two, the elites are divided and fighting each other.",
+     "date": null,
+     "sfx": [
+      [
+       "pop2",
+       4,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s13b05",
+     "shot": "conditions",
+     "type": "INSERT",
+     "text": "Three, a large part of the population is mobilised and angry.",
+     "date": null,
+     "sfx": [
+      [
+       "pop2",
+       4,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s13b06",
+     "shot": "score",
+     "type": "INSERT",
+     "text": "Let's score both years.",
+     "date": 1789,
+     "sfx": [
+      [
+       "drum",
+       4,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s13b07",
+     "shot": "score",
+     "type": "INSERT",
+     "text": "1789.",
+     "date": 1789,
+     "sfx": [
+      [
+       "ding",
+       2,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s13b08",
+     "shot": "score",
+     "type": "INSERT",
+     "text": "Fiscal crisis: yes, the kingdom was bankrupt.",
+     "date": 1789,
+     "sfx": [
+      [
+       "ding",
+       "w:yes,",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s13b09",
+     "shot": "score",
+     "type": "INSERT",
+     "text": "Elites divided: yes, the nobles blocked every reform,",
+     "date": 1789,
+     "sfx": [
+      [
+       "ding",
+       "w:yes,",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s13b10",
+     "shot": "score",
+     "type": "INSERT",
+     "text": "the courts fought the king, and some nobles and priests ended up joining the Third Estate.",
+     "date": 1789,
+     "sfx": []
+    },
+    {
+     "id": "s13b11",
+     "shot": "score",
+     "type": "INSERT",
+     "text": "Mass anger: yes, hungry crowds in Paris.",
+     "date": 1789,
+     "sfx": [
+      [
+       "ding",
+       "w:yes,",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s13b12",
+     "shot": "score",
+     "type": "INSERT",
+     "text": "And then the fourth thing that sealed it.",
+     "date": 1789,
+     "sfx": [
+      [
+       "riser",
+       "w:fourth",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s13b13",
+     "shot": "score",
+     "type": "INSERT",
+     "text": "The army split.",
+     "date": 1789,
+     "sfx": [
+      [
+       "impact",
+       "w:split.",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s13b14",
+     "shot": "score",
+     "type": "INSERT",
+     "text": "Units of the French Guards joined the crowd at the Bastille.",
+     "date": 1789,
+     "sfx": []
+    },
+    {
+     "id": "s13b15",
+     "shot": "score",
+     "type": "INSERT",
+     "text": "When the people with the guns stop obeying, a government is finished.",
+     "date": 1789,
+     "sfx": []
+    },
+    {
+     "id": "s13b16",
+     "shot": "score",
+     "type": "INSERT",
+     "text": "2026.",
+     "date": 2026,
+     "sfx": [
+      [
+       "ding",
+       2,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s13b17",
+     "shot": "score",
+     "type": "INSERT",
+     "text": "Fiscal crisis: arguably, but a different kind.",
+     "date": 2026,
+     "sfx": [
+      [
+       "blip",
+       "w:arguably,",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s13b18",
+     "shot": "score",
+     "type": "INSERT",
+     "text": "France is not bankrupt.",
+     "date": 2026,
+     "sfx": []
+    },
+    {
+     "id": "s13b19",
+     "shot": "score",
+     "type": "INSERT",
+     "text": "Markets still lend to it, and one chief economist told Le Monde the debt",
+     "date": 2026,
+     "sfx": []
+    },
+    {
+     "id": "s13b20",
+     "shot": "score",
+     "type": "INSERT",
+     "text": "problem is serious but manageable, unless political instability makes it worse.",
+     "date": 2026,
+     "sfx": []
+    },
+    {
+     "id": "s13b21",
+     "shot": "score",
+     "type": "INSERT",
+     "text": "But debt at 119 percent of GDP and borrowing costs at twenty-year highs mean",
+     "date": 2026,
+     "sfx": []
+    },
+    {
+     "id": "s13b22",
+     "shot": "score",
+     "type": "INSERT",
+     "text": "every budget is a war.",
+     "date": 2026,
+     "sfx": []
+    },
+    {
+     "id": "s13b23",
+     "shot": "score",
+     "type": "INSERT",
+     "text": "Elites divided: yes, in a different way.",
+     "date": 2026,
+     "sfx": [
+      [
+       "ding",
+       "w:yes,",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s13b24",
+     "shot": "score",
+     "type": "INSERT",
+     "text": "Parliament is split into blocs, governments keep falling,",
+     "date": 2026,
+     "sfx": []
+    },
+    {
+     "id": "s13b25",
+     "shot": "score",
+     "type": "INSERT",
+     "text": "and everyone is competing ahead of the election.",
+     "date": 2026,
+     "sfx": []
+    },
+    {
+     "id": "s13b26",
+     "shot": "score",
+     "type": "INSERT",
+     "text": "But they are competing to win the presidency, not to abolish it.",
+     "date": 2026,
+     "sfx": []
+    },
+    {
+     "id": "s13b27",
+     "shot": "score",
+     "type": "INSERT",
+     "text": "Mass anger: yes.",
+     "date": 2026,
+     "sfx": [
+      [
+       "ding",
+       "w:yes.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s13b28",
+     "shot": "score",
+     "type": "INSERT",
+     "text": "Half a million marched, plus students, unions, farmers and fishermen.",
+     "date": 2026,
+     "sfx": []
+    },
+    {
+     "id": "s13b29",
+     "shot": "score",
+     "type": "INSERT",
+     "text": "But it is leaderless, its demands are mixed,",
+     "date": 2026,
+     "sfx": [
+      [
+       "pop2",
+       "w:leaderless,",
+       0.3
+      ],
+      [
+       "pop2",
+       "w:mixed,",
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s13b30",
+     "shot": "score",
+     "type": "INSERT",
+     "text": "from schools to diesel to wages, and a violent fringe that most marchers did",
+     "date": 2026,
+     "sfx": [
+      [
+       "pop2",
+       "w:violent",
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s13b31",
+     "shot": "score",
+     "type": "INSERT",
+     "text": "not join has taken much of the attention.",
+     "date": 2026,
+     "sfx": []
+    },
+    {
+     "id": "s13b32",
+     "shot": "missing",
+     "type": "INSERT",
+     "text": "Now look at what's missing.",
+     "date": 2026,
+     "sfx": []
+    },
+    {
+     "id": "s13b33",
+     "shot": "missing",
+     "type": "INSERT",
+     "text": "One, no defection.",
+     "date": 2026,
+     "sfx": [
+      [
+       "pop2",
+       "w:defection.",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s13b34",
+     "shot": "missing",
+     "type": "INSERT",
+     "text": "The police and the army are doing their jobs,",
+     "date": 2026,
+     "sfx": []
+    },
+    {
+     "id": "s13b35",
+     "shot": "missing",
+     "type": "INSERT",
+     "text": "where in 1789 they switched sides.",
+     "date": 1789,
+     "sfx": []
+    },
+    {
+     "id": "s13b36",
+     "shot": "missing",
+     "type": "INSERT",
+     "text": "Two, no alternative system on offer.",
+     "date": 2026,
+     "sfx": [
+      [
+       "pop2",
+       "w:alternative",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s13b37",
+     "shot": "missing",
+     "type": "INSERT",
+     "text": "Nobody is marching to abolish the republic.",
+     "date": 2026,
+     "sfx": []
+    },
+    {
+     "id": "s13b38",
+     "shot": "missing",
+     "type": "INSERT",
+     "text": "Even the loudest critics want to win the election that's already scheduled.",
+     "date": 2026,
+     "sfx": []
+    },
+    {
+     "id": "s13b39",
+     "shot": "missing",
+     "type": "INSERT",
+     "text": "In 1789, the alternative to the king had to be invented from scratch.",
+     "date": 1789,
+     "sfx": []
+    },
+    {
+     "id": "s13b40",
+     "shot": "missing",
+     "type": "INSERT",
+     "text": "And three, a legal exit exists, about six months away.",
+     "date": 2026,
+     "sfx": [
+      [
+       "pop2",
+       "w:legal",
+       0.4
+      ],
+      [
+       "sparkle",
+       "w:six",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s13b41",
+     "shot": "missing",
+     "type": "INSERT",
+     "text": "In 1789 the only road to change was a meeting that the king didn't want to hold.",
+     "date": 1789,
+     "sfx": [
+      [
+       "clang",
+       "w:king",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s13b42",
+     "shot": "echoes",
+     "type": "HOST",
+     "text": "But there are echoes that go beyond the checklist.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s13b43",
+     "shot": "echoes",
+     "type": "INSERT",
+     "text": "In October 1789, a crowd went to Versailles because that is where the power slept.",
+     "date": null,
+     "sfx": [
+      [
+       "whoosh",
+       2,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s13b44",
+     "shot": "echoes",
+     "type": "INSERT",
+     "text": "In October 2026, crowds went to town halls and prefectures.",
+     "date": null,
+     "sfx": [
+      [
+       "whoosh",
+       2,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s13b45",
+     "shot": "great_fear",
+     "type": "STORY",
+     "text": "And in 1789, the summer was swept by the Great Fear,",
+     "date": 1789,
+     "sfx": [
+      [
+       "drum",
+       4,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s13b46",
+     "shot": "great_fear",
+     "type": "STORY",
+     "text": "rumours that aristocrats had hired brigands to starve the villages.",
+     "date": 1789,
+     "sfx": [
+      [
+       "pops",
+       10,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s13b47",
+     "shot": "great_fear",
+     "type": "STORY",
+     "text": "Peasants armed themselves against enemies who didn't exist.",
+     "date": 1789,
+     "sfx": []
+    },
+    {
+     "id": "s13b48",
+     "shot": "suspicion",
+     "type": "INSERT",
+     "text": "In 2026, every camp suspects someone else's hidden hand,",
+     "date": 2026,
+     "sfx": [
+      [
+       "pops",
+       4,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s13b49",
+     "shot": "suspicion",
+     "type": "INSERT",
+     "text": "and foreign leaders have weighed in.",
+     "date": 2026,
+     "sfx": [
+      [
+       "pops",
+       4,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s13b50",
+     "shot": "suspicion",
+     "type": "INSERT",
+     "text": "When trust collapses, every explanation starts to sound like a plot.",
+     "date": 2026,
+     "sfx": [
+      [
+       "pops",
+       4,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s13b51",
+     "shot": "verdict",
+     "type": "HOST",
+     "text": "So is France in a revolution?",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s13b52",
+     "shot": "verdict",
+     "type": "HOST",
+     "text": "By the historians' own checklist, not yet.",
+     "date": null,
+     "sfx": [
+      [
+       "stamp",
+       "w:not",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s13b53",
+     "shot": "verdict",
+     "type": "HOST",
+     "text": "And yes, the word 'yet' is doing a lot of work.",
+     "date": null,
+     "sfx": [
+      [
+       "boing",
+       "w:yet",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s13b54",
+     "shot": "hindsight",
+     "type": "INSERT",
+     "text": "But historians are very bad at predicting revolutions and very good at explaining them afterwards.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s13b55",
+     "shot": "hindsight",
+     "type": "INSERT",
+     "text": "In May 1968, nobody on the barricades knew the system would hold either, until it did.",
+     "date": 1968,
+     "sfx": []
+    },
+    {
+     "id": "s13b56",
+     "shot": "who_pays",
+     "type": "INSERT",
+     "text": "What 2026 shares with 1789 is the cause,",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s13b57",
+     "shot": "who_pays",
+     "type": "INSERT",
+     "text": "the question of who pays when the bill comes due.",
+     "date": null,
+     "sfx": [
+      [
+       "paper",
+       "w:bill",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s13b58",
+     "shot": "who_pays",
+     "type": "INSERT",
+     "text": "Not, so far, the outcome.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s13b59",
+     "shot": "finale",
+     "type": "HOST",
+     "text": "And that question is almost two and a half centuries old.",
+     "date": null,
+     "sfx": [
+      [
+       "sparkle",
+       "w:centuries",
+       0.4
+      ]
+     ],
+     "mood": "grand"
+    }
+   ],
+   "mood": "grand"
+  }
+ ]
+}

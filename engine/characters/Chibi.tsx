@@ -283,6 +283,29 @@ const Hat: React.FC<{ kind: string; color?: string; frame: number }> = ({ kind, 
           <path d={`M30 -300 Q${60 + Math.sin(frame / 6) * 4} -330 ${80 + Math.sin(frame / 6) * 6} -320`} stroke="#F4F7FA" strokeWidth={7} fill="none" strokeLinecap="round" />
         </g>
       );
+    case 'kepi': // French military cap: short sloped cylinder, flat top, visor, gold band
+      return (
+        <g>
+          <path d="M-46 -258 L-40 -310 Q0 -318 40 -310 L46 -258 Z" fill={color ?? '#5A6A4A'} stroke={OL} strokeWidth={3.5} strokeLinejoin="round" />
+          <path d="M-46 -268 L46 -268" stroke="#E2B13C" strokeWidth={6} />
+          <path d="M-44 -258 Q-60 -248 -76 -250 Q-60 -262 -44 -262 Z" fill="#1E1E28" stroke={OL} strokeWidth={3} />
+        </g>
+      );
+    case 'tophat':
+      return (
+        <g>
+          <path d="M-72 -260 Q0 -276 72 -260 Q56 -250 0 -252 Q-56 -250 -72 -260 Z" fill={color ?? '#1E1E28'} stroke={OL} strokeWidth={3} />
+          <path d="M-40 -262 L-44 -350 Q0 -358 44 -350 L40 -262 Z" fill={color ?? '#1E1E28'} stroke={OL} strokeWidth={3} />
+          <path d="M-41 -276 L41 -276" stroke="#5A5A64" strokeWidth={8} />
+        </g>
+      );
+    case 'bicorne': // Napoleon's hat, worn sideways
+      return (
+        <g>
+          <path d="M-96 -262 Q-60 -340 0 -332 Q60 -340 96 -262 Q0 -286 -96 -262 Z" fill={color ?? '#1E1E28'} stroke={OL} strokeWidth={3.5} strokeLinejoin="round" />
+          <circle cx={30} cy={-300} r={11} fill="#C0392B" stroke={OL} strokeWidth={2} /><circle cx={30} cy={-300} r={6} fill="#F4F7FA" /><circle cx={30} cy={-300} r={3} fill="#2E4A9A" />
+        </g>
+      );
     case 'skullcap':
       return <path d="M-48 -262 Q-46 -296 0 -298 Q46 -296 48 -262 Q0 -272 -48 -262 Z" fill={color ?? '#F4F7FA'} stroke={OL} strokeWidth={3} />;
     case 'sultan':

@@ -1,0 +1,502 @@
+{
+ "sections": [
+  {
+   "title": "Act 5: The Terror",
+   "beats": [
+    {
+     "id": "s06b01",
+     "shot": "robespierre_host",
+     "type": "HOST",
+     "text": "His name was Maximilien Robespierre, and here's the twist.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s06b02",
+     "shot": "speech_1791",
+     "type": "STORY",
+     "text": "In 1791 he had given speeches arguing that France should abolish the death penalty.",
+     "date": 1791,
+     "sfx": [
+      [
+       "pop2",
+       "w:abolish",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s06b03",
+     "shot": "committee",
+     "type": "STORY",
+     "text": "Two years later he was the most powerful member of the Committee of Public",
+     "date": 1793,
+     "sfx": []
+    },
+    {
+     "id": "s06b04",
+     "shot": "committee",
+     "type": "STORY",
+     "text": "Safety, which ran the country in a permanent state of emergency.",
+     "date": 1793,
+     "sfx": [
+      [
+       "blip",
+       "w:emergency.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s06b05",
+     "shot": "suspects",
+     "type": "INSERT",
+     "text": "In September 1793 the Law of Suspects allowed people to be arrested not for",
+     "date": 1793,
+     "sfx": [
+      [
+       "stamp",
+       "w:Suspects",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s06b06",
+     "shot": "suspects",
+     "type": "STORY",
+     "text": "what they had done, but for being suspected of opposing the revolution.",
+     "date": 1793,
+     "sfx": [
+      [
+       "stamp",
+       "w:suspected",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s06b07",
+     "shot": "tribunal",
+     "type": "STORY",
+     "text": "Revolutionary tribunals followed.",
+     "date": 1793,
+     "sfx": []
+    },
+    {
+     "id": "s06b08",
+     "shot": "tribunal",
+     "type": "STORY",
+     "text": "In June 1794 a new law stripped many of the accused of the right",
+     "date": 1794,
+     "sfx": []
+    },
+    {
+     "id": "s06b09",
+     "shot": "tribunal",
+     "type": "STORY",
+     "text": "to a defence lawyer.",
+     "date": 1794,
+     "sfx": [
+      [
+       "slide",
+       2,
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s06b10",
+     "shot": "grim",
+     "type": "INSERT",
+     "text": "This period is called the Terror, and the numbers are grim:",
+     "date": 1794,
+     "sfx": [],
+     "quiet": true
+    },
+    {
+     "id": "s06b11",
+     "shot": "grim",
+     "type": "INSERT",
+     "text": "around 17,000 official death sentences, and historians estimate tens of thousands more people died",
+     "date": 1794,
+     "sfx": [],
+     "quiet": true
+    },
+    {
+     "id": "s06b12",
+     "shot": "grim",
+     "type": "INSERT",
+     "text": "without trial or in prison.",
+     "date": 1794,
+     "sfx": [],
+     "quiet": true
+    },
+    {
+     "id": "s06b13",
+     "shot": "who_died",
+     "type": "INSERT",
+     "text": "And most of those executed were not aristocrats.",
+     "date": 1794,
+     "sfx": [],
+     "quiet": true
+    },
+    {
+     "id": "s06b14",
+     "shot": "who_died",
+     "type": "INSERT",
+     "text": "They were ordinary people: farmers, workers, shopkeepers.",
+     "date": 1794,
+     "sfx": [],
+     "quiet": true
+    },
+    {
+     "id": "s06b15",
+     "shot": "equal_scale",
+     "type": "INSERT",
+     "text": "The guillotine, by the way, was meant to be the humane option,",
+     "date": 1792,
+     "sfx": []
+    },
+    {
+     "id": "s06b16",
+     "shot": "equal_scale",
+     "type": "INSERT",
+     "text": "a quick death that was the same for rich and poor.",
+     "date": 1792,
+     "sfx": [
+      [
+       "creak",
+       2,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s06b17",
+     "shot": "dr_guillotin",
+     "type": "INSERT",
+     "text": "Dr Guillotin, whose name it carries, didn't build it,",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s06b18",
+     "shot": "dr_guillotin",
+     "type": "STORY",
+     "text": "and he died in his bed in 1814.",
+     "date": 1814,
+     "sfx": []
+    },
+    {
+     "id": "s06b19",
+     "shot": "thermidor",
+     "type": "INSERT",
+     "text": "The end came on 9 Thermidor, 27 July 1794.",
+     "date": 1794,
+     "sfx": [
+      [
+       "drum",
+       "w:27",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s06b20",
+     "shot": "turn_on",
+     "type": "STORY",
+     "text": "Deputies who feared they were next turned on Robespierre.",
+     "date": 1794,
+     "sfx": [
+      [
+       "hit",
+       "w:turned",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s06b21",
+     "shot": "arrest",
+     "type": "STORY",
+     "text": "He was arrested, tried to shoot himself and shattered his jaw,",
+     "date": 1794,
+     "sfx": [],
+     "quiet": true
+    },
+    {
+     "id": "s06b22",
+     "shot": "dawn",
+     "type": "STORY",
+     "text": "and was guillotined the next day with about twenty of his allies.",
+     "date": 1794,
+     "sfx": [],
+     "quiet": true
+    },
+    {
+     "id": "s06b23",
+     "shot": "machine_of_fear",
+     "type": "INSERT",
+     "text": "The man who built the machine of fear was eventually caught in it.",
+     "date": 1794,
+     "sfx": [
+      [
+       "machine",
+       0,
+       0.35
+      ],
+      [
+       "thud",
+       85,
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s06b24",
+     "shot": "todo_meanwhilet",
+     "type": "STORY",
+     "text": "Meanwhile, the revolution had been busy reinventing time itself."
+    },
+    {
+     "id": "s06b25",
+     "shot": "sketch_calendar",
+     "type": "SKETCH",
+     "speaker": "A",
+     "text": "We have replaced the seven-day week with a ten-day week.",
+     "date": 1793,
+     "sfx": [],
+     "mood": "playful"
+    },
+    {
+     "id": "s06b26",
+     "shot": "sketch_calendar",
+     "type": "SKETCH",
+     "speaker": "B",
+     "text": "Wonderful. And the day off?",
+     "date": 1793,
+     "sfx": [],
+     "mood": "playful"
+    },
+    {
+     "id": "s06b27",
+     "shot": "sketch_calendar",
+     "type": "SKETCH",
+     "speaker": "A",
+     "text": "One day in ten.",
+     "date": 1793,
+     "sfx": [],
+     "mood": "playful"
+    },
+    {
+     "id": "s06b28",
+     "shot": "sketch_calendar",
+     "type": "SKETCH",
+     "speaker": "B",
+     "text": "Before, it was one in seven.",
+     "date": 1793,
+     "sfx": [],
+     "mood": "playful"
+    },
+    {
+     "id": "s06b29",
+     "shot": "sketch_calendar",
+     "type": "SKETCH",
+     "speaker": "A",
+     "text": "Yes, but the new week is more rational.",
+     "date": 1793,
+     "sfx": [],
+     "mood": "playful"
+    },
+    {
+     "id": "s06b30",
+     "shot": "sketch_calendar",
+     "type": "SKETCH",
+     "speaker": "B",
+     "text": "So I work more.",
+     "date": 1793,
+     "sfx": [],
+     "mood": "playful"
+    },
+    {
+     "id": "s06b31",
+     "shot": "sketch_calendar",
+     "type": "SKETCH",
+     "speaker": "A",
+     "text": "You work more rationally.",
+     "date": 1793,
+     "sfx": [],
+     "mood": "playful"
+    },
+    {
+     "id": "s06b32",
+     "shot": "sketch_calendar",
+     "type": "SKETCH",
+     "speaker": "B",
+     "text": "And this month?",
+     "date": 1793,
+     "sfx": [],
+     "mood": "playful"
+    },
+    {
+     "id": "s06b33",
+     "shot": "sketch_calendar",
+     "type": "SKETCH",
+     "speaker": "A",
+     "text": "Frimaire. It means frosty.",
+     "date": 1793,
+     "sfx": [],
+     "mood": "playful"
+    },
+    {
+     "id": "s06b34",
+     "shot": "sketch_calendar",
+     "type": "SKETCH",
+     "speaker": "B",
+     "text": "It's raining.",
+     "date": 1793,
+     "sfx": [],
+     "mood": "playful"
+    },
+    {
+     "id": "s06b35",
+     "shot": "sketch_calendar",
+     "type": "SKETCH",
+     "speaker": "A",
+     "text": "It is frosty in spirit.",
+     "date": 1793,
+     "sfx": [],
+     "mood": "playful"
+    },
+    {
+     "id": "s06b36",
+     "shot": "boxes_tease",
+     "type": "HOST",
+     "text": "Quick pause.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s06b37",
+     "shot": "boxes_tease",
+     "type": "HOST",
+     "text": "And stay with me, because everything so far is the part you might have heard before.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s06b38",
+     "shot": "boxes_tease",
+     "type": "HOST",
+     "text": "In about fifteen minutes we land in this very month,",
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       "w:month,",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s06b39",
+     "shot": "boxes_tease",
+     "type": "HOST",
+     "text": "and I'm going to show you the three ingredients historians say every revolution needs,",
+     "date": null,
+     "sfx": [
+      [
+       "pops",
+       "w:three",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s06b40",
+     "shot": "boxes_tease",
+     "type": "HOST",
+     "text": "and exactly how many boxes France ticks today.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s06b41",
+     "shot": "boxes_tease",
+     "type": "HOST",
+     "text": "The answer isn't the one the headlines give you.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s06b42",
+     "shot": "exhausted",
+     "type": "INSERT",
+     "text": "But first, France was exhausted, broke, and sick of ideology.",
+     "date": 1799,
+     "sfx": [
+      [
+       "stamp",
+       "w:exhausted,",
+       0.4
+      ],
+      [
+       "stamp",
+       "w:broke,",
+       0.4
+      ],
+      [
+       "stamp",
+       "w:ideology.",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s06b43",
+     "shot": "exhausted",
+     "type": "INSERT",
+     "text": "It wanted order.",
+     "date": 1799,
+     "sfx": [
+      [
+       "impact",
+       "w:order.",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s06b44",
+     "shot": "corsica",
+     "type": "INSERT",
+     "text": "And an artillery officer from an island France had bought a year before he",
+     "date": 1799,
+     "sfx": [
+      [
+       "ding",
+       "w:island",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s06b45",
+     "shot": "corsica",
+     "type": "INSERT",
+     "text": "was born was about to offer it.",
+     "date": 1799,
+     "sfx": [
+      [
+       "riser",
+       0,
+       0.4
+      ]
+     ]
+    }
+   ],
+   "mood": "sombre"
+  }
+ ]
+}

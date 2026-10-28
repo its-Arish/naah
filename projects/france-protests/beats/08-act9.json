@@ -1,0 +1,442 @@
+{
+ "sections": [
+  {
+   "title": "Act 9: The Long Simmer, 2005 to 2025",
+   "beats": [
+    {
+     "id": "s10b01",
+     "shot": "small_fires",
+     "type": "HOST",
+     "text": "The pattern since 1968 is not one big explosion.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s10b02",
+     "shot": "small_fires",
+     "type": "HOST",
+     "text": "It's a series of smaller ones, each with a different trigger.",
+     "date": null,
+     "sfx": [
+      [
+       "pops",
+       "w:smaller",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s10b03",
+     "shot": "clichy",
+     "type": "STORY",
+     "text": "In October 2005, two teenagers, Zyed Benna and Bouna Traore,",
+     "date": 2005,
+     "sfx": [],
+     "quiet": true
+    },
+    {
+     "id": "s10b04",
+     "shot": "clichy",
+     "type": "STORY",
+     "text": "died in an electrical substation in the suburb of Clichy-sous-Bois while hiding from police.",
+     "date": 2005,
+     "sfx": [],
+     "quiet": true
+    },
+    {
+     "id": "s10b05",
+     "shot": "riots2005",
+     "type": "INSERT",
+     "text": "Riots spread through poor suburbs for three weeks,",
+     "date": 2005,
+     "sfx": [],
+     "mood": "sombre"
+    },
+    {
+     "id": "s10b06",
+     "shot": "riots2005",
+     "type": "INSERT",
+     "text": "nearly 9,000 vehicles were burned, and the government declared a state of emergency.",
+     "date": 2005,
+     "sfx": [
+      [
+       "ticks",
+       "w:9,000",
+       0.3
+      ],
+      [
+       "stamp",
+       "w:emergency.",
+       0.5
+      ]
+     ],
+     "mood": "sombre"
+    },
+    {
+     "id": "s10b07",
+     "shot": "yellow_vests",
+     "type": "INSERT",
+     "text": "In November 2018 came the Yellow Vests, named after the high-visibility vests every French driver must carry.",
+     "date": 2018,
+     "sfx": [
+      [
+       "pop2",
+       "w:Yellow",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s10b08",
+     "shot": "yellow_vests",
+     "type": "INSERT",
+     "text": "The trigger was a rise in fuel tax.",
+     "date": 2018,
+     "sfx": [
+      [
+       "riser",
+       "w:rise",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s10b09",
+     "shot": "yellow_vests",
+     "type": "STORY",
+     "text": "Every Saturday for months, protesters filled roundabouts and city centres.",
+     "date": 2018,
+     "sfx": [
+      [
+       "drum",
+       4,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s10b10",
+     "shot": "yellow_vests",
+     "type": "INSERT",
+     "text": "The government dropped the tax rise, but the anger was never really about the tax.",
+     "date": 2018,
+     "sfx": [
+      [
+       "stamp",
+       "w:dropped",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s10b11",
+     "shot": "yellow_vests",
+     "type": "INSERT",
+     "text": "It was about the cost of living and who feels it.",
+     "date": 2018,
+     "sfx": [
+      [
+       "pop2",
+       "w:cost",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s10b12",
+     "shot": "pensions",
+     "type": "INSERT",
+     "text": "In 2023 the government raised the retirement age from 62 to 64 and pushed",
+     "date": 2023,
+     "sfx": [
+      [
+       "ticks",
+       "w:64",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s10b13",
+     "shot": "pensions",
+     "type": "INSERT",
+     "text": "it through without a final vote in the Assembly,",
+     "date": 2023,
+     "sfx": [
+      [
+       "hit",
+       "w:without",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s10b14",
+     "shot": "pensions",
+     "type": "INSERT",
+     "text": "using a constitutional tool called Article 49.3.",
+     "date": 2023,
+     "sfx": [
+      [
+       "stamp",
+       "w:Article",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s10b15",
+     "shot": "pensions",
+     "type": "STORY",
+     "text": "Millions marched.",
+     "date": 2023,
+     "sfx": [
+      [
+       "rumble",
+       2,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s10b16",
+     "shot": "nahel",
+     "type": "STORY",
+     "text": "And in June 2023, a 17-year-old, Nahel, was shot dead by a police officer",
+     "date": 2023,
+     "sfx": [],
+     "quiet": true
+    },
+    {
+     "id": "s10b17",
+     "shot": "nahel",
+     "type": "STORY",
+     "text": "during a traffic stop in Nanterre, and riots spread across the country for days.",
+     "date": 2023,
+     "sfx": [],
+     "quiet": true
+    },
+    {
+     "id": "s10b18",
+     "shot": "wobble",
+     "type": "INSERT",
+     "text": "Then politics itself began to wobble.",
+     "date": 2024,
+     "sfx": [
+      [
+       "creak",
+       4,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s10b19",
+     "shot": "wobble",
+     "type": "INSERT",
+     "text": "After a snap election in 2024, the Assembly split into three blocs,",
+     "date": 2024,
+     "sfx": [
+      [
+       "pops",
+       "w:three",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s10b20",
+     "shot": "wobble",
+     "type": "INSERT",
+     "text": "none with a majority.",
+     "date": 2024,
+     "sfx": []
+    },
+    {
+     "id": "s10b21",
+     "shot": "wobble",
+     "type": "INSERT",
+     "text": "Governments started falling.",
+     "date": 2024,
+     "sfx": [
+      [
+       "thud",
+       14,
+       0.3
+      ],
+      [
+       "thud",
+       20,
+       0.3
+      ],
+      [
+       "thud",
+       26,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s10b22",
+     "shot": "pms",
+     "type": "INSERT",
+     "text": "In December 2024, the Prime Minister, Michel Barnier, lost a no-confidence vote.",
+     "date": 2024,
+     "sfx": [
+      [
+       "stamp",
+       "w:no-confidence",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s10b23",
+     "shot": "pms",
+     "type": "INSERT",
+     "text": "In September 2025, his successor, Francois Bayrou, lost a confidence vote after proposing around",
+     "date": 2025,
+     "sfx": [
+      [
+       "stamp",
+       "w:lost",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s10b24",
+     "shot": "pms",
+     "type": "INSERT",
+     "text": "44 billion euros in savings.",
+     "date": 2025,
+     "sfx": [
+      [
+       "kaching",
+       "w:44",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s10b25",
+     "shot": "pms",
+     "type": "STORY",
+     "text": "Two days later, a grassroots movement called 'Block Everything' shut down parts of the",
+     "date": 2025,
+     "sfx": [
+      [
+       "slam",
+       "w:Block",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s10b26",
+     "shot": "pms",
+     "type": "INSERT",
+     "text": "country, and Macron appointed Sebastien Lecornu, his seventh prime minister since taking office in 2017.",
+     "date": 2025,
+     "sfx": [
+      [
+       "pops",
+       "w:seventh",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s10b27",
+     "shot": "triggers",
+     "type": "INSERT",
+     "text": "The triggers keep changing: a dorm rule, a fuel tax,",
+     "date": null,
+     "sfx": [
+      [
+       "pop2",
+       "w:dorm",
+       0.4
+      ],
+      [
+       "pop2",
+       "w:fuel",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s10b28",
+     "shot": "triggers",
+     "type": "INSERT",
+     "text": "a retirement age, a police shooting, a budget.",
+     "date": null,
+     "sfx": [
+      [
+       "pop2",
+       "w:retirement",
+       0.4
+      ],
+      [
+       "pop2",
+       "w:police",
+       0.3
+      ],
+      [
+       "pop2",
+       "w:budget.",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s10b29",
+     "shot": "far_away",
+     "type": "STORY",
+     "text": "But protesters keep describing the same complaint, that decisions are made far away by",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s10b30",
+     "shot": "far_away",
+     "type": "STORY",
+     "text": "people who don't feel the cost.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s10b31",
+     "shot": "debt_clock",
+     "type": "INSERT",
+     "text": "And governments keep giving the same answer: that the debt is real,",
+     "date": 2025,
+     "sfx": [
+      [
+       "ticks",
+       4,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s10b32",
+     "shot": "debt_clock",
+     "type": "INSERT",
+     "text": "and that it doesn't wait.",
+     "date": 2025,
+     "sfx": []
+    },
+    {
+     "id": "s10b33",
+     "shot": "autumn",
+     "type": "HOST",
+     "text": "Which brings us to the autumn of 2026.",
+     "date": null,
+     "sfx": []
+    }
+   ],
+   "mood": "modern"
+  }
+ ]
+}

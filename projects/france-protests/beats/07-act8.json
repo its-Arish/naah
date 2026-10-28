@@ -1,0 +1,419 @@
+{
+ "sections": [
+  {
+   "title": "Act 8: May 1968",
+   "beats": [
+    {
+     "id": "s09b01",
+     "shot": "nanterre",
+     "type": "STORY",
+     "text": "In the spring of 1968, students at Nanterre,",
+     "date": 1968,
+     "sfx": [],
+     "amb": "birds"
+    },
+    {
+     "id": "s09b02",
+     "shot": "nanterre",
+     "type": "STORY",
+     "text": "a university outside Paris, were angry about plenty of things,",
+     "date": 1968,
+     "sfx": [],
+     "amb": "birds"
+    },
+    {
+     "id": "s09b03",
+     "shot": "nanterre",
+     "type": "STORY",
+     "text": "including rules that banned men and women from visiting each other's rooms.",
+     "date": 1968,
+     "sfx": [
+      [
+       "stamp",
+       "w:banned",
+       0.5
+      ]
+     ],
+     "amb": "birds"
+    },
+    {
+     "id": "s09b04",
+     "shot": "closed",
+     "type": "STORY",
+     "text": "The authorities closed the campus.",
+     "date": 1968,
+     "sfx": [
+      [
+       "slam",
+       "w:closed",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s09b05",
+     "shot": "sorbonne",
+     "type": "STORY",
+     "text": "Protests spread to the Sorbonne in the centre of Paris.",
+     "date": 1968,
+     "sfx": [
+      [
+       "rumble",
+       4,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s09b06",
+     "shot": "barricades68",
+     "type": "STORY",
+     "text": "On the night of 10 May, barricades went up across the Latin Quarter,",
+     "date": 1968,
+     "sfx": [
+      [
+       "rumble",
+       0,
+       0.4
+      ]
+     ],
+     "amb": "camp"
+    },
+    {
+     "id": "s09b07",
+     "shot": "barricades68",
+     "type": "STORY",
+     "text": "police charged, hundreds were injured, and public sympathy swung toward the students.",
+     "date": 1968,
+     "sfx": [
+      [
+       "creak",
+       "w:sympathy",
+       0.4
+      ]
+     ],
+     "amb": "camp"
+    },
+    {
+     "id": "s09b08",
+     "shot": "strike_map",
+     "type": "INSERT",
+     "text": "Then the workers joined.",
+     "date": 1968,
+     "sfx": [
+      [
+       "pops",
+       "w:joined.",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s09b09",
+     "shot": "strike_map",
+     "type": "INSERT",
+     "text": "A one-day strike on 13 May became an open-ended one.",
+     "date": 1968,
+     "sfx": [
+      [
+       "machine",
+       0,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s09b10",
+     "shot": "strike_map",
+     "type": "INSERT",
+     "text": "By late May around ten million workers, roughly two thirds of the French workforce, were on strike.",
+     "date": 1968,
+     "sfx": [
+      [
+       "ticks",
+       4,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s09b11",
+     "shot": "strike_map",
+     "type": "INSERT",
+     "text": "Factories, trains, even broadcasting.",
+     "date": 1968,
+     "sfx": [
+      [
+       "hit",
+       "w:Factories,",
+       0.4
+      ],
+      [
+       "hit",
+       "w:trains,",
+       0.4
+      ],
+      [
+       "hit",
+       "w:broadcasting.",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s09b12",
+     "shot": "strike_map",
+     "type": "INSERT",
+     "text": "The country stopped.",
+     "date": 1968,
+     "sfx": [
+      [
+       "deflate",
+       "w:stopped.",
+       0.5
+      ]
+     ],
+     "quiet": true
+    },
+    {
+     "id": "s09b13",
+     "shot": "vanished",
+     "type": "STORY",
+     "text": "Then on 29 May, de Gaulle vanished.",
+     "date": 1968,
+     "sfx": [
+      [
+       "whoosh",
+       "w:vanished.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s09b14",
+     "shot": "vanished",
+     "type": "STORY",
+     "text": "For hours, nobody knew where the president of France was.",
+     "date": 1968,
+     "sfx": [
+      [
+       "ticks",
+       4,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s09b15",
+     "shot": "baden",
+     "type": "INSERT",
+     "text": "He had flown to Baden-Baden in Germany to see the general commanding French forces",
+     "date": 1968,
+     "sfx": [
+      [
+       "whoosh",
+       8,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s09b16",
+     "shot": "baden",
+     "type": "INSERT",
+     "text": "there, widely understood as a check that the army was behind him.",
+     "date": 1968,
+     "sfx": []
+    },
+    {
+     "id": "s09b17",
+     "shot": "landslide",
+     "type": "INSERT",
+     "text": "The next day he came back, announced elections,",
+     "date": 1968,
+     "sfx": []
+    },
+    {
+     "id": "s09b18",
+     "shot": "landslide",
+     "type": "INSERT",
+     "text": "and in June his supporters won a landslide.",
+     "date": 1968,
+     "sfx": [
+      [
+       "kaching",
+       "w:landslide.",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s09b19",
+     "shot": "landslide",
+     "type": "INSERT",
+     "text": "The unions got a deal too, with the minimum wage jumping by around 35 percent.",
+     "date": 1968,
+     "sfx": [
+      [
+       "coins",
+       "w:jumping",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s09b20",
+     "shot": "pattern",
+     "type": "HOST",
+     "text": "That's the French pattern worth remembering.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s09b21",
+     "shot": "pattern",
+     "type": "HOST",
+     "text": "A movement that looked like a revolution ended with a pay rise and a",
+     "date": null,
+     "sfx": [
+      [
+       "pop2",
+       "w:pay",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s09b22",
+     "shot": "pattern",
+     "type": "HOST",
+     "text": "landslide for the government.",
+     "date": null,
+     "sfx": [
+      [
+       "pop2",
+       "w:landslide",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s09b23",
+     "shot": "resign69",
+     "type": "STORY",
+     "text": "De Gaulle himself resigned less than a year later, after losing a referendum.",
+     "date": 1969,
+     "sfx": [
+      [
+       "stamp",
+       "w:referendum.",
+       0.5
+      ],
+      [
+       "steps",
+       "w:resigned",
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s09b24",
+     "shot": "sketch_cheese",
+     "type": "SKETCH",
+     "speaker": "A",
+     "text": "General, the students want change, the unions want raises, and the factories are closed.",
+     "date": 1968,
+     "sfx": [],
+     "mood": "playful"
+    },
+    {
+     "id": "s09b25",
+     "shot": "sketch_cheese",
+     "type": "SKETCH",
+     "speaker": "B",
+     "text": "How can one govern a country that has two hundred and forty-six kinds of cheese?",
+     "date": 1968,
+     "sfx": [
+      [
+       "pops",
+       "w:two",
+       0.4
+      ]
+     ],
+     "mood": "playful"
+    },
+    {
+     "id": "s09b26",
+     "shot": "sketch_cheese",
+     "type": "SKETCH",
+     "speaker": "A",
+     "text": "...Is that a plan?",
+     "date": 1968,
+     "sfx": [],
+     "mood": "playful"
+    },
+    {
+     "id": "s09b27",
+     "shot": "sketch_cheese",
+     "type": "SKETCH",
+     "speaker": "B",
+     "text": "It is a diagnosis.",
+     "date": 1968,
+     "sfx": [],
+     "mood": "playful"
+    },
+    {
+     "id": "s09b28",
+     "shot": "sketch_cheese",
+     "type": "SKETCH",
+     "speaker": "A",
+     "text": "Shall I write it down?",
+     "date": 1968,
+     "sfx": [],
+     "mood": "playful"
+    },
+    {
+     "id": "s09b29",
+     "shot": "sketch_cheese",
+     "type": "SKETCH",
+     "speaker": "B",
+     "text": "Write that it is attributed to me. In sixty years, nobody will check.",
+     "date": 1968,
+     "sfx": [],
+     "mood": "playful"
+    },
+    {
+     "id": "s09b30",
+     "shot": "subscribe2",
+     "type": "HOST",
+     "text": "Quick pause.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s09b31",
+     "shot": "subscribe2",
+     "type": "HOST",
+     "text": "If this is the history you wish someone would explain without the jargon,",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s09b32",
+     "shot": "subscribe2",
+     "type": "HOST",
+     "text": "subscribe, because the second half is where 1789 meets today.",
+     "date": null,
+     "sfx": [
+      [
+       "pop2",
+       "w:subscribe,",
+       0.5
+      ]
+     ]
+    }
+   ],
+   "mood": "tension"
+  }
+ ]
+}

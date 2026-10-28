@@ -1,0 +1,516 @@
+{
+ "sections": [
+  {
+   "title": "Act 2: The Bill",
+   "beats": [
+    {
+     "id": "s03b01",
+     "shot": "l16_intro",
+     "type": "HOST",
+     "text": "His name was Louis XVI.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s03b02",
+     "shot": "l16_profile",
+     "type": "STORY",
+     "text": "He became king at nineteen, in 1774, and by almost every account he was",
+     "date": 1774,
+     "sfx": [
+      [
+       "ding",
+       "w:nineteen,",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s03b03",
+     "shot": "l16_profile",
+     "type": "STORY",
+     "text": "a decent, well-meaning, slightly awkward man who would rather have been in his workshop.",
+     "date": 1774,
+     "sfx": [
+      [
+       "pop2",
+       "w:workshop.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s03b04",
+     "shot": "marie",
+     "type": "STORY",
+     "text": "His wife was Marie Antoinette, an Austrian princess who arrived in France as a",
+     "date": 1770,
+     "sfx": [
+      [
+       "sparkle",
+       "w:Marie",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s03b05",
+     "shot": "marie",
+     "type": "STORY",
+     "text": "teenager and was disliked at court almost immediately.",
+     "date": 1770,
+     "sfx": [
+      [
+       "blip",
+       "w:disliked",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s03b06",
+     "shot": "money_host",
+     "type": "HOST",
+     "text": "Here is how money worked in his kingdom.",
+     "date": null,
+     "sfx": [
+      [
+       "kaching",
+       "w:money",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s03b07",
+     "shot": "estates",
+     "type": "INSERT",
+     "text": "French society was split into three groups, called estates.",
+     "date": 1789,
+     "sfx": [
+      [
+       "pop2",
+       "w:three",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s03b08",
+     "shot": "estates",
+     "type": "INSERT",
+     "text": "The clergy were the first.",
+     "date": 1789,
+     "sfx": [
+      [
+       "pop2",
+       "w:clergy",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s03b09",
+     "shot": "estates",
+     "type": "INSERT",
+     "text": "The nobility were the second.",
+     "date": 1789,
+     "sfx": [
+      [
+       "pop2",
+       "w:nobility",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s03b10",
+     "shot": "estates",
+     "type": "INSERT",
+     "text": "Everyone else, about 98 percent of the country, was the Third Estate.",
+     "date": 1789,
+     "sfx": [
+      [
+       "thud",
+       "w:Everyone",
+       0.7
+      ]
+     ]
+    },
+    {
+     "id": "s03b11",
+     "shot": "estates",
+     "type": "INSERT",
+     "text": "And the first two were largely exempt from the biggest direct tax.",
+     "date": 1789,
+     "sfx": [
+      [
+       "stamp",
+       "w:exempt",
+       0.8
+      ]
+     ]
+    },
+    {
+     "id": "s03b12",
+     "shot": "estates",
+     "type": "INSERT",
+     "text": "So the richest people in the kingdom paid the least,",
+     "date": 1789,
+     "sfx": [
+      [
+       "coins",
+       "w:paid",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s03b13",
+     "shot": "estates",
+     "type": "INSERT",
+     "text": "and the poorest paid the most.",
+     "date": 1789,
+     "sfx": [
+      [
+       "coins",
+       "w:most.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s03b14",
+     "shot": "america",
+     "type": "INSERT",
+     "text": "Then the king made it worse by backing the American Revolution, to hurt Britain.",
+     "date": 1778,
+     "sfx": [
+      [
+       "swish",
+       0,
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s03b15",
+     "shot": "america",
+     "type": "INSERT",
+     "text": "France helped America win independence, which cost more than a billion livres,",
+     "date": 1783,
+     "sfx": [
+      [
+       "coins",
+       "w:billion",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s03b16",
+     "shot": "america",
+     "type": "INSERT",
+     "text": "and in exchange got bankruptcy.",
+     "date": 1783,
+     "sfx": [
+      [
+       "deflate",
+       "w:bankruptcy.",
+       0.7
+      ]
+     ]
+    },
+    {
+     "id": "s03b17",
+     "shot": "interest",
+     "type": "INSERT",
+     "text": "By the 1780s roughly half the royal budget was going on interest alone.",
+     "date": 1786,
+     "sfx": [
+      [
+       "pop2",
+       "w:half",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s03b18",
+     "shot": "interest",
+     "type": "INSERT",
+     "text": "That's like spending half your salary on the minimum payment on a credit card, forever.",
+     "date": 1786,
+     "sfx": [
+      [
+       "stamp",
+       "w:forever.",
+       0.7
+      ]
+     ]
+    },
+    {
+     "id": "s03b19",
+     "shot": "blocked",
+     "type": "STORY",
+     "text": "Finance ministers tried to fix it by taxing the privileged.",
+     "date": 1786,
+     "sfx": []
+    },
+    {
+     "id": "s03b20",
+     "shot": "blocked",
+     "type": "STORY",
+     "text": "Every single time, the privileged blocked it.",
+     "date": 1786,
+     "sfx": [
+      [
+       "slam",
+       "w:blocked",
+       0.8
+      ]
+     ]
+    },
+    {
+     "id": "s03b21",
+     "shot": "notables",
+     "type": "STORY",
+     "text": "In 1787 the king even called an Assembly of Notables to approve reforms,",
+     "date": 1787,
+     "sfx": []
+    },
+    {
+     "id": "s03b22",
+     "shot": "notables",
+     "type": "STORY",
+     "text": "and they said no.",
+     "date": 1787,
+     "sfx": [
+      [
+       "boom",
+       "w:no.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s03b23",
+     "shot": "locked_system",
+     "type": "INSERT",
+     "text": "So the system was locked: the people with money wouldn't pay,",
+     "date": 1787,
+     "sfx": [
+      [
+       "clang",
+       "w:locked:",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s03b24",
+     "shot": "locked_system",
+     "type": "INSERT",
+     "text": "and the people without money couldn't.",
+     "date": 1787,
+     "sfx": [
+      [
+       "thud",
+       "w:couldn't.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s03b25",
+     "shot": "hail",
+     "type": "STORY",
+     "text": "Then nature piled on.",
+     "date": 1788,
+     "sfx": [
+      [
+       "rumble",
+       0,
+       0.6
+      ]
+     ],
+     "mood": "tension"
+    },
+    {
+     "id": "s03b26",
+     "shot": "hail",
+     "type": "STORY",
+     "text": "In July 1788 a freak hailstorm destroyed crops across northern France.",
+     "date": 1788,
+     "sfx": [
+      [
+       "rumble",
+       "w:hailstorm",
+       0.7
+      ]
+     ],
+     "mood": "tension"
+    },
+    {
+     "id": "s03b27",
+     "shot": "winter",
+     "type": "STORY",
+     "text": "Then came one of the coldest winters anyone could remember.",
+     "date": 1789,
+     "sfx": [],
+     "mood": "tension"
+    },
+    {
+     "id": "s03b28",
+     "shot": "bread_bar",
+     "type": "INSERT",
+     "text": "Grain collapsed, bread prices spiked, and by the summer of 1789,",
+     "date": 1789,
+     "sfx": [
+      [
+       "slide_down",
+       "w:collapsed,",
+       0.4
+      ]
+     ],
+     "mood": "tension"
+    },
+    {
+     "id": "s03b29",
+     "shot": "bread_bar",
+     "type": "INSERT",
+     "text": "by some estimates, a labourer was spending up to 88 percent of his wages on bread alone.",
+     "date": 1789,
+     "sfx": [
+      [
+       "impact",
+       "w:88",
+       0.7
+      ]
+     ],
+     "mood": "tension"
+    },
+    {
+     "id": "s03b30",
+     "shot": "cake",
+     "type": "STORY",
+     "text": "And no, Marie Antoinette never said 'let them eat cake.' That line appears in",
+     "date": null,
+     "sfx": [
+      [
+       "stamp",
+       "w:never",
+       0.7
+      ]
+     ]
+    },
+    {
+     "id": "s03b31",
+     "shot": "cake",
+     "type": "STORY",
+     "text": "Rousseau's Confessions, written when she was a child in Austria.",
+     "date": null,
+     "sfx": [
+      [
+       "paper",
+       "w:Confessions,",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s03b32",
+     "shot": "feels_true",
+     "type": "STORY",
+     "text": "It was a story people told about out-of-touch royals long before she arrived.",
+     "date": null,
+     "sfx": [
+      [
+       "pops",
+       8,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s03b33",
+     "shot": "feels_true",
+     "type": "STORY",
+     "text": "It stuck because it felt true.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s03b34",
+     "shot": "feels_true",
+     "type": "STORY",
+     "text": "And in a crisis, what feels true often matters more than what is.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s03b35",
+     "shot": "asks_people",
+     "type": "STORY",
+     "text": "By 1788 the king was out of options,",
+     "date": 1788,
+     "sfx": []
+    },
+    {
+     "id": "s03b36",
+     "shot": "asks_people",
+     "type": "STORY",
+     "text": "so he did something no French king had done for 175 years.",
+     "date": 1788,
+     "sfx": [
+      [
+       "ticks",
+       "w:175",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s03b37",
+     "shot": "asks_people",
+     "type": "STORY",
+     "text": "He asked the people.",
+     "date": 1788,
+     "sfx": [
+      [
+       "whoosh",
+       "w:people.",
+       0.6
+      ],
+      [
+       "paper",
+       "w:people.",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s03b38",
+     "shot": "dynasty_end",
+     "type": "STORY",
+     "text": "He had no idea he was calling the meeting that would end his dynasty.",
+     "date": 1789,
+     "sfx": [
+      [
+       "drone",
+       0,
+       0.4
+      ],
+      [
+       "crack",
+       "w:end",
+       0.6
+      ]
+     ],
+     "mood": "tension"
+    }
+   ],
+   "mood": "curious"
+  }
+ ]
+}
