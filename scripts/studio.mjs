@@ -15,6 +15,7 @@
  *   render   <project> [start end] [--workers N] [--out file]   → out/video.mp4 (silent)
  *   sfx      <project>                synthesise the sound-effects mix → build/sfx.wav
  *   mux      <project> [--video f]    video + sfx (+ voiceover) → out/<project>.mp4
+ *   stems    <project>                separate voice / sfx / music WAVs + no-voice video + edit list → out/stems/
  *   all      <project>                check → render → sfx → mux
  */
 import fs from 'fs';
@@ -197,7 +198,9 @@ const commands = {
     const tl = JSON.parse(fs.readFileSync(path.join(BUILD, 'timeline.json'), 'utf8'));
     const out = path.join(OUT, `${projectName}.mp4`);
     // the aligner may have written a version with long dead air shortened; timings refer to that one
-    const vo = [path.join(BUILD, 'voiceover_edit.m4a'), ...['voiceover.mp3', 'voiceover.wav', 'voiceover.m4a', 'voiceover.ogg'].map((f) => path.join(P, f))].find((f) => fs.existsSync(f));
+    const hqSrc = ['voiceover_hq.wav', 'voiceover_hq.flac', 'voiceover_hq.aiff', 'voiceover_hq.m4a'].some((f) => fs.existsSync(path.join(P, f)));
+    if (hqSrc) sh(python(), [path.join(ROOT, 'scripts', 'apply_cuts.py'), P]);
+    const vo = [path.join(BUILD, 'voiceover_edit_hq.wav'), path.join(BUILD, 'voiceover_edit.m4a'), ...['voiceover.mp3', 'voiceover.wav', 'voiceover.m4a', 'voiceover.ogg'].map((f) => path.join(P, f))].find((f) => fs.existsSync(f));
     const args = ['-v', 'error', '-y', '-i', video, '-i', path.join(BUILD, 'sfx.wav')];
     const mix = config().mix;
     const music = path.join(BUILD, 'music.wav');
@@ -231,6 +234,41 @@ const commands = {
     args.push('-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-shortest', '-movflags', '+faststart', out);
     sh('ffmpeg', args);
     console.log('wrote', path.relative(ROOT, out));
+  },
+
+  /** Separate tracks for editing elsewhere: voice, effects, music, the picture with no voice, and the edit list. */
+  stems() {
+    needProject();
+    const tl = JSON.parse(fs.readFileSync(path.join(BUILD, 'timeline.json'), 'utf8'));
+    const dir = path.join(OUT, 'stems'); fs.mkdirSync(dir, { recursive: true });
+    const hqSrc = ['voiceover_hq.wav', 'voiceover_hq.flac', 'voiceover_hq.aiff', 'voiceover_hq.m4a'].some((f) => fs.existsSync(path.join(P, f)));
+    if (hqSrc) sh(python(), [path.join(ROOT, 'scripts', 'apply_cuts.py'), P]);
+    const vo = [path.join(BUILD, 'voiceover_edit_hq.wav'), path.join(BUILD, 'voiceover_edit.m4a')].find((f) => fs.existsSync(f));
+    const total = (tl.total / tl.fps).toFixed(3);
+    // voice laid out on the video timeline (card gaps included), full length, 24-bit 48 kHz
+    if (vo) {
+      const segs = tl.voSegments ?? [{ src: [0, null], at: tl.voOffset ?? 0 }];
+      const parts = segs.map((g, i) => { const ms = Math.round(g.at * 1000); return `[0:a]atrim=start=${g.src[0]}${g.src[1] === null ? '' : `:end=${g.src[1]}`},asetpts=PTS-STARTPTS,adelay=${ms}|${ms}[v${i}]`; });
+      sh('ffmpeg', ['-v', 'error', '-y', '-i', vo, '-filter_complex', `${parts.join(';')};${segs.map((_, i) => `[v${i}]`).join('')}amix=inputs=${segs.length}:normalize=0,apad=whole_dur=${total},atrim=end=${total}[a]`, '-map', '[a]', '-ar', '48000', '-c:a', 'pcm_s24le', path.join(dir, '1-voice.wav')]);
+    }
+    const fx = path.join(BUILD, 'sfx.wav'), music = path.join(BUILD, 'music.wav');
+    if (fs.existsSync(fx)) sh('ffmpeg', ['-v', 'error', '-y', '-i', fx, '-af', `apad=whole_dur=${total},atrim=end=${total}`, '-ar', '48000', '-c:a', 'pcm_s24le', path.join(dir, '2-sfx.wav')]);
+    if (fs.existsSync(music)) sh('ffmpeg', ['-v', 'error', '-y', '-i', music, '-af', `apad=whole_dur=${total},atrim=end=${total}`, '-ar', '48000', '-c:a', 'pcm_s24le', path.join(dir, '3-music.wav')]);
+    const video = path.join(OUT, 'video.mp4');
+    if (fs.existsSync(video) && fs.existsSync(fx)) {
+      const ins = ['-i', video, '-i', path.join(dir, '2-sfx.wav'), ...(fs.existsSync(music) ? ['-i', path.join(dir, '3-music.wav')] : [])];
+      const n = fs.existsSync(music) ? 2 : 1;
+      sh('ffmpeg', ['-v', 'error', '-y', ...ins, '-filter_complex', n === 2 ? '[1:a][2:a]amix=inputs=2:normalize=0[a]' : '[1:a]anull[a]', '-map', '0:v', '-map', '[a]', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '256k', path.join(dir, '0-picture-and-effects-no-voice.mp4')]);
+    }
+    // edit list: what was cut from the original recording, and where each slice of it plays in the video
+    const al = fs.existsSync(path.join(BUILD, 'vo_align.json')) ? JSON.parse(fs.readFileSync(path.join(BUILD, 'vo_align.json'), 'utf8')) : { cuts: [] };
+    const mmss = (t) => `${Math.floor(t / 60)}:${(t % 60).toFixed(2).padStart(5, '0')}`;
+    const lines = ['# Edits made to the original voice recording (times in the ORIGINAL file)', 'cut_from,cut_to,length_s'];
+    (al.cuts ?? []).forEach(([a, b]) => lines.push(`${mmss(a)},${mmss(b)},${(b - a).toFixed(2)}`));
+    lines.push('', '# Where the edited voice plays in the video (section cards open gaps)', 'edited_from,edited_to,video_at');
+    (tl.voSegments ?? []).forEach((g) => lines.push(`${mmss(g.src[0])},${g.src[1] === null ? 'end' : mmss(g.src[1])},${mmss(g.at)}`));
+    fs.writeFileSync(path.join(dir, 'edit-list.csv'), lines.join('\n') + '\n');
+    console.log('stems ->', path.relative(ROOT, dir), fs.readdirSync(dir).join(', '));
   },
 
   async all() { await commands.check(); if (process.exitCode) return; await commands.render(); commands.sfx(); commands.mux(); },

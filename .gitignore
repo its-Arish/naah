@@ -9,3 +9,6 @@ __pycache__/
 projects/*/voiceover.wav
 projects/*/voiceover.aiff
 projects/*/voiceover.flac
+
+# full-quality voice files are too big for the repo: attach them in the chat or a GitHub Release
+projects/*/voiceover_hq.*
