@@ -1,0 +1,330 @@
+{
+ "name": "CLERGY",
+ "width": 447,
+ "height": 990,
+ "scale": 3,
+ "origin": [
+  225,
+  942
+ ],
+ "note": "Pixels from the top-left of the canvas. origin = point between the feet. pivot = the joint a layer rotates around. Layers are listed bottom to top; hidden ones are alternate mouths, eyes, brows and hands to swap in.",
+ "root": {
+  "name": "CLERGY",
+  "pivot": [
+   225,
+   942
+  ],
+  "children": [
+   {
+    "name": "Right Arm",
+    "pivot": [
+     147,
+     432
+    ],
+    "children": [
+     {
+      "name": "Right Forearm",
+      "pivot": [
+       122.1,
+       549.3
+      ],
+      "file": "parts/01_Right_Forearm.png"
+     },
+     {
+      "name": "Right Upper Arm",
+      "pivot": [
+       147,
+       432
+      ],
+      "file": "parts/02_Right_Upper_Arm.png"
+     },
+     {
+      "name": "Right Hand",
+      "pivot": [
+       79.2,
+       655.2
+      ],
+      "file": "parts/03_Right_Hand.png"
+     }
+    ]
+   },
+   {
+    "name": "Body",
+    "pivot": [
+     225,
+     672
+    ],
+    "children": [
+     {
+      "name": "Torso",
+      "file": "parts/04_Torso.png"
+     },
+     {
+      "name": "Trim",
+      "file": "parts/05_Trim.png"
+     }
+    ]
+   },
+   {
+    "name": "Head",
+    "pivot": [
+     225,
+     402
+    ],
+    "children": [
+     {
+      "name": "Face",
+      "file": "parts/06_Face.png"
+     },
+     {
+      "name": "Right Eye",
+      "pivot": [
+       174,
+       228
+      ],
+      "children": [
+       {
+        "name": "Right Pupil",
+        "file": "parts/07_Right_Pupil.png"
+       },
+       {
+        "name": "Right Blink",
+        "hidden": true,
+        "file": "parts/08_Right_Blink.png"
+       },
+       {
+        "name": "Right Eye Calm",
+        "hidden": true,
+        "file": "parts/09_Right_Eye_Calm.png"
+       },
+       {
+        "name": "Right Eye Shock",
+        "hidden": true,
+        "file": "parts/10_Right_Eye_Shock.png"
+       },
+       {
+        "name": "Right Eye Grin",
+        "hidden": true,
+        "file": "parts/11_Right_Eye_Grin.png"
+       }
+      ]
+     },
+     {
+      "name": "Left Eye",
+      "pivot": [
+       276,
+       228
+      ],
+      "children": [
+       {
+        "name": "Left Pupil",
+        "file": "parts/12_Left_Pupil.png"
+       },
+       {
+        "name": "Left Blink",
+        "hidden": true,
+        "file": "parts/13_Left_Blink.png"
+       },
+       {
+        "name": "Left Eye Calm",
+        "hidden": true,
+        "file": "parts/14_Left_Eye_Calm.png"
+       },
+       {
+        "name": "Left Eye Shock",
+        "hidden": true,
+        "file": "parts/15_Left_Eye_Shock.png"
+       },
+       {
+        "name": "Left Eye Grin",
+        "hidden": true,
+        "file": "parts/16_Left_Eye_Grin.png"
+       }
+      ]
+     },
+     {
+      "name": "Right Eyebrow",
+      "pivot": [
+       169.5,
+       180
+      ],
+      "children": [
+       {
+        "name": "Right Eyebrow Neutral",
+        "file": "parts/17_Right_Eyebrow_Neutral.png"
+       },
+       {
+        "name": "Right Eyebrow Angry",
+        "hidden": true,
+        "file": "parts/18_Right_Eyebrow_Angry.png"
+       },
+       {
+        "name": "Right Eyebrow Sad",
+        "hidden": true,
+        "file": "parts/19_Right_Eyebrow_Sad.png"
+       },
+       {
+        "name": "Right Eyebrow Determined",
+        "hidden": true,
+        "file": "parts/20_Right_Eyebrow_Determined.png"
+       }
+      ]
+     },
+     {
+      "name": "Left Eyebrow",
+      "pivot": [
+       280.5,
+       180
+      ],
+      "children": [
+       {
+        "name": "Left Eyebrow Neutral",
+        "file": "parts/21_Left_Eyebrow_Neutral.png"
+       },
+       {
+        "name": "Left Eyebrow Angry",
+        "hidden": true,
+        "file": "parts/22_Left_Eyebrow_Angry.png"
+       },
+       {
+        "name": "Left Eyebrow Sad",
+        "hidden": true,
+        "file": "parts/23_Left_Eyebrow_Sad.png"
+       },
+       {
+        "name": "Left Eyebrow Determined",
+        "hidden": true,
+        "file": "parts/24_Left_Eyebrow_Determined.png"
+       }
+      ]
+     },
+     {
+      "name": "Mouth",
+      "pivot": [
+       225,
+       324
+      ],
+      "children": [
+       {
+        "name": "Neutral",
+        "file": "parts/25_Neutral.png"
+       },
+       {
+        "name": "Smile",
+        "hidden": true,
+        "file": "parts/26_Smile.png"
+       },
+       {
+        "name": "Frown",
+        "hidden": true,
+        "file": "parts/27_Frown.png"
+       },
+       {
+        "name": "Surprised",
+        "hidden": true,
+        "file": "parts/28_Surprised.png"
+       },
+       {
+        "name": "Aa",
+        "hidden": true,
+        "file": "parts/29_Aa.png"
+       },
+       {
+        "name": "D",
+        "hidden": true,
+        "file": "parts/30_D.png"
+       },
+       {
+        "name": "Ee",
+        "hidden": true,
+        "file": "parts/31_Ee.png"
+       },
+       {
+        "name": "F",
+        "hidden": true,
+        "file": "parts/32_F.png"
+       },
+       {
+        "name": "L",
+        "hidden": true,
+        "file": "parts/33_L.png"
+       },
+       {
+        "name": "M",
+        "hidden": true,
+        "file": "parts/34_M.png"
+       },
+       {
+        "name": "Oh",
+        "hidden": true,
+        "file": "parts/35_Oh.png"
+       },
+       {
+        "name": "R",
+        "hidden": true,
+        "file": "parts/36_R.png"
+       },
+       {
+        "name": "S",
+        "hidden": true,
+        "file": "parts/37_S.png"
+       },
+       {
+        "name": "Uh",
+        "hidden": true,
+        "file": "parts/38_Uh.png"
+       },
+       {
+        "name": "W-Oo",
+        "hidden": true,
+        "file": "parts/39_W-Oo.png"
+       },
+       {
+        "name": "Grin",
+        "hidden": true,
+        "file": "parts/40_Grin.png"
+       }
+      ]
+     },
+     {
+      "name": "Hat",
+      "file": "parts/41_Hat.png"
+     }
+    ]
+   },
+   {
+    "name": "Left Arm",
+    "pivot": [
+     303,
+     432
+    ],
+    "children": [
+     {
+      "name": "Left Forearm",
+      "pivot": [
+       327.9,
+       549.3
+      ],
+      "file": "parts/42_Left_Forearm.png"
+     },
+     {
+      "name": "Left Upper Arm",
+      "pivot": [
+       303,
+       432
+      ],
+      "file": "parts/43_Left_Upper_Arm.png"
+     },
+     {
+      "name": "Left Hand",
+      "pivot": [
+       370.8,
+       655.2
+      ],
+      "file": "parts/44_Left_Hand.png"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,398 @@
+{
+ "name": "HOST",
+ "width": 756,
+ "height": 1968,
+ "scale": 3,
+ "origin": [
+  291,
+  1890
+ ],
+ "note": "Pixels from the top-left of the canvas. origin = point between the feet. pivot = the joint a layer rotates around. Layers are listed bottom to top; hidden ones are alternate mouths, eyes, brows and hands to swap in.",
+ "root": {
+  "name": "Host",
+  "pivot": [
+   291,
+   1890
+  ],
+  "children": [
+   {
+    "name": "Staff",
+    "pivot": [
+     611.7,
+     1044.6
+    ],
+    "file": "parts/01_Staff.png"
+   },
+   {
+    "name": "Staff Cloth",
+    "pivot": [
+     617.7,
+     210
+    ],
+    "file": "parts/02_Staff_Cloth.png"
+   },
+   {
+    "name": "Right Leg",
+    "pivot": [
+     291,
+     1245
+    ],
+    "children": [
+     {
+      "name": "Right Thigh",
+      "file": "parts/03_Right_Thigh.png"
+     },
+     {
+      "name": "Right Shin",
+      "pivot": [
+       249,
+       1560
+      ],
+      "file": "parts/04_Right_Shin.png"
+     },
+     {
+      "name": "Right Foot",
+      "pivot": [
+       177,
+       1890
+      ],
+      "file": "parts/05_Right_Foot.png"
+     }
+    ]
+   },
+   {
+    "name": "Left Leg",
+    "pivot": [
+     291,
+     1245
+    ],
+    "children": [
+     {
+      "name": "Left Thigh",
+      "file": "parts/06_Left_Thigh.png"
+     },
+     {
+      "name": "Left Shin",
+      "pivot": [
+       339,
+       1560
+      ],
+      "file": "parts/07_Left_Shin.png"
+     },
+     {
+      "name": "Left Foot",
+      "pivot": [
+       399,
+       1890
+      ],
+      "file": "parts/08_Left_Foot.png"
+     }
+    ]
+   },
+   {
+    "name": "Body",
+    "pivot": [
+     291,
+     1245
+    ],
+    "children": [
+     {
+      "name": "Spine",
+      "file": "parts/09_Spine.png"
+     },
+     {
+      "name": "Waist Cloth",
+      "file": "parts/10_Waist_Cloth.png"
+     },
+     {
+      "name": "Sash",
+      "file": "parts/11_Sash.png"
+     }
+    ]
+   },
+   {
+    "name": "Left Arm",
+    "pivot": [
+     291,
+     750
+    ],
+    "children": [
+     {
+      "name": "Left Upper Arm",
+      "file": "parts/12_Left_Upper_Arm.png"
+     },
+     {
+      "name": "Left Forearm",
+      "pivot": [
+       451.5,
+       928.5
+      ],
+      "file": "parts/13_Left_Forearm.png"
+     },
+     {
+      "name": "Left Hand",
+      "pivot": [
+       611.7,
+       1044.6
+      ],
+      "file": "parts/14_Left_Hand.png"
+     }
+    ]
+   },
+   {
+    "name": "Right Arm",
+    "pivot": [
+     291,
+     750
+    ],
+    "children": [
+     {
+      "name": "Right Upper Arm",
+      "file": "parts/15_Right_Upper_Arm.png"
+     },
+     {
+      "name": "Right Forearm",
+      "pivot": [
+       209.4,
+       1001.1
+      ],
+      "file": "parts/16_Right_Forearm.png"
+     },
+     {
+      "name": "Right Hand",
+      "pivot": [
+       79.2,
+       1209.6
+      ],
+      "file": "parts/17_Right_Hand.png"
+     },
+     {
+      "name": "Right Hand Open",
+      "hidden": true,
+      "pivot": [
+       79.2,
+       1209.6
+      ],
+      "file": "parts/18_Right_Hand_Open.png"
+     }
+    ]
+   },
+   {
+    "name": "Head",
+    "pivot": [
+     291,
+     660
+    ],
+    "children": [
+     {
+      "name": "Face",
+      "file": "parts/19_Face.png"
+     },
+     {
+      "name": "Right Eye",
+      "pivot": [
+       228,
+       444
+      ],
+      "children": [
+       {
+        "name": "Right Pupil",
+        "file": "parts/20_Right_Pupil.png"
+       },
+       {
+        "name": "Right Blink",
+        "hidden": true,
+        "file": "parts/21_Right_Blink.png"
+       },
+       {
+        "name": "Right Eye Shock",
+        "hidden": true,
+        "file": "parts/22_Right_Eye_Shock.png"
+       },
+       {
+        "name": "Right Eye Grin",
+        "hidden": true,
+        "file": "parts/23_Right_Eye_Grin.png"
+       }
+      ]
+     },
+     {
+      "name": "Left Eye",
+      "pivot": [
+       360,
+       444
+      ],
+      "children": [
+       {
+        "name": "Left Pupil",
+        "file": "parts/24_Left_Pupil.png"
+       },
+       {
+        "name": "Left Blink",
+        "hidden": true,
+        "file": "parts/25_Left_Blink.png"
+       },
+       {
+        "name": "Left Eye Shock",
+        "hidden": true,
+        "file": "parts/26_Left_Eye_Shock.png"
+       },
+       {
+        "name": "Left Eye Grin",
+        "hidden": true,
+        "file": "parts/27_Left_Eye_Grin.png"
+       }
+      ]
+     },
+     {
+      "name": "Right Eyebrow",
+      "pivot": [
+       222,
+       381
+      ],
+      "children": [
+       {
+        "name": "Right Eyebrow Worried",
+        "hidden": true,
+        "file": "parts/28_Right_Eyebrow_Worried.png"
+       },
+       {
+        "name": "Right Eyebrow Proud",
+        "hidden": true,
+        "file": "parts/29_Right_Eyebrow_Proud.png"
+       }
+      ]
+     },
+     {
+      "name": "Left Eyebrow",
+      "pivot": [
+       360,
+       381
+      ],
+      "children": [
+       {
+        "name": "Left Eyebrow Worried",
+        "hidden": true,
+        "file": "parts/30_Left_Eyebrow_Worried.png"
+       },
+       {
+        "name": "Left Eyebrow Proud",
+        "hidden": true,
+        "file": "parts/31_Left_Eyebrow_Proud.png"
+       }
+      ]
+     },
+     {
+      "name": "Mouth",
+      "pivot": [
+       294,
+       564
+      ],
+      "children": [
+       {
+        "name": "Neutral",
+        "hidden": true,
+        "file": "parts/32_Neutral.png"
+       },
+       {
+        "name": "Smile",
+        "file": "parts/33_Smile.png"
+       },
+       {
+        "name": "Frown",
+        "hidden": true,
+        "file": "parts/34_Frown.png"
+       },
+       {
+        "name": "Surprised",
+        "hidden": true,
+        "file": "parts/35_Surprised.png"
+       },
+       {
+        "name": "Aa",
+        "hidden": true,
+        "file": "parts/36_Aa.png"
+       },
+       {
+        "name": "D",
+        "hidden": true,
+        "file": "parts/37_D.png"
+       },
+       {
+        "name": "Ee",
+        "hidden": true,
+        "file": "parts/38_Ee.png"
+       },
+       {
+        "name": "F",
+        "hidden": true,
+        "file": "parts/39_F.png"
+       },
+       {
+        "name": "L",
+        "hidden": true,
+        "file": "parts/40_L.png"
+       },
+       {
+        "name": "M",
+        "hidden": true,
+        "file": "parts/41_M.png"
+       },
+       {
+        "name": "Oh",
+        "hidden": true,
+        "file": "parts/42_Oh.png"
+       },
+       {
+        "name": "R",
+        "hidden": true,
+        "file": "parts/43_R.png"
+       },
+       {
+        "name": "S",
+        "hidden": true,
+        "file": "parts/44_S.png"
+       },
+       {
+        "name": "Uh",
+        "hidden": true,
+        "file": "parts/45_Uh.png"
+       },
+       {
+        "name": "W-Oo",
+        "hidden": true,
+        "file": "parts/46_W-Oo.png"
+       },
+       {
+        "name": "Smile Open",
+        "hidden": true,
+        "file": "parts/47_Smile_Open.png"
+       },
+       {
+        "name": "Grin",
+        "hidden": true,
+        "file": "parts/48_Grin.png"
+       }
+      ]
+     },
+     {
+      "name": "Turban Tail",
+      "pivot": [
+       453,
+       330
+      ],
+      "file": "parts/49_Turban_Tail.png"
+     },
+     {
+      "name": "Turban",
+      "pivot": [
+       291,
+       270
+      ],
+      "file": "parts/50_Turban.png"
+     }
+    ]
+   }
+  ]
+ }
+}

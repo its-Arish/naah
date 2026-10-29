@@ -227,7 +227,7 @@ export const ChibiFace: React.FC<{ expr: string; blink: boolean; mouth: number; 
   );
 };
 
-const Hat: React.FC<{ kind: string; color?: string; frame: number }> = ({ kind, color, frame }) => {
+export const Hat: React.FC<{ kind: string; color?: string; frame: number }> = ({ kind, color, frame }) => {
   switch (kind) {
     case 'gandhicap':
       return <path d="M-48 -262 L-40 -300 L40 -300 L48 -262 Q0 -270 -48 -262 Z" fill="#F4F7FA" stroke={OL} strokeWidth={3} />;
