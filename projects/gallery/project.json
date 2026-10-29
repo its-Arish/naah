@@ -1,0 +1,9 @@
+{
+ "title": "Studio Gallery",
+ "fps": 30,
+ "wordsPerSecond": 3.2,
+ "openingSeconds": 1,
+ "cardSeconds": 1,
+ "endSeconds": 1,
+ "dateTag": false
+}

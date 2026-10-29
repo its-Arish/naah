@@ -2,7 +2,11 @@
 
 Everything here is importable from a project's `shots.tsx`. Positions are in the 1920×1080 frame; a `<Layer depth>` inside a `<CameraRig>` gives parallax (0 = far background, 1 = action plane).
 
-The quickest way to see what something looks like is to search `projects/india-1000-years/src/` for its name and render that shot with `studio stills`.
+**See it first:** `docs/gallery/*.png` shows everything below as picture sheets with names (rebuild with `bash projects/gallery/export.sh`).
+
+**Costumes:** `engine/cast/Wardrobe.ts` has ready-made outfits from every film so far (people, royalty, soldiers from Roman to Vietnam era, Southeast Asia). `<Chibi x y {...W.NVA} pose="hold" />`; change a costume with `dress(base, { hat, outfit: { top } })`. Real politicians: `Silhouette` from `engine/cast/Silhouette.tsx`. Overlays: `Stamp`, `Counter`, `Note` (top-right corner correction), `Card`, `Calendar`, `Bars`, `CoinArc` from `engine/fx/Infographics.tsx`. Vietnam-era vehicles, flags, buildings, the Indochina map and backgrounds: `engine/scenes/Vietnam.tsx`.
+
+The quickest way to see what something looks like in motion is to search `projects/india-1000-years/src/` for its name and render that shot with `studio stills`.
 
 ## The narrator (`Host`)
 

@@ -1,0 +1,119 @@
+{
+ "title": "Studio Gallery",
+ "sections": [
+  {
+   "title": "Gallery",
+   "card": false,
+   "beats": [
+    {
+     "id": "wardrobe1",
+     "shot": "wardrobe1",
+     "type": "INSERT",
+     "date": null,
+     "text": "",
+     "quiet": true,
+     "hold": 2
+    },
+    {
+     "id": "wardrobe2",
+     "shot": "wardrobe2",
+     "type": "INSERT",
+     "date": null,
+     "text": "",
+     "quiet": true,
+     "hold": 2
+    },
+    {
+     "id": "wardrobe3",
+     "shot": "wardrobe3",
+     "type": "INSERT",
+     "date": null,
+     "text": "",
+     "quiet": true,
+     "hold": 2
+    },
+    {
+     "id": "hats",
+     "shot": "hats",
+     "type": "INSERT",
+     "date": null,
+     "text": "",
+     "quiet": true,
+     "hold": 2
+    },
+    {
+     "id": "poses",
+     "shot": "poses",
+     "type": "INSERT",
+     "date": null,
+     "text": "",
+     "quiet": true,
+     "hold": 2
+    },
+    {
+     "id": "bg1",
+     "shot": "bg1",
+     "type": "INSERT",
+     "date": null,
+     "text": "",
+     "quiet": true,
+     "hold": 2
+    },
+    {
+     "id": "bg2",
+     "shot": "bg2",
+     "type": "INSERT",
+     "date": null,
+     "text": "",
+     "quiet": true,
+     "hold": 2
+    },
+    {
+     "id": "bg3",
+     "shot": "bg3",
+     "type": "INSERT",
+     "date": null,
+     "text": "",
+     "quiet": true,
+     "hold": 2
+    },
+    {
+     "id": "bg4",
+     "shot": "bg4",
+     "type": "INSERT",
+     "date": null,
+     "text": "",
+     "quiet": true,
+     "hold": 2
+    },
+    {
+     "id": "vehicles",
+     "shot": "vehicles",
+     "type": "INSERT",
+     "date": null,
+     "text": "",
+     "quiet": true,
+     "hold": 2
+    },
+    {
+     "id": "nature",
+     "shot": "nature",
+     "type": "INSERT",
+     "date": null,
+     "text": "",
+     "quiet": true,
+     "hold": 2
+    },
+    {
+     "id": "infographics",
+     "shot": "infographics",
+     "type": "INSERT",
+     "date": null,
+     "text": "",
+     "quiet": true,
+     "hold": 2
+    }
+   ]
+  }
+ ]
+}
