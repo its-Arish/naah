@@ -1,0 +1,653 @@
+{
+ "sections": [
+  {
+   "title": "Chapter 8: Nixon's Secret War",
+   "beats": [
+    {
+     "id": "s09b01",
+     "shot": "vietnamization",
+     "type": "STORY",
+     "text": "Nixon's strategy was called Vietnamization.",
+     "sfx": [],
+     "date": 1969
+    },
+    {
+     "id": "s09b02",
+     "shot": "vietnamization",
+     "type": "STORY",
+     "text": "The idea was to gradually withdraw American combat troops while training and equipping South",
+     "date": 1969,
+     "sfx": [
+      [
+       "steps",
+       4,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s09b03",
+     "shot": "vietnamization",
+     "type": "STORY",
+     "text": "Vietnamese forces to take over the fighting.",
+     "date": 1969,
+     "sfx": []
+    },
+    {
+     "id": "s09b04",
+     "shot": "vietnamization",
+     "type": "STORY",
+     "text": "On paper, it offered a way to bring American soldiers home without allowing South",
+     "date": 1969,
+     "sfx": []
+    },
+    {
+     "id": "s09b05",
+     "shot": "vietnamization",
+     "type": "STORY",
+     "text": "Vietnam to collapse immediately.",
+     "date": 1969,
+     "sfx": []
+    },
+    {
+     "id": "s09b06",
+     "shot": "contradiction",
+     "type": "HOST",
+     "text": "But there was a contradiction at the heart of the plan.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s09b07",
+     "shot": "contradiction",
+     "type": "HOST",
+     "text": "Nixon wanted to reduce America's direct involvement.",
+     "date": null,
+     "sfx": [
+      [
+       "pop2",
+       "w:reduce",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s09b08",
+     "shot": "contradiction",
+     "type": "HOST",
+     "text": "At the same time, he wanted to increase pressure on North Vietnam.",
+     "date": null,
+     "sfx": [
+      [
+       "pop2",
+       "w:increase",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s09b09",
+     "shot": "contradiction",
+     "type": "HOST",
+     "text": "And that meant expanding the war beyond Vietnam itself.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s09b10",
+     "shot": "menu",
+     "type": "INSERT",
+     "text": "In March 1969, the United States began a secret bombing campaign against communist targets in Cambodia.",
+     "date": 1969,
+     "sfx": [
+      [
+       "rumble",
+       0,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s09b11",
+     "shot": "menu",
+     "type": "INSERT",
+     "text": "The operation, known as Operation Menu, involved extensive bombing of areas used by North",
+     "date": 1969,
+     "sfx": [
+      [
+       "rumble",
+       0,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s09b12",
+     "shot": "menu",
+     "type": "INSERT",
+     "text": "Vietnamese and Viet Cong forces.",
+     "date": 1969,
+     "sfx": [
+      [
+       "rumble",
+       0,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s09b13",
+     "shot": "menu",
+     "type": "INSERT",
+     "text": "The campaign was kept hidden from the public and much of Congress,",
+     "date": 1969,
+     "sfx": [
+      [
+       "scribble",
+       "w:hidden",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s09b14",
+     "shot": "menu",
+     "type": "INSERT",
+     "text": "with records manipulated to conceal the true scope of the strikes.",
+     "date": 1969,
+     "sfx": [
+      [
+       "rumble",
+       0,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s09b15",
+     "shot": "menu",
+     "type": "INSERT",
+     "text": "Cambodia was officially neutral, but the war was now spreading deeper into its territory.",
+     "date": 1969,
+     "sfx": [
+      [
+       "stamp",
+       "w:neutral,",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s09b16",
+     "shot": "menu",
+     "type": "INSERT",
+     "text": "The bombing caused destruction and contributed to the instability engulfing the country.",
+     "date": 1969,
+     "sfx": [
+      [
+       "rumble",
+       0,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s09b17",
+     "shot": "menu",
+     "type": "INSERT",
+     "text": "It also formed part of a much larger crisis that would eventually help create",
+     "date": 1969,
+     "sfx": [
+      [
+       "rumble",
+       0,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s09b18",
+     "shot": "menu",
+     "type": "INSERT",
+     "text": "conditions exploited by the Khmer Rouge, although Cambodia's collapse had multiple causes.",
+     "date": 1969,
+     "sfx": [
+      [
+       "rumble",
+       0,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s09b19",
+     "shot": "incursion",
+     "type": "INSERT",
+     "text": "In 1970, American and South Vietnamese ground forces entered Cambodia in an operation aimed",
+     "date": 1970,
+     "sfx": [
+      [
+       "drum",
+       4,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s09b20",
+     "shot": "incursion",
+     "type": "INSERT",
+     "text": "at enemy bases and supply networks.",
+     "date": 1970,
+     "sfx": [
+      [
+       "drum",
+       4,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s09b21",
+     "shot": "incursion",
+     "type": "INSERT",
+     "text": "Nixon argued that expanding the war was necessary to protect American troops and strengthen negotiations.",
+     "date": 1970,
+     "sfx": [
+      [
+       "drum",
+       4,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s09b22",
+     "shot": "incursion",
+     "type": "STORY",
+     "text": "But to antiwar protesters, it looked like the opposite of what they had been promised.",
+     "date": 1970,
+     "sfx": [],
+     "amb": "camp"
+    },
+    {
+     "id": "s09b23",
+     "shot": "incursion",
+     "type": "STORY",
+     "text": "The war wasn't ending.",
+     "date": 1970,
+     "sfx": [],
+     "amb": "camp"
+    },
+    {
+     "id": "s09b24",
+     "shot": "incursion",
+     "type": "STORY",
+     "text": "It was spreading.",
+     "date": 1970,
+     "sfx": [
+      [
+       "impact",
+       "w:spreading.",
+       0.5
+      ]
+     ],
+     "amb": "camp"
+    },
+    {
+     "id": "s09b25",
+     "shot": "pentagon",
+     "type": "STORY",
+     "text": "And then, in 1971, the American public received evidence that the government's version of",
+     "date": 1971,
+     "sfx": []
+    },
+    {
+     "id": "s09b26",
+     "shot": "pentagon",
+     "type": "STORY",
+     "text": "the war had been unreliable for years.",
+     "date": 1971,
+     "sfx": []
+    },
+    {
+     "id": "s09b27",
+     "shot": "pentagon",
+     "type": "STORY",
+     "text": "A former military analyst named Daniel Ellsberg leaked a classified government study to the press.",
+     "date": 1971,
+     "sfx": [
+      [
+       "whoosh",
+       "w:leaked",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s09b28",
+     "shot": "pentagon",
+     "type": "STORY",
+     "text": "It became known as the Pentagon Papers.",
+     "date": 1971,
+     "sfx": [
+      [
+       "stamp",
+       "w:Pentagon",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s09b29",
+     "shot": "pentagon",
+     "type": "INSERT",
+     "text": "The documents examined American decision-making in Vietnam across several administrations,",
+     "date": 1971,
+     "sfx": []
+    },
+    {
+     "id": "s09b30",
+     "shot": "pentagon",
+     "type": "INSERT",
+     "text": "from Truman and Eisenhower through Kennedy and Johnson.",
+     "date": 1971,
+     "sfx": [
+      [
+       "pop2",
+       "w:Truman",
+       0.3
+      ],
+      [
+       "pop2",
+       "w:Eisenhower",
+       0.3
+      ],
+      [
+       "pop2",
+       "w:Kennedy",
+       0.3
+      ],
+      [
+       "pop2",
+       "w:Johnson.",
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s09b31",
+     "shot": "pentagon",
+     "type": "INSERT",
+     "text": "They revealed that successive administrations had privately recognized serious problems with American policy while",
+     "date": 1971,
+     "sfx": []
+    },
+    {
+     "id": "s09b32",
+     "shot": "pentagon",
+     "type": "INSERT",
+     "text": "continuing to present more reassuring accounts to the public.",
+     "date": 1971,
+     "sfx": []
+    },
+    {
+     "id": "s09b33",
+     "shot": "pentagon",
+     "type": "INSERT",
+     "text": "The papers did not prove that every government statement was a deliberate lie.",
+     "date": 1971,
+     "sfx": []
+    },
+    {
+     "id": "s09b34",
+     "shot": "pentagon",
+     "type": "INSERT",
+     "text": "But they exposed a disturbing pattern: what officials said publicly often differed sharply from",
+     "date": 1971,
+     "sfx": []
+    },
+    {
+     "id": "s09b35",
+     "shot": "pentagon",
+     "type": "INSERT",
+     "text": "what their own assessments showed.",
+     "date": 1971,
+     "sfx": []
+    },
+    {
+     "id": "s09b36",
+     "shot": "pentagon",
+     "type": "INSERT",
+     "text": "The New York Times began publishing the documents in June 1971,",
+     "date": 1971,
+     "sfx": [
+      [
+       "paper",
+       4,
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s09b37",
+     "shot": "pentagon",
+     "type": "INSERT",
+     "text": "prompting a legal battle over press freedom and government secrecy.",
+     "date": 1971,
+     "sfx": []
+    },
+    {
+     "id": "s09b38",
+     "shot": "pentagon",
+     "type": "INSERT",
+     "text": "The Supreme Court ultimately ruled against the government's attempt to stop publication.",
+     "date": 1971,
+     "sfx": [
+      [
+       "stamp",
+       "w:against",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s09b39",
+     "shot": "pentagon",
+     "type": "INSERT",
+     "text": "The scandal deepened public distrust.",
+     "date": 1971,
+     "sfx": [
+      [
+       "stamp",
+       "w:distrust.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s09b40",
+     "shot": "pentagon",
+     "type": "INSERT",
+     "text": "Americans had watched the troop numbers rise.",
+     "date": 1971,
+     "sfx": []
+    },
+    {
+     "id": "s09b41",
+     "shot": "pentagon",
+     "type": "INSERT",
+     "text": "They had seen the images from Tet.",
+     "date": 1971,
+     "sfx": []
+    },
+    {
+     "id": "s09b42",
+     "shot": "pentagon",
+     "type": "INSERT",
+     "text": "They had learned about My Lai.",
+     "date": 1971,
+     "sfx": []
+    },
+    {
+     "id": "s09b43",
+     "shot": "pentagon",
+     "type": "INSERT",
+     "text": "Now they had documentary evidence that the doubts surrounding the war stretched back years.",
+     "date": 1971,
+     "sfx": []
+    },
+    {
+     "id": "s09b44",
+     "shot": "pentagon",
+     "type": "INSERT",
+     "text": "The question was no longer simply whether America could win.",
+     "date": 1971,
+     "sfx": []
+    },
+    {
+     "id": "s09b45",
+     "shot": "pentagon",
+     "type": "INSERT",
+     "text": "It was whether the government had ever been honest about what winning would require.",
+     "date": 1971,
+     "sfx": []
+    },
+    {
+     "id": "s09b46",
+     "shot": "drawdown",
+     "type": "INSERT",
+     "text": "And as American public support declined, the military strategy began to change.",
+     "date": 1971,
+     "sfx": []
+    },
+    {
+     "id": "s09b47",
+     "shot": "drawdown",
+     "type": "INSERT",
+     "text": "More South Vietnamese troops would take over the fighting.",
+     "date": 1971,
+     "sfx": []
+    },
+    {
+     "id": "s09b48",
+     "shot": "drawdown",
+     "type": "INSERT",
+     "text": "More American soldiers would come home.",
+     "date": 1971,
+     "sfx": []
+    },
+    {
+     "id": "s09b49",
+     "shot": "drawdown",
+     "type": "INSERT",
+     "text": "But the bombing and the fighting continued.",
+     "date": 1971,
+     "sfx": [
+      [
+       "boom",
+       8,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s09b50",
+     "shot": "drawdown",
+     "type": "INSERT",
+     "text": "Then, in 1972, North Vietnam launched another major offensive.",
+     "date": 1972,
+     "sfx": [
+      [
+       "rumble",
+       "w:offensive.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s09b51",
+     "shot": "drawdown",
+     "type": "INSERT",
+     "text": "American air power helped South Vietnamese forces resist it,",
+     "date": 1972,
+     "sfx": []
+    },
+    {
+     "id": "s09b52",
+     "shot": "drawdown",
+     "type": "INSERT",
+     "text": "while the United States intensified bombing in an attempt to pressure Hanoi into negotiations.",
+     "date": 1972,
+     "sfx": [
+      [
+       "boom",
+       8,
+       0.4
+      ],
+      [
+       "boom",
+       30,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s09b53",
+     "shot": "drawdown",
+     "type": "INSERT",
+     "text": "By this point, both sides had reasons to seek an agreement.",
+     "date": 1972,
+     "sfx": []
+    },
+    {
+     "id": "s09b54",
+     "shot": "drawdown",
+     "type": "INSERT",
+     "text": "For Washington, the political pressure to leave was overwhelming.",
+     "date": 1972,
+     "sfx": []
+    },
+    {
+     "id": "s09b55",
+     "shot": "drawdown",
+     "type": "INSERT",
+     "text": "For Hanoi, negotiations offered a chance to secure American withdrawal while keeping North Vietnamese",
+     "date": 1972,
+     "sfx": []
+    },
+    {
+     "id": "s09b56",
+     "shot": "drawdown",
+     "type": "INSERT",
+     "text": "forces in the South.",
+     "date": 1972,
+     "sfx": []
+    },
+    {
+     "id": "s09b57",
+     "shot": "drawdown",
+     "type": "INSERT",
+     "text": "The final agreement was approaching.",
+     "date": 1972,
+     "sfx": []
+    },
+    {
+     "id": "s09b58",
+     "shot": "drawdown",
+     "type": "INSERT",
+     "text": "But a peace agreement and a lasting peace are not the same thing.",
+     "date": 1972,
+     "sfx": [
+      [
+       "stamp",
+       "w:lasting",
+       0.4
+      ]
+     ]
+    }
+   ],
+   "mood": "tension"
+  }
+ ]
+}

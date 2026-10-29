@@ -236,8 +236,8 @@ const Hat: React.FC<{ kind: string; color?: string; frame: number }> = ({ kind, 
     case 'pith':
       return (
         <g>
-          <path d="M-70 -252 Q0 -268 70 -252 Q60 -240 0 -242 Q-60 -240 -70 -252 Z" fill="#E8DCC0" stroke={OL} strokeWidth={3} />
-          <path d="M-46 -254 Q-44 -312 0 -314 Q44 -312 46 -254 Z" fill="#E8DCC0" stroke={OL} strokeWidth={3} />
+          <path d="M-70 -252 Q0 -268 70 -252 Q60 -240 0 -242 Q-60 -240 -70 -252 Z" fill={color ?? "#E8DCC0"} stroke={OL} strokeWidth={3} />
+          <path d="M-46 -254 Q-44 -312 0 -314 Q44 -312 46 -254 Z" fill={color ?? "#E8DCC0"} stroke={OL} strokeWidth={3} />
           <path d="M-44 -262 Q0 -272 44 -262" stroke="#8A7A5A" strokeWidth={5} fill="none" />
         </g>
       );
@@ -281,6 +281,13 @@ const Hat: React.FC<{ kind: string; color?: string; frame: number }> = ({ kind, 
           <path d="M-80 -262 Q0 -280 80 -262 Q60 -250 0 -252 Q-60 -250 -80 -262 Z" fill="#1E1E28" stroke={OL} strokeWidth={3} />
           <path d="M-44 -262 Q-40 -316 0 -318 Q40 -316 44 -262 Z" fill="#1E1E28" stroke={OL} strokeWidth={3} />
           <path d={`M30 -300 Q${60 + Math.sin(frame / 6) * 4} -330 ${80 + Math.sin(frame / 6) * 6} -320`} stroke="#F4F7FA" strokeWidth={7} fill="none" strokeLinecap="round" />
+        </g>
+      );
+    case 'nonla': // Vietnamese conical palm-leaf hat
+      return (
+        <g>
+          <path d="M-96 -250 L0 -332 L96 -250 Q0 -236 -96 -250 Z" fill={color ?? '#E8D8A0'} stroke={OL} strokeWidth={3.5} strokeLinejoin="round" />
+          <path d="M-60 -262 L0 -312 M-30 -256 L0 -322 M30 -256 L0 -322 M60 -262 L0 -312" stroke="rgba(0,0,0,0.15)" strokeWidth={3} />
         </g>
       );
     case 'kepi': // French military cap: short sloped cylinder, flat top, visor, gold band

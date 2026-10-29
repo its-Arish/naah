@@ -3,7 +3,15 @@
   "fps": 30,
   "wordsPerSecond": 3.2,
   "openingSeconds": 4.5,
-  "cardSeconds": 2.2,
-  "endSeconds": 4.5,
-  "dateTag": true
+  "cardSeconds": 2.4,
+  "endSeconds": 5,
+  "dateTag": true,
+  "voMaxPause": 1.4,
+  "mix": {
+    "voice": 1.0,
+    "sfx": 0.3,
+    "music": 0.75,
+    "duck": true,
+    "loudness": -14
+  }
 }

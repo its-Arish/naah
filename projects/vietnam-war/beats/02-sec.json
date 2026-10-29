@@ -1,0 +1,589 @@
+{
+ "sections": [
+  {
+   "title": "Chapter 2: France Loses. America Steps In.",
+   "beats": [
+    {
+     "id": "s03b01",
+     "shot": "tug",
+     "type": "HOST",
+     "text": "France wanted its colony back.",
+     "sfx": [],
+     "date": null
+    },
+    {
+     "id": "s03b02",
+     "shot": "tug",
+     "type": "HOST",
+     "text": "Vietnam wanted independence.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s03b03",
+     "shot": "tug",
+     "type": "HOST",
+     "text": "Neither side was willing to give in.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s03b04",
+     "shot": "war46",
+     "type": "INSERT",
+     "text": "In 1946, full-scale war broke out between French forces and the Viet Minh.",
+     "date": 1946,
+     "sfx": [
+      [
+       "rumble",
+       "w:war",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s03b05",
+     "shot": "sides",
+     "type": "INSERT",
+     "text": "The French had modern weapons, aircraft, and control over major cities.",
+     "date": 1946,
+     "sfx": []
+    },
+    {
+     "id": "s03b06",
+     "shot": "sides",
+     "type": "INSERT",
+     "text": "The Viet Minh had something different: local support,",
+     "date": 1946,
+     "sfx": [
+      [
+       "pop2",
+       "w:support,",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s03b07",
+     "shot": "sides",
+     "type": "INSERT",
+     "text": "knowledge of the terrain, and a willingness to fight a long war.",
+     "date": 1946,
+     "sfx": [
+      [
+       "pop2",
+       "w:terrain,",
+       0.4
+      ],
+      [
+       "pop2",
+       "w:long",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s03b08",
+     "shot": "hitrun",
+     "type": "STORY",
+     "text": "They attacked, disappeared into the countryside, disrupted supply lines,",
+     "date": 1948,
+     "sfx": [
+      [
+       "whoosh",
+       "w:disappeared",
+       0.4
+      ]
+     ],
+     "amb": "birds"
+    },
+    {
+     "id": "s03b09",
+     "shot": "hitrun",
+     "type": "STORY",
+     "text": "and returned when French forces least expected them.",
+     "date": 1948,
+     "sfx": [],
+     "amb": "birds"
+    },
+    {
+     "id": "s03b10",
+     "shot": "china49",
+     "type": "INSERT",
+     "text": "Then, in 1949, the communist victory in China changed everything.",
+     "date": 1949,
+     "sfx": [
+      [
+       "drum",
+       "w:China",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s03b11",
+     "shot": "china49",
+     "type": "INSERT",
+     "text": "Vietnam's communist forces now had a powerful neighbor that could provide weapons, training, and supplies.",
+     "date": 1949,
+     "sfx": [
+      [
+       "pop2",
+       "w:weapons,",
+       0.3
+      ],
+      [
+       "pop2",
+       "w:training,",
+       0.3
+      ],
+      [
+       "pop2",
+       "w:supplies.",
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s03b12",
+     "shot": "dominoes",
+     "type": "INSERT",
+     "text": "Washington saw this as part of a much larger struggle.",
+     "date": 1950,
+     "sfx": []
+    },
+    {
+     "id": "s03b13",
+     "shot": "dominoes",
+     "type": "INSERT",
+     "text": "America was already worried about the Soviet Union.",
+     "date": 1950,
+     "sfx": [
+      [
+       "thud",
+       "w:Soviet",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s03b14",
+     "shot": "dominoes",
+     "type": "INSERT",
+     "text": "Now China had turned communist, and American leaders feared that more countries across Asia might follow.",
+     "date": 1950,
+     "sfx": [
+      [
+       "ticks",
+       "w:follow.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s03b15",
+     "shot": "pay_france",
+     "type": "INSERT",
+     "text": "So the United States began pouring money into France's war effort.",
+     "date": 1953,
+     "sfx": [
+      [
+       "coins",
+       "w:money",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s03b16",
+     "shot": "pay_france",
+     "type": "INSERT",
+     "text": "By the final years of the conflict, America was paying roughly 80 percent of",
+     "date": 1953,
+     "sfx": [
+      [
+       "kaching",
+       "w:80",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s03b17",
+     "shot": "pay_france",
+     "type": "INSERT",
+     "text": "France's military costs in Indochina.",
+     "date": 1953,
+     "sfx": []
+    },
+    {
+     "id": "s03b18",
+     "shot": "stop_sign",
+     "type": "INSERT",
+     "text": "The logic was simple: stop communism in Vietnam before it spreads any further.",
+     "date": 1953,
+     "sfx": [
+      [
+       "slam",
+       "w:stop",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s03b19",
+     "shot": "stop_sign",
+     "type": "INSERT",
+     "text": "But the French were about to discover just how difficult that would be.",
+     "date": 1953,
+     "sfx": []
+    },
+    {
+     "id": "s03b20",
+     "shot": "dbp_plan",
+     "type": "STORY",
+     "text": "In 1954, French forces established a fortified base at Dien Bien Phu,",
+     "date": 1954,
+     "sfx": [],
+     "amb": "wind"
+    },
+    {
+     "id": "s03b21",
+     "shot": "dbp_plan",
+     "type": "INSERT",
+     "text": "a remote valley in northwestern Vietnam.",
+     "date": 1954,
+     "sfx": [
+      [
+       "pop2",
+       2,
+       0.4
+      ]
+     ],
+     "amb": "wind"
+    },
+    {
+     "id": "s03b22",
+     "shot": "dbp_plan",
+     "type": "STORY",
+     "text": "The plan was to draw the Viet Minh into a major battle and destroy",
+     "date": 1954,
+     "sfx": [],
+     "amb": "wind"
+    },
+    {
+     "id": "s03b23",
+     "shot": "dbp_plan",
+     "type": "STORY",
+     "text": "them with superior firepower.",
+     "date": 1954,
+     "sfx": [],
+     "amb": "wind"
+    },
+    {
+     "id": "s03b24",
+     "shot": "dbp_plan",
+     "type": "STORY",
+     "text": "French commanders believed the surrounding mountains made it nearly impossible for the Viet Minh",
+     "date": 1954,
+     "sfx": [
+      [
+       "pop2",
+       "w:mountains",
+       0.4
+      ]
+     ],
+     "amb": "wind"
+    },
+    {
+     "id": "s03b25",
+     "shot": "dbp_plan",
+     "type": "STORY",
+     "text": "to bring heavy artillery into position.",
+     "date": 1954,
+     "sfx": [],
+     "amb": "wind"
+    },
+    {
+     "id": "s03b26",
+     "shot": "wrong",
+     "type": "STORY",
+     "text": "They were wrong.",
+     "date": 1954,
+     "sfx": [
+      [
+       "boom",
+       2,
+       0.5
+      ],
+      [
+       "stamp",
+       "w:wrong.",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s03b27",
+     "shot": "haul",
+     "type": "STORY",
+     "text": "Under General Vo Nguyen Giap, Vietnamese forces hauled artillery pieces into the hills surrounding the French base.",
+     "date": 1954,
+     "sfx": [
+      [
+       "creak",
+       10,
+       0.4
+      ],
+      [
+       "creak",
+       40,
+       0.4
+      ]
+     ],
+     "amb": "wind"
+    },
+    {
+     "id": "s03b28",
+     "shot": "haul",
+     "type": "STORY",
+     "text": "Thousands of porters moved ammunition and supplies through difficult terrain,",
+     "date": 1954,
+     "sfx": [],
+     "amb": "wind"
+    },
+    {
+     "id": "s03b29",
+     "shot": "haul",
+     "type": "STORY",
+     "text": "using bicycles, handcarts, and sheer physical effort.",
+     "date": 1954,
+     "sfx": [],
+     "amb": "wind"
+    },
+    {
+     "id": "s03b30",
+     "shot": "siege",
+     "type": "STORY",
+     "text": "The French suddenly found themselves surrounded.",
+     "date": 1954,
+     "sfx": [
+      [
+       "drum",
+       4,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s03b31",
+     "shot": "siege",
+     "type": "STORY",
+     "text": "On March 13, 1954, the Viet Minh launched their assault.",
+     "date": 1954,
+     "sfx": [
+      [
+       "boom",
+       "w:assault.",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s03b32",
+     "shot": "siege",
+     "type": "STORY",
+     "text": "For 56 days, the fighting continued.",
+     "date": 1954,
+     "sfx": [
+      [
+       "ticks",
+       4,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s03b33",
+     "shot": "siege",
+     "type": "STORY",
+     "text": "Vietnamese artillery pounded the base.",
+     "date": 1954,
+     "sfx": [
+      [
+       "boom",
+       4,
+       0.4
+      ],
+      [
+       "boom",
+       30,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s03b34",
+     "shot": "siege",
+     "type": "STORY",
+     "text": "French supply aircraft struggled to keep the garrison alive.",
+     "date": 1954,
+     "sfx": [
+      [
+       "whoosh",
+       4,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s03b35",
+     "shot": "siege",
+     "type": "STORY",
+     "text": "The airstrip became unusable, and the situation deteriorated rapidly.",
+     "date": 1954,
+     "sfx": [
+      [
+       "stamp",
+       "w:airstrip",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s03b36",
+     "shot": "dbp_fall",
+     "type": "STORY",
+     "text": "Then, on May 7, the French position collapsed.",
+     "date": 1954,
+     "sfx": [],
+     "quiet": true,
+     "mood": "sombre"
+    },
+    {
+     "id": "s03b37",
+     "shot": "dbp_fall",
+     "type": "STORY",
+     "text": "Thousands of French troops were killed, and roughly 11,000 were taken prisoner.",
+     "date": 1954,
+     "sfx": [],
+     "quiet": true,
+     "mood": "sombre"
+    },
+    {
+     "id": "s03b38",
+     "shot": "dbp_fall",
+     "type": "STORY",
+     "text": "It was a catastrophic defeat.",
+     "date": 1954,
+     "sfx": [],
+     "quiet": true,
+     "mood": "sombre"
+    },
+    {
+     "id": "s03b39",
+     "shot": "lesson",
+     "type": "INSERT",
+     "text": "France had spent years trying to hold Vietnam.",
+     "date": 1954,
+     "sfx": []
+    },
+    {
+     "id": "s03b40",
+     "shot": "lesson",
+     "type": "INSERT",
+     "text": "Now it was forced to accept that its colonial war was lost.",
+     "date": 1954,
+     "sfx": [
+      [
+       "stamp",
+       "w:lost.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s03b41",
+     "shot": "lesson",
+     "type": "INSERT",
+     "text": "The message was unmistakable.",
+     "date": 1954,
+     "sfx": []
+    },
+    {
+     "id": "s03b42",
+     "shot": "lesson",
+     "type": "INSERT",
+     "text": "A powerful army can win individual battles and still lose control of a country.",
+     "date": 1954,
+     "sfx": [
+      [
+       "impact",
+       "w:win",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s03b43",
+     "shot": "decision",
+     "type": "HOST",
+     "text": "America had spent billions trying to prevent that outcome.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s03b44",
+     "shot": "decision",
+     "type": "HOST",
+     "text": "And now, with France leaving, Washington faced a decision.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s03b45",
+     "shot": "decision",
+     "type": "HOST",
+     "text": "Walk away from Vietnam.",
+     "date": null,
+     "sfx": [
+      [
+       "pop2",
+       "w:Walk",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s03b46",
+     "shot": "decision",
+     "type": "HOST",
+     "text": "Or take over the fight.",
+     "date": null,
+     "sfx": [
+      [
+       "pop2",
+       "w:take",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s03b47",
+     "shot": "decision",
+     "type": "HOST",
+     "text": "It chose the second option.",
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       "w:second",
+       0.5
+      ]
+     ]
+    }
+   ],
+   "mood": "tension"
+  }
+ ]
+}

@@ -1,0 +1,289 @@
+{
+ "sections": [
+  {
+   "title": "Opening Hook",
+   "card": false,
+   "beats": [
+    {
+     "id": "s01b01",
+     "shot": "h_power",
+     "type": "HOST",
+     "text": "America had the most powerful military on Earth.",
+     "sfx": [
+      [
+       "drum",
+       8,
+       0.5
+      ]
+     ],
+     "date": null
+    },
+    {
+     "id": "s01b02",
+     "shot": "h_arsenal",
+     "type": "STORY",
+     "text": "It had the biggest bombs, the most advanced aircraft,",
+     "date": null,
+     "sfx": [
+      [
+       "rumble",
+       0,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s01b03",
+     "shot": "h_arsenal",
+     "type": "STORY",
+     "text": "hundreds of thousands of soldiers, and enough firepower to turn entire forests into wastelands.",
+     "date": null,
+     "sfx": [
+      [
+       "whoosh",
+       "w:forests",
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s01b04",
+     "shot": "h_walkaway",
+     "type": "INSERT",
+     "text": "And yet, after nearly 20 years of involvement,",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s01b05",
+     "shot": "h_walkaway",
+     "type": "INSERT",
+     "text": "America walked away from Vietnam without achieving its main objective.",
+     "date": null,
+     "sfx": [
+      [
+       "whoosh",
+       4,
+       0.3
+      ],
+      [
+       "stamp",
+       "w:without",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s01b06",
+     "shot": "h_checks",
+     "type": "INSERT",
+     "text": "It won major battles.",
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       6,
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s01b07",
+     "shot": "h_checks",
+     "type": "INSERT",
+     "text": "It destroyed enemy positions.",
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       6,
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s01b08",
+     "shot": "h_checks",
+     "type": "INSERT",
+     "text": "It dropped millions of tons of bombs.",
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       6,
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s01b09",
+     "shot": "h_checks",
+     "type": "INSERT",
+     "text": "And it still lost the war.",
+     "date": null,
+     "sfx": [
+      [
+       "stamp",
+       "w:lost",
+       0.7
+      ]
+     ],
+     "mood": "sombre"
+    },
+    {
+     "id": "s01b10",
+     "shot": "h_outgun",
+     "type": "HOST",
+     "text": "So how does the most powerful military in the world lose to an enemy",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s01b11",
+     "shot": "h_outgun",
+     "type": "HOST",
+     "text": "it can outgun, outfly, and outspend?",
+     "date": null,
+     "sfx": [
+      [
+       "pop2",
+       "w:outgun,",
+       0.4
+      ],
+      [
+       "pop2",
+       "w:outfly,",
+       0.4
+      ],
+      [
+       "pop2",
+       "w:outspend?",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s01b12",
+     "shot": "h_teasers",
+     "type": "INSERT",
+     "text": "The answer involves a war that began long before American troops arrived,",
+     "date": null,
+     "sfx": [
+      [
+       "pop2",
+       "w:long",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s01b13",
+     "shot": "h_teasers",
+     "type": "INSERT",
+     "text": "a president who feared losing more than he feared continuing,",
+     "date": null,
+     "sfx": [
+      [
+       "pop2",
+       "w:feared",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s01b14",
+     "shot": "h_teasers",
+     "type": "INSERT",
+     "text": "an attack that never happened, and a government that repeatedly told the public it was winning.",
+     "date": null,
+     "sfx": [
+      [
+       "pop2",
+       "w:never",
+       0.4
+      ],
+      [
+       "pop2",
+       "w:winning.",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s01b15",
+     "shot": "h_palace",
+     "type": "STORY",
+     "text": "And it ends with a North Vietnamese tank crashing through the gates of a",
+     "date": 1975,
+     "sfx": [
+      [
+       "machine",
+       0,
+       0.35
+      ],
+      [
+       "slam",
+       "w:crashing",
+       0.8
+      ]
+     ]
+    },
+    {
+     "id": "s01b16",
+     "shot": "h_palace",
+     "type": "STORY",
+     "text": "presidential palace while American helicopters desperately evacuate people from a city that is about to fall.",
+     "date": 1975,
+     "sfx": [],
+     "amb": "wind"
+    },
+    {
+     "id": "s01b17",
+     "shot": "h_twist",
+     "type": "HOST",
+     "text": "But here's the twist.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s01b18",
+     "shot": "h_twist",
+     "type": "HOST",
+     "text": "America's biggest mistake may have happened before the United States ever fired a shot.",
+     "date": null,
+     "sfx": [
+      [
+       "impact",
+       "w:before",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s01b19",
+     "shot": "h_rewind",
+     "type": "INSERT",
+     "text": "To understand why, we need to go back nearly a century before the final",
+     "date": null,
+     "sfx": [
+      [
+       "ticks",
+       "w:back",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s01b20",
+     "shot": "h_rewind",
+     "type": "STORY",
+     "text": "American helicopters left Saigon.",
+     "date": 1975,
+     "sfx": [],
+     "amb": "wind"
+    }
+   ],
+   "mood": "tension"
+  }
+ ]
+}

@@ -1,0 +1,400 @@
+{
+ "sections": [
+  {
+   "title": "Chapter 3: The Country That Wasn't Allowed to Vote",
+   "beats": [
+    {
+     "id": "s04b01",
+     "shot": "geneva",
+     "type": "INSERT",
+     "text": "In July 1954, international negotiations in Geneva temporarily divided Vietnam near the 17th parallel.",
+     "sfx": [
+      [
+       "paper",
+       "w:Geneva",
+       0.4
+      ],
+      [
+       "slide_down",
+       "w:17th",
+       0.4
+      ]
+     ],
+     "date": 1954
+    },
+    {
+     "id": "s04b02",
+     "shot": "geneva",
+     "type": "INSERT",
+     "text": "Ho Chi Minh's communist government controlled the North.",
+     "date": 1954,
+     "sfx": []
+    },
+    {
+     "id": "s04b03",
+     "shot": "geneva",
+     "type": "INSERT",
+     "text": "An anti-communist government backed by the West controlled the South.",
+     "date": 1954,
+     "sfx": []
+    },
+    {
+     "id": "s04b04",
+     "shot": "geneva",
+     "type": "INSERT",
+     "text": "The division was supposed to be temporary.",
+     "date": 1954,
+     "sfx": [
+      [
+       "stamp",
+       "w:temporary.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s04b05",
+     "shot": "election",
+     "type": "INSERT",
+     "text": "National elections were planned for 1956, with the aim of reunifying the country.",
+     "date": 1956,
+     "sfx": []
+    },
+    {
+     "id": "s04b06",
+     "shot": "election",
+     "type": "INSERT",
+     "text": "But those elections never happened.",
+     "date": 1956,
+     "sfx": [
+      [
+       "stamp",
+       "w:never",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s04b07",
+     "shot": "election",
+     "type": "INSERT",
+     "text": "Why?",
+     "date": 1956,
+     "sfx": [
+      [
+       "boing",
+       2,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s04b08",
+     "shot": "election",
+     "type": "INSERT",
+     "text": "Because American officials believed Ho Chi Minh would probably win.",
+     "date": 1956,
+     "sfx": []
+    },
+    {
+     "id": "s04b09",
+     "shot": "election",
+     "type": "INSERT",
+     "text": "President Dwight Eisenhower later wrote that he believed Ho could have received around 80",
+     "date": 1954,
+     "sfx": []
+    },
+    {
+     "id": "s04b10",
+     "shot": "election",
+     "type": "INSERT",
+     "text": "percent of the vote.",
+     "date": 1954,
+     "sfx": [
+      [
+       "kaching",
+       4,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s04b11",
+     "shot": "election",
+     "type": "INSERT",
+     "text": "Washington feared that a nationwide election would deliver Vietnam to the communists without another shot being fired.",
+     "date": 1956,
+     "sfx": []
+    },
+    {
+     "id": "s04b12",
+     "shot": "diem",
+     "type": "STORY",
+     "text": "So the United States supported South Vietnamese leader Ngo Dinh Diem and opposed reunification",
+     "date": 1955,
+     "sfx": []
+    },
+    {
+     "id": "s04b13",
+     "shot": "diem",
+     "type": "STORY",
+     "text": "elections that might bring Ho to power.",
+     "date": 1955,
+     "sfx": []
+    },
+    {
+     "id": "s04b14",
+     "shot": "diem",
+     "type": "STORY",
+     "text": "Diem was fiercely anti-communist, but his government was increasingly authoritarian.",
+     "date": 1955,
+     "sfx": [
+      [
+       "stamp",
+       "w:authoritarian.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s04b15",
+     "shot": "diem",
+     "type": "STORY",
+     "text": "His administration favored Catholics in a predominantly Buddhist country,",
+     "date": 1955,
+     "sfx": []
+    },
+    {
+     "id": "s04b16",
+     "shot": "diem",
+     "type": "STORY",
+     "text": "suppressed political opponents, and alienated large parts of the population.",
+     "date": 1955,
+     "sfx": [
+      [
+       "clang",
+       "w:suppressed",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s04b17",
+     "shot": "monks",
+     "type": "STORY",
+     "text": "In 1963, Buddhist protests erupted into a major political crisis.",
+     "date": 1963,
+     "sfx": [
+      [
+       "steps",
+       2,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s04b18",
+     "shot": "monks",
+     "type": "STORY",
+     "text": "The United States had backed Diem as the man who could save South Vietnam.",
+     "date": 1963,
+     "sfx": [
+      [
+       "steps",
+       2,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s04b19",
+     "shot": "monks",
+     "type": "STORY",
+     "text": "Now it was watching him lose the support of his own people.",
+     "date": 1963,
+     "sfx": [
+      [
+       "steps",
+       2,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s04b20",
+     "shot": "coup",
+     "type": "STORY",
+     "text": "On November 1, 1963, South Vietnamese military officers overthrew his government.",
+     "date": 1963,
+     "sfx": [
+      [
+       "machine",
+       2,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s04b21",
+     "shot": "coup",
+     "type": "STORY",
+     "text": "Diem was killed the following day.",
+     "date": 1963,
+     "sfx": [],
+     "quiet": true,
+     "mood": "sombre"
+    },
+    {
+     "id": "s04b22",
+     "shot": "coup",
+     "type": "STORY",
+     "text": "American officials had quietly supported the coup, although they did not control every aspect of what followed.",
+     "date": 1963,
+     "sfx": [
+      [
+       "paper",
+       4,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s04b23",
+     "shot": "jfk",
+     "type": "INSERT",
+     "text": "Just three weeks later, President John F.",
+     "date": 1963,
+     "sfx": [],
+     "quiet": true,
+     "mood": "sombre"
+    },
+    {
+     "id": "s04b24",
+     "shot": "jfk",
+     "type": "INSERT",
+     "text": "Kennedy was assassinated in Dallas.",
+     "date": 1963,
+     "sfx": [],
+     "quiet": true,
+     "mood": "sombre"
+    },
+    {
+     "id": "s04b25",
+     "shot": "jfk",
+     "type": "INSERT",
+     "text": "The man who had expanded America's military presence in Vietnam was gone.",
+     "date": 1963,
+     "sfx": [],
+     "quiet": true,
+     "mood": "sombre"
+    },
+    {
+     "id": "s04b26",
+     "shot": "jfk",
+     "type": "INSERT",
+     "text": "But the commitment he had helped build remained.",
+     "date": 1963,
+     "sfx": [],
+     "quiet": true,
+     "mood": "sombre"
+    },
+    {
+     "id": "s04b27",
+     "shot": "advisers",
+     "type": "STORY",
+     "text": "By late 1963, the United States had roughly 16,000 military personnel in Vietnam,",
+     "date": 1963,
+     "sfx": [
+      [
+       "ticks",
+       "w:16,000",
+       0.4
+      ]
+     ],
+     "amb": "birds"
+    },
+    {
+     "id": "s04b28",
+     "shot": "advisers",
+     "type": "STORY",
+     "text": "most officially serving as advisers and support staff.",
+     "date": 1963,
+     "sfx": [],
+     "amb": "birds"
+    },
+    {
+     "id": "s04b29",
+     "shot": "advisers",
+     "type": "STORY",
+     "text": "They trained South Vietnamese forces, provided intelligence, and helped direct military operations.",
+     "date": 1963,
+     "sfx": [],
+     "amb": "birds"
+    },
+    {
+     "id": "s04b30",
+     "shot": "unstable",
+     "type": "INSERT",
+     "text": "But the South Vietnamese government remained unstable, and the communist insurgency continued to grow.",
+     "date": 1963,
+     "sfx": [
+      [
+       "pops",
+       "w:insurgency",
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s04b31",
+     "shot": "unstable",
+     "type": "INSERT",
+     "text": "America had spent years trying to prevent South Vietnam from falling.",
+     "date": 1963,
+     "sfx": []
+    },
+    {
+     "id": "s04b32",
+     "shot": "unstable",
+     "type": "INSERT",
+     "text": "Now Washington faced an uncomfortable question.",
+     "date": 1963,
+     "sfx": []
+    },
+    {
+     "id": "s04b33",
+     "shot": "unstable",
+     "type": "INSERT",
+     "text": "What happens when the government you're trying to save cannot reliably save itself?",
+     "date": 1963,
+     "sfx": [
+      [
+       "boing",
+       "w:save",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s04b34",
+     "shot": "tonkin_tease",
+     "type": "INSERT",
+     "text": "The answer came in the summer of 1964.",
+     "date": 1964,
+     "sfx": [],
+     "amb": "waves"
+    },
+    {
+     "id": "s04b35",
+     "shot": "tonkin_tease",
+     "type": "STORY",
+     "text": "And it began with a warship in the Gulf of Tonkin.",
+     "date": 1964,
+     "sfx": [],
+     "amb": "waves"
+    }
+   ],
+   "mood": "tension"
+  }
+ ]
+}

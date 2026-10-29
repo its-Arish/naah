@@ -1,0 +1,255 @@
+{
+ "sections": [
+  {
+   "title": "Chapter 9: Peace on Paper",
+   "beats": [
+    {
+     "id": "s10b01",
+     "shot": "accords",
+     "type": "STORY",
+     "text": "On January 27, 1973, the Paris Peace Accords were signed.",
+     "sfx": [
+      [
+       "paper",
+       "w:signed.",
+       0.5
+      ]
+     ],
+     "date": 1973
+    },
+    {
+     "id": "s10b02",
+     "shot": "accords",
+     "type": "STORY",
+     "text": "The agreement provided for a ceasefire, the withdrawal of American forces,",
+     "date": 1973,
+     "sfx": [
+      [
+       "pop2",
+       "w:ceasefire,",
+       0.4
+      ],
+      [
+       "pop2",
+       "w:withdrawal",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s10b03",
+     "shot": "accords",
+     "type": "STORY",
+     "text": "and the return of American prisoners of war.",
+     "date": 1973,
+     "sfx": [
+      [
+       "pop2",
+       "w:prisoners",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s10b04",
+     "shot": "homecoming",
+     "type": "STORY",
+     "text": "In the months that followed, American combat forces withdrew from Vietnam.",
+     "date": 1973,
+     "sfx": [
+      [
+       "whoosh",
+       4,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s10b05",
+     "shot": "homecoming",
+     "type": "STORY",
+     "text": "Hundreds of American prisoners returned home in Operation Homecoming.",
+     "date": 1973,
+     "sfx": [
+      [
+       "pops",
+       "w:Hundreds",
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s10b06",
+     "shot": "nobel",
+     "type": "INSERT",
+     "text": "Secretary of State Henry Kissinger and North Vietnamese negotiator Le Duc Tho received the",
+     "date": 1973,
+     "sfx": [
+      [
+       "sparkle",
+       "w:Kissinger",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s10b07",
+     "shot": "nobel",
+     "type": "INSERT",
+     "text": "1973 Nobel Peace Prize for their efforts toward ending the conflict.",
+     "date": 1973,
+     "sfx": []
+    },
+    {
+     "id": "s10b08",
+     "shot": "nobel",
+     "type": "INSERT",
+     "text": "Le Duc Tho declined the award, arguing that peace had not truly been achieved.",
+     "date": 1973,
+     "sfx": [
+      [
+       "hit",
+       "w:declined",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s10b09",
+     "shot": "point_peace",
+     "type": "HOST",
+     "text": "He had a point.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s10b10",
+     "shot": "unresolved",
+     "type": "INSERT",
+     "text": "The agreement did not resolve the fundamental struggle over who would control South Vietnam.",
+     "date": 1974,
+     "sfx": []
+    },
+    {
+     "id": "s10b11",
+     "shot": "unresolved",
+     "type": "INSERT",
+     "text": "North Vietnamese troops remained in the South.",
+     "date": 1974,
+     "sfx": []
+    },
+    {
+     "id": "s10b12",
+     "shot": "unresolved",
+     "type": "INSERT",
+     "text": "The South Vietnamese government continued to fight communist forces.",
+     "date": 1974,
+     "sfx": []
+    },
+    {
+     "id": "s10b13",
+     "shot": "unresolved",
+     "type": "INSERT",
+     "text": "Both sides accused the other of violating the ceasefire.",
+     "date": 1974,
+     "sfx": [
+      [
+       "stamp",
+       "w:violating",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s10b14",
+     "shot": "alone",
+     "type": "STORY",
+     "text": "And without American combat troops, South Vietnam faced a much more difficult military situation.",
+     "date": 1974,
+     "sfx": []
+    },
+    {
+     "id": "s10b15",
+     "shot": "alone",
+     "type": "STORY",
+     "text": "Washington had promised to support its ally, but American domestic politics had changed.",
+     "date": 1974,
+     "sfx": []
+    },
+    {
+     "id": "s10b16",
+     "shot": "alone",
+     "type": "STORY",
+     "text": "Congress was increasingly unwilling to fund another major American intervention.",
+     "date": 1974,
+     "sfx": [
+      [
+       "stamp",
+       "w:unwilling",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s10b17",
+     "shot": "alone",
+     "type": "STORY",
+     "text": "The United States had spent years fighting to prevent a communist victory in South Vietnam.",
+     "date": 1974,
+     "sfx": []
+    },
+    {
+     "id": "s10b18",
+     "shot": "alone",
+     "type": "STORY",
+     "text": "Now it was withdrawing.",
+     "date": 1974,
+     "sfx": [
+      [
+       "steps",
+       4,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s10b19",
+     "shot": "alone",
+     "type": "STORY",
+     "text": "And the question was whether the South Vietnamese government could survive on its own.",
+     "date": 1974,
+     "sfx": []
+    },
+    {
+     "id": "s10b20",
+     "shot": "clock",
+     "type": "HOST",
+     "text": "For a while, it did.",
+     "date": null,
+     "sfx": [
+      [
+       "ticks",
+       4,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s10b21",
+     "shot": "clock",
+     "type": "HOST",
+     "text": "But the clock was ticking.",
+     "date": null,
+     "sfx": [
+      [
+       "ticks",
+       4,
+       0.3
+      ]
+     ]
+    }
+   ],
+   "mood": "curious"
+  }
+ ]
+}

@@ -1,0 +1,606 @@
+{
+ "sections": [
+  {
+   "title": "Chapter 6: The Day America's Story Fell Apart",
+   "beats": [
+    {
+     "id": "s07b01",
+     "shot": "progress",
+     "type": "HOST",
+     "text": "For years, American officials had been telling the public that the enemy was running",
+     "sfx": [],
+     "date": null
+    },
+    {
+     "id": "s07b02",
+     "shot": "progress",
+     "type": "HOST",
+     "text": "out of men, supplies, and strength.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s07b03",
+     "shot": "progress",
+     "type": "HOST",
+     "text": "The war was difficult, they admitted, but progress was being made.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s07b04",
+     "shot": "tet_map",
+     "type": "INSERT",
+     "text": "Then came January 30–31, 1968.",
+     "date": 1968,
+     "sfx": []
+    },
+    {
+     "id": "s07b05",
+     "shot": "tet_map",
+     "type": "INSERT",
+     "text": "During the Vietnamese New Year holiday known as Tet,",
+     "date": 1968,
+     "sfx": [
+      [
+       "pops",
+       4,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s07b06",
+     "shot": "tet_map",
+     "type": "INSERT",
+     "text": "North Vietnamese and Viet Cong forces launched coordinated attacks across South Vietnam.",
+     "date": 1968,
+     "sfx": [
+      [
+       "boom",
+       "w:coordinated",
+       0.6
+      ],
+      [
+       "pops",
+       "w:attacks",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s07b07",
+     "shot": "tet_map",
+     "type": "INSERT",
+     "text": "More than 80,000 communist troops took part in the wider offensive.",
+     "date": 1968,
+     "sfx": [
+      [
+       "pop2",
+       "w:80,000",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s07b08",
+     "shot": "tet_map",
+     "type": "INSERT",
+     "text": "Cities, towns, military bases, and government installations came under attack.",
+     "date": 1968,
+     "sfx": []
+    },
+    {
+     "id": "s07b09",
+     "shot": "tet_map",
+     "type": "INSERT",
+     "text": "Fighting erupted across the country, including in places American officials had portrayed as relatively secure.",
+     "date": 1968,
+     "sfx": []
+    },
+    {
+     "id": "s07b10",
+     "shot": "tet_map",
+     "type": "INSERT",
+     "text": "The offensive struck more than 100 locations.",
+     "date": 1968,
+     "sfx": [
+      [
+       "pop2",
+       "w:100",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s07b11",
+     "shot": "embassy",
+     "type": "STORY",
+     "text": "In Saigon, Viet Cong commandos attacked the American embassy compound.",
+     "date": 1968,
+     "sfx": []
+    },
+    {
+     "id": "s07b12",
+     "shot": "embassy",
+     "type": "STORY",
+     "text": "They breached its outer perimeter and fought American guards,",
+     "date": 1968,
+     "sfx": [
+      [
+       "boom",
+       "w:breached",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s07b13",
+     "shot": "embassy",
+     "type": "STORY",
+     "text": "creating one of the most shocking images of the entire war.",
+     "date": 1968,
+     "sfx": []
+    },
+    {
+     "id": "s07b14",
+     "shot": "embassy",
+     "type": "STORY",
+     "text": "The attackers did not capture the embassy's main building.",
+     "date": 1968,
+     "sfx": []
+    },
+    {
+     "id": "s07b15",
+     "shot": "embassy",
+     "type": "STORY",
+     "text": "But that wasn't the point.",
+     "date": 1968,
+     "sfx": [
+      [
+       "stamp",
+       "w:point.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s07b16",
+     "shot": "on_tv",
+     "type": "STORY",
+     "text": "For years, Americans had been told that the enemy was nearly defeated.",
+     "date": 1968,
+     "sfx": []
+    },
+    {
+     "id": "s07b17",
+     "shot": "on_tv",
+     "type": "STORY",
+     "text": "Now television viewers could see enemy fighters attacking the American diplomatic mission in the",
+     "date": 1968,
+     "sfx": [
+      [
+       "blip",
+       2,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s07b18",
+     "shot": "on_tv",
+     "type": "STORY",
+     "text": "heart of South Vietnam's capital.",
+     "date": 1968,
+     "sfx": []
+    },
+    {
+     "id": "s07b19",
+     "shot": "on_tv",
+     "type": "STORY",
+     "text": "If the enemy was on the verge of collapse,",
+     "date": 1968,
+     "sfx": []
+    },
+    {
+     "id": "s07b20",
+     "shot": "on_tv",
+     "type": "STORY",
+     "text": "how had it managed to coordinate attacks across the country?",
+     "date": 1968,
+     "sfx": [
+      [
+       "pop2",
+       "w:coordinate",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s07b21",
+     "shot": "hue",
+     "type": "STORY",
+     "text": "The fighting was especially brutal in the ancient city of Hue.",
+     "date": 1968,
+     "sfx": [],
+     "mood": "sombre"
+    },
+    {
+     "id": "s07b22",
+     "shot": "hue",
+     "type": "STORY",
+     "text": "Communist forces seized much of the city, and American and South Vietnamese troops spent",
+     "date": 1968,
+     "sfx": [],
+     "mood": "sombre"
+    },
+    {
+     "id": "s07b23",
+     "shot": "hue",
+     "type": "STORY",
+     "text": "26 days fighting to retake it.",
+     "date": 1968,
+     "sfx": [
+      [
+       "ticks",
+       "w:26",
+       0.3
+      ]
+     ],
+     "mood": "sombre"
+    },
+    {
+     "id": "s07b24",
+     "shot": "hue",
+     "type": "STORY",
+     "text": "The battle destroyed large sections of Hue.",
+     "date": 1968,
+     "sfx": [],
+     "mood": "sombre",
+     "quiet": true
+    },
+    {
+     "id": "s07b25",
+     "shot": "hue",
+     "type": "STORY",
+     "text": "Civilians were killed, families were displaced, and mass graves were later discovered.",
+     "date": 1968,
+     "sfx": [],
+     "mood": "sombre",
+     "quiet": true
+    },
+    {
+     "id": "s07b26",
+     "shot": "hue",
+     "type": "STORY",
+     "text": "Communist forces also executed people during their occupation,",
+     "date": 1968,
+     "sfx": [],
+     "mood": "sombre",
+     "quiet": true
+    },
+    {
+     "id": "s07b27",
+     "shot": "hue",
+     "type": "STORY",
+     "text": "while civilians suffered in the fighting and subsequent reprisals.",
+     "date": 1968,
+     "sfx": [],
+     "mood": "sombre",
+     "quiet": true
+    },
+    {
+     "id": "s07b28",
+     "shot": "hue",
+     "type": "STORY",
+     "text": "Eventually, government forces regained control.",
+     "date": 1968,
+     "sfx": [],
+     "mood": "sombre"
+    },
+    {
+     "id": "s07b29",
+     "shot": "military_defeat",
+     "type": "INSERT",
+     "text": "And from a strictly military perspective, the Tet Offensive was a devastating defeat for the Viet Cong.",
+     "date": 1968,
+     "sfx": []
+    },
+    {
+     "id": "s07b30",
+     "shot": "military_defeat",
+     "type": "INSERT",
+     "text": "Its forces suffered enormous casualties.",
+     "date": 1968,
+     "sfx": [
+      [
+       "ding",
+       4,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s07b31",
+     "shot": "military_defeat",
+     "type": "INSERT",
+     "text": "The anticipated nationwide uprising did not materialize.",
+     "date": 1968,
+     "sfx": [
+      [
+       "ding",
+       4,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s07b32",
+     "shot": "military_defeat",
+     "type": "INSERT",
+     "text": "South Vietnamese forces did not collapse as the attackers had hoped.",
+     "date": 1968,
+     "sfx": [
+      [
+       "ding",
+       4,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s07b33",
+     "shot": "military_defeat",
+     "type": "INSERT",
+     "text": "American and South Vietnamese forces had won the immediate military contest.",
+     "date": 1968,
+     "sfx": [
+      [
+       "stamp",
+       "w:won",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s07b34",
+     "shot": "lost_trust",
+     "type": "INSERT",
+     "text": "But they lost something much harder to recover.",
+     "date": 1968,
+     "sfx": [],
+     "mood": "sombre"
+    },
+    {
+     "id": "s07b35",
+     "shot": "lost_trust",
+     "type": "INSERT",
+     "text": "The American public's trust.",
+     "date": 1968,
+     "sfx": [
+      [
+       "crack",
+       "w:trust.",
+       0.6
+      ]
+     ],
+     "mood": "sombre"
+    },
+    {
+     "id": "s07b36",
+     "shot": "lost_trust",
+     "type": "INSERT",
+     "text": "For years, the government had promised that the enemy was weakening and victory was approaching.",
+     "date": 1968,
+     "sfx": [],
+     "mood": "sombre"
+    },
+    {
+     "id": "s07b37",
+     "shot": "briefing",
+     "type": "INSERT",
+     "text": "Tet revealed that communist forces could still launch a massive,",
+     "date": 1968,
+     "sfx": []
+    },
+    {
+     "id": "s07b38",
+     "shot": "briefing",
+     "type": "INSERT",
+     "text": "coordinated offensive across South Vietnam.",
+     "date": 1968,
+     "sfx": []
+    },
+    {
+     "id": "s07b39",
+     "shot": "briefing",
+     "type": "INSERT",
+     "text": "The war looked very different on television than it did in official briefings.",
+     "date": 1968,
+     "sfx": []
+    },
+    {
+     "id": "s07b40",
+     "shot": "cronkite",
+     "type": "STORY",
+     "text": "On February 27, 1968, veteran CBS journalist Walter Cronkite delivered a report describing the",
+     "date": 1968,
+     "sfx": []
+    },
+    {
+     "id": "s07b41",
+     "shot": "cronkite",
+     "type": "STORY",
+     "text": "conflict as a stalemate and arguing that negotiations offered the most realistic way forward.",
+     "date": 1968,
+     "sfx": [
+      [
+       "stamp",
+       "w:stalemate",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s07b42",
+     "shot": "cronkite",
+     "type": "STORY",
+     "text": "President Johnson was reportedly shaken by Cronkite's assessment.",
+     "date": 1968,
+     "sfx": []
+    },
+    {
+     "id": "s07b43",
+     "shot": "cronkite",
+     "type": "STORY",
+     "text": "A famous account of the moment claims Johnson remarked that if he had lost",
+     "date": 1968,
+     "sfx": []
+    },
+    {
+     "id": "s07b44",
+     "shot": "cronkite",
+     "type": "STORY",
+     "text": "Cronkite, he had lost Middle America.",
+     "date": 1968,
+     "sfx": []
+    },
+    {
+     "id": "s07b45",
+     "shot": "cronkite",
+     "type": "STORY",
+     "text": "Whether or not those exact words were spoken, the political damage was unmistakable.",
+     "date": 1968,
+     "sfx": []
+    },
+    {
+     "id": "s07b46",
+     "shot": "fork",
+     "type": "HOST",
+     "text": "Americans were beginning to question not just the war, but the people running it.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s07b47",
+     "shot": "fork",
+     "type": "HOST",
+     "text": "And President Johnson was running out of room to maneuver.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s07b48",
+     "shot": "fork",
+     "type": "HOST",
+     "text": "He could continue sending more troops and prolong a conflict with no obvious end.",
+     "date": null,
+     "sfx": [
+      [
+       "pop2",
+       "w:continue",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s07b49",
+     "shot": "fork",
+     "type": "HOST",
+     "text": "Or he could begin looking for a way out.",
+     "date": null,
+     "sfx": [
+      [
+       "pop2",
+       "w:way",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s07b50",
+     "shot": "lbj_out",
+     "type": "STORY",
+     "text": "On March 31, 1968, Johnson announced a partial bombing halt and revealed that he",
+     "date": 1968,
+     "sfx": []
+    },
+    {
+     "id": "s07b51",
+     "shot": "lbj_out",
+     "type": "STORY",
+     "text": "would not seek, or accept, his party's nomination for another presidential term.",
+     "date": 1968,
+     "sfx": [
+      [
+       "thud",
+       "w:seek,",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s07b52",
+     "shot": "lbj_out",
+     "type": "STORY",
+     "text": "The president who had escalated the war was stepping aside.",
+     "date": 1968,
+     "sfx": [
+      [
+       "steps",
+       4,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s07b53",
+     "shot": "gap",
+     "type": "INSERT",
+     "text": "Tet had not destroyed the American military on the battlefield.",
+     "date": 1968,
+     "sfx": []
+    },
+    {
+     "id": "s07b54",
+     "shot": "gap",
+     "type": "INSERT",
+     "text": "It had exposed the gap between military claims and political reality.",
+     "date": 1968,
+     "sfx": [
+      [
+       "slide_down",
+       "w:gap",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s07b55",
+     "shot": "gap",
+     "type": "INSERT",
+     "text": "And once that gap became impossible to ignore,",
+     "date": 1968,
+     "sfx": []
+    },
+    {
+     "id": "s07b56",
+     "shot": "gap",
+     "type": "INSERT",
+     "text": "America's commitment to the war began to weaken.",
+     "date": 1968,
+     "sfx": []
+    },
+    {
+     "id": "s07b57",
+     "shot": "gap",
+     "type": "HOST",
+     "text": "But the worst revelations were still to come.",
+     "date": 1968,
+     "sfx": []
+    }
+   ],
+   "mood": "tension"
+  }
+ ]
+}

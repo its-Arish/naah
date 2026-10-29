@@ -1,0 +1,544 @@
+{
+ "sections": [
+  {
+   "title": "Chapter 10: The Fall of Saigon",
+   "beats": [
+    {
+     "id": "s11b01",
+     "shot": "offensive75",
+     "type": "INSERT",
+     "text": "In early 1975, North Vietnam launched a major offensive against South Vietnam.",
+     "sfx": [
+      [
+       "rumble",
+       4,
+       0.5
+      ]
+     ],
+     "date": 1975
+    },
+    {
+     "id": "s11b02",
+     "shot": "collapse",
+     "type": "INSERT",
+     "text": "The initial attacks were intended to test the strength of the South Vietnamese military.",
+     "date": 1975,
+     "sfx": []
+    },
+    {
+     "id": "s11b03",
+     "shot": "collapse",
+     "type": "INSERT",
+     "text": "Instead, they revealed just how fragile it had become.",
+     "date": 1975,
+     "sfx": [
+      [
+       "crack",
+       "w:fragile",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s11b04",
+     "shot": "offensive75",
+     "type": "INSERT",
+     "text": "South Vietnamese forces retreated from key positions.",
+     "date": 1975,
+     "sfx": []
+    },
+    {
+     "id": "s11b05",
+     "shot": "collapse",
+     "type": "INSERT",
+     "text": "Confused orders, collapsing morale, and the rapid loss of territory turned a military crisis",
+     "date": 1975,
+     "sfx": []
+    },
+    {
+     "id": "s11b06",
+     "shot": "collapse",
+     "type": "INSERT",
+     "text": "into a national disaster.",
+     "date": 1975,
+     "sfx": [
+      [
+       "stamp",
+       "w:national",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s11b07",
+     "shot": "offensive75",
+     "type": "INSERT",
+     "text": "Cities fell in quick succession.",
+     "date": 1975,
+     "sfx": [
+      [
+       "pops",
+       4,
+       0.4
+      ],
+      [
+       "stamp",
+       "w:succession.",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s11b08",
+     "shot": "offensive75",
+     "type": "INSERT",
+     "text": "The North Vietnamese leadership realized that victory might come much sooner than expected.",
+     "date": 1975,
+     "sfx": []
+    },
+    {
+     "id": "s11b09",
+     "shot": "offensive75",
+     "type": "INSERT",
+     "text": "The offensive accelerated toward Saigon.",
+     "date": 1975,
+     "sfx": [
+      [
+       "rumble",
+       4,
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s11b10",
+     "shot": "thieu",
+     "type": "INSERT",
+     "text": "And the South Vietnamese government was running out of time.",
+     "date": 1975,
+     "sfx": []
+    },
+    {
+     "id": "s11b11",
+     "shot": "thieu",
+     "type": "STORY",
+     "text": "President Nguyen Van Thieu resigned on April 21, 1975, and left the country.",
+     "date": 1975,
+     "sfx": [
+      [
+       "steps",
+       "w:resigned",
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s11b12",
+     "shot": "closing",
+     "type": "INSERT",
+     "text": "By late April, North Vietnamese forces were closing in on the capital.",
+     "date": 1975,
+     "sfx": []
+    },
+    {
+     "id": "s11b13",
+     "shot": "closing",
+     "type": "INSERT",
+     "text": "American officials began preparing the final evacuation.",
+     "date": 1975,
+     "sfx": []
+    },
+    {
+     "id": "s11b14",
+     "shot": "closing",
+     "type": "INSERT",
+     "text": "The operation became known as Frequent Wind.",
+     "date": 1975,
+     "sfx": [
+      [
+       "pop2",
+       "w:Frequent",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s11b15",
+     "shot": "airport",
+     "type": "STORY",
+     "text": "On April 29, North Vietnamese shelling struck Tan Son Nhut Airport,",
+     "date": 1975,
+     "sfx": [
+      [
+       "boom",
+       "w:shelling",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s11b16",
+     "shot": "airport",
+     "type": "INSERT",
+     "text": "killing two American Marines, Charles McMahon and Darwin Judge.",
+     "date": 1975,
+     "sfx": [],
+     "quiet": true,
+     "mood": "sombre"
+    },
+    {
+     "id": "s11b17",
+     "shot": "airport",
+     "type": "INSERT",
+     "text": "They were the last American servicemen killed in combat in Vietnam.",
+     "date": 1975,
+     "sfx": [],
+     "quiet": true,
+     "mood": "sombre"
+    },
+    {
+     "id": "s11b18",
+     "shot": "airport",
+     "type": "STORY",
+     "text": "With the airport under fire, large-scale evacuation by fixed-wing aircraft was no longer possible.",
+     "date": 1975,
+     "sfx": [
+      [
+       "stamp",
+       "w:no",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s11b19",
+     "shot": "gather",
+     "type": "STORY",
+     "text": "Helicopters became the only practical way to remove the remaining Americans and many Vietnamese",
+     "date": 1975,
+     "sfx": [],
+     "amb": "wind",
+     "mood": "sombre"
+    },
+    {
+     "id": "s11b20",
+     "shot": "gather",
+     "type": "STORY",
+     "text": "civilians who had worked with the United States.",
+     "date": 1975,
+     "sfx": [],
+     "amb": "wind",
+     "mood": "sombre"
+    },
+    {
+     "id": "s11b21",
+     "shot": "gather",
+     "type": "STORY",
+     "text": "Thousands gathered at evacuation points.",
+     "date": 1975,
+     "sfx": [],
+     "amb": "wind",
+     "mood": "sombre"
+    },
+    {
+     "id": "s11b22",
+     "shot": "gather",
+     "type": "STORY",
+     "text": "Some had served alongside American forces.",
+     "date": 1975,
+     "sfx": [],
+     "amb": "wind",
+     "mood": "sombre"
+    },
+    {
+     "id": "s11b23",
+     "shot": "gather",
+     "type": "STORY",
+     "text": "Others had worked for American agencies or feared retaliation from the incoming government.",
+     "date": 1975,
+     "sfx": [],
+     "amb": "wind",
+     "mood": "sombre"
+    },
+    {
+     "id": "s11b24",
+     "shot": "gather",
+     "type": "STORY",
+     "text": "They knew what might happen if they were left behind.",
+     "date": 1975,
+     "sfx": [],
+     "amb": "wind",
+     "mood": "sombre"
+    },
+    {
+     "id": "s11b25",
+     "shot": "gather",
+     "type": "STORY",
+     "text": "And there was not enough space for everyone.",
+     "date": 1975,
+     "sfx": [],
+     "amb": "wind",
+     "mood": "sombre"
+    },
+    {
+     "id": "s11b26",
+     "shot": "lift",
+     "type": "STORY",
+     "text": "During the evacuation, helicopters carried people from rooftops and other locations to American ships waiting offshore.",
+     "date": 1975,
+     "sfx": [],
+     "amb": "wind"
+    },
+    {
+     "id": "s11b27",
+     "shot": "ship_deck",
+     "type": "STORY",
+     "text": "Pilots flew repeated missions under immense pressure.",
+     "date": 1975,
+     "sfx": [],
+     "amb": "wind"
+    },
+    {
+     "id": "s11b28",
+     "shot": "ship_deck",
+     "type": "STORY",
+     "text": "On the ships, crews cleared deck space for incoming helicopters.",
+     "date": 1975,
+     "sfx": [],
+     "amb": "waves"
+    },
+    {
+     "id": "s11b29",
+     "shot": "ship_deck",
+     "type": "STORY",
+     "text": "Some South Vietnamese aircraft were pushed overboard to make room for more evacuees.",
+     "date": 1975,
+     "sfx": [
+      [
+       "slide_down",
+       "w:pushed",
+       0.5
+      ]
+     ],
+     "amb": "waves"
+    },
+    {
+     "id": "s11b30",
+     "shot": "tally",
+     "type": "INSERT",
+     "text": "The operation moved more than 7,000 people by helicopter in roughly 19 hours.",
+     "date": 1975,
+     "sfx": [
+      [
+       "ticks",
+       "w:7,000",
+       0.4
+      ]
+     ],
+     "amb": "waves"
+    },
+    {
+     "id": "s11b31",
+     "shot": "tally",
+     "type": "INSERT",
+     "text": "But many Vietnamese who wanted to escape could not get out.",
+     "date": 1975,
+     "sfx": [],
+     "amb": "waves",
+     "mood": "sombre"
+    },
+    {
+     "id": "s11b32",
+     "shot": "palace_gate",
+     "type": "STORY",
+     "text": "Then came the morning of April 30, 1975.",
+     "date": 1975,
+     "sfx": [
+      [
+       "drum",
+       4,
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s11b33",
+     "shot": "palace_gate",
+     "type": "STORY",
+     "text": "North Vietnamese tanks entered Saigon.",
+     "date": 1975,
+     "sfx": [
+      [
+       "machine",
+       0,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s11b34",
+     "shot": "palace_gate",
+     "type": "STORY",
+     "text": "One of them crashed through the gates of the presidential palace.",
+     "date": 1975,
+     "sfx": [
+      [
+       "machine",
+       0,
+       0.4
+      ],
+      [
+       "slam",
+       "w:crashed",
+       0.9
+      ]
+     ]
+    },
+    {
+     "id": "s11b35",
+     "shot": "palace_gate",
+     "type": "STORY",
+     "text": "The South Vietnamese government surrendered.",
+     "date": 1975,
+     "sfx": [
+      [
+       "stamp",
+       "w:surrendered.",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s11b36",
+     "shot": "over",
+     "type": "INSERT",
+     "text": "After nearly two decades of escalating American involvement, the war was over.",
+     "date": 1975,
+     "sfx": [],
+     "mood": "sombre"
+    },
+    {
+     "id": "s11b37",
+     "shot": "over",
+     "type": "INSERT",
+     "text": "Saigon would later be renamed Ho Chi Minh City,",
+     "date": 1975,
+     "sfx": [
+      [
+       "paper",
+       "w:Ho",
+       0.4
+      ]
+     ],
+     "mood": "sombre"
+    },
+    {
+     "id": "s11b38",
+     "shot": "over",
+     "type": "INSERT",
+     "text": "after the revolutionary leader who had declared Vietnam independent 30 years earlier.",
+     "date": 1975,
+     "sfx": [],
+     "mood": "sombre"
+    },
+    {
+     "id": "s11b39",
+     "shot": "over",
+     "type": "INSERT",
+     "text": "But Ho Chi Minh himself never witnessed the victory.",
+     "date": 1975,
+     "sfx": [],
+     "mood": "sombre"
+    },
+    {
+     "id": "s11b40",
+     "shot": "over",
+     "type": "INSERT",
+     "text": "He had died in 1969.",
+     "date": 1975,
+     "sfx": [],
+     "mood": "sombre"
+    },
+    {
+     "id": "s11b41",
+     "shot": "over",
+     "type": "INSERT",
+     "text": "The country he had fought to unite was now under communist rule.",
+     "date": 1975,
+     "sfx": [],
+     "mood": "sombre"
+    },
+    {
+     "id": "s11b42",
+     "shot": "verdict",
+     "type": "HOST",
+     "text": "And the United States had failed to achieve the central objective for which it",
+     "date": null,
+     "sfx": [],
+     "mood": "sombre"
+    },
+    {
+     "id": "s11b43",
+     "shot": "verdict",
+     "type": "HOST",
+     "text": "had committed so much blood and treasure.",
+     "date": null,
+     "sfx": [],
+     "mood": "sombre"
+    },
+    {
+     "id": "s11b44",
+     "shot": "verdict",
+     "type": "HOST",
+     "text": "The most powerful military in the world had withdrawn.",
+     "date": null,
+     "sfx": [],
+     "mood": "sombre"
+    },
+    {
+     "id": "s11b45",
+     "shot": "verdict",
+     "type": "HOST",
+     "text": "The government it had spent years supporting had collapsed.",
+     "date": null,
+     "sfx": [],
+     "mood": "sombre"
+    },
+    {
+     "id": "s11b46",
+     "shot": "verdict",
+     "type": "HOST",
+     "text": "And the images of the final evacuation became the defining pictures of America's defeat in Vietnam.",
+     "date": null,
+     "sfx": [],
+     "mood": "sombre"
+    },
+    {
+     "id": "s11b47",
+     "shot": "verdict",
+     "type": "HOST",
+     "text": "But the fall of Saigon was only the end of the story on the battlefield.",
+     "date": null,
+     "sfx": [],
+     "mood": "sombre"
+    },
+    {
+     "id": "s11b48",
+     "shot": "verdict",
+     "type": "HOST",
+     "text": "The consequences would continue for decades.",
+     "date": null,
+     "sfx": [
+      [
+       "drum",
+       "w:decades.",
+       0.4
+      ]
+     ],
+     "mood": "sombre"
+    }
+   ],
+   "mood": "tension"
+  }
+ ]
+}

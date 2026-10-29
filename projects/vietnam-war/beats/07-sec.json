@@ -1,0 +1,329 @@
+{
+ "sections": [
+  {
+   "title": "Chapter 7: The War America Didn't Want to See",
+   "beats": [
+    {
+     "id": "s08b01",
+     "shot": "my_lai",
+     "type": "STORY",
+     "text": "On March 16, 1968, American soldiers entered the South Vietnamese hamlet of My Lai.",
+     "sfx": [],
+     "quiet": true,
+     "mood": "sombre",
+     "amb": "wind",
+     "date": 1968
+    },
+    {
+     "id": "s08b02",
+     "shot": "my_lai",
+     "type": "STORY",
+     "text": "They were searching for Viet Cong fighters.",
+     "date": 1968,
+     "sfx": [],
+     "quiet": true,
+     "mood": "sombre",
+     "amb": "wind"
+    },
+    {
+     "id": "s08b03",
+     "shot": "my_lai",
+     "type": "STORY",
+     "text": "Instead, they encountered unarmed civilians.",
+     "date": 1968,
+     "sfx": [],
+     "quiet": true,
+     "mood": "sombre",
+     "amb": "wind"
+    },
+    {
+     "id": "s08b04",
+     "shot": "my_lai",
+     "type": "STORY",
+     "text": "Over the course of the operation, American soldiers murdered hundreds of Vietnamese villagers,",
+     "date": 1968,
+     "sfx": [],
+     "quiet": true,
+     "mood": "sombre"
+    },
+    {
+     "id": "s08b05",
+     "shot": "my_lai",
+     "type": "STORY",
+     "text": "including women, children, and elderly people.",
+     "date": 1968,
+     "sfx": [],
+     "quiet": true,
+     "mood": "sombre"
+    },
+    {
+     "id": "s08b06",
+     "shot": "my_lai",
+     "type": "STORY",
+     "text": "The final number is generally estimated at between 347 and 504 civilians,",
+     "date": 1968,
+     "sfx": [],
+     "quiet": true,
+     "mood": "sombre"
+    },
+    {
+     "id": "s08b07",
+     "shot": "my_lai",
+     "type": "STORY",
+     "text": "depending on the accounting used.",
+     "date": 1968,
+     "sfx": [],
+     "quiet": true,
+     "mood": "sombre"
+    },
+    {
+     "id": "s08b08",
+     "shot": "my_lai",
+     "type": "STORY",
+     "text": "There was no major battle at My Lai that could explain what happened.",
+     "date": 1968,
+     "sfx": [],
+     "quiet": true,
+     "mood": "sombre"
+    },
+    {
+     "id": "s08b09",
+     "shot": "my_lai",
+     "type": "STORY",
+     "text": "The victims were largely unarmed civilians.",
+     "date": 1968,
+     "sfx": [],
+     "quiet": true,
+     "mood": "sombre"
+    },
+    {
+     "id": "s08b10",
+     "shot": "my_lai",
+     "type": "STORY",
+     "text": "One American helicopter pilot, Hugh Thompson Jr., witnessed the killings from the air.",
+     "date": 1968,
+     "sfx": [],
+     "quiet": true,
+     "mood": "sombre"
+    },
+    {
+     "id": "s08b11",
+     "shot": "my_lai",
+     "type": "STORY",
+     "text": "He landed his helicopter between American soldiers and a group of surviving villagers.",
+     "date": 1968,
+     "sfx": [
+      [
+       "whoosh",
+       "w:landed",
+       0.3
+      ]
+     ],
+     "quiet": true,
+     "mood": "sombre"
+    },
+    {
+     "id": "s08b12",
+     "shot": "my_lai",
+     "type": "STORY",
+     "text": "He and his crew helped protect civilians and evacuate some of them.",
+     "date": 1968,
+     "sfx": [],
+     "quiet": true,
+     "mood": "sombre"
+    },
+    {
+     "id": "s08b13",
+     "shot": "my_lai",
+     "type": "STORY",
+     "text": "Thompson also reported what he had seen.",
+     "date": 1968,
+     "sfx": [],
+     "quiet": true,
+     "mood": "sombre"
+    },
+    {
+     "id": "s08b14",
+     "shot": "covered",
+     "type": "INSERT",
+     "text": "But the massacre was not immediately exposed to the American public.",
+     "date": 1968,
+     "sfx": [
+      [
+       "stamp",
+       "w:not",
+       0.4
+      ]
+     ],
+     "mood": "sombre"
+    },
+    {
+     "id": "s08b15",
+     "shot": "covered",
+     "type": "INSERT",
+     "text": "The events were concealed and minimized for months.",
+     "date": 1969,
+     "sfx": [
+      [
+       "stamp",
+       "w:concealed",
+       0.5
+      ]
+     ],
+     "mood": "sombre"
+    },
+    {
+     "id": "s08b16",
+     "shot": "covered",
+     "type": "INSERT",
+     "text": "It was only in 1969, after investigations and reporting by journalist Seymour Hersh,",
+     "date": 1969,
+     "sfx": [
+      [
+       "paper",
+       "w:Hersh,",
+       0.5
+      ]
+     ],
+     "mood": "sombre"
+    },
+    {
+     "id": "s08b17",
+     "shot": "covered",
+     "type": "INSERT",
+     "text": "that the story reached a wider audience.",
+     "date": 1969,
+     "sfx": [],
+     "mood": "sombre"
+    },
+    {
+     "id": "s08b18",
+     "shot": "covered",
+     "type": "INSERT",
+     "text": "The photographs were horrifying.",
+     "date": 1969,
+     "sfx": [],
+     "mood": "sombre"
+    },
+    {
+     "id": "s08b19",
+     "shot": "covered",
+     "type": "INSERT",
+     "text": "The accounts were even worse.",
+     "date": 1969,
+     "sfx": [],
+     "mood": "sombre"
+    },
+    {
+     "id": "s08b20",
+     "shot": "calley",
+     "type": "INSERT",
+     "text": "Of the American soldiers involved, Lieutenant William Calley was convicted of murder.",
+     "date": 1971,
+     "sfx": [
+      [
+       "thud",
+       "w:convicted",
+       0.4
+      ]
+     ],
+     "mood": "sombre"
+    },
+    {
+     "id": "s08b21",
+     "shot": "calley",
+     "type": "INSERT",
+     "text": "He was initially sentenced to life imprisonment, but his sentence was later reduced,",
+     "date": 1971,
+     "sfx": [],
+     "mood": "sombre"
+    },
+    {
+     "id": "s08b22",
+     "shot": "calley",
+     "type": "INSERT",
+     "text": "and he served roughly three and a half years under house arrest.",
+     "date": 1971,
+     "sfx": [],
+     "mood": "sombre"
+    },
+    {
+     "id": "s08b23",
+     "shot": "symbol",
+     "type": "INSERT",
+     "text": "For many Americans, My Lai became a symbol of everything that had gone wrong in Vietnam.",
+     "date": 1969,
+     "sfx": [],
+     "mood": "sombre"
+    },
+    {
+     "id": "s08b24",
+     "shot": "symbol",
+     "type": "INSERT",
+     "text": "A war supposedly being fought to defend freedom had produced the slaughter of innocent people.",
+     "date": 1969,
+     "sfx": [],
+     "mood": "sombre"
+    },
+    {
+     "id": "s08b25",
+     "shot": "symbol",
+     "type": "INSERT",
+     "text": "And it raised an uncomfortable question.",
+     "date": 1969,
+     "sfx": [],
+     "mood": "sombre"
+    },
+    {
+     "id": "s08b26",
+     "shot": "symbol",
+     "type": "INSERT",
+     "text": "If American officials had been misleading the public about progress,",
+     "date": 1969,
+     "sfx": [],
+     "mood": "sombre"
+    },
+    {
+     "id": "s08b27",
+     "shot": "symbol",
+     "type": "INSERT",
+     "text": "what else were they hiding?",
+     "date": 1969,
+     "sfx": [],
+     "mood": "sombre"
+    },
+    {
+     "id": "s08b28",
+     "shot": "nixon_in",
+     "type": "STORY",
+     "text": "By 1969, a new president was in the White House.",
+     "date": 1969,
+     "sfx": []
+    },
+    {
+     "id": "s08b29",
+     "shot": "nixon_in",
+     "type": "STORY",
+     "text": "Richard Nixon had promised to end the war.",
+     "date": 1969,
+     "sfx": [
+      [
+       "pop2",
+       "w:end",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s08b30",
+     "shot": "nixon_in",
+     "type": "STORY",
+     "text": "But ending it would prove far more complicated than his campaign speeches suggested.",
+     "date": 1969,
+     "sfx": []
+    }
+   ],
+   "mood": "sombre"
+  }
+ ]
+}

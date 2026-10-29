@@ -1,0 +1,555 @@
+{
+ "sections": [
+  {
+   "title": "Chapter 1: Before America, There Was France",
+   "beats": [
+    {
+     "id": "s02b01",
+     "shot": "c1_invade",
+     "type": "HOST",
+     "text": "In 1858, France invaded Vietnam.",
+     "sfx": [
+      [
+       "drum",
+       "w:invaded",
+       0.5
+      ]
+     ],
+     "date": null
+    },
+    {
+     "id": "s02b02",
+     "shot": "colony",
+     "type": "INSERT",
+     "text": "Over the following decades, it expanded its control over the region.",
+     "date": 1858,
+     "sfx": []
+    },
+    {
+     "id": "s02b03",
+     "shot": "colony",
+     "type": "INSERT",
+     "text": "By 1887, France had established French Indochina, a colonial federation that included Vietnam, Laos, and Cambodia.",
+     "date": 1887,
+     "sfx": [
+      [
+       "pop2",
+       "w:Laos,",
+       0.4
+      ],
+      [
+       "pop2",
+       "w:Cambodia.",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s02b04",
+     "shot": "rubber",
+     "type": "STORY",
+     "text": "And colonial rule was brutal.",
+     "date": 1900,
+     "sfx": []
+    },
+    {
+     "id": "s02b05",
+     "shot": "rubber",
+     "type": "STORY",
+     "text": "French authorities took control of valuable farmland, expanded rice and rubber plantations,",
+     "date": 1900,
+     "sfx": []
+    },
+    {
+     "id": "s02b06",
+     "shot": "rubber",
+     "type": "STORY",
+     "text": "imposed taxes on ordinary people, and maintained monopolies over products such as salt, alcohol, and opium.",
+     "date": 1900,
+     "sfx": [
+      [
+       "stamp",
+       "w:salt,",
+       0.4
+      ],
+      [
+       "stamp",
+       "w:alcohol,",
+       0.4
+      ],
+      [
+       "stamp",
+       "w:opium.",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s02b07",
+     "shot": "rubber",
+     "type": "STORY",
+     "text": "The economy grew, but much of the wealth flowed to colonial businesses and officials.",
+     "date": 1900,
+     "sfx": [
+      [
+       "coins",
+       "w:wealth",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s02b08",
+     "shot": "rice_tax",
+     "type": "STORY",
+     "text": "Vietnamese farmers were forced to work land they didn't own,",
+     "date": 1900,
+     "sfx": [],
+     "amb": "birds"
+    },
+    {
+     "id": "s02b09",
+     "shot": "rice_tax",
+     "type": "STORY",
+     "text": "pay taxes to a government they didn't choose,",
+     "date": 1900,
+     "sfx": [
+      [
+       "stamp",
+       "w:taxes",
+       0.5
+      ]
+     ],
+     "amb": "birds"
+    },
+    {
+     "id": "s02b10",
+     "shot": "rice_tax",
+     "type": "STORY",
+     "text": "and live under a system designed primarily to benefit France.",
+     "date": 1900,
+     "sfx": [],
+     "amb": "birds"
+    },
+    {
+     "id": "s02b11",
+     "shot": "exploited",
+     "type": "INSERT",
+     "text": "In other words, Vietnam wasn't simply being governed by a foreign power.",
+     "date": 1900,
+     "sfx": []
+    },
+    {
+     "id": "s02b12",
+     "shot": "exploited",
+     "type": "INSERT",
+     "text": "It was being exploited by one.",
+     "date": 1900,
+     "sfx": [
+      [
+       "stamp",
+       "w:exploited",
+       0.7
+      ]
+     ]
+    },
+    {
+     "id": "s02b13",
+     "shot": "ho_reveal",
+     "type": "STORY",
+     "text": "And eventually, someone decided to fight back.",
+     "date": 1900,
+     "sfx": []
+    },
+    {
+     "id": "s02b14",
+     "shot": "ho_reveal",
+     "type": "STORY",
+     "text": "His name was Ho Chi Minh.",
+     "date": 1900,
+     "sfx": [
+      [
+       "riser",
+       0,
+       0.4
+      ],
+      [
+       "ding",
+       "w:Ho",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s02b15",
+     "shot": "travels",
+     "type": "INSERT",
+     "text": "Born in 1890, Ho left Vietnam in 1911 and spent years living abroad.",
+     "date": 1890,
+     "sfx": []
+    },
+    {
+     "id": "s02b16",
+     "shot": "travels",
+     "type": "INSERT",
+     "text": "He traveled through countries including France, Britain, the Soviet Union, and China.",
+     "date": 1911,
+     "sfx": [
+      [
+       "whoosh",
+       "w:France,",
+       0.3
+      ],
+      [
+       "whoosh",
+       "w:Britain,",
+       0.3
+      ],
+      [
+       "whoosh",
+       "w:Soviet",
+       0.3
+      ],
+      [
+       "whoosh",
+       "w:China.",
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s02b17",
+     "shot": "travels",
+     "type": "INSERT",
+     "text": "During those years, he studied revolutionary movements and became a committed communist.",
+     "date": 1911,
+     "sfx": [
+      [
+       "pop2",
+       "w:studied",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s02b18",
+     "shot": "travels",
+     "type": "INSERT",
+     "text": "But he also developed a goal that mattered more to millions of Vietnamese people",
+     "date": 1911,
+     "sfx": []
+    },
+    {
+     "id": "s02b19",
+     "shot": "travels",
+     "type": "INSERT",
+     "text": "than any political ideology.",
+     "date": 1911,
+     "sfx": []
+    },
+    {
+     "id": "s02b20",
+     "shot": "travels",
+     "type": "INSERT",
+     "text": "He wanted Vietnam to be independent.",
+     "date": 1911,
+     "sfx": []
+    },
+    {
+     "id": "s02b21",
+     "shot": "viet_minh",
+     "type": "STORY",
+     "text": "In 1941, Ho returned to Vietnam and helped establish the Viet Minh,",
+     "date": 1941,
+     "sfx": [],
+     "amb": "birds"
+    },
+    {
+     "id": "s02b22",
+     "shot": "viet_minh",
+     "type": "STORY",
+     "text": "a nationalist movement led by communists that fought for Vietnamese independence and resisted Japanese",
+     "date": 1941,
+     "sfx": [
+      [
+       "drum",
+       "w:Japanese",
+       0.4
+      ]
+     ],
+     "amb": "birds"
+    },
+    {
+     "id": "s02b23",
+     "shot": "viet_minh",
+     "type": "STORY",
+     "text": "occupation during World War II.",
+     "date": 1941,
+     "sfx": [],
+     "amb": "birds"
+    },
+    {
+     "id": "s02b24",
+     "shot": "surrender45",
+     "type": "INSERT",
+     "text": "Then, in August 1945, Japan surrendered.",
+     "date": 1945,
+     "sfx": [
+      [
+       "pop2",
+       "w:surrendered.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s02b25",
+     "shot": "surrender45",
+     "type": "INSERT",
+     "text": "For Ho Chi Minh, this was the moment he'd been waiting for.",
+     "date": 1945,
+     "sfx": []
+    },
+    {
+     "id": "s02b26",
+     "shot": "ba_dinh",
+     "type": "STORY",
+     "text": "On September 2, 1945, he stood before a huge crowd in Hanoi and declared Vietnam independent.",
+     "date": 1945,
+     "sfx": [
+      [
+       "pops",
+       6,
+       0.3
+      ]
+     ],
+     "mood": "grand"
+    },
+    {
+     "id": "s02b27",
+     "shot": "ba_dinh",
+     "type": "STORY",
+     "text": "And he began his speech with words Americans would immediately recognize.",
+     "date": 1945,
+     "sfx": [
+      [
+       "pops",
+       6,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s02b28",
+     "shot": "ba_dinh",
+     "type": "STORY",
+     "text": "\"All men are created equal.\"",
+     "date": 1945,
+     "sfx": [
+      [
+       "sparkle",
+       2,
+       0.4
+      ]
+     ],
+     "mood": "grand"
+    },
+    {
+     "id": "s02b29",
+     "shot": "ba_dinh",
+     "type": "STORY",
+     "text": "He was quoting the American Declaration of Independence.",
+     "date": 1945,
+     "sfx": [
+      [
+       "paper",
+       "w:Declaration",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s02b30",
+     "shot": "echo",
+     "type": "HOST",
+     "text": "Think about that for a moment.",
+     "date": 1945,
+     "sfx": []
+    },
+    {
+     "id": "s02b31",
+     "shot": "echo",
+     "type": "INSERT",
+     "text": "Ho Chi Minh was asking the United States to support a country fighting against foreign domination.",
+     "date": 1945,
+     "sfx": []
+    },
+    {
+     "id": "s02b32",
+     "shot": "echo",
+     "type": "INSERT",
+     "text": "To make his case, he used the words of America's own founding document.",
+     "date": 1945,
+     "sfx": []
+    },
+    {
+     "id": "s02b33",
+     "shot": "echo",
+     "type": "INSERT",
+     "text": "He was essentially telling Washington: You fought for your freedom.",
+     "date": 1945,
+     "sfx": [
+      [
+       "pop2",
+       4,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s02b34",
+     "shot": "echo",
+     "type": "INSERT",
+     "text": "Now help us fight for ours.",
+     "date": 1945,
+     "sfx": []
+    },
+    {
+     "id": "s02b35",
+     "shot": "oss",
+     "type": "INSERT",
+     "text": "And the United States had reasons to listen.",
+     "date": 1945,
+     "sfx": [
+      [
+       "paper",
+       4,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s02b36",
+     "shot": "oss",
+     "type": "INSERT",
+     "text": "During World War II, American intelligence agents had cooperated with Ho's forces against Japan.",
+     "date": 1945,
+     "sfx": [
+      [
+       "paper",
+       4,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s02b37",
+     "shot": "oss",
+     "type": "INSERT",
+     "text": "Washington knew who he was, and it knew his movement had helped fight a common enemy.",
+     "date": 1945,
+     "sfx": [
+      [
+       "paper",
+       4,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s02b38",
+     "shot": "red_fear",
+     "type": "INSERT",
+     "text": "But there was one problem.",
+     "date": 1945,
+     "sfx": []
+    },
+    {
+     "id": "s02b39",
+     "shot": "red_fear",
+     "type": "INSERT",
+     "text": "Ho Chi Minh was a communist.",
+     "date": 1945,
+     "sfx": [
+      [
+       "stamp",
+       "w:communist.",
+       0.7
+      ]
+     ]
+    },
+    {
+     "id": "s02b40",
+     "shot": "red_fear",
+     "type": "INSERT",
+     "text": "And as World War II ended, America's next great fear was already taking shape.",
+     "date": 1945,
+     "sfx": []
+    },
+    {
+     "id": "s02b41",
+     "shot": "red_fear",
+     "type": "INSERT",
+     "text": "The spread of communism.",
+     "date": 1945,
+     "sfx": [
+      [
+       "rumble",
+       4,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s02b42",
+     "shot": "choice",
+     "type": "INSERT",
+     "text": "Washington had a choice: support Vietnamese independence, even if it meant working with a",
+     "date": 1945,
+     "sfx": []
+    },
+    {
+     "id": "s02b43",
+     "shot": "choice",
+     "type": "INSERT",
+     "text": "communist leader, or support its European ally, France.",
+     "date": 1945,
+     "sfx": []
+    },
+    {
+     "id": "s02b44",
+     "shot": "choice",
+     "type": "INSERT",
+     "text": "America chose France.",
+     "date": 1945,
+     "sfx": [
+      [
+       "thud",
+       "w:France.",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s02b45",
+     "shot": "choice",
+     "type": "INSERT",
+     "text": "And that decision would help set the stage for one of the most devastating",
+     "date": 1945,
+     "sfx": [],
+     "mood": "sombre"
+    },
+    {
+     "id": "s02b46",
+     "shot": "choice",
+     "type": "INSERT",
+     "text": "wars of the twentieth century.",
+     "date": 1945,
+     "sfx": [],
+     "mood": "sombre"
+    }
+   ],
+   "mood": "sombre"
+  }
+ ]
+}

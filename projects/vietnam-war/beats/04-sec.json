@@ -1,0 +1,501 @@
+{
+ "sections": [
+  {
+   "title": "Chapter 4: The Attack That Changed Everything",
+   "beats": [
+    {
+     "id": "s05b01",
+     "shot": "todo_august2196",
+     "type": "HOST",
+     "text": "August 2, 1964."
+    },
+    {
+     "id": "s05b02",
+     "shot": "maddox",
+     "type": "STORY",
+     "text": "The American destroyer USS Maddox was operating in the Gulf of Tonkin when North",
+     "date": 1964,
+     "sfx": [],
+     "amb": "waves"
+    },
+    {
+     "id": "s05b03",
+     "shot": "maddox",
+     "type": "STORY",
+     "text": "Vietnamese torpedo boats attacked it.",
+     "date": 1964,
+     "sfx": [
+      [
+       "boom",
+       "w:attacked",
+       0.5
+      ]
+     ],
+     "amb": "waves"
+    },
+    {
+     "id": "s05b04",
+     "shot": "maddox",
+     "type": "INSERT",
+     "text": "This first attack was real.",
+     "date": 1964,
+     "sfx": [
+      [
+       "ding",
+       "w:real.",
+       0.5
+      ]
+     ],
+     "amb": "waves"
+    },
+    {
+     "id": "s05b05",
+     "shot": "maddox",
+     "type": "STORY",
+     "text": "The Maddox exchanged fire with the boats, and American aircraft joined the engagement.",
+     "date": 1964,
+     "sfx": [
+      [
+       "boom",
+       6,
+       0.4
+      ],
+      [
+       "boom",
+       26,
+       0.4
+      ],
+      [
+       "whoosh",
+       "w:aircraft",
+       0.4
+      ]
+     ],
+     "amb": "waves"
+    },
+    {
+     "id": "s05b06",
+     "shot": "maddox",
+     "type": "STORY",
+     "text": "The incident caused no American fatalities, and the destroyer sustained only minor damage.",
+     "date": 1964,
+     "sfx": [
+      [
+       "pop2",
+       "w:fatalities,",
+       0.4
+      ],
+      [
+       "pop2",
+       "w:minor",
+       0.4
+      ]
+     ],
+     "amb": "waves"
+    },
+    {
+     "id": "s05b07",
+     "shot": "night_reports",
+     "type": "STORY",
+     "text": "Two days later, another attack was reported.",
+     "date": 1964,
+     "sfx": [
+      [
+       "pop2",
+       "w:another",
+       0.4
+      ]
+     ],
+     "amb": "waves",
+     "mood": "tension"
+    },
+    {
+     "id": "s05b08",
+     "shot": "night_reports",
+     "type": "STORY",
+     "text": "Or at least, that's what American officials initially believed.",
+     "date": 1964,
+     "sfx": [],
+     "amb": "waves",
+     "mood": "tension"
+    },
+    {
+     "id": "s05b09",
+     "shot": "night_reports",
+     "type": "STORY",
+     "text": "On August 4, the Maddox and another destroyer reported what appeared to be incoming",
+     "date": 1964,
+     "sfx": [],
+     "amb": "waves",
+     "mood": "tension"
+    },
+    {
+     "id": "s05b10",
+     "shot": "night_reports",
+     "type": "STORY",
+     "text": "North Vietnamese torpedo boats.",
+     "date": 1964,
+     "sfx": [],
+     "amb": "waves",
+     "mood": "tension"
+    },
+    {
+     "id": "s05b11",
+     "shot": "night_reports",
+     "type": "STORY",
+     "text": "But the conditions were terrible.",
+     "date": 1964,
+     "sfx": [],
+     "amb": "waves",
+     "mood": "tension"
+    },
+    {
+     "id": "s05b12",
+     "shot": "night_reports",
+     "type": "STORY",
+     "text": "It was dark.",
+     "date": 1964,
+     "sfx": [
+      [
+       "deflate",
+       2,
+       0.3
+      ]
+     ],
+     "amb": "waves",
+     "mood": "tension"
+    },
+    {
+     "id": "s05b13",
+     "shot": "night_reports",
+     "type": "STORY",
+     "text": "The sea was rough.",
+     "date": 1964,
+     "sfx": [
+      [
+       "rumble",
+       2,
+       0.4
+      ]
+     ],
+     "amb": "waves",
+     "mood": "tension"
+    },
+    {
+     "id": "s05b14",
+     "shot": "night_reports",
+     "type": "STORY",
+     "text": "Radar readings were confusing.",
+     "date": 1964,
+     "sfx": [
+      [
+       "blip",
+       4,
+       0.4
+      ],
+      [
+       "blip",
+       20,
+       0.4
+      ],
+      [
+       "blip",
+       36,
+       0.4
+      ]
+     ],
+     "amb": "waves",
+     "mood": "tension"
+    },
+    {
+     "id": "s05b15",
+     "shot": "night_reports",
+     "type": "STORY",
+     "text": "Crew members struggled to determine what they were actually seeing.",
+     "date": 1964,
+     "sfx": [],
+     "amb": "waves",
+     "mood": "tension"
+    },
+    {
+     "id": "s05b16",
+     "shot": "night_reports",
+     "type": "STORY",
+     "text": "As reports came in, doubts emerged about whether an attack had taken place at all.",
+     "date": 1964,
+     "sfx": [
+      [
+       "stamp",
+       "w:doubts",
+       0.5
+      ]
+     ],
+     "amb": "waves",
+     "mood": "tension"
+    },
+    {
+     "id": "s05b17",
+     "shot": "lbj_office",
+     "type": "STORY",
+     "text": "Those doubts did not stop the White House.",
+     "date": 1964,
+     "sfx": [
+      [
+       "stamp",
+       "w:stop",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s05b18",
+     "shot": "lbj_office",
+     "type": "STORY",
+     "text": "President Lyndon B.",
+     "date": 1964,
+     "sfx": []
+    },
+    {
+     "id": "s05b19",
+     "shot": "lbj_office",
+     "type": "STORY",
+     "text": "Johnson wanted the authority to respond militarily to North Vietnamese actions.",
+     "date": 1964,
+     "sfx": []
+    },
+    {
+     "id": "s05b20",
+     "shot": "lbj_office",
+     "type": "STORY",
+     "text": "His administration used the reported attacks to push Congress for a resolution giving him",
+     "date": 1964,
+     "sfx": [
+      [
+       "whoosh",
+       6,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s05b21",
+     "shot": "lbj_office",
+     "type": "STORY",
+     "text": "broad powers to conduct military operations in Southeast Asia.",
+     "date": 1964,
+     "sfx": []
+    },
+    {
+     "id": "s05b22",
+     "shot": "votes",
+     "type": "INSERT",
+     "text": "Congress approved it.",
+     "date": 1964,
+     "sfx": [
+      [
+       "ding",
+       "w:approved",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s05b23",
+     "shot": "votes",
+     "type": "INSERT",
+     "text": "The House voted 416–0.",
+     "date": 1964,
+     "sfx": [
+      [
+       "ticks",
+       "w:416–0.",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s05b24",
+     "shot": "votes",
+     "type": "INSERT",
+     "text": "The Senate voted 88–2.",
+     "date": 1964,
+     "sfx": [
+      [
+       "ticks",
+       "w:88–2.",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s05b25",
+     "shot": "votes",
+     "type": "INSERT",
+     "text": "The Gulf of Tonkin Resolution was now law.",
+     "date": 1964,
+     "sfx": [
+      [
+       "stamp",
+       "w:law.",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s05b26",
+     "shot": "votes",
+     "type": "INSERT",
+     "text": "It gave Johnson the authority to take extensive military action without Congress formally declaring war.",
+     "date": 1964,
+     "sfx": [
+      [
+       "pop2",
+       "w:without",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s05b27",
+     "shot": "never",
+     "type": "HOST",
+     "text": "But here's the extraordinary part.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s05b28",
+     "shot": "never",
+     "type": "INSERT",
+     "text": "The second attack almost certainly never happened.",
+     "date": 1964,
+     "sfx": [
+      [
+       "blip",
+       4,
+       0.3
+      ],
+      [
+       "stamp",
+       "w:never",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s05b29",
+     "shot": "never",
+     "type": "INSERT",
+     "text": "Later reviews of intelligence records, including a major National Security Agency historical study declassified",
+     "date": 2005,
+     "sfx": [
+      [
+       "paper",
+       "w:National",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s05b30",
+     "shot": "never",
+     "type": "INSERT",
+     "text": "decades afterward, showed that the August 4 reports had been badly misinterpreted.",
+     "date": 2005,
+     "sfx": []
+    },
+    {
+     "id": "s05b31",
+     "shot": "never",
+     "type": "INSERT",
+     "text": "The evidence did not support the claim that North Vietnamese forces had launched a",
+     "date": 1964,
+     "sfx": []
+    },
+    {
+     "id": "s05b32",
+     "shot": "never",
+     "type": "INSERT",
+     "text": "second attack that night.",
+     "date": 1964,
+     "sfx": []
+    },
+    {
+     "id": "s05b33",
+     "shot": "never",
+     "type": "INSERT",
+     "text": "The first attack was real.",
+     "date": 1964,
+     "sfx": [
+      [
+       "ding",
+       4,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s05b34",
+     "shot": "never",
+     "type": "INSERT",
+     "text": "The second was not.",
+     "date": 1964,
+     "sfx": [
+      [
+       "hit",
+       "w:not.",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s05b35",
+     "shot": "escalate",
+     "type": "STORY",
+     "text": "Yet the second incident helped provide the political justification for a massive escalation of American involvement.",
+     "date": 1964,
+     "sfx": []
+    },
+    {
+     "id": "s05b36",
+     "shot": "escalate",
+     "type": "STORY",
+     "text": "And within months, the United States was no longer simply advising another country's military.",
+     "date": 1965,
+     "sfx": []
+    },
+    {
+     "id": "s05b37",
+     "shot": "escalate",
+     "type": "STORY",
+     "text": "It was sending its own soldiers into combat.",
+     "date": 1965,
+     "sfx": [
+      [
+       "steps",
+       2,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s05b38",
+     "shot": "escalate",
+     "type": "INSERT",
+     "text": "America was about to enter a war that would consume more than a decade",
+     "date": 1965,
+     "sfx": []
+    },
+    {
+     "id": "s05b39",
+     "shot": "escalate",
+     "type": "INSERT",
+     "text": "of American combat operations, and nearly two decades of growing involvement.",
+     "date": 1965,
+     "sfx": []
+    }
+   ],
+   "mood": "tension"
+  }
+ ]
+}

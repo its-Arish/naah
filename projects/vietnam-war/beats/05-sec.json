@@ -1,0 +1,1095 @@
+{
+ "sections": [
+  {
+   "title": "Chapter 5: More Bombs. More Troops. No Victory.",
+   "beats": [
+    {
+     "id": "s06b01",
+     "shot": "arrive65",
+     "type": "HOST",
+     "text": "In March 1965, American combat troops began arriving in large numbers.",
+     "sfx": [
+      [
+       "drum",
+       "w:combat",
+       0.5
+      ]
+     ],
+     "date": null
+    },
+    {
+     "id": "s06b02",
+     "shot": "rolling",
+     "type": "INSERT",
+     "text": "That same month, the United States launched Operation Rolling Thunder,",
+     "date": 1965,
+     "sfx": [
+      [
+       "rumble",
+       0,
+       0.4
+      ],
+      [
+       "whoosh",
+       "w:Rolling",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s06b03",
+     "shot": "rolling",
+     "type": "INSERT",
+     "text": "a sustained bombing campaign against North Vietnam.",
+     "date": 1965,
+     "sfx": [
+      [
+       "rumble",
+       0,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s06b04",
+     "shot": "rolling",
+     "type": "INSERT",
+     "text": "American leaders believed air power could force Hanoi to stop supporting the communist insurgency in the South.",
+     "date": 1965,
+     "sfx": [
+      [
+       "rumble",
+       0,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s06b05",
+     "shot": "targets",
+     "type": "INSERT",
+     "text": "If the enemy depended on roads, bridges, supply depots,",
+     "date": 1965,
+     "sfx": [
+      [
+       "pop2",
+       "w:roads,",
+       0.3
+      ],
+      [
+       "pop2",
+       "w:bridges,",
+       0.3
+      ],
+      [
+       "pop2",
+       "w:depots,",
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s06b06",
+     "shot": "targets",
+     "type": "INSERT",
+     "text": "and industrial facilities, then destroy those targets.",
+     "date": 1965,
+     "sfx": [
+      [
+       "pop2",
+       "w:facilities,",
+       0.3
+      ],
+      [
+       "hit",
+       "w:destroy",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s06b07",
+     "shot": "targets",
+     "type": "STORY",
+     "text": "If supplies continued flowing, bomb them again.",
+     "date": 1966,
+     "sfx": [
+      [
+       "whoosh",
+       2,
+       0.3
+      ],
+      [
+       "boom",
+       25,
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s06b08",
+     "shot": "targets",
+     "type": "STORY",
+     "text": "And again.",
+     "date": 1966,
+     "sfx": [
+      [
+       "whoosh",
+       2,
+       0.3
+      ],
+      [
+       "boom",
+       25,
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s06b09",
+     "shot": "targets",
+     "type": "STORY",
+     "text": "And again.",
+     "date": 1966,
+     "sfx": [
+      [
+       "whoosh",
+       2,
+       0.3
+      ],
+      [
+       "boom",
+       25,
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s06b10",
+     "shot": "tonnage",
+     "type": "STORY",
+     "text": "Over the next three and a half years,",
+     "date": 1966,
+     "sfx": [
+      [
+       "rumble",
+       0,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s06b11",
+     "shot": "tonnage",
+     "type": "STORY",
+     "text": "American aircraft flew hundreds of thousands of sorties and dropped hundreds of thousands of",
+     "date": 1966,
+     "sfx": [
+      [
+       "rumble",
+       0,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s06b12",
+     "shot": "tonnage",
+     "type": "STORY",
+     "text": "tons of bombs on North Vietnam alone.",
+     "date": 1966,
+     "sfx": [
+      [
+       "rumble",
+       0,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s06b13",
+     "shot": "tonnage",
+     "type": "INSERT",
+     "text": "Across Vietnam, Laos, and Cambodia, the total bombardment eventually reached several million tons,",
+     "date": 1968,
+     "sfx": [
+      [
+       "thud",
+       "w:million",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s06b14",
+     "shot": "tonnage",
+     "type": "INSERT",
+     "text": "more than the total bomb tonnage used by all sides in World War II,",
+     "date": 1968,
+     "sfx": [
+      [
+       "thud",
+       "w:World",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s06b15",
+     "shot": "tonnage",
+     "type": "INSERT",
+     "text": "according to commonly cited historical estimates.",
+     "date": 1968,
+     "sfx": []
+    },
+    {
+     "id": "s06b16",
+     "shot": "tonnage",
+     "type": "INSERT",
+     "text": "The scale was almost impossible to comprehend.",
+     "date": 1968,
+     "sfx": []
+    },
+    {
+     "id": "s06b17",
+     "shot": "still_moving",
+     "type": "INSERT",
+     "text": "Yet the bombing failed to achieve its central objective.",
+     "date": 1966,
+     "sfx": [
+      [
+       "stamp",
+       "w:failed",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s06b18",
+     "shot": "still_moving",
+     "type": "INSERT",
+     "text": "North Vietnam continued fighting.",
+     "date": 1966,
+     "sfx": []
+    },
+    {
+     "id": "s06b19",
+     "shot": "still_moving",
+     "type": "INSERT",
+     "text": "Supplies kept moving south.",
+     "date": 1966,
+     "sfx": []
+    },
+    {
+     "id": "s06b20",
+     "shot": "still_moving",
+     "type": "INSERT",
+     "text": "And the war kept expanding.",
+     "date": 1966,
+     "sfx": [
+      [
+       "pops",
+       "w:expanding.",
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s06b21",
+     "shot": "troops",
+     "type": "INSERT",
+     "text": "American troop numbers rose at an astonishing rate.",
+     "date": 1965,
+     "sfx": [
+      [
+       "steps",
+       4,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s06b22",
+     "shot": "troops",
+     "type": "INSERT",
+     "text": "By the end of 1965, roughly 184,000 American military personnel were in Vietnam.",
+     "date": 1965,
+     "sfx": [
+      [
+       "pop2",
+       "w:184,000",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s06b23",
+     "shot": "troops",
+     "type": "INSERT",
+     "text": "A year later, the number had climbed to around 385,000.",
+     "date": 1966,
+     "sfx": [
+      [
+       "pop2",
+       "w:385,000.",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s06b24",
+     "shot": "troops",
+     "type": "INSERT",
+     "text": "By the end of 1967, it was approaching half a million.",
+     "date": 1967,
+     "sfx": [
+      [
+       "pop2",
+       "w:half",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s06b25",
+     "shot": "troops",
+     "type": "INSERT",
+     "text": "At its peak in 1969, American troop strength reached roughly 543,000.",
+     "date": 1969,
+     "sfx": [
+      [
+       "pop2",
+       "w:543,000.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s06b26",
+     "shot": "troops",
+     "type": "INSERT",
+     "text": "Every increase was supposed to bring victory closer.",
+     "date": 1969,
+     "sfx": []
+    },
+    {
+     "id": "s06b27",
+     "shot": "search_destroy",
+     "type": "STORY",
+     "text": "But the enemy was not fighting the kind of war American generals had prepared for.",
+     "date": 1966,
+     "sfx": [],
+     "amb": "birds"
+    },
+    {
+     "id": "s06b28",
+     "shot": "search_destroy",
+     "type": "STORY",
+     "text": "The American military was built to find enemy forces,",
+     "date": 1966,
+     "sfx": [],
+     "amb": "birds"
+    },
+    {
+     "id": "s06b29",
+     "shot": "search_destroy",
+     "type": "STORY",
+     "text": "engage them, and destroy them with superior firepower.",
+     "date": 1966,
+     "sfx": [],
+     "amb": "birds"
+    },
+    {
+     "id": "s06b30",
+     "shot": "search_destroy",
+     "type": "STORY",
+     "text": "So it adopted a strategy known as search and destroy.",
+     "date": 1966,
+     "sfx": [
+      [
+       "stamp",
+       "w:search",
+       0.5
+      ]
+     ],
+     "amb": "birds"
+    },
+    {
+     "id": "s06b31",
+     "shot": "search_destroy",
+     "type": "INSERT",
+     "text": "Find the enemy.",
+     "date": 1966,
+     "sfx": [
+      [
+       "pop2",
+       2,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s06b32",
+     "shot": "search_destroy",
+     "type": "INSERT",
+     "text": "Engage the enemy.",
+     "date": 1966,
+     "sfx": [
+      [
+       "pop2",
+       2,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s06b33",
+     "shot": "search_destroy",
+     "type": "INSERT",
+     "text": "Kill as many as possible.",
+     "date": 1966,
+     "sfx": [
+      [
+       "pop2",
+       2,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s06b34",
+     "shot": "search_destroy",
+     "type": "INSERT",
+     "text": "Then report the results.",
+     "date": 1966,
+     "sfx": [
+      [
+       "pop2",
+       2,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s06b35",
+     "shot": "search_destroy",
+     "type": "INSERT",
+     "text": "Progress was often measured through body counts rather than territory permanently secured or communities",
+     "date": 1966,
+     "sfx": [
+      [
+       "scribble",
+       4,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s06b36",
+     "shot": "search_destroy",
+     "type": "INSERT",
+     "text": "brought under stable government control.",
+     "date": 1966,
+     "sfx": [
+      []
+     ]
+    },
+    {
+     "id": "s06b37",
+     "shot": "illusion",
+     "type": "INSERT",
+     "text": "And this created a dangerous illusion.",
+     "date": 1966,
+     "sfx": []
+    },
+    {
+     "id": "s06b38",
+     "shot": "illusion",
+     "type": "INSERT",
+     "text": "If American forces killed thousands of enemy fighters, the numbers suggested success.",
+     "date": 1966,
+     "sfx": []
+    },
+    {
+     "id": "s06b39",
+     "shot": "illusion",
+     "type": "INSERT",
+     "text": "But the North Vietnamese leadership was prepared to absorb enormous losses,",
+     "date": 1966,
+     "sfx": []
+    },
+    {
+     "id": "s06b40",
+     "shot": "illusion",
+     "type": "INSERT",
+     "text": "and the insurgency continued to draw on local networks,",
+     "date": 1966,
+     "sfx": [
+      [
+       "pop2",
+       "w:local",
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s06b41",
+     "shot": "illusion",
+     "type": "INSERT",
+     "text": "outside support, and a steady flow of replacements.",
+     "date": 1966,
+     "sfx": [
+      [
+       "pop2",
+       "w:outside",
+       0.3
+      ],
+      [
+       "pop2",
+       "w:replacements.",
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s06b42",
+     "shot": "illusion",
+     "type": "INSERT",
+     "text": "The United States could win an engagement without changing the larger situation.",
+     "date": 1966,
+     "sfx": []
+    },
+    {
+     "id": "s06b43",
+     "shot": "illusion",
+     "type": "INSERT",
+     "text": "It could destroy an enemy unit without destroying the enemy's ability to fight.",
+     "date": 1966,
+     "sfx": []
+    },
+    {
+     "id": "s06b44",
+     "shot": "illusion",
+     "type": "INSERT",
+     "text": "And it could occupy an area today only to find the enemy operating there again tomorrow.",
+     "date": 1966,
+     "sfx": [
+      [
+       "whoosh",
+       40,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s06b45",
+     "shot": "trail",
+     "type": "INSERT",
+     "text": "Meanwhile, the Ho Chi Minh Trail carried supplies and personnel from North Vietnam through",
+     "date": 1967,
+     "sfx": [
+      [
+       "scribble",
+       "w:Trail",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s06b46",
+     "shot": "trail",
+     "type": "INSERT",
+     "text": "Laos and Cambodia into the South.",
+     "date": 1967,
+     "sfx": []
+    },
+    {
+     "id": "s06b47",
+     "shot": "trail",
+     "type": "INSERT",
+     "text": "American bombing damaged the network, but North Vietnamese forces repeatedly repaired roads,",
+     "date": 1967,
+     "sfx": [
+      [
+       "boom",
+       4,
+       0.4
+      ],
+      [
+       "boom",
+       30,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s06b48",
+     "shot": "trail",
+     "type": "INSERT",
+     "text": "built alternative routes, and kept traffic moving.",
+     "date": 1967,
+     "sfx": []
+    },
+    {
+     "id": "s06b49",
+     "shot": "tunnel",
+     "type": "STORY",
+     "text": "Near Saigon, Viet Cong fighters used underground tunnel systems,",
+     "date": 1966,
+     "sfx": [],
+     "mood": "tension"
+    },
+    {
+     "id": "s06b50",
+     "shot": "tunnel",
+     "type": "STORY",
+     "text": "including the famous Cu Chi tunnels, to shelter,",
+     "date": 1966,
+     "sfx": [],
+     "mood": "tension"
+    },
+    {
+     "id": "s06b51",
+     "shot": "tunnel",
+     "type": "STORY",
+     "text": "store supplies, communicate, and launch attacks.",
+     "date": 1966,
+     "sfx": [],
+     "mood": "tension"
+    },
+    {
+     "id": "s06b52",
+     "shot": "tunnel",
+     "type": "STORY",
+     "text": "Some passages contained kitchens, medical facilities, and command posts.",
+     "date": 1966,
+     "sfx": [],
+     "mood": "tension"
+    },
+    {
+     "id": "s06b53",
+     "shot": "tunnel",
+     "type": "STORY",
+     "text": "American soldiers known as tunnel rats entered these cramped,",
+     "date": 1966,
+     "sfx": [
+      [
+       "creak",
+       4,
+       0.3
+      ]
+     ],
+     "mood": "tension"
+    },
+    {
+     "id": "s06b54",
+     "shot": "tunnel",
+     "type": "STORY",
+     "text": "dark tunnels to search for enemy fighters.",
+     "date": 1966,
+     "sfx": [],
+     "mood": "tension"
+    },
+    {
+     "id": "s06b55",
+     "shot": "tunnel",
+     "type": "STORY",
+     "text": "They faced booby traps, hidden exits, and the constant possibility of being attacked in complete darkness.",
+     "date": 1966,
+     "sfx": [
+      [
+       "hit",
+       "w:booby",
+       0.3
+      ],
+      [
+       "hit",
+       "w:hidden",
+       0.3
+      ],
+      [
+       "hit",
+       "w:darkness.",
+       0.3
+      ]
+     ],
+     "mood": "tension"
+    },
+    {
+     "id": "s06b56",
+     "shot": "tunnel",
+     "type": "STORY",
+     "text": "This was a war in which the enemy could be standing right in front",
+     "date": 1966,
+     "sfx": [],
+     "mood": "tension"
+    },
+    {
+     "id": "s06b57",
+     "shot": "tunnel",
+     "type": "STORY",
+     "text": "of you, or hiding beneath your feet.",
+     "date": 1966,
+     "sfx": [],
+     "mood": "tension"
+    },
+    {
+     "id": "s06b58",
+     "shot": "ia_drang",
+     "type": "HOST",
+     "text": "And that was only part of the problem.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s06b59",
+     "shot": "ia_drang",
+     "type": "STORY",
+     "text": "In November 1965, American and North Vietnamese forces fought a major battle in the Ia Drang Valley.",
+     "date": 1965,
+     "sfx": [],
+     "amb": "wind"
+    },
+    {
+     "id": "s06b60",
+     "shot": "ia_drang",
+     "type": "STORY",
+     "text": "American forces used helicopters to move troops rapidly into combat,",
+     "date": 1965,
+     "sfx": [
+      [
+       "whoosh",
+       4,
+       0.4
+      ]
+     ],
+     "amb": "wind"
+    },
+    {
+     "id": "s06b61",
+     "shot": "ia_drang",
+     "type": "STORY",
+     "text": "combining air mobility with artillery and air strikes.",
+     "date": 1965,
+     "sfx": [],
+     "amb": "wind"
+    },
+    {
+     "id": "s06b62",
+     "shot": "ia_drang",
+     "type": "STORY",
+     "text": "The Americans inflicted heavy losses, but the battle also demonstrated the enemy's determination and",
+     "date": 1965,
+     "sfx": [],
+     "amb": "wind"
+    },
+    {
+     "id": "s06b63",
+     "shot": "ia_drang",
+     "type": "STORY",
+     "text": "ability to fight American troops directly.",
+     "date": 1965,
+     "sfx": [],
+     "amb": "wind"
+    },
+    {
+     "id": "s06b64",
+     "shot": "ia_drang",
+     "type": "INSERT",
+     "text": "North Vietnamese commanders learned to close the distance between their soldiers and American forces.",
+     "date": 1965,
+     "sfx": []
+    },
+    {
+     "id": "s06b65",
+     "shot": "ia_drang",
+     "type": "INSERT",
+     "text": "The closer they got, the harder it became for the Americans to use overwhelming",
+     "date": 1965,
+     "sfx": [
+      [
+       "hit",
+       "w:harder",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s06b66",
+     "shot": "ia_drang",
+     "type": "INSERT",
+     "text": "firepower without risking their own troops.",
+     "date": 1965,
+     "sfx": []
+    },
+    {
+     "id": "s06b67",
+     "shot": "ia_drang",
+     "type": "INSERT",
+     "text": "The Americans had more aircraft, more artillery, and more advanced weapons.",
+     "date": 1965,
+     "sfx": [
+      [
+       "pop2",
+       "w:aircraft,",
+       0.3
+      ],
+      [
+       "pop2",
+       "w:artillery,",
+       0.3
+      ],
+      [
+       "pop2",
+       "w:weapons.",
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s06b68",
+     "shot": "ia_drang",
+     "type": "INSERT",
+     "text": "But the enemy was learning how to reduce those advantages.",
+     "date": 1965,
+     "sfx": [
+      [
+       "stamp",
+       "w:reduce",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s06b69",
+     "shot": "ranch_hand",
+     "type": "HOST",
+     "text": "And as the fighting continued, America began using another weapon with consequences that would",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s06b70",
+     "shot": "ranch_hand",
+     "type": "HOST",
+     "text": "last long after the war ended.",
+     "date": null,
+     "sfx": []
+    },
+    {
+     "id": "s06b71",
+     "shot": "ranch_hand",
+     "type": "STORY",
+     "text": "Chemical herbicides.",
+     "date": 1967,
+     "sfx": [
+      [
+       "pop2",
+       4,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s06b72",
+     "shot": "ranch_hand",
+     "type": "STORY",
+     "text": "Under Operation Ranch Hand, American forces sprayed millions of gallons of herbicides across southern",
+     "date": 1967,
+     "sfx": [
+      [
+       "whoosh",
+       6,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s06b73",
+     "shot": "ranch_hand",
+     "type": "STORY",
+     "text": "Vietnam to destroy vegetation and deny enemy forces cover.",
+     "date": 1967,
+     "sfx": []
+    },
+    {
+     "id": "s06b74",
+     "shot": "ranch_hand",
+     "type": "STORY",
+     "text": "One of the most notorious was Agent Orange.",
+     "date": 1967,
+     "sfx": [
+      [
+       "thud",
+       "w:Agent",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s06b75",
+     "shot": "ranch_hand",
+     "type": "INSERT",
+     "text": "The spraying damaged forests and farmland and exposed people to chemicals contaminated with dioxin.",
+     "date": 1967,
+     "sfx": [],
+     "quiet": true,
+     "mood": "sombre"
+    },
+    {
+     "id": "s06b76",
+     "shot": "ranch_hand",
+     "type": "INSERT",
+     "text": "The health consequences, including serious illnesses and long-term suffering,",
+     "date": 1967,
+     "sfx": [],
+     "quiet": true,
+     "mood": "sombre"
+    },
+    {
+     "id": "s06b77",
+     "shot": "ranch_hand",
+     "type": "INSERT",
+     "text": "affected Vietnamese communities and American veterans.",
+     "date": 1967,
+     "sfx": [],
+     "quiet": true,
+     "mood": "sombre"
+    },
+    {
+     "id": "s06b78",
+     "shot": "ranch_hand",
+     "type": "STORY",
+     "text": "The objective was to make the battlefield easier to control.",
+     "date": 1967,
+     "sfx": []
+    },
+    {
+     "id": "s06b79",
+     "shot": "ranch_hand",
+     "type": "STORY",
+     "text": "But destroying vegetation could not destroy the political and military movement fighting the war.",
+     "date": 1967,
+     "sfx": [
+      [
+       "stamp",
+       "w:could",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s06b80",
+     "shot": "optimism",
+     "type": "INSERT",
+     "text": "By 1967, American forces had grown to enormous numbers.",
+     "date": 1967,
+     "sfx": [
+      [
+       "ding",
+       "w:enormous",
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s06b81",
+     "shot": "optimism",
+     "type": "INSERT",
+     "text": "Bombing was intensifying.",
+     "date": 1967,
+     "sfx": [
+      [
+       "ding",
+       "w:intensifying.",
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s06b82",
+     "shot": "optimism",
+     "type": "INSERT",
+     "text": "Enemy casualties were mounting.",
+     "date": 1967,
+     "sfx": [
+      [
+       "ding",
+       "w:mounting.",
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s06b83",
+     "shot": "optimism",
+     "type": "INSERT",
+     "text": "And yet there was still no clear path to victory.",
+     "date": 1967,
+     "sfx": [
+      [
+       "stamp",
+       "w:no",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s06b84",
+     "shot": "optimism",
+     "type": "INSERT",
+     "text": "Behind closed doors, the administration was increasingly worried.",
+     "date": 1967,
+     "sfx": []
+    },
+    {
+     "id": "s06b85",
+     "shot": "optimism",
+     "type": "INSERT",
+     "text": "In public, however, the message remained optimistic.",
+     "date": 1967,
+     "sfx": []
+    },
+    {
+     "id": "s06b86",
+     "shot": "optimism",
+     "type": "INSERT",
+     "text": "The enemy was weakening.",
+     "date": 1967,
+     "sfx": []
+    },
+    {
+     "id": "s06b87",
+     "shot": "optimism",
+     "type": "INSERT",
+     "text": "The end was approaching.",
+     "date": 1967,
+     "sfx": []
+    },
+    {
+     "id": "s06b88",
+     "shot": "optimism",
+     "type": "INSERT",
+     "text": "Victory was within reach.",
+     "date": 1967,
+     "sfx": []
+    },
+    {
+     "id": "s06b89",
+     "shot": "optimism",
+     "type": "INSERT",
+     "text": "Then, in January 1968, the enemy launched an offensive that shattered that story.",
+     "date": 1968,
+     "sfx": [
+      [
+       "boom",
+       "w:shattered",
+       0.5
+      ]
+     ]
+    }
+   ],
+   "mood": "grand"
+  }
+ ]
+}
