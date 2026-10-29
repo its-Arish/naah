@@ -54,6 +54,7 @@ const TetMap: React.FC<SP> = ({ s }) => {
         </Layer>
       </CameraRig>
       {n === 4 && <svg style={{ position: 'absolute', left: 60, top: 100 }} width={380} height={500}><g transform="translate(190 240) scale(0.75)"><Calendar x={0} y={0} month="JANUARY" day="30–31" year={1968} color={NORTH} /></g></svg>}
+      {n === 4 && <Note at={wordAt(s, '1968.')} text="the attacks began on the night of 30–31 January 1968." top={120} />}
       {n === 7 && <Counter label="ATTACKERS:" value="80,000+" left={60} top={120} k={springPop(f, wordAt(s, '80,000'))} />}
       {n === 10 && <Counter label="PLACES HIT:" value="100+" left={60} top={120} k={springPop(f, wordAt(s, '100'))} />}
       {n === 9 && <Label text="including “secure” areas" x={380} y={300} at={wordAt(s, 'secure.')} size={50} color="#FFD84A" />}
@@ -475,7 +476,7 @@ const PentagonPapers: React.FC<SP> = ({ s }) => {
     <>
       <CameraRig move={{ zoomFrom: 1, zoomTo: 1.02 }}><InsertBg /></CameraRig>
       {['troop', 'Tet.', 'Lai.'].map((w, i) => <Card key={w} at={n === 40 + i ? wordAt(s, w) - 4 : n > 40 + i ? -99 : 99999} left={460 + i * 500} top={300} text={['TROOPS UP', 'TẾT ON TV', 'MỸ LAI'][i]} size={44} />)}
-      {n >= 43 && <Card at={n === 43 ? wordAt(s, 'documentary') : -99} left={960} top={500} text="+ DOCUMENTS: DOUBTS FOR YEARS" size={46} color="#B3261E" />}
+      {n >= 43 && <Card at={n === 43 ? wordAt(s, 'documented') : -99} left={960} top={500} text="+ DOCUMENTS: DOUBTS FOR YEARS" size={46} color="#B3261E" />}
       {n === 39 && <Stamp at={wordAt(s, 'distrust.') - 4} left={960} top={400} text="PUBLIC DISTRUST ↑" size={64} />}
       {n === 45 && <Card at={wordAt(s, 'honest')} left={960} top={700} text="WAS THE GOVERNMENT EVER HONEST?" size={44} />}
     </>

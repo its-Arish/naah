@@ -45,11 +45,11 @@ export const Stamp: React.FC<{ at: number; left: number; top: number; text: stri
 export const Counter: React.FC<{ label: string; value: string; right?: number; left?: number; top?: number; color?: string; k?: number }> = ({ label, value, right, left, top = 60, color = '#FFD84A', k = 1 }) => (
   k > 0 ? <div style={{ position: 'absolute', right, left, top, transform: `scale(${k})`, transformOrigin: right != null ? 'right top' : 'left top', background: 'rgba(20,18,16,0.85)', border: `4px solid ${color}`, borderRadius: 12, padding: '8px 24px', fontFamily: 'TagBold', fontSize: 50, color, whiteSpace: 'nowrap' }}>{label} {value}</div> : null
 );
-/** Small on-screen note for a fact the narration simplifies. */
+/** Small corner note (top right): corrects or adds precision to what the narration says. */
 export const Note: React.FC<{ at: number; text: string; top?: number }> = ({ at, text, top = 40 }) => {
   const f = useCurrentFrame();
   const k = springPop(f, at);
-  return k > 0 ? <div style={{ position: 'absolute', right: 40, top, maxWidth: 640, transform: `scale(${k})`, transformOrigin: 'right top', textAlign: 'right', fontFamily: 'Tag', fontSize: 26, color: '#F4ECD8', background: 'rgba(20,18,16,0.75)', padding: '6px 14px', borderRadius: 8 }}>{text}</div> : null;
+  return k > 0 ? <div style={{ position: 'absolute', right: 40, top, maxWidth: 640, transform: `scale(${k})`, transformOrigin: 'right top', textAlign: 'right', fontFamily: 'Tag', fontSize: 30, color: '#F4ECD8', background: 'rgba(20,18,16,0.75)', padding: '6px 14px', borderRadius: 8 }}><span style={{ fontFamily: 'TagBold', color: '#FFD84A' }}>Note: </span>{text}</div> : null;
 };
 /** A card with big text that pops in. */
 export const Card: React.FC<{ at: number; left: number; top: number; text: string; color?: string; bg?: string; size?: number; rot?: number; sub?: string }> = ({ at, left, top, text, color = '#1A1410', bg = '#F4ECD8', size = 56, rot = 0, sub }) => {

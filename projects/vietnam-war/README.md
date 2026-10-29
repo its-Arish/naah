@@ -6,13 +6,23 @@ Build: `node scripts/studio.mjs all vietnam-war`, then `node scripts/studio.mjs 
 
 ## Voiceover notes
 
+- **Captions show what was said in the recording**, not the script. `vo_captions.json` holds 275 lines that differ from the script: 94 are kept exactly as spoken (rewordings, dropped words, small slips), and 181 correct auto-caption mishearings (e.g. "Forch in me" -> Ho Chi Minh, "Dinh Bin Foo" -> Dien Bien Phu, "superiors five hours" -> superior firepower, "Operation Boeing Thunder" -> Rolling Thunder). The file is rebuilt by `python3 vn_caps.py` from `vn_diff.txt` (script vs. heard, per beat).
+- Where the spoken words are factually wrong, the caption stays as spoken and a **Note:** box in the top-right corner gives the correction (see the first table below).
 - `s05b01` "August 2, 1964." is in the script but not in the recording, so it is dropped; the date is shown on screen instead.
-- `s11b47`: the recording says "the fall of Saigon was **not** only the end of the story on the battlefield"; the script (and caption) say "was only the end". Flagged, not changed.
-- 30 lines where the auto-captions misheard names (Ho Chi Minh, Diem, Dien Bien Phu, My Lai, Hugh Thompson…) show the script's wording, timed to the voice (`vo_captions.json`).
+- `s11b47`: the recording says "the fall of Saigon was **not** only the end of the story on the battlefield" (the script says "was only the end"). The caption follows the recording; it changes the emphasis, not a fact, so there is no note.
+
+### Corrections to the spoken words (corner notes)
+
+| Where | Spoken | Note on screen |
+|---|---|---|
+| Ch. 4, Gulf of Tonkin resolution | "military operations in South Asia" | the resolution covered Southeast Asia |
+| Ch. 4, House vote | "416 to 1" | the House vote was 416–0 |
+| Ch. 4, Senate vote | "88 to 1" | the Senate vote was 88–2 |
+| Ch. 6, Tet | "Then came January 31, 1968" | the attacks began on the night of 30–31 January 1968 |
 
 ## Fact-check
 
-The narration was checked claim by claim; no spoken errors needed correcting. Small on-screen notes add precision:
+The script was checked claim by claim. Other corner notes add precision:
 
 | Where | Narration | On screen | Reason / source |
 |---|---|---|---|

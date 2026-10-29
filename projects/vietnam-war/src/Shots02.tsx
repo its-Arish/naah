@@ -209,7 +209,7 @@ const Siege: React.FC<SP> = ({ s }) => {
       </CameraRig>
       {n === 31 && <svg style={{ position: 'absolute', left: 60, top: 100 }} width={380} height={500}><g transform="translate(190 240) scale(0.75)"><Calendar x={0} y={0} month="MARCH" day={13} year={1954} color={NORTH} /></g></svg>}
       {n === 32 && <Counter label="DAY" value={String(Math.max(1, Math.round(interpolate(f, [4, d - 6], [1, 56]))))} left={60} top={120} />}
-      {n === 35 && <Stamp at={wordAt(s, 'airstrip')} left={960} top={250} text="AIRSTRIP UNUSABLE" size={56} />}
+      {n === 35 && <Stamp at={wordAt(s, 'air')} left={960} top={250} text="AIRSTRIP UNUSABLE" size={56} />}
     </>
   );
 };

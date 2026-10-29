@@ -454,7 +454,7 @@ for bi, b in enumerate(beats):
                 w = '*' + w + '*'
             text.append(w)
             words.append({'w': w, 'start': round(to_edit(t['start']), 3), 'end': round(to_edit(t['end']), 3)})
-    out.append({'id': b['id'], 'start': round(to_edit(start_t), 3), 'end': round(to_edit(end_t), 3), 'text': ' '.join(text), 'source': source, 'words': words})
+    out.append({'id': b['id'], 'start': round(to_edit(start_t), 3), 'end': round(to_edit(end_t), 3), 'text': ' '.join(text), 'source': source, 'words': words, 'heard': ' '.join(tokens[spoken[q]]['w'] for q in range(a, z))})
 json.dump({'duration': duration, 'method': 'srt', 'file': os.path.relpath(edit_path if cuts else vo, P), 'cuts': cuts, 'beats': out},
           open(os.path.join(BUILD, 'vo_align.json'), 'w'), indent=1)
 

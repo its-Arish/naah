@@ -93,6 +93,7 @@ const LBJOffice: React.FC<SP> = ({ s }) => {
   );
   const k = interpolate(f, [4, 40], [0, 1], Easing.inOut);
   return (
+    <>
     <CameraRig move={{ zoomFrom: 1, zoomTo: 1.03 }}>
       <InsertBg />
       <Layer depth={1}>
@@ -101,13 +102,15 @@ const LBJOffice: React.FC<SP> = ({ s }) => {
         {n === 21 && <text x={960} y={200} textAnchor="middle" fontFamily="TagBold" fontSize={48} fill="#FFD84A" opacity={springPop(f, wordAt(s, 'broad'))}>BROAD WAR POWERS</text>}
       </Layer>
     </CameraRig>
+    {n === 21 && <Note at={wordAt(s, 'South')} text="the resolution covered Southeast Asia." top={120} />}
+    </>
   );
 };
 const Votes: React.FC<SP> = ({ s }) => {
   const f = useCurrentFrame();
   const n = parseInt(s.id.slice(4), 10);
-  const yes1 = n === 23 ? Math.round(interpolate(f, [wordAt(s, '416–0.') - 20, wordAt(s, '416–0.') + 4], [0, 416], Easing.out)) : n > 23 ? 416 : 0;
-  const yes2 = n === 24 ? Math.round(interpolate(f, [wordAt(s, '88–2.') - 16, wordAt(s, '88–2.') + 4], [0, 88], Easing.out)) : n > 24 ? 88 : 0;
+  const yes1 = n === 23 ? Math.round(interpolate(f, [wordAt(s, '416') - 20, wordAt(s, '416') + 4], [0, 416], Easing.out)) : n > 23 ? 416 : 0;
+  const yes2 = n === 24 ? Math.round(interpolate(f, [wordAt(s, '88') - 16, wordAt(s, '88') + 4], [0, 88], Easing.out)) : n > 24 ? 88 : 0;
   return (
     <>
       <CameraRig move={{ zoomFrom: 1, zoomTo: 1.03 }}>
@@ -118,6 +121,8 @@ const Votes: React.FC<SP> = ({ s }) => {
           {n >= 24 && <g transform="translate(1400 300)"><rect x={-230} y={-90} width={460} height={180} rx={14} fill="#1A1410" stroke={OL} strokeWidth={6} /><text y={-40} textAnchor="middle" fontFamily="TagBold" fontSize={30} fill="#F4ECD8">SENATE</text><text y={50} textAnchor="middle" fontFamily="TagBold" fontSize={76} fill="#7AFF9A">{yes2} – 2</text></g>}
         </Layer>
       </CameraRig>
+      {n === 23 && <Note at={wordAt(s, '416') + 10} text="the House vote was 416–0." top={120} />}
+      {n === 24 && <Note at={wordAt(s, '88') + 10} text="the Senate vote was 88–2." top={120} />}
       {n === 22 && <Card at={wordAt(s, 'approved')} left={960} top={260} text="APPROVED" color="#2E6B4A" size={80} />}
       {n === 25 && <Stamp at={wordAt(s, 'law.') - 6} left={960} top={540} text="GULF OF TONKIN RESOLUTION · LAW" size={52} color={USA} />}
       {n === 26 && <Card at={wordAt(s, 'without')} left={960} top={540} text="NO DECLARATION OF WAR" color="#B3261E" size={60} />}
@@ -157,7 +162,7 @@ const Escalate: React.FC<SP> = ({ s }) => {
           <path d={`M${X(1955)} 600 H${X(1975)}`} stroke="#F4ECD8" strokeWidth={6} />
           {[1955, 1960, 1965, 1970, 1975].map((y) => <g key={y}><path d={`M${X(y)} 585 V615`} stroke="#F4ECD8" strokeWidth={5} /><text x={X(y)} y={660} textAnchor="middle" fontFamily="TagBold" fontSize={32} fill="#F4ECD8">{y}</text></g>)}
           <rect x={X(1955)} y={480} width={(X(1975) - X(1955)) * (n === 39 ? interpolate(f, [wordAt(s, 'nearly'), wordAt(s, 'nearly') + 20], [0, 1]) : 0)} height={60} rx={12} fill="#8A94A8" />
-          <rect x={X(1965)} y={380} width={(X(1973) - X(1965)) * interpolate(f, n === 38 ? [wordAt(s, 'decade'), wordAt(s, 'decade') + 20] : [-99, -98], [0, 1])} height={60} rx={12} fill={USA} stroke="#F4ECD8" strokeWidth={3} />
+          <rect x={X(1965)} y={380} width={(X(1973) - X(1965)) * interpolate(f, n === 38 ? [wordAt(s, 'decades'), wordAt(s, 'decades') + 20] : [-99, -98], [0, 1])} height={60} rx={12} fill={USA} stroke="#F4ECD8" strokeWidth={3} />
           <text x={X(1965)} y={360} fontFamily="TagBold" fontSize={30} fill="#F4ECD8">COMBAT OPERATIONS · 1965–73</text>
           {n === 39 && <text x={X(1955)} y={460} fontFamily="TagBold" fontSize={30} fill="#C9D0DC">INVOLVEMENT · c. 1955–75</text>}
         </Layer>
@@ -361,7 +366,7 @@ const Illusion: React.FC<SP> = ({ s }) => {
         </Layer>
       </CameraRig>
       {n === 37 && <Label text="a dangerous illusion" x={960} y={140} at={wordAt(s, 'illusion.')} size={56} color="#FFD84A" />}
-      {(n === 40 || n === 41) && ['local', 'outside', 'replacements.'].map((w, i) => <Card key={w} at={n === 40 ? (i === 0 ? wordAt(s, 'local') : 99999) : i === 0 ? -99 : wordAt(s, w)} left={460 + i * 500} top={180} text={['LOCAL NETWORKS', 'OUTSIDE SUPPORT', 'REPLACEMENTS'][i]} size={36} />)}
+      {(n === 40 || n === 41) && ['local', 'outside', 'replacement.'].map((w, i) => <Card key={w} at={n === 40 ? (i === 0 ? wordAt(s, 'local') : 99999) : i === 0 ? -99 : wordAt(s, w)} left={460 + i * 500} top={180} text={['LOCAL NETWORKS', 'OUTSIDE SUPPORT', 'REPLACEMENTS'][i]} size={36} />)}
     </>
   );
 };
@@ -469,7 +474,7 @@ const RanchHand: React.FC<SP> = ({ s }) => {
     <>
       <CameraRig move={{ zoomFrom: 1, zoomTo: 1.02 }}><InsertBg glow={false} /></CameraRig>
       {n === 75 && <Card at={wordAt(s, 'dioxin.') - 6} left={960} top={400} text="DIOXIN" color="#B3261E" size={90} />}
-      {n >= 76 && <><Card at={n === 76 ? wordAt(s, 'illnesses') : -99} left={960} top={330} text="SERIOUS ILLNESS · LONG-TERM SUFFERING" size={44} />{n === 77 && <><Card at={wordAt(s, 'Vietnamese')} left={620} top={520} text="VIETNAMESE COMMUNITIES" size={40} /><Card at={wordAt(s, 'veterans.')} left={1300} top={520} text="AMERICAN VETERANS" size={40} /></>}</>}
+      {n >= 76 && <><Card at={n === 76 ? wordAt(s, 'illness') : -99} left={960} top={330} text="SERIOUS ILLNESS · LONG-TERM SUFFERING" size={44} />{n === 77 && <><Card at={wordAt(s, 'Vietnamese')} left={620} top={520} text="VIETNAMESE COMMUNITIES" size={40} /><Card at={wordAt(s, 'veterans.')} left={1300} top={520} text="AMERICAN VETERANS" size={40} /></>}</>}
     </>
   );
   const brown = n === 71 ? 0 : n === 72 ? interpolate(f, [0, d], [0, 0.4]) : n === 73 ? interpolate(f, [0, d], [0.4, 1]) : 1;

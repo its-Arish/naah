@@ -1,0 +1,826 @@
+s01b02
+  S: It had the biggest bombs, the most advanced aircraft,
+  H: It had the biggest bomb, the most advanced aircrafts,
+s01b04
+  S: And yet, after nearly 20 years of involvement,
+  H: And yet, nearly 20 years of involvement,
+s01b05
+  S: America walked away from Vietnam without achieving its main objective.
+  H: America walked from Vietnam without achieving its main objective.
+s01b09
+  S: And it still lost the war.
+  H: and still lost the war.
+s01b11
+  S: it can outgun, outfly, and outspend?
+  H: it cannot outrun, outflight, and outspend?
+s01b13
+  S: a president who feared losing more than he feared continuing,
+  H: a president who feared losing more than he feared continue,
+s01b16
+  S: presidential palace while American helicopters desperately evacuate people from a city that is about to fall.
+  H: presidential palace, while American helicopters desperately evade create people from a city that is about to fall.
+s01b17
+  S: But here's the twist.
+  H: And here's the twist,
+s02b03
+  S: By 1887, France had established French Indochina, a colonial federation that included Vietnam, Laos, and Cambodia.
+  H: by 1887. France had established France in the China, a colonial federation that include Vietnam, Laos, and Cambodia,
+s02b05
+  S: French authorities took control of valuable farmland, expanded rice and rubber plantations,
+  H: French authorities took control of valuable farmland, expanded rice and rubber plantation, and
+s02b06
+  S: imposed taxes on ordinary people, and maintained monopolies over products such as salt, alcohol, and opium.
+  H: imposed tax on ordinary people, and maintained monopolies over products such as salt, alcohol, and opium.
+s02b07
+  S: The economy grew, but much of the wealth flowed to colonial businesses and officials.
+  H: The economy grew, but much of the world flowed to colonial businesses and officials.
+s02b08
+  S: Vietnamese farmers were forced to work land they didn't own,
+  H: Vietnamese farmers were forced to work on land they didn't own,
+s02b09
+  S: pay taxes to a government they didn't choose,
+  H: pay taxes to the government they didn't choose,
+s02b13
+  S: And eventually, someone decided to fight back.
+  H: and eventually people decided to fight back.
+s02b15
+  S: Born in 1890, Ho left Vietnam in 1911 and spent years living abroad.
+  H: Born in 1890, whole left Vietnam in 1911, and spend years living abroad.
+s02b16
+  S: He traveled through countries including France, Britain, the Soviet Union, and China.
+  H: He traveled through countries including France, Britain, and the Soviet Union, and even China.
+s02b17
+  S: During those years, he studied revolutionary movements and became a committed communist.
+  H: During those years, he studied revolutionary movements and became a commuter communist.
+s02b21
+  S: In 1941, Ho returned to Vietnam and helped establish the Viet Minh,
+  H: in 1941, who returned to Vietnam and established the Vietnamese.
+s02b25
+  S: For Ho Chi Minh, this was the moment he'd been waiting for.
+  H: For Ho Chi Minh, this was the moment he had been waiting for.
+s02b27
+  S: And he began his speech with words Americans would immediately recognize.
+  H: And he began in his speech with words Americans would immediately recognize.
+s02b29
+  S: He was quoting the American Declaration of Independence.
+  H: He was quoting the American's decoration of independence.
+s02b32
+  S: To make his case, he used the words of America's own founding document.
+  H: To make his case, he used the words Americans own funding document.
+s02b36
+  S: During World War II, American intelligence agents had cooperated with Ho's forces against Japan.
+  H: During World War II, American intelligence agent had cooperated with the host force against Japan.
+s02b37
+  S: Washington knew who he was, and it knew his movement had helped fight a common enemy.
+  H: Washington knew who he was and it knew his moment had helped fight a common enemy.
+s02b42
+  S: Washington had a choice: support Vietnamese independence, even if it meant working with a
+  H: Washington had a choice. Support Vietnamese independence, even if it made a working with a
+s02b45
+  S: And that decision would help set the stage for one of the most devastating
+  H: And that decision would help set the states for one of the most devastating
+s02b46
+  S: wars of the twentieth century.
+  H: wars of the 20th century.
+s03b01
+  S: France wanted its colony back.
+  H: France wanted its call in back,
+s03b04
+  S: In 1946, full-scale war broke out between French forces and the Viet Minh.
+  H: In 1946, full-scale war broke out between French forces and the Vietnamese.
+s03b05
+  S: The French had modern weapons, aircraft, and control over major cities.
+  H: The French had more than weapons, aircraft, and control over major cities.
+s03b06
+  S: The Viet Minh had something different: local support,
+  H: The Vietnamese had something different, local support,
+s03b09
+  S: and returned when French forces least expected them.
+  H: and returned when France forces least expected them.
+s03b10
+  S: Then, in 1949, the communist victory in China changed everything.
+  H: In 1949, the communist victory in China changed everything.
+s03b12
+  S: Washington saw this as part of a much larger struggle.
+  H: Washington saw this as a part of a much larger struggle.
+s03b14
+  S: Now China had turned communist, and American leaders feared that more countries across Asia might follow.
+  H: Now China had turned communist. And American's leader feared that more countries across Asia might follow.
+s03b16
+  S: By the final years of the conflict, America was paying roughly 80 percent of
+  H: By the final years of the conflict, America was paying roughly 80% of the
+s03b17
+  S: France's military costs in Indochina.
+  H: France's military costs in China.
+s03b20
+  S: In 1954, French forces established a fortified base at Dien Bien Phu,
+  H: In 1954, France forces established a fortified base at Dinh Bin Foo, remotely
+s03b21
+  S: a remote valley in northwestern Vietnam.
+  H: valley in northwest in Vietnam.
+s03b22
+  S: The plan was to draw the Viet Minh into a major battle and destroy
+  H: The plan was to draw the Vietnamese into a major city battle and destroy
+s03b23
+  S: them with superior firepower.
+  H: them with the superiors five hours.
+s03b24
+  S: French commanders believed the surrounding mountains made it nearly impossible for the Viet Minh
+  H: France commanders believed the surrounding mountains made it nearly impossible for the Vietnamese
+s03b25
+  S: to bring heavy artillery into position.
+  H: to bring heavy artillery into positions.
+s03b27
+  S: Under General Vo Nguyen Giap, Vietnamese forces hauled artillery pieces into the hills surrounding the French base.
+  H: Under General Wol Win Gap, Vietnam's forces hauled artillery pieces into the hints surrounding the French base.
+s03b28
+  S: Thousands of porters moved ammunition and supplies through difficult terrain,
+  H: Thousands of portors moved eminions and supplies through the difficult terrain,
+s03b29
+  S: using bicycles, handcarts, and sheer physical effort.
+  H: using bicycles, handcrafts and sheer physical parts.
+s03b31
+  S: On March 13, 1954, the Viet Minh launched their assault.
+  H: On March 13, 1954, the Vietnamese launched their assault.
+s03b33
+  S: Vietnamese artillery pounded the base.
+  H: Vietnam is artillery pounded the base.
+s03b34
+  S: French supply aircraft struggled to keep the garrison alive.
+  H: France supply aircraft struggled to keep the garrison alive.
+s03b35
+  S: The airstrip became unusable, and the situation deteriorated rapidly.
+  H: The air strip became unusable and the situation deteriorated rapidly.
+s03b37
+  S: Thousands of French troops were killed, and roughly 11,000 were taken prisoner.
+  H: Thousands of French troops were killed and roughly 11,000 were taken prisoners.
+s03b42
+  S: A powerful army can win individual battles and still lose control of a country.
+  H: A powerful army can win individual battles and still lose control of the country.
+s03b44
+  S: And now, with France leaving, Washington faced a decision.
+  H: and now with France leaving Washington faced the decision.
+s04b01
+  S: In July 1954, international negotiations in Geneva temporarily divided Vietnam near the 17th parallel.
+  H: In July 1954, the international negotiations in Geneva temporarily divided Vietnam near the 17th parallel.
+s04b02
+  S: Ho Chi Minh's communist government controlled the North.
+  H: Forch in me, communist government controlled the north, and
+s04b03
+  S: An anti-communist government backed by the West controlled the South.
+  H: an anti-communist government backed by the west controlled south.
+s04b05
+  S: National elections were planned for 1956, with the aim of reunifying the country.
+  H: Elections were planned for 1956, with the aim of reunifying the country.
+s04b08
+  S: Because American officials believed Ho Chi Minh would probably win.
+  H: Because Americans officially believed, hooch in me would probably win.
+s04b09
+  S: President Dwight Eisenhower later wrote that he believed Ho could have received around 80
+  H: President Dwight Eisenhower literally wrote that he believed, who could have received around
+s04b10
+  S: percent of the vote.
+  H: 80% of the vote, wasn't afraid
+s04b11
+  S: Washington feared that a nationwide election would deliver Vietnam to the communists without another shot being fired.
+  H: that nationwide election would deliver Vietnam to the communist without another short being fired.
+s04b12
+  S: So the United States supported South Vietnamese leader Ngo Dinh Diem and opposed reunification
+  H: So the United States supported South Vietnam as leader, no team, and opposed reunification
+s04b13
+  S: elections that might bring Ho to power.
+  H: election that might bring hold to power.
+s04b14
+  S: Diem was fiercely anti-communist, but his government was increasingly authoritarian.
+  H: Dim was fiercely anti-communist, but his government was increasing authoritarian.
+s04b15
+  S: His administration favored Catholics in a predominantly Buddhist country,
+  H: His admiration favored Catholics, in predominantly Buddhist country.
+s04b17
+  S: In 1963, Buddhist protests erupted into a major political crisis.
+  H: in 1963, Buddhist protest erupted into a major political crisis.
+s04b18
+  S: The United States had backed Diem as the man who could save South Vietnam.
+  H: The United States had backed, team as the man who could have saved South Vietnam.
+s04b19
+  S: Now it was watching him lose the support of his own people.
+  H: Now it was watching him lose support of his own people.
+s04b20
+  S: On November 1, 1963, South Vietnamese military officers overthrew his government.
+  H: On November 1, 1963, South Vietnam is military officers over three years government.
+s04b21
+  S: Diem was killed the following day.
+  H: Dim was killed the following day.
+s04b22
+  S: American officials had quietly supported the coup, although they did not control every aspect of what followed.
+  H: American officials had quite supported the coup, although they did not control every aspect of what followed.
+s04b23
+  S: Just three weeks later, President John F.
+  H: This three weeks later, President John F.
+s04b25
+  S: The man who had expanded America's military presence in Vietnam was gone.
+  H: The man who had expanded Americans' military presence in Vietnam was gone.
+s04b27
+  S: By late 1963, the United States had roughly 16,000 military personnel in Vietnam,
+  H: By late 1963, the United States had had roughly 16,000 military personnel in Vietnam and mostly officials
+s04b28
+  S: most officially serving as advisers and support staff.
+  H: serving as advisors and support staff.
+s04b29
+  S: They trained South Vietnamese forces, provided intelligence, and helped direct military operations.
+  H: The trained South Vietnam forces provided intelligence and helped directly military operations.
+s04b30
+  S: But the South Vietnamese government remained unstable, and the communist insurgency continued to grow.
+  H: South Vietnam's government remained unstable and the communist insurgency continued to grow.
+s04b32
+  S: Now Washington faced an uncomfortable question.
+  H: Now watching him face an uncomfortable question.
+s04b33
+  S: What happens when the government you're trying to save cannot reliably save itself?
+  H: What happens when the government you are trying to save cannot reliably save itself?
+s05b05
+  S: The Maddox exchanged fire with the boats, and American aircraft joined the engagement.
+  H: The Maddox exchanged fire with the boats and the American aircraft joined the engagement.
+s05b07
+  S: Two days later, another attack was reported.
+  H: Two days later, another attack was border.
+s05b11
+  S: But the conditions were terrible.
+  H: but the condition were terrible.
+s05b14
+  S: Radar readings were confusing.
+  H: Ratter readings were confusing.
+s05b15
+  S: Crew members struggled to determine what they were actually seeing.
+  H: Creme members struggled to determine what they were actually seeing.
+s05b16
+  S: As reports came in, doubts emerged about whether an attack had taken place at all.
+  H: As reports came in, doubts emerged what weather and attack had taken place at all.
+s05b19
+  S: Johnson wanted the authority to respond militarily to North Vietnamese actions.
+  H: Johnson wanted the authority to respond military to North Vietnam's action.
+s05b20
+  S: His administration used the reported attacks to push Congress for a resolution giving him
+  H: The administration used the report attacks to push Congress for a resolution giving him
+s05b21
+  S: broad powers to conduct military operations in Southeast Asia.
+  H: broad powers to conduct military operations in South Asia.
+s05b23
+  S: The House voted 416–0.
+  H: The House voted 416 to 1.
+s05b24
+  S: The Senate voted 88–2.
+  H: The Senate voted 88 to 1.
+s05b27
+  S: But here's the extraordinary part.
+  H: And here is the extraordinary part.
+s05b29
+  S: Later reviews of intelligence records, including a major National Security Agency historical study declassified
+  H: Greater reviews of intelligence records including a major national security agency's historical study declassified
+s05b30
+  S: decades afterward, showed that the August 4 reports had been badly misinterpreted.
+  H: decades afterward so that the August 4 reports had been badly misinterpreted.
+s05b31
+  S: The evidence did not support the claim that North Vietnamese forces had launched a
+  H: The evidence did not support the claim that Vietnamese forces had launched a
+s05b35
+  S: Yet the second incident helped provide the political justification for a massive escalation of American involvement.
+  H: Get the second incident helped provide the political justification for a massive escalation of American involvement.
+s05b37
+  S: It was sending its own soldiers into combat.
+  H: It was sending its own soldier into combat.
+s05b38
+  S: America was about to enter a war that would consume more than a decade
+  H: America was about to enter a war that would consume more than a decades
+s06b02
+  S: That same month, the United States launched Operation Rolling Thunder,
+  H: That same month, the United States launched Operation Boeing Thunder,
+s06b03
+  S: a sustained bombing campaign against North Vietnam.
+  H: sustained bombing campings against North Vietnam.
+s06b04
+  S: American leaders believed air power could force Hanoi to stop supporting the communist insurgency in the South.
+  H: American leaders believed air power could force Henry to stop supporting the communist insurgency in the South.
+s06b06
+  S: and industrial facilities, then destroy those targets.
+  H: and the industrial facilities then destroyed their targets,
+s06b07
+  S: If supplies continued flowing, bomb them again.
+  H: if supplies continued flowing upon them again
+s06b11
+  S: American aircraft flew hundreds of thousands of sorties and dropped hundreds of thousands of
+  H: American aircraft fused hundreds of thousands of soldiers and dropped hundreds of thousands of
+s06b12
+  S: tons of bombs on North Vietnam alone.
+  H: tons of bombs in North Vietnam alone.
+s06b14
+  S: more than the total bomb tonnage used by all sides in World War II,
+  H: more than the total bomb turners used by all sides in World War II,
+s06b21
+  S: American troop numbers rose at an astonishing rate.
+  H: American troops believed that number rose at an astonishing rate
+s06b24
+  S: By the end of 1967, it was approaching half a million.
+  H: By the end of 1967, it was approaching half a million, and
+s06b25
+  S: At its peak in 1969, American troop strength reached roughly 543,000.
+  H: it spoke in 1969. American troops' strength reached roughly 543,000.
+s06b29
+  S: engage them, and destroy them with superior firepower.
+  H: engage them, and destroy them with superior power,
+s06b30
+  S: So it adopted a strategy known as search and destroy.
+  H: so it adapted a strategy known as search and destroy.
+s06b35
+  S: Progress was often measured through body counts rather than territory permanently secured or communities
+  H: This was often measured through body counts rather than territory permanently secure or communities but entered the
+s06b36
+  S: brought under stable government control.
+  H: stable government control,
+s06b38
+  S: If American forces killed thousands of enemy fighters, the numbers suggested success.
+  H: If American forces cleared thousands of enemy fighters, the number statistics success.
+s06b39
+  S: But the North Vietnamese leadership was prepared to absorb enormous losses,
+  H: But the North Vietnam's leaders was prepared to observe the enormous losses,
+s06b41
+  S: outside support, and a steady flow of replacements.
+  H: outside support, and a steady flow of replacement.
+s06b45
+  S: Meanwhile, the Ho Chi Minh Trail carried supplies and personnel from North Vietnam through
+  H: Meanwhile, the Ho Chi Mi Trail carried supplies and personnel from North Vietnam through
+s06b46
+  S: Laos and Cambodia into the South.
+  H: Laos and Cambodia in the South.
+s06b47
+  S: American bombing damaged the network, but North Vietnamese forces repeatedly repaired roads,
+  H: Americans bombing damaged the network, but North Vietnamese forces repeatedly repaired roads,
+s06b49
+  S: Near Saigon, Viet Cong fighters used underground tunnel systems,
+  H: Near Saigon, Fiat con fighters used underground tunnel systems,
+s06b50
+  S: including the famous Cu Chi tunnels, to shelter,
+  H: including the famous Chuchu tunnels, to shelter,
+s06b53
+  S: American soldiers known as tunnel rats entered these cramped,
+  H: American soldiers, known as tunnel rats, entered this cramped, targ
+s06b54
+  S: dark tunnels to search for enemy fighters.
+  H: tunnel to search for enemy fighters.
+s06b55
+  S: They faced booby traps, hidden exits, and the constant possibility of being attacked in complete darkness.
+  H: Booby traps, hidden exits, and the constant possibility of being attacked in darkness.
+s06b58
+  S: And that was only part of the problem.
+  H: That was only part of the problem.
+s06b59
+  S: In November 1965, American and North Vietnamese forces fought a major battle in the Ia Drang Valley.
+  H: In November 1965, American and North Vietnamese forces fought a major battle in Laodrang Valley.
+s06b60
+  S: American forces used helicopters to move troops rapidly into combat,
+  H: American forces used helicopters to move groups rapidly into combat,
+s06b66
+  S: firepower without risking their own troops.
+  H: firepower without wasting their own troops.
+s06b67
+  S: The Americans had more aircraft, more artillery, and more advanced weapons.
+  H: The American had more aircrafts, more artillery, and more advanced weapons.
+s06b69
+  S: And as the fighting continued, America began using another weapon with consequences that would
+  H: And as the fighting continued, America began using another weapon with consequences that were lost
+s06b70
+  S: last long after the war ended.
+  H: after the war ended,
+s06b72
+  S: Under Operation Ranch Hand, American forces sprayed millions of gallons of herbicides across southern
+  H: Under Operation Brands Hand, American forces spread millions of gallons of herbicides across southern
+s06b74
+  S: One of the most notorious was Agent Orange.
+  H: One of the most notorious was Asian Orange.
+s06b75
+  S: The spraying damaged forests and farmland and exposed people to chemicals contaminated with dioxin.
+  H: The spring damaged forest and farmland had exposed people to chemical contaminated with dioxide.
+s06b76
+  S: The health consequences, including serious illnesses and long-term suffering,
+  H: The health consequences, including serious illness and long-term suffering
+s06b78
+  S: The objective was to make the battlefield easier to control.
+  H: the objecting was to make the battle feel easier to control,
+s06b80
+  S: By 1967, American forces had grown to enormous numbers.
+  H: In 1967, American forces had grown to enormous numbers.
+s06b84
+  S: Behind closed doors, the administration was increasingly worried.
+  H: In closed doors, the administration was increasingly worried
+s06b86
+  S: The enemy was weakening.
+  H: The enemy was awakening.
+s06b87
+  S: The end was approaching.
+  H: The enemy was approaching,
+s06b89
+  S: Then, in January 1968, the enemy launched an offensive that shattered that story.
+  H: Then, in January 1968, the enemy launched an offensive that shattered the story completely.
+s07b01
+  S: For years, American officials had been telling the public that the enemy was running
+  H: For years, American officials had been telling the public that the enemy was burning
+s07b02
+  S: out of men, supplies, and strength.
+  H: out of men, supplies, and the strength.
+s07b04
+  S: Then came January 30–31, 1968.
+  H: Then came January 31, 1968.
+s07b05
+  S: During the Vietnamese New Year holiday known as Tet,
+  H: During Vietnam's New Year holiday known as Tet,
+s07b06
+  S: North Vietnamese and Viet Cong forces launched coordinated attacks across South Vietnam.
+  H: not Vietnam's and Vietnam's Congo forces launched coordinated attacks across South Vietnam,
+s07b07
+  S: More than 80,000 communist troops took part in the wider offensive.
+  H: more than 80,000 communist troops took part in the water offensive.
+s07b09
+  S: Fighting erupted across the country, including in places American officials had portrayed as relatively secure.
+  H: Fight erupted across the country, including in places Americans official had ported as relatively secure.
+s07b11
+  S: In Saigon, Viet Cong commandos attacked the American embassy compound.
+  H: In Saigon, Viet Cong commandos attacked the American embassy compound, it praised
+s07b12
+  S: They breached its outer perimeter and fought American guards,
+  H: its outer perimeter and thought Americans got
+s07b13
+  S: creating one of the most shocking images of the entire war.
+  H: creating one of the most shocking images on the entire war.
+s07b17
+  S: Now television viewers could see enemy fighters attacking the American diplomatic mission in the
+  H: Now, television viewers could see enemy fighters attacking the American's diplomatic mission in the
+s07b18
+  S: heart of South Vietnam's capital.
+  H: heart of the South Vietnam's capital.
+s07b19
+  S: If the enemy was on the verge of collapse,
+  H: If the enemy was in the verge of collapse, all
+s07b20
+  S: how had it managed to coordinate attacks across the country?
+  H: had it managed to coordinate attacks across the country.
+s07b21
+  S: The fighting was especially brutal in the ancient city of Hue.
+  H: The fighting was specially brutal in the ancient city of Hu.
+s07b22
+  S: Communist forces seized much of the city, and American and South Vietnamese troops spent
+  H: Communist forces seized much of the city, and Americans and the South Vietnamese troops spent
+s07b24
+  S: The battle destroyed large sections of Hue.
+  H: The battle destroyed last section of Hu,
+s07b26
+  S: Communist forces also executed people during their occupation,
+  H: Communist forces also executed people during their occupations,
+s07b27
+  S: while civilians suffered in the fighting and subsequent reprisals.
+  H: suffered in the fighting and subsequent reprisals,
+s07b28
+  S: Eventually, government forces regained control.
+  H: eventually government forces weakened control,
+s07b29
+  S: And from a strictly military perspective, the Tet Offensive was a devastating defeat for the Viet Cong.
+  H: and from a strictly military perspective, the Ted offensive was a devastating defeat for the Viet Cong.
+s07b30
+  S: Its forces suffered enormous casualties.
+  H: It forces suffered enormous casualties,
+s07b35
+  S: The American public's trust.
+  H: the American people's trust.
+s07b36
+  S: For years, the government had promised that the enemy was weakening and victory was approaching.
+  H: For years, the government had promised the enemy was weakened and the victory was approaching.
+s07b37
+  S: Tet revealed that communist forces could still launch a massive,
+  H: Ted rebuilds the communist forces could still launch a massive
+s07b40
+  S: On February 27, 1968, veteran CBS journalist Walter Cronkite delivered a report describing the
+  H: 29 February 27, 1968, veteran CBS generalist Walter Cronkitt delivered a report describing the
+s07b41
+  S: conflict as a stalemate and arguing that negotiations offered the most realistic way forward.
+  H: conflict as a statement, and arguing that negotiations offered the most realistic way forward.
+s07b42
+  S: President Johnson was reportedly shaken by Cronkite's assessment.
+  H: President Johnson was reportedly taken by Cronkitt's suspects.
+s07b43
+  S: A famous account of the moment claims Johnson remarked that if he had lost
+  H: Famous account of the moment claims Johnson remarked that if he had lost
+s07b44
+  S: Cronkite, he had lost Middle America.
+  H: Cronkitt, he had lost Middle America.
+s07b45
+  S: Whether or not those exact words were spoken, the political damage was unmistakable.
+  H: With there or not, those exact words were spoken, the political damage was unmistakable.
+s07b46
+  S: Americans were beginning to question not just the war, but the people running it.
+  H: Americans were beginning to question the war, but the people running it,
+s07b47
+  S: And President Johnson was running out of room to maneuver.
+  H: and the President Johnson was running out of the room to maneuver.
+s07b48
+  S: He could continue sending more troops and prolong a conflict with no obvious end.
+  H: He could continue sending more troops and prolong the conflict with no obvious end,
+s07b49
+  S: Or he could begin looking for a way out.
+  H: or he could begin looking for the way out.
+s07b50
+  S: On March 31, 1968, Johnson announced a partial bombing halt and revealed that he
+  H: On 31 March 1968, Johnson announced a partial bombing halt and revealed that he
+s07b51
+  S: would not seek, or accept, his party's nomination for another presidential term.
+  H: would not seek or accept parties' nomination for another presidential term.
+s07b53
+  S: Tet had not destroyed the American military on the battlefield.
+  H: Ted had not destroyed the American military on the battlefield.
+s07b55
+  S: And once that gap became impossible to ignore,
+  H: Once that gap became impossible to ignore,
+s07b57
+  S: But the worst revelations were still to come.
+  H: but the worst revelation was still to come.
+s08b01
+  S: On March 16, 1968, American soldiers entered the South Vietnamese hamlet of My Lai.
+  H: On March 16, 1968, American soldiers entered the South Vietnamese and went of my life.
+s08b02
+  S: They were searching for Viet Cong fighters.
+  H: They were searching for a piazza con fighters,
+s08b07
+  S: depending on the accounting used.
+  H: Depending on the counting use,
+s08b08
+  S: There was no major battle at My Lai that could explain what happened.
+  H: there was no major battle at my life that could explain that what had happened.
+s08b10
+  S: One American helicopter pilot, Hugh Thompson Jr., witnessed the killings from the air.
+  H: One American helicopter pilot, in junior witness, the killings from the air.
+s08b12
+  S: He and his crew helped protect civilians and evacuate some of them.
+  H: He and his crew helped protect civilians and he evacuated some of them.
+s08b13
+  S: Thompson also reported what he had seen.
+  H: Thompson also reported that he had seen,
+s08b16
+  S: It was only in 1969, after investigations and reporting by journalist Seymour Hersh,
+  H: It was only in 1969 after investigations and reporting by journalists, Seymour Harris,
+s08b19
+  S: The accounts were even worse.
+  H: The counts were even worse.
+s08b20
+  S: Of the American soldiers involved, Lieutenant William Calley was convicted of murder.
+  H: After American soldiers involved, Lieutenant William Kelly was convicted of murder.
+s08b23
+  S: For many Americans, My Lai became a symbol of everything that had gone wrong in Vietnam.
+  H: For many Americans, my life became a symbol of everything that had gone wrong in Vietnam.
+s08b26
+  S: If American officials had been misleading the public about progress,
+  H: If Americans official had been misleading the people about the progress,
+s08b28
+  S: By 1969, a new president was in the White House.
+  H: 69, a new president was in the White House,
+s08b29
+  S: Richard Nixon had promised to end the war.
+  H: Richard Nixon, but promised to end the war,
+s08b30
+  S: But ending it would prove far more complicated than his campaign speeches suggested.
+  H: but ending it would be far more complicated than his campaign speech suggested.
+s09b01
+  S: Nixon's strategy was called Vietnamization.
+  H: Nixon's strategy was called fiat palmigation.
+s09b02
+  S: The idea was to gradually withdraw American combat troops while training and equipping South
+  H: The idea was to gradually with the American combat troops while training and equipping South
+s09b03
+  S: Vietnamese forces to take over the fighting.
+  H: Vietnam's forces to take over the fighting.
+s09b04
+  S: On paper, it offered a way to bring American soldiers home without allowing South
+  H: On paper, it offered a way to bring American soldiers home without allowing South fiat num
+s09b05
+  S: Vietnam to collapse immediately.
+  H: to collapse immediately,
+s09b09
+  S: And that meant expanding the war beyond Vietnam itself.
+  H: and that meant spending the war beyond Vietnam itself.
+s09b10
+  S: In March 1969, the United States began a secret bombing campaign against communist targets in Cambodia.
+  H: In March 1969, the United States began a sacred bombing campaign against communist targets in Cambodia,
+s09b11
+  S: The operation, known as Operation Menu, involved extensive bombing of areas used by North
+  H: the operation known as Operation Menu, involved extensive bombing of area used by North
+s09b12
+  S: Vietnamese and Viet Cong forces.
+  H: Vietnamese and white armed forces.
+s09b13
+  S: The campaign was kept hidden from the public and much of Congress,
+  H: The campaign was kept hidden from the public and much of Congress, but the
+s09b14
+  S: with records manipulated to conceal the true scope of the strikes.
+  H: records manipulated to conceal the true scope of the strikes.
+s09b16
+  S: The bombing caused destruction and contributed to the instability engulfing the country.
+  H: The bombing caused destruction and contributed to instability including the country.
+s09b17
+  S: It also formed part of a much larger crisis that would eventually help create
+  H: It also formed part of a much larger crisis that eventually helped create
+s09b19
+  S: In 1970, American and South Vietnamese ground forces entered Cambodia in an operation aimed
+  H: in 1970 Americans and South Vietnamese ground forces entered Cambodia in an operation aimed
+s09b20
+  S: at enemy bases and supply networks.
+  H: at enemy bases at supply networks.
+s09b22
+  S: But to antiwar protesters, it looked like the opposite of what they had been promised.
+  H: It looked like the opposite of what they had been promised.
+s09b25
+  S: And then, in 1971, the American public received evidence that the government's version of
+  H: And then, in 1971, the American public received evidence that governments version of
+s09b26
+  S: the war had been unreliable for years.
+  H: the war had been undergarbled for years.
+s09b28
+  S: It became known as the Pentagon Papers.
+  H: It became known as Pentagon Papers.
+s09b29
+  S: The documents examined American decision-making in Vietnam across several administrations,
+  H: The government examined American decisions making Vietnam across several administrations
+s09b30
+  S: from Truman and Eisenhower through Kennedy and Johnson.
+  H: from Dhruman to Eisenhover, to Kennedy and Johnson.
+s09b32
+  S: continuing to present more reassuring accounts to the public.
+  H: continuing to present more resharing accounts to the public.
+s09b33
+  S: The papers did not prove that every government statement was a deliberate lie.
+  H: The papers did not prove that every government statement was deliberate lie,
+s09b34
+  S: But they exposed a disturbing pattern: what officials said publicly often differed sharply from
+  H: but they exposed a disturbing pattern. What officials said publicly often drifted sharply from
+s09b35
+  S: what their own assessments showed.
+  H: what their own assessments sold,
+s09b36
+  S: The New York Times began publishing the documents in June 1971,
+  H: times began publishing the documents in June 1971,
+s09b38
+  S: The Supreme Court ultimately ruled against the government's attempt to stop publication.
+  H: The Supreme Court ultimately ruled against the government's attempt to stop publication and lead deeply in
+s09b39
+  S: The scandal deepened public distrust.
+  H: public distrust.
+s09b40
+  S: Americans had watched the troop numbers rise.
+  H: American had watched the troop number rise,
+s09b41
+  S: They had seen the images from Tet.
+  H: they had seen the images from Ted,
+s09b42
+  S: They had learned about My Lai.
+  H: they have learned about my lie.
+s09b43
+  S: Now they had documentary evidence that the doubts surrounding the war stretched back years.
+  H: Now they had documented evidence that the doubts surrounding the war sketched back years.
+s09b45
+  S: It was whether the government had ever been honest about what winning would require.
+  H: It was whether the government had ever been honest about winning would require.
+s09b46
+  S: And as American public support declined, the military strategy began to change.
+  H: As American public support declined, the military strategy began to change.
+s09b50
+  S: Then, in 1972, North Vietnam launched another major offensive.
+  H: Then in 1972, North Vietnam launched another major offensive in
+s09b51
+  S: American air power helped South Vietnamese forces resist it,
+  H: air power helped South Vietnamese forces resist.
+s09b52
+  S: while the United States intensified bombing in an attempt to pressure Hanoi into negotiations.
+  H: While the United States intensified bombing in an attempt to pressure Anoi into negotiations,
+s09b53
+  S: By this point, both sides had reasons to seek an agreement.
+  H: by this point both sides had reason to seek an argument.
+s09b58
+  S: But a peace agreement and a lasting peace are not the same thing.
+  H: But a peace agreement and the lasting peace are not the same thing.
+s10b02
+  S: The agreement provided for a ceasefire, the withdrawal of American forces,
+  H: The agreement provided for a cease-fire, the withdrawal of American forces,
+s10b03
+  S: and the return of American prisoners of war.
+  H: the return of American prisoners of war.
+s10b04
+  S: In the months that followed, American combat forces withdrew from Vietnam.
+  H: In the month that followed, America combat forces withdrew from Vietnam.
+s10b05
+  S: Hundreds of American prisoners returned home in Operation Homecoming.
+  H: Unwrites of American prisoners were returned home in Operation Homecoming.
+s10b06
+  S: Secretary of State Henry Kissinger and North Vietnamese negotiator Le Duc Tho received the
+  H: Secretary of State, Henry Kissinger and North Vietnamese negotiator Lee Du Tours received that
+s10b07
+  S: 1973 Nobel Peace Prize for their efforts toward ending the conflict.
+  H: 1973 Nobel Peace Prize for their efforts to arms ending the conflict.
+s10b08
+  S: Le Duc Tho declined the award, arguing that peace had not truly been achieved.
+  H: Lee Du Tours declined the award, arguing that peace had not truly been achieved.
+s10b10
+  S: The agreement did not resolve the fundamental struggle over who would control South Vietnam.
+  H: He did not resolve the fundamental struggle over who would control the South Vietnam.
+s10b13
+  S: Both sides accused the other of violating the ceasefire.
+  H: Both sides accused the other for violating the cease-fire,
+s10b17
+  S: The United States had spent years fighting to prevent a communist victory in South Vietnam.
+  H: The United States had spent years fighting to prevent communist victory in the South Vietnam, and
+s10b18
+  S: Now it was withdrawing.
+  H: now was withdrawing.
+s10b19
+  S: And the question was whether the South Vietnamese government could survive on its own.
+  H: And the question was whether the South Vietnamist government could survive on its own.
+s11b02
+  S: The initial attacks were intended to test the strength of the South Vietnamese military.
+  H: The attacks were intended to test the strength of South Vietnamese military.
+s11b03
+  S: Instead, they revealed just how fragile it had become.
+  H: Instead, they revealed how fragile it had become.
+s11b05
+  S: Confused orders, collapsing morale, and the rapid loss of territory turned a military crisis
+  H: infused orders, collapsing moral, and the rapid loss of territory turned a military crisis
+s11b07
+  S: Cities fell in quick succession.
+  H: This failed in quick succession.
+s11b08
+  S: The North Vietnamese leadership realized that victory might come much sooner than expected.
+  H: The North Vietnamese leadership realized that the victory might come much sooner than expected.
+s11b09
+  S: The offensive accelerated toward Saigon.
+  H: The offensive accelerated towards Sajan,
+s11b11
+  S: President Nguyen Van Thieu resigned on April 21, 1975, and left the country.
+  H: President Wyn Van Thu resigned on April 21, 1975, and left the country.
+s11b12
+  S: By late April, North Vietnamese forces were closing in on the capital.
+  H: By late April, North Vietnamese forces were closing on the capital.
+s11b13
+  S: American officials began preparing the final evacuation.
+  H: Officials began preparing the final evacuation.
+s11b15
+  S: On April 29, North Vietnamese shelling struck Tan Son Nhut Airport,
+  H: On April 29, North Vietnamese selling struck dance on mute airport,
+s11b16
+  S: killing two American Marines, Charles McMahon and Darwin Judge.
+  H: killing two American Marines, Charles Macomb, and Dowing Judd.
+s11b17
+  S: They were the last American servicemen killed in combat in Vietnam.
+  H: There were the last American servicemen killed in combat in Vietnam.
+s11b18
+  S: With the airport under fire, large-scale evacuation by fixed-wing aircraft was no longer possible.
+  H: With the airport under fire, last killed evacuation by fixed wing aircraft was no longer optioned.
+s11b19
+  S: Helicopters became the only practical way to remove the remaining Americans and many Vietnamese
+  H: Helicopters became the only practical way to remove the many Americans and many Vietnamese
+s11b22
+  S: Some had served alongside American forces.
+  H: Helicopters had served alongside American forces,
+s11b24
+  S: They knew what might happen if they were left behind.
+  H: The knew what might happen if they were left behind,
+s11b26
+  S: During the evacuation, helicopters carried people from rooftops and other locations to American ships waiting offshore.
+  H: During the evacuation, helicopters carried people from rooftops and other locations to American ships waiting up.
+s11b27
+  S: Pilots flew repeated missions under immense pressure.
+  H: Pilots flew, appeared in missions under immense pressure.
+s11b28
+  S: On the ships, crews cleared deck space for incoming helicopters.
+  H: On the ships, crew cleared deck space for incoming helicopters.
+s11b29
+  S: Some South Vietnamese aircraft were pushed overboard to make room for more evacuees.
+  H: Some Vietnamese aircrafts were pushed over boat to make room for more vacues.
+s11b30
+  S: The operation moved more than 7,000 people by helicopter in roughly 19 hours.
+  H: The operation moved from 7000 people by helicopter to roughly 19 hours.
+s11b33
+  S: North Vietnamese tanks entered Saigon.
+  H: Not Vietnamese tanks enter Saigon.
+s11b37
+  S: Saigon would later be renamed Ho Chi Minh City,
+  H: Saigon would later be named Ho Chi Minh City.
+s11b38
+  S: after the revolutionary leader who had declared Vietnam independent 30 years earlier.
+  H: After revolutionary leader who had declared Vietnam independent 30 years earlier,
+s11b39
+  S: But Ho Chi Minh himself never witnessed the victory.
+  H: but Ho Chi and me, himself never witnessed the victory
+s11b44
+  S: The most powerful military in the world had withdrawn.
+  H: The most powerful military in the world had we drawn.
+s11b46
+  S: And the images of the final evacuation became the defining pictures of America's defeat in Vietnam.
+  H: The image of the final evacuation became the defining pictures of America's defeat in Vietnam.
+s11b47
+  S: But the fall of Saigon was only the end of the story on the battlefield.
+  H: But the fall of Saigon was not only the end of the story on the battlefield.
+275
