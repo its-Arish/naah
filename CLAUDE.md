@@ -93,6 +93,7 @@ const Tarain: React.FC<SP> = ({ s }) => {
 ```
 - **Host shots**: `hostShot((s) => [{ at: 0, arm: 'present', expr: 'smile' }, { at: wordAt(s, 'but'), arm: 'shrug' }], { props: (s) => <PopProp at={20} x={1000} y={500}>…</PopProp> })`.
 - **Reuse before you draw.** First look at the pictures in `docs/gallery/` (every costume, hat, pose, background, vehicle, animal and prop, with its name). Costumes are ready-made in `engine/cast/Wardrobe.ts` (`<Chibi {...W.GI()} />`, re-dress with `dress(W.GI(), { hat: 'cap' })`); real politicians use `engine/cast/Silhouette.tsx`; stamps, counters, corner notes, cards, calendars and bar charts are in `engine/fx/Infographics.tsx`. After adding to the library, run `bash projects/gallery/export.sh` to refresh the pictures, and `node scripts/export_rigs.mjs` to refresh the hand-animation rigs in `rigs/` (PSD, SVG, PNG parts and pivots for every costume and the narrator; see `rigs/README.md`). `docs/SCENES.md` lists the backgrounds, maps, animals, buildings and props. Draw new ones in the same line style (OL outlines, flat fills). Put scenes another film could reuse in `engine/scenes/` and keep one-off scenes in the project's `src/`.
+- **Maps**: for real geography (pins, coloured countries, borders, routes, arrows on the spoken word) use a Mapimator map scene: `"shot": "map:<name>"` plus `maps/<name>.json`. See `docs/MAPS.md`.
 - **Physics**: use `gravityDrop`, `projectile`, `topple`, `pendulum` and `spring` for anything that falls, flies, swings or settles. Never drive a fall with a linear `interpolate`. Time sound cues to the computed impact frames (see `projects/physics-demo`).
 - **Determinism**: no `Math.random()`, `Date.now()` or component state. Use `random(seed)` from core, and derive everything from `useCurrentFrame()`.
 - **Layout**: keep labels above y ≈ 850 and clear of the top-left date tag. Nothing important should go under the HOST narration text.
@@ -101,7 +102,7 @@ const Tarain: React.FC<SP> = ({ s }) => {
 ## 6. Check, look and fix (don't skip this)
 
 ```
-node scripts/studio.mjs check <slug>                  # timeline → bundle → lists shot ids with no component
+node scripts/studio.mjs check <slug>                  # timeline → map scenes → bundle → lists shot ids with no component
 node scripts/studio.mjs stills <slug> --section 2     # one still per beat (at 80 %) + 4×4 contact sheets
 node scripts/studio.mjs stills <slug> 1200 1215 1230  # specific frames (mid-motion checks)
 ```

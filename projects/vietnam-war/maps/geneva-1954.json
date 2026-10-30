@@ -1,22 +1,151 @@
 {
  "style": "documentary-dark",
  "labels": "none",
- "start": { "lon": 106.5, "lat": 18.0, "zoom": 2.4 },
- "moves": [ { "at": 0.4, "dur": 2.8, "to": { "lon": 106.6, "lat": 16.6, "zoom": 6 } } ],
+ "start": {
+  "lon": 106.5,
+  "lat": 18.0,
+  "zoom": 2.4
+ },
+ "moves": [
+  {
+   "at": 0.4,
+   "dur": 2.8,
+   "to": {
+    "lon": 106.8,
+    "lat": 14.6,
+    "zoom": 6
+   }
+  }
+ ],
  "items": [
-  { "text": "CHINA", "ll": [106.0, 25.8], "at": 2.6, "size": 26, "color": "#9ab4ce" },
-  { "region": "lao", "at": 2.8, "color": "#6f8fb3" },
-  { "region": "khm", "at": 3.0, "color": "#6f8fb3" },
-  { "text": "LAOS", "ll": [102.8, 19.4], "at": 2.8, "size": 22, "color": "#c9d6e6" },
-  { "text": "CAMBODIA", "ll": [104.9, 12.6], "at": 3.0, "size": 22, "color": "#c9d6e6" },
-  { "text": "GENEVA · JULY 1954", "ll": [106.6, 28.3], "at": "w:Geneva", "size": 48 },
-  { "region": "vnm", "at": "w:Vietnam", "color": "#e8c65a", "dur": 0.8 },
-  { "line": "disputed-border", "from": [105.5, 17.0], "to": [109.0, 17.0], "at": "w:divided", "color": "#ffffff" },
-  { "text": "17th parallel", "ll": [111.5, 17.0], "at": "w:parallel", "size": 24 },
-  { "pin": "Hanoi", "ll": [105.85, 21.03], "style": "star", "color": "#ff4d4d", "size": 18, "at": "w:Ho" },
-  { "text": "NORTH · communist", "ll": [110.6, 21.3], "at": "w:North", "size": 26, "color": "#ff6b5e" },
-  { "pin": "Saigon", "ll": [106.66, 10.78], "style": "star", "color": "#ffd23f", "size": 18, "at": "w:anticommunist" },
-  { "text": "SOUTH · backed by the West", "ll": [111.8, 12.4], "at": "w:south", "size": 26, "color": "#ffd23f" },
-  { "text": "…temporary?", "ll": [111.6, 15.0], "at": "w:temporary", "size": 30, "color": "#ffffff" }
+  {
+   "text": "CHINA",
+   "ll": [
+    102.6,
+    24.6
+   ],
+   "at": 2.6,
+   "size": 26,
+   "color": "#9ab4ce"
+  },
+  {
+   "region": "lao",
+   "at": 2.8,
+   "color": "#6f8fb3"
+  },
+  {
+   "region": "khm",
+   "at": 3.0,
+   "color": "#6f8fb3"
+  },
+  {
+   "text": "LAOS",
+   "ll": [
+    102.8,
+    19.4
+   ],
+   "at": 2.8,
+   "size": 22,
+   "color": "#c9d6e6"
+  },
+  {
+   "text": "CAMBODIA",
+   "ll": [
+    104.9,
+    12.6
+   ],
+   "at": 3.0,
+   "size": 22,
+   "color": "#c9d6e6"
+  },
+  {
+   "text": "GENEVA · JULY 1954",
+   "ll": [
+    106.8,
+    26.0
+   ],
+   "at": "w:Geneva",
+   "size": 48
+  },
+  {
+   "region": "vnm",
+   "at": "w:Vietnam",
+   "color": "#e8c65a",
+   "dur": 0.8
+  },
+  {
+   "line": "disputed-border",
+   "from": [
+    105.5,
+    17.0
+   ],
+   "to": [
+    109.0,
+    17.0
+   ],
+   "at": "w:divided",
+   "color": "#ffffff"
+  },
+  {
+   "text": "17th parallel",
+   "ll": [
+    111.4,
+    17.0
+   ],
+   "at": "w:parallel",
+   "size": 24
+  },
+  {
+   "pin": "Hanoi",
+   "ll": [
+    105.85,
+    21.03
+   ],
+   "style": "star",
+   "color": "#ff4d4d",
+   "size": 18,
+   "at": "w:Ho"
+  },
+  {
+   "text": "NORTH · communist",
+   "ll": [
+    112.6,
+    21.6
+   ],
+   "at": "w:North",
+   "size": 26,
+   "color": "#ff6b5e"
+  },
+  {
+   "pin": "Saigon",
+   "ll": [
+    106.66,
+    10.78
+   ],
+   "style": "star",
+   "color": "#ffd23f",
+   "size": 18,
+   "at": "w:anticommunist"
+  },
+  {
+   "text": "SOUTH · backed by the West",
+   "ll": [
+    113.6,
+    11.7
+   ],
+   "at": "w:south",
+   "size": 26,
+   "color": "#ffd23f"
+  },
+  {
+   "text": "…temporary?",
+   "ll": [
+    112.0,
+    14.4
+   ],
+   "at": "w:temporary",
+   "size": 30,
+   "color": "#ffffff"
+  }
  ]
 }
