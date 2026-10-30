@@ -6,7 +6,7 @@ Real maps with pins, coloured countries, borders, routes, arrows and labels that
 git submodule update --init vendor/Mapimator     # once, after cloning
 ```
 
-> Licence: Mapimator has no licence file yet, so its author keeps all rights. It is linked, not copied, into this repo. Ask the author for permission (or an open licence) before publishing work made with it. Natural Earth data itself is public domain.
+> Permission: Mapimator has no licence file, so its author (miladtz) keeps the rights. The repo owner asked and the author agreed to its use in this studio (30 Oct 2026). Keep that message (or ask them to add a LICENSE file) as your record. It stays linked as a submodule rather than copied in. Natural Earth map data is public domain.
 
 ## 1. Mark the beats
 
