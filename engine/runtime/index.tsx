@@ -24,6 +24,11 @@ const render = (f: number) => {
   );
 };
 (window as any).__total = TOTAL_FRAMES;
-(window as any).__setFrame = (f: number) => render(f);
+// wait for any images (map frames) to decode before the frame is captured
+(window as any).__setFrame = async (f: number) => {
+  render(f);
+  const pending = [...document.images].filter((i) => !i.complete || !i.naturalWidth);
+  if (pending.length) await Promise.all(pending.map((i) => i.decode().catch(() => {})));
+};
 render(0);
 document.fonts.load('60px Hand').then(() => document.fonts.load('30px Tag')).then(() => document.fonts.ready).then(() => { (window as any).__ready = true; });

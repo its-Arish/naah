@@ -1,0 +1,3 @@
+[submodule "vendor/Mapimator"]
+	path = vendor/Mapimator
+	url = https://github.com/miladtz/Mapimator.git

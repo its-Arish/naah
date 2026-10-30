@@ -3,6 +3,7 @@ import { Sequence } from '../lib/core';
 import { Narration, DateTag, Bubble } from '../fx/Overlays';
 import { Card as DefaultCard, Missing } from '../kit';
 import type { Shot } from '../types';
+import { MapClip } from '../scenes/MapClip';
 // @project resolves to projects/<name>/ at build time (see scripts/studio.mjs)
 import * as project from '@project/shots';
 import timeline from '@project/build/timeline.json';
@@ -22,11 +23,33 @@ const BUBBLES: Record<string, { x: number; y: number; w: number; tailX: number; 
   B: { x: 110, y: 60, w: 780, tailX: 600, tailY: 440 },
 };
 
+/** Map scenes: consecutive beats with shot "map:<name>" share one Mapimator clip (scripts/map/render_map.mjs). */
+const MAPS: Record<string, { name: string; offset: number; frames: number }> = (() => {
+  const out: Record<string, { name: string; offset: number; frames: number }> = {};
+  let run: Shot[] = [];
+  const flush = () => { if (!run.length) return; const from = run[0].from, end = run[run.length - 1].from + run[run.length - 1].dur; for (const s of run) out[s.id] = { name: run[0].shot!.slice(4), offset: s.from - from, frames: end - from }; run = []; };
+  for (const s of shots) {
+    const key = s.shot ?? '';
+    if (key.startsWith('map:') && run.length && run[0].shot === key && run[run.length - 1].from + run[run.length - 1].dur === s.from) run.push(s);
+    else { flush(); if (key.startsWith('map:')) run = [s]; }
+  }
+  flush();
+  return out;
+})();
+/** A project can export MapExtras (shotKey → component) to draw its own things over a map scene. */
+const MAP_EXTRAS: Record<string, React.FC<{ s: Shot }>> = opt('MapExtras') ?? {};
+
+const MapShot: React.FC<{ s: Shot }> = ({ s }) => {
+  const Extra = MAP_EXTRAS[s.shot ?? ''];
+  return <MapClip {...MAPS[s.id]}>{Extra && <Extra s={s} />}</MapClip>;
+};
+
 export const Video: React.FC = () => (
   <div style={{ position: 'absolute', inset: 0, background: '#000', overflow: 'hidden' }}>
     {shots.map((s) => {
       const key = s.kind === 'CARD' ? 'card' : s.shot ?? s.id;
-      const Comp = s.kind === 'CARD' ? Card : SHOTS[key];
+      const map = MAPS[s.id];
+      const Comp = s.kind === 'CARD' ? Card : map ? MapShot : SHOTS[key];
       return (
         <Sequence key={s.id} from={s.from} duration={s.dur}>
           {Comp ? <Comp s={s} /> : <Missing s={s} name={key} />}

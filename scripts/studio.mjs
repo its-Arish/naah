@@ -22,7 +22,7 @@ import fs from 'fs';
 import path from 'path';
 import { spawn, spawnSync, execFileSync } from 'child_process';
 import { createRequire } from 'module';
-import { fileURLToPath } from 'url';
+import { fileURLToPath, pathToFileURL } from 'url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const require = createRequire(import.meta.url);
@@ -97,6 +97,13 @@ const commands = {
 
   timeline() { needProject(); sh(process.execPath, [path.join(ROOT, 'scripts', 'build_timeline.mjs'), P]); },
 
+  /** Render Mapimator map scenes (beats with "shot": "map:<name>"); cached, so only changed maps re-render. */
+  async maps() {
+    needProject();
+    const { renderMaps } = await import(pathToFileURL(path.join(ROOT, 'scripts', 'map', 'render_map.mjs')).href);
+    await renderMaps(P, { force: rest.includes('--force') });
+  },
+
   async build() {
     needProject();
     const { build } = await importDep('esbuild');
@@ -111,6 +118,9 @@ const commands = {
       define: { 'process.env.NODE_ENV': '"production"' },
     });
     fs.copyFileSync(path.join(ROOT, 'engine', 'runtime', 'index.html'), path.join(dist, 'index.html'));
+    const mapsLink = path.join(dist, 'maps');
+    fs.rmSync(mapsLink, { recursive: true, force: true });
+    if (fs.existsSync(path.join(BUILD, 'maps'))) fs.symlinkSync('../maps', mapsLink);
     fs.cpSync(path.join(ROOT, 'assets', 'fonts'), path.join(dist, 'fonts'), { recursive: true });
     const env = path.join(BUILD, 'vo_env.js');
     fs.writeFileSync(path.join(dist, 'vo_env.js'), fs.existsSync(env) ? fs.readFileSync(env) : '/* no voiceover */');
@@ -118,10 +128,10 @@ const commands = {
   },
 
   async check() {
-    await commands.timeline(); await commands.build();
+    await commands.timeline(); await commands.maps(); await commands.build();
     const tl = JSON.parse(fs.readFileSync(path.join(BUILD, 'timeline.json'), 'utf8'));
     const src = fs.readdirSync(P, { recursive: true }).filter((f) => /\.tsx?$/.test(f)).map((f) => fs.readFileSync(path.join(P, f), 'utf8')).join('\n');
-    const ids = [...new Set(tl.shots.filter((s) => s.kind !== 'CARD').map((s) => s.shot ?? s.id))];
+    const ids = [...new Set(tl.shots.filter((s) => s.kind !== 'CARD').map((s) => s.shot ?? s.id))].filter((id) => !String(id).startsWith('map:'));
     const missing = ids.filter((id) => !new RegExp(`['"\\s{,]${id}\\s*:`).test(src));
     console.log(`${tl.shots.length} shots, ${(tl.total / tl.fps / 60).toFixed(1)} min.`, missing.length ? `MISSING components for: ${missing.join(', ')}` : 'All shot ids have components.');
     if (missing.length) process.exitCode = 1;

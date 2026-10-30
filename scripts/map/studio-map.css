@@ -1,0 +1,11 @@
+/* Studio overrides for Mapimator's export renderer. Mapimator draws layers in world units, so at high
+   zoom its strokes and region captions get very thick; keep strokes at a fixed on-screen width instead. */
+.layer-graphic > path,
+.layer-graphic > line,
+.layer-graphic.geo-effect line { vector-effect: non-scaling-stroke; }
+.layer-graphic > path { stroke-width: 2.2px; }
+.layer-graphic:not(.geo-effect) > line { stroke-width: 3.2px; }
+.layer-graphic.geo-effect line { stroke-width: 2.6px; }
+.layer-graphic:not(.geo-effect) > circle { display: none; }
+.layer-graphic .layer-caption { display: none; }
+.layer-graphic .headline { letter-spacing: 0.04em !important; font-weight: 700; stroke-width: 0.12em !important; stroke-linejoin: round !important; }
