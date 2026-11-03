@@ -54,8 +54,8 @@ export const Video: React.FC = () => (
         <Sequence key={s.id} from={s.from} duration={s.dur}>
           {Comp ? <Comp s={s} /> : <Missing s={s} name={key} />}
           {Overlay ? <Overlay s={s} /> : (<>
-            {s.words && s.words.length > 0 && s.kind === 'SKETCH' && <Bubble words={s.words} {...BUBBLES[s.speaker ?? 'A']} />}
-            {s.words && s.words.length > 0 && s.kind !== 'SKETCH' && <Narration words={s.words} variant={s.kind === 'HOST' ? 'host' : 'caption'} />}
+            {s.words && s.words.length > 0 && s.kind === 'SKETCH' && <Bubble words={s.words} font={(timeline as any).captionFont} {...BUBBLES[s.speaker ?? 'A']} />}
+            {s.words && s.words.length > 0 && s.kind !== 'SKETCH' && <Narration words={s.words} variant={s.kind === 'HOST' ? 'host' : 'caption'} font={(timeline as any).captionFont} />}
             {s.words && <DateTag from={s.prevDate ?? null} to={s.date ?? null} />}
           </>)}
         </Sequence>

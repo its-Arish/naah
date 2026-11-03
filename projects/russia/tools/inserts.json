@@ -1,0 +1,597 @@
+[
+ {
+  "before": "s01b01",
+  "take": 0,
+  "beats": [
+   {
+    "id": "s00i01",
+    "text": "On September 30th, Russia sent NATO a warning:",
+    "shot": "map:kalin",
+    "type": "INSERT",
+    "em": [
+     "warning"
+    ],
+    "date": 2026
+   },
+   {
+    "id": "s00i02",
+    "text": "try to cut off Kaliningrad, and Moscow could use nuclear weapons.",
+    "shot": "map:kalin",
+    "type": "INSERT",
+    "em": [
+     "nuclear"
+    ],
+    "sfx": [
+     [
+      "tech_hit",
+      "w:nuclear",
+      0.6
+     ]
+    ]
+   },
+   {
+    "id": "s00i03",
+    "text": "NATO says no blockade is planned.",
+    "shot": "map:kalin",
+    "type": "INSERT",
+    "em": [
+     "no"
+    ]
+   },
+   {
+    "id": "s00i04",
+    "text": "So why would the biggest country on Earth threaten nuclear war",
+    "shot": "in_ratio",
+    "type": "INSERT",
+    "em": [
+     "biggest"
+    ],
+    "sfx": [
+     [
+      "tech_fill",
+      4,
+      0.5
+     ]
+    ]
+   },
+   {
+    "id": "s00i05",
+    "text": "over a piece of land less than one-thousandth of its size?",
+    "shot": "in_ratio",
+    "type": "INSERT",
+    "em": [
+     "one-thousandth"
+    ],
+    "sfx": [
+     [
+      "tech_chime",
+      "w:one-thousandth",
+      0.5
+     ]
+    ]
+   },
+   {
+    "id": "s00i06",
+    "text": "Because Russia has been afraid of the same thing for eight hundred years.",
+    "shot": "in_fear",
+    "type": "HOST",
+    "em": [
+     "eight"
+    ]
+   },
+   {
+    "id": "s00i07",
+    "text": "And stay to the end,",
+    "shot": "in_promise",
+    "type": "HOST"
+   },
+   {
+    "id": "s00i08",
+    "text": "because there's one set of numbers the Kremlin quietly stopped publishing…",
+    "shot": "in_promise",
+    "type": "HOST",
+    "em": [
+     "stopped"
+    ],
+    "sfx": [
+     [
+      "paper",
+      "w:stopped",
+      0.5
+     ]
+    ]
+   },
+   {
+    "id": "s00i09",
+    "text": "that may scare it even more.",
+    "shot": "in_promise",
+    "type": "HOST",
+    "em": [
+     "scare"
+    ],
+    "sfx": [
+     [
+      "boing",
+      "w:more",
+      0.3
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "after": "s02b32",
+  "take": 1,
+  "beats": [
+   {
+    "id": "s02i01",
+    "text": "So here's Moscow: a tiny wooden town, paying protection money to the Mongols.",
+    "shot": "in_vault",
+    "type": "STORY",
+    "em": [
+     "tiny"
+    ],
+    "sfx": [
+     [
+      "whoosh",
+      2,
+      0.6
+     ],
+     [
+      "thud",
+      22,
+      0.5
+     ],
+     [
+      "coins",
+      "w:money",
+      0.5
+     ]
+    ]
+   },
+   {
+    "id": "s02i02",
+    "text": "How does that end up owning more than a tenth of the planet?",
+    "shot": "in_vault",
+    "type": "STORY",
+    "em": [
+     "tenth"
+    ],
+    "sfx": [
+     [
+      "pop",
+      "w:planet",
+      0.5
+     ]
+    ]
+   },
+   {
+    "id": "s02i03",
+    "text": "Short answer… a man nicknamed \"the Moneybag.\"",
+    "shot": "in_vault",
+    "type": "STORY",
+    "em": [
+     "Moneybag."
+    ],
+    "sfx": [
+     [
+      "kaching",
+      "w:Moneybag",
+      0.6
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "after": "s03b45",
+  "take": 2,
+  "beats": [
+   {
+    "id": "s03i01",
+    "text": "Keep one thing in mind for the rest of this video.",
+    "shot": "in_bill",
+    "type": "HOST",
+    "em": [
+     "one"
+    ],
+    "sfx": [
+     [
+      "swish",
+      4,
+      0.5
+     ]
+    ]
+   },
+   {
+    "id": "s03i02",
+    "text": "Every time Russia had more land than people… somebody paid the bill.",
+    "shot": "in_bill",
+    "type": "HOST",
+    "em": [
+     "bill."
+    ],
+    "sfx": [
+     [
+      "paper",
+      "w:bill",
+      0.6
+     ]
+    ]
+   },
+   {
+    "id": "s03i03",
+    "text": "Bill number one is coming up. Watch who pays it.",
+    "shot": "in_bill",
+    "type": "HOST",
+    "em": [
+     "Watch"
+    ]
+   }
+  ]
+ },
+ {
+  "after": "s04b26",
+  "take": 3,
+  "beats": [
+   {
+    "id": "s04i01",
+    "text": "Bill number one: the serfs. Paid in full… for two hundred years.",
+    "shot": "in_receipt",
+    "type": "INSERT",
+    "em": [
+     "serfs."
+    ],
+    "sfx": [
+     [
+      "paper",
+      2,
+      0.4
+     ]
+    ],
+    "quiet": true
+   }
+  ]
+ },
+ {
+  "before": "s05b10",
+  "take": 4,
+  "beats": [
+   {
+    "id": "s05i01",
+    "text": "Now watch closely.",
+    "shot": "in_spot",
+    "type": "STORY",
+    "em": [
+     "closely."
+    ],
+    "sfx": [
+     [
+      "whoosh",
+      0,
+      0.6
+     ]
+    ]
+   },
+   {
+    "id": "s05i02",
+    "text": "Europe's greatest general is about to make a mistake…",
+    "shot": "in_spot",
+    "type": "STORY",
+    "em": [
+     "mistake…"
+    ]
+   },
+   {
+    "id": "s05i03",
+    "text": "and someone else will make the exact same mistake a hundred and twenty-nine years later.",
+    "shot": "in_spot",
+    "type": "STORY",
+    "em": [
+     "exact"
+    ],
+    "sfx": [
+     [
+      "ticks",
+      "w:hundred",
+      0.5
+     ]
+    ]
+   },
+   {
+    "id": "s05i04",
+    "text": "See if you can spot it.",
+    "shot": "in_spot",
+    "type": "STORY",
+    "em": [
+     "spot"
+    ],
+    "sfx": [
+     [
+      "ding",
+      "w:spot",
+      0.4
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "before": "s06b01",
+  "take": 5,
+  "beats": [
+   {
+    "id": "s06i01",
+    "text": "Quick score check.",
+    "shot": "in_score",
+    "type": "HOST",
+    "em": [
+     "score"
+    ],
+    "sfx": [
+     [
+      "drum",
+      2,
+      0.5
+     ]
+    ],
+    "date": null
+   },
+   {
+    "id": "s06i02",
+    "text": "Land: biggest on Earth. Napoleon: beaten.",
+    "shot": "in_score",
+    "type": "HOST",
+    "em": [
+     "beaten."
+    ],
+    "sfx": [
+     [
+      "ding",
+      "w:Earth",
+      0.4
+     ],
+     [
+      "ding",
+      "w:beaten",
+      0.4
+     ]
+    ]
+   },
+   {
+    "id": "s06i03",
+    "text": "People: still not enough.",
+    "shot": "in_score",
+    "type": "HOST",
+    "em": [
+     "not"
+    ],
+    "sfx": [
+     [
+      "boing",
+      "w:enough",
+      0.4
+     ]
+    ]
+   },
+   {
+    "id": "s06i04",
+    "text": "And the next man in charge will try to fix that in the worst way possible.",
+    "shot": "in_score",
+    "type": "HOST",
+    "em": [
+     "worst"
+    ]
+   }
+  ]
+ },
+ {
+  "after": "s06b22",
+  "take": 6,
+  "beats": [
+   {
+    "id": "s06i05",
+    "text": "Bill number two: famine and terror. Millions. Paid by the people the country needed most.",
+    "shot": "in_receipt",
+    "type": "INSERT",
+    "em": [
+     "two:"
+    ],
+    "quiet": true
+   }
+  ]
+ },
+ {
+  "after": "s07b01",
+  "take": 7,
+  "beats": [
+   {
+    "id": "s07i01",
+    "text": "Did you spot it?",
+    "shot": "in_same",
+    "type": "STORY",
+    "em": [
+     "spot"
+    ],
+    "sfx": [
+     [
+      "whoosh",
+      0,
+      0.6
+     ]
+    ]
+   },
+   {
+    "id": "s07i02",
+    "text": "Napoleon invaded in June. Hitler invaded in June.",
+    "shot": "in_same",
+    "type": "STORY",
+    "em": [
+     "June."
+    ],
+    "sfx": [
+     [
+      "ding",
+      "w:Hitler",
+      0.3
+     ]
+    ]
+   },
+   {
+    "id": "s07i03",
+    "text": "Same plain. Same summer. Same idea: win before the road runs out.",
+    "shot": "in_same",
+    "type": "STORY",
+    "em": [
+     "Same"
+    ]
+   },
+   {
+    "id": "s07i04",
+    "text": "It didn't work the first time either.",
+    "shot": "in_same",
+    "type": "STORY",
+    "em": [
+     "first"
+    ]
+   }
+  ]
+ },
+ {
+  "after": "s07b37",
+  "take": 8,
+  "beats": [
+   {
+    "id": "s07i05",
+    "text": "Bill number three: twenty-seven million.",
+    "shot": "in_receipt",
+    "type": "INSERT",
+    "em": [
+     "three:"
+    ],
+    "quiet": true
+   }
+  ]
+ },
+ {
+  "before": "s09b01",
+  "take": 9,
+  "beats": [
+   {
+    "id": "s09i01",
+    "text": "And this is where history stops being history.",
+    "shot": "in_drop",
+    "type": "HOST",
+    "em": [
+     "stops"
+    ],
+    "sfx": [
+     [
+      "slam",
+      "w:stops",
+      0.6
+     ]
+    ]
+   },
+   {
+    "id": "s09i02",
+    "text": "Everything from here on happened in your lifetime.",
+    "shot": "in_drop",
+    "type": "HOST",
+    "em": [
+     "your"
+    ]
+   }
+  ]
+ },
+ {
+  "after": "s09b30",
+  "take": 10,
+  "beats": [
+   {
+    "id": "s09i03",
+    "text": "And that's why Kaliningrad matters so much right now.",
+    "shot": "map:gate",
+    "type": "INSERT",
+    "em": [
+     "Kaliningrad"
+    ],
+    "date": 2026
+   },
+   {
+    "id": "s09i04",
+    "text": "It's a piece of Russia cut off from Russia,",
+    "shot": "map:gate",
+    "type": "INSERT",
+    "em": [
+     "cut"
+    ]
+   },
+   {
+    "id": "s09i05",
+    "text": "wedged between two NATO countries, Poland and Lithuania.",
+    "shot": "map:gate",
+    "type": "INSERT",
+    "em": [
+     "NATO"
+    ]
+   },
+   {
+    "id": "s09i06",
+    "text": "To Moscow, it's a gate the West could close.",
+    "shot": "map:gate",
+    "type": "INSERT",
+    "em": [
+     "gate"
+    ]
+   },
+   {
+    "id": "s09i07",
+    "text": "To its neighbours, it's a fortress full of missiles on their doorstep.",
+    "shot": "map:gate",
+    "type": "INSERT",
+    "em": [
+     "fortress"
+    ]
+   }
+  ]
+ },
+ {
+  "before": "s10b29",
+  "take": 11,
+  "beats": [
+   {
+    "id": "s10i01",
+    "text": "Remember the numbers I promised you at the very start?",
+    "shot": "in_receipt10",
+    "type": "INSERT",
+    "em": [
+     "promised"
+    ],
+    "sfx": [
+     [
+      "paper",
+      4,
+      0.5
+     ]
+    ]
+   },
+   {
+    "id": "s10i02",
+    "text": "Here they are.",
+    "shot": "in_receipt10",
+    "type": "INSERT",
+    "em": [
+     "Here"
+    ],
+    "sfx": [
+     [
+      "ding",
+      "w:Here",
+      0.4
+     ]
+    ]
+   }
+  ]
+ }
+]

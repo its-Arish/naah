@@ -1,0 +1,191 @@
+{
+ "style": "documentary-dark",
+ "labels": "none",
+ "start": {
+  "lon": 60,
+  "lat": 35,
+  "zoom": 1.1
+ },
+ "moves": [
+  {
+   "at": 0.3,
+   "dur": 2.6,
+   "to": {
+    "lon": 98,
+    "lat": 60,
+    "zoom": 1.75
+   }
+  }
+ ],
+ "items": [
+  {
+   "region": "russia",
+   "at": 0.2,
+   "color": "#e8533e"
+  },
+  {
+   "text": "17.1 million km²",
+   "ll": [
+    96,
+    63
+   ],
+   "at": "w:million",
+   "size": 44,
+   "color": "#FFD84A"
+  },
+  {
+   "text": "over 1/10 of all land on Earth",
+   "ll": [
+    96,
+    57.5
+   ],
+   "at": "w:tenth",
+   "size": 28,
+   "color": "#F4ECD8"
+  },
+  {
+   "text": "+2",
+   "ll": [
+    21,
+    74.5
+   ],
+   "at": "w:zones+0.00",
+   "size": 22,
+   "color": "#FFD84A"
+  },
+  {
+   "text": "+3",
+   "ll": [
+    38,
+    74.5
+   ],
+   "at": "w:zones+0.12",
+   "size": 22,
+   "color": "#FFD84A"
+  },
+  {
+   "text": "+4",
+   "ll": [
+    53,
+    74.5
+   ],
+   "at": "w:zones+0.24",
+   "size": 22,
+   "color": "#FFD84A"
+  },
+  {
+   "text": "+5",
+   "ll": [
+    63,
+    74.5
+   ],
+   "at": "w:zones+0.36",
+   "size": 22,
+   "color": "#FFD84A"
+  },
+  {
+   "text": "+6",
+   "ll": [
+    76,
+    74.5
+   ],
+   "at": "w:zones+0.48",
+   "size": 22,
+   "color": "#FFD84A"
+  },
+  {
+   "text": "+7",
+   "ll": [
+    87,
+    74.5
+   ],
+   "at": "w:zones+0.60",
+   "size": 22,
+   "color": "#FFD84A"
+  },
+  {
+   "text": "+8",
+   "ll": [
+    101,
+    74.5
+   ],
+   "at": "w:zones+0.72",
+   "size": 22,
+   "color": "#FFD84A"
+  },
+  {
+   "text": "+9",
+   "ll": [
+    118,
+    74.5
+   ],
+   "at": "w:zones+0.84",
+   "size": 22,
+   "color": "#FFD84A"
+  },
+  {
+   "text": "+10",
+   "ll": [
+    134,
+    74.5
+   ],
+   "at": "w:zones+0.96",
+   "size": 22,
+   "color": "#FFD84A"
+  },
+  {
+   "text": "+11",
+   "ll": [
+    149,
+    74.5
+   ],
+   "at": "w:zones+1.08",
+   "size": 22,
+   "color": "#FFD84A"
+  },
+  {
+   "text": "+12",
+   "ll": [
+    163,
+    74.5
+   ],
+   "at": "w:zones+1.20",
+   "size": 22,
+   "color": "#FFD84A"
+  },
+  {
+   "text": "11 time zones",
+   "ll": [
+    96,
+    79
+   ],
+   "at": "w:zones",
+   "size": 26,
+   "color": "#F4ECD8"
+  },
+  {
+   "pin": "Kaliningrad · 7 pm, dinner",
+   "ll": [
+    20.5,
+    54.7
+   ],
+   "style": "location",
+   "color": "#7FB2E5",
+   "at": "w:Kaliningrad",
+   "label": 20,
+   "labelSide": "top"
+  },
+  {
+   "pin": "Kamchatka · 5 am, next day",
+   "ll": [
+    158.65,
+    53.02
+   ],
+   "style": "location",
+   "color": "#FFD84A",
+   "at": "w:Kamchatka",
+   "label": 20,
+   "labelSide": "left"
+  }
+ ]
+}

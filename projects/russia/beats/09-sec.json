@@ -1,0 +1,400 @@
+{
+ "title": "Chapter 9: The Bill Comes Due",
+ "sections": [
+  {
+   "title": "Chapter 9: The Bill Comes Due",
+   "beats": [
+    {
+     "id": "s10b01",
+     "type": "HOST",
+     "text": "Remember the *problem* from the beginning.",
+     "shot": "c9_remember",
+     "date": null
+    },
+    {
+     "id": "s10b02",
+     "type": "HOST",
+     "text": "Too much *land*.",
+     "shot": "c9_remember",
+     "sfx": [
+      [
+       "pop",
+       "w:land",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s10b03",
+     "type": "HOST",
+     "text": "Too *few* people.",
+     "shot": "c9_remember",
+     "sfx": [
+      [
+       "pop",
+       "w:few",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s10b04",
+     "type": "INSERT",
+     "text": "For centuries, Russia's answer was to *expand*, to put distance between itself and its enemies.",
+     "shot": "c9_expand",
+     "sfx": [
+      [
+       "whoosh",
+       "w:expand",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s10b05",
+     "type": "INSERT",
+     "text": "When that wasn't enough, it *spent* people.",
+     "shot": "c9_spent",
+     "quiet": true
+    },
+    {
+     "id": "s10b06",
+     "type": "INSERT",
+     "text": "*Serfs*.",
+     "shot": "c9_spent",
+     "quiet": true
+    },
+    {
+     "id": "s10b07",
+     "type": "INSERT",
+     "text": "*Peasants*.",
+     "shot": "c9_spent",
+     "quiet": true
+    },
+    {
+     "id": "s10b08",
+     "type": "INSERT",
+     "text": "*Prisoners*.",
+     "shot": "c9_spent",
+     "quiet": true
+    },
+    {
+     "id": "s10b09",
+     "type": "INSERT",
+     "text": "*Soldiers*.",
+     "shot": "c9_spent",
+     "quiet": true
+    },
+    {
+     "id": "s10b10",
+     "type": "STORY",
+     "text": "Now it is spending the one thing it *can't* easily make more of.",
+     "shot": "c9_cradle",
+     "date": 2025,
+     "sfx": [
+      [
+       "rumble",
+       0,
+       0.3
+      ]
+     ],
+     "quiet": true
+    },
+    {
+     "id": "s10b11",
+     "type": "STORY",
+     "text": "And the war is doing it *again*.",
+     "shot": "c9_cradle",
+     "sfx": [
+      [
+       "slam",
+       "w:again",
+       0.3
+      ]
+     ],
+     "quiet": true
+    },
+    {
+     "id": "s10b12",
+     "type": "INSERT",
+     "text": "Russia's population peaked at about *148.7* million in 1991.",
+     "shot": "c9_popline",
+     "sfx": [
+      [
+       "ding",
+       "w:1991",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s10b13",
+     "type": "INSERT",
+     "text": "Today it is around 146 million, and *falling*.",
+     "shot": "c9_popline",
+     "sfx": [
+      [
+       "slide_down",
+       "w:falling",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s10b14",
+     "type": "INSERT",
+     "text": "In 2024, Russia recorded about *1.22* million births.",
+     "shot": "c9_births",
+     "date": 2024,
+     "sfx": [
+      [
+       "pop",
+       "w:births",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s10b15",
+     "type": "INSERT",
+     "text": "The *fewest* since 1999.",
+     "shot": "c9_births",
+     "sfx": [
+      [
+       "thud",
+       "w:fewest",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s10b16",
+     "type": "INSERT",
+     "text": "Early 2025 was even *worse*.",
+     "shot": "c9_births",
+     "date": 2025
+    },
+    {
+     "id": "s10b17",
+     "type": "INSERT",
+     "text": "Russian demographers described some months as the lowest in *two* centuries.",
+     "shot": "c9_births",
+     "sfx": [
+      [
+       "thud",
+       "w:centuries",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s10b18",
+     "type": "INSERT",
+     "text": "The country's fertility rate is around *1.4* children per woman.",
+     "shot": "c9_fertility",
+     "sfx": [
+      [
+       "pops",
+       "w:1.4",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s10b19",
+     "type": "INSERT",
+     "text": "Far below the *2.1* needed to keep a population steady.",
+     "shot": "c9_fertility",
+     "sfx": [
+      [
+       "pop",
+       "w:2.1",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s10b20",
+     "type": "INSERT",
+     "text": "The *gap* left by the 1990s makes it worse.",
+     "shot": "c9_pyramid"
+    },
+    {
+     "id": "s10b21",
+     "type": "INSERT",
+     "text": "There are simply *fewer* women of childbearing age now.",
+     "shot": "c9_pyramid"
+    },
+    {
+     "id": "s10b22",
+     "type": "STORY",
+     "text": "The war removes young men, by death and by *emigration*.",
+     "shot": "c9_leaving",
+     "quiet": true
+    },
+    {
+     "id": "s10b23",
+     "type": "INSERT",
+     "text": "Official forecasts suggest the population could fall to somewhere between *130* and 139 million by 2046.",
+     "shot": "c9_forecast",
+     "sfx": [
+      [
+       "slide_down",
+       "w:fall",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s10b24",
+     "type": "INSERT",
+     "text": "About what it was in the Russian Empire of *1897*.",
+     "shot": "c9_forecast",
+     "sfx": [
+      [
+       "ding",
+       "w:1897",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s10b25",
+     "type": "STORY",
+     "text": "The Kremlin has *noticed*.",
+     "shot": "c9_policy"
+    },
+    {
+     "id": "s10b26",
+     "type": "STORY",
+     "text": "It has promoted *traditional* family values, restricted abortion access,",
+     "shot": "c9_policy",
+     "sfx": [
+      [
+       "pop",
+       "w:values",
+       0.4
+      ],
+      [
+       "pop",
+       "w:abortion",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s10b27",
+     "type": "STORY",
+     "text": "and offered *payments* to larger families.",
+     "shot": "c9_policy",
+     "sfx": [
+      [
+       "coins",
+       "w:payments",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s10b28",
+     "type": "INSERT",
+     "text": "So far, the numbers keep *dropping*.",
+     "shot": "c9_stopped",
+     "sfx": [
+      [
+       "slide_down",
+       "w:dropping",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s10i01",
+     "text": "Remember the numbers I *promised* you at the very start?",
+     "shot": "in_receipt10",
+     "type": "INSERT",
+     "sfx": [
+      [
+       "paper",
+       4,
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s10i02",
+     "text": "*Here* they are.",
+     "shot": "in_receipt10",
+     "type": "INSERT",
+     "sfx": [
+      [
+       "ding",
+       "w:Here",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s10b29",
+     "type": "INSERT",
+     "text": "And reportedly, in 2025, Russia's statistics agency quietly *stopped* publishing some of its monthly demographic figures.",
+     "shot": "c9_stopped",
+     "sfx": [
+      [
+       "paper",
+       "w:stopped",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s10b30",
+     "type": "INSERT",
+     "text": "The emptiness is most visible in the *east*.",
+     "shot": "map:fareast",
+     "amb": "wind"
+    },
+    {
+     "id": "s10b31",
+     "type": "INSERT",
+     "text": "Russia spent *four* centuries pushing across Siberia to the Pacific.",
+     "shot": "map:fareast",
+     "amb": "wind"
+    },
+    {
+     "id": "s10b32",
+     "type": "INSERT",
+     "text": "Today the Far East, rich in *resources* and thin on people,",
+     "shot": "map:fareast",
+     "amb": "wind"
+    },
+    {
+     "id": "s10b33",
+     "type": "INSERT",
+     "text": "keeps *losing* residents to cities in the west.",
+     "shot": "map:fareast",
+     "amb": "wind"
+    },
+    {
+     "id": "s10b34",
+     "type": "HOST",
+     "text": "There is one way out that the Kremlin has little *appetite* for.",
+     "shot": "c9_door"
+    },
+    {
+     "id": "s10b35",
+     "type": "HOST",
+     "text": "Mass *immigration*.",
+     "shot": "c9_door",
+     "sfx": [
+      [
+       "pop",
+       "w:immigration",
+       0.4
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "style": "documentary-dark",
+ "labels": "none",
+ "start": {
+  "lon": 39,
+  "lat": 51.5,
+  "zoom": 6.4
+ },
+ "items": [
+  {
+   "pin": "Rostov-on-Don",
+   "ll": [
+    39.7,
+    47.23
+   ],
+   "style": "dot",
+   "color": "#F4ECD8",
+   "at": 0.2,
+   "label": 18,
+   "labelSide": "bottom"
+  },
+  {
+   "route": [
+    [
+     39.7,
+     47.23
+    ],
+    [
+     39.2,
+     48.5
+    ],
+    [
+     39.2,
+     50.5
+    ],
+    [
+     38.6,
+     52.6
+    ],
+    [
+     38.5,
+     53.8
+    ]
+   ],
+   "at": "w:marched",
+   "every": 0.3
+  },
+  {
+   "pin": "Moscow",
+   "ll": [
+    37.62,
+    55.75
+   ],
+   "style": "star",
+   "color": "#FFD84A",
+   "at": 0,
+   "label": 20
+  },
+  {
+   "text": "turned back ≈ 200 km away",
+   "ll": [
+    41.5,
+    54.4
+   ],
+   "at": "w:turning",
+   "size": 22,
+   "color": "#FFD84A"
+  },
+  {
+   "text": "Wagner, June 2023",
+   "ll": [
+    42,
+    49.5
+   ],
+   "at": "w:Wagner",
+   "size": 24,
+   "color": "#e8533e"
+  }
+ ]
+}

@@ -25,11 +25,21 @@ type Props = {
   hatOff?: boolean;
   dim?: number; // 0..1 shading when the stage dims
   seed?: string;
+  /** Motion modes (defaults keep the classic standing narrator):
+   *  staffMode: 'hold' (default, planted) | 'ride' (sits astride it, broomstick-style) | 'spin' (twirls it at the hand, staffRot = angle) | 'level' (held horizontally at chest height)
+   *  legs: 'stand' (default) | 'sit' (astride, for riding) | 'tuck' (knees up, for a pole-vault: rotate the whole Host about the staff foot) */
+  staffMode?: 'hold' | 'ride' | 'spin' | 'level' | 'none';
+  /** Left-arm angles [shoulder, elbow] when staffMode is 'none' (the move draws the staff itself; see hostLeftHand). */
+  leftArm?: [number, number];
+  /** Cartoon arm stretch (1 = normal); pair with reach(..., armLen). */
+  armLen?: number;
+  staffRot?: number;
+  legs?: 'stand' | 'sit' | 'tuck' | 'crossed';
 };
 
 const LINE = '#151515';
 
-function armPath(sx: number, sy: number, side: 1 | -1, a1: number, a2: number, up = 88, lo = 82) {
+export function armPath(sx: number, sy: number, side: 1 | -1, a1: number, a2: number, up = 88, lo = 82) {
   const r1 = (a1 * Math.PI) / 180;
   const ex = sx + Math.sin(r1) * up * side;
   const ey = sy + Math.cos(r1) * up;
@@ -49,7 +59,29 @@ function poseAt(frame: number, keys: HostKey[], field: 'arm' | 'expr', def: stri
   return { cur, prev, since: frame - at };
 }
 
-export const Host: React.FC<Props> = ({ x = 1130, y = 960, scale = 1, keys = [], talking = [], hatOff = false, dim = 0, seed = 'host' }) => {
+/** Where the narrator's left hand is (frame coords) for a given leftArm, so a move can attach its own staff to it. */
+export const hostLeftHand = (x: number, y: number, scale: number, leftArm: [number, number]) => {
+  const L = armPath(0, -380, -1, leftArm[0], leftArm[1], 80, 66);
+  return { x: x + L.hx * scale, y: y + L.hy * scale };
+};
+
+export const hostRightHand = (x: number, y: number, scale: number, rightArm: [number, number]) => {
+  const R = armPath(0, -380, 1, rightArm[0], rightArm[1]);
+  return { x: x + R.hx * scale, y: y + R.hy * scale };
+};
+/** Two-link reach: arm angles [shoulder, elbow] that put the hand nearest to frame point (tx, ty). side -1 = left (staff) arm, 1 = right. */
+export const reach = (x: number, y: number, scale: number, side: 1 | -1, tx: number, ty: number, armLen = 1): [number, number] => {
+  const up = (side < 0 ? 80 : 88) * armLen, lo = (side < 0 ? 66 : 82) * armLen;
+  let best: [number, number] = [0, 0], bd = 1e9;
+  for (let a1 = -60; a1 <= 200; a1 += 4) for (let a2 = -150; a2 <= 150; a2 += 4) {
+    const p = armPath(0, -380, side, a1, a2, up, lo);
+    const d = (x + p.hx * scale - tx) ** 2 + (y + p.hy * scale - ty) ** 2 + Math.abs(a2) * 0.02;
+    if (d < bd) { bd = d; best = [a1, a2]; }
+  }
+  return best;
+};
+
+export const Host: React.FC<Props> = ({ x = 1130, y = 960, scale = 1, keys = [], talking = [], hatOff = false, dim = 0, seed = 'host', staffMode = 'hold', staffRot = 0, legs = 'stand', leftArm, rightArm, armLen = 1 }) => {
   const frame = useCurrentFrame();
   const f2 = onTwos(frame);
   const arm = poseAt(f2, keys, 'arm', 'idle');
@@ -63,6 +95,7 @@ export const Host: React.FC<Props> = ({ x = 1130, y = 960, scale = 1, keys = [],
   let a1 = P[0] + (A[0] - P[0]) * t;
   let a2 = P[1] + (A[1] - P[1]) * t;
   if (arm.cur === 'wave') a2 += Math.sin(f2 / 3) * 22;
+  if (rightArm) { a1 = rightArm[0]; a2 = rightArm[1]; }
 
   const isTalking = talking.some(([s, e]) => frame >= s && frame < e);
   const m = mouthState(frame, isTalking, seed);
@@ -71,8 +104,8 @@ export const Host: React.FC<Props> = ({ x = 1130, y = 960, scale = 1, keys = [],
   const exprPop = (ex.cur === 'shock' || ex.cur === 'grin') && ex.since >= 0 && ex.since < 60 ? 1 + 0.2 * Math.exp(-ex.since / 4) * Math.cos(ex.since * 0.9) : 1;
 
   const sh = { x: 0, y: -380 };
-  const R = armPath(sh.x, sh.y, 1, a1, a2);
-  const L = armPath(sh.x, sh.y, -1, 42, 12, 80, 66); // holds the staff
+  const R = armPath(sh.x, sh.y, 1, a1, a2, 88 * armLen, 82 * armLen);
+  const L = staffMode === 'none' ? armPath(0, -380, -1, (leftArm ?? [42, 12])[0], (leftArm ?? [42, 12])[1], 80 * armLen, 66 * armLen) : staffMode === 'ride' ? { ex: 34, ey: -300, hx: 96, hy: -214 } : staffMode === 'level' ? { ex: -40, ey: -310, hx: 30, hy: -300 } : armPath(sh.x, sh.y, -1, 42, 12, 80, 66); // holds the staff
   const breathe = Math.sin(f2 / 14) * 1.5;
 
   const skin = dim > 0 ? mix('#F6D2A8', '#8C7A66', dim) : '#F6D2A8';
@@ -81,7 +114,7 @@ export const Host: React.FC<Props> = ({ x = 1130, y = 960, scale = 1, keys = [],
     <g transform={`translate(${x} ${y}) scale(${scale})`}>
       <g filter="url(#wobble)">
         {/* staff */}
-        <g transform={`translate(${L.hx} 0)`}>
+        {staffMode === 'hold' && <g transform={`translate(${L.hx} 0)`}>
           <line x1={0} y1={-600} x2={4} y2={10} stroke="#6B4A2B" strokeWidth={10} strokeLinecap="round" />
           <line x1={0} y1={-600} x2={4} y2={10} stroke={LINE} strokeWidth={14} strokeLinecap="round" opacity={0.0} />
           <path d="M-6 -600 q6 -24 14 -6" stroke="#6B4A2B" strokeWidth={9} fill="none" strokeLinecap="round" />
@@ -90,11 +123,37 @@ export const Host: React.FC<Props> = ({ x = 1130, y = 960, scale = 1, keys = [],
             <path d="M2 -560 q16 4 30 22 l-12 8 q-8 -14 -18 -16 z" fill="#E8862A" stroke={LINE} strokeWidth={2.5} />
           </g>
           <rect x={-6} y={-566} width={14} height={10} rx={3} fill="#3B2A1A" />
-        </g>
+        </g>}
+        {staffMode !== 'hold' && staffMode !== 'none' && (() => {
+          // the same staff, re-posed: centre point, angle (0 = vertical), length 610
+          const c = staffMode === 'ride' ? { x: -10, y: -206, a: -88 } : staffMode === 'level' ? { x: L.hx + 20, y: L.hy, a: 90 } : { x: L.hx, y: L.hy, a: staffRot };
+          return <g transform={`translate(${c.x} ${c.y}) rotate(${c.a})`}>
+            <line x1={0} y1={-305} x2={0} y2={305} stroke="#6B4A2B" strokeWidth={10} strokeLinecap="round" />
+            <path d="M-6 -305 q6 -24 14 -6" stroke="#6B4A2B" strokeWidth={9} fill="none" strokeLinecap="round" />
+            <g transform={`rotate(${ft2 * 0.8 + Math.sin(f2 / 4) * (staffMode === 'ride' ? 14 : 4)} 2 -265)`}>
+              <path d="M2 -265 q16 4 30 22 l-12 8 q-8 -14 -18 -16 z" fill="#E8862A" stroke={LINE} strokeWidth={2.5} />
+            </g>
+            <rect x={-6} y={-271} width={14} height={10} rx={3} fill="#3B2A1A" />
+          </g>;
+        })()}
         {/* legs */}
+        {legs === 'stand' && <>
         <path d="M0 -215 L-14 -110 L-38 0" stroke={LINE} strokeWidth={4.5} fill="none" strokeLinecap="round" strokeLinejoin="round" />
         <path d="M0 -215 L16 -110 L36 0" stroke={LINE} strokeWidth={4.5} fill="none" strokeLinecap="round" strokeLinejoin="round" />
         <path d="M-38 0 L-60 2 M36 0 L58 3" stroke={LINE} strokeWidth={4.5} strokeLinecap="round" />
+        </>}
+        {legs === 'sit' && <>
+          <path d="M0 -215 L-62 -168 L-42 -96 L-64 -92" stroke={LINE} strokeWidth={4.5} fill="none" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M0 -215 L58 -172 L46 -100 L70 -96" stroke={LINE} strokeWidth={4.5} fill="none" strokeLinecap="round" strokeLinejoin="round" />
+        </>}
+        {legs === 'crossed' && <>
+          <path d="M0 -215 L-10 -110 L30 0 L52 2" stroke={LINE} strokeWidth={4.5} fill="none" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M0 -215 L12 -110 L-26 0 L-48 2" stroke={LINE} strokeWidth={4.5} fill="none" strokeLinecap="round" strokeLinejoin="round" />
+        </>}
+        {legs === 'tuck' && <>
+          <path d="M0 -215 L44 -268 L6 -300 L24 -318" stroke={LINE} strokeWidth={4.5} fill="none" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M0 -215 L56 -250 L22 -284 L42 -298" stroke={LINE} strokeWidth={4.5} fill="none" strokeLinecap="round" strokeLinejoin="round" />
+        </>}
         {/* body */}
         <path d={`M0 ${-408 + breathe} L0 -215`} stroke={LINE} strokeWidth={4.5} strokeLinecap="round" />
         {/* waist cloth (patuka) in dhaka pattern */}

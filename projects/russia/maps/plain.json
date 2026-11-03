@@ -1,0 +1,86 @@
+{
+ "style": "documentary-dark",
+ "labels": "none",
+ "start": {
+  "lon": 20,
+  "lat": 52,
+  "zoom": 3.3
+ },
+ "moves": [
+  {
+   "at": 0.6,
+   "dur": 7,
+   "to": {
+    "lon": 30,
+    "lat": 54,
+    "zoom": 3.0
+   }
+  }
+ ],
+ "items": [
+  {
+   "region": "germany",
+   "at": 0,
+   "color": "#c9a66b"
+  },
+  {
+   "text": "no mountains · no desert",
+   "ll": [
+    22,
+    47.5
+   ],
+   "at": "w:mountain",
+   "size": 26,
+   "color": "#F4ECD8"
+  },
+  {
+   "text": "NORTH EUROPEAN PLAIN",
+   "ll": [
+    23,
+    54.2
+   ],
+   "at": "w:Plain",
+   "size": 34,
+   "color": "#FFD84A"
+  },
+  {
+   "arrow": [
+    [
+     9,
+     52
+    ],
+    [
+     18,
+     52.4
+    ],
+    [
+     27,
+     53.6
+    ],
+    [
+     37.4,
+     55.6
+    ]
+   ],
+   "at": "w:runs",
+   "every": 0.45,
+   "color": "#FFD84A"
+  },
+  {
+   "region": "russia",
+   "at": "w:heart",
+   "color": "#e8533e"
+  },
+  {
+   "pin": "Moscow",
+   "ll": [
+    37.62,
+    55.75
+   ],
+   "style": "star",
+   "color": "#FFD84A",
+   "at": "w:heart",
+   "label": 22
+  }
+ ]
+}

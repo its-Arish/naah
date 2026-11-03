@@ -1,0 +1,93 @@
+{
+ "style": "documentary-dark",
+ "labels": "none",
+ "start": {
+  "lon": 100,
+  "lat": 60,
+  "zoom": 1.75
+ },
+ "moves": [
+  {
+   "at": "w:four",
+   "dur": 2.5,
+   "to": {
+    "lon": 130,
+    "lat": 58,
+    "zoom": 2.1
+   }
+  }
+ ],
+ "items": [
+  {
+   "region": "russia",
+   "at": 0,
+   "color": "#5a3a34"
+  },
+  {
+   "effect": "influence-zone",
+   "ll": [
+    140,
+    60
+   ],
+   "at": "w:east",
+   "size": 200,
+   "color": "#7FB2E5"
+  },
+  {
+   "text": "Far East: ≈ 40% of the land, ≈ 5% of the people",
+   "ll": [
+    130,
+    53
+   ],
+   "at": "w:east",
+   "size": 22,
+   "color": "#FFD84A"
+  },
+  {
+   "text": "timber · gold · oil · fish",
+   "ll": [
+    140,
+    66
+   ],
+   "at": "w:resources",
+   "size": 22,
+   "color": "#9fd18b"
+  },
+  {
+   "arrow": [
+    [
+     135,
+     55
+    ],
+    [
+     110,
+     56
+    ],
+    [
+     85,
+     56
+    ]
+   ],
+   "at": "w:losing",
+   "every": 0.35
+  },
+  {
+   "arrow": [
+    [
+     150,
+     61
+    ],
+    [
+     120,
+     62
+    ],
+    [
+     95,
+     60
+    ]
+   ],
+   "at": "w:losing+0.3",
+   "every": 0.35
+  }
+ ]
+}

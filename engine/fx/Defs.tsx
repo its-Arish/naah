@@ -96,6 +96,10 @@ export const GlobalDefs: React.FC = () => (
         <stop offset="0%" stopColor="#141F3A" />
         <stop offset="100%" stopColor="#2E3F66" />
       </linearGradient>
+      <linearGradient id="skyWinter" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stopColor="#8FA6BE" />
+        <stop offset="100%" stopColor="#DCE4EC" />
+      </linearGradient>
       <linearGradient id="skyDust" x1="0" y1="0" x2="0" y2="1">
         <stop offset="0%" stopColor="#9C958C" />
         <stop offset="100%" stopColor="#C4B9A8" />

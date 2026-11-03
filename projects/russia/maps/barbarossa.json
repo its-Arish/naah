@@ -1,0 +1,141 @@
+{
+ "style": "documentary-dark",
+ "labels": "none",
+ "start": {
+  "lon": 30,
+  "lat": 54,
+  "zoom": 4.4
+ },
+ "moves": [
+  {
+   "at": "w:Moscow",
+   "dur": 2,
+   "to": {
+    "lon": 34,
+    "lat": 56,
+    "zoom": 4.6000000000000005
+   }
+  }
+ ],
+ "items": [
+  {
+   "line": "front-line",
+   "from": [
+    21,
+    57
+   ],
+   "to": [
+    24,
+    45
+   ],
+   "at": 0,
+   "color": "#ff4d4d"
+  },
+  {
+   "arrow": [
+    [
+     22,
+     55
+    ],
+    [
+     31,
+     58.5
+    ]
+   ],
+   "at": "w:poured",
+   "every": 0.25
+  },
+  {
+   "arrow": [
+    [
+     23,
+     52
+    ],
+    [
+     33,
+     54
+    ]
+   ],
+   "at": "w:poured+0.3",
+   "every": 0.25
+  },
+  {
+   "arrow": [
+    [
+     24,
+     49
+    ],
+    [
+     33,
+     48
+    ]
+   ],
+   "at": "w:poured+0.6",
+   "every": 0.25
+  },
+  {
+   "text": "3,000,000+ troops",
+   "ll": [
+    23,
+    58.5
+   ],
+   "at": "w:three",
+   "size": 24,
+   "color": "#FFD84A"
+  },
+  {
+   "effect": "control-zone",
+   "ll": [
+    30.5,
+    50.5
+   ],
+   "at": "w:encircled",
+   "size": 60,
+   "color": "#ff4d4d"
+  },
+  {
+   "effect": "control-zone",
+   "ll": [
+    33,
+    54.5
+   ],
+   "at": "w:encircled+0.4",
+   "size": 50,
+   "color": "#ff4d4d"
+  },
+  {
+   "pin": "Moscow",
+   "ll": [
+    37.62,
+    55.75
+   ],
+   "style": "star",
+   "color": "#FFD84A",
+   "at": "w:Moscow",
+   "label": 22,
+   "labelSide": "right"
+  },
+  {
+   "text": "20–25 km",
+   "ll": [
+    36.3,
+    56.5
+   ],
+   "at": "w:kilometres",
+   "size": 22,
+   "color": "#e8533e"
+  },
+  {
+   "pin": "Leningrad",
+   "ll": [
+    30.3,
+    59.94
+   ],
+   "style": "target",
+   "color": "#ff4d4d",
+   "at": "w:Leningrad",
+   "label": 22,
+   "labelSide": "top"
+  }
+ ]
+}

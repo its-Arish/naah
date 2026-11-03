@@ -1,0 +1,78 @@
+{
+ "style": "documentary-dark",
+ "labels": "none",
+ "start": {
+  "lon": 30,
+  "lat": 53,
+  "zoom": 3.4
+ },
+ "moves": [
+  {
+   "at": 0.4,
+   "dur": 8,
+   "to": {
+    "lon": 32,
+    "lat": 53.5,
+    "zoom": 3.1
+   }
+  }
+ ],
+ "items": [
+  {
+   "effect": "influence-zone",
+   "ll": [
+    31.5,
+    54
+   ],
+   "at": "w:state",
+   "size": 260,
+   "color": "#e8b04a"
+  },
+  {
+   "pin": "Kyiv",
+   "ll": [
+    30.52,
+    50.45
+   ],
+   "style": "star",
+   "color": "#FFD84A",
+   "at": "w:Kyiv",
+   "label": 22
+  },
+  {
+   "text": "KIEVAN RUS'",
+   "ll": [
+    32,
+    56.5
+   ],
+   "at": "w:Kievan",
+   "size": 40,
+   "color": "#FFD84A"
+  },
+  {
+   "region": "russia",
+   "at": "w:Russians",
+   "color": "#c0392b"
+  },
+  {
+   "region": "ukr",
+   "at": "w:Ukrainians",
+   "color": "#2e86c1"
+  },
+  {
+   "region": "blr",
+   "at": "w:Belarusians",
+   "color": "#27ae60"
+  },
+  {
+   "text": "today: Russia · Ukraine · Belarus",
+   "ll": [
+    34,
+    46.2
+   ],
+   "at": "w:Belarusians",
+   "size": 24,
+   "color": "#F4ECD8"
+  }
+ ]
+}

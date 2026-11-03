@@ -1,0 +1,446 @@
+{
+ "title": "Chapter 7: A Wall Made of Other Countries",
+ "sections": [
+  {
+   "title": "Chapter 7: A Wall Made of Other Countries",
+   "beats": [
+    {
+     "id": "s08b01",
+     "type": "HOST",
+     "text": "After the war, the Soviet Union took control of *Eastern* Europe.",
+     "shot": "c7_after",
+     "date": 1945,
+     "sfx": [
+      [
+       "pop",
+       "w:Europe",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s08b02",
+     "type": "INSERT",
+     "text": "*Poland*.",
+     "shot": "map:bloc",
+     "date": 1948,
+     "sfx": [
+      [
+       "pop",
+       "w:Poland",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s08b03",
+     "type": "INSERT",
+     "text": "*East* Germany.",
+     "shot": "map:bloc",
+     "sfx": [
+      [
+       "pop",
+       "w:Germany",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s08b04",
+     "type": "INSERT",
+     "text": "*Hungary*.",
+     "shot": "map:bloc",
+     "sfx": [
+      [
+       "pop",
+       "w:Hungary",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s08b05",
+     "type": "INSERT",
+     "text": "*Romania*.",
+     "shot": "map:bloc",
+     "sfx": [
+      [
+       "pop",
+       "w:Romania",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s08b06",
+     "type": "INSERT",
+     "text": "*Bulgaria*.",
+     "shot": "map:bloc",
+     "sfx": [
+      [
+       "pop",
+       "w:Bulgaria",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s08b07",
+     "type": "INSERT",
+     "text": "These countries formed a *buffer* between Moscow and the West.",
+     "shot": "map:bloc"
+    },
+    {
+     "id": "s08b08",
+     "type": "INSERT",
+     "text": "For Stalin, it was *security*.",
+     "shot": "c7_twoviews",
+     "sfx": [
+      [
+       "ding",
+       "w:security",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s08b09",
+     "type": "INSERT",
+     "text": "For the people who lived there, it meant *repression* and lost independence.",
+     "shot": "c7_twoviews"
+    },
+    {
+     "id": "s08b10",
+     "type": "STORY",
+     "text": "The buffer *worked*, in its way.",
+     "shot": "c7_super"
+    },
+    {
+     "id": "s08b11",
+     "type": "STORY",
+     "text": "The Soviet Union became one of *two* superpowers.",
+     "shot": "c7_super",
+     "sfx": [
+      [
+       "drum",
+       "w:superpowers",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s08b12",
+     "type": "STORY",
+     "text": "It launched *Sputnik* in 1957.",
+     "shot": "c7_sputnik",
+     "date": 1957,
+     "sfx": [
+      [
+       "blip",
+       "w:Sputnik",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s08b13",
+     "type": "STORY",
+     "text": "It sent Yuri *Gagarin* into orbit in 1961,",
+     "shot": "c7_gagarin",
+     "date": 1961,
+     "sfx": [
+      [
+       "rumble",
+       "w:orbit",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s08b14",
+     "type": "STORY",
+     "text": "exactly a *century* after freeing its serfs.",
+     "shot": "c7_gagarin",
+     "sfx": [
+      [
+       "ding",
+       "w:century",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s08b15",
+     "type": "INSERT",
+     "text": "It also tested the Tsar Bomba, the *largest* nuclear weapon ever detonated.",
+     "shot": "c7_bomba",
+     "sfx": [
+      [
+       "rumble",
+       "w:detonated",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s08b16",
+     "type": "STORY",
+     "text": "But behind the achievements was an economy that *struggled*.",
+     "shot": "c7_economy",
+     "date": 1975
+    },
+    {
+     "id": "s08b17",
+     "type": "STORY",
+     "text": "A huge *military* budget.",
+     "shot": "c7_economy",
+     "sfx": [
+      [
+       "drum",
+       "w:military",
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s08b18",
+     "type": "STORY",
+     "text": "And a costly war in *Afghanistan*, starting in 1979.",
+     "shot": "c7_economy",
+     "date": 1979
+    },
+    {
+     "id": "s08b19",
+     "type": "STORY",
+     "text": "In 1986, the *Chernobyl* reactor exploded.",
+     "shot": "c7_chernobyl",
+     "date": 1986,
+     "sfx": [
+      [
+       "thud",
+       "w:exploded",
+       0.4
+      ]
+     ],
+     "quiet": true
+    },
+    {
+     "id": "s08b20",
+     "type": "STORY",
+     "text": "The government's first attempt to *hide* it deepened public distrust.",
+     "shot": "c7_chernobyl",
+     "sfx": [
+      [
+       "paper",
+       "w:hide",
+       0.4
+      ]
+     ],
+     "quiet": true
+    },
+    {
+     "id": "s08b21",
+     "type": "STORY",
+     "text": "Mikhail Gorbachev tried to *reform* the system.",
+     "shot": "c7_gorby",
+     "date": 1987,
+     "sfx": [
+      [
+       "pop",
+       "w:reform",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s08b22",
+     "type": "STORY",
+     "text": "And the reforms helped bring it *down*.",
+     "shot": "c7_gorby",
+     "sfx": [
+      [
+       "thud",
+       "w:down",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s08b23",
+     "type": "STORY",
+     "text": "On December 25, 1991, the *red* flag came down over the Kremlin.",
+     "shot": "c7_flagdown",
+     "date": 1991,
+     "sfx": [
+      [
+       "slide_down",
+       "w:down",
+       0.4
+      ]
+     ],
+     "quiet": true
+    },
+    {
+     "id": "s08b24",
+     "type": "INSERT",
+     "text": "*Fifteen* new countries emerged.",
+     "shot": "map:breakup",
+     "sfx": [
+      [
+       "pops",
+       "w:countries",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s08b25",
+     "type": "INSERT",
+     "text": "Russia was the *largest*.",
+     "shot": "map:breakup",
+     "sfx": [
+      [
+       "ding",
+       "w:largest",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s08b26",
+     "type": "INSERT",
+     "text": "But it had lost territory, population, and the *buffer* Stalin had built.",
+     "shot": "map:breakup"
+    },
+    {
+     "id": "s08b27",
+     "type": "STORY",
+     "text": "About *25* million ethnic Russians suddenly lived outside its borders.",
+     "shot": "c7_borders"
+    },
+    {
+     "id": "s08b28",
+     "type": "STORY",
+     "text": "They *hadn't* moved.",
+     "shot": "c7_borders"
+    },
+    {
+     "id": "s08b29",
+     "type": "STORY",
+     "text": "The *borders* had.",
+     "shot": "c7_borders",
+     "sfx": [
+      [
+       "whoosh",
+       "w:borders",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s08b30",
+     "type": "INSERT",
+     "text": "The 1990s were *brutal*.",
+     "shot": "c7_nineties",
+     "date": 1992,
+     "quiet": true
+    },
+    {
+     "id": "s08b31",
+     "type": "INSERT",
+     "text": "The economy *collapsed*.",
+     "shot": "c7_nineties",
+     "sfx": [
+      [
+       "slide_down",
+       "w:collapsed",
+       0.4
+      ]
+     ],
+     "quiet": true
+    },
+    {
+     "id": "s08b32",
+     "type": "INSERT",
+     "text": "Savings *vanished*.",
+     "shot": "c7_nineties",
+     "sfx": [
+      [
+       "whoosh",
+       "w:vanished",
+       0.4
+      ]
+     ],
+     "quiet": true
+    },
+    {
+     "id": "s08b33",
+     "type": "INSERT",
+     "text": "Life expectancy for Russian men *fell* sharply.",
+     "shot": "c7_nineties",
+     "sfx": [
+      [
+       "slide_down",
+       "w:fell",
+       0.3
+      ]
+     ],
+     "quiet": true
+    },
+    {
+     "id": "s08b34",
+     "type": "INSERT",
+     "text": "Births *dropped* hard.",
+     "shot": "c7_nineties",
+     "sfx": [
+      [
+       "slide_down",
+       "w:dropped",
+       0.3
+      ]
+     ],
+     "quiet": true
+    },
+    {
+     "id": "s08b35",
+     "type": "INSERT",
+     "text": "And that drop is *important*.",
+     "shot": "c7_gap"
+    },
+    {
+     "id": "s08b36",
+     "type": "INSERT",
+     "text": "It created a *gap* in the population that echoes through Russia today.",
+     "shot": "c7_gap"
+    },
+    {
+     "id": "s08b37",
+     "type": "STORY",
+     "text": "On the last day of 1999, Boris Yeltsin *resigned*.",
+     "shot": "c7_yeltsin",
+     "date": 1999,
+     "sfx": [
+      [
+       "thud",
+       "w:resigned",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s08b38",
+     "type": "STORY",
+     "text": "He handed power to a former intelligence officer named Vladimir *Putin*.",
+     "shot": "c7_yeltsin",
+     "sfx": [
+      [
+       "pop",
+       "w:Putin",
+       0.4
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

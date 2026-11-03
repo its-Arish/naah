@@ -1,0 +1,82 @@
+{
+ "style": "documentary-dark",
+ "labels": "none",
+ "start": {
+  "lon": 33,
+  "lat": 49,
+  "zoom": 6.2
+ },
+ "items": [
+  {
+   "region": "ukr",
+   "at": 0,
+   "color": "#c9a24a"
+  },
+  {
+   "arrow": [
+    [
+     31,
+     53
+    ],
+    [
+     30.6,
+     50.9
+    ]
+   ],
+   "at": "w:launched",
+   "every": 0.25
+  },
+  {
+   "arrow": [
+    [
+     37.5,
+     50.7
+    ],
+    [
+     36.3,
+     50.0
+    ]
+   ],
+   "at": "w:launched+0.3",
+   "every": 0.25
+  },
+  {
+   "arrow": [
+    [
+     39.5,
+     48
+    ],
+    [
+     37.7,
+     47.2
+    ]
+   ],
+   "at": "w:launched+0.6",
+   "every": 0.25
+  },
+  {
+   "arrow": [
+    [
+     34,
+     45.6
+    ],
+    [
+     33.5,
+     46.8
+    ]
+   ],
+   "at": "w:launched+0.9",
+   "every": 0.25
+  },
+  {
+   "text": "24 February 2022",
+   "ll": [
+    31,
+    52.8
+   ],
+   "at": 0.3,
+   "size": 24,
+   "color": "#FFD84A"
+  }
+ ]
+}

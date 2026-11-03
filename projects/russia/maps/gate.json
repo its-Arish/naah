@@ -1,0 +1,90 @@
+{
+ "style": "documentary-dark",
+ "labels": "none",
+ "start": {
+  "lon": 21.2,
+  "lat": 54.5,
+  "zoom": 11
+ },
+ "moves": [
+  {
+   "at": "w:cut",
+   "dur": 2.4,
+   "to": {
+    "lon": 28,
+    "lat": 55,
+    "zoom": 5.2
+   }
+  },
+  {
+   "at": "w:gate-0.2",
+   "dur": 2.0,
+   "to": {
+    "lon": 21.2,
+    "lat": 54.5,
+    "zoom": 11
+   }
+  }
+ ],
+ "items": [
+  {
+   "region": "russia",
+   "at": 0.2,
+   "color": "#c0503e"
+  },
+  {
+   "pin": "Kaliningrad",
+   "ll": [
+    20.51,
+    54.71
+   ],
+   "style": "target",
+   "color": "#ff4d4d",
+   "at": 0.4,
+   "label": 26,
+   "labelSide": "left"
+  },
+  {
+   "route": [
+    [
+     21.5,
+     54.8
+    ],
+    [
+     25,
+     55.2
+    ],
+    [
+     28,
+     55.6
+    ],
+    [
+     32,
+     55.8
+    ]
+   ],
+   "at": "w:off",
+   "every": 0.3
+  },
+  {
+   "region": "pol",
+   "at": "w:Poland",
+   "color": "#4a7ab8"
+  },
+  {
+   "region": "ltu",
+   "at": "w:Lithuania",
+   "color": "#4a7ab8"
+  },
+  {
+   "effect": "control-zone",
+   "ll": [
+    20.51,
+    54.71
+   ],
+   "at": "w:fortress",
+   "size": 80,
+   "color": "#ff4d4d"
+  }
+ ]
+}

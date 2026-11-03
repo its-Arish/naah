@@ -77,10 +77,14 @@ const norm = (s) => s.replace(/\*/g, '').toLowerCase();
 const F = (sec) => Math.round(sec * FPS);
 
 const shots = [], cues = [], amb = [];
+// "mapSfx": "tech" in project.json: map scenes get a digital sound set instead of the cartoon one
+const TECH_ON = cfg.mapSfx === 'tech';
+const TECH = { whoosh: 'tech_whoosh', swish: 'tech_whoosh', pop: 'data_blip', pop2: 'data_blip', tick: 'tech_tick', ticks: 'data_blips', pops: 'data_blips',
+  ding: 'tech_chime', blip: 'tech_click', paper: 'tech_click', scribble: 'data_blips', thud: 'tech_hit', slam: 'tech_hit', clang: 'tech_hit' };
 let t = 0;
 const OPEN = F(cfg.openingSeconds), CARD = F(cfg.cardSeconds), END = F(cfg.endSeconds);
 shots.push({ id: 'opening', kind: 'OPENING', from: 0, dur: OPEN }); t += OPEN;
-cues.push(['drum', 0.2, 0.9], ['paper', 0.5, 0.6]);
+if (OPEN >= 30) cues.push(['drum', 0.2, 0.9], ['paper', 0.5, 0.6]);
 const voOffset = align ? cfg.openingSeconds : 0; // voiceover audio starts after the opening
 // With a voiceover, section cards open gaps in it: voSegments says which slice of the recording plays when.
 const voSegments = [];
@@ -165,10 +169,11 @@ flat.forEach(({ sec, si, b, bi, last }, k) => {
   // ---------- automatic sound cues
   const T = from / FPS;
   const scene = shotId.replace(/\d+$/, '');
-  if (!b.quiet && scene !== lastShot.replace(/\d+$/, '') && b.type !== 'HOST') cues.push(['whoosh', T, 0.35]);
-  if (date !== null && lastDate !== null && date !== lastDate) cues.push(['ticks', T + 0.05, 0.45]);
+  const K = (k) => (TECH_ON && String(shotId).startsWith('map:') ? TECH[k] ?? k : k);
+  if (!b.quiet && scene !== lastShot.replace(/\d+$/, '') && b.type !== 'HOST') cues.push([K('whoosh'), T, 0.35]);
+  if (date !== null && lastDate !== null && date !== lastDate) cues.push([K('ticks'), T + 0.05, 0.45]);
   if (b.type === 'SKETCH' && !b.quiet) cues.push(['blip', T + 0.15, 0.5]);
-  if (!b.quiet) ws.forEach((w) => { if (w.em && b.type !== 'SKETCH') cues.push(['tick', T + w.at / FPS, 0.25]); });
+  if (!b.quiet) ws.forEach((w) => { if (w.em && b.type !== 'SKETCH') cues.push([K('tick'), T + w.at / FPS, 0.25]); });
 
   // ---------- authored cues
   (b.sfx ?? []).forEach(([kind, off, vol]) => {
@@ -180,7 +185,7 @@ flat.forEach(({ sec, si, b, bi, last }, k) => {
       if (!hit) console.warn(`warning: beat ${b.id}: sfx word "${off.slice(2)}" not found in text`);
       s2 = hit ? hit.at / FPS : 0.3;
     } else s2 = Number(off) / FPS;
-    cues.push([kind, T + s2, vol ?? 0.8, kind === 'gallop' ? dur / FPS - s2 : undefined]);
+    cues.push([K(kind), T + s2, vol ?? 0.8, kind === 'gallop' ? dur / FPS - s2 : undefined]);
   });
   if (b.amb) amb.push([b.amb, T, T + dur / FPS]);
   lastDate = date; lastShot = shotId; t = from + dur;
@@ -203,6 +208,44 @@ if (align) {
 }
 shots.push({ id: 'end', kind: 'END', from: t, dur: END }); cues.push(['drum', t / FPS + 0.2, 0.8]); t += END;
 
+// ---------- map scenes, tech sound: one cue per item as it appears (pins, labels, fills, routes, camera moves)
+if (TECH_ON) {
+  const groups = [];
+  for (const sh of shots) {
+    if (!String(sh.shot ?? '').startsWith('map:')) continue;
+    const name = sh.shot.slice(4), g = groups[groups.length - 1];
+    if (g && g.name === name && g.end === sh.from) { g.shots.push(sh); g.end = sh.from + sh.dur; } else groups.push({ name, from: sh.from, end: sh.from + sh.dur, shots: [sh] });
+  }
+  const near = (tt) => cues.some((c) => Math.abs(c[1] - tt) < 0.12);
+  for (const g of groups) {
+    const f = path.join(P, 'maps', g.name + '.json');
+    if (!fs.existsSync(f)) continue;
+    const spec = JSON.parse(fs.readFileSync(f, 'utf8'));
+    const dur = (g.end - g.from) / FPS, T0 = g.from / FPS;
+    const words = g.shots.flatMap((sh) => (sh.words ?? []).map((w) => ({ w: norm(w.w), t: (sh.from - g.from + w.at) / FPS })));
+    const at = (cue) => {
+      if (cue == null) return 0; if (typeof cue === 'number') return cue;
+      const m = String(cue).match(/^(w:([^#+\-]+)(?:#(\d+))?|end|start)\s*([+-]\s*[\d.]+)?$/); if (!m) return null;
+      const off = m[4] ? Number(m[4].replace(/\s/g, '')) : 0;
+      if (m[1] === 'end') return dur + off; if (m[1] === 'start') return off;
+      const hits = words.filter((x) => x.w === norm(m[2])); const h = hits[Number(m[3] ?? 1) - 1]; return h ? h.t + off : null;
+    };
+    const quietAt = (tt) => g.shots.some((sh) => sh.quiet && tt >= sh.from / FPS && tt < (sh.from + sh.dur) / FPS);
+    const add = (kind, rel, vol) => { if (rel == null) return; const tt = T0 + Math.max(0, Math.min(dur - 0.1, rel)); if (quietAt(tt) || near(tt)) return; cues.push([kind, tt, vol]); };
+    (spec.moves ?? []).forEach((mv) => add('tech_whoosh', at(mv.at), 0.3));
+    (spec.items ?? []).forEach((it) => {
+      const r = at(it.at);
+      if (it.region) add('tech_fill', r, 0.35);
+      else if (it.pin) add('data_blip', r, 0.45);
+      else if (it.text) add(/\d/.test(it.text) ? 'tech_chime' : 'tech_click', r, /\d/.test(it.text) ? 0.35 : 0.45);
+      else if (it.route || it.arrow) add('tech_trace', r, 0.35);
+      else if (it.line) add('tech_trace', r, 0.3);
+      else if (it.effect) add('tech_hit', r, 0.3);
+    });
+  }
+  cues.sort((a, b) => a[1] - b[1]);
+}
+
 // merge consecutive ambience segments
 const merged = [];
 amb.forEach(([k, a, b]) => { const l = merged[merged.length - 1]; if (l && l[0] === k && Math.abs(l[2] - a) < 0.05) l[2] = b; else merged.push([k, a, b]); });
@@ -210,7 +253,7 @@ const secs = [];
 shots.forEach((sh) => { const k = sh.section ?? sh.title; if (!k) return; const l = secs[secs.length - 1]; if (l && l.title === k) l.end = sh.from + sh.dur; else secs.push({ title: k, start: sh.from, end: sh.from + sh.dur }); });
 
 fs.writeFileSync(path.join(BUILD, 'sections.json'), JSON.stringify(secs, null, 1));
-fs.writeFileSync(path.join(BUILD, 'timeline.json'), JSON.stringify({ fps: FPS, width: cfg.width ?? 1920, height: cfg.height ?? 1080, total: t, voOffset, voSegments: align ? voSegments : undefined, shots }, null, 1));
+fs.writeFileSync(path.join(BUILD, 'timeline.json'), JSON.stringify({ fps: FPS, width: cfg.width ?? 1920, height: cfg.height ?? 1080, total: t, captionFont: cfg.captionFont, voOffset, voSegments: align ? voSegments : undefined, shots }, null, 1));
 const quietRanges = shots.filter((sh) => sh.quiet).map((sh) => [sh.from / FPS, (sh.from + sh.dur) / FPS]);
 // music score: a section's "mood" (curious | grand | tension | sombre | modern | playful | none), overridable per beat
 const score = [];

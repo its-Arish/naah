@@ -1,0 +1,65 @@
+{
+ "style": "documentary-dark",
+ "labels": "none",
+ "start": {
+  "lon": 35.3,
+  "lat": 51.4,
+  "zoom": 8.6
+ },
+ "items": [
+  {
+   "line": "disputed-border",
+   "from": [
+    33.5,
+    52.3
+   ],
+   "to": [
+    36.0,
+    50.2
+   ],
+   "at": 0,
+   "color": "#F4ECD8"
+  },
+  {
+   "pin": "Kursk",
+   "ll": [
+    36.19,
+    51.73
+   ],
+   "style": "dot",
+   "color": "#FFD84A",
+   "at": "w:Kursk",
+   "label": 20
+  },
+  {
+   "effect": "control-zone",
+   "ll": [
+    35.2,
+    51.2
+   ],
+   "at": "w:held",
+   "size": 55,
+   "color": "#4a7ab8"
+  },
+  {
+   "text": "Kursk region, August 2024",
+   "ll": [
+    34.6,
+    52.5
+   ],
+   "at": "w:Kursk",
+   "size": 22,
+   "color": "#FFD84A"
+  },
+  {
+   "text": "first since 1945",
+   "ll": [
+    35.5,
+    50.4
+   ],
+   "at": "w:first",
+   "size": 22,
+   "color": "#F4ECD8"
+  }
+ ]
+}

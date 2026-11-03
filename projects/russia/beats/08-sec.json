@@ -1,0 +1,359 @@
+{
+ "title": "Chapter 8: The Old Fear Returns",
+ "sections": [
+  {
+   "title": "Chapter 8: The Old Fear Returns",
+   "beats": [
+    {
+     "id": "s09i01",
+     "text": "And this is where history *stops* being history.",
+     "shot": "in_drop",
+     "type": "HOST",
+     "sfx": [
+      [
+       "slam",
+       "w:stops",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s09i02",
+     "text": "Everything from here on happened in *your* lifetime.",
+     "shot": "in_drop",
+     "type": "HOST"
+    },
+    {
+     "id": "s09b01",
+     "type": "HOST",
+     "text": "Putin promised *stability*.",
+     "shot": "c8_stability",
+     "date": 2000,
+     "sfx": [
+      [
+       "pop",
+       "w:stability",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s09b02",
+     "type": "INSERT",
+     "text": "And in the early 2000s, helped by high *energy* prices, he delivered it.",
+     "shot": "c8_recovery",
+     "date": 2003,
+     "sfx": [
+      [
+       "coins",
+       "w:prices",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s09b03",
+     "type": "INSERT",
+     "text": "The economy *recovered*.",
+     "shot": "c8_recovery",
+     "sfx": [
+      [
+       "ding",
+       "w:recovered",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s09b04",
+     "type": "INSERT",
+     "text": "The state *centralised*.",
+     "shot": "c8_recovery",
+     "sfx": [
+      [
+       "pop",
+       "w:centralised",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s09b05",
+     "type": "INSERT",
+     "text": "Russia regained *influence* abroad.",
+     "shot": "c8_recovery",
+     "sfx": [
+      [
+       "pop",
+       "w:influence",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s09b06",
+     "type": "STORY",
+     "text": "Putin also called the collapse of the Soviet Union a major geopolitical *catastrophe*.",
+     "shot": "c8_quote",
+     "date": 2005,
+     "sfx": [
+      [
+       "paper",
+       "w:called",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s09b07",
+     "type": "INSERT",
+     "text": "And he was deeply troubled by what was happening on Russia's *western* edge.",
+     "shot": "map:nato",
+     "date": 1999
+    },
+    {
+     "id": "s09b08",
+     "type": "INSERT",
+     "text": "Countries that had once been Moscow's buffer were joining *NATO*.",
+     "shot": "map:nato",
+     "sfx": [
+      [
+       "pops",
+       "w:NATO",
+       0.4
+      ]
+     ],
+     "date": 2004
+    },
+    {
+     "id": "s09b09",
+     "type": "INSERT",
+     "text": "From Moscow's view, the wall was *disappearing*.",
+     "shot": "map:nato"
+    },
+    {
+     "id": "s09b10",
+     "type": "INSERT",
+     "text": "From the view of those countries, joining the West was a *choice* about their",
+     "shot": "map:nato"
+    },
+    {
+     "id": "s09b11",
+     "type": "INSERT",
+     "text": "own security and *independence*.",
+     "shot": "map:nato"
+    },
+    {
+     "id": "s09b12",
+     "type": "INSERT",
+     "text": "Ukraine became the *flashpoint*.",
+     "shot": "map:crimea",
+     "date": 2014
+    },
+    {
+     "id": "s09b13",
+     "type": "INSERT",
+     "text": "In 2014, after a revolution toppled Ukraine's pro-Moscow president, Russia seized and *annexed* Crimea.",
+     "shot": "map:crimea",
+     "sfx": [
+      [
+       "thud",
+       "w:annexed",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s09b14",
+     "type": "INSERT",
+     "text": "Most of the world *refused* to recognise it.",
+     "shot": "map:crimea"
+    },
+    {
+     "id": "s09b15",
+     "type": "INSERT",
+     "text": "On February 24, 2022, Russia launched a *full-scale* invasion of Ukraine.",
+     "shot": "map:invasion",
+     "date": 2022,
+     "sfx": [
+      [
+       "rumble",
+       "w:invasion",
+       0.4
+      ]
+     ],
+     "quiet": true
+    },
+    {
+     "id": "s09b16",
+     "type": "INSERT",
+     "text": "Moscow pointed to *NATO* expansion and security fears.",
+     "shot": "c8_views",
+     "sfx": [
+      [
+       "pop",
+       "w:pointed",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s09b17",
+     "type": "INSERT",
+     "text": "Ukraine and most other countries called it an *unprovoked* war of aggression.",
+     "shot": "c8_views",
+     "sfx": [
+      [
+       "pop",
+       "w:called",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s09b18",
+     "type": "INSERT",
+     "text": "The UN General Assembly *condemned* it as a violation of the UN Charter.",
+     "shot": "c8_views",
+     "sfx": [
+      [
+       "paper",
+       "w:condemned",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s09b19",
+     "type": "INSERT",
+     "text": "It became the *largest* war in Europe since 1945.",
+     "shot": "c8_largest",
+     "quiet": true
+    },
+    {
+     "id": "s09b20",
+     "type": "STORY",
+     "text": "Cities were *flattened*.",
+     "shot": "c8_cities",
+     "quiet": true,
+     "amb": "wind"
+    },
+    {
+     "id": "s09b21",
+     "type": "STORY",
+     "text": "Millions were *displaced*.",
+     "shot": "c8_cities",
+     "quiet": true,
+     "amb": "wind"
+    },
+    {
+     "id": "s09b22",
+     "type": "INSERT",
+     "text": "Russia's own losses were *enormous*.",
+     "shot": "c8_losses",
+     "date": 2024,
+     "quiet": true
+    },
+    {
+     "id": "s09b23",
+     "type": "INSERT",
+     "text": "Estimates run from hundreds of thousands to more than a *million* killed and wounded.",
+     "shot": "c8_losses",
+     "quiet": true
+    },
+    {
+     "id": "s09b24",
+     "type": "INSERT",
+     "text": "And Moscow publishes *no* full count.",
+     "shot": "c8_losses",
+     "quiet": true
+    },
+    {
+     "id": "s09b25",
+     "type": "INSERT",
+     "text": "In 2023, the Wagner mercenary group staged an armed *revolt* and marched toward Moscow before turning back.",
+     "shot": "map:wagner",
+     "date": 2023
+    },
+    {
+     "id": "s09b26",
+     "type": "INSERT",
+     "text": "In 2024, Ukrainian troops crossed into Russia's *Kursk* region and held parts of it.",
+     "shot": "map:kursk",
+     "date": 2024
+    },
+    {
+     "id": "s09b27",
+     "type": "INSERT",
+     "text": "The *first* time a foreign army had held Russian ground since World War II.",
+     "shot": "map:kursk"
+    },
+    {
+     "id": "s09b28",
+     "type": "STORY",
+     "text": "As of late October 2026, the war is *still* going on,",
+     "shot": "c8_talks",
+     "date": 2026
+    },
+    {
+     "id": "s09b29",
+     "type": "STORY",
+     "text": "with talks starting and *stalling*.",
+     "shot": "c8_talks",
+     "sfx": [
+      [
+       "boing",
+       "w:stalling",
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s09b30",
+     "type": "HOST",
+     "text": "The *old* fear had returned.",
+     "shot": "c8_oldfear",
+     "quiet": true
+    },
+    {
+     "id": "s09i03",
+     "text": "And that's why *Kaliningrad* matters so much right now.",
+     "shot": "map:gate",
+     "type": "INSERT",
+     "date": 2026
+    },
+    {
+     "id": "s09i04",
+     "text": "It's a piece of Russia *cut* off from Russia,",
+     "shot": "map:gate",
+     "type": "INSERT"
+    },
+    {
+     "id": "s09i05",
+     "text": "wedged between two *NATO* countries, Poland and Lithuania.",
+     "shot": "map:gate",
+     "type": "INSERT"
+    },
+    {
+     "id": "s09i06",
+     "text": "To Moscow, it's a *gate* the West could close.",
+     "shot": "map:gate",
+     "type": "INSERT"
+    },
+    {
+     "id": "s09i07",
+     "text": "To its neighbours, it's a *fortress* full of missiles on their doorstep.",
+     "shot": "map:gate",
+     "type": "INSERT"
+    },
+    {
+     "id": "s09b31",
+     "type": "HOST",
+     "text": "But the real danger was happening somewhere no one could *shoot* at.",
+     "shot": "c8_oldfear",
+     "quiet": true
+    }
+   ]
+  }
+ ]
+}

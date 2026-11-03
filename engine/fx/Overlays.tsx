@@ -23,17 +23,21 @@ export const DateTag: React.FC<{ from: number | null; to: number | null }> = ({ 
 export type Word = { w: string; em: boolean; at: number };
 
 /** Word-by-word narration. variant: host (black, beside the host) or caption (white outline, lower third). */
-export const Narration: React.FC<{ words: Word[]; variant: 'host' | 'caption' | 'title'; side?: 'left' | 'right'; dark?: boolean; top?: number }> = ({ words, variant, side = 'left', dark, top }) => {
+/** Caption typefaces: 'hand' (default, Nothing You Could Do) or 'serif' (Liberation Serif, metric-compatible with Times New Roman). Set `captionFont` in project.json. */
+export const captionFace = (font?: string) => (font === 'serif' ? 'Serif' : 'Hand');
+const ring = (w: number, c: string) => [...Array(16)].map((_, i) => `${(Math.cos((i / 16) * Math.PI * 2) * w).toFixed(1)}px ${(Math.sin((i / 16) * Math.PI * 2) * w).toFixed(1)}px 0 ${c}`).join(',');
+export const Narration: React.FC<{ words: Word[]; variant: 'host' | 'caption' | 'title'; side?: 'left' | 'right'; dark?: boolean; top?: number; font?: string }> = ({ words, variant, side = 'left', dark, top, font }) => {
   const f = useCurrentFrame();
   const isHost = variant === 'host';
+  const serif = font === 'serif';
   const base: React.CSSProperties = isHost
-    ? { position: 'absolute', top: top ?? 300, [side]: 110, width: 800, textAlign: side === 'left' ? 'left' : 'left', fontSize: 74, lineHeight: 1.18, color: dark ? '#F4F4F4' : '#141414' }
-    : { position: 'absolute', bottom: 54, left: 150, right: 150, textAlign: 'center', fontSize: 70, lineHeight: 1.12, color: '#FFFFFF' };
+    ? { position: 'absolute', top: top ?? 300, [side]: 110, width: 800, textAlign: side === 'left' ? 'left' : 'left', fontSize: serif ? 66 : 74, lineHeight: serif ? 1.22 : 1.18, color: dark ? '#F4F4F4' : '#141414' }
+    : { position: 'absolute', bottom: 54, left: 150, right: 150, textAlign: 'center', fontSize: serif ? 58 : 70, lineHeight: serif ? 1.2 : 1.12, color: '#FFFFFF' };
   const emColor = isHost && !dark ? '#B3261E' : '#FFD84A';
   return (
     <>
       {!isHost && <div style={{ position: 'absolute', left: 0, right: 0, bottom: 0, height: 260, background: 'linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.42))' }} />}
-      <div style={{ ...base, fontFamily: 'Hand', fontWeight: 400 }}>
+      <div style={{ ...base, fontFamily: captionFace(font), fontWeight: 400 }}>
         {words.map((w, i) => {
           const t = f - w.at;
           if (t < 0) return <span key={i} style={{ opacity: 0 }}>{w.w} </span>;
@@ -45,7 +49,8 @@ export const Narration: React.FC<{ words: Word[]; variant: 'host' | 'caption' | 
             opacity: op,
             marginRight: '0.34em',
             color: w.em ? emColor : undefined,
-            WebkitTextStroke: isHost ? `2.2px ${w.em ? emColor : dark ? '#F4F4F4' : '#141414'}` : '10px #000',
+            WebkitTextStroke: serif ? (isHost ? `0.6px ${w.em ? emColor : dark ? '#F4F4F4' : '#141414'}` : undefined) : isHost ? `2.2px ${w.em ? emColor : dark ? '#F4F4F4' : '#141414'}` : '10px #000',
+            textShadow: serif && !isHost ? ring(3.5, '#000') + ', 0 4px 8px rgba(0,0,0,0.55)' : undefined,
             paintOrder: 'stroke fill',
             fontWeight: 400,
           };
@@ -108,7 +113,7 @@ export const Label: React.FC<{ text: string; x: number; y: number; at: number; c
 };
 
 /** Speech bubble for SKETCH dialogue: white rounded box with a tail pointing at the speaker; words reveal one by one. */
-export const Bubble: React.FC<{ words: Word[]; x: number; y: number; w?: number; tailX: number; tailY: number }> = ({ words, x, y, w = 760, tailX, tailY }) => {
+export const Bubble: React.FC<{ words: Word[]; x: number; y: number; w?: number; tailX: number; tailY: number; font?: string }> = ({ words, x, y, w = 760, tailX, tailY, font }) => {
   const f = useCurrentFrame();
   const s = popScale(f, 0);
   return (
@@ -116,11 +121,11 @@ export const Bubble: React.FC<{ words: Word[]; x: number; y: number; w?: number;
       <svg style={{ position: 'absolute', left: 0, top: 0, overflow: 'visible' }} width={w} height={10}>
         <path d={`M${w / 2 - 40 + (tailX - x - w / 2) * 0.3} 60 L${tailX - x} ${tailY - y} L${w / 2 + 40 + (tailX - x - w / 2) * 0.3} 60 Z`} fill="#fff" stroke="#141414" strokeWidth={5} strokeLinejoin="round" />
       </svg>
-      <div style={{ position: 'relative', background: '#fff', border: '5px solid #141414', borderRadius: 46, padding: '22px 36px 26px', fontFamily: 'Hand', fontSize: 62, lineHeight: 1.12, color: '#141414', boxShadow: '6px 8px 0 rgba(0,0,0,0.25)' }}>
+      <div style={{ position: 'relative', background: '#fff', border: '5px solid #141414', borderRadius: 46, padding: '22px 36px 26px', fontFamily: captionFace(font), fontSize: font === 'serif' ? 54 : 62, lineHeight: 1.12, color: '#141414', boxShadow: '6px 8px 0 rgba(0,0,0,0.25)' }}>
         {words.map((wd, i) => {
           const t = f - wd.at;
           const op = interpolate(t, [0, 4], [0, 1]);
-          return <span key={i} style={{ display: 'inline-block', opacity: op, transform: `scale(${t < 0 ? 0.8 : interpolate(t, [0, 4], [0.8, 1])})`, marginRight: '0.3em', WebkitTextStroke: '2px #141414' }}>{wd.w}</span>;
+          return <span key={i} style={{ display: 'inline-block', opacity: op, transform: `scale(${t < 0 ? 0.8 : interpolate(t, [0, 4], [0.8, 1])})`, marginRight: '0.3em', WebkitTextStroke: font === 'serif' ? '0.5px #141414' : '2px #141414' }}>{wd.w}</span>;
         })}
       </div>
     </div>

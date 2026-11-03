@@ -1,0 +1,59 @@
+{
+ "style": "documentary-dark",
+ "labels": "none",
+ "start": {
+  "lon": 24,
+  "lat": 52,
+  "zoom": 3.4
+ },
+ "moves": [
+  {
+   "at": "w:Kaliningrad-0.3",
+   "dur": 2.4,
+   "to": {
+    "lon": 21.2,
+    "lat": 54.5,
+    "zoom": 11
+   }
+  }
+ ],
+ "items": [
+  {
+   "region": "russia",
+   "at": 0.6,
+   "color": "#8a4a40"
+  },
+  {
+   "pin": "Kaliningrad",
+   "ll": [
+    20.51,
+    54.71
+   ],
+   "style": "target",
+   "color": "#ff4d4d",
+   "at": "w:Kaliningrad",
+   "label": 26,
+   "labelSide": "left"
+  },
+  {
+   "region": "pol",
+   "at": "w:NATO",
+   "color": "#4a7ab8"
+  },
+  {
+   "region": "ltu",
+   "at": "w:NATO+0.15",
+   "color": "#4a7ab8"
+  },
+  {
+   "effect": "impact-pulse",
+   "ll": [
+    20.51,
+    54.71
+   ],
+   "at": "w:nuclear",
+   "size": 90,
+   "color": "#ff4d4d"
+  }
+ ]
+}

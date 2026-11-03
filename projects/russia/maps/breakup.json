@@ -1,0 +1,106 @@
+{
+ "style": "documentary-dark",
+ "labels": "none",
+ "start": {
+  "lon": 70,
+  "lat": 52,
+  "zoom": 1.9
+ },
+ "items": [
+  {
+   "region": "russia",
+   "at": 0,
+   "color": "#e8533e"
+  },
+  {
+   "region": "ukr",
+   "at": "w:countries+0.00",
+   "color": "#c9a24a"
+  },
+  {
+   "region": "blr",
+   "at": "w:countries+0.12",
+   "color": "#9fd18b"
+  },
+  {
+   "region": "est",
+   "at": "w:countries+0.24",
+   "color": "#7FB2E5"
+  },
+  {
+   "region": "lva",
+   "at": "w:countries+0.36",
+   "color": "#c96a5a"
+  },
+  {
+   "region": "ltu",
+   "at": "w:countries+0.48",
+   "color": "#9fd18b"
+  },
+  {
+   "region": "mda",
+   "at": "w:countries+0.60",
+   "color": "#c9a24a"
+  },
+  {
+   "region": "geo",
+   "at": "w:countries+0.72",
+   "color": "#7FB2E5"
+  },
+  {
+   "region": "arm",
+   "at": "w:countries+0.84",
+   "color": "#c96a5a"
+  },
+  {
+   "region": "aze",
+   "at": "w:countries+0.96",
+   "color": "#9fd18b"
+  },
+  {
+   "region": "kaz",
+   "at": "w:countries+1.08",
+   "color": "#7FB2E5"
+  },
+  {
+   "region": "uzb",
+   "at": "w:countries+1.20",
+   "color": "#c9a24a"
+  },
+  {
+   "region": "tkm",
+   "at": "w:countries+1.32",
+   "color": "#c96a5a"
+  },
+  {
+   "region": "kgz",
+   "at": "w:countries+1.44",
+   "color": "#9fd18b"
+  },
+  {
+   "region": "tjk",
+   "at": "w:countries+1.56",
+   "color": "#7FB2E5"
+  },
+  {
+   "text": "15 countries",
+   "ll": [
+    70,
+    40
+   ],
+   "at": "w:countries",
+   "size": 30,
+   "color": "#FFD84A"
+  },
+  {
+   "text": "RUSSIA",
+   "ll": [
+    95,
+    62
+   ],
+   "at": "w:largest",
+   "size": 40,
+   "color": "#F4ECD8"
+  }
+ ]
+}

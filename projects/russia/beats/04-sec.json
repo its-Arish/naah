@@ -1,0 +1,424 @@
+{
+ "title": "Chapter 4: The Empire That Won and Fell Behind",
+ "sections": [
+  {
+   "title": "Chapter 4: The Empire That Won and Fell Behind",
+   "beats": [
+    {
+     "id": "s05b01",
+     "type": "HOST",
+     "text": "In 1762, a *German-born* princess seized the throne from her husband.",
+     "shot": "c4_coup",
+     "date": 1762,
+     "sfx": [
+      [
+       "pop",
+       "w:throne",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s05b02",
+     "type": "STORY",
+     "text": "She became Catherine the *Great*.",
+     "shot": "c4_catherine",
+     "sfx": [
+      [
+       "drum",
+       "w:Catherine",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s05b03",
+     "type": "INSERT",
+     "text": "Under her, Russia pushed *west* and south.",
+     "shot": "map:catherine",
+     "date": 1772
+    },
+    {
+     "id": "s05b04",
+     "type": "INSERT",
+     "text": "It joined Prussia and Austria in carving up *Poland*.",
+     "shot": "map:catherine",
+     "sfx": [
+      [
+       "scribble",
+       "w:carving",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s05b05",
+     "type": "INSERT",
+     "text": "In 1783, it annexed *Crimea*, giving it a hold on the Black Sea.",
+     "shot": "map:catherine",
+     "sfx": [
+      [
+       "pop",
+       "w:Crimea",
+       0.5
+      ]
+     ],
+     "date": 1783
+    },
+    {
+     "id": "s05b06",
+     "type": "INSERT",
+     "text": "Russian settlers had also crossed the Pacific into *Alaska*.",
+     "shot": "map:alaska",
+     "date": 1799,
+     "sfx": [
+      [
+       "pop",
+       "w:Alaska",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s05b07",
+     "type": "INSERT",
+     "text": "But it was too far and too *expensive* to defend.",
+     "shot": "map:alaska"
+    },
+    {
+     "id": "s05b08",
+     "type": "STORY",
+     "text": "So in 1867, Russia sold it to the United States for *$7.2* million.",
+     "shot": "c4_sale",
+     "date": 1867,
+     "sfx": [
+      [
+       "kaching",
+       "w:million",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s05b09",
+     "type": "STORY",
+     "text": "Roughly *two* cents an acre.",
+     "shot": "c4_sale",
+     "sfx": [
+      [
+       "boing",
+       "w:acre",
+       0.5
+      ]
+     ],
+     "gag": true
+    },
+    {
+     "id": "s05i01",
+     "text": "Now watch *closely*.",
+     "shot": "in_spot",
+     "type": "STORY",
+     "sfx": [
+      [
+       "whoosh",
+       0,
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s05i02",
+     "text": "Europe's greatest general is about to make a *mistake*…",
+     "shot": "in_spot",
+     "type": "STORY"
+    },
+    {
+     "id": "s05i03",
+     "text": "and someone else will make the *exact* same mistake a hundred and twenty-nine years later.",
+     "shot": "in_spot",
+     "type": "STORY",
+     "sfx": [
+      [
+       "ticks",
+       "w:hundred",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s05i04",
+     "text": "See if you can *spot* it.",
+     "shot": "in_spot",
+     "type": "STORY",
+     "sfx": [
+      [
+       "ding",
+       "w:spot",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s05b10",
+     "type": "STORY",
+     "text": "Then, in June 1812, *Napoleon* invaded with one of the largest armies Europe had ever seen.",
+     "shot": "c4_napoleon",
+     "date": 1812,
+     "sfx": [
+      [
+       "drum",
+       "w:invaded",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s05b11",
+     "type": "STORY",
+     "text": "He wanted one *decisive* battle.",
+     "shot": "c4_napoleon",
+     "sfx": [
+      [
+       "ding",
+       "w:battle",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s05b12",
+     "type": "STORY",
+     "text": "Russia *refused* to give him one.",
+     "shot": "c4_napoleon",
+     "sfx": [
+      [
+       "boing",
+       "w:refused",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s05b13",
+     "type": "STORY",
+     "text": "Instead, its armies retreated, *burning* crops and supplies as they went.",
+     "shot": "c4_scorched",
+     "amb": "wind"
+    },
+    {
+     "id": "s05b14",
+     "type": "INSERT",
+     "text": "Napoleon marched *deeper* into a land that offered him nothing.",
+     "shot": "map:napoleon"
+    },
+    {
+     "id": "s05b15",
+     "type": "STORY",
+     "text": "He reached Moscow in September to find it nearly *empty*.",
+     "shot": "c4_moscow1812",
+     "amb": "wind"
+    },
+    {
+     "id": "s05b16",
+     "type": "STORY",
+     "text": "Then *burning*.",
+     "shot": "c4_moscow1812",
+     "sfx": [
+      [
+       "rumble",
+       "w:burning",
+       0.4
+      ]
+     ],
+     "amb": "wind"
+    },
+    {
+     "id": "s05b17",
+     "type": "STORY",
+     "text": "He waited for a surrender that *never* came, and eventually turned back.",
+     "shot": "c4_waiting",
+     "sfx": [
+      [
+       "ticks",
+       "w:waited",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s05b18",
+     "type": "STORY",
+     "text": "The winter hurt, but it wasn't the *main* killer.",
+     "shot": "c4_retreat",
+     "quiet": true,
+     "amb": "wind"
+    },
+    {
+     "id": "s05b19",
+     "type": "INSERT",
+     "text": "Distance, hunger, disease, and Russian attacks had already *shredded* his army.",
+     "shot": "c4_causes",
+     "quiet": true,
+     "amb": "wind"
+    },
+    {
+     "id": "s05b20",
+     "type": "INSERT",
+     "text": "Only a small *fraction* of it made it home.",
+     "shot": "c4_causes",
+     "quiet": true,
+     "amb": "wind"
+    },
+    {
+     "id": "s05b21",
+     "type": "STORY",
+     "text": "Two years later, Russian troops marched into *Paris*.",
+     "shot": "c4_paris",
+     "date": 1814,
+     "sfx": [
+      [
+       "drum",
+       "w:marched",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s05b22",
+     "type": "HOST",
+     "text": "But here's the *cruel* twist.",
+     "shot": "c4_twist"
+    },
+    {
+     "id": "s05b23",
+     "type": "STORY",
+     "text": "While Russia was winning wars, the rest of Europe was building *factories* and railways.",
+     "shot": "c4_split",
+     "date": 1840,
+     "sfx": [
+      [
+       "whoosh",
+       "w:railways",
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s05b24",
+     "type": "STORY",
+     "text": "Russia still relied on millions of *serfs*.",
+     "shot": "c4_split"
+    },
+    {
+     "id": "s05b25",
+     "type": "STORY",
+     "text": "Its *defeat* in the Crimean War in the 1850s exposed how far behind it had slipped.",
+     "shot": "c4_crimea",
+     "date": 1855,
+     "sfx": [
+      [
+       "thud",
+       "w:defeat",
+       0.4
+      ]
+     ],
+     "amb": "waves"
+    },
+    {
+     "id": "s05b26",
+     "type": "STORY",
+     "text": "In 1861, Tsar Alexander II *freed* about 23 million serfs.",
+     "shot": "c4_emancipation",
+     "date": 1861,
+     "sfx": [
+      [
+       "clang",
+       "w:freed",
+       0.45
+      ]
+     ]
+    },
+    {
+     "id": "s05b27",
+     "type": "STORY",
+     "text": "But freedom *didn't* mean prosperity.",
+     "shot": "c4_debt"
+    },
+    {
+     "id": "s05b28",
+     "type": "STORY",
+     "text": "Many freed peasants ended up in *debt* and poverty.",
+     "shot": "c4_debt",
+     "sfx": [
+      [
+       "paper",
+       "w:debt",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s05b29",
+     "type": "STORY",
+     "text": "And in 1881, revolutionaries *assassinated* the Tsar with a bomb.",
+     "shot": "c4_1881",
+     "date": 1881,
+     "quiet": true
+    },
+    {
+     "id": "s05b30",
+     "type": "STORY",
+     "text": "Still, the empire *pushed* on.",
+     "shot": "c4_train",
+     "sfx": [
+      [
+       "whoosh",
+       0,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s05b31",
+     "type": "INSERT",
+     "text": "In 1891, it began the *Trans-Siberian* Railway.",
+     "shot": "map:railway",
+     "date": 1891
+    },
+    {
+     "id": "s05b32",
+     "type": "INSERT",
+     "text": "Over *9,000* kilometres of track, from Moscow to the Pacific.",
+     "shot": "map:railway",
+     "sfx": [
+      [
+       "ding",
+       "w:Pacific",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s05b33",
+     "type": "INSERT",
+     "text": "A *steel* thread stitched across the country Russia had conquered.",
+     "shot": "map:railway",
+     "date": 1916
+    },
+    {
+     "id": "s05b34",
+     "type": "STORY",
+     "text": "But the railway *couldn't* save the Romanovs.",
+     "shot": "c4_romanovs",
+     "sfx": [
+      [
+       "thud",
+       "w:Romanovs",
+       0.4
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

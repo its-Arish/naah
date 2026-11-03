@@ -1,0 +1,67 @@
+{
+ "style": "documentary-dark",
+ "labels": "none",
+ "start": {
+  "lon": 150,
+  "lat": 62,
+  "zoom": 1.9
+ },
+ "moves": [
+  {
+   "at": 0.2,
+   "dur": 2.8,
+   "to": {
+    "lon": -165,
+    "lat": 62,
+    "zoom": 2.4
+   }
+  }
+ ],
+ "items": [
+  {
+   "region": "russia",
+   "at": 0,
+   "color": "#8a4a40"
+  },
+  {
+   "arrow": [
+    [
+     160,
+     58
+    ],
+    [
+     190,
+     60
+    ],
+    [
+     -153,
+     59
+    ]
+   ],
+   "at": 0.4,
+   "every": 0.5
+  },
+  {
+   "pin": "Russian America (Alaska)",
+   "ll": [
+    -150,
+    64
+   ],
+   "style": "location",
+   "color": "#FFD84A",
+   "at": "w:Alaska",
+   "label": 22,
+   "labelSide": "top"
+  },
+  {
+   "text": "7,000 km from Moscow… and further",
+   "ll": [
+    -175,
+    55
+   ],
+   "at": "w:expensive",
+   "size": 22,
+   "color": "#F4ECD8"
+  }
+ ]
+}

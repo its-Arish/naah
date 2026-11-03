@@ -1,0 +1,71 @@
+{
+ "style": "documentary-dark",
+ "labels": "none",
+ "start": {
+  "lon": 50,
+  "lat": 48,
+  "zoom": 3.6
+ },
+ "items": [
+  {
+   "region": "ukr",
+   "at": "w:Ukraine",
+   "color": "#c9a24a"
+  },
+  {
+   "region": "kaz",
+   "at": "w:Kazakhstan",
+   "color": "#c9a24a"
+  },
+  {
+   "effect": "influence-zone",
+   "ll": [
+    42,
+    47
+   ],
+   "at": "w:southern",
+   "size": 150,
+   "color": "#c9a24a"
+  },
+  {
+   "text": "Ukraine",
+   "ll": [
+    31,
+    49
+   ],
+   "at": "w:Ukraine",
+   "size": 22,
+   "color": "#F4ECD8"
+  },
+  {
+   "text": "Kazakhstan",
+   "ll": [
+    67,
+    48
+   ],
+   "at": "w:Kazakhstan",
+   "size": 22,
+   "color": "#F4ECD8"
+  },
+  {
+   "text": "southern Russia",
+   "ll": [
+    43,
+    47.5
+   ],
+   "at": "w:southern",
+   "size": 20,
+   "color": "#F4ECD8"
+  },
+  {
+   "text": "1932–1933",
+   "ll": [
+    50,
+    56
+   ],
+   "at": 0.4,
+   "size": 28,
+   "color": "#F4ECD8"
+  }
+ ]
+}

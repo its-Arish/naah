@@ -1,0 +1,95 @@
+{
+ "style": "documentary-dark",
+ "labels": "none",
+ "start": {
+  "lon": 55,
+  "lat": 57,
+  "zoom": 3.3
+ },
+ "moves": [
+  {
+   "at": "w:east",
+   "dur": 2.5,
+   "to": {
+    "lon": 75,
+    "lat": 58,
+    "zoom": 2.4
+   }
+  }
+ ],
+ "items": [
+  {
+   "pin": "Moscow",
+   "ll": [
+    37.62,
+    55.75
+   ],
+   "style": "star",
+   "color": "#FFD84A",
+   "at": 0,
+   "label": 20,
+   "labelSide": "left"
+  },
+  {
+   "arrow": [
+    [
+     40,
+     55.5
+    ],
+    [
+     49,
+     55.8
+    ]
+   ],
+   "at": "w:Kazan",
+   "every": 0.3
+  },
+  {
+   "pin": "Kazan 1552",
+   "ll": [
+    49.1,
+    55.8
+   ],
+   "style": "dot",
+   "color": "#FFD84A",
+   "at": "w:Kazan",
+   "label": 20,
+   "labelSide": "bottom"
+  },
+  {
+   "text": "URAL MOUNTAINS",
+   "ll": [
+    59.5,
+    61
+   ],
+   "at": "w:Ural",
+   "size": 22,
+   "color": "#F4ECD8"
+  },
+  {
+   "arrow": [
+    [
+     56,
+     57.5
+    ],
+    [
+     66,
+     58.2
+    ]
+   ],
+   "at": "w:Ural",
+   "every": 0.3
+  },
+  {
+   "pin": "Siberia · Yermak 1582",
+   "ll": [
+    68.3,
+    58.2
+   ],
+   "style": "location",
+   "color": "#e8533e",
+   "at": "w:Siberia",
+   "label": 20
+  }
+ ]
+}

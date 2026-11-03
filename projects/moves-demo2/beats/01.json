@@ -1,0 +1,254 @@
+{
+ "title": "Narrator Moves Demo 2",
+ "sections": [
+  {
+   "title": "Laser Pointer",
+   "card": false,
+   "beats": [
+    {
+     "id": "l1",
+     "shot": "mv_laser",
+     "type": "HOST",
+     "text": "Three things shaped Russia: *land*, *rivers*, and *winter*.",
+     "hold": 5.2,
+     "quiet": true
+    }
+   ]
+  },
+  {
+   "title": "Baton Twirl",
+   "card": false,
+   "beats": [
+    {
+     "id": "t1",
+     "shot": "mv_twirl",
+     "type": "HOST",
+     "text": "Now for a *lighter* story.",
+     "hold": 3.4,
+     "quiet": true,
+     "sfx": [
+      [
+       "swish",
+       2,
+       0.4
+      ],
+      [
+       "swish",
+       14,
+       0.4
+      ],
+      [
+       "whoosh",
+       40,
+       0.4
+      ],
+      [
+       "pop",
+       64,
+       0.5
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Cane Lean",
+   "card": false,
+   "beats": [
+    {
+     "id": "w1",
+     "shot": "mv_cane",
+     "type": "HOST",
+     "text": "Long ago, on the edge of the steppe, there lived a *prince*.",
+     "hold": 5.6,
+     "quiet": true
+    }
+   ]
+  },
+  {
+   "title": "Lever",
+   "card": false,
+   "beats": [
+    {
+     "id": "v1",
+     "shot": "mv_lever",
+     "type": "HOST",
+     "text": "Ending serfdom was *hard*.",
+     "hold": 6.6,
+     "quiet": true,
+     "sfx": [
+      [
+       "creak",
+       12,
+       0.7
+      ],
+      [
+       "thud",
+       46,
+       0.5
+      ],
+      [
+       "creak",
+       56,
+       0.7
+      ],
+      [
+       "ding",
+       88,
+       0.5
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Fishing Rod",
+   "card": false,
+   "beats": [
+    {
+     "id": "f1",
+     "shot": "mv_fish",
+     "type": "HOST",
+     "text": "Point *one*. Point *two*. Point *three*.",
+     "hold": 6.4,
+     "quiet": true,
+     "sfx": [
+      [
+       "swish",
+       "w:one",
+       0.4
+      ],
+      [
+       "ticks",
+       "w:one",
+       0.35
+      ],
+      [
+       "swish",
+       "w:two",
+       0.4
+      ],
+      [
+       "ticks",
+       "w:two",
+       0.35
+      ],
+      [
+       "swish",
+       "w:three",
+       0.4
+      ],
+      [
+       "ticks",
+       "w:three",
+       0.35
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Helicopter",
+   "card": false,
+   "beats": [
+    {
+     "id": "h1",
+     "shot": "mv_heli",
+     "type": "HOST",
+     "text": "Let's take a look from *above*.",
+     "hold": 6,
+     "quiet": true,
+     "sfx": [
+      [
+       "machine",
+       10,
+       0.5
+      ],
+      [
+       "whoosh",
+       40,
+       0.5
+      ],
+      [
+       "whoosh",
+       120,
+       0.5
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Sword Wipe",
+   "card": false,
+   "beats": [
+    {
+     "id": "s1",
+     "shot": "mv_sweep",
+     "type": "HOST",
+     "text": "Too much clutter? Let's *clear* it.",
+     "hold": 5.2,
+     "quiet": true,
+     "sfx": [
+      [
+       "swish",
+       "w:clear",
+       0.9
+      ],
+      [
+       "pops",
+       "w:it",
+       0.5
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Pole-Vault Exit",
+   "card": false,
+   "beats": [
+    {
+     "id": "e1",
+     "shot": "mv_exit",
+     "type": "HOST",
+     "text": "And that's the story of the *Tsars*.",
+     "hold": 4.6,
+     "quiet": true,
+     "sfx": [
+      [
+       "whoosh",
+       70,
+       0.6
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Chapter 3: A Fresh Stage",
+   "beats": [
+    {
+     "id": "e2",
+     "shot": "mv_back",
+     "type": "HOST",
+     "text": "And we're *back*.",
+     "hold": 2.6,
+     "quiet": true,
+     "sfx": [
+      [
+       "whoosh",
+       0,
+       0.5
+      ],
+      [
+       "thud",
+       34,
+       0.5
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

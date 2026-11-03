@@ -1,0 +1,546 @@
+{
+ "title": "Chapter 2: The Moneybag and the Tsars",
+ "sections": [
+  {
+   "title": "Chapter 2: The Moneybag and the Tsars",
+   "beats": [
+    {
+     "id": "s03b01",
+     "type": "HOST",
+     "text": "Moscow first shows up in the records in *1147*.",
+     "shot": "c2_1147",
+     "date": 1147,
+     "sfx": [
+      [
+       "paper",
+       "w:records",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s03b02",
+     "type": "STORY",
+     "text": "For a long time it was *nothing* special.",
+     "shot": "c2_woodtown",
+     "amb": "birds"
+    },
+    {
+     "id": "s03b03",
+     "type": "STORY",
+     "text": "A *wooden* town in the forest.",
+     "shot": "c2_woodtown",
+     "amb": "birds"
+    },
+    {
+     "id": "s03b04",
+     "type": "HOST",
+     "text": "But its princes were *clever*.",
+     "shot": "c2_clever",
+     "sfx": [
+      [
+       "ding",
+       "w:clever",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s03b05",
+     "type": "STORY",
+     "text": "One of them, Ivan I, won the Mongols' *trust* by collecting tribute for them from other Russian lands.",
+     "shot": "c2_kalita",
+     "date": 1325,
+     "sfx": [
+      [
+       "coins",
+       "w:tribute",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s03b07",
+     "type": "STORY",
+     "text": "And he pocketed a *share*.",
+     "shot": "c2_kalita",
+     "sfx": [
+      [
+       "kaching",
+       "w:share",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s03b08",
+     "type": "STORY",
+     "text": "Russians nicknamed him Ivan *Kalita*.",
+     "shot": "c2_moneybag",
+     "sfx": [
+      [
+       "pop",
+       "w:Kalita",
+       0.5
+      ]
+     ],
+     "gag": false
+    },
+    {
+     "id": "s03b09",
+     "type": "STORY",
+     "text": "Ivan the *Moneybag*.",
+     "shot": "c2_moneybag",
+     "sfx": [
+      [
+       "coins",
+       "w:Moneybag",
+       0.5
+      ]
+     ],
+     "gag": true
+    },
+    {
+     "id": "s03b10",
+     "type": "INSERT",
+     "text": "He used the money to buy *land*, build influence,",
+     "shot": "c2_influence",
+     "sfx": [
+      [
+       "pop",
+       "w:land",
+       0.4
+      ],
+      [
+       "pop",
+       "w:influence",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s03b11",
+     "type": "INSERT",
+     "text": "and bring the head of the Orthodox *Church* to Moscow.",
+     "shot": "c2_influence",
+     "sfx": [
+      [
+       "ding",
+       "w:Church",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s03b12",
+     "type": "HOST",
+     "text": "Moscow didn't rise by *defying* the Mongols.",
+     "shot": "c2_working",
+     "sfx": [
+      [
+       "clang",
+       "w:defying",
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s03b13",
+     "type": "HOST",
+     "text": "It rose by *working* for them.",
+     "shot": "c2_working",
+     "sfx": [
+      [
+       "coins",
+       "w:working",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s03b14",
+     "type": "STORY",
+     "text": "Then, in 1480, a later ruler, Ivan III, simply *stopped* paying.",
+     "shot": "c2_stoppay",
+     "date": 1480,
+     "sfx": [
+      [
+       "slam",
+       "w:stopped",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s03b15",
+     "type": "STORY",
+     "text": "The two armies faced each other across the *Ugra* River for weeks.",
+     "shot": "c2_ugra",
+     "amb": "wind"
+    },
+    {
+     "id": "s03b16",
+     "type": "STORY",
+     "text": "*Neither* attacked.",
+     "shot": "c2_ugra",
+     "amb": "wind"
+    },
+    {
+     "id": "s03b17",
+     "type": "STORY",
+     "text": "Eventually, the Mongols *withdrew*.",
+     "shot": "c2_ugra",
+     "sfx": [
+      [
+       "gallop",
+       "w:withdrew",
+       0.3
+      ]
+     ],
+     "amb": "wind"
+    },
+    {
+     "id": "s03b18",
+     "type": "STORY",
+     "text": "Over two centuries of rule ended *without* a decisive battle.",
+     "shot": "c2_ugra",
+     "amb": "wind"
+    },
+    {
+     "id": "s03b19",
+     "type": "INSERT",
+     "text": "Ivan III absorbed rival cities and took the *double-headed* eagle as his symbol.",
+     "shot": "c2_eagle",
+     "sfx": [
+      [
+       "pop",
+       "w:eagle",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s03b20",
+     "type": "INSERT",
+     "text": "After Constantinople *fell* to the Ottomans in 1453,",
+     "shot": "c2_thirdrome",
+     "date": 1453,
+     "sfx": [
+      [
+       "thud",
+       "w:fell",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s03b21",
+     "type": "INSERT",
+     "text": "he began presenting *Moscow* as the new centre of Orthodox Christianity.",
+     "shot": "c2_thirdrome",
+     "sfx": [
+      [
+       "pop",
+       "w:Moscow",
+       0.4
+      ]
+     ],
+     "date": 1500
+    },
+    {
+     "id": "s03b22",
+     "type": "INSERT",
+     "text": "Some Russian thinkers called it the *Third* Rome.",
+     "shot": "c2_thirdrome",
+     "sfx": [
+      [
+       "ding",
+       "w:Rome",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s03b23",
+     "type": "STORY",
+     "text": "His grandson, Ivan IV, was crowned in 1547 as the first *Tsar* of all Russia.",
+     "shot": "c2_crowned",
+     "date": 1547,
+     "sfx": [
+      [
+       "drum",
+       "w:crowned",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s03b24",
+     "type": "STORY",
+     "text": "The title came from *Caesar*.",
+     "shot": "c2_crowned",
+     "sfx": [
+      [
+       "pop",
+       "w:Caesar",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s03b25",
+     "type": "HOST",
+     "text": "History remembers him as Ivan the *Terrible*.",
+     "shot": "c2_terrible",
+     "sfx": [
+      [
+       "thud",
+       "w:Terrible",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s03b26",
+     "type": "HOST",
+     "text": "A better translation of the Russian word is *fearsome*.",
+     "shot": "c2_terrible",
+     "sfx": [
+      [
+       "pop",
+       "w:fearsome",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s03b27",
+     "type": "HOST",
+     "text": "And he earned *both*.",
+     "shot": "c2_terrible"
+    },
+    {
+     "id": "s03b28",
+     "type": "STORY",
+     "text": "He *crushed* his nobles.",
+     "shot": "c2_terror",
+     "date": 1565,
+     "quiet": true
+    },
+    {
+     "id": "s03b29",
+     "type": "STORY",
+     "text": "He launched waves of *terror* against his own people.",
+     "shot": "c2_terror",
+     "quiet": true
+    },
+    {
+     "id": "s03b30",
+     "type": "STORY",
+     "text": "And by tradition, he killed his own *son* in a rage.",
+     "shot": "c2_terror",
+     "quiet": true,
+     "date": 1581
+    },
+    {
+     "id": "s03b31",
+     "type": "HOST",
+     "text": "But Ivan also understood something about a country without *walls*.",
+     "shot": "c2_distance"
+    },
+    {
+     "id": "s03b32",
+     "type": "HOST",
+     "text": "If you can't build a barrier, you can build *distance*.",
+     "shot": "c2_distance",
+     "sfx": [
+      [
+       "whoosh",
+       "w:distance",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s03b33",
+     "type": "INSERT",
+     "text": "So Russia went *east*.",
+     "shot": "map:east",
+     "date": 1552,
+     "sfx": [
+      [
+       "whoosh",
+       "w:east",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s03b34",
+     "type": "INSERT",
+     "text": "In 1552, it took *Kazan*.",
+     "shot": "map:east",
+     "sfx": [
+      [
+       "pop",
+       "w:Kazan",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s03b35",
+     "type": "INSERT",
+     "text": "In 1582, a Cossack leader named Yermak crossed the *Ural* Mountains into Siberia.",
+     "shot": "map:east",
+     "sfx": [
+      [
+       "pop",
+       "w:Siberia",
+       0.5
+      ]
+     ],
+     "date": 1582
+    },
+    {
+     "id": "s03b36",
+     "type": "STORY",
+     "text": "A land of forests, rivers, and one very *valuable* animal.",
+     "shot": "c2_sable",
+     "amb": "wind"
+    },
+    {
+     "id": "s03b37",
+     "type": "STORY",
+     "text": "The *sable*.",
+     "shot": "c2_sable",
+     "sfx": [
+      [
+       "pop",
+       "w:sable",
+       0.5
+      ]
+     ],
+     "amb": "wind"
+    },
+    {
+     "id": "s03b38",
+     "type": "STORY",
+     "text": "Its fur was so prized that people called it *soft* gold.",
+     "shot": "c2_sable",
+     "sfx": [
+      [
+       "coins",
+       "w:gold",
+       0.4
+      ]
+     ],
+     "amb": "wind"
+    },
+    {
+     "id": "s03b39",
+     "type": "STORY",
+     "text": "Traders and soldiers *pushed* on.",
+     "shot": "c2_ostrog",
+     "amb": "wind"
+    },
+    {
+     "id": "s03b40",
+     "type": "STORY",
+     "text": "They built *forts*, demanded tribute, and moved again.",
+     "shot": "c2_ostrog",
+     "sfx": [
+      [
+       "thud",
+       "w:forts",
+       0.4
+      ],
+      [
+       "coins",
+       "w:tribute",
+       0.3
+      ]
+     ],
+     "amb": "wind"
+    },
+    {
+     "id": "s03b41",
+     "type": "INSERT",
+     "text": "By 1639, Russians had reached the *Pacific*.",
+     "shot": "map:pacific",
+     "date": 1639,
+     "sfx": [
+      [
+       "ding",
+       "w:Pacific",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s03b42",
+     "type": "INSERT",
+     "text": "In about 60 years, Russia had crossed a *continent*.",
+     "shot": "map:pacific"
+    },
+    {
+     "id": "s03b43",
+     "type": "HOST",
+     "text": "But there was a *catch*.",
+     "shot": "c2_catch",
+     "sfx": [
+      [
+       "boing",
+       "w:catch",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s03b44",
+     "type": "HOST",
+     "text": "It was gaining *land* far faster than it was gaining people.",
+     "shot": "c2_catch"
+    },
+    {
+     "id": "s03b45",
+     "type": "HOST",
+     "text": "And soon, its rulers would decide how to *fix* that.",
+     "shot": "c2_catch"
+    },
+    {
+     "id": "s03i01",
+     "text": "Keep *one* thing in mind for the rest of this video.",
+     "shot": "in_bill",
+     "type": "HOST",
+     "sfx": [
+      [
+       "swish",
+       4,
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s03i02",
+     "text": "Every time Russia had more land than people… somebody paid the *bill*.",
+     "shot": "in_bill",
+     "type": "HOST",
+     "sfx": [
+      [
+       "paper",
+       "w:bill",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s03i03",
+     "text": "Bill number one is coming up. *Watch* who pays it.",
+     "shot": "in_bill",
+     "type": "HOST"
+    }
+   ]
+  }
+ ]
+}

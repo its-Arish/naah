@@ -1,0 +1,101 @@
+{
+ "style": "documentary-dark",
+ "labels": "none",
+ "start": {
+  "lon": 55,
+  "lat": 56,
+  "zoom": 3.0
+ },
+ "items": [
+  {
+   "region": "russia",
+   "at": 0,
+   "color": "#5a3a34"
+  },
+  {
+   "text": "URALS",
+   "ll": [
+    59.5,
+    61
+   ],
+   "at": 0.3,
+   "size": 24,
+   "color": "#F4ECD8"
+  },
+  {
+   "arrow": [
+    [
+     37,
+     55
+    ],
+    [
+     60.6,
+     56.8
+    ]
+   ],
+   "at": "w:trains",
+   "every": 0.3
+  },
+  {
+   "arrow": [
+    [
+     38,
+     51
+    ],
+    [
+     61.4,
+     55.2
+    ]
+   ],
+   "at": "w:trains+0.3",
+   "every": 0.3
+  },
+  {
+   "arrow": [
+    [
+     31,
+     59
+    ],
+    [
+     56.3,
+     58
+    ]
+   ],
+   "at": "w:trains+0.6",
+   "every": 0.3
+  },
+  {
+   "pin": "Sverdlovsk",
+   "ll": [
+    60.6,
+    56.8
+   ],
+   "style": "dot",
+   "color": "#FFD84A",
+   "at": "w:Urals",
+   "label": 18
+  },
+  {
+   "pin": "Chelyabinsk",
+   "ll": [
+    61.4,
+    55.2
+   ],
+   "style": "dot",
+   "color": "#FFD84A",
+   "at": "w:Urals+0.2",
+   "label": 18,
+   "labelSide": "bottom"
+  },
+  {
+   "text": "≈ 1,500 factories moved east",
+   "ll": [
+    66,
+    52
+   ],
+   "at": "w:shipped",
+   "size": 26,
+   "color": "#FFD84A"
+  }
+ ]
+}

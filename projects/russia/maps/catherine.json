@@ -1,0 +1,112 @@
+{
+ "style": "documentary-dark",
+ "labels": "none",
+ "start": {
+  "lon": 30,
+  "lat": 50,
+  "zoom": 4.0
+ },
+ "moves": [
+  {
+   "at": "w:Crimea",
+   "dur": 2,
+   "to": {
+    "lon": 32,
+    "lat": 47,
+    "zoom": 4.2
+   }
+  }
+ ],
+ "items": [
+  {
+   "region": "russia",
+   "at": 0,
+   "color": "#8a4a40"
+  },
+  {
+   "arrow": [
+    [
+     38,
+     54
+    ],
+    [
+     27,
+     53
+    ]
+   ],
+   "at": "w:west",
+   "every": 0.3
+  },
+  {
+   "arrow": [
+    [
+     40,
+     51
+    ],
+    [
+     35,
+     46.5
+    ]
+   ],
+   "at": "w:south",
+   "every": 0.3
+  },
+  {
+   "region": "pol",
+   "at": "w:Poland",
+   "color": "#c9a24a"
+  },
+  {
+   "text": "Poland, carved up 1772–1795",
+   "ll": [
+    20,
+    51.6
+   ],
+   "at": "w:carving",
+   "size": 22,
+   "color": "#FFD84A"
+  },
+  {
+   "text": "Prussia",
+   "ll": [
+    12.5,
+    54
+   ],
+   "at": "w:Prussia",
+   "size": 20,
+   "color": "#F4ECD8"
+  },
+  {
+   "text": "Austria",
+   "ll": [
+    15,
+    47.2
+   ],
+   "at": "w:Austria",
+   "size": 20,
+   "color": "#F4ECD8"
+  },
+  {
+   "pin": "Crimea 1783",
+   "ll": [
+    34.1,
+    45.0
+   ],
+   "style": "star",
+   "color": "#FFD84A",
+   "at": "w:Crimea",
+   "label": 22,
+   "labelSide": "bottom"
+  },
+  {
+   "text": "BLACK SEA",
+   "ll": [
+    34,
+    43.2
+   ],
+   "at": "w:Black",
+   "size": 22,
+   "color": "#7FB2E5"
+  }
+ ]
+}

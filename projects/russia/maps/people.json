@@ -1,0 +1,98 @@
+{
+ "style": "documentary-dark",
+ "labels": "none",
+ "start": {
+  "lon": 98,
+  "lat": 60,
+  "zoom": 1.75
+ },
+ "moves": [
+  {
+   "at": 0.2,
+   "dur": 3,
+   "to": {
+    "lon": 90,
+    "lat": 60,
+    "zoom": 1.9
+   }
+  }
+ ],
+ "items": [
+  {
+   "region": "russia",
+   "at": 0,
+   "color": "#8a4a40"
+  },
+  {
+   "effect": "influence-zone",
+   "ll": [
+    43,
+    55
+   ],
+   "at": "w:small",
+   "size": 230,
+   "color": "#ffb347"
+  },
+  {
+   "pin": "Moscow",
+   "ll": [
+    37.62,
+    55.75
+   ],
+   "style": "star",
+   "color": "#FFD84A",
+   "at": "w:west",
+   "label": 20
+  },
+  {
+   "text": "≈ 3 in 4 people",
+   "ll": [
+    45,
+    61.5
+   ],
+   "at": "w:threequarters",
+   "size": 30,
+   "color": "#FFD84A"
+  },
+  {
+   "text": "forest",
+   "ll": [
+    90,
+    61
+   ],
+   "at": "w:forest",
+   "size": 30,
+   "color": "#9fd18b"
+  },
+  {
+   "text": "mountains",
+   "ll": [
+    125,
+    64
+   ],
+   "at": "w:mountains",
+   "size": 30,
+   "color": "#F4ECD8"
+  },
+  {
+   "text": "frozen rivers",
+   "ll": [
+    110,
+    71
+   ],
+   "at": "w:river",
+   "size": 30,
+   "color": "#a8d4ff"
+  },
+  {
+   "text": "very few people",
+   "ll": [
+    112,
+    55
+   ],
+   "at": "w:few",
+   "size": 30,
+   "color": "#FFD84A"
+  }
+ ]
+}

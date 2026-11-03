@@ -513,6 +513,73 @@ SHOTS = dict(bleat=bleat, whoosh=whoosh, tick=tick, ticks=ticks, pop=pop, pops=p
              hit=hit, glitch=glitch, crack=crack, creak=creak, steps=steps, drone=drone, machine=machine, anvil=anvil)
 
 
+# ------------------------------------------------------------------ "tech" set for animated map / data scenes (project.json "mapSfx": "tech")
+def _sq(f, d, duty=0.5):
+    t = t_(d); return np.where((t * f) % 1 < duty, 1.0, -1.0)
+
+def tech_whoosh(d=0.55):
+    """Airy digital sweep: band-passed noise riding up, with a thin sine glide underneath."""
+    t = t_(d); x = noise(d); out = np.zeros(len(x)); seg = int(0.015 * SR)
+    for i in range(0, len(x), seg):
+        f = 900 + 7000 * (i / len(x)) ** 1.6
+        out[i:i + seg] = bp(x[i:i + seg], f * 0.7, min(f * 1.4, 20000))
+    glide = sweep(220, 1800, d) * 0.25
+    e = np.sin(np.pi * t / d) ** 2
+    return norm(hp(out + glide, 300) * e, 0.6)
+
+def tech_click():
+    """Crisp UI click: 3 ms transient + short high sine chirp."""
+    d = 0.09; t = t_(d)
+    x = hp(noise(d), 4000) * np.exp(-t * 900) * 0.8 + sweep(2400, 3600, d) * np.exp(-t * 60) * 0.5
+    return norm(x, 0.55)
+
+def tech_tick():
+    d = 0.05; t = t_(d)
+    return norm(sweep(3200, 2600, d) * np.exp(-t * 120) + hp(noise(d), 6000) * np.exp(-t * 1500) * 0.4, 0.4)
+
+def data_blip():
+    """Two-note square-wave beep, softened (pins and labels)."""
+    a = lp(_sq(1568, 0.05, 0.3), 5000) * env(int(0.05 * SR), 0.002, 0.04)
+    b = lp(_sq(2093, 0.07, 0.3), 5000) * env(int(0.07 * SR), 0.002, 0.06)
+    return norm(np.concatenate([a, np.zeros(int(0.012 * SR)), b]), 0.38)
+
+def data_blips(d=0.6):
+    """Rapid ascending data chatter (counters, lists of labels)."""
+    out = np.zeros(int(d * SR)); n = 9
+    for i in range(n):
+        f = 1200 + i * 160 + rng.integers(-60, 60)
+        k = lp(_sq(f, 0.035, 0.4), 6000) * env(int(0.035 * SR), 0.001, 0.03)
+        s = int(i * d / n * SR); out[s:s + len(k)] += k[:len(out) - s]
+    return norm(out, 0.35)
+
+def tech_chime():
+    """Clean digital confirm: two sine partials, fast attack, shimmer tail (big numbers)."""
+    d = 0.6; t = t_(d)
+    x = (np.sin(2 * np.pi * 1760 * t) + 0.6 * np.sin(2 * np.pi * 2637 * t) + 0.3 * np.sin(2 * np.pi * 3520 * t)) * np.exp(-t * 7)
+    return norm(tail(x, 0.5, 0.15), 0.45)
+
+def tech_fill(d=0.5):
+    """Soft rising 'scan' as a region fills with colour."""
+    t = t_(d)
+    x = sweep(300, 900, d) * 0.5 + bp(noise(d), 2000, 6000) * 0.25
+    return norm(lp(x, 7000) * (t / d) ** 0.6 * np.exp(-((t - d * 0.8) ** 2) / 0.02) , 0.4)
+
+def tech_trace(d=0.9):
+    """Route / arrow drawing: a gliding sine with a fine digital stutter."""
+    t = t_(d)
+    x = sweep(500, 1400, d) * (0.55 + 0.45 * (np.sin(2 * np.pi * 38 * t) > 0)) * 0.6
+    return norm(lp(x, 6000) * np.sin(np.pi * t / d) ** 0.7, 0.35)
+
+def tech_hit():
+    """Low digital thump for serious beats on maps (front lines, encirclements)."""
+    d = 0.5; t = t_(d)
+    x = sweep(120, 45, d) * np.exp(-t * 9) + lp(noise(d), 400) * np.exp(-t * 30) * 0.4
+    return norm(x, 0.7)
+
+SHOTS.update(tech_whoosh=tech_whoosh, tech_click=tech_click, tech_tick=tech_tick, data_blip=data_blip, data_blips=data_blips,
+             tech_chime=tech_chime, tech_fill=tech_fill, tech_trace=tech_trace, tech_hit=tech_hit)
+
+
 # ------------------------------------------------------------------ ambience beds
 def amb(kind, d):
     t = t_(d)
@@ -556,7 +623,7 @@ def main():
         else:
             if kind not in SHOTS:
                 print('unknown sfx', kind); continue
-            if kind not in cache or kind in ('coins', 'pops', 'scribble', 'paper'):
+            if kind not in cache or kind in ('coins', 'pops', 'scribble', 'paper', 'data_blips', 'tech_click'):
                 cache[kind] = SHOTS[kind]()
             snd = cache[kind]
         s = int(at * SR)

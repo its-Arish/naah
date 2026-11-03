@@ -1,0 +1,385 @@
+{
+ "title": "Chapter 6: The War That Spent 27 Million",
+ "sections": [
+  {
+   "title": "Chapter 6: The War That Spent 27 Million",
+   "beats": [
+    {
+     "id": "s07b01",
+     "type": "HOST",
+     "text": "On June 22, 1941, Nazi Germany launched Operation *Barbarossa*.",
+     "shot": "c6_barb",
+     "date": 1941,
+     "sfx": [
+      [
+       "rumble",
+       "w:launched",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s07i01",
+     "text": "Did you *spot* it?",
+     "shot": "in_same",
+     "type": "STORY",
+     "sfx": [
+      [
+       "whoosh",
+       0,
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s07i02",
+     "text": "Napoleon invaded in *June*. Hitler invaded in June.",
+     "shot": "in_same",
+     "type": "STORY",
+     "sfx": [
+      [
+       "ding",
+       "w:Hitler",
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s07i03",
+     "text": "*Same* plain. Same summer. Same idea: win before the road runs out.",
+     "shot": "in_same",
+     "type": "STORY"
+    },
+    {
+     "id": "s07i04",
+     "text": "It didn't work the *first* time either.",
+     "shot": "in_same",
+     "type": "STORY"
+    },
+    {
+     "id": "s07b02",
+     "type": "INSERT",
+     "text": "More than *three* million soldiers poured across the border.",
+     "shot": "map:barbarossa",
+     "sfx": [
+      [
+       "rumble",
+       "w:poured",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s07b03",
+     "type": "INSERT",
+     "text": "The Red Army, weakened by Stalin's purges and caught unprepared, was *overwhelmed*.",
+     "shot": "map:barbarossa"
+    },
+    {
+     "id": "s07b04",
+     "type": "INSERT",
+     "text": "Whole armies were *encircled*.",
+     "shot": "map:barbarossa"
+    },
+    {
+     "id": "s07b05",
+     "type": "INSERT",
+     "text": "Millions of Soviet soldiers were *captured*.",
+     "shot": "map:barbarossa"
+    },
+    {
+     "id": "s07b06",
+     "type": "INSERT",
+     "text": "By December, German troops were within 20 or 25 kilometres of *Moscow*.",
+     "shot": "map:barbarossa",
+     "sfx": [
+      [
+       "thud",
+       "w:Moscow",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s07b07",
+     "type": "INSERT",
+     "text": "In the north, they surrounded *Leningrad*.",
+     "shot": "map:barbarossa",
+     "sfx": [
+      [
+       "thud",
+       "w:Leningrad",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s07b08",
+     "type": "STORY",
+     "text": "The siege lasted *872* days.",
+     "shot": "c6_siege",
+     "quiet": true,
+     "amb": "wind"
+    },
+    {
+     "id": "s07b09",
+     "type": "STORY",
+     "text": "*Food* ran out.",
+     "shot": "c6_siege",
+     "quiet": true,
+     "amb": "wind"
+    },
+    {
+     "id": "s07b10",
+     "type": "STORY",
+     "text": "People ate *wallpaper* paste and leather, and died in the streets.",
+     "shot": "c6_siege",
+     "quiet": true,
+     "amb": "wind"
+    },
+    {
+     "id": "s07b11",
+     "type": "STORY",
+     "text": "Among them was a girl named *Tanya* Savicheva.",
+     "shot": "c6_tanya",
+     "date": 1941,
+     "quiet": true
+    },
+    {
+     "id": "s07b12",
+     "type": "STORY",
+     "text": "She was *eleven* years old.",
+     "shot": "c6_tanya",
+     "quiet": true
+    },
+    {
+     "id": "s07b13",
+     "type": "STORY",
+     "text": "In a small *notebook*, she wrote down, page by page,",
+     "shot": "c6_tanya",
+     "quiet": true
+    },
+    {
+     "id": "s07b14",
+     "type": "STORY",
+     "text": "the *deaths* of her family.",
+     "shot": "c6_tanya",
+     "quiet": true
+    },
+    {
+     "id": "s07b17",
+     "type": "STORY",
+     "text": "Her sister. Her grandmother. Her brothers.",
+     "shot": "c6_tanya",
+     "quiet": true,
+     "date": 1942
+    },
+    {
+     "id": "s07b18",
+     "type": "STORY",
+     "text": "Her uncles.",
+     "shot": "c6_tanya",
+     "quiet": true
+    },
+    {
+     "id": "s07b19",
+     "type": "STORY",
+     "text": "Her mother.",
+     "shot": "c6_tanya",
+     "quiet": true
+    },
+    {
+     "id": "s07b20",
+     "type": "STORY",
+     "text": "The last entries are only a *few* words.",
+     "shot": "c6_tanya",
+     "quiet": true
+    },
+    {
+     "id": "s07b21",
+     "type": "STORY",
+     "text": "Tanya herself died not long after.",
+     "shot": "c6_tanya",
+     "quiet": true,
+     "date": 1944
+    },
+    {
+     "id": "s07b22",
+     "type": "INSERT",
+     "text": "The siege killed *hundreds* of thousands of civilians.",
+     "shot": "c6_candles",
+     "date": 1944,
+     "quiet": true
+    },
+    {
+     "id": "s07b23",
+     "type": "INSERT",
+     "text": "Perhaps around a *million*.",
+     "shot": "c6_candles",
+     "quiet": true
+    },
+    {
+     "id": "s07b24",
+     "type": "HOST",
+     "text": "But Russia's *size* also saved it.",
+     "shot": "c6_size",
+     "date": 1941
+    },
+    {
+     "id": "s07b25",
+     "type": "INSERT",
+     "text": "As the Germans advanced, the Soviet state *dismantled* thousands of factories and loaded them onto trains. They were shipped beyond the Urals.",
+     "shot": "map:evac",
+     "sfx": [
+      [
+       "whoosh",
+       "w:trains",
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s07b27",
+     "type": "STORY",
+     "text": "*Workers* went with them.",
+     "shot": "c6_factory",
+     "date": 1942,
+     "amb": "wind"
+    },
+    {
+     "id": "s07b28",
+     "type": "STORY",
+     "text": "Production resumed in the *east*, far from the front,",
+     "shot": "c6_factory",
+     "sfx": [
+      [
+       "clang",
+       "w:resumed",
+       0.3
+      ]
+     ],
+     "amb": "wind"
+    },
+    {
+     "id": "s07b29",
+     "type": "STORY",
+     "text": "turning out the *tanks* and shells that would win the war.",
+     "shot": "c6_factory",
+     "sfx": [
+      [
+       "clang",
+       "w:tanks",
+       0.3
+      ]
+     ],
+     "amb": "wind"
+    },
+    {
+     "id": "s07b30",
+     "type": "STORY",
+     "text": "Then came *Stalingrad*.",
+     "shot": "c6_stalingrad",
+     "date": 1942,
+     "sfx": [
+      [
+       "drum",
+       "w:Stalingrad",
+       0.4
+      ]
+     ],
+     "quiet": true
+    },
+    {
+     "id": "s07b31",
+     "type": "STORY",
+     "text": "For months, soldiers fought *house* by house through ruins.",
+     "shot": "c6_stalingrad",
+     "quiet": true
+    },
+    {
+     "id": "s07b32",
+     "type": "STORY",
+     "text": "In February 1943, the German Sixth Army, surrounded, *surrendered*.",
+     "shot": "c6_stalingrad",
+     "quiet": true,
+     "date": 1943
+    },
+    {
+     "id": "s07b33",
+     "type": "STORY",
+     "text": "The *tide* had turned.",
+     "shot": "c6_stalingrad",
+     "sfx": [
+      [
+       "whoosh",
+       "w:turned",
+       0.4
+      ]
+     ],
+     "quiet": true
+    },
+    {
+     "id": "s07b34",
+     "type": "STORY",
+     "text": "In May 1945, the Red Army took *Berlin*.",
+     "shot": "c6_berlin",
+     "date": 1945,
+     "sfx": [
+      [
+       "drum",
+       "w:Berlin",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s07b35",
+     "type": "INSERT",
+     "text": "The cost was *staggering*.",
+     "shot": "c6_cost",
+     "quiet": true
+    },
+    {
+     "id": "s07b36",
+     "type": "INSERT",
+     "text": "Around *27* million Soviet citizens died.",
+     "shot": "c6_cost",
+     "quiet": true
+    },
+    {
+     "id": "s07b37",
+     "type": "INSERT",
+     "text": "*More* than any other nation.",
+     "shot": "c6_cost",
+     "quiet": true
+    },
+    {
+     "id": "s07i05",
+     "text": "Bill number *three*: twenty-seven million.",
+     "shot": "in_receipt",
+     "type": "INSERT",
+     "quiet": true
+    },
+    {
+     "id": "s07b38",
+     "type": "HOST",
+     "text": "Stalin drew a *lesson* from it.",
+     "shot": "c6_lesson"
+    },
+    {
+     "id": "s07b39",
+     "type": "HOST",
+     "text": "*Never* again would Russia's western border be exposed.",
+     "shot": "c6_lesson",
+     "sfx": [
+      [
+       "slam",
+       "w:exposed",
+       0.4
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

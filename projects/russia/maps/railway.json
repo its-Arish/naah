@@ -1,0 +1,110 @@
+{
+ "style": "documentary-dark",
+ "labels": "none",
+ "start": {
+  "lon": 60,
+  "lat": 56,
+  "zoom": 2.3
+ },
+ "moves": [
+  {
+   "at": 0.3,
+   "dur": 4.5,
+   "to": {
+    "lon": 100,
+    "lat": 55,
+    "zoom": 1.85
+   }
+  }
+ ],
+ "items": [
+  {
+   "region": "russia",
+   "at": 0,
+   "color": "#5a3a34"
+  },
+  {
+   "pin": "Moscow",
+   "ll": [
+    37.62,
+    55.75
+   ],
+   "style": "star",
+   "color": "#FFD84A",
+   "at": 0,
+   "label": 20
+  },
+  {
+   "route": [
+    [
+     37.6,
+     55.7
+    ],
+    [
+     49,
+     56.3
+    ],
+    [
+     60.6,
+     56.8
+    ],
+    [
+     73.4,
+     55
+    ],
+    [
+     82.9,
+     55
+    ],
+    [
+     92.9,
+     56
+    ],
+    [
+     104.3,
+     52.3
+    ],
+    [
+     113.5,
+     52
+    ],
+    [
+     127.5,
+     50.3
+    ],
+    [
+     135,
+     48.5
+    ],
+    [
+     131.9,
+     43.1
+    ]
+   ],
+   "at": 0.4,
+   "every": 0.32
+  },
+  {
+   "pin": "Vladivostok",
+   "ll": [
+    131.9,
+    43.1
+   ],
+   "style": "star",
+   "color": "#FFD84A",
+   "at": "w:Pacific",
+   "label": 20,
+   "labelSide": "right"
+  },
+  {
+   "text": "9,289 km",
+   "ll": [
+    95,
+    50
+   ],
+   "at": "w:kilometres",
+   "size": 36,
+   "color": "#FFD84A"
+  }
+ ]
+}

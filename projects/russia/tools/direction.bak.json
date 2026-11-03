@@ -1,0 +1,631 @@
+{
+ "s01b01": {
+  "shot": "co_look",
+  "type": "HOST",
+  "date": null,
+  "sfx": [
+   [
+    "pop",
+    "w:map",
+    0.5
+   ]
+  ]
+ },
+ "s01b02": {
+  "shot": "map:size",
+  "type": "INSERT",
+  "date": null
+ },
+ "s01b03": {
+  "shot": "map:size",
+  "type": "INSERT",
+  "em": [
+   "17"
+  ],
+  "sfx": [
+   [
+    "ding",
+    "w:million",
+    0.4
+   ]
+  ]
+ },
+ "s01b04": {
+  "shot": "map:size",
+  "type": "INSERT",
+  "em": [
+   "tenth"
+  ]
+ },
+ "s01b05": {
+  "shot": "map:size",
+  "type": "INSERT",
+  "em": [
+   "11"
+  ],
+  "sfx": [
+   [
+    "ticks",
+    "w:time",
+    0.4
+   ]
+  ]
+ },
+ "s01b06": {
+  "shot": "map:size",
+  "type": "INSERT",
+  "sfx": [
+   [
+    "pop",
+    "w:Kaliningrad",
+    0.5
+   ]
+  ]
+ },
+ "s01b07": {
+  "shot": "map:size",
+  "type": "INSERT",
+  "em": [
+   "tomorrow."
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:Kamchatka",
+    0.5
+   ],
+   [
+    "ding",
+    "w:tomorrow",
+    0.4
+   ]
+  ]
+ },
+ "s01b08": {
+  "shot": "co_strange",
+  "type": "HOST",
+  "gag": false
+ },
+ "s01b09": {
+  "shot": "map:people",
+  "type": "INSERT",
+  "em": [
+   "small"
+  ]
+ },
+ "s01b10": {
+  "shot": "map:people",
+  "type": "INSERT",
+  "em": [
+   "three-quarters"
+  ]
+ },
+ "s01b11": {
+  "shot": "map:people",
+  "type": "INSERT",
+  "amb": "wind"
+ },
+ "s01b12": {
+  "shot": "map:people",
+  "type": "INSERT",
+  "amb": "wind"
+ },
+ "s01b13": {
+  "shot": "co_vast",
+  "type": "STORY",
+  "amb": "wind",
+  "em": [
+   "more"
+  ]
+ },
+ "s01b14": {
+  "shot": "co_vast",
+  "type": "STORY",
+  "amb": "wind",
+  "em": [
+   "never"
+  ]
+ },
+ "s01b15": {
+  "shot": "co_problem",
+  "type": "HOST",
+  "em": [
+   "one"
+  ]
+ },
+ "s01b16": {
+  "shot": "co_problem",
+  "type": "HOST",
+  "sfx": [
+   [
+    "pop",
+    "w:expanding",
+    0.5
+   ]
+  ]
+ },
+ "s01b17": {
+  "shot": "co_problem",
+  "type": "HOST",
+  "sfx": [
+   [
+    "clang",
+    "w:chained",
+    0.4
+   ]
+  ]
+ },
+ "s01b18": {
+  "shot": "co_problem",
+  "type": "HOST",
+  "em": [
+   "afraid."
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:afraid",
+    0.5
+   ]
+  ]
+ },
+ "s01b19": {
+  "shot": "co_darker",
+  "type": "HOST",
+  "quiet": true,
+  "em": [
+   "darker,"
+  ]
+ },
+ "s01b20": {
+  "shot": "co_scales",
+  "type": "INSERT",
+  "quiet": true
+ },
+ "s01b21": {
+  "shot": "co_scales",
+  "type": "INSERT",
+  "quiet": true,
+  "em": [
+   "spending"
+  ],
+  "sfx": [
+   [
+    "thud",
+    "w:people",
+    0.4
+   ]
+  ]
+ },
+ "s01b22": {
+  "shot": "co_spent",
+  "type": "INSERT",
+  "quiet": true
+ },
+ "s01b23": {
+  "shot": "co_spent",
+  "type": "INSERT",
+  "quiet": true
+ },
+ "s01b24": {
+  "shot": "co_spent",
+  "type": "INSERT",
+  "quiet": true
+ },
+ "s01b25": {
+  "shot": "co_spent",
+  "type": "INSERT",
+  "quiet": true
+ },
+ "s01b26": {
+  "shot": "co_spent",
+  "type": "INSERT",
+  "quiet": true,
+  "em": [
+   "millions"
+  ]
+ },
+ "s01b27": {
+  "shot": "co_tank",
+  "type": "STORY",
+  "em": [
+   "no"
+  ],
+  "sfx": [
+   [
+    "rumble",
+    0,
+    0.4
+   ],
+   [
+    "slam",
+    "w:reach",
+    0.4
+   ]
+  ]
+ },
+ "s01b28": {
+  "shot": "co_birthrate",
+  "type": "INSERT",
+  "em": [
+   "birth"
+  ],
+  "sfx": [
+   [
+    "slide_down",
+    4,
+    0.5
+   ]
+  ]
+ },
+ "s01b29": {
+  "shot": "co_rewind",
+  "type": "INSERT",
+  "sfx": [
+   [
+    "ticks",
+    4,
+    0.4
+   ]
+  ]
+ },
+ "s01b30": {
+  "shot": "co_rewind",
+  "type": "INSERT",
+  "em": [
+   "thousand"
+  ],
+  "sfx": [
+   [
+    "ticks",
+    "w:back",
+    0.4
+   ]
+  ]
+ },
+ "s01b31": {
+  "shot": "co_nowalls",
+  "type": "STORY",
+  "date": 880,
+  "amb": "wind",
+  "em": [
+   "no"
+  ]
+ },
+ "s02b01": {
+  "shot": "c1_lookeast",
+  "type": "HOST",
+  "date": null
+ },
+ "s02b02": {
+  "shot": "map:plain",
+  "type": "INSERT",
+  "date": null
+ },
+ "s02b03": {
+  "shot": "map:plain",
+  "type": "INSERT",
+  "em": [
+   "North",
+   "European",
+   "Plain,"
+  ]
+ },
+ "s02b04": {
+  "shot": "map:plain",
+  "type": "INSERT",
+  "em": [
+   "heart"
+  ]
+ },
+ "s02b05": {
+  "shot": "c1_cross",
+  "type": "STORY",
+  "sfx": [
+   [
+    "drum",
+    4,
+    0.4
+   ]
+  ]
+ },
+ "s02b06": {
+  "shot": "c1_cross",
+  "type": "STORY",
+  "sfx": [
+   [
+    "coins",
+    "w:Traders",
+    0.4
+   ]
+  ]
+ },
+ "s02b07": {
+  "shot": "c1_cross",
+  "type": "STORY",
+  "em": [
+   "invaders"
+  ],
+  "sfx": [
+   [
+    "gallop",
+    0,
+    0.45
+   ]
+  ]
+ },
+ "s02b08": {
+  "shot": "c1_longship",
+  "type": "STORY",
+  "date": 862,
+  "amb": "waves",
+  "em": [
+   "Vikings."
+  ]
+ },
+ "s02b09": {
+  "shot": "map:rivers",
+  "type": "INSERT",
+  "date": 862
+ },
+ "s02b10": {
+  "shot": "map:rivers",
+  "type": "INSERT",
+  "em": [
+   "silver"
+  ],
+  "sfx": [
+   [
+    "coins",
+    "w:silver",
+    0.4
+   ]
+  ]
+ },
+ "s02b11": {
+  "shot": "c1_rus",
+  "type": "STORY",
+  "amb": "waves",
+  "em": [
+   "Rus."
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:Rus",
+    0.5
+   ]
+  ]
+ },
+ "s02b12": {
+  "shot": "c1_tribes",
+  "type": "STORY",
+  "sfx": [
+   [
+    "boing",
+    8,
+    0.3
+   ]
+  ]
+ },
+ "s02b13": {
+  "shot": "c1_tribes",
+  "type": "STORY",
+  "em": [
+   "invitation."
+  ],
+  "sfx": [
+   [
+    "paper",
+    "w:invitation",
+    0.5
+   ]
+  ]
+ },
+ "s02b14": {
+  "shot": "c1_letter",
+  "type": "INSERT",
+  "em": [
+   "great",
+   "rich,"
+  ],
+  "sfx": [
+   [
+    "scribble",
+    2,
+    0.4
+   ]
+  ]
+ },
+ "s02b15": {
+  "shot": "c1_letter",
+  "type": "INSERT",
+  "em": [
+   "rule"
+  ],
+  "sfx": [
+   [
+    "scribble",
+    2,
+    0.4
+   ]
+  ]
+ },
+ "s02b16": {
+  "shot": "c1_debate",
+  "type": "HOST",
+  "date": null
+ },
+ "s02b17": {
+  "shot": "c1_debate",
+  "type": "HOST",
+  "em": [
+   "stuck."
+  ],
+  "sfx": [
+   [
+    "slam",
+    "w:stuck",
+    0.4
+   ]
+  ],
+  "gag": true
+ },
+ "s02b18": {
+  "shot": "map:kievanrus",
+  "type": "INSERT",
+  "date": 900,
+  "em": [
+   "Kievan",
+   "Rus."
+  ]
+ },
+ "s02b19": {
+  "shot": "map:kievanrus",
+  "type": "INSERT"
+ },
+ "s02b20": {
+  "shot": "c1_baptism",
+  "type": "STORY",
+  "date": 988,
+  "em": [
+   "988,"
+  ],
+  "amb": "birds",
+  "sfx": [
+   [
+    "ding",
+    "w:Orthodox",
+    0.4
+   ]
+  ]
+ },
+ "s02b21": {
+  "shot": "c1_byzantium",
+  "type": "INSERT",
+  "em": [
+   "Byzantium"
+  ]
+ },
+ "s02b22": {
+  "shot": "c1_mongols",
+  "type": "STORY",
+  "date": 1237,
+  "em": [
+   "Mongols"
+  ],
+  "amb": "wind",
+  "sfx": [
+   [
+    "gallop",
+    "w:Mongols",
+    0.5
+   ]
+  ]
+ },
+ "s02b23": {
+  "shot": "c1_mongols",
+  "type": "STORY",
+  "em": [
+   "purpose."
+  ],
+  "amb": "wind",
+  "sfx": [
+   [
+    "gallop",
+    0,
+    0.45
+   ]
+  ]
+ },
+ "s02b24": {
+  "shot": "c1_ice",
+  "type": "STORY",
+  "em": [
+   "highways"
+  ],
+  "amb": "wind",
+  "sfx": [
+   [
+    "gallop",
+    0,
+    0.55
+   ]
+  ]
+ },
+ "s02b25": {
+  "shot": "c1_fall",
+  "type": "STORY",
+  "quiet": true,
+  "amb": "wind"
+ },
+ "s02b26": {
+  "shot": "c1_kyiv1240",
+  "type": "INSERT",
+  "date": 1240,
+  "quiet": true,
+  "em": [
+   "Kyiv."
+  ]
+ },
+ "s02b27": {
+  "shot": "c1_traveller",
+  "type": "STORY",
+  "date": 1246,
+  "quiet": true,
+  "amb": "wind"
+ },
+ "s02b28": {
+  "shot": "c1_khan",
+  "type": "STORY",
+  "date": 1250,
+  "em": [
+   "ruled."
+  ],
+  "sfx": [
+   [
+    "drum",
+    "w:ruled",
+    0.5
+   ]
+  ]
+ },
+ "s02b30": {
+  "shot": "c1_khan",
+  "type": "STORY",
+  "em": [
+   "thrones,"
+  ]
+ },
+ "s02b31": {
+  "shot": "c1_khan",
+  "type": "STORY",
+  "em": [
+   "tribute."
+  ],
+  "sfx": [
+   [
+    "coins",
+    "w:tribute",
+    0.5
+   ]
+  ]
+ },
+ "s02b32": {
+  "shot": "c1_moscow",
+  "type": "HOST",
+  "date": null,
+  "em": [
+   "one",
+   "small",
+   "town"
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:town",
+    0.5
+   ]
+  ]
+ }
+}

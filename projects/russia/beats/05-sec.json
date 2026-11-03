@@ -1,0 +1,353 @@
+{
+ "title": "Chapter 5: Collapse, and the Man of Steel",
+ "sections": [
+  {
+   "title": "Chapter 5: Collapse, and the Man of Steel",
+   "beats": [
+    {
+     "id": "s06i01",
+     "text": "Quick *score* check.",
+     "shot": "in_score",
+     "type": "HOST",
+     "sfx": [
+      [
+       "drum",
+       2,
+       0.5
+      ]
+     ],
+     "date": null
+    },
+    {
+     "id": "s06i02",
+     "text": "Land: biggest on Earth. Napoleon: *beaten*.",
+     "shot": "in_score",
+     "type": "HOST",
+     "sfx": [
+      [
+       "ding",
+       "w:Earth",
+       0.4
+      ],
+      [
+       "ding",
+       "w:beaten",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s06i03",
+     "text": "People: still *not* enough.",
+     "shot": "in_score",
+     "type": "HOST",
+     "sfx": [
+      [
+       "boing",
+       "w:enough",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s06i04",
+     "text": "And the next man in charge will try to fix that in the *worst* way possible.",
+     "shot": "in_score",
+     "type": "HOST"
+    },
+    {
+     "id": "s06b01",
+     "type": "HOST",
+     "text": "In 1904, Russia went to war with Japan, expecting an *easy* win.",
+     "shot": "c5_japan",
+     "date": 1904,
+     "sfx": [
+      [
+       "pop",
+       "w:Japan",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s06b02",
+     "type": "STORY",
+     "text": "It suffered a *humiliating* defeat.",
+     "shot": "c5_tsushima",
+     "date": 1905,
+     "sfx": [
+      [
+       "thud",
+       "w:defeat",
+       0.4
+      ]
+     ],
+     "amb": "waves"
+    },
+    {
+     "id": "s06b03",
+     "type": "STORY",
+     "text": "The *first* time a modern European power had been beaten decisively by an Asian one.",
+     "shot": "c5_tsushima",
+     "amb": "waves"
+    },
+    {
+     "id": "s06b04",
+     "type": "STORY",
+     "text": "Then came *World* War I.",
+     "shot": "c5_ww1",
+     "date": 1914,
+     "sfx": [
+      [
+       "drum",
+       "w:War",
+       0.4
+      ]
+     ],
+     "amb": "wind"
+    },
+    {
+     "id": "s06b05",
+     "type": "STORY",
+     "text": "Millions were sent to the front *without* enough weapons, food, or supplies.",
+     "shot": "c5_ww1",
+     "amb": "wind"
+    },
+    {
+     "id": "s06b06",
+     "type": "STORY",
+     "text": "By early 1917, protests and *bread* riots swept the capital.",
+     "shot": "c5_petrograd",
+     "date": 1917,
+     "sfx": [
+      [
+       "drum",
+       "w:riots",
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s06b07",
+     "type": "STORY",
+     "text": "Soldiers sent to crush them *joined* the crowds.",
+     "shot": "c5_petrograd",
+     "sfx": [
+      [
+       "pop",
+       "w:joined",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s06b08",
+     "type": "STORY",
+     "text": "Nicholas II *abdicated*, ending the Romanov dynasty.",
+     "shot": "c5_abdicate",
+     "sfx": [
+      [
+       "thud",
+       "w:abdicated",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s06b09",
+     "type": "STORY",
+     "text": "The Bolsheviks, under Lenin, *seized* power.",
+     "shot": "c5_lenin",
+     "sfx": [
+      [
+       "drum",
+       "w:seized",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s06b10",
+     "type": "STORY",
+     "text": "In July 1918, Nicholas II, his wife, and their five children were shot in Yekaterinburg.",
+     "shot": "c5_ipatiev",
+     "date": 1918,
+     "quiet": true
+    },
+    {
+     "id": "s06b11",
+     "type": "INSERT",
+     "text": "A brutal civil war followed, killing *millions* through fighting, famine, and disease.",
+     "shot": "c5_civilwar",
+     "date": 1919,
+     "quiet": true
+    },
+    {
+     "id": "s06b12",
+     "type": "STORY",
+     "text": "In 1922, the *Soviet* Union was born.",
+     "shot": "c5_ussr",
+     "date": 1922,
+     "sfx": [
+      [
+       "drum",
+       "w:born",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s06b13",
+     "type": "STORY",
+     "text": "After Lenin died in 1924, a man named Joseph *Stalin* won the struggle to replace him.",
+     "shot": "c5_stalin",
+     "date": 1924,
+     "sfx": [
+      [
+       "pop",
+       "w:Stalin",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s06b14",
+     "type": "STORY",
+     "text": "He wanted to turn a peasant country into an *industrial* power, fast.",
+     "shot": "c5_industry",
+     "date": 1929,
+     "sfx": [
+      [
+       "clang",
+       "w:fast",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s06b15",
+     "type": "STORY",
+     "text": "And he was willing to pay for it in *lives*.",
+     "shot": "c5_industry",
+     "quiet": true
+    },
+    {
+     "id": "s06b16",
+     "type": "STORY",
+     "text": "He forced millions of peasants onto collective farms and *seized* their grain.",
+     "shot": "c5_collective",
+     "date": 1930,
+     "quiet": true
+    },
+    {
+     "id": "s06b17",
+     "type": "INSERT",
+     "text": "In the early 1930s, *famine* killed millions of people in Ukraine,",
+     "shot": "map:famine",
+     "date": 1932,
+     "quiet": true
+    },
+    {
+     "id": "s06b18",
+     "type": "INSERT",
+     "text": "*Kazakhstan*, and southern Russia.",
+     "shot": "map:famine",
+     "quiet": true
+    },
+    {
+     "id": "s06b19",
+     "type": "STORY",
+     "text": "Then, in 1937 and 1938, came the Great *Terror*.",
+     "shot": "c5_terror",
+     "date": 1937,
+     "quiet": true
+    },
+    {
+     "id": "s06b20",
+     "type": "STORY",
+     "text": "The secret police arrested people accused of being *enemies* of the state.",
+     "shot": "c5_terror",
+     "quiet": true
+    },
+    {
+     "id": "s06b21",
+     "type": "STORY",
+     "text": "Hundreds of thousands were *shot*.",
+     "shot": "c5_terror",
+     "quiet": true
+    },
+    {
+     "id": "s06b22",
+     "type": "STORY",
+     "text": "Millions more passed through the *Gulag* labour camps.",
+     "shot": "c5_gulag",
+     "date": 1938,
+     "quiet": true,
+     "amb": "wind"
+    },
+    {
+     "id": "s06i05",
+     "text": "Bill number *two*: famine and terror. Millions. Paid by the people the country needed most.",
+     "shot": "in_receipt",
+     "type": "INSERT",
+     "quiet": true
+    },
+    {
+     "id": "s06b23",
+     "type": "HOST",
+     "text": "Here is the *contradiction* at the heart of this story.",
+     "shot": "c5_contra",
+     "quiet": true
+    },
+    {
+     "id": "s06b24",
+     "type": "HOST",
+     "text": "For centuries, Russia's central problem was *too* few people for too much land.",
+     "shot": "c5_contra",
+     "quiet": true
+    },
+    {
+     "id": "s06b25",
+     "type": "HOST",
+     "text": "And in the 1930s, its own government *destroyed* millions of them.",
+     "shot": "c5_contra",
+     "quiet": true
+    },
+    {
+     "id": "s06b26",
+     "type": "STORY",
+     "text": "But Stalin wasn't thinking about the future of the *birth* rate.",
+     "shot": "c5_thinking",
+     "date": 1939
+    },
+    {
+     "id": "s06b27",
+     "type": "STORY",
+     "text": "He was thinking about the next *invasion*.",
+     "shot": "c5_thinking",
+     "sfx": [
+      [
+       "drum",
+       "w:invasion",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s06b28",
+     "type": "INSERT",
+     "text": "And in *June* 1941, it came.",
+     "shot": "c5_june41",
+     "date": 1941,
+     "sfx": [
+      [
+       "thud",
+       "w:came",
+       0.5
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

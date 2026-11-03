@@ -1,0 +1,388 @@
+{
+ "title": "Chapter 1: A Country With No Walls",
+ "sections": [
+  {
+   "title": "Chapter 1: A Country With No Walls",
+   "beats": [
+    {
+     "id": "s02b01",
+     "type": "HOST",
+     "text": "Stand in Germany and look east.",
+     "shot": "c1_lookeast",
+     "date": null
+    },
+    {
+     "id": "s02b02",
+     "type": "INSERT",
+     "text": "You won't find a mountain range or a desert.",
+     "shot": "map:plain",
+     "date": null
+    },
+    {
+     "id": "s02b03",
+     "type": "INSERT",
+     "text": "You'll find the *North* *European* *Plain*, a vast flat stretch that runs,",
+     "shot": "map:plain"
+    },
+    {
+     "id": "s02b04",
+     "type": "INSERT",
+     "text": "with barely a hill in the way, all the way into the *heart* of Russia.",
+     "shot": "map:plain"
+    },
+    {
+     "id": "s02b05",
+     "type": "STORY",
+     "text": "Armies can cross it.",
+     "shot": "c1_cross",
+     "sfx": [
+      [
+       "drum",
+       4,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s02b06",
+     "type": "STORY",
+     "text": "Traders can cross it.",
+     "shot": "c1_cross",
+     "sfx": [
+      [
+       "coins",
+       "w:Traders",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s02b07",
+     "type": "STORY",
+     "text": "For a thousand years, *invaders* did.",
+     "shot": "c1_cross",
+     "sfx": [
+      [
+       "gallop",
+       0,
+       0.45
+      ]
+     ]
+    },
+    {
+     "id": "s02b08",
+     "type": "STORY",
+     "text": "In the 800s, the people who came were *Vikings*.",
+     "shot": "c1_longship",
+     "date": 862,
+     "amb": "waves"
+    },
+    {
+     "id": "s02b09",
+     "type": "INSERT",
+     "text": "Instead of sailing west to England, many travelled east up Russia's rivers,",
+     "shot": "map:rivers",
+     "date": 862
+    },
+    {
+     "id": "s02b10",
+     "type": "INSERT",
+     "text": "chasing *silver* and the rich markets of Constantinople.",
+     "shot": "map:rivers",
+     "sfx": [
+      [
+       "coins",
+       "w:silver",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s02b11",
+     "type": "STORY",
+     "text": "They became known as the *Rus*.",
+     "shot": "c1_rus",
+     "amb": "waves",
+     "sfx": [
+      [
+       "pop",
+       "w:Rus",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s02b12",
+     "type": "STORY",
+     "text": "According to an old chronicle, local tribes who were tired of fighting each other",
+     "shot": "c1_tribes",
+     "sfx": [
+      [
+       "boing",
+       8,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s02b13",
+     "type": "STORY",
+     "text": "sent them an *invitation*.",
+     "shot": "c1_tribes",
+     "sfx": [
+      [
+       "paper",
+       "w:invitation",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s02b14",
+     "type": "INSERT",
+     "text": "Our land is *great* and *rich*, but there is no order in it.",
+     "shot": "c1_letter",
+     "sfx": [
+      [
+       "scribble",
+       2,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s02b15",
+     "type": "INSERT",
+     "text": "Come and *rule* over us.",
+     "shot": "c1_letter",
+     "sfx": [
+      [
+       "scribble",
+       2,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s02b16",
+     "type": "HOST",
+     "text": "Historians debate how much of that story is true.",
+     "shot": "c1_debate",
+     "date": null
+    },
+    {
+     "id": "s02b17",
+     "type": "HOST",
+     "text": "But the name *stuck*.",
+     "shot": "c1_debate",
+     "sfx": [
+      [
+       "slam",
+       "w:stuck",
+       0.4
+      ]
+     ],
+     "gag": true
+    },
+    {
+     "id": "s02b18",
+     "type": "INSERT",
+     "text": "Rurik's descendants built a state around Kyiv, called *Kievan* *Rus*.",
+     "shot": "map:kievanrus",
+     "date": 900
+    },
+    {
+     "id": "s02b19",
+     "type": "INSERT",
+     "text": "Russians, Ukrainians and Belarusians all claim it as part of their history.",
+     "shot": "map:kievanrus"
+    },
+    {
+     "id": "s02b20",
+     "type": "STORY",
+     "text": "In *988*, its prince, Vladimir, chose Orthodox Christianity from Constantinople.",
+     "shot": "c1_baptism",
+     "date": 988,
+     "amb": "birds",
+     "sfx": [
+      [
+       "ding",
+       "w:Orthodox",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s02b21",
+     "type": "INSERT",
+     "text": "That tied Russia's religion, art, and politics to *Byzantium* for centuries.",
+     "shot": "c1_byzantium"
+    },
+    {
+     "id": "s02b22",
+     "type": "STORY",
+     "text": "Then, in the winter of 1237, the *Mongols* arrived.",
+     "shot": "c1_mongols",
+     "date": 1237,
+     "amb": "wind",
+     "sfx": [
+      [
+       "gallop",
+       "w:Mongols",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s02b23",
+     "type": "STORY",
+     "text": "They came in winter on *purpose*.",
+     "shot": "c1_mongols",
+     "amb": "wind",
+     "sfx": [
+      [
+       "gallop",
+       0,
+       0.45
+      ]
+     ]
+    },
+    {
+     "id": "s02b24",
+     "type": "STORY",
+     "text": "Frozen rivers became *highways* for their cavalry.",
+     "shot": "c1_ice",
+     "amb": "wind",
+     "sfx": [
+      [
+       "gallop",
+       0,
+       0.55
+      ]
+     ]
+    },
+    {
+     "id": "s02b25",
+     "type": "STORY",
+     "text": "Russian cities fell one by one.",
+     "shot": "c1_fall",
+     "quiet": true,
+     "amb": "wind"
+    },
+    {
+     "id": "s02b26",
+     "type": "INSERT",
+     "text": "In December 1240, they took *Kyiv*.",
+     "shot": "c1_kyiv1240",
+     "date": 1240,
+     "quiet": true
+    },
+    {
+     "id": "s02b27",
+     "type": "STORY",
+     "text": "A European traveller passing through years later described fields still covered in bones and skulls.",
+     "shot": "c1_traveller",
+     "date": 1246,
+     "quiet": true,
+     "amb": "wind"
+    },
+    {
+     "id": "s02b28",
+     "type": "STORY",
+     "text": "The Mongols didn't just destroy. They *ruled*.",
+     "shot": "c1_khan",
+     "date": 1250,
+     "sfx": [
+      [
+       "drum",
+       "w:ruled",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s02b30",
+     "type": "STORY",
+     "text": "Russian princes could keep their *thrones*, but only if they travelled to the Mongol",
+     "shot": "c1_khan"
+    },
+    {
+     "id": "s02b31",
+     "type": "STORY",
+     "text": "court, kneeled, and paid *tribute*.",
+     "shot": "c1_khan",
+     "sfx": [
+      [
+       "coins",
+       "w:tribute",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s02b32",
+     "type": "HOST",
+     "text": "And *one* *small* *town* learned to play that game better than anyone else.",
+     "shot": "c1_moscow",
+     "date": null,
+     "sfx": [
+      [
+       "pop",
+       "w:town",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s02i01",
+     "text": "So here's Moscow: a *tiny* wooden town, paying protection money to the Mongols.",
+     "shot": "in_vault",
+     "type": "STORY",
+     "sfx": [
+      [
+       "whoosh",
+       2,
+       0.6
+      ],
+      [
+       "thud",
+       22,
+       0.5
+      ],
+      [
+       "coins",
+       "w:money",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s02i02",
+     "text": "How does that end up owning more than a *tenth* of the planet?",
+     "shot": "in_vault",
+     "type": "STORY",
+     "sfx": [
+      [
+       "pop",
+       "w:planet",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s02i03",
+     "text": "Short answer… a man nicknamed \"the *Moneybag*.\"",
+     "shot": "in_vault",
+     "type": "STORY",
+     "sfx": [
+      [
+       "kaching",
+       "w:Moneybag",
+       0.6
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

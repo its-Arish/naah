@@ -1,0 +1,4195 @@
+{
+ "s01b01": {
+  "shot": "co_look",
+  "type": "HOST",
+  "date": null,
+  "sfx": [
+   [
+    "pop",
+    "w:map",
+    0.5
+   ]
+  ]
+ },
+ "s01b02": {
+  "shot": "map:size",
+  "type": "INSERT",
+  "date": null
+ },
+ "s01b03": {
+  "shot": "map:size",
+  "type": "INSERT",
+  "em": [
+   "17"
+  ],
+  "sfx": [
+   [
+    "ding",
+    "w:million",
+    0.4
+   ]
+  ]
+ },
+ "s01b04": {
+  "shot": "map:size",
+  "type": "INSERT",
+  "em": [
+   "tenth"
+  ]
+ },
+ "s01b05": {
+  "shot": "map:size",
+  "type": "INSERT",
+  "em": [
+   "11"
+  ],
+  "sfx": [
+   [
+    "ticks",
+    "w:time",
+    0.4
+   ]
+  ]
+ },
+ "s01b06": {
+  "shot": "map:size",
+  "type": "INSERT",
+  "sfx": [
+   [
+    "pop",
+    "w:Kaliningrad",
+    0.5
+   ]
+  ]
+ },
+ "s01b07": {
+  "shot": "map:size",
+  "type": "INSERT",
+  "em": [
+   "tomorrow."
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:Kamchatka",
+    0.5
+   ],
+   [
+    "ding",
+    "w:tomorrow",
+    0.4
+   ]
+  ]
+ },
+ "s01b08": {
+  "shot": "co_strange",
+  "type": "HOST",
+  "gag": false
+ },
+ "s01b09": {
+  "shot": "map:people",
+  "type": "INSERT",
+  "em": [
+   "small"
+  ]
+ },
+ "s01b10": {
+  "shot": "map:people",
+  "type": "INSERT",
+  "em": [
+   "three-quarters"
+  ]
+ },
+ "s01b11": {
+  "shot": "map:people",
+  "type": "INSERT",
+  "amb": "wind"
+ },
+ "s01b12": {
+  "shot": "map:people",
+  "type": "INSERT",
+  "amb": "wind"
+ },
+ "s01b13": {
+  "shot": "co_vast",
+  "type": "STORY",
+  "amb": "wind",
+  "em": [
+   "more"
+  ]
+ },
+ "s01b14": {
+  "shot": "co_vast",
+  "type": "STORY",
+  "amb": "wind",
+  "em": [
+   "never"
+  ]
+ },
+ "s01b15": {
+  "shot": "co_problem",
+  "type": "HOST",
+  "em": [
+   "one"
+  ]
+ },
+ "s01b16": {
+  "shot": "co_problem",
+  "type": "HOST",
+  "sfx": [
+   [
+    "pop",
+    "w:expanding",
+    0.5
+   ]
+  ]
+ },
+ "s01b17": {
+  "shot": "co_problem",
+  "type": "HOST",
+  "sfx": [
+   [
+    "clang",
+    "w:chained",
+    0.4
+   ]
+  ]
+ },
+ "s01b18": {
+  "shot": "co_problem",
+  "type": "HOST",
+  "em": [
+   "afraid."
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:afraid",
+    0.5
+   ]
+  ]
+ },
+ "s01b19": {
+  "shot": "co_darker",
+  "type": "HOST",
+  "quiet": true,
+  "em": [
+   "darker,"
+  ]
+ },
+ "s01b20": {
+  "shot": "co_scales",
+  "type": "INSERT",
+  "quiet": true
+ },
+ "s01b21": {
+  "shot": "co_scales",
+  "type": "INSERT",
+  "quiet": true,
+  "em": [
+   "spending"
+  ],
+  "sfx": [
+   [
+    "thud",
+    "w:people",
+    0.4
+   ]
+  ]
+ },
+ "s01b22": {
+  "shot": "co_spent",
+  "type": "INSERT",
+  "quiet": true
+ },
+ "s01b23": {
+  "shot": "co_spent",
+  "type": "INSERT",
+  "quiet": true
+ },
+ "s01b24": {
+  "shot": "co_spent",
+  "type": "INSERT",
+  "quiet": true
+ },
+ "s01b25": {
+  "shot": "co_spent",
+  "type": "INSERT",
+  "quiet": true
+ },
+ "s01b26": {
+  "shot": "co_spent",
+  "type": "INSERT",
+  "quiet": true,
+  "em": [
+   "millions"
+  ]
+ },
+ "s01b27": {
+  "shot": "co_tank",
+  "type": "STORY",
+  "em": [
+   "no"
+  ],
+  "sfx": [
+   [
+    "rumble",
+    0,
+    0.4
+   ],
+   [
+    "slam",
+    "w:reach",
+    0.4
+   ]
+  ]
+ },
+ "s01b28": {
+  "shot": "co_birthrate",
+  "type": "INSERT",
+  "em": [
+   "birth"
+  ],
+  "sfx": [
+   [
+    "slide_down",
+    4,
+    0.5
+   ]
+  ]
+ },
+ "s01b29": {
+  "shot": "co_rewind",
+  "type": "INSERT",
+  "sfx": [
+   [
+    "ticks",
+    4,
+    0.4
+   ]
+  ]
+ },
+ "s01b30": {
+  "shot": "co_rewind",
+  "type": "INSERT",
+  "em": [
+   "thousand"
+  ],
+  "sfx": [
+   [
+    "ticks",
+    "w:back",
+    0.4
+   ]
+  ]
+ },
+ "s01b31": {
+  "shot": "co_nowalls",
+  "type": "STORY",
+  "date": 880,
+  "amb": "wind",
+  "em": [
+   "no"
+  ]
+ },
+ "s02b01": {
+  "shot": "c1_lookeast",
+  "type": "HOST",
+  "date": null
+ },
+ "s02b02": {
+  "shot": "map:plain",
+  "type": "INSERT",
+  "date": null
+ },
+ "s02b03": {
+  "shot": "map:plain",
+  "type": "INSERT",
+  "em": [
+   "North",
+   "European",
+   "Plain,"
+  ]
+ },
+ "s02b04": {
+  "shot": "map:plain",
+  "type": "INSERT",
+  "em": [
+   "heart"
+  ]
+ },
+ "s02b05": {
+  "shot": "c1_cross",
+  "type": "STORY",
+  "sfx": [
+   [
+    "drum",
+    4,
+    0.4
+   ]
+  ]
+ },
+ "s02b06": {
+  "shot": "c1_cross",
+  "type": "STORY",
+  "sfx": [
+   [
+    "coins",
+    "w:Traders",
+    0.4
+   ]
+  ]
+ },
+ "s02b07": {
+  "shot": "c1_cross",
+  "type": "STORY",
+  "em": [
+   "invaders"
+  ],
+  "sfx": [
+   [
+    "gallop",
+    0,
+    0.45
+   ]
+  ]
+ },
+ "s02b08": {
+  "shot": "c1_longship",
+  "type": "STORY",
+  "date": 862,
+  "amb": "waves",
+  "em": [
+   "Vikings."
+  ]
+ },
+ "s02b09": {
+  "shot": "map:rivers",
+  "type": "INSERT",
+  "date": 862
+ },
+ "s02b10": {
+  "shot": "map:rivers",
+  "type": "INSERT",
+  "em": [
+   "silver"
+  ],
+  "sfx": [
+   [
+    "coins",
+    "w:silver",
+    0.4
+   ]
+  ]
+ },
+ "s02b11": {
+  "shot": "c1_rus",
+  "type": "STORY",
+  "amb": "waves",
+  "em": [
+   "Rus."
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:Rus",
+    0.5
+   ]
+  ]
+ },
+ "s02b12": {
+  "shot": "c1_tribes",
+  "type": "STORY",
+  "sfx": [
+   [
+    "boing",
+    8,
+    0.3
+   ]
+  ]
+ },
+ "s02b13": {
+  "shot": "c1_tribes",
+  "type": "STORY",
+  "em": [
+   "invitation."
+  ],
+  "sfx": [
+   [
+    "paper",
+    "w:invitation",
+    0.5
+   ]
+  ]
+ },
+ "s02b14": {
+  "shot": "c1_letter",
+  "type": "INSERT",
+  "em": [
+   "great",
+   "rich,"
+  ],
+  "sfx": [
+   [
+    "scribble",
+    2,
+    0.4
+   ]
+  ]
+ },
+ "s02b15": {
+  "shot": "c1_letter",
+  "type": "INSERT",
+  "em": [
+   "rule"
+  ],
+  "sfx": [
+   [
+    "scribble",
+    2,
+    0.4
+   ]
+  ]
+ },
+ "s02b16": {
+  "shot": "c1_debate",
+  "type": "HOST",
+  "date": null
+ },
+ "s02b17": {
+  "shot": "c1_debate",
+  "type": "HOST",
+  "em": [
+   "stuck."
+  ],
+  "sfx": [
+   [
+    "slam",
+    "w:stuck",
+    0.4
+   ]
+  ],
+  "gag": true
+ },
+ "s02b18": {
+  "shot": "map:kievanrus",
+  "type": "INSERT",
+  "date": 900,
+  "em": [
+   "Kievan",
+   "Rus."
+  ]
+ },
+ "s02b19": {
+  "shot": "map:kievanrus",
+  "type": "INSERT"
+ },
+ "s02b20": {
+  "shot": "c1_baptism",
+  "type": "STORY",
+  "date": 988,
+  "em": [
+   "988,"
+  ],
+  "amb": "birds",
+  "sfx": [
+   [
+    "ding",
+    "w:Orthodox",
+    0.4
+   ]
+  ]
+ },
+ "s02b21": {
+  "shot": "c1_byzantium",
+  "type": "INSERT",
+  "em": [
+   "Byzantium"
+  ]
+ },
+ "s02b22": {
+  "shot": "c1_mongols",
+  "type": "STORY",
+  "date": 1237,
+  "em": [
+   "Mongols"
+  ],
+  "amb": "wind",
+  "sfx": [
+   [
+    "gallop",
+    "w:Mongols",
+    0.5
+   ]
+  ]
+ },
+ "s02b23": {
+  "shot": "c1_mongols",
+  "type": "STORY",
+  "em": [
+   "purpose."
+  ],
+  "amb": "wind",
+  "sfx": [
+   [
+    "gallop",
+    0,
+    0.45
+   ]
+  ]
+ },
+ "s02b24": {
+  "shot": "c1_ice",
+  "type": "STORY",
+  "em": [
+   "highways"
+  ],
+  "amb": "wind",
+  "sfx": [
+   [
+    "gallop",
+    0,
+    0.55
+   ]
+  ]
+ },
+ "s02b25": {
+  "shot": "c1_fall",
+  "type": "STORY",
+  "quiet": true,
+  "amb": "wind"
+ },
+ "s02b26": {
+  "shot": "c1_kyiv1240",
+  "type": "INSERT",
+  "date": 1240,
+  "quiet": true,
+  "em": [
+   "Kyiv."
+  ]
+ },
+ "s02b27": {
+  "shot": "c1_traveller",
+  "type": "STORY",
+  "date": 1246,
+  "quiet": true,
+  "amb": "wind"
+ },
+ "s02b28": {
+  "shot": "c1_khan",
+  "type": "STORY",
+  "date": 1250,
+  "em": [
+   "ruled."
+  ],
+  "sfx": [
+   [
+    "drum",
+    "w:ruled",
+    0.5
+   ]
+  ]
+ },
+ "s02b30": {
+  "shot": "c1_khan",
+  "type": "STORY",
+  "em": [
+   "thrones,"
+  ]
+ },
+ "s02b31": {
+  "shot": "c1_khan",
+  "type": "STORY",
+  "em": [
+   "tribute."
+  ],
+  "sfx": [
+   [
+    "coins",
+    "w:tribute",
+    0.5
+   ]
+  ]
+ },
+ "s02b32": {
+  "shot": "c1_moscow",
+  "type": "HOST",
+  "date": null,
+  "em": [
+   "one",
+   "small",
+   "town"
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:town",
+    0.5
+   ]
+  ]
+ },
+ "s03b01": {
+  "shot": "c2_1147",
+  "type": "HOST",
+  "date": 1147,
+  "em": [
+   "1147."
+  ],
+  "sfx": [
+   [
+    "paper",
+    "w:records",
+    0.5
+   ]
+  ]
+ },
+ "s03b02": {
+  "shot": "c2_woodtown",
+  "type": "STORY",
+  "em": [
+   "nothing"
+  ],
+  "amb": "birds"
+ },
+ "s03b03": {
+  "shot": "c2_woodtown",
+  "type": "STORY",
+  "em": [
+   "wooden"
+  ],
+  "amb": "birds"
+ },
+ "s03b04": {
+  "shot": "c2_clever",
+  "type": "HOST",
+  "em": [
+   "clever."
+  ],
+  "sfx": [
+   [
+    "ding",
+    "w:clever",
+    0.5
+   ]
+  ]
+ },
+ "s03b05": {
+  "shot": "c2_kalita",
+  "type": "STORY",
+  "date": 1325,
+  "em": [
+   "trust"
+  ],
+  "sfx": [
+   [
+    "coins",
+    "w:tribute",
+    0.5
+   ]
+  ]
+ },
+ "s03b07": {
+  "shot": "c2_kalita",
+  "type": "STORY",
+  "em": [
+   "share."
+  ],
+  "sfx": [
+   [
+    "kaching",
+    "w:share",
+    0.5
+   ]
+  ]
+ },
+ "s03b08": {
+  "shot": "c2_moneybag",
+  "type": "STORY",
+  "em": [
+   "Kalita."
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:Kalita",
+    0.5
+   ]
+  ],
+  "gag": false
+ },
+ "s03b09": {
+  "shot": "c2_moneybag",
+  "type": "STORY",
+  "em": [
+   "Moneybag."
+  ],
+  "sfx": [
+   [
+    "coins",
+    "w:Moneybag",
+    0.5
+   ]
+  ],
+  "gag": true
+ },
+ "s03b10": {
+  "shot": "c2_influence",
+  "type": "INSERT",
+  "em": [
+   "land,"
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:land",
+    0.4
+   ],
+   [
+    "pop",
+    "w:influence",
+    0.4
+   ]
+  ]
+ },
+ "s03b11": {
+  "shot": "c2_influence",
+  "type": "INSERT",
+  "em": [
+   "Church"
+  ],
+  "sfx": [
+   [
+    "ding",
+    "w:Church",
+    0.4
+   ]
+  ]
+ },
+ "s03b12": {
+  "shot": "c2_working",
+  "type": "HOST",
+  "em": [
+   "defying"
+  ],
+  "sfx": [
+   [
+    "clang",
+    "w:defying",
+    0.3
+   ]
+  ]
+ },
+ "s03b13": {
+  "shot": "c2_working",
+  "type": "HOST",
+  "em": [
+   "working"
+  ],
+  "sfx": [
+   [
+    "coins",
+    "w:working",
+    0.4
+   ]
+  ]
+ },
+ "s03b14": {
+  "shot": "c2_stoppay",
+  "type": "STORY",
+  "date": 1480,
+  "em": [
+   "stopped"
+  ],
+  "sfx": [
+   [
+    "slam",
+    "w:stopped",
+    0.4
+   ]
+  ]
+ },
+ "s03b15": {
+  "shot": "c2_ugra",
+  "type": "STORY",
+  "em": [
+   "Ugra"
+  ],
+  "amb": "wind"
+ },
+ "s03b16": {
+  "shot": "c2_ugra",
+  "type": "STORY",
+  "em": [
+   "Neither"
+  ],
+  "amb": "wind"
+ },
+ "s03b17": {
+  "shot": "c2_ugra",
+  "type": "STORY",
+  "em": [
+   "withdrew."
+  ],
+  "sfx": [
+   [
+    "gallop",
+    "w:withdrew",
+    0.3
+   ]
+  ],
+  "amb": "wind"
+ },
+ "s03b18": {
+  "shot": "c2_ugra",
+  "type": "STORY",
+  "em": [
+   "without"
+  ],
+  "amb": "wind"
+ },
+ "s03b19": {
+  "shot": "c2_eagle",
+  "type": "INSERT",
+  "em": [
+   "double-headed"
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:eagle",
+    0.5
+   ]
+  ]
+ },
+ "s03b20": {
+  "shot": "c2_thirdrome",
+  "type": "INSERT",
+  "date": 1453,
+  "em": [
+   "fell"
+  ],
+  "sfx": [
+   [
+    "thud",
+    "w:fell",
+    0.4
+   ]
+  ]
+ },
+ "s03b21": {
+  "shot": "c2_thirdrome",
+  "type": "INSERT",
+  "em": [
+   "Moscow"
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:Moscow",
+    0.4
+   ]
+  ],
+  "date": 1500
+ },
+ "s03b22": {
+  "shot": "c2_thirdrome",
+  "type": "INSERT",
+  "em": [
+   "Third"
+  ],
+  "sfx": [
+   [
+    "ding",
+    "w:Rome",
+    0.5
+   ]
+  ]
+ },
+ "s03b23": {
+  "shot": "c2_crowned",
+  "type": "STORY",
+  "date": 1547,
+  "em": [
+   "Tsar"
+  ],
+  "sfx": [
+   [
+    "drum",
+    "w:crowned",
+    0.4
+   ]
+  ]
+ },
+ "s03b24": {
+  "shot": "c2_crowned",
+  "type": "STORY",
+  "em": [
+   "Caesar."
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:Caesar",
+    0.5
+   ]
+  ]
+ },
+ "s03b25": {
+  "shot": "c2_terrible",
+  "type": "HOST",
+  "em": [
+   "Terrible."
+  ],
+  "sfx": [
+   [
+    "thud",
+    "w:Terrible",
+    0.4
+   ]
+  ]
+ },
+ "s03b26": {
+  "shot": "c2_terrible",
+  "type": "HOST",
+  "em": [
+   "fearsome."
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:fearsome",
+    0.4
+   ]
+  ]
+ },
+ "s03b27": {
+  "shot": "c2_terrible",
+  "type": "HOST",
+  "em": [
+   "both."
+  ]
+ },
+ "s03b28": {
+  "shot": "c2_terror",
+  "type": "STORY",
+  "date": 1565,
+  "em": [
+   "crushed"
+  ],
+  "quiet": true
+ },
+ "s03b29": {
+  "shot": "c2_terror",
+  "type": "STORY",
+  "em": [
+   "terror"
+  ],
+  "quiet": true
+ },
+ "s03b30": {
+  "shot": "c2_terror",
+  "type": "STORY",
+  "em": [
+   "son"
+  ],
+  "quiet": true,
+  "date": 1581
+ },
+ "s03b31": {
+  "shot": "c2_distance",
+  "type": "HOST",
+  "em": [
+   "walls."
+  ]
+ },
+ "s03b32": {
+  "shot": "c2_distance",
+  "type": "HOST",
+  "em": [
+   "distance."
+  ],
+  "sfx": [
+   [
+    "whoosh",
+    "w:distance",
+    0.4
+   ]
+  ]
+ },
+ "s03b33": {
+  "shot": "map:east",
+  "type": "INSERT",
+  "date": 1552,
+  "em": [
+   "east."
+  ],
+  "sfx": [
+   [
+    "whoosh",
+    "w:east",
+    0.4
+   ]
+  ]
+ },
+ "s03b34": {
+  "shot": "map:east",
+  "type": "INSERT",
+  "em": [
+   "Kazan."
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:Kazan",
+    0.5
+   ]
+  ]
+ },
+ "s03b35": {
+  "shot": "map:east",
+  "type": "INSERT",
+  "sfx": [
+   [
+    "pop",
+    "w:Siberia",
+    0.5
+   ]
+  ],
+  "em": [
+   "Ural"
+  ],
+  "date": 1582
+ },
+ "s03b36": {
+  "shot": "c2_sable",
+  "type": "STORY",
+  "em": [
+   "valuable"
+  ],
+  "amb": "wind"
+ },
+ "s03b37": {
+  "shot": "c2_sable",
+  "type": "STORY",
+  "em": [
+   "sable."
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:sable",
+    0.5
+   ]
+  ],
+  "amb": "wind"
+ },
+ "s03b38": {
+  "shot": "c2_sable",
+  "type": "STORY",
+  "em": [
+   "soft"
+  ],
+  "sfx": [
+   [
+    "coins",
+    "w:gold",
+    0.4
+   ]
+  ],
+  "amb": "wind"
+ },
+ "s03b39": {
+  "shot": "c2_ostrog",
+  "type": "STORY",
+  "em": [
+   "pushed"
+  ],
+  "amb": "wind"
+ },
+ "s03b40": {
+  "shot": "c2_ostrog",
+  "type": "STORY",
+  "em": [
+   "forts,"
+  ],
+  "sfx": [
+   [
+    "thud",
+    "w:forts",
+    0.4
+   ],
+   [
+    "coins",
+    "w:tribute",
+    0.3
+   ]
+  ],
+  "amb": "wind"
+ },
+ "s03b41": {
+  "shot": "map:pacific",
+  "type": "INSERT",
+  "date": 1639,
+  "em": [
+   "Pacific."
+  ],
+  "sfx": [
+   [
+    "ding",
+    "w:Pacific",
+    0.5
+   ]
+  ]
+ },
+ "s03b42": {
+  "shot": "map:pacific",
+  "type": "INSERT",
+  "em": [
+   "continent."
+  ]
+ },
+ "s03b43": {
+  "shot": "c2_catch",
+  "type": "HOST",
+  "em": [
+   "catch."
+  ],
+  "sfx": [
+   [
+    "boing",
+    "w:catch",
+    0.4
+   ]
+  ]
+ },
+ "s03b44": {
+  "shot": "c2_catch",
+  "type": "HOST",
+  "em": [
+   "land"
+  ]
+ },
+ "s03b45": {
+  "shot": "c2_catch",
+  "type": "HOST",
+  "em": [
+   "fix"
+  ]
+ },
+ "s04b01": {
+  "shot": "c3_vanish",
+  "type": "HOST",
+  "date": 1598,
+  "em": [
+   "vanished."
+  ],
+  "sfx": [
+   [
+    "whoosh",
+    "w:vanished",
+    0.4
+   ]
+  ]
+ },
+ "s04b02": {
+  "shot": "c3_volcano",
+  "type": "STORY",
+  "date": 1600,
+  "em": [
+   "volcano"
+  ],
+  "sfx": [
+   [
+    "rumble",
+    "w:volcano",
+    0.5
+   ]
+  ]
+ },
+ "s04b03": {
+  "shot": "c3_volcano",
+  "type": "STORY",
+  "em": [
+   "cooled"
+  ]
+ },
+ "s04b04": {
+  "shot": "c3_famine",
+  "type": "STORY",
+  "date": 1601,
+  "em": [
+   "failed."
+  ],
+  "quiet": true,
+  "amb": "wind"
+ },
+ "s04b05": {
+  "shot": "c3_famine",
+  "type": "STORY",
+  "em": [
+   "millions"
+  ],
+  "quiet": true,
+  "amb": "wind"
+ },
+ "s04b06": {
+  "shot": "c3_troubles",
+  "type": "STORY",
+  "date": 1605,
+  "em": [
+   "died"
+  ]
+ },
+ "s04b07": {
+  "shot": "c3_troubles",
+  "type": "STORY",
+  "em": [
+   "Rival"
+  ],
+  "sfx": [
+   [
+    "clang",
+    "w:fought",
+    0.3
+   ]
+  ]
+ },
+ "s04b08": {
+  "shot": "c3_troubles",
+  "type": "STORY",
+  "em": [
+   "Pretenders"
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:Pretenders",
+    0.4
+   ]
+  ]
+ },
+ "s04b09": {
+  "shot": "c3_troubles",
+  "type": "STORY",
+  "em": [
+   "Foreign"
+  ],
+  "sfx": [
+   [
+    "drum",
+    "w:armies",
+    0.4
+   ]
+  ]
+ },
+ "s04b10": {
+  "shot": "c3_kremlin",
+  "type": "STORY",
+  "date": 1610,
+  "em": [
+   "Kremlin."
+  ],
+  "sfx": [
+   [
+    "thud",
+    "w:occupied",
+    0.4
+   ]
+  ]
+ },
+ "s04b11": {
+  "shot": "c3_minin",
+  "type": "STORY",
+  "date": 1612,
+  "em": [
+   "drove"
+  ],
+  "sfx": [
+   [
+    "drum",
+    "w:volunteer",
+    0.4
+   ]
+  ]
+ },
+ "s04b12": {
+  "shot": "c3_romanov",
+  "type": "STORY",
+  "date": 1613,
+  "em": [
+   "16-year-old,"
+  ],
+  "sfx": [
+   [
+    "drum",
+    "w:Tsar",
+    0.4
+   ]
+  ]
+ },
+ "s04b13": {
+  "shot": "c3_romanov",
+  "type": "STORY",
+  "em": [
+   "300"
+  ],
+  "sfx": [
+   [
+    "ding",
+    "w:300",
+    0.4
+   ]
+  ]
+ },
+ "s04b14": {
+  "shot": "c3_problem",
+  "type": "HOST",
+  "em": [
+   "problem."
+  ],
+  "amb": "birds"
+ },
+ "s04b15": {
+  "shot": "c3_walkaway",
+  "type": "STORY",
+  "em": [
+   "huge"
+  ],
+  "amb": "birds"
+ },
+ "s04b16": {
+  "shot": "c3_walkaway",
+  "type": "STORY",
+  "em": [
+   "walk"
+  ],
+  "sfx": [
+   [
+    "whoosh",
+    "w:forest",
+    0.3
+   ]
+  ],
+  "amb": "birds"
+ },
+ "s04b17": {
+  "shot": "c3_needs",
+  "type": "STORY",
+  "em": [
+   "workers."
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:workers",
+    0.4
+   ]
+  ]
+ },
+ "s04b18": {
+  "shot": "c3_needs",
+  "type": "STORY",
+  "em": [
+   "taxes."
+  ],
+  "sfx": [
+   [
+    "coins",
+    "w:taxes",
+    0.4
+   ]
+  ]
+ },
+ "s04b19": {
+  "shot": "c3_code",
+  "type": "STORY",
+  "date": 1649,
+  "em": [
+   "locked"
+  ],
+  "sfx": [
+   [
+    "clang",
+    "w:locked",
+    0.45
+   ]
+  ]
+ },
+ "s04b20": {
+  "shot": "c3_code",
+  "type": "STORY",
+  "em": [
+   "bound"
+  ],
+  "sfx": [
+   [
+    "clang",
+    "w:bound",
+    0.3
+   ]
+  ]
+ },
+ "s04b21": {
+  "shot": "c3_code",
+  "type": "STORY",
+  "em": [
+   "children."
+  ]
+ },
+ "s04b22": {
+  "shot": "c3_serfdom",
+  "type": "INSERT",
+  "em": [
+   "serfdom,"
+  ],
+  "sfx": [
+   [
+    "scribble",
+    "w:centuries",
+    0.4
+   ]
+  ]
+ },
+ "s04b23": {
+  "shot": "c3_imagine",
+  "type": "STORY",
+  "em": [
+   "Imagine"
+  ],
+  "quiet": true
+ },
+ "s04b24": {
+  "shot": "c3_imagine",
+  "type": "STORY",
+  "em": [
+   "farm"
+  ],
+  "quiet": true
+ },
+ "s04b25": {
+  "shot": "c3_imagine",
+  "type": "STORY",
+  "em": [
+   "labour"
+  ],
+  "quiet": true
+ },
+ "s04b26": {
+  "shot": "c3_imagine",
+  "type": "STORY",
+  "em": [
+   "chains."
+  ],
+  "sfx": [
+   [
+    "clang",
+    "w:chains",
+    0.3
+   ]
+  ],
+  "quiet": true
+ },
+ "s04b27": {
+  "shot": "c3_arith",
+  "type": "HOST",
+  "em": [
+   "cruelty"
+  ]
+ },
+ "s04b28": {
+  "shot": "c3_arith",
+  "type": "HOST",
+  "em": [
+   "arithmetic."
+  ],
+  "sfx": [
+   [
+    "ding",
+    "w:arithmetic",
+    0.4
+   ]
+  ]
+ },
+ "s04b29": {
+  "shot": "c3_arith",
+  "type": "HOST",
+  "em": [
+   "nobody"
+  ]
+ },
+ "s04b30": {
+  "shot": "c3_peter",
+  "type": "STORY",
+  "date": 1689,
+  "em": [
+   "Great."
+  ],
+  "sfx": [
+   [
+    "drum",
+    "w:Peter",
+    0.4
+   ]
+  ]
+ },
+ "s04b31": {
+  "shot": "c3_peter",
+  "type": "STORY",
+  "em": [
+   "enormous"
+  ],
+  "sfx": [
+   [
+    "boing",
+    "w:eight",
+    0.4
+   ]
+  ]
+ },
+ "s04b32": {
+  "shot": "c3_shipyard",
+  "type": "STORY",
+  "date": 1697,
+  "em": [
+   "incognito"
+  ],
+  "sfx": [
+   [
+    "clang",
+    "w:shipyard",
+    0.3
+   ]
+  ]
+ },
+ "s04b33": {
+  "shot": "c3_navy",
+  "type": "STORY",
+  "em": [
+   "navy."
+  ],
+  "sfx": [
+   [
+    "whoosh",
+    "w:navy",
+    0.3
+   ]
+  ],
+  "amb": "waves"
+ },
+ "s04b34": {
+  "shot": "c3_beards",
+  "type": "STORY",
+  "date": 1698,
+  "em": [
+   "Western"
+  ]
+ },
+ "s04b35": {
+  "shot": "c3_beards",
+  "type": "STORY",
+  "em": [
+   "shave"
+  ],
+  "sfx": [
+   [
+    "slide_down",
+    "w:beards",
+    0.5
+   ]
+  ],
+  "gag": true
+ },
+ "s04b36": {
+  "shot": "c3_window",
+  "type": "HOST",
+  "em": [
+   "window"
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:window",
+    0.4
+   ]
+  ]
+ },
+ "s04b37": {
+  "shot": "c3_swamp",
+  "type": "STORY",
+  "date": 1703,
+  "em": [
+   "Baltic"
+  ],
+  "amb": "wind"
+ },
+ "s04b38": {
+  "shot": "c3_swamp",
+  "type": "STORY",
+  "em": [
+   "swamp."
+  ],
+  "sfx": [
+   [
+    "slide_down",
+    "w:swamp",
+    0.4
+   ]
+  ],
+  "amb": "wind"
+ },
+ "s04b39": {
+  "shot": "c3_swamp",
+  "type": "STORY",
+  "em": [
+   "conscripted"
+  ],
+  "amb": "wind",
+  "quiet": true
+ },
+ "s04b40": {
+  "shot": "c3_swamp",
+  "type": "STORY",
+  "em": [
+   "died"
+  ],
+  "amb": "wind",
+  "quiet": true
+ },
+ "s04b41": {
+  "shot": "c3_swamp",
+  "type": "STORY",
+  "amb": "wind"
+ },
+ "s04b42": {
+  "shot": "c3_swamp",
+  "type": "STORY",
+  "em": [
+   "Petersburg."
+  ],
+  "sfx": [
+   [
+    "ding",
+    "w:Petersburg",
+    0.4
+   ]
+  ],
+  "amb": "wind"
+ },
+ "s04b43": {
+  "shot": "c3_pattern",
+  "type": "HOST",
+  "em": [
+   "miniature."
+  ]
+ },
+ "s04b44": {
+  "shot": "c3_pattern",
+  "type": "HOST",
+  "em": [
+   "lives."
+  ]
+ },
+ "s05b01": {
+  "shot": "c4_coup",
+  "type": "HOST",
+  "date": 1762,
+  "em": [
+   "German-born"
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:throne",
+    0.4
+   ]
+  ]
+ },
+ "s05b02": {
+  "shot": "c4_catherine",
+  "type": "STORY",
+  "em": [
+   "Great."
+  ],
+  "sfx": [
+   [
+    "drum",
+    "w:Catherine",
+    0.4
+   ]
+  ]
+ },
+ "s05b03": {
+  "shot": "map:catherine",
+  "type": "INSERT",
+  "date": 1772,
+  "em": [
+   "west"
+  ]
+ },
+ "s05b04": {
+  "shot": "map:catherine",
+  "type": "INSERT",
+  "em": [
+   "Poland."
+  ],
+  "sfx": [
+   [
+    "scribble",
+    "w:carving",
+    0.4
+   ]
+  ]
+ },
+ "s05b05": {
+  "shot": "map:catherine",
+  "type": "INSERT",
+  "em": [
+   "Crimea,"
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:Crimea",
+    0.5
+   ]
+  ],
+  "date": 1783
+ },
+ "s05b06": {
+  "shot": "map:alaska",
+  "type": "INSERT",
+  "date": 1799,
+  "em": [
+   "Alaska."
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:Alaska",
+    0.5
+   ]
+  ]
+ },
+ "s05b07": {
+  "shot": "map:alaska",
+  "type": "INSERT",
+  "em": [
+   "expensive"
+  ]
+ },
+ "s05b08": {
+  "shot": "c4_sale",
+  "type": "STORY",
+  "date": 1867,
+  "em": [
+   "$7.2"
+  ],
+  "sfx": [
+   [
+    "kaching",
+    "w:million",
+    0.5
+   ]
+  ]
+ },
+ "s05b09": {
+  "shot": "c4_sale",
+  "type": "STORY",
+  "em": [
+   "two"
+  ],
+  "sfx": [
+   [
+    "boing",
+    "w:acre",
+    0.5
+   ]
+  ],
+  "gag": true
+ },
+ "s05b10": {
+  "shot": "c4_napoleon",
+  "type": "STORY",
+  "date": 1812,
+  "em": [
+   "Napoleon"
+  ],
+  "sfx": [
+   [
+    "drum",
+    "w:invaded",
+    0.5
+   ]
+  ]
+ },
+ "s05b11": {
+  "shot": "c4_napoleon",
+  "type": "STORY",
+  "em": [
+   "decisive"
+  ],
+  "sfx": [
+   [
+    "ding",
+    "w:battle",
+    0.4
+   ]
+  ]
+ },
+ "s05b12": {
+  "shot": "c4_napoleon",
+  "type": "STORY",
+  "em": [
+   "refused"
+  ],
+  "sfx": [
+   [
+    "boing",
+    "w:refused",
+    0.4
+   ]
+  ]
+ },
+ "s05b13": {
+  "shot": "c4_scorched",
+  "type": "STORY",
+  "em": [
+   "burning"
+  ],
+  "amb": "wind"
+ },
+ "s05b14": {
+  "shot": "map:napoleon",
+  "type": "INSERT",
+  "em": [
+   "deeper"
+  ]
+ },
+ "s05b15": {
+  "shot": "c4_moscow1812",
+  "type": "STORY",
+  "em": [
+   "empty."
+  ],
+  "amb": "wind"
+ },
+ "s05b16": {
+  "shot": "c4_moscow1812",
+  "type": "STORY",
+  "em": [
+   "burning."
+  ],
+  "sfx": [
+   [
+    "rumble",
+    "w:burning",
+    0.4
+   ]
+  ],
+  "amb": "wind"
+ },
+ "s05b17": {
+  "shot": "c4_waiting",
+  "type": "STORY",
+  "em": [
+   "never"
+  ],
+  "sfx": [
+   [
+    "ticks",
+    "w:waited",
+    0.4
+   ]
+  ]
+ },
+ "s05b18": {
+  "shot": "c4_retreat",
+  "type": "STORY",
+  "em": [
+   "main"
+  ],
+  "quiet": true,
+  "amb": "wind"
+ },
+ "s05b19": {
+  "shot": "c4_causes",
+  "type": "INSERT",
+  "em": [
+   "shredded"
+  ],
+  "quiet": true,
+  "amb": "wind"
+ },
+ "s05b20": {
+  "shot": "c4_causes",
+  "type": "INSERT",
+  "em": [
+   "fraction"
+  ],
+  "quiet": true,
+  "amb": "wind"
+ },
+ "s05b21": {
+  "shot": "c4_paris",
+  "type": "STORY",
+  "date": 1814,
+  "em": [
+   "Paris."
+  ],
+  "sfx": [
+   [
+    "drum",
+    "w:marched",
+    0.4
+   ]
+  ]
+ },
+ "s05b22": {
+  "shot": "c4_twist",
+  "type": "HOST",
+  "em": [
+   "cruel"
+  ]
+ },
+ "s05b23": {
+  "shot": "c4_split",
+  "type": "STORY",
+  "date": 1840,
+  "em": [
+   "factories"
+  ],
+  "sfx": [
+   [
+    "whoosh",
+    "w:railways",
+    0.3
+   ]
+  ]
+ },
+ "s05b24": {
+  "shot": "c4_split",
+  "type": "STORY",
+  "em": [
+   "serfs."
+  ]
+ },
+ "s05b25": {
+  "shot": "c4_crimea",
+  "type": "STORY",
+  "date": 1855,
+  "em": [
+   "defeat"
+  ],
+  "sfx": [
+   [
+    "thud",
+    "w:defeat",
+    0.4
+   ]
+  ],
+  "amb": "waves"
+ },
+ "s05b26": {
+  "shot": "c4_emancipation",
+  "type": "STORY",
+  "date": 1861,
+  "em": [
+   "freed"
+  ],
+  "sfx": [
+   [
+    "clang",
+    "w:freed",
+    0.45
+   ]
+  ]
+ },
+ "s05b27": {
+  "shot": "c4_debt",
+  "type": "STORY",
+  "em": [
+   "didn't"
+  ]
+ },
+ "s05b28": {
+  "shot": "c4_debt",
+  "type": "STORY",
+  "em": [
+   "debt"
+  ],
+  "sfx": [
+   [
+    "paper",
+    "w:debt",
+    0.4
+   ]
+  ]
+ },
+ "s05b29": {
+  "shot": "c4_1881",
+  "type": "STORY",
+  "date": 1881,
+  "em": [
+   "assassinated"
+  ],
+  "quiet": true
+ },
+ "s05b30": {
+  "shot": "c4_train",
+  "type": "STORY",
+  "em": [
+   "pushed"
+  ],
+  "sfx": [
+   [
+    "whoosh",
+    0,
+    0.3
+   ]
+  ]
+ },
+ "s05b31": {
+  "shot": "map:railway",
+  "type": "INSERT",
+  "date": 1891,
+  "em": [
+   "Trans-Siberian"
+  ]
+ },
+ "s05b32": {
+  "shot": "map:railway",
+  "type": "INSERT",
+  "em": [
+   "9,000"
+  ],
+  "sfx": [
+   [
+    "ding",
+    "w:Pacific",
+    0.4
+   ]
+  ]
+ },
+ "s05b33": {
+  "shot": "map:railway",
+  "type": "INSERT",
+  "em": [
+   "steel"
+  ],
+  "date": 1916
+ },
+ "s05b34": {
+  "shot": "c4_romanovs",
+  "type": "STORY",
+  "em": [
+   "couldn't"
+  ],
+  "sfx": [
+   [
+    "thud",
+    "w:Romanovs",
+    0.4
+   ]
+  ]
+ },
+ "s06b01": {
+  "shot": "c5_japan",
+  "type": "HOST",
+  "date": 1904,
+  "em": [
+   "easy"
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:Japan",
+    0.4
+   ]
+  ]
+ },
+ "s06b02": {
+  "shot": "c5_tsushima",
+  "type": "STORY",
+  "date": 1905,
+  "em": [
+   "humiliating"
+  ],
+  "sfx": [
+   [
+    "thud",
+    "w:defeat",
+    0.4
+   ]
+  ],
+  "amb": "waves"
+ },
+ "s06b03": {
+  "shot": "c5_tsushima",
+  "type": "STORY",
+  "em": [
+   "first"
+  ],
+  "amb": "waves"
+ },
+ "s06b04": {
+  "shot": "c5_ww1",
+  "type": "STORY",
+  "date": 1914,
+  "em": [
+   "World"
+  ],
+  "sfx": [
+   [
+    "drum",
+    "w:War",
+    0.4
+   ]
+  ],
+  "amb": "wind"
+ },
+ "s06b05": {
+  "shot": "c5_ww1",
+  "type": "STORY",
+  "em": [
+   "without"
+  ],
+  "amb": "wind"
+ },
+ "s06b06": {
+  "shot": "c5_petrograd",
+  "type": "STORY",
+  "date": 1917,
+  "em": [
+   "bread"
+  ],
+  "sfx": [
+   [
+    "drum",
+    "w:riots",
+    0.3
+   ]
+  ]
+ },
+ "s06b07": {
+  "shot": "c5_petrograd",
+  "type": "STORY",
+  "em": [
+   "joined"
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:joined",
+    0.4
+   ]
+  ]
+ },
+ "s06b08": {
+  "shot": "c5_abdicate",
+  "type": "STORY",
+  "em": [
+   "abdicated,"
+  ],
+  "sfx": [
+   [
+    "thud",
+    "w:abdicated",
+    0.4
+   ]
+  ]
+ },
+ "s06b09": {
+  "shot": "c5_lenin",
+  "type": "STORY",
+  "em": [
+   "seized"
+  ],
+  "sfx": [
+   [
+    "drum",
+    "w:seized",
+    0.4
+   ]
+  ]
+ },
+ "s06b10": {
+  "shot": "c5_ipatiev",
+  "type": "STORY",
+  "date": 1918,
+  "quiet": true
+ },
+ "s06b11": {
+  "shot": "c5_civilwar",
+  "type": "INSERT",
+  "date": 1919,
+  "em": [
+   "millions"
+  ],
+  "quiet": true
+ },
+ "s06b12": {
+  "shot": "c5_ussr",
+  "type": "STORY",
+  "date": 1922,
+  "em": [
+   "Soviet"
+  ],
+  "sfx": [
+   [
+    "drum",
+    "w:born",
+    0.4
+   ]
+  ]
+ },
+ "s06b13": {
+  "shot": "c5_stalin",
+  "type": "STORY",
+  "date": 1924,
+  "em": [
+   "Stalin"
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:Stalin",
+    0.4
+   ]
+  ]
+ },
+ "s06b14": {
+  "shot": "c5_industry",
+  "type": "STORY",
+  "date": 1929,
+  "em": [
+   "industrial"
+  ],
+  "sfx": [
+   [
+    "clang",
+    "w:fast",
+    0.4
+   ]
+  ]
+ },
+ "s06b15": {
+  "shot": "c5_industry",
+  "type": "STORY",
+  "em": [
+   "lives."
+  ],
+  "quiet": true
+ },
+ "s06b16": {
+  "shot": "c5_collective",
+  "type": "STORY",
+  "date": 1930,
+  "em": [
+   "seized"
+  ],
+  "quiet": true
+ },
+ "s06b17": {
+  "shot": "map:famine",
+  "type": "INSERT",
+  "date": 1932,
+  "em": [
+   "famine"
+  ],
+  "quiet": true
+ },
+ "s06b18": {
+  "shot": "map:famine",
+  "type": "INSERT",
+  "em": [
+   "Kazakhstan,"
+  ],
+  "quiet": true
+ },
+ "s06b19": {
+  "shot": "c5_terror",
+  "type": "STORY",
+  "date": 1937,
+  "em": [
+   "Terror."
+  ],
+  "quiet": true
+ },
+ "s06b20": {
+  "shot": "c5_terror",
+  "type": "STORY",
+  "em": [
+   "enemies"
+  ],
+  "quiet": true
+ },
+ "s06b21": {
+  "shot": "c5_terror",
+  "type": "STORY",
+  "em": [
+   "shot."
+  ],
+  "quiet": true
+ },
+ "s06b22": {
+  "shot": "c5_gulag",
+  "type": "STORY",
+  "date": 1938,
+  "em": [
+   "Gulag"
+  ],
+  "quiet": true,
+  "amb": "wind"
+ },
+ "s06b23": {
+  "shot": "c5_contra",
+  "type": "HOST",
+  "em": [
+   "contradiction"
+  ],
+  "quiet": true
+ },
+ "s06b24": {
+  "shot": "c5_contra",
+  "type": "HOST",
+  "em": [
+   "too"
+  ],
+  "quiet": true
+ },
+ "s06b25": {
+  "shot": "c5_contra",
+  "type": "HOST",
+  "em": [
+   "destroyed"
+  ],
+  "quiet": true
+ },
+ "s06b26": {
+  "shot": "c5_thinking",
+  "type": "STORY",
+  "date": 1939,
+  "em": [
+   "birth"
+  ]
+ },
+ "s06b27": {
+  "shot": "c5_thinking",
+  "type": "STORY",
+  "em": [
+   "invasion."
+  ],
+  "sfx": [
+   [
+    "drum",
+    "w:invasion",
+    0.4
+   ]
+  ]
+ },
+ "s06b28": {
+  "shot": "c5_june41",
+  "type": "INSERT",
+  "date": 1941,
+  "em": [
+   "June"
+  ],
+  "sfx": [
+   [
+    "thud",
+    "w:came",
+    0.5
+   ]
+  ]
+ },
+ "s07b01": {
+  "shot": "c6_barb",
+  "type": "HOST",
+  "date": 1941,
+  "em": [
+   "Barbarossa."
+  ],
+  "sfx": [
+   [
+    "rumble",
+    "w:launched",
+    0.4
+   ]
+  ]
+ },
+ "s07b02": {
+  "shot": "map:barbarossa",
+  "type": "INSERT",
+  "em": [
+   "three"
+  ],
+  "sfx": [
+   [
+    "rumble",
+    "w:poured",
+    0.4
+   ]
+  ]
+ },
+ "s07b03": {
+  "shot": "map:barbarossa",
+  "type": "INSERT",
+  "em": [
+   "overwhelmed."
+  ]
+ },
+ "s07b04": {
+  "shot": "map:barbarossa",
+  "type": "INSERT",
+  "em": [
+   "encircled."
+  ]
+ },
+ "s07b05": {
+  "shot": "map:barbarossa",
+  "type": "INSERT",
+  "em": [
+   "captured."
+  ]
+ },
+ "s07b06": {
+  "shot": "map:barbarossa",
+  "type": "INSERT",
+  "em": [
+   "Moscow."
+  ],
+  "sfx": [
+   [
+    "thud",
+    "w:Moscow",
+    0.4
+   ]
+  ]
+ },
+ "s07b07": {
+  "shot": "map:barbarossa",
+  "type": "INSERT",
+  "em": [
+   "Leningrad."
+  ],
+  "sfx": [
+   [
+    "thud",
+    "w:Leningrad",
+    0.4
+   ]
+  ]
+ },
+ "s07b08": {
+  "shot": "c6_siege",
+  "type": "STORY",
+  "em": [
+   "872"
+  ],
+  "quiet": true,
+  "amb": "wind"
+ },
+ "s07b09": {
+  "shot": "c6_siege",
+  "type": "STORY",
+  "em": [
+   "Food"
+  ],
+  "quiet": true,
+  "amb": "wind"
+ },
+ "s07b10": {
+  "shot": "c6_siege",
+  "type": "STORY",
+  "em": [
+   "wallpaper"
+  ],
+  "quiet": true,
+  "amb": "wind"
+ },
+ "s07b11": {
+  "shot": "c6_tanya",
+  "type": "STORY",
+  "date": 1941,
+  "em": [
+   "Tanya"
+  ],
+  "quiet": true
+ },
+ "s07b12": {
+  "shot": "c6_tanya",
+  "type": "STORY",
+  "em": [
+   "eleven"
+  ],
+  "quiet": true
+ },
+ "s07b13": {
+  "shot": "c6_tanya",
+  "type": "STORY",
+  "em": [
+   "notebook,"
+  ],
+  "quiet": true
+ },
+ "s07b14": {
+  "shot": "c6_tanya",
+  "type": "STORY",
+  "em": [
+   "deaths"
+  ],
+  "quiet": true
+ },
+ "s07b17": {
+  "shot": "c6_tanya",
+  "type": "STORY",
+  "quiet": true,
+  "date": 1942
+ },
+ "s07b18": {
+  "shot": "c6_tanya",
+  "type": "STORY",
+  "quiet": true
+ },
+ "s07b19": {
+  "shot": "c6_tanya",
+  "type": "STORY",
+  "quiet": true
+ },
+ "s07b20": {
+  "shot": "c6_tanya",
+  "type": "STORY",
+  "em": [
+   "few"
+  ],
+  "quiet": true
+ },
+ "s07b21": {
+  "shot": "c6_tanya",
+  "type": "STORY",
+  "quiet": true,
+  "date": 1944
+ },
+ "s07b22": {
+  "shot": "c6_candles",
+  "type": "INSERT",
+  "date": 1944,
+  "em": [
+   "hundreds"
+  ],
+  "quiet": true
+ },
+ "s07b23": {
+  "shot": "c6_candles",
+  "type": "INSERT",
+  "em": [
+   "million."
+  ],
+  "quiet": true
+ },
+ "s07b24": {
+  "shot": "c6_size",
+  "type": "HOST",
+  "date": 1941,
+  "em": [
+   "size"
+  ]
+ },
+ "s07b25": {
+  "shot": "map:evac",
+  "type": "INSERT",
+  "em": [
+   "dismantled"
+  ],
+  "sfx": [
+   [
+    "whoosh",
+    "w:trains",
+    0.3
+   ]
+  ]
+ },
+ "s07b27": {
+  "shot": "c6_factory",
+  "type": "STORY",
+  "date": 1942,
+  "em": [
+   "Workers"
+  ],
+  "amb": "wind"
+ },
+ "s07b28": {
+  "shot": "c6_factory",
+  "type": "STORY",
+  "em": [
+   "east,"
+  ],
+  "sfx": [
+   [
+    "clang",
+    "w:resumed",
+    0.3
+   ]
+  ],
+  "amb": "wind"
+ },
+ "s07b29": {
+  "shot": "c6_factory",
+  "type": "STORY",
+  "em": [
+   "tanks"
+  ],
+  "sfx": [
+   [
+    "clang",
+    "w:tanks",
+    0.3
+   ]
+  ],
+  "amb": "wind"
+ },
+ "s07b30": {
+  "shot": "c6_stalingrad",
+  "type": "STORY",
+  "date": 1942,
+  "em": [
+   "Stalingrad."
+  ],
+  "sfx": [
+   [
+    "drum",
+    "w:Stalingrad",
+    0.4
+   ]
+  ],
+  "quiet": true
+ },
+ "s07b31": {
+  "shot": "c6_stalingrad",
+  "type": "STORY",
+  "em": [
+   "house"
+  ],
+  "quiet": true
+ },
+ "s07b32": {
+  "shot": "c6_stalingrad",
+  "type": "STORY",
+  "em": [
+   "surrendered."
+  ],
+  "quiet": true,
+  "date": 1943
+ },
+ "s07b33": {
+  "shot": "c6_stalingrad",
+  "type": "STORY",
+  "em": [
+   "tide"
+  ],
+  "sfx": [
+   [
+    "whoosh",
+    "w:turned",
+    0.4
+   ]
+  ],
+  "quiet": true
+ },
+ "s07b34": {
+  "shot": "c6_berlin",
+  "type": "STORY",
+  "date": 1945,
+  "em": [
+   "Berlin."
+  ],
+  "sfx": [
+   [
+    "drum",
+    "w:Berlin",
+    0.4
+   ]
+  ]
+ },
+ "s07b35": {
+  "shot": "c6_cost",
+  "type": "INSERT",
+  "em": [
+   "staggering."
+  ],
+  "quiet": true
+ },
+ "s07b36": {
+  "shot": "c6_cost",
+  "type": "INSERT",
+  "em": [
+   "27"
+  ],
+  "quiet": true
+ },
+ "s07b37": {
+  "shot": "c6_cost",
+  "type": "INSERT",
+  "em": [
+   "More"
+  ],
+  "quiet": true
+ },
+ "s07b38": {
+  "shot": "c6_lesson",
+  "type": "HOST",
+  "em": [
+   "lesson"
+  ]
+ },
+ "s07b39": {
+  "shot": "c6_lesson",
+  "type": "HOST",
+  "em": [
+   "Never"
+  ],
+  "sfx": [
+   [
+    "slam",
+    "w:exposed",
+    0.4
+   ]
+  ]
+ },
+ "s08b01": {
+  "shot": "c7_after",
+  "type": "HOST",
+  "date": 1945,
+  "em": [
+   "Eastern"
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:Europe",
+    0.4
+   ]
+  ]
+ },
+ "s08b02": {
+  "shot": "map:bloc",
+  "type": "INSERT",
+  "date": 1948,
+  "em": [
+   "Poland."
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:Poland",
+    0.4
+   ]
+  ]
+ },
+ "s08b03": {
+  "shot": "map:bloc",
+  "type": "INSERT",
+  "em": [
+   "East"
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:Germany",
+    0.4
+   ]
+  ]
+ },
+ "s08b04": {
+  "shot": "map:bloc",
+  "type": "INSERT",
+  "em": [
+   "Hungary."
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:Hungary",
+    0.4
+   ]
+  ]
+ },
+ "s08b05": {
+  "shot": "map:bloc",
+  "type": "INSERT",
+  "em": [
+   "Romania."
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:Romania",
+    0.4
+   ]
+  ]
+ },
+ "s08b06": {
+  "shot": "map:bloc",
+  "type": "INSERT",
+  "em": [
+   "Bulgaria."
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:Bulgaria",
+    0.4
+   ]
+  ]
+ },
+ "s08b07": {
+  "shot": "map:bloc",
+  "type": "INSERT",
+  "em": [
+   "buffer"
+  ]
+ },
+ "s08b08": {
+  "shot": "c7_twoviews",
+  "type": "INSERT",
+  "em": [
+   "security."
+  ],
+  "sfx": [
+   [
+    "ding",
+    "w:security",
+    0.4
+   ]
+  ]
+ },
+ "s08b09": {
+  "shot": "c7_twoviews",
+  "type": "INSERT",
+  "em": [
+   "repression"
+  ]
+ },
+ "s08b10": {
+  "shot": "c7_super",
+  "type": "STORY",
+  "em": [
+   "worked,"
+  ]
+ },
+ "s08b11": {
+  "shot": "c7_super",
+  "type": "STORY",
+  "em": [
+   "two"
+  ],
+  "sfx": [
+   [
+    "drum",
+    "w:superpowers",
+    0.4
+   ]
+  ]
+ },
+ "s08b12": {
+  "shot": "c7_sputnik",
+  "type": "STORY",
+  "date": 1957,
+  "em": [
+   "Sputnik"
+  ],
+  "sfx": [
+   [
+    "blip",
+    "w:Sputnik",
+    0.5
+   ]
+  ]
+ },
+ "s08b13": {
+  "shot": "c7_gagarin",
+  "type": "STORY",
+  "date": 1961,
+  "em": [
+   "Gagarin"
+  ],
+  "sfx": [
+   [
+    "rumble",
+    "w:orbit",
+    0.4
+   ]
+  ]
+ },
+ "s08b14": {
+  "shot": "c7_gagarin",
+  "type": "STORY",
+  "em": [
+   "century"
+  ],
+  "sfx": [
+   [
+    "ding",
+    "w:century",
+    0.4
+   ]
+  ]
+ },
+ "s08b15": {
+  "shot": "c7_bomba",
+  "type": "INSERT",
+  "em": [
+   "largest"
+  ],
+  "sfx": [
+   [
+    "rumble",
+    "w:detonated",
+    0.5
+   ]
+  ]
+ },
+ "s08b16": {
+  "shot": "c7_economy",
+  "type": "STORY",
+  "date": 1975,
+  "em": [
+   "struggled."
+  ]
+ },
+ "s08b17": {
+  "shot": "c7_economy",
+  "type": "STORY",
+  "em": [
+   "military"
+  ],
+  "sfx": [
+   [
+    "drum",
+    "w:military",
+    0.3
+   ]
+  ]
+ },
+ "s08b18": {
+  "shot": "c7_economy",
+  "type": "STORY",
+  "em": [
+   "Afghanistan,"
+  ],
+  "date": 1979
+ },
+ "s08b19": {
+  "shot": "c7_chernobyl",
+  "type": "STORY",
+  "date": 1986,
+  "em": [
+   "Chernobyl"
+  ],
+  "sfx": [
+   [
+    "thud",
+    "w:exploded",
+    0.4
+   ]
+  ],
+  "quiet": true
+ },
+ "s08b20": {
+  "shot": "c7_chernobyl",
+  "type": "STORY",
+  "em": [
+   "hide"
+  ],
+  "sfx": [
+   [
+    "paper",
+    "w:hide",
+    0.4
+   ]
+  ],
+  "quiet": true
+ },
+ "s08b21": {
+  "shot": "c7_gorby",
+  "type": "STORY",
+  "date": 1987,
+  "em": [
+   "reform"
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:reform",
+    0.4
+   ]
+  ]
+ },
+ "s08b22": {
+  "shot": "c7_gorby",
+  "type": "STORY",
+  "em": [
+   "down."
+  ],
+  "sfx": [
+   [
+    "thud",
+    "w:down",
+    0.4
+   ]
+  ]
+ },
+ "s08b23": {
+  "shot": "c7_flagdown",
+  "type": "STORY",
+  "date": 1991,
+  "em": [
+   "red"
+  ],
+  "sfx": [
+   [
+    "slide_down",
+    "w:down",
+    0.4
+   ]
+  ],
+  "quiet": true
+ },
+ "s08b24": {
+  "shot": "map:breakup",
+  "type": "INSERT",
+  "em": [
+   "Fifteen"
+  ],
+  "sfx": [
+   [
+    "pops",
+    "w:countries",
+    0.4
+   ]
+  ]
+ },
+ "s08b25": {
+  "shot": "map:breakup",
+  "type": "INSERT",
+  "em": [
+   "largest."
+  ],
+  "sfx": [
+   [
+    "ding",
+    "w:largest",
+    0.4
+   ]
+  ]
+ },
+ "s08b26": {
+  "shot": "map:breakup",
+  "type": "INSERT",
+  "em": [
+   "buffer"
+  ]
+ },
+ "s08b27": {
+  "shot": "c7_borders",
+  "type": "STORY",
+  "em": [
+   "25"
+  ]
+ },
+ "s08b28": {
+  "shot": "c7_borders",
+  "type": "STORY",
+  "em": [
+   "hadn't"
+  ]
+ },
+ "s08b29": {
+  "shot": "c7_borders",
+  "type": "STORY",
+  "em": [
+   "borders"
+  ],
+  "sfx": [
+   [
+    "whoosh",
+    "w:borders",
+    0.4
+   ]
+  ]
+ },
+ "s08b30": {
+  "shot": "c7_nineties",
+  "type": "INSERT",
+  "date": 1992,
+  "em": [
+   "brutal."
+  ],
+  "quiet": true
+ },
+ "s08b31": {
+  "shot": "c7_nineties",
+  "type": "INSERT",
+  "em": [
+   "collapsed."
+  ],
+  "sfx": [
+   [
+    "slide_down",
+    "w:collapsed",
+    0.4
+   ]
+  ],
+  "quiet": true
+ },
+ "s08b32": {
+  "shot": "c7_nineties",
+  "type": "INSERT",
+  "em": [
+   "vanished."
+  ],
+  "sfx": [
+   [
+    "whoosh",
+    "w:vanished",
+    0.4
+   ]
+  ],
+  "quiet": true
+ },
+ "s08b33": {
+  "shot": "c7_nineties",
+  "type": "INSERT",
+  "em": [
+   "fell"
+  ],
+  "sfx": [
+   [
+    "slide_down",
+    "w:fell",
+    0.3
+   ]
+  ],
+  "quiet": true
+ },
+ "s08b34": {
+  "shot": "c7_nineties",
+  "type": "INSERT",
+  "em": [
+   "dropped"
+  ],
+  "sfx": [
+   [
+    "slide_down",
+    "w:dropped",
+    0.3
+   ]
+  ],
+  "quiet": true
+ },
+ "s08b35": {
+  "shot": "c7_gap",
+  "type": "INSERT",
+  "em": [
+   "important."
+  ]
+ },
+ "s08b36": {
+  "shot": "c7_gap",
+  "type": "INSERT",
+  "em": [
+   "gap"
+  ]
+ },
+ "s08b37": {
+  "shot": "c7_yeltsin",
+  "type": "STORY",
+  "date": 1999,
+  "em": [
+   "resigned."
+  ],
+  "sfx": [
+   [
+    "thud",
+    "w:resigned",
+    0.4
+   ]
+  ]
+ },
+ "s08b38": {
+  "shot": "c7_yeltsin",
+  "type": "STORY",
+  "em": [
+   "Putin."
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:Putin",
+    0.4
+   ]
+  ]
+ },
+ "s09b01": {
+  "shot": "c8_stability",
+  "type": "HOST",
+  "date": 2000,
+  "em": [
+   "stability."
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:stability",
+    0.4
+   ]
+  ]
+ },
+ "s09b02": {
+  "shot": "c8_recovery",
+  "type": "INSERT",
+  "date": 2003,
+  "em": [
+   "energy"
+  ],
+  "sfx": [
+   [
+    "coins",
+    "w:prices",
+    0.4
+   ]
+  ]
+ },
+ "s09b03": {
+  "shot": "c8_recovery",
+  "type": "INSERT",
+  "em": [
+   "recovered."
+  ],
+  "sfx": [
+   [
+    "ding",
+    "w:recovered",
+    0.4
+   ]
+  ]
+ },
+ "s09b04": {
+  "shot": "c8_recovery",
+  "type": "INSERT",
+  "em": [
+   "centralised."
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:centralised",
+    0.4
+   ]
+  ]
+ },
+ "s09b05": {
+  "shot": "c8_recovery",
+  "type": "INSERT",
+  "em": [
+   "influence"
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:influence",
+    0.4
+   ]
+  ]
+ },
+ "s09b06": {
+  "shot": "c8_quote",
+  "type": "STORY",
+  "date": 2005,
+  "em": [
+   "catastrophe."
+  ],
+  "sfx": [
+   [
+    "paper",
+    "w:called",
+    0.4
+   ]
+  ]
+ },
+ "s09b07": {
+  "shot": "map:nato",
+  "type": "INSERT",
+  "date": 1999,
+  "em": [
+   "western"
+  ]
+ },
+ "s09b08": {
+  "shot": "map:nato",
+  "type": "INSERT",
+  "em": [
+   "NATO."
+  ],
+  "sfx": [
+   [
+    "pops",
+    "w:NATO",
+    0.4
+   ]
+  ],
+  "date": 2004
+ },
+ "s09b09": {
+  "shot": "map:nato",
+  "type": "INSERT",
+  "em": [
+   "disappearing."
+  ]
+ },
+ "s09b10": {
+  "shot": "map:nato",
+  "type": "INSERT",
+  "em": [
+   "choice"
+  ]
+ },
+ "s09b11": {
+  "shot": "map:nato",
+  "type": "INSERT",
+  "em": [
+   "independence."
+  ]
+ },
+ "s09b12": {
+  "shot": "map:crimea",
+  "type": "INSERT",
+  "date": 2014,
+  "em": [
+   "flashpoint."
+  ]
+ },
+ "s09b13": {
+  "shot": "map:crimea",
+  "type": "INSERT",
+  "em": [
+   "annexed"
+  ],
+  "sfx": [
+   [
+    "thud",
+    "w:annexed",
+    0.4
+   ]
+  ]
+ },
+ "s09b14": {
+  "shot": "map:crimea",
+  "type": "INSERT",
+  "em": [
+   "refused"
+  ]
+ },
+ "s09b15": {
+  "shot": "map:invasion",
+  "type": "INSERT",
+  "date": 2022,
+  "em": [
+   "full-scale"
+  ],
+  "sfx": [
+   [
+    "rumble",
+    "w:invasion",
+    0.4
+   ]
+  ],
+  "quiet": true
+ },
+ "s09b16": {
+  "shot": "c8_views",
+  "type": "INSERT",
+  "em": [
+   "NATO"
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:pointed",
+    0.4
+   ]
+  ]
+ },
+ "s09b17": {
+  "shot": "c8_views",
+  "type": "INSERT",
+  "em": [
+   "unprovoked"
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:called",
+    0.4
+   ]
+  ]
+ },
+ "s09b18": {
+  "shot": "c8_views",
+  "type": "INSERT",
+  "em": [
+   "condemned"
+  ],
+  "sfx": [
+   [
+    "paper",
+    "w:condemned",
+    0.4
+   ]
+  ]
+ },
+ "s09b19": {
+  "shot": "c8_largest",
+  "type": "INSERT",
+  "em": [
+   "largest"
+  ],
+  "quiet": true
+ },
+ "s09b20": {
+  "shot": "c8_cities",
+  "type": "STORY",
+  "em": [
+   "flattened."
+  ],
+  "quiet": true,
+  "amb": "wind"
+ },
+ "s09b21": {
+  "shot": "c8_cities",
+  "type": "STORY",
+  "em": [
+   "displaced."
+  ],
+  "quiet": true,
+  "amb": "wind"
+ },
+ "s09b22": {
+  "shot": "c8_losses",
+  "type": "INSERT",
+  "date": 2024,
+  "em": [
+   "enormous."
+  ],
+  "quiet": true
+ },
+ "s09b23": {
+  "shot": "c8_losses",
+  "type": "INSERT",
+  "em": [
+   "million"
+  ],
+  "quiet": true
+ },
+ "s09b24": {
+  "shot": "c8_losses",
+  "type": "INSERT",
+  "em": [
+   "no"
+  ],
+  "quiet": true
+ },
+ "s09b25": {
+  "shot": "map:wagner",
+  "type": "INSERT",
+  "date": 2023,
+  "em": [
+   "revolt"
+  ]
+ },
+ "s09b26": {
+  "shot": "map:kursk",
+  "type": "INSERT",
+  "date": 2024,
+  "em": [
+   "Kursk"
+  ]
+ },
+ "s09b27": {
+  "shot": "map:kursk",
+  "type": "INSERT",
+  "em": [
+   "first"
+  ]
+ },
+ "s09b28": {
+  "shot": "c8_talks",
+  "type": "STORY",
+  "date": 2026,
+  "em": [
+   "still"
+  ]
+ },
+ "s09b29": {
+  "shot": "c8_talks",
+  "type": "STORY",
+  "em": [
+   "stalling."
+  ],
+  "sfx": [
+   [
+    "boing",
+    "w:stalling",
+    0.3
+   ]
+  ]
+ },
+ "s09b30": {
+  "shot": "c8_oldfear",
+  "type": "HOST",
+  "em": [
+   "old"
+  ],
+  "quiet": true
+ },
+ "s09b31": {
+  "shot": "c8_oldfear",
+  "type": "HOST",
+  "em": [
+   "shoot"
+  ],
+  "quiet": true
+ },
+ "s10b01": {
+  "shot": "c9_remember",
+  "type": "HOST",
+  "date": null,
+  "em": [
+   "problem"
+  ]
+ },
+ "s10b02": {
+  "shot": "c9_remember",
+  "type": "HOST",
+  "em": [
+   "land."
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:land",
+    0.4
+   ]
+  ]
+ },
+ "s10b03": {
+  "shot": "c9_remember",
+  "type": "HOST",
+  "em": [
+   "few"
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:few",
+    0.4
+   ]
+  ]
+ },
+ "s10b04": {
+  "shot": "c9_expand",
+  "type": "INSERT",
+  "em": [
+   "expand,"
+  ],
+  "sfx": [
+   [
+    "whoosh",
+    "w:expand",
+    0.4
+   ]
+  ]
+ },
+ "s10b05": {
+  "shot": "c9_spent",
+  "type": "INSERT",
+  "em": [
+   "spent"
+  ],
+  "quiet": true
+ },
+ "s10b06": {
+  "shot": "c9_spent",
+  "type": "INSERT",
+  "em": [
+   "Serfs."
+  ],
+  "quiet": true
+ },
+ "s10b07": {
+  "shot": "c9_spent",
+  "type": "INSERT",
+  "em": [
+   "Peasants."
+  ],
+  "quiet": true
+ },
+ "s10b08": {
+  "shot": "c9_spent",
+  "type": "INSERT",
+  "em": [
+   "Prisoners."
+  ],
+  "quiet": true
+ },
+ "s10b09": {
+  "shot": "c9_spent",
+  "type": "INSERT",
+  "em": [
+   "Soldiers."
+  ],
+  "quiet": true
+ },
+ "s10b10": {
+  "shot": "c9_cradle",
+  "type": "STORY",
+  "date": 2025,
+  "em": [
+   "can't"
+  ],
+  "sfx": [
+   [
+    "rumble",
+    0,
+    0.3
+   ]
+  ],
+  "quiet": true
+ },
+ "s10b11": {
+  "shot": "c9_cradle",
+  "type": "STORY",
+  "em": [
+   "again."
+  ],
+  "sfx": [
+   [
+    "slam",
+    "w:again",
+    0.3
+   ]
+  ],
+  "quiet": true
+ },
+ "s10b12": {
+  "shot": "c9_popline",
+  "type": "INSERT",
+  "em": [
+   "148.7"
+  ],
+  "sfx": [
+   [
+    "ding",
+    "w:1991",
+    0.4
+   ]
+  ]
+ },
+ "s10b13": {
+  "shot": "c9_popline",
+  "type": "INSERT",
+  "em": [
+   "falling."
+  ],
+  "sfx": [
+   [
+    "slide_down",
+    "w:falling",
+    0.4
+   ]
+  ]
+ },
+ "s10b14": {
+  "shot": "c9_births",
+  "type": "INSERT",
+  "date": 2024,
+  "em": [
+   "1.22"
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:births",
+    0.4
+   ]
+  ]
+ },
+ "s10b15": {
+  "shot": "c9_births",
+  "type": "INSERT",
+  "em": [
+   "fewest"
+  ],
+  "sfx": [
+   [
+    "thud",
+    "w:fewest",
+    0.4
+   ]
+  ]
+ },
+ "s10b16": {
+  "shot": "c9_births",
+  "type": "INSERT",
+  "em": [
+   "worse."
+  ],
+  "date": 2025
+ },
+ "s10b17": {
+  "shot": "c9_births",
+  "type": "INSERT",
+  "em": [
+   "two"
+  ],
+  "sfx": [
+   [
+    "thud",
+    "w:centuries",
+    0.4
+   ]
+  ]
+ },
+ "s10b18": {
+  "shot": "c9_fertility",
+  "type": "INSERT",
+  "em": [
+   "1.4"
+  ],
+  "sfx": [
+   [
+    "pops",
+    "w:1.4",
+    0.4
+   ]
+  ]
+ },
+ "s10b19": {
+  "shot": "c9_fertility",
+  "type": "INSERT",
+  "em": [
+   "2.1"
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:2.1",
+    0.4
+   ]
+  ]
+ },
+ "s10b20": {
+  "shot": "c9_pyramid",
+  "type": "INSERT",
+  "em": [
+   "gap"
+  ]
+ },
+ "s10b21": {
+  "shot": "c9_pyramid",
+  "type": "INSERT",
+  "em": [
+   "fewer"
+  ]
+ },
+ "s10b22": {
+  "shot": "c9_leaving",
+  "type": "STORY",
+  "em": [
+   "emigration."
+  ],
+  "quiet": true
+ },
+ "s10b23": {
+  "shot": "c9_forecast",
+  "type": "INSERT",
+  "em": [
+   "130"
+  ],
+  "sfx": [
+   [
+    "slide_down",
+    "w:fall",
+    0.4
+   ]
+  ]
+ },
+ "s10b24": {
+  "shot": "c9_forecast",
+  "type": "INSERT",
+  "em": [
+   "1897."
+  ],
+  "sfx": [
+   [
+    "ding",
+    "w:1897",
+    0.4
+   ]
+  ]
+ },
+ "s10b25": {
+  "shot": "c9_policy",
+  "type": "STORY",
+  "em": [
+   "noticed."
+  ]
+ },
+ "s10b26": {
+  "shot": "c9_policy",
+  "type": "STORY",
+  "em": [
+   "traditional"
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:values",
+    0.4
+   ],
+   [
+    "pop",
+    "w:abortion",
+    0.4
+   ]
+  ]
+ },
+ "s10b27": {
+  "shot": "c9_policy",
+  "type": "STORY",
+  "em": [
+   "payments"
+  ],
+  "sfx": [
+   [
+    "coins",
+    "w:payments",
+    0.4
+   ]
+  ]
+ },
+ "s10b28": {
+  "shot": "c9_stopped",
+  "type": "INSERT",
+  "em": [
+   "dropping."
+  ],
+  "sfx": [
+   [
+    "slide_down",
+    "w:dropping",
+    0.4
+   ]
+  ]
+ },
+ "s10b29": {
+  "shot": "c9_stopped",
+  "type": "INSERT",
+  "em": [
+   "stopped"
+  ],
+  "sfx": [
+   [
+    "paper",
+    "w:stopped",
+    0.4
+   ]
+  ]
+ },
+ "s10b30": {
+  "shot": "map:fareast",
+  "type": "INSERT",
+  "em": [
+   "east."
+  ],
+  "amb": "wind"
+ },
+ "s10b31": {
+  "shot": "map:fareast",
+  "type": "INSERT",
+  "em": [
+   "four"
+  ],
+  "amb": "wind"
+ },
+ "s10b32": {
+  "shot": "map:fareast",
+  "type": "INSERT",
+  "em": [
+   "resources"
+  ],
+  "amb": "wind"
+ },
+ "s10b33": {
+  "shot": "map:fareast",
+  "type": "INSERT",
+  "em": [
+   "losing"
+  ],
+  "amb": "wind"
+ },
+ "s10b34": {
+  "shot": "c9_door",
+  "type": "HOST",
+  "em": [
+   "appetite"
+  ]
+ },
+ "s10b35": {
+  "shot": "c9_door",
+  "type": "HOST",
+  "em": [
+   "immigration."
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:immigration",
+    0.4
+   ]
+  ]
+ },
+ "s11b01": {
+  "shot": "c10_chronicle",
+  "type": "INSERT",
+  "date": null,
+  "em": [
+   "chronicle,"
+  ],
+  "sfx": [
+   [
+    "paper",
+    "w:chronicle",
+    0.4
+   ]
+  ]
+ },
+ "s11b02": {
+  "shot": "c10_chronicle",
+  "type": "INSERT",
+  "em": [
+   "great"
+  ]
+ },
+ "s11b03": {
+  "shot": "c10_half",
+  "type": "HOST",
+  "em": [
+   "first"
+  ],
+  "sfx": [
+   [
+    "ding",
+    "w:holds",
+    0.4
+   ]
+  ]
+ },
+ "s11b04": {
+  "shot": "c10_half",
+  "type": "HOST",
+  "em": [
+   "great"
+  ]
+ },
+ "s11b05": {
+  "shot": "map:final",
+  "type": "INSERT",
+  "em": [
+   "largest"
+  ]
+ },
+ "s11b06": {
+  "shot": "c10_survived",
+  "type": "INSERT",
+  "em": [
+   "Mongols."
+  ],
+  "sfx": [
+   [
+    "thud",
+    "w:Mongols",
+    0.4
+   ]
+  ]
+ },
+ "s11b07": {
+  "shot": "c10_survived",
+  "type": "INSERT",
+  "em": [
+   "Poles."
+  ],
+  "sfx": [
+   [
+    "thud",
+    "w:Poles",
+    0.4
+   ]
+  ]
+ },
+ "s11b08": {
+  "shot": "c10_survived",
+  "type": "INSERT",
+  "em": [
+   "Napoleon."
+  ],
+  "sfx": [
+   [
+    "thud",
+    "w:Napoleon",
+    0.4
+   ]
+  ]
+ },
+ "s11b09": {
+  "shot": "c10_survived",
+  "type": "INSERT",
+  "em": [
+   "Hitler."
+  ],
+  "sfx": [
+   [
+    "thud",
+    "w:Hitler",
+    0.4
+   ]
+  ]
+ },
+ "s11b10": {
+  "shot": "c10_problem",
+  "type": "HOST",
+  "em": [
+   "never"
+  ]
+ },
+ "s11b11": {
+  "shot": "c10_problem",
+  "type": "HOST",
+  "em": [
+   "enough"
+  ]
+ },
+ "s11b12": {
+  "shot": "c10_problem",
+  "type": "HOST",
+  "em": [
+   "cheapest"
+  ]
+ },
+ "s11b13": {
+  "shot": "c10_quiet",
+  "type": "STORY",
+  "em": [
+   "No"
+  ],
+  "quiet": true,
+  "amb": "wind"
+ },
+ "s11b15": {
+  "shot": "c10_quiet",
+  "type": "STORY",
+  "em": [
+   "quieter."
+  ],
+  "quiet": true,
+  "amb": "wind"
+ },
+ "s11b16": {
+  "shot": "c10_replace",
+  "type": "INSERT",
+  "em": [
+   "moved."
+  ],
+  "sfx": [
+   [
+    "whoosh",
+    "w:moved",
+    0.3
+   ]
+  ]
+ },
+ "s11b17": {
+  "shot": "c10_replace",
+  "type": "INSERT",
+  "em": [
+   "taken."
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:taken",
+    0.3
+   ]
+  ]
+ },
+ "s11b18": {
+  "shot": "c10_replace",
+  "type": "INSERT",
+  "em": [
+   "rebuilt."
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:rebuilt",
+    0.3
+   ]
+  ]
+ },
+ "s11b19": {
+  "shot": "c10_replace",
+  "type": "INSERT",
+  "em": [
+   "generations"
+  ]
+ },
+ "s11b20": {
+  "shot": "c10_who",
+  "type": "STORY",
+  "em": [
+   "land."
+  ],
+  "quiet": true,
+  "amb": "wind"
+ },
+ "s11b21": {
+  "shot": "c10_who",
+  "type": "STORY",
+  "em": [
+   "who"
+  ],
+  "quiet": true,
+  "amb": "wind"
+ },
+ "s11b22": {
+  "shot": "c10_subscribe",
+  "type": "HOST",
+  "em": [
+   "Subscribe"
+  ],
+  "sfx": [
+   [
+    "pop",
+    "w:Subscribe",
+    0.4
+   ]
+  ]
+ },
+ "s11b23": {
+  "shot": "c10_subscribe",
+  "type": "HOST",
+  "em": [
+   "next?"
+  ]
+ }
+}

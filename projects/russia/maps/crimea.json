@@ -1,0 +1,57 @@
+{
+ "style": "documentary-dark",
+ "labels": "none",
+ "start": {
+  "lon": 33.5,
+  "lat": 47.5,
+  "zoom": 6.6
+ },
+ "items": [
+  {
+   "region": "ukr",
+   "at": "w:Ukraine",
+   "color": "#c9a24a"
+  },
+  {
+   "pin": "Kyiv",
+   "ll": [
+    30.52,
+    50.45
+   ],
+   "style": "star",
+   "color": "#FFD84A",
+   "at": "w:flashpoint",
+   "label": 20
+  },
+  {
+   "effect": "control-zone",
+   "ll": [
+    34.1,
+    45.2
+   ],
+   "at": "w:annexed",
+   "size": 55,
+   "color": "#e8533e"
+  },
+  {
+   "text": "Crimea, 2014",
+   "ll": [
+    34.1,
+    44.0
+   ],
+   "at": "w:annexed",
+   "size": 22,
+   "color": "#e8533e"
+  },
+  {
+   "text": "not recognised by most countries",
+   "ll": [
+    34,
+    42.6
+   ],
+   "at": "w:refused",
+   "size": 20,
+   "color": "#F4ECD8"
+  }
+ ]
+}

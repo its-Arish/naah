@@ -1,0 +1,37 @@
+{
+ "style": "documentary-dark",
+ "labels": "none",
+ "start": {
+  "lon": 60,
+  "lat": 35,
+  "zoom": 1.1
+ },
+ "moves": [
+  {
+   "at": 0.3,
+   "dur": 2.4,
+   "to": {
+    "lon": 98,
+    "lat": 60,
+    "zoom": 1.75
+   }
+  }
+ ],
+ "items": [
+  {
+   "region": "russia",
+   "at": 0,
+   "color": "#e8533e"
+  },
+  {
+   "text": "still the largest country on Earth",
+   "ll": [
+    96,
+    63
+   ],
+   "at": "w:largest",
+   "size": 36,
+   "color": "#FFD84A"
+  }
+ ]
+}

@@ -1,0 +1,182 @@
+{
+ "title": "Narrator Moves Demo",
+ "sections": [
+  {
+   "title": "Screen Puller",
+   "card": false,
+   "beats": [
+    {
+     "id": "p1",
+     "shot": "mv_puller",
+     "type": "HOST",
+     "text": "Here's the *map* we just saw.",
+     "hold": 2.6,
+     "quiet": true
+    },
+    {
+     "id": "p2",
+     "shot": "mv_puller",
+     "type": "HOST",
+     "text": "Let me *pull* down the next one.",
+     "hold": 4.6,
+     "quiet": true,
+     "sfx": [
+      [
+       "swish",
+       8,
+       0.5
+      ],
+      [
+       "tick",
+       18,
+       0.7
+      ],
+      [
+       "slide_down",
+       22,
+       0.7
+      ],
+      [
+       "thud",
+       46,
+       0.4
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Reaction Drop",
+   "card": false,
+   "beats": [
+    {
+     "id": "r1",
+     "shot": "mv_drop",
+     "type": "HOST",
+     "text": "Russia covers *seventeen* million square kilometres.",
+     "hold": 3.6,
+     "quiet": true,
+     "sfx": [
+      [
+       "pop",
+       20,
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "r2",
+     "shot": "mv_drop",
+     "type": "HOST",
+     "text": "And only *146 million* people live there.",
+     "hold": 3.2,
+     "quiet": true,
+     "sfx": [
+      [
+       "pop",
+       "w:people",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "r3",
+     "shot": "mv_drop",
+     "type": "HOST",
+     "text": "Wait… *what?*",
+     "hold": 3.4,
+     "gag": true,
+     "quiet": true,
+     "sfx": [
+      [
+       "clang",
+       26,
+       0.8
+      ],
+      [
+       "clang",
+       37,
+       0.3
+      ],
+      [
+       "swish",
+       52,
+       0.3
+      ],
+      [
+       "boing",
+       66,
+       0.45
+      ],
+      [
+       "pop",
+       84,
+       0.4
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Crack",
+   "card": false,
+   "beats": [
+    {
+     "id": "c1",
+     "shot": "mv_crack",
+     "type": "HOST",
+     "text": "And *that* is the end of chapter one.",
+     "hold": 4.2,
+     "quiet": true,
+     "sfx": [
+      [
+       "swish",
+       66,
+       0.7
+      ],
+      [
+       "whoosh",
+       70,
+       0.6
+      ],
+      [
+       "impact",
+       79,
+       0.9
+      ],
+      [
+       "crack",
+       80,
+       0.8
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Chapter 2: Where the Staff Lands",
+   "beats": [
+    {
+     "id": "n1",
+     "shot": "mv_catch",
+     "type": "HOST",
+     "text": "Welcome to chapter *two*.",
+     "hold": 3.2,
+     "quiet": true,
+     "sfx": [
+      [
+       "whoosh",
+       6,
+       0.5
+      ],
+      [
+       "pop",
+       24,
+       0.6
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,496 @@
+{
+ "title": "Chapter 3: The Chains",
+ "sections": [
+  {
+   "title": "Chapter 3: The Chains",
+   "beats": [
+    {
+     "id": "s04b01",
+     "type": "HOST",
+     "text": "But first, Russia nearly *vanished*.",
+     "shot": "c3_vanish",
+     "date": 1598,
+     "sfx": [
+      [
+       "whoosh",
+       "w:vanished",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s04b02",
+     "type": "STORY",
+     "text": "In 1600, a *volcano* erupted in Peru.",
+     "shot": "c3_volcano",
+     "date": 1600,
+     "sfx": [
+      [
+       "rumble",
+       "w:volcano",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s04b03",
+     "type": "STORY",
+     "text": "It threw ash and sulphur into the sky and *cooled* the climate around the world.",
+     "shot": "c3_volcano"
+    },
+    {
+     "id": "s04b04",
+     "type": "STORY",
+     "text": "In Russia, harvests *failed*.",
+     "shot": "c3_famine",
+     "date": 1601,
+     "quiet": true,
+     "amb": "wind"
+    },
+    {
+     "id": "s04b05",
+     "type": "STORY",
+     "text": "Famine spread for years, and *millions* died.",
+     "shot": "c3_famine",
+     "quiet": true,
+     "amb": "wind"
+    },
+    {
+     "id": "s04b06",
+     "type": "STORY",
+     "text": "The ruling dynasty had also *died* out.",
+     "shot": "c3_troubles",
+     "date": 1605
+    },
+    {
+     "id": "s04b07",
+     "type": "STORY",
+     "text": "*Rival* nobles fought for the throne.",
+     "shot": "c3_troubles",
+     "sfx": [
+      [
+       "clang",
+       "w:fought",
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s04b08",
+     "type": "STORY",
+     "text": "*Pretenders* appeared.",
+     "shot": "c3_troubles",
+     "sfx": [
+      [
+       "pop",
+       "w:Pretenders",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s04b09",
+     "type": "STORY",
+     "text": "*Foreign* armies saw their chance.",
+     "shot": "c3_troubles",
+     "sfx": [
+      [
+       "drum",
+       "w:armies",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s04b10",
+     "type": "STORY",
+     "text": "In 1610, Polish troops occupied the *Kremlin*.",
+     "shot": "c3_kremlin",
+     "date": 1610,
+     "sfx": [
+      [
+       "thud",
+       "w:occupied",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s04b11",
+     "type": "STORY",
+     "text": "A volunteer army led by a merchant and a prince *drove* them out in 1612.",
+     "shot": "c3_minin",
+     "date": 1612,
+     "sfx": [
+      [
+       "drum",
+       "w:volunteer",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s04b12",
+     "type": "STORY",
+     "text": "The next year, a national assembly chose a *16-year-old*, Michael Romanov, as Tsar.",
+     "shot": "c3_romanov",
+     "date": 1613,
+     "sfx": [
+      [
+       "drum",
+       "w:Tsar",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s04b13",
+     "type": "STORY",
+     "text": "His family would rule for more than *300* years.",
+     "shot": "c3_romanov",
+     "sfx": [
+      [
+       "ding",
+       "w:300",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s04b14",
+     "type": "HOST",
+     "text": "Now the new dynasty faced a *problem*.",
+     "shot": "c3_problem",
+     "amb": "birds"
+    },
+    {
+     "id": "s04b15",
+     "type": "STORY",
+     "text": "Russia had *huge* land and little labour.",
+     "shot": "c3_walkaway",
+     "amb": "birds"
+    },
+    {
+     "id": "s04b16",
+     "type": "STORY",
+     "text": "And a peasant who'd had enough could simply *walk* away into the forest.",
+     "shot": "c3_walkaway",
+     "sfx": [
+      [
+       "whoosh",
+       "w:forest",
+       0.3
+      ]
+     ],
+     "amb": "birds"
+    },
+    {
+     "id": "s04b17",
+     "type": "STORY",
+     "text": "Landowners needed *workers*.",
+     "shot": "c3_needs",
+     "sfx": [
+      [
+       "pop",
+       "w:workers",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s04b18",
+     "type": "STORY",
+     "text": "The state needed *taxes*.",
+     "shot": "c3_needs",
+     "sfx": [
+      [
+       "coins",
+       "w:taxes",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s04b19",
+     "type": "STORY",
+     "text": "So in 1649, a new legal code *locked* the peasants in place.",
+     "shot": "c3_code",
+     "date": 1649,
+     "sfx": [
+      [
+       "clang",
+       "w:locked",
+       0.45
+      ]
+     ]
+    },
+    {
+     "id": "s04b20",
+     "type": "STORY",
+     "text": "Over time, they became *bound* to their landlords' estates.",
+     "shot": "c3_code",
+     "sfx": [
+      [
+       "clang",
+       "w:bound",
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s04b21",
+     "type": "STORY",
+     "text": "And so did their *children*.",
+     "shot": "c3_code"
+    },
+    {
+     "id": "s04b22",
+     "type": "INSERT",
+     "text": "This was *serfdom*, and it lasted for more than two centuries.",
+     "shot": "c3_serfdom",
+     "sfx": [
+      [
+       "scribble",
+       "w:centuries",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s04b23",
+     "type": "STORY",
+     "text": "*Imagine* being born into it.",
+     "shot": "c3_imagine",
+     "quiet": true
+    },
+    {
+     "id": "s04b24",
+     "type": "STORY",
+     "text": "Your *farm* isn't yours.",
+     "shot": "c3_imagine",
+     "quiet": true
+    },
+    {
+     "id": "s04b25",
+     "type": "STORY",
+     "text": "Your *labour* isn't yours.",
+     "shot": "c3_imagine",
+     "quiet": true
+    },
+    {
+     "id": "s04b26",
+     "type": "STORY",
+     "text": "Your children inherit your *chains*.",
+     "shot": "c3_imagine",
+     "sfx": [
+      [
+       "clang",
+       "w:chains",
+       0.3
+      ]
+     ],
+     "quiet": true
+    },
+    {
+     "id": "s04i01",
+     "text": "Bill number one: the *serfs*. Paid in full… for two hundred years.",
+     "shot": "in_receipt",
+     "type": "INSERT",
+     "sfx": [
+      [
+       "paper",
+       2,
+       0.4
+      ]
+     ],
+     "quiet": true
+    },
+    {
+     "id": "s04b27",
+     "type": "HOST",
+     "text": "And the reason isn't *cruelty* for its own sake.",
+     "shot": "c3_arith"
+    },
+    {
+     "id": "s04b28",
+     "type": "HOST",
+     "text": "It's *arithmetic*.",
+     "shot": "c3_arith",
+     "sfx": [
+      [
+       "ding",
+       "w:arithmetic",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s04b29",
+     "type": "HOST",
+     "text": "Russia was too big and too empty, and the state's answer was to make sure *nobody* left.",
+     "shot": "c3_arith"
+    },
+    {
+     "id": "s04b30",
+     "type": "STORY",
+     "text": "Then came Peter the *Great*.",
+     "shot": "c3_peter",
+     "date": 1689,
+     "sfx": [
+      [
+       "drum",
+       "w:Peter",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s04b31",
+     "type": "STORY",
+     "text": "An *enormous* man, around six feet eight, with an enormous appetite for change.",
+     "shot": "c3_peter",
+     "sfx": [
+      [
+       "boing",
+       "w:eight",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s04b32",
+     "type": "STORY",
+     "text": "In 1697, he toured Europe *incognito* and worked in a Dutch shipyard to learn shipbuilding himself.",
+     "shot": "c3_shipyard",
+     "date": 1697,
+     "sfx": [
+      [
+       "clang",
+       "w:shipyard",
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s04b33",
+     "type": "STORY",
+     "text": "He came home to rebuild the army and *navy*.",
+     "shot": "c3_navy",
+     "sfx": [
+      [
+       "whoosh",
+       "w:navy",
+       0.3
+      ]
+     ],
+     "amb": "waves"
+    },
+    {
+     "id": "s04b34",
+     "type": "STORY",
+     "text": "He forced Russia's elite to adopt *Western* ways,",
+     "shot": "c3_beards",
+     "date": 1698
+    },
+    {
+     "id": "s04b35",
+     "type": "STORY",
+     "text": "even ordering nobles to *shave* their beards.",
+     "shot": "c3_beards",
+     "sfx": [
+      [
+       "slide_down",
+       "w:beards",
+       0.5
+      ]
+     ],
+     "gag": true
+    },
+    {
+     "id": "s04b36",
+     "type": "HOST",
+     "text": "He also wanted a *window* onto the sea.",
+     "shot": "c3_window",
+     "sfx": [
+      [
+       "pop",
+       "w:window",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s04b37",
+     "type": "STORY",
+     "text": "In 1703, he began building a new capital on the *Baltic* coast.",
+     "shot": "c3_swamp",
+     "date": 1703,
+     "amb": "wind"
+    },
+    {
+     "id": "s04b38",
+     "type": "STORY",
+     "text": "On a *swamp*.",
+     "shot": "c3_swamp",
+     "sfx": [
+      [
+       "slide_down",
+       "w:swamp",
+       0.4
+      ]
+     ],
+     "amb": "wind"
+    },
+    {
+     "id": "s04b39",
+     "type": "STORY",
+     "text": "Tens of thousands of *conscripted* labourers worked on it,",
+     "shot": "c3_swamp",
+     "amb": "wind",
+     "quiet": true
+    },
+    {
+     "id": "s04b40",
+     "type": "STORY",
+     "text": "and many *died* of disease and exhaustion.",
+     "shot": "c3_swamp",
+     "amb": "wind",
+     "quiet": true
+    },
+    {
+     "id": "s04b41",
+     "type": "STORY",
+     "text": "The city that rose was St.",
+     "shot": "c3_swamp",
+     "amb": "wind"
+    },
+    {
+     "id": "s04b42",
+     "type": "STORY",
+     "text": "*Petersburg*.",
+     "shot": "c3_swamp",
+     "sfx": [
+      [
+       "ding",
+       "w:Petersburg",
+       0.4
+      ]
+     ],
+     "amb": "wind"
+    },
+    {
+     "id": "s04b43",
+     "type": "HOST",
+     "text": "It was Russia's pattern in *miniature*.",
+     "shot": "c3_pattern"
+    },
+    {
+     "id": "s04b44",
+     "type": "HOST",
+     "text": "A glittering result, paid for with human *lives*.",
+     "shot": "c3_pattern"
+    }
+   ]
+  }
+ ]
+}

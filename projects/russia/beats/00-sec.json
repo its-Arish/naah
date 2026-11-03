@@ -1,0 +1,391 @@
+{
+ "title": "Cold Open",
+ "sections": [
+  {
+   "title": "Cold Open",
+   "card": false,
+   "beats": [
+    {
+     "id": "s00i01",
+     "text": "On September 30th, Russia sent NATO a *warning*:",
+     "shot": "map:kalin",
+     "type": "INSERT",
+     "date": 2026
+    },
+    {
+     "id": "s00i02",
+     "text": "try to cut off Kaliningrad, and Moscow could use *nuclear* weapons.",
+     "shot": "map:kalin",
+     "type": "INSERT",
+     "sfx": [
+      [
+       "tech_hit",
+       "w:nuclear",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "s00i03",
+     "text": "NATO says *no* blockade is planned.",
+     "shot": "map:kalin",
+     "type": "INSERT"
+    },
+    {
+     "id": "s00i04",
+     "text": "So why would the *biggest* country on Earth threaten nuclear war",
+     "shot": "in_ratio",
+     "type": "INSERT",
+     "sfx": [
+      [
+       "tech_fill",
+       4,
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s00i05",
+     "text": "over a piece of land less than *one-thousandth* of its size?",
+     "shot": "in_ratio",
+     "type": "INSERT",
+     "sfx": [
+      [
+       "tech_chime",
+       "w:one-thousandth",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s00i06",
+     "text": "Because Russia has been afraid of the same thing for *eight* hundred years.",
+     "shot": "in_fear",
+     "type": "HOST"
+    },
+    {
+     "id": "s00i07",
+     "text": "And stay to the end,",
+     "shot": "in_promise",
+     "type": "HOST"
+    },
+    {
+     "id": "s00i08",
+     "text": "because there's one set of numbers the Kremlin quietly *stopped* publishing…",
+     "shot": "in_promise",
+     "type": "HOST",
+     "sfx": [
+      [
+       "paper",
+       "w:stopped",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s00i09",
+     "text": "that may *scare* it even more.",
+     "shot": "in_promise",
+     "type": "HOST",
+     "sfx": [
+      [
+       "boing",
+       "w:more",
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s01b01",
+     "type": "HOST",
+     "text": "Look at Russia on a map.",
+     "shot": "co_look",
+     "date": null,
+     "sfx": [
+      [
+       "pop",
+       "w:map",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s01b02",
+     "type": "INSERT",
+     "text": "It barely looks real.",
+     "shot": "map:size",
+     "date": null
+    },
+    {
+     "id": "s01b03",
+     "type": "INSERT",
+     "text": "It covers more than *17* million square kilometres.",
+     "shot": "map:size",
+     "sfx": [
+      [
+       "ding",
+       "w:million",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s01b04",
+     "type": "INSERT",
+     "text": "That's over a *tenth* of all the land on Earth.",
+     "shot": "map:size"
+    },
+    {
+     "id": "s01b05",
+     "type": "INSERT",
+     "text": "It stretches across *11* time zones.",
+     "shot": "map:size",
+     "sfx": [
+      [
+       "ticks",
+       "w:time",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s01b06",
+     "type": "INSERT",
+     "text": "When people in Kaliningrad sit down to dinner,",
+     "shot": "map:size",
+     "sfx": [
+      [
+       "pop",
+       "w:Kaliningrad",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s01b07",
+     "type": "INSERT",
+     "text": "people in Kamchatka are already waking up *tomorrow*.",
+     "shot": "map:size",
+     "sfx": [
+      [
+       "pop",
+       "w:Kamchatka",
+       0.5
+      ],
+      [
+       "ding",
+       "w:tomorrow",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s01b08",
+     "type": "HOST",
+     "text": "But here is the strange part.",
+     "shot": "co_strange",
+     "gag": false
+    },
+    {
+     "id": "s01b09",
+     "type": "INSERT",
+     "text": "Most Russians live in only a *small* corner of it.",
+     "shot": "map:people"
+    },
+    {
+     "id": "s01b10",
+     "type": "INSERT",
+     "text": "Roughly *three-quarters* of the population is packed into the European west.",
+     "shot": "map:people"
+    },
+    {
+     "id": "s01b11",
+     "type": "INSERT",
+     "text": "The rest of the country is an ocean of forest,",
+     "shot": "map:people",
+     "amb": "wind"
+    },
+    {
+     "id": "s01b12",
+     "type": "INSERT",
+     "text": "mountains, and frozen river, with very few people per square kilometre.",
+     "shot": "map:people",
+     "amb": "wind"
+    },
+    {
+     "id": "s01b15",
+     "type": "HOST",
+     "text": "That *one* problem explains a surprising amount of Russian history.",
+     "shot": "co_problem"
+    },
+    {
+     "id": "s01b16",
+     "type": "HOST",
+     "text": "It explains why Russia kept expanding.",
+     "shot": "co_problem",
+     "sfx": [
+      [
+       "pop",
+       "w:expanding",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s01b17",
+     "type": "HOST",
+     "text": "Why its rulers chained farmers to the land.",
+     "shot": "co_problem",
+     "sfx": [
+      [
+       "clang",
+       "w:chained",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s01b18",
+     "type": "HOST",
+     "text": "And why a country with all that space has always felt so *afraid*.",
+     "shot": "co_problem",
+     "sfx": [
+      [
+       "pop",
+       "w:afraid",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s01b19",
+     "type": "HOST",
+     "text": "But it points to something *darker*, too.",
+     "shot": "co_darker",
+     "quiet": true
+    },
+    {
+     "id": "s01b20",
+     "type": "INSERT",
+     "text": "Again and again, Russia's rulers have solved the problem of holding all that land",
+     "shot": "co_scales",
+     "quiet": true
+    },
+    {
+     "id": "s01b21",
+     "type": "INSERT",
+     "text": "by *spending* people to do it.",
+     "shot": "co_scales",
+     "quiet": true,
+     "sfx": [
+      [
+       "thud",
+       "w:people",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s01b22",
+     "type": "INSERT",
+     "text": "Serfs.",
+     "shot": "co_spent",
+     "quiet": true
+    },
+    {
+     "id": "s01b23",
+     "type": "INSERT",
+     "text": "Famine victims.",
+     "shot": "co_spent",
+     "quiet": true
+    },
+    {
+     "id": "s01b24",
+     "type": "INSERT",
+     "text": "Prisoners.",
+     "shot": "co_spent",
+     "quiet": true
+    },
+    {
+     "id": "s01b25",
+     "type": "INSERT",
+     "text": "Soldiers.",
+     "shot": "co_spent",
+     "quiet": true
+    },
+    {
+     "id": "s01b26",
+     "type": "INSERT",
+     "text": "Tens of *millions* of them.",
+     "shot": "co_spent",
+     "quiet": true
+    },
+    {
+     "id": "s01b27",
+     "type": "STORY",
+     "text": "And now that bill is coming due, in the one place *no* tank can reach.",
+     "shot": "co_tank",
+     "sfx": [
+      [
+       "rumble",
+       0,
+       0.4
+      ],
+      [
+       "slam",
+       "w:reach",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s01b28",
+     "type": "INSERT",
+     "text": "The *birth* rate.",
+     "shot": "co_birthrate",
+     "sfx": [
+      [
+       "slide_down",
+       4,
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "s01b29",
+     "type": "INSERT",
+     "text": "To see how a small forest settlement ended up here,",
+     "shot": "co_rewind",
+     "sfx": [
+      [
+       "ticks",
+       4,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s01b30",
+     "type": "INSERT",
+     "text": "we have to go back more than a *thousand* years.",
+     "shot": "co_rewind",
+     "sfx": [
+      [
+       "ticks",
+       "w:back",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s01b31",
+     "type": "STORY",
+     "text": "To a country with *no* walls.",
+     "shot": "co_nowalls",
+     "date": 880,
+     "amb": "wind"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "style": "documentary-dark",
+ "labels": "none",
+ "start": {
+  "lon": 22,
+  "lat": 49,
+  "zoom": 4.6
+ },
+ "items": [
+  {
+   "region": "russia",
+   "at": 0,
+   "color": "#8a4a40"
+  },
+  {
+   "region": "ukr",
+   "at": 0,
+   "color": "#8a4a40"
+  },
+  {
+   "region": "blr",
+   "at": 0,
+   "color": "#8a4a40"
+  },
+  {
+   "region": "pol",
+   "at": "w:Poland",
+   "color": "#c96a5a"
+  },
+  {
+   "pin": "East Germany",
+   "ll": [
+    12.5,
+    52.3
+   ],
+   "style": "circle",
+   "color": "#c96a5a",
+   "at": "w:Germany",
+   "label": 20
+  },
+  {
+   "region": "hun",
+   "at": "w:Hungary",
+   "color": "#c96a5a"
+  },
+  {
+   "region": "rou",
+   "at": "w:Romania",
+   "color": "#c96a5a"
+  },
+  {
+   "region": "bgr",
+   "at": "w:Bulgaria",
+   "color": "#c96a5a"
+  },
+  {
+   "text": "BUFFER",
+   "ll": [
+    21,
+    49
+   ],
+   "at": "w:buffer",
+   "size": 40,
+   "color": "#FFD84A"
+  },
+  {
+   "line": "blockade-line",
+   "from": [
+    10.5,
+    54.5
+   ],
+   "to": [
+    13.7,
+    45.5
+   ],
+   "at": "w:West",
+   "color": "#FFD84A"
+  }
+ ]
+}

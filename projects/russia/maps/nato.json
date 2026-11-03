@@ -1,0 +1,107 @@
+{
+ "style": "documentary-dark",
+ "labels": "none",
+ "start": {
+  "lon": 24,
+  "lat": 52,
+  "zoom": 4.2
+ },
+ "items": [
+  {
+   "region": "russia",
+   "at": 0,
+   "color": "#8a4a40"
+  },
+  {
+   "text": "NATO members 1999 & 2004",
+   "ll": [
+    10,
+    59
+   ],
+   "at": "w:NATO",
+   "size": 22,
+   "color": "#7FB2E5"
+  },
+  {
+   "region": "pol",
+   "at": "w:NATO+0.00",
+   "color": "#4a7ab8"
+  },
+  {
+   "region": "cze",
+   "at": "w:NATO+0.14",
+   "color": "#4a7ab8"
+  },
+  {
+   "region": "hun",
+   "at": "w:NATO+0.28",
+   "color": "#4a7ab8"
+  },
+  {
+   "region": "est",
+   "at": "w:NATO+0.42",
+   "color": "#4a7ab8"
+  },
+  {
+   "region": "lva",
+   "at": "w:NATO+0.56",
+   "color": "#4a7ab8"
+  },
+  {
+   "region": "ltu",
+   "at": "w:NATO+0.70",
+   "color": "#4a7ab8"
+  },
+  {
+   "region": "svk",
+   "at": "w:NATO+0.84",
+   "color": "#4a7ab8"
+  },
+  {
+   "region": "svn",
+   "at": "w:NATO+0.98",
+   "color": "#4a7ab8"
+  },
+  {
+   "region": "rou",
+   "at": "w:NATO+1.12",
+   "color": "#4a7ab8"
+  },
+  {
+   "region": "bgr",
+   "at": "w:NATO+1.26",
+   "color": "#4a7ab8"
+  },
+  {
+   "pin": "Moscow",
+   "ll": [
+    37.62,
+    55.75
+   ],
+   "style": "star",
+   "color": "#FFD84A",
+   "at": 0,
+   "label": 20
+  },
+  {
+   "text": "Moscow: 'the wall is disappearing'",
+   "ll": [
+    42,
+    59
+   ],
+   "at": "w:disappearing",
+   "size": 22,
+   "color": "#e8533e"
+  },
+  {
+   "text": "Them: 'our choice, our security'",
+   "ll": [
+    18,
+    45
+   ],
+   "at": "w:choice",
+   "size": 22,
+   "color": "#7FB2E5"
+  }
+ ]
+}

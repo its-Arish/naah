@@ -1,0 +1,221 @@
+{
+ "title": "Conclusion",
+ "sections": [
+  {
+   "title": "Conclusion",
+   "beats": [
+    {
+     "id": "s11b01",
+     "type": "INSERT",
+     "text": "According to the old *chronicle*, the tribes told the Vikings:",
+     "shot": "c10_chronicle",
+     "date": null,
+     "sfx": [
+      [
+       "paper",
+       "w:chronicle",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s11b02",
+     "type": "INSERT",
+     "text": "our land is *great* and rich, but there is no order in it.",
+     "shot": "c10_chronicle"
+    },
+    {
+     "id": "s11b03",
+     "type": "HOST",
+     "text": "Twelve centuries later, the *first* half still holds.",
+     "shot": "c10_half",
+     "sfx": [
+      [
+       "ding",
+       "w:holds",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s11b04",
+     "type": "HOST",
+     "text": "The land is *great* and rich.",
+     "shot": "c10_half"
+    },
+    {
+     "id": "s11b05",
+     "type": "INSERT",
+     "text": "Russia is still the *largest* country on Earth.",
+     "shot": "map:final"
+    },
+    {
+     "id": "s11b06",
+     "type": "INSERT",
+     "text": "It survived the *Mongols*.",
+     "shot": "c10_survived",
+     "sfx": [
+      [
+       "thud",
+       "w:Mongols",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s11b07",
+     "type": "INSERT",
+     "text": "Drove out the *Poles*.",
+     "shot": "c10_survived",
+     "sfx": [
+      [
+       "thud",
+       "w:Poles",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s11b08",
+     "type": "INSERT",
+     "text": "Defeated *Napoleon*.",
+     "shot": "c10_survived",
+     "sfx": [
+      [
+       "thud",
+       "w:Napoleon",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s11b09",
+     "type": "INSERT",
+     "text": "And outlasted *Hitler*.",
+     "shot": "c10_survived",
+     "sfx": [
+      [
+       "thud",
+       "w:Hitler",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s11b10",
+     "type": "HOST",
+     "text": "But through all of it, the problem *never* went away.",
+     "shot": "c10_problem"
+    },
+    {
+     "id": "s11b11",
+     "type": "HOST",
+     "text": "Russia never had *enough* people for its land.",
+     "shot": "c10_problem"
+    },
+    {
+     "id": "s11b12",
+     "type": "HOST",
+     "text": "And too often, its leaders treated people as the *cheapest* resource it had.",
+     "shot": "c10_problem"
+    },
+    {
+     "id": "s11b13",
+     "type": "STORY",
+     "text": "*No* Napoleon is marching toward Moscow now.",
+     "shot": "c10_quiet",
+     "quiet": true,
+     "amb": "wind"
+    },
+    {
+     "id": "s11b15",
+     "type": "STORY",
+     "text": "The threat is *quieter*.",
+     "shot": "c10_quiet",
+     "quiet": true,
+     "amb": "wind"
+    },
+    {
+     "id": "s11b16",
+     "type": "INSERT",
+     "text": "Borders can be *moved*.",
+     "shot": "c10_replace",
+     "sfx": [
+      [
+       "whoosh",
+       "w:moved",
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s11b17",
+     "type": "INSERT",
+     "text": "Territory can be *taken*.",
+     "shot": "c10_replace",
+     "sfx": [
+      [
+       "pop",
+       "w:taken",
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s11b18",
+     "type": "INSERT",
+     "text": "Empires can be *rebuilt*.",
+     "shot": "c10_replace",
+     "sfx": [
+      [
+       "pop",
+       "w:rebuilt",
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "s11b19",
+     "type": "INSERT",
+     "text": "But people take *generations* to replace.",
+     "shot": "c10_replace"
+    },
+    {
+     "id": "s11b20",
+     "type": "STORY",
+     "text": "Russia was never going to run out of *land*.",
+     "shot": "c10_who",
+     "quiet": true,
+     "amb": "wind"
+    },
+    {
+     "id": "s11b21",
+     "type": "STORY",
+     "text": "The question is *who* will be left to live on it.",
+     "shot": "c10_who",
+     "quiet": true,
+     "amb": "wind"
+    },
+    {
+     "id": "s11b22",
+     "type": "HOST",
+     "text": "*Subscribe* for more documentaries on the countries that shaped our world,",
+     "shot": "c10_subscribe",
+     "sfx": [
+      [
+       "pop",
+       "w:Subscribe",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "s11b23",
+     "type": "HOST",
+     "text": "and tell us in the comments: which country should we explore *next*?",
+     "shot": "c10_subscribe"
+    }
+   ]
+  }
+ ]
+}

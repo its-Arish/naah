@@ -1,0 +1,175 @@
+{
+ "style": "documentary-dark",
+ "labels": "none",
+ "start": {
+  "lon": 22,
+  "lat": 52,
+  "zoom": 2.5
+ },
+ "moves": [
+  {
+   "at": 0.5,
+   "dur": 6,
+   "to": {
+    "lon": 28,
+    "lat": 51,
+    "zoom": 2.6
+   }
+  }
+ ],
+ "items": [
+  {
+   "pin": "Scandinavia",
+   "ll": [
+    16,
+    60.5
+   ],
+   "style": "dot",
+   "color": "#F4ECD8",
+   "at": 0.1,
+   "label": 20,
+   "labelSide": "left"
+  },
+  {
+   "arrow": [
+    [
+     12,
+     59
+    ],
+    [
+     4,
+     56.5
+    ],
+    [
+     -1.5,
+     53.5
+    ]
+   ],
+   "at": "w:England",
+   "every": 0.25,
+   "color": "#8c8c8c"
+  },
+  {
+   "text": "England",
+   "ll": [
+    -2,
+    51.8
+   ],
+   "at": "w:England",
+   "size": 22,
+   "color": "#9a9a9a"
+  },
+  {
+   "route": [
+    [
+     18,
+     59.3
+    ],
+    [
+     23,
+     59.5
+    ],
+    [
+     29.5,
+     60
+    ],
+    [
+     31.3,
+     58.5
+    ],
+    [
+     31.5,
+     56
+    ],
+    [
+     32,
+     54.8
+    ],
+    [
+     30.9,
+     52.6
+    ],
+    [
+     30.5,
+     50.45
+    ],
+    [
+     31.6,
+     48
+    ],
+    [
+     31.2,
+     46.6
+    ],
+    [
+     30.5,
+     44.5
+    ],
+    [
+     29.2,
+     42.2
+    ],
+    [
+     28.97,
+     41.01
+    ]
+   ],
+   "at": "w:east",
+   "every": 0.22,
+   "color": "#FFD84A"
+  },
+  {
+   "text": "rivers",
+   "ll": [
+    37.5,
+    56.5
+   ],
+   "at": "w:rivers",
+   "size": 24,
+   "color": "#a8d4ff"
+  },
+  {
+   "pin": "Novgorod",
+   "ll": [
+    31.27,
+    58.52
+   ],
+   "style": "dot",
+   "color": "#F4ECD8",
+   "at": "w:rivers",
+   "label": 18
+  },
+  {
+   "pin": "Kyiv",
+   "ll": [
+    30.52,
+    50.45
+   ],
+   "style": "dot",
+   "color": "#F4ECD8",
+   "at": "w:rivers+0.6",
+   "label": 18
+  },
+  {
+   "text": "silver",
+   "ll": [
+    37,
+    48.5
+   ],
+   "at": "w:silver",
+   "size": 30,
+   "color": "#d9d9d9"
+  },
+  {
+   "pin": "Constantinople",
+   "ll": [
+    28.97,
+    41.01
+   ],
+   "style": "star",
+   "color": "#FFD84A",
+   "at": "w:Constantinople",
+   "label": 22
+  }
+ ]
+}
