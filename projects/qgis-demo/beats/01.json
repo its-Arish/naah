@@ -1,0 +1,223 @@
+{
+ "title": "QGIS demo",
+ "sections": [
+  {
+   "title": "Intro",
+   "card": false,
+   "beats": [
+    {
+     "id": "q1",
+     "shot": "q_intro",
+     "type": "HOST",
+     "date": null,
+     "text": "This is *QGIS*: free mapping software that anyone can download and use.",
+     "hold": 5.4,
+     "sfx": [
+      [
+       "pop",
+       "w:QGIS",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "q2",
+     "shot": "q_heli",
+     "type": "HOST",
+     "date": null,
+     "text": "But who actually *built* it? Let's take a look from above.",
+     "hold": 6,
+     "sfx": [
+      [
+       "machine",
+       10,
+       0.8
+      ],
+      [
+       "whoosh",
+       40,
+       0.6
+      ],
+      [
+       "whoosh",
+       150,
+       0.6
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Map",
+   "card": false,
+   "beats": [
+    {
+     "id": "q3",
+     "shot": "q_karl",
+     "type": "STORY",
+     "date": 2005,
+     "text": "In 2005, a few developers met in *Karlsruhe*, Germany.",
+     "hold": 5.2,
+     "sfx": [
+      [
+       "tech_whoosh",
+       4,
+       0.6
+      ],
+      [
+       "tech_fill",
+       34,
+       0.6
+      ],
+      [
+       "thud",
+       "w:Karlsruhe",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "q4",
+     "shot": "q_hack",
+     "type": "STORY",
+     "date": 2005,
+     "text": "It was the first *hackfest*: a few days of fixing bugs together.",
+     "hold": 5.4,
+     "sfx": [
+      [
+       "tech_click",
+       50,
+       0.7
+      ],
+      [
+       "tech_click",
+       70,
+       0.7
+      ],
+      [
+       "tech_click",
+       90,
+       0.7
+      ],
+      [
+       "ding",
+       110,
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "q5",
+     "shot": "q_fests",
+     "type": "STORY",
+     "date": 2025,
+     "text": "The QGIS repo lists *28* of them, from Lisbon to Zanzibar to Sweden.",
+     "hold": 7.4,
+     "sfx": [
+      [
+       "tech_whoosh",
+       2,
+       0.6
+      ],
+      [
+       "data_blips",
+       24,
+       0.5
+      ],
+      [
+       "data_blips",
+       80,
+       0.5
+      ],
+      [
+       "data_blips",
+       136,
+       0.5
+      ],
+      [
+       "tech_chime",
+       200,
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "q6",
+     "shot": "q_code",
+     "type": "STORY",
+     "date": null,
+     "text": "It credits *797* contributors, 600 of them to the code itself.",
+     "hold": 5.6,
+     "sfx": [
+      [
+       "tech_whoosh",
+       2,
+       0.6
+      ],
+      [
+       "data_blips",
+       24,
+       0.6
+      ],
+      [
+       "tech_chime",
+       80,
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "q7",
+     "shot": "q_people",
+     "type": "STORY",
+     "date": null,
+     "text": "The *71* who shared a location live on six continents.",
+     "hold": 6.4,
+     "sfx": [
+      [
+       "data_blips",
+       10,
+       0.6
+      ],
+      [
+       "data_blips",
+       50,
+       0.5
+      ],
+      [
+       "tech_chime",
+       120,
+       0.5
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Outro",
+   "card": false,
+   "beats": [
+    {
+     "id": "q8",
+     "shot": "q_back",
+     "type": "HOST",
+     "date": null,
+     "text": "A world map, *built* by the world.",
+     "hold": 4.4,
+     "sfx": [
+      [
+       "whoosh",
+       0,
+       0.5
+      ],
+      [
+       "thud",
+       34,
+       0.5
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

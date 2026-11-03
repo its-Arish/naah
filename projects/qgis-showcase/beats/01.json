@@ -1,0 +1,191 @@
+{
+ "title": "QGIS showcase",
+ "sections": [
+  {
+   "title": "Intro",
+   "card": false,
+   "beats": [
+    {
+     "id": "z1",
+     "shot": "z_intro",
+     "type": "HOST",
+     "text": "What can the map data inside *QGIS* do? Here are six styles.",
+     "hold": 5,
+     "sfx": [
+      [
+       "pops",
+       30,
+       0.5
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Styles",
+   "card": false,
+   "beats": [
+    {
+     "id": "z2",
+     "shot": "z_choro",
+     "type": "STORY",
+     "text": "One: a *choropleth*. Countries shaded by how many provinces they have.",
+     "hold": 7,
+     "sfx": [
+      [
+       "tech_whoosh",
+       0,
+       0.6
+      ],
+      [
+       "tech_fill",
+       20,
+       0.5
+      ],
+      [
+       "tech_fill",
+       60,
+       0.5
+      ],
+      [
+       "tech_hit",
+       130,
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "z3",
+     "shot": "z_prov",
+     "type": "STORY",
+     "text": "Two: *provinces*. Zoom into Australia and trace its states.",
+     "hold": 7,
+     "sfx": [
+      [
+       "tech_whoosh",
+       0,
+       0.6
+      ],
+      [
+       "tech_trace",
+       40,
+       0.6
+      ],
+      [
+       "tech_trace",
+       80,
+       0.6
+      ],
+      [
+       "data_blips",
+       120,
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "z4",
+     "shot": "z_disp",
+     "type": "STORY",
+     "text": "Three: *disputed* borders. Kashmir, as claimed by India, Pakistan and China.",
+     "hold": 7.6,
+     "sfx": [
+      [
+       "tech_whoosh",
+       0,
+       0.6
+      ],
+      [
+       "tech_trace",
+       50,
+       0.6
+      ],
+      [
+       "tech_trace",
+       85,
+       0.6
+      ],
+      [
+       "tech_trace",
+       120,
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "z6",
+     "shot": "z_globe",
+     "type": "STORY",
+     "text": "Four: a *globe*. The same countries on an orthographic projection.",
+     "hold": 7.2,
+     "sfx": [
+      [
+       "tech_whoosh",
+       0,
+       0.6
+      ],
+      [
+       "drone",
+       0,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "z7",
+     "shot": "z_flow",
+     "type": "STORY",
+     "text": "Five: *flow* lines. Every hackfest, linked in date order.",
+     "hold": 8,
+     "sfx": [
+      [
+       "tech_whoosh",
+       0,
+       0.6
+      ],
+      [
+       "tech_trace",
+       30,
+       0.5
+      ],
+      [
+       "tech_trace",
+       90,
+       0.5
+      ],
+      [
+       "tech_trace",
+       150,
+       0.5
+      ],
+      [
+       "tech_chime",
+       215,
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "z9",
+     "shot": "map:march1812",
+     "type": "STORY",
+     "text": "Six: our *Mapimator* scene. Napoleon's 1812 march on Moscow, from the Russia film.",
+     "hold": 7
+    }
+   ]
+  },
+  {
+   "title": "Outro",
+   "card": false,
+   "beats": [
+    {
+     "id": "z8",
+     "shot": "z_outro",
+     "type": "HOST",
+     "text": "That's QGIS's own data. Next, the *real* QGIS: terrain, satellite and 3D.",
+     "hold": 5.4
+    }
+   ]
+  }
+ ]
+}

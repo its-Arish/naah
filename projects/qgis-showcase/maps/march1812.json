@@ -1,0 +1,115 @@
+{
+ "style": "documentary-dark",
+ "labels": "none",
+ "start": {
+  "lon": 31,
+  "lat": 55,
+  "zoom": 7.0
+ },
+ "moves": [
+  {
+   "at": 0.2,
+   "dur": 3,
+   "to": {
+    "lon": 33,
+    "lat": 55,
+    "zoom": 7.2
+   }
+  }
+ ],
+ "items": [
+  {
+   "pin": "Niemen, June",
+   "ll": [
+    23.9,
+    54.9
+   ],
+   "style": "dot",
+   "color": "#F4ECD8",
+   "at": 0,
+   "label": 18
+  },
+  {
+   "route": [
+    [
+     23.9,
+     54.9
+    ],
+    [
+     25.3,
+     54.7
+    ],
+    [
+     28.0,
+     55.0
+    ],
+    [
+     30.2,
+     55.2
+    ],
+    [
+     32.0,
+     54.8
+    ],
+    [
+     34.0,
+     55.2
+    ],
+    [
+     35.8,
+     55.5
+    ],
+    [
+     37.62,
+     55.75
+    ]
+   ],
+   "at": 0.2,
+   "every": 0.25
+  },
+  {
+   "pin": "Smolensk",
+   "ll": [
+    32.0,
+    54.8
+   ],
+   "style": "dot",
+   "color": "#F4ECD8",
+   "at": 1.0,
+   "label": false
+  },
+  {
+   "pin": "Borodino",
+   "ll": [
+    35.8,
+    55.5
+   ],
+   "style": "dot",
+   "color": "#F4ECD8",
+   "at": 1.6,
+   "label": false
+  },
+  {
+   "pin": "Moscow, September",
+   "ll": [
+    37.62,
+    55.75
+   ],
+   "style": "star",
+   "color": "#FFD84A",
+   "at": 2.6,
+   "label": 22,
+   "labelSide": "top"
+  },
+  {
+   "text": "scorched earth",
+   "ll": [
+    30.5,
+    53.3
+   ],
+   "at": 3.8,
+   "size": 22,
+   "color": "#e8533e"
+  }
+ ]
+}
