@@ -132,6 +132,10 @@ node scripts/studio.mjs all <slug>                    # check → render (parall
 
 Put `voiceover.mp3` in the project. Run `studio align <slug>`, then continue from step 6. The timing now follows the recording; see `docs/VOICEOVER.md`. Keep beat texts matched to what is actually said.
 
+## Music
+
+Background music: plan it in `projects/<slug>/music.json`, then `python3 scripts/music_cues.py <slug>` and `python3 scripts/make_music_bed.py projects/<slug>/cues.txt`. Read `docs/MUSIC.md` first. Every track stays `"heard": false` until the creator has listened to it.
+
 ## Repo map
 
 ```
