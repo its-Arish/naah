@@ -1,0 +1,114 @@
+{
+ "title": "Cold Open",
+ "sections": [
+  {
+   "title": "Cold Open",
+   "beats": [
+    {
+     "id": "co_dial",
+     "shot": "co_dial",
+     "type": "HOST",
+     "text": "So why is Texas *Republican*?",
+     "date": 2026
+    },
+    {
+     "id": "co_flip",
+     "shot": "co_flip",
+     "type": "HOST",
+     "text": "On Tuesday, it was *not*.",
+     "sfx": [
+      [
+       "slam",
+       "w:not",
+       0.8
+      ]
+     ]
+    },
+    {
+     "id": "co_results",
+     "shot": "co_results",
+     "type": "INSERT",
+     "text": "On November the 3rd, 2026, Texas elected a Democratic *senator* for the"
+    },
+    {
+     "id": "co_results2",
+     "shot": "co_results2",
+     "type": "INSERT",
+     "text": "first time since 1988, and a Democratic *governor* for the first time since 1990."
+    },
+    {
+     "id": "co_easy",
+     "shot": "co_easy",
+     "type": "HOST",
+     "text": "You have probably heard the easy explanation already, but here is what almost nobody is saying."
+    },
+    {
+     "id": "co_before",
+     "shot": "co_before",
+     "type": "HOST",
+     "text": "Texas has done this *before*.",
+     "sfx": [
+      [
+       "whoosh",
+       "w:before",
+       0.7
+      ]
+     ]
+    },
+    {
+     "id": "co_eras",
+     "shot": "co_eras",
+     "type": "INSERT",
+     "text": "For about 100 years, Texas was a one-party *Democratic* state.",
+     "date": 1900
+    },
+    {
+     "id": "co_eras2",
+     "shot": "co_eras2",
+     "type": "INSERT",
+     "text": "Then for 30 years, a one-party *Republican* state,",
+     "date": 2000
+    },
+    {
+     "id": "co_same",
+     "shot": "co_same",
+     "type": "HOST",
+     "text": "and both parties lost it the same way.",
+     "date": null
+    },
+    {
+     "id": "co_comfy",
+     "shot": "co_comfy",
+     "type": "HOST",
+     "text": "They got so comfortable they forgot they could *lose*,"
+    },
+    {
+     "id": "co_walk",
+     "shot": "co_walk",
+     "type": "HOST",
+     "text": "and then their own voters *walked* away."
+    },
+    {
+     "id": "co_190",
+     "shot": "co_190",
+     "type": "INSERT",
+     "text": "I went through 190 years of Texas election results."
+    },
+    {
+     "id": "co_story",
+     "shot": "co_story",
+     "type": "HOST",
+     "text": "This is the story of the people who flip Texas, and most of them aren't who you think.",
+     "sfx": [
+      [
+       "pop",
+       "end",
+       0.6
+      ]
+     ]
+    }
+   ],
+   "card": false
+  }
+ ]
+}

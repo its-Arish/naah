@@ -1,0 +1,379 @@
+{
+ "title": "Act 9: Tuesday",
+ "sections": [
+  {
+   "title": "Act 9: Tuesday",
+   "beats": [
+    {
+     "id": "a9_kept",
+     "shot": "a9_kept",
+     "type": "HOST",
+     "text": "For 30 years, Democrats kept saying Texas was about to turn blue.",
+     "date": 2018
+    },
+    {
+     "id": "a9_not",
+     "shot": "a9_not",
+     "type": "HOST",
+     "text": "It kept not happening.",
+     "gag": true
+    },
+    {
+     "id": "a9_beto",
+     "shot": "a9_beto",
+     "type": "INSERT",
+     "text": "In 2018, Beto O'Rourke came within about three points of Ted Cruz."
+    },
+    {
+     "id": "a9_2020",
+     "shot": "a9_2020",
+     "type": "INSERT",
+     "text": "In 2020, Donald Trump won Texas by under six.",
+     "date": 2020
+    },
+    {
+     "id": "a9_2024",
+     "shot": "a9_2024",
+     "type": "INSERT",
+     "text": "Then in 2024, Trump won it by almost *14*.",
+     "date": 2024
+    },
+    {
+     "id": "a9_starr",
+     "shot": "a9_starr",
+     "type": "INSERT",
+     "text": "He even won Starr County on the Mexican border, which is 97% Hispanic and had not"
+    },
+    {
+     "id": "a9_1892",
+     "shot": "a9_1892",
+     "type": "INSERT",
+     "text": "voted Republican for president since 1892."
+    },
+    {
+     "id": "a9_hisp",
+     "shot": "a9_hisp",
+     "type": "INSERT",
+     "text": "Hispanic voters, the group Democrats had counted on, were shifting right."
+    },
+    {
+     "id": "a9_then",
+     "shot": "a9_then",
+     "type": "HOST",
+     "text": "Then came *2026*.",
+     "date": 2026
+    },
+    {
+     "id": "a9_paxton",
+     "shot": "a9_paxton",
+     "type": "INSERT",
+     "text": "In the Republican primary, Attorney General Ken Paxton beat the"
+    },
+    {
+     "id": "a9_cornyn",
+     "shot": "a9_cornyn",
+     "type": "INSERT",
+     "text": "four-term senator John Cornyn, with President Trump's endorsement."
+    },
+    {
+     "id": "a9_talarico",
+     "shot": "a9_talarico",
+     "type": "INSERT",
+     "text": "On November the 3rd, the Democrat James Talarico, a former teacher, beat Paxton"
+    },
+    {
+     "id": "a9_hinojosa",
+     "shot": "a9_hinojosa",
+     "type": "INSERT",
+     "text": "by more than 10 points, and the Democrat Gina Hinojosa beat Governor Greg Abbott"
+    },
+    {
+     "id": "a9_latina",
+     "shot": "a9_latina",
+     "type": "INSERT",
+     "text": "by about seven. She will be the first Latina governor in Texas history."
+    },
+    {
+     "id": "a9_why",
+     "shot": "a9_why",
+     "type": "HOST",
+     "text": "So *why*?"
+    },
+    {
+     "id": "a9_national",
+     "shot": "a9_national",
+     "type": "HOST",
+     "text": "You have heard the national explanation."
+    },
+    {
+     "id": "a9_midterm",
+     "shot": "a9_midterm",
+     "type": "HOST",
+     "text": "A midterm year and an unpopular president."
+    },
+    {
+     "id": "a9_real",
+     "shot": "a9_real",
+     "type": "HOST",
+     "text": "That's real."
+    },
+    {
+     "id": "a9_both",
+     "shot": "a9_both",
+     "type": "HOST",
+     "text": "People on both sides say so."
+    },
+    {
+     "id": "a9_harder",
+     "shot": "a9_harder",
+     "type": "HOST",
+     "text": "But it does not explain why Texas swung *harder* than almost anywhere else."
+    },
+    {
+     "id": "a9_listen",
+     "shot": "a9_listen",
+     "type": "HOST",
+     "text": "So listen to Texas Republicans themselves."
+    },
+    {
+     "id": "a9_young",
+     "shot": "a9_young",
+     "type": "INSERT",
+     "text": "The morning after, the head of the Texas Young Republicans"
+    },
+    {
+     "id": "a9_terrible",
+     "shot": "a9_terrible",
+     "type": "INSERT",
+     "text": "called Paxton \"a terrible candidate.\""
+    },
+    {
+     "id": "a9_tired",
+     "shot": "a9_tired",
+     "type": "INSERT",
+     "text": "A Republican who lost his own statewide race said people were \"tired of the Republicans being in office.\""
+    },
+    {
+     "id": "a9_lazy",
+     "shot": "a9_lazy",
+     "type": "INSERT",
+     "text": "A Texas political scientist blamed what he called the party's \"lazy arrogance.\""
+    },
+    {
+     "id": "a9_dems",
+     "shot": "a9_dems",
+     "type": "INSERT",
+     "text": "Democrats point to other things: everyday costs, public schools,"
+    },
+    {
+     "id": "a9_vouchers",
+     "shot": "a9_vouchers",
+     "type": "INSERT",
+     "text": "and the fight over school vouchers."
+    },
+    {
+     "id": "a9_decided",
+     "shot": "a9_decided",
+     "type": "INSERT",
+     "text": "And the people who actually decided it? A lot of them were"
+    },
+    {
+     "id": "a9_split",
+     "shot": "a9_split",
+     "type": "INSERT",
+     "text": "Republicans, splitting their tickets."
+    },
+    {
+     "id": "a9_perm",
+     "shot": "a9_perm",
+     "type": "INSERT",
+     "text": "One Republican pollster put it this way: Paxton gave them *permission*."
+    },
+    {
+     "id": "a9_trap",
+     "shot": "a9_trap",
+     "type": "HOST",
+     "text": "Remember the one-party trap I promised you?"
+    },
+    {
+     "id": "a9_whole",
+     "shot": "a9_whole",
+     "type": "HOST",
+     "text": "Here's the whole thing."
+    },
+    {
+     "id": "a9_s1",
+     "shot": "a9_s1",
+     "type": "INSERT",
+     "text": "Stage one: the party gets so dominant that the primary is the only race"
+    },
+    {
+     "id": "a9_s1b",
+     "shot": "a9_s1b",
+     "type": "INSERT",
+     "text": "that matters, so the real fight moves inside the party, and it *splits*."
+    },
+    {
+     "id": "a9_s2",
+     "shot": "a9_s2",
+     "type": "INSERT",
+     "text": "Stage two: the winner of that fight is someone a lot of the party's"
+    },
+    {
+     "id": "a9_s2b",
+     "shot": "a9_s2b",
+     "type": "INSERT",
+     "text": "own voters can't stand."
+    },
+    {
+     "id": "a9_s3",
+     "shot": "a9_s3",
+     "type": "INSERT",
+     "text": "Stage three: the *Switchers* walk."
+    },
+    {
+     "id": "a9_s3b",
+     "shot": "a9_s3b",
+     "type": "INSERT",
+     "text": "Not to the other party's ideas. Away from their own party's choice."
+    },
+    {
+     "id": "a9_1961",
+     "shot": "a9_1961",
+     "type": "INSERT",
+     "text": "1961: Democrats split.",
+     "date": 1961
+    },
+    {
+     "id": "a9_1961b",
+     "shot": "a9_1961b",
+     "type": "INSERT",
+     "text": "Liberal Democrats refused to back their own conservative candidate,"
+    },
+    {
+     "id": "a9_1961c",
+     "shot": "a9_1961c",
+     "type": "INSERT",
+     "text": "and John Tower slipped through."
+    },
+    {
+     "id": "a9_1978",
+     "shot": "a9_1978",
+     "type": "INSERT",
+     "text": "1978: the Democratic nominee had just knocked out his party's sitting",
+     "date": 1978
+    },
+    {
+     "id": "a9_1978b",
+     "shot": "a9_1978b",
+     "type": "INSERT",
+     "text": "governor in the primary, and Bill Clements won by less than one point."
+    },
+    {
+     "id": "a9_2026",
+     "shot": "a9_2026",
+     "type": "INSERT",
+     "text": "2026: Republicans tore into each other in the most expensive",
+     "date": 2026
+    },
+    {
+     "id": "a9_2026b",
+     "shot": "a9_2026b",
+     "type": "INSERT",
+     "text": "Senate primary on record."
+    },
+    {
+     "id": "a9_2026c",
+     "shot": "a9_2026c",
+     "type": "INSERT",
+     "text": "Paxton won it, and Republican Switchers walked."
+    },
+    {
+     "id": "a9_same",
+     "shot": "a9_same",
+     "type": "HOST",
+     "text": "Both parties, same *trap*."
+    },
+    {
+     "id": "a9_nobody",
+     "shot": "a9_nobody",
+     "type": "HOST",
+     "text": "And here's the part nobody tells you."
+    },
+    {
+     "id": "a9_33",
+     "shot": "a9_33",
+     "type": "INSERT",
+     "text": "After Tower's crack in 1961, it took *33* more years for"
+    },
+    {
+     "id": "a9_33b",
+     "shot": "a9_33b",
+     "type": "INSERT",
+     "text": "Republicans to win everything."
+    },
+    {
+     "id": "a9_flip",
+     "shot": "a9_flip",
+     "type": "HOST",
+     "text": "So was Tuesday a flip, or just a crack in the banner?"
+    },
+    {
+     "id": "a9_exit",
+     "shot": "a9_exit",
+     "type": "HOST",
+     "text": "That depends on what Texas Republicans do next, because the trap has an exit."
+    },
+    {
+     "id": "a9_lose",
+     "shot": "a9_lose",
+     "type": "HOST",
+     "text": "You just have to remember you can *lose*."
+    },
+    {
+     "id": "a9_six",
+     "shot": "a9_six",
+     "type": "HOST",
+     "text": "Six flags, two one-party eras."
+    },
+    {
+     "id": "a9_ended",
+     "shot": "a9_ended",
+     "type": "HOST",
+     "text": "Both ended the same way."
+    },
+    {
+     "id": "a9_never",
+     "shot": "a9_never",
+     "type": "HOST",
+     "text": "So this was never really a story about Democrats or Republicans."
+    },
+    {
+     "id": "a9_granted",
+     "shot": "a9_granted",
+     "type": "HOST",
+     "text": "It's a story about Texans who refuse to be taken for *granted*."
+    },
+    {
+     "id": "a9_moment",
+     "shot": "a9_moment",
+     "type": "HOST",
+     "text": "In Texas, the moment a party thinks it can't lose, it starts to."
+    },
+    {
+     "id": "a9_hey",
+     "shot": "a9_hey",
+     "type": "HOST",
+     "text": "And hey, give it 30 years."
+    },
+    {
+     "id": "a9_video",
+     "shot": "a9_video",
+     "type": "HOST",
+     "text": "Somebody will make a video asking why Texas was always *Democrat*.",
+     "gag": true
+    }
+   ]
+  }
+ ]
+}

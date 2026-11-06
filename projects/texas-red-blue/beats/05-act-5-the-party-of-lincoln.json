@@ -1,0 +1,169 @@
+{
+ "title": "Act 5: The Party of Lincoln",
+ "sections": [
+  {
+   "title": "Act 5: The Party of Lincoln",
+   "beats": [
+    {
+     "id": "a5_dial",
+     "shot": "a5_dial",
+     "type": "HOST",
+     "text": "Now, remember the *Dial*?",
+     "date": 1867
+    },
+    {
+     "id": "a5_federal",
+     "shot": "a5_federal",
+     "type": "INSERT",
+     "text": "After the war, the federal government ran Texas for a while."
+    },
+    {
+     "id": "a5_vote",
+     "shot": "a5_vote",
+     "type": "INSERT",
+     "text": "Formerly enslaved men got the vote, and almost all of them voted for one party,"
+    },
+    {
+     "id": "a5_lincoln",
+     "shot": "a5_lincoln",
+     "type": "HOST",
+     "text": "the party of Lincoln, the *Republicans*.",
+     "sfx": [
+      [
+       "clang",
+       "w:Republicans",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "a5_brief",
+     "shot": "a5_brief",
+     "type": "HOST",
+     "text": "For a brief moment, Texas had Republican government."
+    },
+    {
+     "id": "a5_davis",
+     "shot": "a5_davis",
+     "type": "STORY",
+     "text": "In 1870, Edmund J. Davis became governor.",
+     "date": 1870
+    },
+    {
+     "id": "a5_union",
+     "shot": "a5_union",
+     "type": "STORY",
+     "text": "He was a Texan who had fought for the Union."
+    },
+    {
+     "id": "a5_black",
+     "shot": "a5_black",
+     "type": "STORY",
+     "text": "Black Texans were elected to the legislature for the first time."
+    },
+    {
+     "id": "a5_occupation",
+     "shot": "a5_occupation",
+     "type": "INSERT",
+     "text": "Many white Texans saw Davis's government as an *occupation*."
+    },
+    {
+     "id": "a5_police",
+     "shot": "a5_police",
+     "type": "INSERT",
+     "text": "It had a state police, higher taxes, and the backing of federal troops."
+    },
+    {
+     "id": "a5_else",
+     "shot": "a5_else",
+     "type": "INSERT",
+     "text": "His supporters saw something else, the first government in Texas that tried to"
+    },
+    {
+     "id": "a5_rights",
+     "shot": "a5_rights",
+     "type": "INSERT",
+     "text": "protect the rights of Black citizens."
+    },
+    {
+     "id": "a5_last",
+     "shot": "a5_last",
+     "type": "HOST",
+     "text": "Either way, it did not last."
+    },
+    {
+     "id": "a5_coke",
+     "shot": "a5_coke",
+     "type": "INSERT",
+     "text": "In the 1873 election, the Democrat Richard Coke beat Davis by about *two* to one.",
+     "date": 1873
+    },
+    {
+     "id": "a5_refused",
+     "shot": "a5_refused",
+     "type": "STORY",
+     "text": "Davis refused to leave at first."
+    },
+    {
+     "id": "a5_rival",
+     "shot": "a5_rival",
+     "type": "STORY",
+     "text": "For a few days, Texas had two rival governments in the same Capitol building.",
+     "gag": true
+    },
+    {
+     "id": "a5_grant",
+     "shot": "a5_grant",
+     "type": "STORY",
+     "text": "Then the president, Ulysses Grant, refused to send troops."
+    },
+    {
+     "id": "a5_walked",
+     "shot": "a5_walked",
+     "type": "STORY",
+     "text": "Davis walked out.",
+     "sfx": [
+      [
+       "slam",
+       "end",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "a5_backwards",
+     "shot": "a5_backwards",
+     "type": "HOST",
+     "text": "Here is where most people get this story *backwards*.",
+     "date": 1874
+    },
+    {
+     "id": "a5_redeem",
+     "shot": "a5_redeem",
+     "type": "INSERT",
+     "text": "The Democrats who took over in 1874 called themselves the *Redeemers*."
+    },
+    {
+     "id": "a5_const",
+     "shot": "a5_const",
+     "type": "INSERT",
+     "text": "They wrote a new state constitution in 1876, still the Constitution of",
+     "date": 1876
+    },
+    {
+     "id": "a5_run",
+     "shot": "a5_run",
+     "type": "INSERT",
+     "text": "Texas today, and built a party that would run Texas for more than 100"
+    },
+    {
+     "id": "a5_white",
+     "shot": "a5_white",
+     "type": "INSERT",
+     "text": "years, and that party was openly committed to white political control.",
+     "quiet": true
+    }
+   ]
+  }
+ ]
+}

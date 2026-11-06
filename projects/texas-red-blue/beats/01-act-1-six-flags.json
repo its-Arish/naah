@@ -1,0 +1,266 @@
+{
+ "title": "Act 1: Six Flags",
+ "sections": [
+  {
+   "title": "Act 1: Six Flags",
+   "beats": [
+    {
+     "id": "a1_intro",
+     "shot": "a1_intro",
+     "type": "HOST",
+     "text": "To understand Tuesday, you have to understand one thing."
+    },
+    {
+     "id": "a1_hands",
+     "shot": "a1_hands",
+     "type": "HOST",
+     "text": "Texas has changed hands more than almost any place in America, and"
+    },
+    {
+     "id": "a1_behind",
+     "shot": "a1_behind",
+     "type": "HOST",
+     "text": "every handover left something behind that still shapes how Texans vote."
+    },
+    {
+     "id": "a1_flags",
+     "shot": "a1_flags",
+     "type": "HOST",
+     "text": "Six different *flags* have flown over it.",
+     "sfx": [
+      [
+       "pops",
+       "w:flags",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "a1_native",
+     "shot": "a1_native",
+     "type": "STORY",
+     "text": "Long before any of them, this land belonged to dozens of *Native* nations.",
+     "date": 1500
+    },
+    {
+     "id": "a1_caddo",
+     "shot": "a1_caddo",
+     "type": "STORY",
+     "text": "The *Caddo* farmed the east."
+    },
+    {
+     "id": "a1_karank",
+     "shot": "a1_karank",
+     "type": "STORY",
+     "text": "The *Karankawa* fished the coast.",
+     "amb": "waves"
+    },
+    {
+     "id": "a1_comanche",
+     "shot": "a1_comanche",
+     "type": "STORY",
+     "text": "And on the plains, the *Comanche* built one of the most powerful horse empires in North America.",
+     "sfx": [
+      [
+       "gallop",
+       "w:Comanche",
+       0.5
+      ]
+     ],
+     "amb": "wind"
+    },
+    {
+     "id": "a1_spain",
+     "shot": "a1_spain",
+     "type": "HOST",
+     "text": "Flag number one, *Spain*.",
+     "date": 1718
+    },
+    {
+     "id": "a1_mission",
+     "shot": "a1_mission",
+     "type": "STORY",
+     "text": "In 1718, Spanish missionaries founded a mission beside the San Antonio River."
+    },
+    {
+     "id": "a1_alamo",
+     "shot": "a1_alamo",
+     "type": "STORY",
+     "text": "You know it by a different name, *the Alamo*.",
+     "sfx": [
+      [
+       "ding",
+       "w:Alamo",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "a1_france",
+     "shot": "a1_france",
+     "type": "HOST",
+     "text": "Flag number two, *France*.",
+     "date": 1685
+    },
+    {
+     "id": "a1_lasalle",
+     "shot": "a1_lasalle",
+     "type": "STORY",
+     "text": "For a few years in the 1680s, a French explorer named La Salle planted",
+     "amb": "waves"
+    },
+    {
+     "id": "a1_fort",
+     "shot": "a1_fort",
+     "type": "STORY",
+     "text": "a little fort on the Texas coast.",
+     "amb": "waves"
+    },
+    {
+     "id": "a1_badly",
+     "shot": "a1_badly",
+     "type": "HOST",
+     "text": "It did *not* go well.",
+     "gag": true
+    },
+    {
+     "id": "a1_wiped",
+     "shot": "a1_wiped",
+     "type": "STORY",
+     "text": "Disease, hunger, and attacks wiped it out.",
+     "quiet": true
+    },
+    {
+     "id": "a1_held",
+     "shot": "a1_held",
+     "type": "INSERT",
+     "text": "Spain held on 100 years, but it never really filled the place.",
+     "date": 1800
+    },
+    {
+     "id": "a1_few",
+     "shot": "a1_few",
+     "type": "INSERT",
+     "text": "By the early 1800s, Spanish Texas had only a few *thousand* settlers."
+    },
+    {
+     "id": "a1_border",
+     "shot": "a1_border",
+     "type": "HOST",
+     "text": "Hold on to that empty border."
+    },
+    {
+     "id": "a1_fills",
+     "shot": "a1_fills",
+     "type": "HOST",
+     "text": "In Texas, whoever *fills* the land ends up running it, and that is still true in 2026."
+    },
+    {
+     "id": "a1_mexico",
+     "shot": "a1_mexico",
+     "type": "HOST",
+     "text": "Flag number three, *Mexico*.",
+     "date": 1821
+    },
+    {
+     "id": "a1_indep",
+     "shot": "a1_indep",
+     "type": "STORY",
+     "text": "In 1821, Mexico won its independence from Spain and inherited a giant empty Texas."
+    },
+    {
+     "id": "a1_risky",
+     "shot": "a1_risky",
+     "type": "HOST",
+     "text": "So Mexico tried something *risky*."
+    },
+    {
+     "id": "a1_invite",
+     "shot": "a1_invite",
+     "type": "HOST",
+     "text": "It invited *Americans* in.",
+     "gag": true,
+     "sfx": [
+      [
+       "boing",
+       "w:Americans",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "a1_austin",
+     "shot": "a1_austin",
+     "type": "STORY",
+     "text": "A man named Stephen F. Austin brought the first 300 families."
+    },
+    {
+     "id": "a1_cheap",
+     "shot": "a1_cheap",
+     "type": "STORY",
+     "text": "Land was *cheap*.",
+     "sfx": [
+      [
+       "kaching",
+       "w:cheap",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "a1_slaves",
+     "shot": "a1_slaves",
+     "type": "INSERT",
+     "text": "Tens of thousands followed, and many of them brought something Mexico was moving to ban, enslaved people.",
+     "quiet": true
+    },
+    {
+     "id": "a1_abol",
+     "shot": "a1_abol",
+     "type": "INSERT",
+     "text": "Mexico abolished slavery in 1829.",
+     "date": 1829,
+     "quiet": true
+    },
+    {
+     "id": "a1_loop",
+     "shot": "a1_loop",
+     "type": "INSERT",
+     "text": "Texas settlers looked for loopholes, labeling enslaved workers as indentured servants.",
+     "quiet": true
+    },
+    {
+     "id": "a1_ten",
+     "shot": "a1_ten",
+     "type": "INSERT",
+     "text": "By the 1830s, Americans in Texas outnumbered Mexicans by about *ten* to one.",
+     "date": 1834
+    },
+    {
+     "id": "a1_grip",
+     "shot": "a1_grip",
+     "type": "HOST",
+     "text": "Mexico tightened its grip."
+    },
+    {
+     "id": "a1_push",
+     "shot": "a1_push",
+     "type": "HOST",
+     "text": "Texans pushed back."
+    },
+    {
+     "id": "a1_first",
+     "shot": "a1_first",
+     "type": "HOST",
+     "text": "It was the first time newcomers changed who ran Texas."
+    },
+    {
+     "id": "a1_last",
+     "shot": "a1_last",
+     "type": "HOST",
+     "text": "It would not be the *last*."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,305 @@
+{
+ "title": "Act 6: The Century of Blue",
+ "sections": [
+  {
+   "title": "Act 6: The Century of Blue",
+   "beats": [
+    {
+     "id": "a6_two",
+     "shot": "a6_two",
+     "type": "HOST",
+     "text": "At the start of the 1900s, two events four months apart changed Texas forever.",
+     "date": 1900
+    },
+    {
+     "id": "a6_storm",
+     "shot": "a6_storm",
+     "type": "STORY",
+     "text": "On September the 8th, 1900, a hurricane struck the city of Galveston,",
+     "quiet": true,
+     "amb": "waves"
+    },
+    {
+     "id": "a6_port",
+     "shot": "a6_port",
+     "type": "STORY",
+     "text": "then the biggest port in Texas.",
+     "quiet": true,
+     "amb": "waves"
+    },
+    {
+     "id": "a6_dead",
+     "shot": "a6_dead",
+     "type": "STORY",
+     "text": "Somewhere between 6,000 and 12,000 people died.",
+     "quiet": true
+    },
+    {
+     "id": "a6_deadliest",
+     "shot": "a6_deadliest",
+     "type": "STORY",
+     "text": "It is still the deadliest natural disaster in American history.",
+     "quiet": true
+    },
+    {
+     "id": "a6_spindle",
+     "shot": "a6_spindle",
+     "type": "STORY",
+     "text": "Then on January the 10th, 1901, near Beaumont, a well at a hill called",
+     "date": 1901
+    },
+    {
+     "id": "a6_gush",
+     "shot": "a6_gush",
+     "type": "STORY",
+     "text": "Spindletop blew oil *150* feet into the sky.",
+     "sfx": [
+      [
+       "rumble",
+       0,
+       0.7
+      ]
+     ]
+    },
+    {
+     "id": "a6_boom",
+     "shot": "a6_boom",
+     "type": "STORY",
+     "text": "The Texas oil boom had begun, and money started pouring into a",
+     "sfx": [
+      [
+       "coins",
+       "w:money",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "a6_houston",
+     "shot": "a6_houston",
+     "type": "STORY",
+     "text": "city nearby, one that would grow to replace Galveston, *Houston*."
+    },
+    {
+     "id": "a6_back",
+     "shot": "a6_back",
+     "type": "HOST",
+     "text": "Back to the Dial."
+    },
+    {
+     "id": "a6_locked",
+     "shot": "a6_locked",
+     "type": "HOST",
+     "text": "It is still locked on blue, but how do you keep one party"
+    },
+    {
+     "id": "a6_century",
+     "shot": "a6_century",
+     "type": "HOST",
+     "text": "in power for a whole century?"
+    },
+    {
+     "id": "a6_simple",
+     "shot": "a6_simple",
+     "type": "HOST",
+     "text": "Part of the answer is simple."
+    },
+    {
+     "id": "a6_union",
+     "shot": "a6_union",
+     "type": "STORY",
+     "text": "For generations of white Texans, voting Republican meant voting for the party"
+    },
+    {
+     "id": "a6_recon",
+     "shot": "a6_recon",
+     "type": "STORY",
+     "text": "of the Union Army and Reconstruction."
+    },
+    {
+     "id": "a6_done",
+     "shot": "a6_done",
+     "type": "STORY",
+     "text": "It just wasn't *done*.",
+     "gag": true
+    },
+    {
+     "id": "a6_allowed",
+     "shot": "a6_allowed",
+     "type": "HOST",
+     "text": "The other part is about who was allowed to vote."
+    },
+    {
+     "id": "a6_poll",
+     "shot": "a6_poll",
+     "type": "INSERT",
+     "text": "In 1902, Texas added a *poll tax*.",
+     "date": 1902
+    },
+    {
+     "id": "a6_pay",
+     "shot": "a6_pay",
+     "type": "INSERT",
+     "text": "You had to pay to vote.",
+     "sfx": [
+      [
+       "coins",
+       "w:pay",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "a6_poor",
+     "shot": "a6_poor",
+     "type": "INSERT",
+     "text": "It hit poor voters of every race, and especially Black and Mexican American Texans."
+    },
+    {
+     "id": "a6_white",
+     "shot": "a6_white",
+     "type": "INSERT",
+     "text": "Then came the white primary.",
+     "quiet": true
+    },
+    {
+     "id": "a6_barred",
+     "shot": "a6_barred",
+     "type": "INSERT",
+     "text": "The Democratic Party simply barred Black voters from its primaries,",
+     "quiet": true
+    },
+    {
+     "id": "a6_nov",
+     "shot": "a6_nov",
+     "type": "INSERT",
+     "text": "and since the Democrats always won in November, the primary was the"
+    },
+    {
+     "id": "a6_only",
+     "shot": "a6_only",
+     "type": "INSERT",
+     "text": "only election that mattered."
+    },
+    {
+     "id": "a6_smith",
+     "shot": "a6_smith",
+     "type": "STORY",
+     "text": "A Black dentist from Houston named Lonnie Smith took that system",
+     "date": 1944
+    },
+    {
+     "id": "a6_court",
+     "shot": "a6_court",
+     "type": "STORY",
+     "text": "all the way to the Supreme Court."
+    },
+    {
+     "id": "a6_allwright",
+     "shot": "a6_allwright",
+     "type": "INSERT",
+     "text": "In 1944, in *Smith v. Allwright*, the court struck down the white"
+    },
+    {
+     "id": "a6_eight",
+     "shot": "a6_eight",
+     "type": "INSERT",
+     "text": "primary, eight votes to one.",
+     "sfx": [
+      [
+       "slam",
+       "w:eight",
+       0.7
+      ]
+     ]
+    },
+    {
+     "id": "a6_marshall",
+     "shot": "a6_marshall",
+     "type": "INSERT",
+     "text": "The lawyer who argued his case was a young Thurgood *Marshall*."
+    },
+    {
+     "id": "a6_twist",
+     "shot": "a6_twist",
+     "type": "HOST",
+     "text": "Now, here's the *twist* that sets up everything that comes next.",
+     "date": null
+    },
+    {
+     "id": "a6_argued",
+     "shot": "a6_argued",
+     "type": "INSERT",
+     "text": "Inside that one giant Democratic Party, Texans still argued."
+    },
+    {
+     "id": "a6_wings",
+     "shot": "a6_wings",
+     "type": "INSERT",
+     "text": "There were liberal Democrats and conservative Democrats, and they fought"
+    },
+    {
+     "id": "a6_fierce",
+     "shot": "a6_fierce",
+     "type": "INSERT",
+     "text": "each other fiercely in the primaries."
+    },
+    {
+     "id": "a6_cons",
+     "shot": "a6_cons",
+     "type": "INSERT",
+     "text": "For decades, the conservative wing usually won, which meant that in"
+    },
+    {
+     "id": "a6_practice",
+     "shot": "a6_practice",
+     "type": "INSERT",
+     "text": "practice, Texas was a conservative state that voted *Democrat*."
+    },
+    {
+     "id": "a6_stage1",
+     "shot": "a6_stage1",
+     "type": "HOST",
+     "text": "And that is stage one of the one-party *trap* I promised you.",
+     "sfx": [
+      [
+       "pop",
+       "w:trap",
+       0.7
+      ]
+     ]
+    },
+    {
+     "id": "a6_inside",
+     "shot": "a6_inside",
+     "type": "HOST",
+     "text": "When the primary is the only election that matters, the real fight moves"
+    },
+    {
+     "id": "a6_splits",
+     "shot": "a6_splits",
+     "type": "HOST",
+     "text": "inside the party, and the party *splits*."
+    },
+    {
+     "id": "a6_mind",
+     "shot": "a6_mind",
+     "type": "HOST",
+     "text": "Keep that in mind, because the moment those conservative Democrats found a"
+    },
+    {
+     "id": "a6_move",
+     "shot": "a6_move",
+     "type": "HOST",
+     "text": "new home, the Dial was going to move."
+    },
+    {
+     "id": "a6_two_more",
+     "shot": "a6_two_more",
+     "type": "HOST",
+     "text": "Two more stages to go."
+    }
+   ]
+  }
+ ]
+}

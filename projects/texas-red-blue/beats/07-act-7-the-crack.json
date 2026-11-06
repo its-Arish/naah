@@ -1,0 +1,161 @@
+{
+ "title": "Act 7: The Crack",
+ "sections": [
+  {
+   "title": "Act 7: The Crack",
+   "beats": [
+    {
+     "id": "a7_hero",
+     "shot": "a7_hero",
+     "type": "STORY",
+     "text": "The first hairline crack came from a war hero, in 1952 and again in 1956.",
+     "date": 1952
+    },
+    {
+     "id": "a7_ike",
+     "shot": "a7_ike",
+     "type": "STORY",
+     "text": "Texas voted for the Republican Dwight *Eisenhower* for president."
+    },
+    {
+     "id": "a7_split",
+     "shot": "a7_split",
+     "type": "INSERT",
+     "text": "Lots of conservative Democrats were happy to vote Republican at the top of"
+    },
+    {
+     "id": "a7_ticket",
+     "shot": "a7_ticket",
+     "type": "INSERT",
+     "text": "the ticket and Democrat everywhere else."
+    },
+    {
+     "id": "a7_lbj",
+     "shot": "a7_lbj",
+     "type": "STORY",
+     "text": "Then in 1961, Lyndon Johnson left his Senate seat to become vice president.",
+     "date": 1961
+    },
+    {
+     "id": "a7_special",
+     "shot": "a7_special",
+     "type": "STORY",
+     "text": "There was a special election to replace him."
+    },
+    {
+     "id": "a7_dsplit",
+     "shot": "a7_dsplit",
+     "type": "HOST",
+     "text": "The Democrats were *split*."
+    },
+    {
+     "id": "a7_oilman",
+     "shot": "a7_oilman",
+     "type": "STORY",
+     "text": "Their candidate was a conservative oilman, and many liberal Democrats"
+    },
+    {
+     "id": "a7_refused",
+     "shot": "a7_refused",
+     "type": "STORY",
+     "text": "simply refused to vote for him."
+    },
+    {
+     "id": "a7_home",
+     "shot": "a7_home",
+     "type": "STORY",
+     "text": "Some of them stayed home."
+    },
+    {
+     "id": "a7_message",
+     "shot": "a7_message",
+     "type": "STORY",
+     "text": "Some voted Republican just to send a message."
+    },
+    {
+     "id": "a7_tower",
+     "shot": "a7_tower",
+     "type": "INSERT",
+     "text": "A young Republican professor named John Tower won by less than two points."
+    },
+    {
+     "id": "a7_first",
+     "shot": "a7_first",
+     "type": "INSERT",
+     "text": "He became the first Republican elected statewide in Texas since Reconstruction.",
+     "sfx": [
+      [
+       "ding",
+       "end",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "a7_jfk",
+     "shot": "a7_jfk",
+     "type": "STORY",
+     "text": "On November 22nd, 1963, President John F. Kennedy was shot and killed in Dallas.",
+     "date": 1963,
+     "quiet": true
+    },
+    {
+     "id": "a7_sworn",
+     "shot": "a7_sworn",
+     "type": "STORY",
+     "text": "Lyndon Johnson, a Texan, was sworn in as president on Air Force One.",
+     "quiet": true
+    },
+    {
+     "id": "a7_cra",
+     "shot": "a7_cra",
+     "type": "INSERT",
+     "text": "The next year, Johnson pushed through the Civil Rights Act of",
+     "date": 1964
+    },
+    {
+     "id": "a7_vra",
+     "shot": "a7_vra",
+     "type": "INSERT",
+     "text": "1964, outlawing segregation, then the Voting Rights Act of 1965."
+    },
+    {
+     "id": "a7_line",
+     "shot": "a7_line",
+     "type": "HOST",
+     "text": "There is a famous line that Johnson said the Democrats had just"
+    },
+    {
+     "id": "a7_lost",
+     "shot": "a7_lost",
+     "type": "HOST",
+     "text": "\"lost the South for a generation.\""
+    },
+    {
+     "id": "a7_argue",
+     "shot": "a7_argue",
+     "type": "HOST",
+     "text": "Historians argue about whether he really said it, and exactly"
+    },
+    {
+     "id": "a7_how",
+     "shot": "a7_how",
+     "type": "HOST",
+     "text": "how, but the direction was clear."
+    },
+    {
+     "id": "a7_party",
+     "shot": "a7_party",
+     "type": "INSERT",
+     "text": "The national Democratic Party was now the party of civil rights, and"
+    },
+    {
+     "id": "a7_door",
+     "shot": "a7_door",
+     "type": "INSERT",
+     "text": "many conservative white Southerners began to look for the *door*."
+    }
+   ]
+  }
+ ]
+}

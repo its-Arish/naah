@@ -1,0 +1,140 @@
+{
+ "title": "Act 4: Flag Number Five",
+ "sections": [
+  {
+   "title": "Act 4: Flag Number Five",
+   "beats": [
+    {
+     "id": "a4_gop",
+     "shot": "a4_gop",
+     "type": "INSERT",
+     "text": "In the 1850s, a new party was born in the North, the *Republican* Party.",
+     "date": 1854
+    },
+    {
+     "id": "a4_cause",
+     "shot": "a4_cause",
+     "type": "INSERT",
+     "text": "Its founding cause was stopping slavery from spreading into new territory."
+    },
+    {
+     "id": "a4_lincoln",
+     "shot": "a4_lincoln",
+     "type": "INSERT",
+     "text": "In 1860, its candidate, Abraham Lincoln, won the presidency.",
+     "date": 1860
+    },
+    {
+     "id": "a4_ballot",
+     "shot": "a4_ballot",
+     "type": "INSERT",
+     "text": "In Texas, he was not even on the *ballot*."
+    },
+    {
+     "id": "a4_180k",
+     "shot": "a4_180k",
+     "type": "INSERT",
+     "text": "By then, there were about 180,000 enslaved people in Texas, almost",
+     "quiet": true
+    },
+    {
+     "id": "a4_third",
+     "shot": "a4_third",
+     "type": "INSERT",
+     "text": "a third of everyone in the state.",
+     "quiet": true
+    },
+    {
+     "id": "a4_conv",
+     "shot": "a4_conv",
+     "type": "HOST",
+     "text": "Texas called a convention.",
+     "date": 1861
+    },
+    {
+     "id": "a4_three",
+     "shot": "a4_three",
+     "type": "INSERT",
+     "text": "In February 1861, voters approved secession, about *three* to one."
+    },
+    {
+     "id": "a4_why",
+     "shot": "a4_why",
+     "type": "INSERT",
+     "text": "The convention's own declaration said why."
+    },
+    {
+     "id": "a4_protect",
+     "shot": "a4_protect",
+     "type": "INSERT",
+     "text": "To protect *slavery*.",
+     "quiet": true
+    },
+    {
+     "id": "a4_houston",
+     "shot": "a4_houston",
+     "type": "STORY",
+     "text": "One famous Texan said no. Governor Sam Houston, the hero of San Jacinto, refused"
+    },
+    {
+     "id": "a4_removed",
+     "shot": "a4_removed",
+     "type": "STORY",
+     "text": "to swear loyalty to the Confederacy, so they removed him from office."
+    },
+    {
+     "id": "a4_flag5",
+     "shot": "a4_flag5",
+     "type": "HOST",
+     "text": "Flag number five, the *Confederacy*.",
+     "quiet": true
+    },
+    {
+     "id": "a4_ended",
+     "shot": "a4_ended",
+     "type": "INSERT",
+     "text": "The war ended in April 1865, but in Texas, far from the fighting,",
+     "date": 1865
+    },
+    {
+     "id": "a4_weeks",
+     "shot": "a4_weeks",
+     "type": "INSERT",
+     "text": "slavery carried on for weeks.",
+     "quiet": true
+    },
+    {
+     "id": "a4_june",
+     "shot": "a4_june",
+     "type": "STORY",
+     "text": "On June the 19th, 1865, a Union general landed at Galveston and read an order."
+    },
+    {
+     "id": "a4_free",
+     "shot": "a4_free",
+     "type": "STORY",
+     "text": "All enslaved people in Texas were *free*.",
+     "sfx": [
+      [
+       "ding",
+       "w:free",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "a4_juneteenth",
+     "shot": "a4_juneteenth",
+     "type": "STORY",
+     "text": "That day became *Juneteenth*."
+    },
+    {
+     "id": "a4_holiday",
+     "shot": "a4_holiday",
+     "type": "STORY",
+     "text": "It started in Texas, and today it's a national holiday."
+    }
+   ]
+  }
+ ]
+}
