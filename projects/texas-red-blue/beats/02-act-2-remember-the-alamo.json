@@ -1,0 +1,157 @@
+{
+ "title": "Act 2: Remember the Alamo",
+ "sections": [
+  {
+   "title": "Act 2: Remember the Alamo",
+   "beats": [
+    {
+     "id": "a2_cannon",
+     "shot": "a2_cannon",
+     "type": "STORY",
+     "text": "In 1835, the Mexican army came to take back a small *cannon* from the town of Gonzales.",
+     "date": 1835
+    },
+    {
+     "id": "a2_flag",
+     "shot": "a2_flag",
+     "type": "STORY",
+     "text": "The settlers made a flag with a picture of the cannon and two words, \"Come and take it.\""
+    },
+    {
+     "id": "a2_start",
+     "shot": "a2_start",
+     "type": "HOST",
+     "text": "That was the start of the Texas *Revolution*."
+    },
+    {
+     "id": "a2_santa",
+     "shot": "a2_santa",
+     "type": "STORY",
+     "text": "Mexico's president, General Antonio López de Santa Anna, marched north with thousands of soldiers to crush it."
+    },
+    {
+     "id": "a2_sanant",
+     "shot": "a2_sanant",
+     "type": "INSERT",
+     "text": "In February 1836, he reached San Antonio.",
+     "date": 1836
+    },
+    {
+     "id": "a2_inside",
+     "shot": "a2_inside",
+     "type": "INSERT",
+     "text": "Inside the old mission, the Alamo, were around 200 Texan defenders, including a frontier celebrity named Davy Crockett."
+    },
+    {
+     "id": "a2_13",
+     "shot": "a2_13",
+     "type": "INSERT",
+     "text": "They held out for *13* days."
+    },
+    {
+     "id": "a2_fell",
+     "shot": "a2_fell",
+     "type": "STORY",
+     "text": "On the morning of March the 6th, 1836, the Alamo fell.",
+     "quiet": true
+    },
+    {
+     "id": "a2_killed",
+     "shot": "a2_killed",
+     "type": "STORY",
+     "text": "Nearly every defender was killed.",
+     "quiet": true
+    },
+    {
+     "id": "a2_mex",
+     "shot": "a2_mex",
+     "type": "STORY",
+     "text": "Hundreds of Mexican soldiers died, too.",
+     "quiet": true
+    },
+    {
+     "id": "a2_mistake",
+     "shot": "a2_mistake",
+     "type": "HOST",
+     "text": "But Santa Anna had made a *mistake*."
+    },
+    {
+     "id": "a2_cry",
+     "shot": "a2_cry",
+     "type": "HOST",
+     "text": "He had given the Texans a battle cry, and then he made a second one."
+    },
+    {
+     "id": "a2_split",
+     "shot": "a2_split",
+     "type": "INSERT",
+     "text": "He split up his army to chase them and pushed ahead with only part of it."
+    },
+    {
+     "id": "a2_declared",
+     "shot": "a2_declared",
+     "type": "INSERT",
+     "text": "Four days before the Alamo fell, Texan delegates had already declared"
+    },
+    {
+     "id": "a2_sanjac",
+     "shot": "a2_sanjac",
+     "type": "INSERT",
+     "text": "independence, and on April the 21st, 1836, at San Jacinto, Sam Houston's army caught"
+    },
+    {
+     "id": "a2_rest",
+     "shot": "a2_rest",
+     "type": "STORY",
+     "text": "Santa Anna's camp during the afternoon rest."
+    },
+    {
+     "id": "a2_remember",
+     "shot": "a2_remember",
+     "type": "STORY",
+     "text": "\"Remember the *Alamo*!\"",
+     "sfx": [
+      [
+       "drum",
+       0,
+       0.8
+      ]
+     ]
+    },
+    {
+     "id": "a2_18",
+     "shot": "a2_18",
+     "type": "STORY",
+     "text": "The battle lasted about *18* minutes.",
+     "sfx": [
+      [
+       "ding",
+       "end",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "a2_grass",
+     "shot": "a2_grass",
+     "type": "STORY",
+     "text": "Santa Anna was captured the next day, hiding in the *grass*.",
+     "gag": true
+    },
+    {
+     "id": "a2_signed",
+     "shot": "a2_signed",
+     "type": "STORY",
+     "text": "To get his freedom, he signed away Texas.",
+     "sfx": [
+      [
+       "slam",
+       "w:Texas",
+       0.7
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

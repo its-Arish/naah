@@ -1,0 +1,175 @@
+{
+ "title": "Act 3: The Country of Texas",
+ "sections": [
+  {
+   "title": "Act 3: The Country of Texas",
+   "beats": [
+    {
+     "id": "a3_four",
+     "shot": "a3_four",
+     "type": "HOST",
+     "text": "Flag number *four*.",
+     "date": 1836
+    },
+    {
+     "id": "a3_country",
+     "shot": "a3_country",
+     "type": "STORY",
+     "text": "For nearly 10 years, Texas was its own country, the Republic of Texas."
+    },
+    {
+     "id": "a3_own",
+     "shot": "a3_own",
+     "type": "STORY",
+     "text": "It had its own president, its own army, its own money, and not much else.",
+     "gag": true
+    },
+    {
+     "id": "a3_broke",
+     "shot": "a3_broke",
+     "type": "HOST",
+     "text": "It was *broke*.",
+     "sfx": [
+      [
+       "thud",
+       "w:broke",
+       0.7
+      ]
+     ]
+    },
+    {
+     "id": "a3_war",
+     "shot": "a3_war",
+     "type": "INSERT",
+     "text": "It had a war with the Comanche, a hostile Mexico, and debts it could not pay,"
+    },
+    {
+     "id": "a3_slavery",
+     "shot": "a3_slavery",
+     "type": "INSERT",
+     "text": "and its constitution protected slavery.",
+     "quiet": true
+    },
+    {
+     "id": "a3_free",
+     "shot": "a3_free",
+     "type": "INSERT",
+     "text": "It even made it hard for free Black people to live there at all.",
+     "quiet": true
+    },
+    {
+     "id": "a3_join",
+     "shot": "a3_join",
+     "type": "HOST",
+     "text": "So most Texans wanted to join the United States, but up north, that was a problem."
+    },
+    {
+     "id": "a3_slave",
+     "shot": "a3_slave",
+     "type": "INSERT",
+     "text": "Adding Texas meant adding a giant new slave state."
+    },
+    {
+     "id": "a3_brawl",
+     "shot": "a3_brawl",
+     "type": "INSERT",
+     "text": "In Washington, it turned into a nine-year *brawl*."
+    },
+    {
+     "id": "a3_28",
+     "shot": "a3_28",
+     "type": "INSERT",
+     "text": "Finally, on December the 29th, 1845, Texas became the *28th* state.",
+     "date": 1845,
+     "sfx": [
+      [
+       "ding",
+       "w:28th",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "a3_six",
+     "shot": "a3_six",
+     "type": "HOST",
+     "text": "Flag number six is coming, but first, flag number five."
+    },
+    {
+     "id": "a3_war2",
+     "shot": "a3_war2",
+     "type": "INSERT",
+     "text": "Annexation also started a *war*.",
+     "date": 1846
+    },
+    {
+     "id": "a3_rio",
+     "shot": "a3_rio",
+     "type": "INSERT",
+     "text": "Texas said its border was the *Rio Grande*."
+    },
+    {
+     "id": "a3_nueces",
+     "shot": "a3_nueces",
+     "type": "INSERT",
+     "text": "Mexico said it was the *Nueces* River, more than 100 miles north."
+    },
+    {
+     "id": "a3_troops",
+     "shot": "a3_troops",
+     "type": "INSERT",
+     "text": "The United States sent troops into the gap."
+    },
+    {
+     "id": "a3_mexwar",
+     "shot": "a3_mexwar",
+     "type": "INSERT",
+     "text": "The Mexican-American War followed, and by 1848, Mexico had lost not",
+     "date": 1848
+    },
+    {
+     "id": "a3_calif",
+     "shot": "a3_calif",
+     "type": "INSERT",
+     "text": "just Texas, but California and most of the American Southwest."
+    },
+    {
+     "id": "a3_starts",
+     "shot": "a3_starts",
+     "type": "HOST",
+     "text": "Now, here is where our story really starts, because in 1840s Texas, the"
+    },
+    {
+     "id": "a3_dems",
+     "shot": "a3_dems",
+     "type": "HOST",
+     "text": "dominant party was the *Democrats*."
+    },
+    {
+     "id": "a3_party",
+     "shot": "a3_party",
+     "type": "HOST",
+     "text": "The national Democratic Party of the time was the party of the"
+    },
+    {
+     "id": "a3_south",
+     "shot": "a3_south",
+     "type": "HOST",
+     "text": "South, the party of expansion, and the party that defended slavery."
+    },
+    {
+     "id": "a3_born",
+     "shot": "a3_born",
+     "type": "HOST",
+     "text": "Remember that, because the parties we know today were about to be"
+    },
+    {
+     "id": "a3_century",
+     "shot": "a3_century",
+     "type": "HOST",
+     "text": "born, and Texas was about to choose a side that would last a *century*."
+    }
+   ]
+  }
+ ]
+}

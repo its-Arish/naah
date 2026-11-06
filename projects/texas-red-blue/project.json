@@ -1,0 +1,19 @@
+{
+  "title": "Why Texas Can't Stay One Party",
+  "fps": 30,
+  "wordsPerSecond": 3.2,
+  "openingSeconds": 0.4,
+  "cardSeconds": 4.6,
+  "endSeconds": 5,
+  "dateTag": true,
+  "voMaxPause": 1.4,
+  "mix": {
+    "voice": 1.0,
+    "sfx": 0.4,
+    "music": 0,
+    "duck": true,
+    "loudness": -14
+  },
+  "captionFont": "serif",
+  "mapSfx": "tech"
+}

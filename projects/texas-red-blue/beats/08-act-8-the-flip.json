@@ -1,0 +1,186 @@
+{
+ "title": "Act 8: The Flip",
+ "sections": [
+  {
+   "title": "Act 8: The Flip",
+   "beats": [
+    {
+     "id": "a8_long",
+     "shot": "a8_long",
+     "type": "HOST",
+     "text": "It took a long time, too long for anyone in a hurry.",
+     "date": 1978
+    },
+    {
+     "id": "a8_clements",
+     "shot": "a8_clements",
+     "type": "INSERT",
+     "text": "In 1978, an oilman named Bill Clements became the first Republican governor"
+    },
+    {
+     "id": "a8_100",
+     "shot": "a8_100",
+     "type": "INSERT",
+     "text": "of Texas in more than 100 years."
+    },
+    {
+     "id": "a8_point",
+     "shot": "a8_point",
+     "type": "INSERT",
+     "text": "He won by less than one percentage *point*."
+    },
+    {
+     "id": "a8_reagan",
+     "shot": "a8_reagan",
+     "type": "INSERT",
+     "text": "In 1980, Ronald Reagan carried Texas, so did every Republican",
+     "date": 1980
+    },
+    {
+     "id": "a8_after",
+     "shot": "a8_after",
+     "type": "INSERT",
+     "text": "presidential candidate after him."
+    },
+    {
+     "id": "a8_switch",
+     "shot": "a8_switch",
+     "type": "STORY",
+     "text": "And conservative Democrats started *switching* parties."
+    },
+    {
+     "id": "a8_gramm",
+     "shot": "a8_gramm",
+     "type": "STORY",
+     "text": "A congressman named Phil Gramm switched in 1983.",
+     "date": 1983
+    },
+    {
+     "id": "a8_perry",
+     "shot": "a8_perry",
+     "type": "STORY",
+     "text": "A young legislator named Rick Perry switched in 1989.",
+     "date": 1989
+    },
+    {
+     "id": "a8_bush",
+     "shot": "a8_bush",
+     "type": "INSERT",
+     "text": "In 1994, George W. Bush beat the popular Democratic Governor Ann Richards.",
+     "date": 1994
+    },
+    {
+     "id": "a8_last",
+     "shot": "a8_last",
+     "type": "INSERT",
+     "text": "That same year, Democrats won their last statewide races in Texas for 32 years."
+    },
+    {
+     "id": "a8_house",
+     "shot": "a8_house",
+     "type": "INSERT",
+     "text": "In 2002, Republicans won the Texas House for the first time since Reconstruction.",
+     "date": 2002
+    },
+    {
+     "id": "a8_red",
+     "shot": "a8_red",
+     "type": "HOST",
+     "text": "The Dial was finally, completely *red*.",
+     "sfx": [
+      [
+       "clang",
+       "w:red",
+       0.8
+      ]
+     ]
+    },
+    {
+     "id": "a8_why",
+     "shot": "a8_why",
+     "type": "HOST",
+     "text": "So why did Texas turn red?",
+     "date": null
+    },
+    {
+     "id": "a8_ask",
+     "shot": "a8_ask",
+     "type": "HOST",
+     "text": "It depends on who you ask."
+    },
+    {
+     "id": "a8_rep",
+     "shot": "a8_rep",
+     "type": "INSERT",
+     "text": "Republicans and many conservatives say Texas didn't really change,"
+    },
+    {
+     "id": "a8_nat",
+     "shot": "a8_nat",
+     "type": "INSERT",
+     "text": "the national Democratic Party did."
+    },
+    {
+     "id": "a8_left",
+     "shot": "a8_left",
+     "type": "INSERT",
+     "text": "It moved left on taxes, guns, abortion, and the role of government,"
+    },
+    {
+     "id": "a8_stayed",
+     "shot": "a8_stayed",
+     "type": "INSERT",
+     "text": "while Texans stayed where they were."
+    },
+    {
+     "id": "a8_oil",
+     "shot": "a8_oil",
+     "type": "INSERT",
+     "text": "Add oil money, booming suburbs, and millions of newcomers from"
+    },
+    {
+     "id": "a8_low",
+     "shot": "a8_low",
+     "type": "INSERT",
+     "text": "other states who wanted low taxes, and you get a Republican Texas."
+    },
+    {
+     "id": "a8_critics",
+     "shot": "a8_critics",
+     "type": "INSERT",
+     "text": "Critics, and many historians of the South, say race was at the heart of it."
+    },
+    {
+     "id": "a8_speed",
+     "shot": "a8_speed",
+     "type": "INSERT",
+     "text": "The switch picked up speed right after the civil rights laws,"
+    },
+    {
+     "id": "a8_maps",
+     "shot": "a8_maps",
+     "type": "INSERT",
+     "text": "and since then, they argue, district maps and voting rules have"
+    },
+    {
+     "id": "a8_lock",
+     "shot": "a8_lock",
+     "type": "INSERT",
+     "text": "helped lock in Republican power."
+    },
+    {
+     "id": "a8_both",
+     "shot": "a8_both",
+     "type": "HOST",
+     "text": "Most historians would say it was some of both, and that it happened slowly,"
+    },
+    {
+     "id": "a8_night",
+     "shot": "a8_night",
+     "type": "HOST",
+     "text": "over 30 years, not in one night."
+    }
+   ]
+  }
+ ]
+}

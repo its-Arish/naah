@@ -1,0 +1,284 @@
+{
+  "base": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/",
+  "tracks": {
+    "curious": {
+      "file": "Investigations.mp3",
+      "title": "Investigations",
+      "by": "Kevin MacLeod",
+      "license": "CC BY 4.0",
+      "heard": false
+    },
+    "frontier": {
+      "file": "Neo%20Western.mp3",
+      "title": "Neo Western",
+      "by": "Kevin MacLeod",
+      "license": "CC BY 4.0",
+      "heard": false
+    },
+    "march": {
+      "file": "Volatile%20Reaction.mp3",
+      "title": "Volatile Reaction",
+      "by": "Kevin MacLeod",
+      "license": "CC BY 4.0",
+      "heard": false
+    },
+    "charge": {
+      "file": "Heroic%20Age.mp3",
+      "title": "Heroic Age",
+      "by": "Kevin MacLeod",
+      "license": "CC BY 4.0",
+      "heard": false
+    },
+    "adventure": {
+      "file": "Pamgaea.mp3",
+      "title": "Pamgaea",
+      "by": "Kevin MacLeod",
+      "license": "CC BY 4.0",
+      "heard": false
+    },
+    "sombre": {
+      "file": "Lightless%20Dawn.mp3",
+      "title": "Lightless Dawn",
+      "by": "Kevin MacLeod",
+      "license": "CC BY 4.0",
+      "heard": false
+    },
+    "hope": {
+      "file": "Inspired.mp3",
+      "title": "Inspired",
+      "by": "Kevin MacLeod",
+      "license": "CC BY 4.0",
+      "heard": false
+    },
+    "explain": {
+      "file": "Wallpaper.mp3",
+      "title": "Wallpaper",
+      "by": "Kevin MacLeod",
+      "license": "CC BY 4.0",
+      "heard": false
+    },
+    "fifties": {
+      "file": "Local%20Forecast%20-%20Elevator.mp3",
+      "title": "Local Forecast - Elevator",
+      "by": "Kevin MacLeod",
+      "license": "CC BY 4.0",
+      "heard": false
+    },
+    "modern": {
+      "file": "Cipher.mp3",
+      "title": "Cipher",
+      "by": "Kevin MacLeod",
+      "license": "CC BY 4.0",
+      "heard": false
+    }
+  },
+  "cues": [
+    {
+      "from": "co_dial",
+      "to": "co_flip.end",
+      "track": "curious",
+      "volume": 0.7
+    },
+    {
+      "from": "co_easy",
+      "to": "co_story.end",
+      "track": "curious",
+      "offset": "0:20",
+      "volume": 0.7
+    },
+    {
+      "from": "a1_intro",
+      "to": "a1_badly.end",
+      "track": "frontier",
+      "volume": 0.65
+    },
+    {
+      "from": "a1_held",
+      "to": "a1_cheap.end",
+      "track": "frontier",
+      "offset": "0:40",
+      "volume": 0.65
+    },
+    {
+      "from": "a1_ten",
+      "to": "a1_last.end",
+      "track": "frontier",
+      "offset": "0:30",
+      "volume": 0.65
+    },
+    {
+      "from": "a2_cannon",
+      "to": "a2_13.end",
+      "track": "march",
+      "volume": 0.55
+    },
+    {
+      "from": "a2_split",
+      "to": "a2_signed.end",
+      "track": "charge",
+      "volume": 0.65
+    },
+    {
+      "from": "a3_four",
+      "to": "a3_war.end",
+      "track": "adventure",
+      "volume": 0.6
+    },
+    {
+      "from": "a3_join",
+      "to": "a3_calif.end",
+      "track": "adventure",
+      "offset": "0:45",
+      "volume": 0.6
+    },
+    {
+      "from": "a3_starts",
+      "to": "a3_century.end",
+      "track": "curious",
+      "offset": "0:50",
+      "volume": 0.65
+    },
+    {
+      "from": "a4_gop",
+      "to": "a4_ballot.end",
+      "track": "sombre",
+      "volume": 0.6
+    },
+    {
+      "from": "a4_conv",
+      "to": "a4_why.end",
+      "track": "sombre",
+      "offset": "0:40",
+      "volume": 0.55
+    },
+    {
+      "from": "a4_houston",
+      "to": "a4_removed.end",
+      "track": "sombre",
+      "offset": "1:00",
+      "volume": 0.55
+    },
+    {
+      "from": "a4_june",
+      "to": "a4_holiday.end",
+      "track": "hope",
+      "volume": 0.65
+    },
+    {
+      "from": "a5_dial",
+      "to": "a5_walked.end",
+      "track": "explain",
+      "volume": 0.6
+    },
+    {
+      "from": "a5_backwards",
+      "to": "a5_run.end",
+      "track": "sombre",
+      "offset": "0:30",
+      "volume": 0.55
+    },
+    {
+      "from": "a6_spindle",
+      "to": "a6_houston.end",
+      "track": "adventure",
+      "offset": "0:30",
+      "volume": 0.6
+    },
+    {
+      "from": "a6_back",
+      "to": "a6_allowed.end",
+      "track": "curious",
+      "offset": "0:45",
+      "volume": 0.6
+    },
+    {
+      "from": "a6_poll",
+      "to": "a6_poor.end",
+      "track": "sombre",
+      "offset": "1:00",
+      "volume": 0.5
+    },
+    {
+      "from": "a6_nov",
+      "to": "a6_only.end",
+      "track": "sombre",
+      "offset": "0:30",
+      "volume": 0.5
+    },
+    {
+      "from": "a6_smith",
+      "to": "a6_marshall.end",
+      "track": "hope",
+      "offset": "1:00",
+      "volume": 0.6
+    },
+    {
+      "from": "a6_twist",
+      "to": "a6_two_more.end",
+      "track": "curious",
+      "offset": "0:30",
+      "volume": 0.65
+    },
+    {
+      "from": "a7_hero",
+      "to": "a7_first.end",
+      "track": "fifties",
+      "volume": 0.6
+    },
+    {
+      "from": "a7_cra",
+      "to": "a7_door.end",
+      "track": "sombre",
+      "offset": "0:30",
+      "volume": 0.55
+    },
+    {
+      "from": "a8_long",
+      "to": "a8_house.end",
+      "track": "modern",
+      "volume": 0.6
+    },
+    {
+      "from": "a8_rep",
+      "to": "a8_night.end",
+      "track": "explain",
+      "offset": "0:30",
+      "volume": 0.55
+    },
+    {
+      "from": "a9_kept",
+      "to": "a9_hisp.end",
+      "track": "modern",
+      "offset": "1:00",
+      "volume": 0.6
+    },
+    {
+      "from": "a9_paxton",
+      "to": "a9_latina.end",
+      "track": "modern",
+      "offset": "0:30",
+      "volume": 0.6
+    },
+    {
+      "from": "a9_young",
+      "to": "a9_perm.end",
+      "track": "explain",
+      "offset": "0:30",
+      "volume": 0.5
+    },
+    {
+      "from": "a9_trap",
+      "to": "a9_33b.end",
+      "track": "curious",
+      "offset": "0:00",
+      "volume": 0.65
+    },
+    {
+      "from": "a9_granted",
+      "to": "end.end",
+      "track": "hope",
+      "offset": "0:30",
+      "volume": 0.7
+    }
+  ]
+}
