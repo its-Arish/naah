@@ -1,0 +1,261 @@
+{
+ "title": "Hook",
+ "sections": [
+  {
+   "title": "Hook",
+   "card": false,
+   "beats": [
+    {
+     "id": "c001",
+     "shot": "h_beads",
+     "type": "HOST",
+     "text": "The Mardi Gras beads you caught?",
+     "date": null,
+     "sfx": [
+      [
+       "pops",
+       "w:beads",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c002",
+     "shot": "h_beads",
+     "type": "HOST",
+     "text": "America's first Mardi Gras *wasn't* in New Orleans.",
+     "date": null,
+     "sfx": [
+      [
+       "stamp",
+       "w:wasn't",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "c003",
+     "shot": "h_mobile",
+     "type": "INSERT",
+     "text": "Mobile, Alabama was partying 15 years before New",
+     "date": null,
+     "amb": "waves",
+     "sfx": [
+      [
+       "ding",
+       "w:Mobile,",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c004",
+     "shot": "h_mobile",
+     "type": "INSERT",
+     "text": "Orleans even *existed.*",
+     "date": null,
+     "amb": "waves",
+     "sfx": [
+      [
+       "slam",
+       "w:existed.",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c005",
+     "shot": "h_bag",
+     "type": "HOST",
+     "text": "The suitcase the airline lost?",
+     "date": null,
+     "sfx": [
+      [
+       "thud",
+       "w:suitcase",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c006",
+     "shot": "h_bag",
+     "type": "HOST",
+     "text": "If nobody ever claims it, it ends up",
+     "date": null
+    },
+    {
+     "id": "c007",
+     "shot": "h_bag",
+     "type": "HOST",
+     "text": "for sale in one store in a small",
+     "date": null,
+     "sfx": [
+      [
+       "kaching",
+       "w:sale",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c008",
+     "shot": "h_bag",
+     "type": "HOST",
+     "text": "town in *Alabama.*",
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       "w:Alabama.",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c009",
+     "shot": "h_songs",
+     "type": "HOST",
+     "text": "Some of the biggest songs your parents grew",
+     "date": null,
+     "sfx": [
+      [
+       "pop",
+       "w:songs",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c010",
+     "shot": "h_songs",
+     "type": "HOST",
+     "text": "up with?",
+     "date": null
+    },
+    {
+     "id": "c011",
+     "shot": "h_songs",
+     "type": "HOST",
+     "text": "Recorded in an Alabama town of *14,000*",
+     "date": null,
+     "sfx": [
+      [
+       "stamp",
+       "w:14,000",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c012",
+     "shot": "h_songs",
+     "type": "HOST",
+     "text": "people.",
+     "date": null
+    },
+    {
+     "id": "c013",
+     "shot": "h_rocket",
+     "type": "INSERT",
+     "text": "And the rocket that carried humans to the",
+     "date": null,
+     "sfx": [
+      [
+       "rumble",
+       "w:rocket",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "c014",
+     "shot": "h_rocket",
+     "type": "INSERT",
+     "text": "moon?",
+     "date": null
+    },
+    {
+     "id": "c015",
+     "shot": "h_rocket",
+     "type": "INSERT",
+     "text": "Designed in *Alabama.*",
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       "w:Alabama.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c016",
+     "shot": "h_bridge",
+     "type": "STORY",
+     "text": "But, four years before that rocket flew, in",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c017",
+     "shot": "h_bridge",
+     "type": "STORY",
+     "text": "the very same state, people were beaten on",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c018",
+     "shot": "h_bridge",
+     "type": "STORY",
+     "text": "a bridge for trying to vote.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c019",
+     "shot": "h_both",
+     "type": "HOST",
+     "text": "So how does one state do *both?*",
+     "date": null,
+     "sfx": [
+      [
+       "boing",
+       "w:both?",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c020",
+     "shot": "h_street",
+     "type": "HOST",
+     "text": "The answer is hiding on one street, five",
+     "date": null,
+     "sfx": [
+      [
+       "paper",
+       "w:street,",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c021",
+     "shot": "h_street",
+     "type": "HOST",
+     "text": "*blocks* long.",
+     "date": null,
+     "sfx": [
+      [
+       "tick",
+       "w:blocks",
+       0.6
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

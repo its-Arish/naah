@@ -1,0 +1,408 @@
+{
+ "title": "Empires",
+ "sections": [
+  {
+   "title": "Empires",
+   "card": false,
+   "beats": [
+    {
+     "id": "c057",
+     "shot": "em_route",
+     "type": "INSERT",
+     "text": "1540.",
+     "date": null,
+     "sfx": [
+      [
+       "drum",
+       0,
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c058",
+     "shot": "em_route",
+     "type": "INSERT",
+     "text": "A Spanish conquistador named Hernando de Soto marches",
+     "date": null
+    },
+    {
+     "id": "c059",
+     "shot": "em_route",
+     "type": "INSERT",
+     "text": "into the region with hundreds of soldiers, horses,",
+     "date": null
+    },
+    {
+     "id": "c060",
+     "shot": "em_route",
+     "type": "INSERT",
+     "text": "war dogs, and a herd of pigs.",
+     "date": null,
+     "sfx": [
+      [
+       "bleat",
+       "w:pigs.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c061",
+     "shot": "em_gold",
+     "type": "HOST",
+     "text": "He is looking for gold.",
+     "date": null
+    },
+    {
+     "id": "c062",
+     "shot": "em_gold",
+     "type": "HOST",
+     "text": "He doesn't find *any.*",
+     "date": null,
+     "sfx": [
+      [
+       "boing",
+       "w:any.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c063",
+     "shot": "em_chief",
+     "type": "STORY",
+     "text": "In the middle of the region, he meets",
+     "date": null
+    },
+    {
+     "id": "c064",
+     "shot": "em_chief",
+     "type": "STORY",
+     "text": "a chief named Tascalusa.",
+     "date": null
+    },
+    {
+     "id": "c065",
+     "shot": "em_chief",
+     "type": "STORY",
+     "text": "Tall, proud, taller than any of the Spaniards,",
+     "date": null
+    },
+    {
+     "id": "c066",
+     "shot": "em_chief",
+     "type": "STORY",
+     "text": "the chronicler said.",
+     "date": null
+    },
+    {
+     "id": "c067",
+     "shot": "em_chief",
+     "type": "STORY",
+     "text": "De Soto takes him hostage and demands porters",
+     "date": null
+    },
+    {
+     "id": "c068",
+     "shot": "em_chief",
+     "type": "STORY",
+     "text": "and food.",
+     "date": null
+    },
+    {
+     "id": "c069",
+     "shot": "em_follow",
+     "type": "STORY",
+     "text": "Tascalusa says, fine, follow me.",
+     "date": null,
+     "amb": "wind"
+    },
+    {
+     "id": "c070",
+     "shot": "em_follow",
+     "type": "STORY",
+     "text": "And he leads them to a walled town",
+     "date": null,
+     "amb": "wind"
+    },
+    {
+     "id": "c071",
+     "shot": "em_follow",
+     "type": "STORY",
+     "text": "called Mabila.",
+     "date": null,
+     "amb": "wind",
+     "sfx": [
+      [
+       "thud",
+       "w:Mabila.",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c072",
+     "shot": "em_mabila",
+     "type": "STORY",
+     "text": "October 18, 1540.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c073",
+     "shot": "em_mabila",
+     "type": "STORY",
+     "text": "Inside Mabila, warriors are waiting.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c074",
+     "shot": "em_mabila",
+     "type": "STORY",
+     "text": "The fighting lasts all day.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c075",
+     "shot": "em_mabila",
+     "type": "STORY",
+     "text": "The Spanish set the town on fire.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c076",
+     "shot": "em_mabila",
+     "type": "STORY",
+     "text": "Thousands of people died at Mabila.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c077",
+     "shot": "em_mabila",
+     "type": "STORY",
+     "text": "It was one of the bloodiest battles ever",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c078",
+     "shot": "em_mabila",
+     "type": "STORY",
+     "text": "fought on North American soil.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c079",
+     "shot": "em_unknown",
+     "type": "INSERT",
+     "text": "Nobody knows exactly where it happened.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c080",
+     "shot": "em_unknown",
+     "type": "INSERT",
+     "text": "The town has never been found.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c081",
+     "shot": "todo_empires",
+     "type": "HOST",
+     "text": "After that, Europe went quiet for 160 years.",
+     "date": null
+    },
+    {
+     "id": "c082",
+     "shot": "todo_empires",
+     "type": "HOST",
+     "text": "Then the French arrived.",
+     "date": null
+    },
+    {
+     "id": "c083",
+     "shot": "todo_empires",
+     "type": "HOST",
+     "text": "1702.",
+     "date": null
+    },
+    {
+     "id": "c084",
+     "shot": "todo_empires",
+     "type": "HOST",
+     "text": "Two French brothers, Iberville and Bienville, build a",
+     "date": null
+    },
+    {
+     "id": "c085",
+     "shot": "todo_empires",
+     "type": "HOST",
+     "text": "fort on the Mobile River.",
+     "date": null
+    },
+    {
+     "id": "c086",
+     "shot": "todo_empires",
+     "type": "HOST",
+     "text": "It is the capital of a colony called",
+     "date": null
+    },
+    {
+     "id": "c087",
+     "shot": "todo_empires",
+     "type": "HOST",
+     "text": "Louisiana, which in French dreams stretched from the",
+     "date": null
+    },
+    {
+     "id": "c088",
+     "shot": "todo_empires",
+     "type": "HOST",
+     "text": "Gulf to Canada.",
+     "date": null
+    },
+    {
+     "id": "c089",
+     "shot": "todo_empires",
+     "type": "HOST",
+     "text": "And what is the very first thing they",
+     "date": null
+    },
+    {
+     "id": "c090",
+     "shot": "todo_empires",
+     "type": "HOST",
+     "text": "do?",
+     "date": null
+    },
+    {
+     "id": "c091",
+     "shot": "todo_empires",
+     "type": "HOST",
+     "text": "They throw a party.",
+     "date": null
+    },
+    {
+     "id": "c092",
+     "shot": "todo_empires",
+     "type": "HOST",
+     "text": "1703.",
+     "date": null
+    },
+    {
+     "id": "c093",
+     "shot": "todo_empires",
+     "type": "HOST",
+     "text": "The settlers celebrate Mardi Gras, masks, feasts.",
+     "date": null
+    },
+    {
+     "id": "c094",
+     "shot": "todo_empires",
+     "type": "HOST",
+     "text": "Within a few years, there's a society parading",
+     "date": null
+    },
+    {
+     "id": "c095",
+     "shot": "todo_empires",
+     "type": "HOST",
+     "text": "a giant ox through the streets.",
+     "date": null
+    },
+    {
+     "id": "c096",
+     "shot": "todo_empires",
+     "type": "HOST",
+     "text": "New Orleans won't even be founded until 1718.",
+     "date": null
+    },
+    {
+     "id": "c097",
+     "shot": "todo_empires",
+     "type": "HOST",
+     "text": "Then Alabama's coast became a hot potato.",
+     "date": null
+    },
+    {
+     "id": "c098",
+     "shot": "todo_empires",
+     "type": "HOST",
+     "text": "France lost it to Britain in 1763.",
+     "date": null
+    },
+    {
+     "id": "c099",
+     "shot": "todo_empires",
+     "type": "HOST",
+     "text": "Spain grabbed it in 1780.",
+     "date": null
+    },
+    {
+     "id": "c100",
+     "shot": "todo_empires",
+     "type": "HOST",
+     "text": "And in 1813, in the middle of a",
+     "date": null
+    },
+    {
+     "id": "c101",
+     "shot": "todo_empires",
+     "type": "HOST",
+     "text": "war with Britain, the United States marched in",
+     "date": null
+    },
+    {
+     "id": "c102",
+     "shot": "todo_empires",
+     "type": "HOST",
+     "text": "and took Mobile.",
+     "date": null
+    },
+    {
+     "id": "c103",
+     "shot": "todo_empires",
+     "type": "HOST",
+     "text": "Four flags in 111 years.",
+     "date": null
+    },
+    {
+     "id": "c104",
+     "shot": "todo_empires",
+     "type": "HOST",
+     "text": "Mobile changed owners more often than a rental",
+     "date": null
+    },
+    {
+     "id": "c105",
+     "shot": "todo_empires",
+     "type": "HOST",
+     "text": "car.",
+     "date": null
+    },
+    {
+     "id": "c106",
+     "shot": "todo_empires",
+     "type": "HOST",
+     "text": "But the real fight for Alabama was happening",
+     "date": null
+    },
+    {
+     "id": "c107",
+     "shot": "todo_empires",
+     "type": "HOST",
+     "text": "inland.",
+     "date": null
+    }
+   ]
+  }
+ ]
+}

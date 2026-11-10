@@ -1,0 +1,367 @@
+{
+ "title": "First Alabamians",
+ "sections": [
+  {
+   "title": "First Alabamians",
+   "card": false,
+   "beats": [
+    {
+     "id": "c022",
+     "shot": "fa_back",
+     "type": "HOST",
+     "text": "Let's go back about *10,000* years.",
+     "date": null,
+     "sfx": [
+      [
+       "whoosh",
+       "w:back",
+       0.5
+      ],
+      [
+       "ticks",
+       "w:10,000",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c023",
+     "shot": "fa_cave",
+     "type": "STORY",
+     "text": "In the hills of the far north, families",
+     "date": null,
+     "amb": "camp"
+    },
+    {
+     "id": "c024",
+     "shot": "fa_cave",
+     "type": "STORY",
+     "text": "are sheltering in the mouth of a huge",
+     "date": null,
+     "amb": "camp"
+    },
+    {
+     "id": "c025",
+     "shot": "fa_cave",
+     "type": "STORY",
+     "text": "cave.",
+     "date": null,
+     "amb": "camp"
+    },
+    {
+     "id": "c026",
+     "shot": "fa_cave",
+     "type": "STORY",
+     "text": "Today we call it Russell Cave.",
+     "date": null,
+     "amb": "camp",
+     "sfx": [
+      [
+       "ding",
+       "w:Russell",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c027",
+     "shot": "fa_cave",
+     "type": "STORY",
+     "text": "They came back to it for thousands of",
+     "date": null,
+     "amb": "camp"
+    },
+    {
+     "id": "c028",
+     "shot": "fa_cave",
+     "type": "STORY",
+     "text": "years and they left their campfires behind, layer",
+     "date": null,
+     "amb": "camp"
+    },
+    {
+     "id": "c029",
+     "shot": "fa_cave",
+     "type": "STORY",
+     "text": "on top of layer, like a diary written",
+     "date": null,
+     "amb": "camp"
+    },
+    {
+     "id": "c030",
+     "shot": "fa_cave",
+     "type": "STORY",
+     "text": "in ash.",
+     "date": null,
+     "amb": "camp"
+    },
+    {
+     "id": "c031",
+     "shot": "fa_build",
+     "type": "HOST",
+     "text": "Then the people of this land started building.",
+     "date": null
+    },
+    {
+     "id": "c032",
+     "shot": "fa_mounds",
+     "type": "STORY",
+     "text": "Around a thousand years ago, on the Black",
+     "date": null,
+     "amb": "birds",
+     "sfx": [
+      [
+       "thud",
+       "w:Black",
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "c033",
+     "shot": "fa_mounds",
+     "type": "STORY",
+     "text": "Warrior River near today's Tuscaloosa, a town rose",
+     "date": null,
+     "amb": "birds"
+    },
+    {
+     "id": "c034",
+     "shot": "fa_mounds",
+     "type": "STORY",
+     "text": "up with 29 earthen mounds around a great",
+     "date": null,
+     "amb": "birds",
+     "sfx": [
+      [
+       "pops",
+       "w:29",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c035",
+     "shot": "fa_mounds",
+     "type": "STORY",
+     "text": "plaza.",
+     "date": null,
+     "amb": "birds"
+    },
+    {
+     "id": "c036",
+     "shot": "fa_mounds",
+     "type": "STORY",
+     "text": "The biggest stood almost *60* feet tall.",
+     "date": null,
+     "amb": "birds"
+    },
+    {
+     "id": "c037",
+     "shot": "fa_mounds",
+     "type": "STORY",
+     "text": "We call it *Moundville.*",
+     "date": null,
+     "amb": "birds",
+     "sfx": [
+      [
+       "ding",
+       "w:Moundville.",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c038",
+     "shot": "fa_people",
+     "type": "STORY",
+     "text": "Around a thousand people lived inside its wooden",
+     "date": null,
+     "amb": "birds"
+    },
+    {
+     "id": "c039",
+     "shot": "fa_people",
+     "type": "STORY",
+     "text": "walls and maybe *10,000* more farmed the",
+     "date": null,
+     "amb": "birds",
+     "sfx": [
+      [
+       "pops",
+       "w:10,000",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c040",
+     "shot": "fa_people",
+     "type": "STORY",
+     "text": "valley around it.",
+     "date": null,
+     "amb": "birds"
+    },
+    {
+     "id": "c041",
+     "shot": "fa_people",
+     "type": "STORY",
+     "text": "They grew corn.",
+     "date": null,
+     "amb": "birds"
+    },
+    {
+     "id": "c042",
+     "shot": "fa_trade",
+     "type": "INSERT",
+     "text": "They traded shells from the Gulf and copper",
+     "date": null,
+     "sfx": [
+      [
+       "pop",
+       "w:copper",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c043",
+     "shot": "fa_trade",
+     "type": "INSERT",
+     "text": "from the Great Lakes.",
+     "date": null
+    },
+    {
+     "id": "c044",
+     "shot": "fa_trade",
+     "type": "INSERT",
+     "text": "For a while, it was one of the",
+     "date": null
+    },
+    {
+     "id": "c045",
+     "shot": "fa_trade",
+     "type": "INSERT",
+     "text": "biggest towns in all of North America.",
+     "date": null
+    },
+    {
+     "id": "c046",
+     "shot": "fa_empty",
+     "type": "STORY",
+     "text": "And then, slowly, Moundville emptied out.",
+     "date": null,
+     "amb": "wind"
+    },
+    {
+     "id": "c047",
+     "shot": "fa_empty",
+     "type": "STORY",
+     "text": "By the time Europeans arrived, the mounds were",
+     "date": null,
+     "amb": "wind"
+    },
+    {
+     "id": "c048",
+     "shot": "fa_empty",
+     "type": "STORY",
+     "text": "quiet.",
+     "date": null,
+     "amb": "wind"
+    },
+    {
+     "id": "c049",
+     "shot": "fa_nations",
+     "type": "INSERT",
+     "text": "But the people were not gone.",
+     "date": null
+    },
+    {
+     "id": "c050",
+     "shot": "fa_nations",
+     "type": "INSERT",
+     "text": "They had become new nations.",
+     "date": null
+    },
+    {
+     "id": "c051",
+     "shot": "fa_nations",
+     "type": "INSERT",
+     "text": "The Creek, the Cherokee, the Choctaw, the Chickasaw,",
+     "date": null,
+     "sfx": [
+      [
+       "pop",
+       "w:Creek,",
+       0.4
+      ],
+      [
+       "pop",
+       "w:Cherokee,",
+       0.4
+      ],
+      [
+       "pop",
+       "w:Choctaw,",
+       0.4
+      ],
+      [
+       "pop",
+       "w:Chickasaw,",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c052",
+     "shot": "fa_nations",
+     "type": "INSERT",
+     "text": "and one small nation living where two rivers",
+     "date": null
+    },
+    {
+     "id": "c053",
+     "shot": "fa_nations",
+     "type": "INSERT",
+     "text": "meet, called the Alabama.",
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       "w:Alabama.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c054",
+     "shot": "fa_name",
+     "type": "HOST",
+     "text": "Hold on to that name.",
+     "date": null,
+     "sfx": [
+      [
+       "scribble",
+       "w:name.",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c055",
+     "shot": "fa_name",
+     "type": "HOST",
+     "text": "People have been arguing about what it means",
+     "date": null
+    },
+    {
+     "id": "c056",
+     "shot": "fa_name",
+     "type": "HOST",
+     "text": "for nearly *200* years.",
+     "date": null
+    }
+   ]
+  }
+ ]
+}
