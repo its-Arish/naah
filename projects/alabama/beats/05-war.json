@@ -6,56 +6,56 @@
    "card": false,
    "beats": [
     {
-     "id": "c221",
+     "id": "c234",
      "shot": "wa_secede",
      "type": "HOST",
      "text": "Six months later, the whole country was coming",
      "date": null
     },
     {
-     "id": "c222",
+     "id": "c235",
      "shot": "wa_secede",
      "type": "HOST",
      "text": "apart.",
      "date": null
     },
     {
-     "id": "c223",
+     "id": "c236",
      "shot": "wa_secede",
      "type": "HOST",
      "text": "January 11th, 1861.",
      "date": null
     },
     {
-     "id": "c224",
+     "id": "c237",
      "shot": "wa_secede",
      "type": "HOST",
      "text": "Alabama votes to leave the United States.",
      "date": null
     },
     {
-     "id": "c225",
+     "id": "c238",
      "shot": "wa_street",
      "type": "HOST",
      "text": "And now, our street.",
      "date": null
     },
     {
-     "id": "c226",
+     "id": "c239",
      "shot": "wa_street",
      "type": "HOST",
      "text": "February 1861.",
      "date": null
     },
     {
-     "id": "c227",
+     "id": "c240",
      "shot": "wa_street",
      "type": "HOST",
      "text": "Delegates from the seceding states gather in Montgomery.",
      "date": null
     },
     {
-     "id": "c228",
+     "id": "c241",
      "shot": "wa_street",
      "type": "HOST",
      "text": "They found a new country.",
@@ -69,77 +69,77 @@
      ]
     },
     {
-     "id": "c229",
+     "id": "c242",
      "shot": "wa_street",
      "type": "HOST",
      "text": "The Confederate States of America.",
      "date": null
     },
     {
-     "id": "c230",
+     "id": "c243",
      "shot": "wa_street",
      "type": "HOST",
      "text": "And Montgomery is its first capital.",
      "date": null
     },
     {
-     "id": "c231",
+     "id": "c244",
      "shot": "wa_street",
      "type": "HOST",
      "text": "On February 18th, at the top of the",
      "date": null
     },
     {
-     "id": "c232",
+     "id": "c245",
      "shot": "wa_street",
      "type": "HOST",
      "text": "five blocks on the steps of the Capitol,",
      "date": null
     },
     {
-     "id": "c233",
+     "id": "c246",
      "shot": "wa_street",
      "type": "HOST",
      "text": "Jefferson Davis is sworn in as President of",
      "date": null
     },
     {
-     "id": "c234",
+     "id": "c247",
      "shot": "wa_street",
      "type": "HOST",
      "text": "the Confederacy.",
      "date": null
     },
     {
-     "id": "c235",
+     "id": "c248",
      "shot": "wa_street",
      "type": "HOST",
      "text": "A bronze star still marks the spot.",
      "date": null
     },
     {
-     "id": "c236",
+     "id": "c249",
      "shot": "wa_telegram",
      "type": "HOST",
      "text": "Then, April 11th.",
      "date": null
     },
     {
-     "id": "c237",
+     "id": "c250",
      "shot": "wa_telegram",
      "type": "HOST",
      "text": "In an office building at the bottom of",
      "date": null
     },
     {
-     "id": "c238",
+     "id": "c251",
      "shot": "wa_telegram",
      "type": "HOST",
      "text": "that same street, right on Court Square, a",
      "date": null
     },
     {
-     "id": "c239",
+     "id": "c252",
      "shot": "wa_telegram",
      "type": "HOST",
      "text": "telegram is sent to Charleston.",
@@ -153,21 +153,21 @@
      ]
     },
     {
-     "id": "c240",
+     "id": "c253",
      "shot": "wa_telegram",
      "type": "HOST",
      "text": "It authorizes the attack on a fort called",
      "date": null
     },
     {
-     "id": "c241",
+     "id": "c254",
      "shot": "wa_telegram",
      "type": "HOST",
      "text": "Sumter.",
      "date": null
     },
     {
-     "id": "c242",
+     "id": "c255",
      "shot": "wa_telegram",
      "type": "HOST",
      "text": "The next morning, the guns fire.",
@@ -181,42 +181,42 @@
      ]
     },
     {
-     "id": "c243",
+     "id": "c256",
      "shot": "wa_telegram",
      "type": "HOST",
      "text": "The Civil War has begun.",
      "date": null
     },
     {
-     "id": "c244",
+     "id": "c257",
      "shot": "wa_telegram",
      "type": "HOST",
      "text": "And the order to start it went out",
      "date": null
     },
     {
-     "id": "c245",
+     "id": "c258",
      "shot": "wa_telegram",
      "type": "HOST",
      "text": "from the same five blocks where human beings",
      "date": null
     },
     {
-     "id": "c246",
+     "id": "c259",
      "shot": "wa_telegram",
      "type": "HOST",
      "text": "were sold.",
      "date": null
     },
     {
-     "id": "c247",
+     "id": "c260",
      "shot": "wa_richmond",
      "type": "INSERT",
      "text": "Montgomery stayed the capital for about three months.",
      "date": null
     },
     {
-     "id": "c248",
+     "id": "c261",
      "shot": "wa_richmond",
      "type": "INSERT",
      "text": "Then the Confederacy moved to Richmond, Virginia.",
@@ -230,14 +230,14 @@
      ]
     },
     {
-     "id": "c249",
+     "id": "c262",
      "shot": "wa_richmond",
      "type": "INSERT",
      "text": "And the war moved away with it.",
      "date": null
     },
     {
-     "id": "c250",
+     "id": "c263",
      "shot": "wa_sea",
      "type": "INSERT",
      "text": "For a while, Alabama felt far from the",
@@ -245,7 +245,7 @@
      "amb": "waves"
     },
     {
-     "id": "c251",
+     "id": "c264",
      "shot": "wa_sea",
      "type": "INSERT",
      "text": "fighting.",
@@ -253,7 +253,7 @@
      "amb": "waves"
     },
     {
-     "id": "c252",
+     "id": "c265",
      "shot": "wa_sea",
      "type": "INSERT",
      "text": "Its men did not.",
@@ -261,7 +261,7 @@
      "amb": "waves"
     },
     {
-     "id": "c253",
+     "id": "c266",
      "shot": "wa_sea",
      "type": "INSERT",
      "text": "At sea, a Confederate raider named the CSS",
@@ -276,7 +276,7 @@
      ]
     },
     {
-     "id": "c254",
+     "id": "c267",
      "shot": "wa_sea",
      "type": "INSERT",
      "text": "Alabama hunted Union merchant ships across the world's",
@@ -284,7 +284,7 @@
      "amb": "waves"
     },
     {
-     "id": "c255",
+     "id": "c268",
      "shot": "wa_sea",
      "type": "INSERT",
      "text": "oceans, until it was sunk off the coast",
@@ -292,7 +292,7 @@
      "amb": "waves"
     },
     {
-     "id": "c256",
+     "id": "c269",
      "shot": "wa_sea",
      "type": "INSERT",
      "text": "of France.",
@@ -300,7 +300,7 @@
      "amb": "waves"
     },
     {
-     "id": "c257",
+     "id": "c270",
      "shot": "wa_bay",
      "type": "INSERT",
      "text": "August 1864.",
@@ -308,7 +308,7 @@
      "amb": "waves"
     },
     {
-     "id": "c258",
+     "id": "c271",
      "shot": "wa_bay",
      "type": "INSERT",
      "text": "Union warships forced their way into Mobile Bay",
@@ -323,7 +323,7 @@
      ]
     },
     {
-     "id": "c259",
+     "id": "c272",
      "shot": "wa_bay",
      "type": "INSERT",
      "text": "through a field of underwater mines, which back",
@@ -331,7 +331,7 @@
      "amb": "waves"
     },
     {
-     "id": "c260",
+     "id": "c273",
      "shot": "wa_bay",
      "type": "INSERT",
      "text": "then were called torpedoes.",
@@ -339,7 +339,7 @@
      "amb": "waves"
     },
     {
-     "id": "c261",
+     "id": "c274",
      "shot": "wa_bay",
      "type": "INSERT",
      "text": "The story goes that Admiral Farragut shouted, damn",
@@ -354,7 +354,7 @@
      ]
     },
     {
-     "id": "c262",
+     "id": "c275",
      "shot": "wa_bay",
      "type": "INSERT",
      "text": "the torpedoes, full speed ahead.",
@@ -362,7 +362,7 @@
      "amb": "waves"
     },
     {
-     "id": "c263",
+     "id": "c276",
      "shot": "wa_bay",
      "type": "INSERT",
      "text": "Whether he said it or not, he won",
@@ -370,7 +370,7 @@
      "amb": "waves"
     },
     {
-     "id": "c264",
+     "id": "c277",
      "shot": "wa_bay",
      "type": "INSERT",
      "text": "the bay.",
@@ -385,14 +385,14 @@
      ]
     },
     {
-     "id": "c265",
+     "id": "c278",
      "shot": "wa_raid",
      "type": "INSERT",
      "text": "And in the spring of 1865, Union cavalry",
      "date": null
     },
     {
-     "id": "c266",
+     "id": "c279",
      "shot": "wa_raid",
      "type": "INSERT",
      "text": "swept across Alabama.",
@@ -406,28 +406,28 @@
      ]
     },
     {
-     "id": "c267",
+     "id": "c280",
      "shot": "wa_raid",
      "type": "INSERT",
      "text": "They burned ironworks and arsenals.",
      "date": null
     },
     {
-     "id": "c268",
+     "id": "c281",
      "shot": "wa_raid",
      "type": "INSERT",
      "text": "They burned most of the University of Alabama.",
      "date": null
     },
     {
-     "id": "c269",
+     "id": "c282",
      "shot": "wa_free",
      "type": "HOST",
      "text": "Spring 1865, the war ends, and 435,000",
      "date": null
     },
     {
-     "id": "c270",
+     "id": "c283",
      "shot": "wa_free",
      "type": "HOST",
      "text": "people in Alabama are free.",

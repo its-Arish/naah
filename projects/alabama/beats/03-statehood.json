@@ -6,7 +6,7 @@
    "card": false,
    "beats": [
     {
-     "id": "c108",
+     "id": "c121",
      "shot": "st_split",
      "type": "STORY",
      "text": "The Creek Nation was splitting in two.",
@@ -14,7 +14,7 @@
      "amb": "birds"
     },
     {
-     "id": "c109",
+     "id": "c122",
      "shot": "st_split",
      "type": "STORY",
      "text": "One side wanted to live alongside the Americans.",
@@ -22,7 +22,7 @@
      "amb": "birds"
     },
     {
-     "id": "c110",
+     "id": "c123",
      "shot": "st_split",
      "type": "STORY",
      "text": "The other side, called the Red Sticks, wanted",
@@ -37,7 +37,7 @@
      ]
     },
     {
-     "id": "c111",
+     "id": "c124",
      "shot": "st_split",
      "type": "STORY",
      "text": "the settlers out.",
@@ -45,7 +45,7 @@
      "amb": "birds"
     },
     {
-     "id": "c112",
+     "id": "c125",
      "shot": "st_split",
      "type": "STORY",
      "text": "It became a civil war inside the Creek",
@@ -53,7 +53,7 @@
      "amb": "birds"
     },
     {
-     "id": "c113",
+     "id": "c126",
      "shot": "st_split",
      "type": "STORY",
      "text": "Nation.",
@@ -61,7 +61,7 @@
      "amb": "birds"
     },
     {
-     "id": "c114",
+     "id": "c127",
      "shot": "st_split",
      "type": "STORY",
      "text": "And then it dragged in the United States.",
@@ -76,7 +76,7 @@
      ]
     },
     {
-     "id": "c115",
+     "id": "c128",
      "shot": "st_mims",
      "type": "STORY",
      "text": "August 1813.",
@@ -84,7 +84,7 @@
      "quiet": true
     },
     {
-     "id": "c116",
+     "id": "c129",
      "shot": "st_mims",
      "type": "STORY",
      "text": "Red Stick warriors attack Fort Mims, north of",
@@ -92,7 +92,7 @@
      "quiet": true
     },
     {
-     "id": "c117",
+     "id": "c130",
      "shot": "st_mims",
      "type": "STORY",
      "text": "Mobile.",
@@ -100,7 +100,7 @@
      "quiet": true
     },
     {
-     "id": "c118",
+     "id": "c131",
      "shot": "st_mims",
      "type": "STORY",
      "text": "Hundreds of people inside are killed.",
@@ -108,7 +108,7 @@
      "quiet": true
     },
     {
-     "id": "c119",
+     "id": "c132",
      "shot": "st_horseshoe",
      "type": "STORY",
      "text": "March 1814.",
@@ -116,7 +116,7 @@
      "quiet": true
     },
     {
-     "id": "c120",
+     "id": "c133",
      "shot": "st_horseshoe",
      "type": "STORY",
      "text": "At a bend in the Tallapoosa River called",
@@ -124,7 +124,7 @@
      "quiet": true
     },
     {
-     "id": "c121",
+     "id": "c134",
      "shot": "st_horseshoe",
      "type": "STORY",
      "text": "Horseshoe Bend, an American general named Andrew Jackson",
@@ -132,7 +132,7 @@
      "quiet": true
     },
     {
-     "id": "c122",
+     "id": "c135",
      "shot": "st_horseshoe",
      "type": "STORY",
      "text": "attacks the Red Sticks with soldiers, militia, and",
@@ -140,7 +140,7 @@
      "quiet": true
     },
     {
-     "id": "c123",
+     "id": "c136",
      "shot": "st_horseshoe",
      "type": "STORY",
      "text": "Cherokee and Creek allies.",
@@ -148,7 +148,7 @@
      "quiet": true
     },
     {
-     "id": "c124",
+     "id": "c137",
      "shot": "st_horseshoe",
      "type": "STORY",
      "text": "More than 800 Red Stick warriors die in",
@@ -156,7 +156,7 @@
      "quiet": true
     },
     {
-     "id": "c125",
+     "id": "c138",
      "shot": "st_horseshoe",
      "type": "STORY",
      "text": "a single day.",
@@ -164,7 +164,7 @@
      "quiet": true
     },
     {
-     "id": "c126",
+     "id": "c139",
      "shot": "st_treaty",
      "type": "INSERT",
      "text": "Then Jackson made all the Creeks sign the",
@@ -172,7 +172,7 @@
      "quiet": true
     },
     {
-     "id": "c127",
+     "id": "c140",
      "shot": "st_treaty",
      "type": "INSERT",
      "text": "peace treaty, even the ones who had fought",
@@ -180,7 +180,7 @@
      "quiet": true
     },
     {
-     "id": "c128",
+     "id": "c141",
      "shot": "st_treaty",
      "type": "INSERT",
      "text": "on his side.",
@@ -188,7 +188,7 @@
      "quiet": true
     },
     {
-     "id": "c129",
+     "id": "c142",
      "shot": "st_treaty",
      "type": "INSERT",
      "text": "The Creek Nation handed over 23 million acres,",
@@ -196,7 +196,7 @@
      "quiet": true
     },
     {
-     "id": "c130",
+     "id": "c143",
      "shot": "st_treaty",
      "type": "INSERT",
      "text": "much of what is now Alabama.",
@@ -204,21 +204,21 @@
      "quiet": true
     },
     {
-     "id": "c131",
+     "id": "c144",
      "shot": "st_fever",
      "type": "INSERT",
      "text": "23 million acres of empty map.",
      "date": null
     },
     {
-     "id": "c132",
+     "id": "c145",
      "shot": "st_fever",
      "type": "INSERT",
      "text": "And America went wild.",
      "date": null
     },
     {
-     "id": "c133",
+     "id": "c146",
      "shot": "st_fever",
      "type": "INSERT",
      "text": "They called it Alabama Fever.",
@@ -232,28 +232,28 @@
      ]
     },
     {
-     "id": "c134",
+     "id": "c147",
      "shot": "st_fever",
      "type": "INSERT",
      "text": "Farmers sold everything they owned in Georgia, the",
      "date": null
     },
     {
-     "id": "c135",
+     "id": "c148",
      "shot": "st_fever",
      "type": "INSERT",
      "text": "Carolinas, and Tennessee and rushed west for cheap",
      "date": null
     },
     {
-     "id": "c136",
+     "id": "c149",
      "shot": "st_fever",
      "type": "INSERT",
      "text": "land and one crop, cotton.",
      "date": null
     },
     {
-     "id": "c137",
+     "id": "c150",
      "shot": "st_fever",
      "type": "INSERT",
      "text": "In 1810, the census counted fewer than 10,000",
@@ -267,14 +267,14 @@
      ]
     },
     {
-     "id": "c138",
+     "id": "c151",
      "shot": "st_fever",
      "type": "INSERT",
      "text": "people here.",
      "date": null
     },
     {
-     "id": "c139",
+     "id": "c152",
      "shot": "st_fever",
      "type": "INSERT",
      "text": "Ten years later, more than 125,000.",
@@ -288,14 +288,14 @@
      ]
     },
     {
-     "id": "c140",
+     "id": "c153",
      "shot": "st_state",
      "type": "HOST",
      "text": "December 14, 1819.",
      "date": null
     },
     {
-     "id": "c141",
+     "id": "c154",
      "shot": "st_state",
      "type": "HOST",
      "text": "Alabama becomes the 22nd state.",
@@ -309,28 +309,28 @@
      ]
     },
     {
-     "id": "c142",
+     "id": "c155",
      "shot": "st_capitals",
      "type": "HOST",
      "text": "Then it needed a capital.",
      "date": null
     },
     {
-     "id": "c143",
+     "id": "c156",
      "shot": "st_capitals",
      "type": "HOST",
      "text": "This took a while.",
      "date": null
     },
     {
-     "id": "c144",
+     "id": "c157",
      "shot": "st_capitals",
      "type": "HOST",
      "text": "The first permanent one was a river town",
      "date": null
     },
     {
-     "id": "c145",
+     "id": "c158",
      "shot": "st_capitals",
      "type": "HOST",
      "text": "called Cahawba.",
@@ -344,7 +344,7 @@
      ]
     },
     {
-     "id": "c146",
+     "id": "c159",
      "shot": "st_capitals",
      "type": "HOST",
      "text": "It kept flooding.",
@@ -358,7 +358,7 @@
      ]
     },
     {
-     "id": "c147",
+     "id": "c160",
      "shot": "st_capitals",
      "type": "HOST",
      "text": "So they moved to Tuscaloosa.",
@@ -372,42 +372,42 @@
      ]
     },
     {
-     "id": "c148",
+     "id": "c161",
      "shot": "st_capitals",
      "type": "HOST",
      "text": "Then they moved again.",
      "date": null
     },
     {
-     "id": "c149",
+     "id": "c162",
      "shot": "st_capitals",
      "type": "HOST",
      "text": "Alabama had five different capitals in under 30",
      "date": null
     },
     {
-     "id": "c150",
+     "id": "c163",
      "shot": "st_capitals",
      "type": "HOST",
      "text": "years.",
      "date": null
     },
     {
-     "id": "c151",
+     "id": "c164",
      "shot": "st_capitals",
      "type": "HOST",
      "text": "The last one was a cotton town on",
      "date": null
     },
     {
-     "id": "c152",
+     "id": "c165",
      "shot": "st_capitals",
      "type": "HOST",
      "text": "a bluff over the Alabama River.",
      "date": null
     },
     {
-     "id": "c153",
+     "id": "c166",
      "shot": "st_capitals",
      "type": "HOST",
      "text": "Montgomery.",
@@ -421,7 +421,7 @@
      ]
     },
     {
-     "id": "c154",
+     "id": "c167",
      "shot": "st_street",
      "type": "HOST",
      "text": "And in 1846, Alabama built its Capitol on",
@@ -435,35 +435,35 @@
      ]
     },
     {
-     "id": "c155",
+     "id": "c168",
      "shot": "st_street",
      "type": "HOST",
      "text": "a hill at the top of Montgomery's main",
      "date": null
     },
     {
-     "id": "c156",
+     "id": "c169",
      "shot": "st_street",
      "type": "HOST",
      "text": "street.",
      "date": null
     },
     {
-     "id": "c157",
+     "id": "c170",
      "shot": "st_street",
      "type": "HOST",
      "text": "The street ran straight down the hill to",
      "date": null
     },
     {
-     "id": "c158",
+     "id": "c171",
      "shot": "st_street",
      "type": "HOST",
      "text": "a fountain in a square.",
      "date": null
     },
     {
-     "id": "c159",
+     "id": "c172",
      "shot": "st_street",
      "type": "HOST",
      "text": "Five blocks.",
@@ -477,35 +477,35 @@
      ]
     },
     {
-     "id": "c160",
+     "id": "c173",
      "shot": "st_street",
      "type": "HOST",
      "text": "Remember this street.",
      "date": null
     },
     {
-     "id": "c161",
+     "id": "c174",
      "shot": "st_street",
      "type": "HOST",
      "text": "The story of Alabama is going to keep",
      "date": null
     },
     {
-     "id": "c162",
+     "id": "c175",
      "shot": "st_street",
      "type": "HOST",
      "text": "walking down it.",
      "date": null
     },
     {
-     "id": "c163",
+     "id": "c176",
      "shot": "st_rest",
      "type": "HOST",
      "text": "Oh, and around this time, a newspaper announced",
      "date": null
     },
     {
-     "id": "c164",
+     "id": "c177",
      "shot": "st_rest",
      "type": "HOST",
      "text": "that the word Alabama meant here we rest.",
@@ -519,14 +519,14 @@
      ]
     },
     {
-     "id": "c165",
+     "id": "c178",
      "shot": "st_rest",
      "type": "HOST",
      "text": "It sounded beautiful and it stuck for generations.",
      "date": null
     },
     {
-     "id": "c166",
+     "id": "c179",
      "shot": "st_rest",
      "type": "HOST",
      "text": "Experts in the actual language, they never found",
@@ -540,7 +540,7 @@
      ]
     },
     {
-     "id": "c167",
+     "id": "c180",
      "shot": "st_rest",
      "type": "HOST",
      "text": "any word like it.",
@@ -554,7 +554,7 @@
      ]
     },
     {
-     "id": "c168",
+     "id": "c181",
      "shot": "st_removal",
      "type": "STORY",
      "text": "And the native nations who had lived here",
@@ -562,7 +562,7 @@
      "quiet": true
     },
     {
-     "id": "c169",
+     "id": "c182",
      "shot": "st_removal",
      "type": "STORY",
      "text": "for 10,000 years, they were not allowed",
@@ -570,7 +570,7 @@
      "quiet": true
     },
     {
-     "id": "c170",
+     "id": "c183",
      "shot": "st_removal",
      "type": "STORY",
      "text": "to rest anywhere.",
@@ -578,7 +578,7 @@
      "quiet": true
     },
     {
-     "id": "c171",
+     "id": "c184",
      "shot": "st_removal",
      "type": "STORY",
      "text": "In the 1830s, the government forced the Creek,",
@@ -586,7 +586,7 @@
      "quiet": true
     },
     {
-     "id": "c172",
+     "id": "c185",
      "shot": "st_removal",
      "type": "STORY",
      "text": "the Cherokee, the Choctaw, and the Chickasaw to",
@@ -594,7 +594,7 @@
      "quiet": true
     },
     {
-     "id": "c173",
+     "id": "c186",
      "shot": "st_removal",
      "type": "STORY",
      "text": "leave.",
@@ -602,7 +602,7 @@
      "quiet": true
     },
     {
-     "id": "c174",
+     "id": "c187",
      "shot": "st_removal",
      "type": "STORY",
      "text": "Tens of thousands of people were marched west.",
@@ -610,7 +610,7 @@
      "quiet": true
     },
     {
-     "id": "c175",
+     "id": "c188",
      "shot": "st_removal",
      "type": "STORY",
      "text": "Thousands died on the way.",
@@ -618,7 +618,7 @@
      "quiet": true
     },
     {
-     "id": "c176",
+     "id": "c189",
      "shot": "st_poarch",
      "type": "STORY",
      "text": "A few families stayed and held on.",
@@ -626,7 +626,7 @@
      "quiet": true
     },
     {
-     "id": "c177",
+     "id": "c190",
      "shot": "st_poarch",
      "type": "STORY",
      "text": "Their descendants are the Poarch Band of Creek",
@@ -634,7 +634,7 @@
      "quiet": true
     },
     {
-     "id": "c178",
+     "id": "c191",
      "shot": "st_poarch",
      "type": "STORY",
      "text": "Indians, and they are still in Alabama today.",

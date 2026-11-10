@@ -6,7 +6,7 @@
    "card": false,
    "beats": [
     {
-     "id": "c057",
+     "id": "c070",
      "shot": "em_route",
      "type": "INSERT",
      "text": "1540.",
@@ -20,21 +20,21 @@
      ]
     },
     {
-     "id": "c058",
+     "id": "c071",
      "shot": "em_route",
      "type": "INSERT",
      "text": "A Spanish conquistador named Hernando de Soto marches",
      "date": null
     },
     {
-     "id": "c059",
+     "id": "c072",
      "shot": "em_route",
      "type": "INSERT",
      "text": "into the region with hundreds of soldiers, horses,",
      "date": null
     },
     {
-     "id": "c060",
+     "id": "c073",
      "shot": "em_route",
      "type": "INSERT",
      "text": "war dogs, and a herd of pigs.",
@@ -48,14 +48,14 @@
      ]
     },
     {
-     "id": "c061",
+     "id": "c074",
      "shot": "em_gold",
      "type": "HOST",
      "text": "He is looking for gold.",
      "date": null
     },
     {
-     "id": "c062",
+     "id": "c075",
      "shot": "em_gold",
      "type": "HOST",
      "text": "He doesn't find *any.*",
@@ -69,49 +69,49 @@
      ]
     },
     {
-     "id": "c063",
+     "id": "c076",
      "shot": "em_chief",
      "type": "STORY",
      "text": "In the middle of the region, he meets",
      "date": null
     },
     {
-     "id": "c064",
+     "id": "c077",
      "shot": "em_chief",
      "type": "STORY",
      "text": "a chief named Tascalusa.",
      "date": null
     },
     {
-     "id": "c065",
+     "id": "c078",
      "shot": "em_chief",
      "type": "STORY",
      "text": "Tall, proud, taller than any of the Spaniards,",
      "date": null
     },
     {
-     "id": "c066",
+     "id": "c079",
      "shot": "em_chief",
      "type": "STORY",
      "text": "the chronicler said.",
      "date": null
     },
     {
-     "id": "c067",
+     "id": "c080",
      "shot": "em_chief",
      "type": "STORY",
      "text": "De Soto takes him hostage and demands porters",
      "date": null
     },
     {
-     "id": "c068",
+     "id": "c081",
      "shot": "em_chief",
      "type": "STORY",
      "text": "and food.",
      "date": null
     },
     {
-     "id": "c069",
+     "id": "c082",
      "shot": "em_follow",
      "type": "STORY",
      "text": "Tascalusa says, fine, follow me.",
@@ -119,7 +119,7 @@
      "amb": "wind"
     },
     {
-     "id": "c070",
+     "id": "c083",
      "shot": "em_follow",
      "type": "STORY",
      "text": "And he leads them to a walled town",
@@ -127,7 +127,7 @@
      "amb": "wind"
     },
     {
-     "id": "c071",
+     "id": "c084",
      "shot": "em_follow",
      "type": "STORY",
      "text": "called Mabila.",
@@ -142,7 +142,7 @@
      ]
     },
     {
-     "id": "c072",
+     "id": "c085",
      "shot": "em_mabila",
      "type": "STORY",
      "text": "October 18, 1540.",
@@ -150,7 +150,7 @@
      "quiet": true
     },
     {
-     "id": "c073",
+     "id": "c086",
      "shot": "em_mabila",
      "type": "STORY",
      "text": "Inside Mabila, warriors are waiting.",
@@ -158,7 +158,7 @@
      "quiet": true
     },
     {
-     "id": "c074",
+     "id": "c087",
      "shot": "em_mabila",
      "type": "STORY",
      "text": "The fighting lasts all day.",
@@ -166,7 +166,7 @@
      "quiet": true
     },
     {
-     "id": "c075",
+     "id": "c088",
      "shot": "em_mabila",
      "type": "STORY",
      "text": "The Spanish set the town on fire.",
@@ -174,7 +174,7 @@
      "quiet": true
     },
     {
-     "id": "c076",
+     "id": "c089",
      "shot": "em_mabila",
      "type": "STORY",
      "text": "Thousands of people died at Mabila.",
@@ -182,7 +182,7 @@
      "quiet": true
     },
     {
-     "id": "c077",
+     "id": "c090",
      "shot": "em_mabila",
      "type": "STORY",
      "text": "It was one of the bloodiest battles ever",
@@ -190,7 +190,7 @@
      "quiet": true
     },
     {
-     "id": "c078",
+     "id": "c091",
      "shot": "em_mabila",
      "type": "STORY",
      "text": "fought on North American soil.",
@@ -198,7 +198,7 @@
      "quiet": true
     },
     {
-     "id": "c079",
+     "id": "c092",
      "shot": "em_unknown",
      "type": "INSERT",
      "text": "Nobody knows exactly where it happened.",
@@ -206,7 +206,7 @@
      "quiet": true
     },
     {
-     "id": "c080",
+     "id": "c093",
      "shot": "em_unknown",
      "type": "INSERT",
      "text": "The town has never been found.",
@@ -214,21 +214,21 @@
      "quiet": true
     },
     {
-     "id": "c081",
+     "id": "c094",
      "shot": "em_quiet",
      "type": "HOST",
      "text": "After that, Europe went quiet for 160 years.",
      "date": null
     },
     {
-     "id": "c082",
+     "id": "c095",
      "shot": "em_quiet",
      "type": "HOST",
      "text": "Then the French arrived.",
      "date": null
     },
     {
-     "id": "c083",
+     "id": "c096",
      "shot": "em_french",
      "type": "INSERT",
      "text": "1702.",
@@ -243,7 +243,7 @@
      ]
     },
     {
-     "id": "c084",
+     "id": "c097",
      "shot": "em_french",
      "type": "INSERT",
      "text": "Two French brothers, Iberville and Bienville, build a",
@@ -251,7 +251,7 @@
      "amb": "waves"
     },
     {
-     "id": "c085",
+     "id": "c098",
      "shot": "em_french",
      "type": "INSERT",
      "text": "fort on the Mobile River.",
@@ -266,7 +266,7 @@
      ]
     },
     {
-     "id": "c086",
+     "id": "c099",
      "shot": "em_french",
      "type": "INSERT",
      "text": "It is the capital of a colony called",
@@ -274,7 +274,7 @@
      "amb": "waves"
     },
     {
-     "id": "c087",
+     "id": "c100",
      "shot": "em_french",
      "type": "INSERT",
      "text": "Louisiana, which in French dreams stretched from the",
@@ -289,7 +289,7 @@
      ]
     },
     {
-     "id": "c088",
+     "id": "c101",
      "shot": "em_french",
      "type": "INSERT",
      "text": "Gulf to Canada.",
@@ -297,21 +297,21 @@
      "amb": "waves"
     },
     {
-     "id": "c089",
+     "id": "c102",
      "shot": "em_party",
      "type": "HOST",
      "text": "And what is the very first thing they",
      "date": null
     },
     {
-     "id": "c090",
+     "id": "c103",
      "shot": "em_party",
      "type": "HOST",
      "text": "do?",
      "date": null
     },
     {
-     "id": "c091",
+     "id": "c104",
      "shot": "em_party",
      "type": "HOST",
      "text": "They throw a party.",
@@ -325,7 +325,7 @@
      ]
     },
     {
-     "id": "c092",
+     "id": "c105",
      "shot": "em_party",
      "type": "HOST",
      "text": "1703.",
@@ -339,21 +339,21 @@
      ]
     },
     {
-     "id": "c093",
+     "id": "c106",
      "shot": "em_party",
      "type": "HOST",
      "text": "The settlers celebrate Mardi Gras, masks, feasts.",
      "date": null
     },
     {
-     "id": "c094",
+     "id": "c107",
      "shot": "em_party",
      "type": "HOST",
      "text": "Within a few years, there's a society parading",
      "date": null
     },
     {
-     "id": "c095",
+     "id": "c108",
      "shot": "em_party",
      "type": "HOST",
      "text": "a giant ox through the streets.",
@@ -367,7 +367,7 @@
      ]
     },
     {
-     "id": "c096",
+     "id": "c109",
      "shot": "em_party",
      "type": "HOST",
      "text": "New Orleans won't even be founded until 1718.",
@@ -381,7 +381,7 @@
      ]
     },
     {
-     "id": "c097",
+     "id": "c110",
      "shot": "em_flags",
      "type": "HOST",
      "text": "Then Alabama's coast became a hot potato.",
@@ -395,7 +395,7 @@
      ]
     },
     {
-     "id": "c098",
+     "id": "c111",
      "shot": "em_flags",
      "type": "HOST",
      "text": "France lost it to Britain in 1763.",
@@ -409,7 +409,7 @@
      ]
     },
     {
-     "id": "c099",
+     "id": "c112",
      "shot": "em_flags",
      "type": "HOST",
      "text": "Spain grabbed it in 1780.",
@@ -423,21 +423,21 @@
      ]
     },
     {
-     "id": "c100",
+     "id": "c113",
      "shot": "em_flags",
      "type": "HOST",
      "text": "And in 1813, in the middle of a",
      "date": null
     },
     {
-     "id": "c101",
+     "id": "c114",
      "shot": "em_flags",
      "type": "HOST",
      "text": "war with Britain, the United States marched in",
      "date": null
     },
     {
-     "id": "c102",
+     "id": "c115",
      "shot": "em_flags",
      "type": "HOST",
      "text": "and took Mobile.",
@@ -451,7 +451,7 @@
      ]
     },
     {
-     "id": "c103",
+     "id": "c116",
      "shot": "em_flags",
      "type": "HOST",
      "text": "Four flags in 111 years.",
@@ -465,7 +465,7 @@
      ]
     },
     {
-     "id": "c104",
+     "id": "c117",
      "shot": "em_flags",
      "type": "HOST",
      "text": "Mobile changed owners more often than a rental",
@@ -479,7 +479,7 @@
      ]
     },
     {
-     "id": "c105",
+     "id": "c118",
      "shot": "em_flags",
      "type": "HOST",
      "text": "car.",
@@ -493,14 +493,14 @@
      ]
     },
     {
-     "id": "c106",
+     "id": "c119",
      "shot": "em_inland",
      "type": "HOST",
      "text": "But the real fight for Alabama was happening",
      "date": null
     },
     {
-     "id": "c107",
+     "id": "c120",
      "shot": "em_inland",
      "type": "HOST",
      "text": "inland.",

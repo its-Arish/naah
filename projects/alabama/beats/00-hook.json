@@ -7,6 +7,198 @@
    "beats": [
     {
      "id": "c001",
+     "shot": "h_title",
+     "type": "HOST",
+     "text": "Sweet Home Alabama.",
+     "date": null,
+     "sfx": [
+      [
+       "thud",
+       "w:Sweet",
+       0.4
+      ],
+      [
+       "ding",
+       "w:Alabama.",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c002",
+     "shot": "h_song",
+     "type": "HOST",
+     "text": "You've heard it at a wedding, a ball",
+     "date": null,
+     "sfx": [
+      [
+       "pop",
+       "w:wedding,",
+       0.4
+      ],
+      [
+       "pop",
+       "w:ball",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c003",
+     "shot": "h_song",
+     "type": "HOST",
+     "text": "game, on a long drive with the windows",
+     "date": null,
+     "sfx": [
+      [
+       "pop",
+       "w:drive",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c004",
+     "shot": "h_song",
+     "type": "HOST",
+     "text": "down.",
+     "date": null
+    },
+    {
+     "id": "c005",
+     "shot": "h_florida",
+     "type": "HOST",
+     "text": "But the band that made it wasn't from",
+     "date": null
+    },
+    {
+     "id": "c006",
+     "shot": "h_florida",
+     "type": "HOST",
+     "text": "Alabama.",
+     "date": null
+    },
+    {
+     "id": "c007",
+     "shot": "h_florida",
+     "type": "HOST",
+     "text": "They were from Jacksonville, *Florida.*",
+     "date": null,
+     "sfx": [
+      [
+       "clang",
+       "w:Florida.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c008",
+     "shot": "h_reply",
+     "type": "HOST",
+     "text": "And the song started as a comeback, aimed",
+     "date": null,
+     "sfx": [
+      [
+       "whoosh",
+       "w:comeback,",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c009",
+     "shot": "h_reply",
+     "type": "HOST",
+     "text": "at Neil Young, who had written two songs",
+     "date": null,
+     "sfx": [
+      [
+       "tick",
+       "w:two",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c010",
+     "shot": "h_reply",
+     "type": "HOST",
+     "text": "calling out the South for its racism.",
+     "date": null
+    },
+    {
+     "id": "c011",
+     "shot": "h_town",
+     "type": "INSERT",
+     "text": "In the middle of all that, the song",
+     "date": null
+    },
+    {
+     "id": "c012",
+     "shot": "h_town",
+     "type": "INSERT",
+     "text": "gives a shout-out to a few session",
+     "date": null
+    },
+    {
+     "id": "c013",
+     "shot": "h_town",
+     "type": "INSERT",
+     "text": "musicians in a tiny Alabama town of about",
+     "date": null,
+     "sfx": [
+      [
+       "pop",
+       "w:tiny",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c014",
+     "shot": "h_town",
+     "type": "INSERT",
+     "text": "*16,000* people.",
+     "date": null
+    },
+    {
+     "id": "c015",
+     "shot": "h_life",
+     "type": "HOST",
+     "text": "That's the thing about Alabama.",
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       "w:Alabama.",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c016",
+     "shot": "h_life",
+     "type": "HOST",
+     "text": "It's already in your *life.*",
+     "date": null
+    },
+    {
+     "id": "c017",
+     "shot": "h_life",
+     "type": "HOST",
+     "text": "You just never noticed.",
+     "date": null,
+     "sfx": [
+      [
+       "pops",
+       "w:noticed.",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c018",
      "shot": "h_beads",
      "type": "HOST",
      "text": "The Mardi Gras beads you caught?",
@@ -20,7 +212,7 @@
      ]
     },
     {
-     "id": "c002",
+     "id": "c019",
      "shot": "h_beads",
      "type": "HOST",
      "text": "America's first Mardi Gras *wasn't* in New Orleans.",
@@ -34,7 +226,7 @@
      ]
     },
     {
-     "id": "c003",
+     "id": "c020",
      "shot": "h_mobile",
      "type": "INSERT",
      "text": "Mobile, Alabama was partying 15 years before New",
@@ -49,7 +241,7 @@
      ]
     },
     {
-     "id": "c004",
+     "id": "c021",
      "shot": "h_mobile",
      "type": "INSERT",
      "text": "Orleans even *existed.*",
@@ -64,7 +256,7 @@
      ]
     },
     {
-     "id": "c005",
+     "id": "c022",
      "shot": "h_bag",
      "type": "HOST",
      "text": "The suitcase the airline lost?",
@@ -78,14 +270,14 @@
      ]
     },
     {
-     "id": "c006",
+     "id": "c023",
      "shot": "h_bag",
      "type": "HOST",
      "text": "If nobody ever claims it, it ends up",
      "date": null
     },
     {
-     "id": "c007",
+     "id": "c024",
      "shot": "h_bag",
      "type": "HOST",
      "text": "for sale in one store in a small",
@@ -99,7 +291,7 @@
      ]
     },
     {
-     "id": "c008",
+     "id": "c025",
      "shot": "h_bag",
      "type": "HOST",
      "text": "town in *Alabama.*",
@@ -113,49 +305,7 @@
      ]
     },
     {
-     "id": "c009",
-     "shot": "h_songs",
-     "type": "HOST",
-     "text": "Some of the biggest songs your parents grew",
-     "date": null,
-     "sfx": [
-      [
-       "pop",
-       "w:songs",
-       0.5
-      ]
-     ]
-    },
-    {
-     "id": "c010",
-     "shot": "h_songs",
-     "type": "HOST",
-     "text": "up with?",
-     "date": null
-    },
-    {
-     "id": "c011",
-     "shot": "h_songs",
-     "type": "HOST",
-     "text": "Recorded in an Alabama town of *14,000*",
-     "date": null,
-     "sfx": [
-      [
-       "stamp",
-       "w:14,000",
-       0.5
-      ]
-     ]
-    },
-    {
-     "id": "c012",
-     "shot": "h_songs",
-     "type": "HOST",
-     "text": "people.",
-     "date": null
-    },
-    {
-     "id": "c013",
+     "id": "c026",
      "shot": "h_rocket",
      "type": "INSERT",
      "text": "And the rocket that carried humans to the",
@@ -169,14 +319,14 @@
      ]
     },
     {
-     "id": "c014",
+     "id": "c027",
      "shot": "h_rocket",
      "type": "INSERT",
      "text": "moon?",
      "date": null
     },
     {
-     "id": "c015",
+     "id": "c028",
      "shot": "h_rocket",
      "type": "INSERT",
      "text": "Designed in *Alabama.*",
@@ -190,7 +340,7 @@
      ]
     },
     {
-     "id": "c016",
+     "id": "c029",
      "shot": "h_bridge",
      "type": "STORY",
      "text": "But, four years before that rocket flew, in",
@@ -198,7 +348,7 @@
      "quiet": true
     },
     {
-     "id": "c017",
+     "id": "c030",
      "shot": "h_bridge",
      "type": "STORY",
      "text": "the very same state, people were beaten on",
@@ -206,7 +356,7 @@
      "quiet": true
     },
     {
-     "id": "c018",
+     "id": "c031",
      "shot": "h_bridge",
      "type": "STORY",
      "text": "a bridge for trying to vote.",
@@ -214,7 +364,7 @@
      "quiet": true
     },
     {
-     "id": "c019",
+     "id": "c032",
      "shot": "h_both",
      "type": "HOST",
      "text": "So how does one state do *both?*",
@@ -228,7 +378,7 @@
      ]
     },
     {
-     "id": "c020",
+     "id": "c033",
      "shot": "h_street",
      "type": "HOST",
      "text": "The answer is hiding on one street, five",
@@ -242,7 +392,7 @@
      ]
     },
     {
-     "id": "c021",
+     "id": "c034",
      "shot": "h_street",
      "type": "HOST",
      "text": "*blocks* long.",

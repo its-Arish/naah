@@ -6,14 +6,14 @@
    "card": false,
    "beats": [
     {
-     "id": "c637",
+     "id": "c650",
      "shot": "td_cars",
      "type": "INSERT",
      "text": "And Alabama kept moving.",
      "date": null
     },
     {
-     "id": "c638",
+     "id": "c651",
      "shot": "td_cars",
      "type": "INSERT",
      "text": "In 1997, Mercedes-Benz opened its first American",
@@ -27,21 +27,21 @@
      ]
     },
     {
-     "id": "c639",
+     "id": "c652",
      "shot": "td_cars",
      "type": "INSERT",
      "text": "car factory in a small Alabama town called",
      "date": null
     },
     {
-     "id": "c640",
+     "id": "c653",
      "shot": "td_cars",
      "type": "INSERT",
      "text": "Vance.",
      "date": null
     },
     {
-     "id": "c641",
+     "id": "c654",
      "shot": "td_cars",
      "type": "INSERT",
      "text": "Then came Honda, Hyundai, Toyota, and Mazda.",
@@ -55,14 +55,14 @@
      ]
     },
     {
-     "id": "c642",
+     "id": "c655",
      "shot": "td_cars",
      "type": "INSERT",
      "text": "Today, Alabama's factories can build more than a",
      "date": null
     },
     {
-     "id": "c643",
+     "id": "c656",
      "shot": "td_cars",
      "type": "INSERT",
      "text": "million cars a year.",
@@ -76,56 +76,56 @@
      ]
     },
     {
-     "id": "c644",
+     "id": "c657",
      "shot": "td_cars",
      "type": "INSERT",
      "text": "The SUV in the parking lot outside?",
      "date": null
     },
     {
-     "id": "c645",
+     "id": "c658",
      "shot": "td_cars",
      "type": "INSERT",
      "text": "There's a real chance it was built here.",
      "date": null
     },
     {
-     "id": "c646",
+     "id": "c659",
      "shot": "td_bags",
      "type": "HOST",
      "text": "Oh, and remember Scottsboro?",
      "date": null
     },
     {
-     "id": "c647",
+     "id": "c660",
      "shot": "td_bags",
      "type": "HOST",
      "text": "In 1970, a man there started buying lost",
      "date": null
     },
     {
-     "id": "c648",
+     "id": "c661",
      "shot": "td_bags",
      "type": "HOST",
      "text": "luggage that nobody had ever claimed.",
      "date": null
     },
     {
-     "id": "c649",
+     "id": "c662",
      "shot": "td_bags",
      "type": "HOST",
      "text": "Today, when the airlines give up on a",
      "date": null
     },
     {
-     "id": "c650",
+     "id": "c663",
      "shot": "td_bags",
      "type": "HOST",
      "text": "bag, it ends up at his family's store.",
      "date": null
     },
     {
-     "id": "c651",
+     "id": "c664",
      "shot": "td_bags",
      "type": "HOST",
      "text": "Unclaimed Baggage.",
@@ -139,7 +139,7 @@
      ]
     },
     {
-     "id": "c652",
+     "id": "c665",
      "shot": "td_bags",
      "type": "HOST",
      "text": "About a million people a year drive to",
@@ -153,35 +153,35 @@
      ]
     },
     {
-     "id": "c653",
+     "id": "c666",
      "shot": "td_bags",
      "type": "HOST",
      "text": "a small Alabama town to shop for strangers'",
      "date": null
     },
     {
-     "id": "c654",
+     "id": "c667",
      "shot": "td_bags",
      "type": "HOST",
      "text": "suitcases.",
      "date": null
     },
     {
-     "id": "c655",
+     "id": "c668",
      "shot": "td_bags",
      "type": "HOST",
      "text": "Laptops, wedding dresses, somebody's skis.",
      "date": null
     },
     {
-     "id": "c656",
+     "id": "c669",
      "shot": "td_bags",
      "type": "HOST",
      "text": "If you ever lost a bag, it might",
      "date": null
     },
     {
-     "id": "c657",
+     "id": "c670",
      "shot": "td_bags",
      "type": "HOST",
      "text": "be on a shelf in Alabama right now.",
@@ -195,56 +195,56 @@
      ]
     },
     {
-     "id": "c658",
+     "id": "c671",
      "shot": "td_now",
      "type": "INSERT",
      "text": "Airbus builds passenger jets in Mobile, the city",
      "date": null
     },
     {
-     "id": "c659",
+     "id": "c672",
      "shot": "td_now",
      "type": "INSERT",
      "text": "that still throws America's oldest Mardi Gras.",
      "date": null
     },
     {
-     "id": "c660",
+     "id": "c673",
      "shot": "td_now",
      "type": "INSERT",
      "text": "The little town that called itself the Watercress",
      "date": null
     },
     {
-     "id": "c661",
+     "id": "c674",
      "shot": "td_now",
      "type": "INSERT",
      "text": "Capital is now Alabama's biggest city.",
      "date": null
     },
     {
-     "id": "c662",
+     "id": "c675",
      "shot": "td_now",
      "type": "INSERT",
      "text": "And in 2025, the government announced that the",
      "date": null
     },
     {
-     "id": "c663",
+     "id": "c676",
      "shot": "td_now",
      "type": "INSERT",
      "text": "military's Space Command headquarters would move to Huntsville,",
      "date": null
     },
     {
-     "id": "c664",
+     "id": "c677",
      "shot": "td_now",
      "type": "INSERT",
      "text": "too.",
      "date": null
     },
     {
-     "id": "c665",
+     "id": "c678",
      "shot": "td_africatown",
      "type": "INSERT",
      "text": "In 2019, researchers confirmed they had found the",
@@ -253,7 +253,7 @@
      "amb": "waves"
     },
     {
-     "id": "c666",
+     "id": "c679",
      "shot": "td_africatown",
      "type": "INSERT",
      "text": "wreck of the Clotilda, buried in the mud",
@@ -262,7 +262,7 @@
      "amb": "waves"
     },
     {
-     "id": "c667",
+     "id": "c680",
      "shot": "td_africatown",
      "type": "INSERT",
      "text": "of the Mobile River.",
@@ -271,7 +271,7 @@
      "amb": "waves"
     },
     {
-     "id": "c668",
+     "id": "c681",
      "shot": "td_africatown",
      "type": "INSERT",
      "text": "The descendants of the people it carried still",
@@ -280,7 +280,7 @@
      "amb": "waves"
     },
     {
-     "id": "c669",
+     "id": "c682",
      "shot": "td_africatown",
      "type": "INSERT",
      "text": "live nearby, in a neighborhood their ancestors built",
@@ -289,7 +289,7 @@
      "amb": "waves"
     },
     {
-     "id": "c670",
+     "id": "c683",
      "shot": "td_africatown",
      "type": "INSERT",
      "text": "after the war.",
@@ -298,7 +298,7 @@
      "amb": "waves"
     },
     {
-     "id": "c671",
+     "id": "c684",
      "shot": "td_africatown",
      "type": "INSERT",
      "text": "It's called Africatown.",
@@ -307,14 +307,14 @@
      "amb": "waves"
     },
     {
-     "id": "c672",
+     "id": "c685",
      "shot": "td_artemis",
      "type": "STORY",
      "text": "And in April 2026, a new moon rocket",
      "date": null
     },
     {
-     "id": "c673",
+     "id": "c686",
      "shot": "td_artemis",
      "type": "STORY",
      "text": "lifted off with four astronauts.",
@@ -328,49 +328,49 @@
      ]
     },
     {
-     "id": "c674",
+     "id": "c687",
      "shot": "td_artemis",
      "type": "STORY",
      "text": "It was designed and managed at the Marshall",
      "date": null
     },
     {
-     "id": "c675",
+     "id": "c688",
      "shot": "td_artemis",
      "type": "STORY",
      "text": "Space Flight Center in Huntsville.",
      "date": null
     },
     {
-     "id": "c676",
+     "id": "c689",
      "shot": "td_artemis",
      "type": "STORY",
      "text": "They flew around the moon and came home,",
      "date": null
     },
     {
-     "id": "c677",
+     "id": "c690",
      "shot": "td_artemis",
      "type": "STORY",
      "text": "farther from Earth than any human beings had",
      "date": null
     },
     {
-     "id": "c678",
+     "id": "c691",
      "shot": "td_artemis",
      "type": "STORY",
      "text": "ever been.",
      "date": null
     },
     {
-     "id": "c679",
+     "id": "c692",
      "shot": "td_artemis",
      "type": "STORY",
      "text": "Alabama sent people around the moon.",
      "date": null
     },
     {
-     "id": "c680",
+     "id": "c693",
      "shot": "td_artemis",
      "type": "STORY",
      "text": "Again.",
@@ -384,35 +384,35 @@
      ]
     },
     {
-     "id": "c681",
+     "id": "c694",
      "shot": "td_ironbowl",
      "type": "HOST",
      "text": "And on the ground?",
      "date": null
     },
     {
-     "id": "c682",
+     "id": "c695",
      "shot": "td_ironbowl",
      "type": "HOST",
      "text": "Every autumn, half the state still stops talking",
      "date": null
     },
     {
-     "id": "c683",
+     "id": "c696",
      "shot": "td_ironbowl",
      "type": "HOST",
      "text": "to the other half for one football game.",
      "date": null
     },
     {
-     "id": "c684",
+     "id": "c697",
      "shot": "td_ironbowl",
      "type": "HOST",
      "text": "Alabama against Auburn.",
      "date": null
     },
     {
-     "id": "c685",
+     "id": "c698",
      "shot": "td_ironbowl",
      "type": "HOST",
      "text": "They call it the Iron Bowl.",
@@ -426,7 +426,7 @@
      ]
     },
     {
-     "id": "c686",
+     "id": "c699",
      "shot": "td_ironbowl",
      "type": "HOST",
      "text": "Of course they do.",
@@ -440,49 +440,49 @@
      ]
     },
     {
-     "id": "c687",
+     "id": "c700",
      "shot": "td_ironbowl",
      "type": "HOST",
      "text": "Birmingham was built on iron.",
      "date": null
     },
     {
-     "id": "c688",
+     "id": "c701",
      "shot": "td_name",
      "type": "HOST",
      "text": "So let's go back to that name.",
      "date": null
     },
     {
-     "id": "c689",
+     "id": "c702",
      "shot": "td_name",
      "type": "HOST",
      "text": "Alabama.",
      "date": null
     },
     {
-     "id": "c690",
+     "id": "c703",
      "shot": "td_name",
      "type": "HOST",
      "text": "Remember the newspaper that said it meant, here",
      "date": null
     },
     {
-     "id": "c691",
+     "id": "c704",
      "shot": "td_name",
      "type": "HOST",
      "text": "we rest?",
      "date": null
     },
     {
-     "id": "c692",
+     "id": "c705",
      "shot": "td_name",
      "type": "HOST",
      "text": "Nobody has ever found those words in the",
      "date": null
     },
     {
-     "id": "c693",
+     "id": "c706",
      "shot": "td_name",
      "type": "HOST",
      "text": "language.",
@@ -496,35 +496,35 @@
      ]
     },
     {
-     "id": "c694",
+     "id": "c707",
      "shot": "td_name",
      "type": "HOST",
      "text": "The most common explanation is that it comes",
      "date": null
     },
     {
-     "id": "c695",
+     "id": "c708",
      "shot": "td_name",
      "type": "HOST",
      "text": "from Choctaw words about clearing the land.",
      "date": null
     },
     {
-     "id": "c696",
+     "id": "c709",
      "shot": "td_name",
      "type": "HOST",
      "text": "Clearing the thicket.",
      "date": null
     },
     {
-     "id": "c697",
+     "id": "c710",
      "shot": "td_name",
      "type": "HOST",
      "text": "The people who clear the thicket.",
      "date": null
     },
     {
-     "id": "c698",
+     "id": "c711",
      "shot": "td_path",
      "type": "HOST",
      "text": "Ten thousand years of people clearing a path",
@@ -538,14 +538,14 @@
      ]
     },
     {
-     "id": "c699",
+     "id": "c712",
      "shot": "td_path",
      "type": "HOST",
      "text": "where there wasn't one.",
      "date": null
     },
     {
-     "id": "c700",
+     "id": "c713",
      "shot": "td_path",
      "type": "HOST",
      "text": "With a cave fire.",
@@ -559,7 +559,7 @@
      ]
     },
     {
-     "id": "c701",
+     "id": "c714",
      "shot": "td_path",
      "type": "HOST",
      "text": "With a peanut.",
@@ -573,7 +573,7 @@
      ]
     },
     {
-     "id": "c702",
+     "id": "c715",
      "shot": "td_path",
      "type": "HOST",
      "text": "With a rocket.",
@@ -587,7 +587,7 @@
      ]
     },
     {
-     "id": "c703",
+     "id": "c716",
      "shot": "td_path",
      "type": "HOST",
      "text": "With a bus seat.",
@@ -601,7 +601,7 @@
      ]
     },
     {
-     "id": "c704",
+     "id": "c717",
      "shot": "td_path",
      "type": "HOST",
      "text": "With a march across a bridge.",
@@ -615,21 +615,21 @@
      ]
     },
     {
-     "id": "c705",
+     "id": "c718",
      "shot": "td_path",
      "type": "HOST",
      "text": "That is the entire history of Alabama.",
      "date": null
     },
     {
-     "id": "c706",
+     "id": "c719",
      "shot": "td_path",
      "type": "HOST",
      "text": "Never here we rest.",
      "date": null
     },
     {
-     "id": "c707",
+     "id": "c720",
      "shot": "td_path",
      "type": "HOST",
      "text": "Always clear the path.",

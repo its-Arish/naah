@@ -6,28 +6,28 @@
    "card": false,
    "beats": [
     {
-     "id": "c179",
+     "id": "c192",
      "shot": "co_belt",
      "type": "INSERT",
      "text": "Here is what all that land was for.",
      "date": null
     },
     {
-     "id": "c180",
+     "id": "c193",
      "shot": "co_belt",
      "type": "INSERT",
      "text": "Across the middle of the state runs a",
      "date": null
     },
     {
-     "id": "c181",
+     "id": "c194",
      "shot": "co_belt",
      "type": "INSERT",
      "text": "strip of dark, rich soil.",
      "date": null
     },
     {
-     "id": "c182",
+     "id": "c195",
      "shot": "co_belt",
      "type": "INSERT",
      "text": "People called it the Black Belt because of",
@@ -41,21 +41,21 @@
      ]
     },
     {
-     "id": "c183",
+     "id": "c196",
      "shot": "co_belt",
      "type": "INSERT",
      "text": "the color of the dirt.",
      "date": null
     },
     {
-     "id": "c184",
+     "id": "c197",
      "shot": "co_belt",
      "type": "INSERT",
      "text": "Cotton grew there like nowhere else.",
      "date": null
     },
     {
-     "id": "c185",
+     "id": "c198",
      "shot": "co_river",
      "type": "INSERT",
      "text": "Steamboats piled with bales floated down the rivers",
@@ -70,7 +70,7 @@
      ]
     },
     {
-     "id": "c186",
+     "id": "c199",
      "shot": "co_river",
      "type": "INSERT",
      "text": "to Mobile, which became one of the biggest",
@@ -78,7 +78,7 @@
      "amb": "waves"
     },
     {
-     "id": "c187",
+     "id": "c200",
      "shot": "co_river",
      "type": "INSERT",
      "text": "cotton ports in the country.",
@@ -86,7 +86,7 @@
      "amb": "waves"
     },
     {
-     "id": "c188",
+     "id": "c201",
      "shot": "co_river",
      "type": "INSERT",
      "text": "That cotton went onto the mills of England",
@@ -101,7 +101,7 @@
      ]
     },
     {
-     "id": "c189",
+     "id": "c202",
      "shot": "co_river",
      "type": "INSERT",
      "text": "and New England.",
@@ -109,7 +109,7 @@
      "amb": "waves"
     },
     {
-     "id": "c190",
+     "id": "c203",
      "shot": "co_river",
      "type": "INSERT",
      "text": "In other words, a shirt worn in England",
@@ -117,7 +117,7 @@
      "amb": "waves"
     },
     {
-     "id": "c191",
+     "id": "c204",
      "shot": "co_river",
      "type": "INSERT",
      "text": "might have started life in an Alabama field.",
@@ -125,112 +125,112 @@
      "amb": "waves"
     },
     {
-     "id": "c192",
+     "id": "c205",
      "shot": "co_pick",
      "type": "HOST",
      "text": "But someone had to pick it.",
      "date": null
     },
     {
-     "id": "c193",
+     "id": "c206",
      "shot": "co_pick",
      "type": "HOST",
      "text": "In 1860, Alabama had about 960,000 people.",
      "date": null
     },
     {
-     "id": "c194",
+     "id": "c207",
      "shot": "co_pick",
      "type": "HOST",
      "text": "435,000 of them were enslaved.",
      "date": null
     },
     {
-     "id": "c195",
+     "id": "c208",
      "shot": "co_pick",
      "type": "HOST",
      "text": "Almost half the state.",
      "date": null
     },
     {
-     "id": "c196",
+     "id": "c209",
      "shot": "co_street",
      "type": "HOST",
      "text": "And remember our street in Montgomery?",
      "date": null
     },
     {
-     "id": "c197",
+     "id": "c210",
      "shot": "co_street",
      "type": "HOST",
      "text": "At the bottom of those five blocks, around",
      "date": null
     },
     {
-     "id": "c198",
+     "id": "c211",
      "shot": "co_street",
      "type": "HOST",
      "text": "the fountain in Court Square, enslaved people were",
      "date": null
     },
     {
-     "id": "c199",
+     "id": "c212",
      "shot": "co_street",
      "type": "HOST",
      "text": "sold.",
      "date": null
     },
     {
-     "id": "c200",
+     "id": "c213",
      "shot": "co_street",
      "type": "HOST",
      "text": "Men, women, and children.",
      "date": null
     },
     {
-     "id": "c201",
+     "id": "c214",
      "shot": "co_street",
      "type": "HOST",
      "text": "Auctioned in the open.",
      "date": null
     },
     {
-     "id": "c202",
+     "id": "c215",
      "shot": "co_street",
      "type": "HOST",
      "text": "A short walk from the Capitol.",
      "date": null
     },
     {
-     "id": "c203",
+     "id": "c216",
      "shot": "co_belt2",
      "type": "INSERT",
      "text": "That is why the Black Belt later got",
      "date": null
     },
     {
-     "id": "c204",
+     "id": "c217",
      "shot": "co_belt2",
      "type": "INSERT",
      "text": "its second meaning.",
      "date": null
     },
     {
-     "id": "c205",
+     "id": "c218",
      "shot": "co_belt2",
      "type": "INSERT",
      "text": "It became the part of Alabama where most",
      "date": null
     },
     {
-     "id": "c206",
+     "id": "c219",
      "shot": "co_belt2",
      "type": "INSERT",
      "text": "Black Alabamians lived.",
      "date": null
     },
     {
-     "id": "c207",
+     "id": "c220",
      "shot": "co_clotilda",
      "type": "STORY",
      "text": "By 1860, bringing people from Africa to the",
@@ -238,7 +238,7 @@
      "quiet": true
     },
     {
-     "id": "c208",
+     "id": "c221",
      "shot": "co_clotilda",
      "type": "STORY",
      "text": "United States had been illegal for more than",
@@ -246,7 +246,7 @@
      "quiet": true
     },
     {
-     "id": "c209",
+     "id": "c222",
      "shot": "co_clotilda",
      "type": "STORY",
      "text": "50 years.",
@@ -254,7 +254,7 @@
      "quiet": true
     },
     {
-     "id": "c210",
+     "id": "c223",
      "shot": "co_clotilda",
      "type": "STORY",
      "text": "That summer, a ship called the Clotilda slipped",
@@ -262,7 +262,7 @@
      "quiet": true
     },
     {
-     "id": "c211",
+     "id": "c224",
      "shot": "co_clotilda",
      "type": "STORY",
      "text": "into Mobile Bay at night.",
@@ -270,7 +270,7 @@
      "quiet": true
     },
     {
-     "id": "c212",
+     "id": "c225",
      "shot": "co_clotilda",
      "type": "STORY",
      "text": "On board were 110 people taken from West",
@@ -278,7 +278,7 @@
      "quiet": true
     },
     {
-     "id": "c213",
+     "id": "c226",
      "shot": "co_clotilda",
      "type": "STORY",
      "text": "Africa.",
@@ -286,7 +286,7 @@
      "quiet": true
     },
     {
-     "id": "c214",
+     "id": "c227",
      "shot": "co_clotilda",
      "type": "STORY",
      "text": "The story goes, it was all because of",
@@ -294,7 +294,7 @@
      "quiet": true
     },
     {
-     "id": "c215",
+     "id": "c228",
      "shot": "co_clotilda",
      "type": "STORY",
      "text": "a bet.",
@@ -302,7 +302,7 @@
      "quiet": true
     },
     {
-     "id": "c216",
+     "id": "c229",
      "shot": "co_clotilda",
      "type": "STORY",
      "text": "The men behind it hid the people in the swamps.",
@@ -310,7 +310,7 @@
      "quiet": true
     },
     {
-     "id": "c217",
+     "id": "c230",
      "shot": "co_clotilda",
      "type": "STORY",
      "text": "Then they burned the ship to hide the",
@@ -318,7 +318,7 @@
      "quiet": true
     },
     {
-     "id": "c218",
+     "id": "c231",
      "shot": "co_clotilda",
      "type": "STORY",
      "text": "crime.",
@@ -326,7 +326,7 @@
      "quiet": true
     },
     {
-     "id": "c219",
+     "id": "c232",
      "shot": "co_clotilda",
      "type": "STORY",
      "text": "It was the last known slave ship to",
@@ -334,7 +334,7 @@
      "quiet": true
     },
     {
-     "id": "c220",
+     "id": "c233",
      "shot": "co_clotilda",
      "type": "STORY",
      "text": "reach America.",

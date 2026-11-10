@@ -1,4 +1,4 @@
-/** Hook (0:00 to 0:57): beads, suitcase, songs, rocket, the bridge, and the five blocks. */
+/** Hook, second half (captions 18-30 since the second take): beads, Mobile, rocket, the bridge, and the five blocks. h_bag / h_songs are no longer used. */
 import React from 'react';
 import { useCurrentFrame, interpolate, Easing, springPop } from '@engine/lib/core';
 import { CameraRig, Layer } from '@engine/fx/Camera';
@@ -25,7 +25,7 @@ const BeadsShot: React.FC<SP> = ({ s }) => {
         <path d="M-180 30 L180 -30" stroke={RED} strokeWidth={10} strokeLinecap="round" />
       </Pop>
       {b.k === 0
-        ? <VaultOn t={b.f - 2} to={1580} talking={talk(s)} keys={[{ at: 0, arm: 'point', expr: 'grin' }]} />
+        ? <HostS s={s} x={1580} keys={[{ at: 0, arm: 'point', expr: 'grin' }]} />
         : <ReactionDrop t={b.f - (b.at(1, 'wasnt') - 2)} X={1580} talking={talk(s)} after={[{ at: 0, arm: 'finger', expr: 'grin' }]} />}
     </Stage>
   );

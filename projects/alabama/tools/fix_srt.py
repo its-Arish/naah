@@ -1,4 +1,4 @@
-"""Fixes the raw TurboScribe .srt of the Gemini voiceover (tools/raw.srt -> voiceover.srt).
+"""Fixes the raw TurboScribe .srt of the Gemini voiceover (tools/raw.srt -> tools/body.srt; tools/splice_hook.py then builds voiceover.srt).
 
 Nothing was cut from the audio: no line was spoken twice and no heading was read aloud.
 Only caption spelling is fixed here; the words follow the recording.
@@ -39,5 +39,5 @@ for b in re.split(r'\n\s*\n', src):
         text = FIX[n]; used.add(n)
     text = re.sub(r'\bblack\b', 'Black', text)            # Black Alabamians, Black voters…
     out.append(f"{n}\n{times}\n{text}\n")
-open(os.path.join(HERE, 'voiceover.srt'), 'w', encoding='utf-8').write('\n'.join(out))
+open(os.path.join(HERE, 'tools', 'body.srt'), 'w', encoding='utf-8').write('\n'.join(out))
 print('cues:', len(out), 'fixed:', len(used), 'unused:', sorted(set(FIX) - used))
