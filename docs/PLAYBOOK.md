@@ -10,6 +10,8 @@ Ask only what you cannot infer. Say what you will make before a long build, and 
 
 ## 2. Script rules (always)
 
+**The hook is the main factor for everything (creator, Nov 2026). Every script must pass `docs/HOOKS.md` — the seven-beat hook standard and checklist — before it is handed over.**
+
 1. **Open on something the viewer already owns, says or does** that comes from the place or time of the film: the jeans they are wearing, the shampoo they used, a word they said today. Make it intriguing, with a twist ("named after an island that never existed").
 2. **Follow the hook with at least three facts in one flowing run.** Never label them ("Fact 1"): chain them the way people talk, "The jeans you're wearing. The phone in your hand. The...". The last fact is the strangest or darkest and leads into the question the film answers.
 3. **Never say "stay to the end", "watch until the end", "keep watching" or "it comes back at the end".** Viewers recognise a hook trap. Ask the open question ("So who actually got rich?") and move straight on.

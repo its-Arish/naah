@@ -4,7 +4,7 @@ One long-form film per state (20–30 min), house style, Gemini voiceover. Scrip
 
 Each new state: `node scripts/studio.mjs new <state> "The Entire History of <State>"`, copy the state-map kit from `projects/alabama/src` (Kit, KitAL, Factory, Moves, Timeline), script in `projects/<state>/script.md`.
 
-**Hook seeds are starting ideas only: not fact-checked yet.** Check them when the script is written.
+**Every hook must pass `docs/HOOKS.md`. Hook seeds are starting ideas only: not fact-checked yet.** Check them when the script is written.
 
 ## Done
 
@@ -18,7 +18,7 @@ Each new state: `node scripts/studio.mjs new <state> "The Entire History of <Sta
 
 | # | State | Status | Hook seed (familiar thing → twist) |
 |---|---|---|---|
-| 4 | Florida | script next | Disney World, spring break, the retirees… and it was Spanish for longer than it has been American |
+| 4 | Florida | **script written** (`projects/florida`, branch `fifty-states`) | Gatorade → Disney's secret land → older than the Mayflower → fewer people than Boston in 1900 |
 | 5 | New York | | The Statue of Liberty, the Big Apple… and the city was briefly called New Orange |
 | 6 | Hawaii | | The pineapple on your pizza, the ukulele… and it was a kingdom with its own royal palace |
 | 7 | Alaska | | Bought from Russia for about 2 cents an acre: "Seward's Folly" |
