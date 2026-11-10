@@ -1,0 +1,29 @@
+{
+ "title": "thumb",
+ "sections": [
+  {
+   "title": "t",
+   "card": false,
+   "beats": [
+    {
+     "id": "thumb_a",
+     "shot": "thumb_a",
+     "type": "INSERT",
+     "date": null,
+     "text": "",
+     "quiet": true,
+     "hold": 2
+    },
+    {
+     "id": "thumb_b",
+     "shot": "thumb_b",
+     "type": "INSERT",
+     "date": null,
+     "text": "",
+     "quiet": true,
+     "hold": 2
+    }
+   ]
+  }
+ ]
+}
