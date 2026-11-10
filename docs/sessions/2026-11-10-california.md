@@ -55,6 +55,8 @@ Session: https://claude.ai/code/session_01FRB8kZECC6NSaxCugaPgpN
 
 20. The first thumbnail used a hand-drawn California outline. Creator: "do not draw map by yourself use gis", then "never draw map by yourself, always use gis". The thumbnail was redrawn from the Natural Earth state borders through `WorldMap`, and the rule is now in `docs/PLAYBOOK.md`, `CLAUDE.md` and the qgis-maps skill. Audit of the film: the California outline (`src/ca.json`) is exported from the GIS data, but the old chart in the hook showing California as an island (`src/Hook.tsx`, `IslandMap`, about 0:25 to 0:30) is drawn by hand. It is not changed yet; ask the creator.
 
+21. Creator: "do not put narrator there and for thumbnail, simplify it as much as possible". The thumbnail is now only the GIS map, California in gold and the title. Thumbnail rules added to `docs/PLAYBOOK.md` §9.
+
 ## Mistakes to avoid next time
 
 | What happened | What to do instead |

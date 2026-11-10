@@ -81,7 +81,14 @@ Standing rules for every film: narrator on screen in most shots and never redesi
 6. Say plainly what was not done or not checked (you cannot hear the mix).
 7. Commit the project (not `build/` or `out/`) and push, so the next session starts from the repo and not from memory.
 
-## 9. Known traps
+## 9. Thumbnails
+
+- **As simple as possible:** the GIS map with the film's place highlighted, plus the title text. No icons, badges, sparkles or extra props.
+- **No narrator** on thumbnails.
+- The map comes from GIS like every other map (never drawn by hand). Example: `projects/california-thumb/shots.tsx` (render with `studio stills california-thumb 45`, then scale to 1280×720 with ffmpeg).
+- If the creator's request mixes up films or wording (a different state's map, a number with no unit), ask before making it.
+
+## 10. Known traps
 
 - `Calendar` in `engine/fx/Infographics.tsx` used an undefined default colour (`NORTH`) and crashed the page; fixed in Nov 2026 (default is now navy). If a render shows a blank frame, read the stills log for `pageerror`.
 - `MapTag` underestimates the width of wide capitals; use `Tag` from `Kit2.tsx`.
