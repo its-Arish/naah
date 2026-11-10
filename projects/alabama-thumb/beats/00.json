@@ -22,6 +22,24 @@
      "text": "",
      "quiet": true,
      "hold": 2
+    },
+    {
+     "id": "split_a",
+     "shot": "split_a",
+     "type": "INSERT",
+     "date": null,
+     "text": "",
+     "quiet": true,
+     "hold": 2
+    },
+    {
+     "id": "split_b",
+     "shot": "split_b",
+     "type": "INSERT",
+     "date": null,
+     "text": "",
+     "quiet": true,
+     "hold": 2
     }
    ]
   }

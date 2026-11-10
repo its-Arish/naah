@@ -57,4 +57,42 @@ const ThumbB: React.FC<SP> = () => (
   </>
 );
 
-export const SHOTS: ShotMap = { opening: makeOpening('thumb', ''), thumb_a: ThumbA, thumb_b: ThumbB, end: makeEnd('thumb') };
+
+// ---- split "then vs now" (creator's reference: 1492 | Today | "Oops..."): text only, no characters
+const HALF_L = 'polygon(0 0, 958px 0, 958px 1080px, 0 1080px)';
+const HALF_R = 'polygon(962px 0, 1920px 0, 1920px 1080px, 962px 1080px)';
+const Z = 23;
+const camFor = (screenX: number) => camAt(-86.75 - (screenX - 960) / ((1920 / 360) * Z), 32.75 - 40 / ((1920 / 360) * Z), Z);
+const Half: React.FC<{ clip: string; sx: number; al: string; glow: string; icon?: React.ReactNode }> = ({ clip, sx, al, glow, icon }) => {
+  const cam = camFor(sx);
+  return (
+    <div style={{ position: 'absolute', inset: 0, clipPath: clip }}>
+      <WorldMap data={D} cam={cam} sea="#2F6FA8" stroke="#8E7A55" fill={(c) => (c.iso === 'USA' ? '#D8C49A' : '#CDB98E')}>
+        {STATES.map((st, i) => st.name === 'Alabama' ? null : <path key={i} d={st.d} fill="#D8C49A" stroke="#FFFFFF" strokeOpacity={0.75} strokeWidth={2} vectorEffect="non-scaling-stroke" />)}
+        <path d={AL_D} fill={al} stroke="#FFFFFF" strokeWidth={5} vectorEffect="non-scaling-stroke" strokeLinejoin="round" />
+      </WorldMap>
+      {icon && <svg width={1920} height={1080} style={{ position: 'absolute', inset: 0 }}>{icon}</svg>}
+    </div>
+  );
+};
+const box = (x: number, t: string) => (
+  <div style={{ position: 'absolute', left: x - 230, width: 460, top: 70, height: 190, background: '#0B0B0B', color: '#fff', fontFamily: 'TagBold', fontSize: 150, lineHeight: '190px', textAlign: 'center' }}>{t}</div>
+);
+const Split: React.FC<{ icons: boolean; bottom: string }> = ({ icons, bottom }) => {
+  const sel = (() => { const cam = camFor(480); const [x, y] = P(-87.02, 32.41); return toScreen(cam, x, y); })();
+  const hsv = (() => { const cam = camFor(1440); const [x, y] = P(-86.59, 34.73); return toScreen(cam, x, y); })();
+  return (
+    <>
+      <div style={{ position: 'absolute', inset: 0, background: '#fff' }} />
+      <Half clip={HALF_L} sx={480} al="#B3261E" glow="#B3261E" icon={icons ? <g transform={`translate(${sel.x + 10} ${sel.y + 10})`}><ArchBridge s={0.22} c="#FFFFFF" light="#F2D6D2" /></g> : undefined} />
+      <Half clip={HALF_R} sx={1440} al="#F3B562" glow="#FFD27A" icon={icons ? <g transform={`translate(${hsv.x} ${hsv.y + 230}) scale(0.42)`}><Rocket /></g> : undefined} />
+      {box(480, '1965')}
+      {box(1440, '1969')}
+      <div style={{ position: 'absolute', left: 0, right: 0, bottom: 40, textAlign: 'center', ...big(190, '#FFFFFF', 22) }}>{bottom}</div>
+    </>
+  );
+};
+const SplitA: React.FC<SP> = () => <Split icons bottom="Same State?!" />;
+const SplitB: React.FC<SP> = () => <Split icons={false} bottom="Same State?!" />;
+
+export const SHOTS: ShotMap = { opening: makeOpening('thumb', ''), thumb_a: ThumbA, thumb_b: ThumbB, split_a: SplitA, split_b: SplitB, end: makeEnd('thumb') };
