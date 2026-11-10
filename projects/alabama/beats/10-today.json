@@ -7,500 +7,640 @@
    "beats": [
     {
      "id": "c637",
-     "shot": "todo_today",
-     "type": "HOST",
+     "shot": "td_cars",
+     "type": "INSERT",
      "text": "And Alabama kept moving.",
      "date": null
     },
     {
      "id": "c638",
-     "shot": "todo_today",
-     "type": "HOST",
+     "shot": "td_cars",
+     "type": "INSERT",
      "text": "In 1997, Mercedes-Benz opened its first American",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "pop",
+       "w:Mercedes-Benz",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c639",
-     "shot": "todo_today",
-     "type": "HOST",
+     "shot": "td_cars",
+     "type": "INSERT",
      "text": "car factory in a small Alabama town called",
      "date": null
     },
     {
      "id": "c640",
-     "shot": "todo_today",
-     "type": "HOST",
+     "shot": "td_cars",
+     "type": "INSERT",
      "text": "Vance.",
      "date": null
     },
     {
      "id": "c641",
-     "shot": "todo_today",
-     "type": "HOST",
+     "shot": "td_cars",
+     "type": "INSERT",
      "text": "Then came Honda, Hyundai, Toyota, and Mazda.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "pops",
+       "w:Honda,",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c642",
-     "shot": "todo_today",
-     "type": "HOST",
+     "shot": "td_cars",
+     "type": "INSERT",
      "text": "Today, Alabama's factories can build more than a",
      "date": null
     },
     {
      "id": "c643",
-     "shot": "todo_today",
-     "type": "HOST",
+     "shot": "td_cars",
+     "type": "INSERT",
      "text": "million cars a year.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "kaching",
+       "w:million",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c644",
-     "shot": "todo_today",
-     "type": "HOST",
+     "shot": "td_cars",
+     "type": "INSERT",
      "text": "The SUV in the parking lot outside?",
      "date": null
     },
     {
      "id": "c645",
-     "shot": "todo_today",
-     "type": "HOST",
+     "shot": "td_cars",
+     "type": "INSERT",
      "text": "There's a real chance it was built here.",
      "date": null
     },
     {
      "id": "c646",
-     "shot": "todo_today",
+     "shot": "td_bags",
      "type": "HOST",
      "text": "Oh, and remember Scottsboro?",
      "date": null
     },
     {
      "id": "c647",
-     "shot": "todo_today",
+     "shot": "td_bags",
      "type": "HOST",
      "text": "In 1970, a man there started buying lost",
      "date": null
     },
     {
      "id": "c648",
-     "shot": "todo_today",
+     "shot": "td_bags",
      "type": "HOST",
      "text": "luggage that nobody had ever claimed.",
      "date": null
     },
     {
      "id": "c649",
-     "shot": "todo_today",
+     "shot": "td_bags",
      "type": "HOST",
      "text": "Today, when the airlines give up on a",
      "date": null
     },
     {
      "id": "c650",
-     "shot": "todo_today",
+     "shot": "td_bags",
      "type": "HOST",
      "text": "bag, it ends up at his family's store.",
      "date": null
     },
     {
      "id": "c651",
-     "shot": "todo_today",
+     "shot": "td_bags",
      "type": "HOST",
      "text": "Unclaimed Baggage.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       "w:Unclaimed",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c652",
-     "shot": "todo_today",
+     "shot": "td_bags",
      "type": "HOST",
      "text": "About a million people a year drive to",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "ticks",
+       "w:million",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c653",
-     "shot": "todo_today",
+     "shot": "td_bags",
      "type": "HOST",
      "text": "a small Alabama town to shop for strangers'",
      "date": null
     },
     {
      "id": "c654",
-     "shot": "todo_today",
+     "shot": "td_bags",
      "type": "HOST",
      "text": "suitcases.",
      "date": null
     },
     {
      "id": "c655",
-     "shot": "todo_today",
+     "shot": "td_bags",
      "type": "HOST",
      "text": "Laptops, wedding dresses, somebody's skis.",
      "date": null
     },
     {
      "id": "c656",
-     "shot": "todo_today",
+     "shot": "td_bags",
      "type": "HOST",
      "text": "If you ever lost a bag, it might",
      "date": null
     },
     {
      "id": "c657",
-     "shot": "todo_today",
+     "shot": "td_bags",
      "type": "HOST",
      "text": "be on a shelf in Alabama right now.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "boing",
+       "w:shelf",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c658",
-     "shot": "todo_today",
-     "type": "HOST",
+     "shot": "td_now",
+     "type": "INSERT",
      "text": "Airbus builds passenger jets in Mobile, the city",
      "date": null
     },
     {
      "id": "c659",
-     "shot": "todo_today",
-     "type": "HOST",
+     "shot": "td_now",
+     "type": "INSERT",
      "text": "that still throws America's oldest Mardi Gras.",
      "date": null
     },
     {
      "id": "c660",
-     "shot": "todo_today",
-     "type": "HOST",
+     "shot": "td_now",
+     "type": "INSERT",
      "text": "The little town that called itself the Watercress",
      "date": null
     },
     {
      "id": "c661",
-     "shot": "todo_today",
-     "type": "HOST",
+     "shot": "td_now",
+     "type": "INSERT",
      "text": "Capital is now Alabama's biggest city.",
      "date": null
     },
     {
      "id": "c662",
-     "shot": "todo_today",
-     "type": "HOST",
+     "shot": "td_now",
+     "type": "INSERT",
      "text": "And in 2025, the government announced that the",
      "date": null
     },
     {
      "id": "c663",
-     "shot": "todo_today",
-     "type": "HOST",
+     "shot": "td_now",
+     "type": "INSERT",
      "text": "military's Space Command headquarters would move to Huntsville,",
      "date": null
     },
     {
      "id": "c664",
-     "shot": "todo_today",
-     "type": "HOST",
+     "shot": "td_now",
+     "type": "INSERT",
      "text": "too.",
      "date": null
     },
     {
      "id": "c665",
-     "shot": "todo_today",
-     "type": "HOST",
+     "shot": "td_africatown",
+     "type": "INSERT",
      "text": "In 2019, researchers confirmed they had found the",
-     "date": null
+     "date": null,
+     "quiet": true,
+     "amb": "waves"
     },
     {
      "id": "c666",
-     "shot": "todo_today",
-     "type": "HOST",
+     "shot": "td_africatown",
+     "type": "INSERT",
      "text": "wreck of the Clotilda, buried in the mud",
-     "date": null
+     "date": null,
+     "quiet": true,
+     "amb": "waves"
     },
     {
      "id": "c667",
-     "shot": "todo_today",
-     "type": "HOST",
+     "shot": "td_africatown",
+     "type": "INSERT",
      "text": "of the Mobile River.",
-     "date": null
+     "date": null,
+     "quiet": true,
+     "amb": "waves"
     },
     {
      "id": "c668",
-     "shot": "todo_today",
-     "type": "HOST",
+     "shot": "td_africatown",
+     "type": "INSERT",
      "text": "The descendants of the people it carried still",
-     "date": null
+     "date": null,
+     "quiet": true,
+     "amb": "waves"
     },
     {
      "id": "c669",
-     "shot": "todo_today",
-     "type": "HOST",
+     "shot": "td_africatown",
+     "type": "INSERT",
      "text": "live nearby, in a neighborhood their ancestors built",
-     "date": null
+     "date": null,
+     "quiet": true,
+     "amb": "waves"
     },
     {
      "id": "c670",
-     "shot": "todo_today",
-     "type": "HOST",
+     "shot": "td_africatown",
+     "type": "INSERT",
      "text": "after the war.",
-     "date": null
+     "date": null,
+     "quiet": true,
+     "amb": "waves"
     },
     {
      "id": "c671",
-     "shot": "todo_today",
-     "type": "HOST",
+     "shot": "td_africatown",
+     "type": "INSERT",
      "text": "It's called Africatown.",
-     "date": null
+     "date": null,
+     "quiet": true,
+     "amb": "waves"
     },
     {
      "id": "c672",
-     "shot": "todo_today",
-     "type": "HOST",
+     "shot": "td_artemis",
+     "type": "STORY",
      "text": "And in April 2026, a new moon rocket",
      "date": null
     },
     {
      "id": "c673",
-     "shot": "todo_today",
-     "type": "HOST",
+     "shot": "td_artemis",
+     "type": "STORY",
      "text": "lifted off with four astronauts.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "rumble",
+       "w:lifted",
+       0.6
+      ]
+     ]
     },
     {
      "id": "c674",
-     "shot": "todo_today",
-     "type": "HOST",
+     "shot": "td_artemis",
+     "type": "STORY",
      "text": "It was designed and managed at the Marshall",
      "date": null
     },
     {
      "id": "c675",
-     "shot": "todo_today",
-     "type": "HOST",
+     "shot": "td_artemis",
+     "type": "STORY",
      "text": "Space Flight Center in Huntsville.",
      "date": null
     },
     {
      "id": "c676",
-     "shot": "todo_today",
-     "type": "HOST",
+     "shot": "td_artemis",
+     "type": "STORY",
      "text": "They flew around the moon and came home,",
      "date": null
     },
     {
      "id": "c677",
-     "shot": "todo_today",
-     "type": "HOST",
+     "shot": "td_artemis",
+     "type": "STORY",
      "text": "farther from Earth than any human beings had",
      "date": null
     },
     {
      "id": "c678",
-     "shot": "todo_today",
-     "type": "HOST",
+     "shot": "td_artemis",
+     "type": "STORY",
      "text": "ever been.",
      "date": null
     },
     {
      "id": "c679",
-     "shot": "todo_today",
-     "type": "HOST",
+     "shot": "td_artemis",
+     "type": "STORY",
      "text": "Alabama sent people around the moon.",
      "date": null
     },
     {
      "id": "c680",
-     "shot": "todo_today",
-     "type": "HOST",
+     "shot": "td_artemis",
+     "type": "STORY",
      "text": "Again.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       "w:Again.",
+       0.5
+      ]
+     ]
     },
     {
      "id": "c681",
-     "shot": "todo_today",
+     "shot": "td_ironbowl",
      "type": "HOST",
      "text": "And on the ground?",
      "date": null
     },
     {
      "id": "c682",
-     "shot": "todo_today",
+     "shot": "td_ironbowl",
      "type": "HOST",
      "text": "Every autumn, half the state still stops talking",
      "date": null
     },
     {
      "id": "c683",
-     "shot": "todo_today",
+     "shot": "td_ironbowl",
      "type": "HOST",
      "text": "to the other half for one football game.",
      "date": null
     },
     {
      "id": "c684",
-     "shot": "todo_today",
+     "shot": "td_ironbowl",
      "type": "HOST",
      "text": "Alabama against Auburn.",
      "date": null
     },
     {
      "id": "c685",
-     "shot": "todo_today",
+     "shot": "td_ironbowl",
      "type": "HOST",
      "text": "They call it the Iron Bowl.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "clang",
+       "w:Iron",
+       0.5
+      ]
+     ]
     },
     {
      "id": "c686",
-     "shot": "todo_today",
+     "shot": "td_ironbowl",
      "type": "HOST",
      "text": "Of course they do.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "blip",
+       0,
+       0.4
+      ]
+     ]
     },
     {
      "id": "c687",
-     "shot": "todo_today",
+     "shot": "td_ironbowl",
      "type": "HOST",
      "text": "Birmingham was built on iron.",
      "date": null
     },
     {
      "id": "c688",
-     "shot": "todo_today",
+     "shot": "td_name",
      "type": "HOST",
      "text": "So let's go back to that name.",
      "date": null
     },
     {
      "id": "c689",
-     "shot": "todo_today",
+     "shot": "td_name",
      "type": "HOST",
      "text": "Alabama.",
      "date": null
     },
     {
      "id": "c690",
-     "shot": "todo_today",
+     "shot": "td_name",
      "type": "HOST",
      "text": "Remember the newspaper that said it meant, here",
      "date": null
     },
     {
      "id": "c691",
-     "shot": "todo_today",
+     "shot": "td_name",
      "type": "HOST",
      "text": "we rest?",
      "date": null
     },
     {
      "id": "c692",
-     "shot": "todo_today",
+     "shot": "td_name",
      "type": "HOST",
      "text": "Nobody has ever found those words in the",
      "date": null
     },
     {
      "id": "c693",
-     "shot": "todo_today",
+     "shot": "td_name",
      "type": "HOST",
      "text": "language.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "stamp",
+       "w:language.",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c694",
-     "shot": "todo_today",
+     "shot": "td_name",
      "type": "HOST",
      "text": "The most common explanation is that it comes",
      "date": null
     },
     {
      "id": "c695",
-     "shot": "todo_today",
+     "shot": "td_name",
      "type": "HOST",
      "text": "from Choctaw words about clearing the land.",
      "date": null
     },
     {
      "id": "c696",
-     "shot": "todo_today",
+     "shot": "td_name",
      "type": "HOST",
      "text": "Clearing the thicket.",
      "date": null
     },
     {
      "id": "c697",
-     "shot": "todo_today",
+     "shot": "td_name",
      "type": "HOST",
      "text": "The people who clear the thicket.",
      "date": null
     },
     {
      "id": "c698",
-     "shot": "todo_today",
+     "shot": "td_path",
      "type": "HOST",
      "text": "Ten thousand years of people clearing a path",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "swish",
+       "w:path",
+       0.6
+      ]
+     ]
     },
     {
      "id": "c699",
-     "shot": "todo_today",
+     "shot": "td_path",
      "type": "HOST",
      "text": "where there wasn't one.",
      "date": null
     },
     {
      "id": "c700",
-     "shot": "todo_today",
+     "shot": "td_path",
      "type": "HOST",
      "text": "With a cave fire.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "pop",
+       "w:fire.",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c701",
-     "shot": "todo_today",
+     "shot": "td_path",
      "type": "HOST",
      "text": "With a peanut.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "pop",
+       "w:peanut.",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c702",
-     "shot": "todo_today",
+     "shot": "td_path",
      "type": "HOST",
      "text": "With a rocket.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "pop",
+       "w:rocket.",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c703",
-     "shot": "todo_today",
+     "shot": "td_path",
      "type": "HOST",
      "text": "With a bus seat.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "pop",
+       "w:seat.",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c704",
-     "shot": "todo_today",
+     "shot": "td_path",
      "type": "HOST",
      "text": "With a march across a bridge.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "pop",
+       "w:bridge.",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c705",
-     "shot": "todo_today",
+     "shot": "td_path",
      "type": "HOST",
      "text": "That is the entire history of Alabama.",
      "date": null
     },
     {
      "id": "c706",
-     "shot": "todo_today",
+     "shot": "td_path",
      "type": "HOST",
      "text": "Never here we rest.",
      "date": null
     },
     {
      "id": "c707",
-     "shot": "todo_today",
+     "shot": "td_path",
      "type": "HOST",
      "text": "Always clear the path.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       "w:path.",
+       0.5
+      ]
+     ]
     }
    ]
   }

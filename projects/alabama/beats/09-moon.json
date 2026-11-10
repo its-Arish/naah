@@ -7,413 +7,483 @@
    "beats": [
     {
      "id": "c578",
-     "shot": "todo_moon",
-     "type": "HOST",
+     "shot": "mo_launch",
+     "type": "STORY",
      "text": "Now cut back to Huntsville, July 16, 1969.",
      "date": null
     },
     {
      "id": "c579",
-     "shot": "todo_moon",
-     "type": "HOST",
+     "shot": "mo_launch",
+     "type": "STORY",
      "text": "In Florida, the Saturn V, the rocket designed",
      "date": null
     },
     {
      "id": "c580",
-     "shot": "todo_moon",
-     "type": "HOST",
+     "shot": "mo_launch",
+     "type": "STORY",
      "text": "in Alabama, lifts off with three astronauts on",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "rumble",
+       "w:lifts",
+       0.6
+      ]
+     ]
     },
     {
      "id": "c581",
-     "shot": "todo_moon",
-     "type": "HOST",
+     "shot": "mo_launch",
+     "type": "STORY",
      "text": "top.",
      "date": null
     },
     {
      "id": "c582",
-     "shot": "todo_moon",
-     "type": "HOST",
+     "shot": "mo_launch",
+     "type": "STORY",
      "text": "Four days later, a human being steps onto",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "whoosh",
+       0,
+       0.4
+      ]
+     ]
     },
     {
      "id": "c583",
-     "shot": "todo_moon",
-     "type": "HOST",
+     "shot": "mo_launch",
+     "type": "STORY",
      "text": "the moon.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       "w:moon.",
+       0.5
+      ]
+     ]
     },
     {
      "id": "c584",
-     "shot": "todo_moon",
-     "type": "HOST",
+     "shot": "mo_launch",
+     "type": "STORY",
      "text": "Four years after Bloody Sunday.",
      "date": null
     },
     {
      "id": "c585",
-     "shot": "todo_moon",
-     "type": "HOST",
+     "shot": "mo_launch",
+     "type": "STORY",
      "text": "Same state.",
      "date": null
     },
     {
      "id": "c586",
-     "shot": "todo_moon",
+     "shot": "mo_answer",
      "type": "HOST",
      "text": "So here is the answer to the question",
      "date": null
     },
     {
      "id": "c587",
-     "shot": "todo_moon",
+     "shot": "mo_answer",
      "type": "HOST",
      "text": "from the very beginning.",
      "date": null
     },
     {
      "id": "c588",
-     "shot": "todo_moon",
+     "shot": "mo_answer",
      "type": "HOST",
      "text": "How does one state do both?",
      "date": null
     },
     {
      "id": "c589",
-     "shot": "todo_moon",
+     "shot": "mo_answer",
      "type": "HOST",
      "text": "Because the rocket and the bridge were the",
      "date": null
     },
     {
      "id": "c590",
-     "shot": "todo_moon",
+     "shot": "mo_answer",
      "type": "HOST",
      "text": "same kind of story.",
      "date": null
     },
     {
      "id": "c591",
-     "shot": "todo_moon",
+     "shot": "mo_answer",
      "type": "HOST",
      "text": "Ordinary people in Alabama decided that the line",
      "date": null
     },
     {
      "id": "c592",
-     "shot": "todo_moon",
+     "shot": "mo_answer",
      "type": "HOST",
      "text": "everyone said they could never cross was not",
      "date": null
     },
     {
      "id": "c593",
-     "shot": "todo_moon",
+     "shot": "mo_answer",
      "type": "HOST",
      "text": "the end of the road.",
      "date": null
     },
     {
      "id": "c594",
-     "shot": "todo_moon",
+     "shot": "mo_answer",
      "type": "HOST",
      "text": "One group did it with engineering.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "pop",
+       "w:engineering.",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c595",
-     "shot": "todo_moon",
+     "shot": "mo_answer",
      "type": "HOST",
      "text": "The other did it with their feet.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "pop",
+       "w:feet.",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c596",
-     "shot": "todo_moon",
+     "shot": "mo_answer",
      "type": "HOST",
      "text": "And a third group did it with a",
      "date": null
     },
     {
      "id": "c597",
-     "shot": "todo_moon",
+     "shot": "mo_answer",
      "type": "HOST",
      "text": "song.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       "w:song.",
+       0.5
+      ]
+     ]
     },
     {
      "id": "c598",
-     "shot": "todo_moon",
-     "type": "HOST",
+     "shot": "mo_song",
+     "type": "INSERT",
      "text": "Remember that town of 14,000 people from",
      "date": null
     },
     {
      "id": "c599",
-     "shot": "todo_moon",
-     "type": "HOST",
+     "shot": "mo_song",
+     "type": "INSERT",
      "text": "the very start?",
      "date": null
     },
     {
      "id": "c600",
-     "shot": "todo_moon",
-     "type": "HOST",
+     "shot": "mo_song",
+     "type": "INSERT",
      "text": "Muscle Shoals on the Tennessee River in the",
      "date": null
     },
     {
      "id": "c601",
-     "shot": "todo_moon",
-     "type": "HOST",
+     "shot": "mo_song",
+     "type": "INSERT",
      "text": "far north?",
      "date": null
     },
     {
      "id": "c602",
-     "shot": "todo_moon",
+     "shot": "mo_fame",
      "type": "HOST",
      "text": "In the 1960s, a little studio there called",
      "date": null
     },
     {
      "id": "c603",
-     "shot": "todo_moon",
+     "shot": "mo_fame",
      "type": "HOST",
      "text": "FAME started making hits.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "pop",
+       "w:FAME",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c604",
-     "shot": "todo_moon",
+     "shot": "mo_fame",
      "type": "HOST",
      "text": "Wilson Pickett recorded Mustang Sally there.",
      "date": null
     },
     {
      "id": "c605",
-     "shot": "todo_moon",
+     "shot": "mo_fame",
      "type": "HOST",
      "text": "In 1967, a young singer named Aretha Franklin",
      "date": null
     },
     {
      "id": "c606",
-     "shot": "todo_moon",
+     "shot": "mo_fame",
      "type": "HOST",
      "text": "walked in, sat down at the piano, and",
      "date": null
     },
     {
      "id": "c607",
-     "shot": "todo_moon",
+     "shot": "mo_fame",
      "type": "HOST",
      "text": "cut the song that made her a star.",
      "date": null
     },
     {
      "id": "c608",
-     "shot": "todo_moon",
+     "shot": "mo_fame",
      "type": "HOST",
      "text": "The house band were local white musicians.",
      "date": null
     },
     {
      "id": "c609",
-     "shot": "todo_moon",
+     "shot": "mo_fame",
      "type": "HOST",
      "text": "They called themselves the Swampers.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       "w:Swampers.",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c610",
-     "shot": "todo_moon",
+     "shot": "mo_fame",
      "type": "HOST",
      "text": "In a state that was fighting to keep",
      "date": null
     },
     {
      "id": "c611",
-     "shot": "todo_moon",
+     "shot": "mo_fame",
      "type": "HOST",
      "text": "Black and white people apart, they were in",
      "date": null
     },
     {
      "id": "c612",
-     "shot": "todo_moon",
+     "shot": "mo_fame",
      "type": "HOST",
      "text": "a room every day making Black soul music",
      "date": null
     },
     {
      "id": "c613",
-     "shot": "todo_moon",
+     "shot": "mo_fame",
      "type": "HOST",
      "text": "with Black singers.",
      "date": null
     },
     {
      "id": "c614",
-     "shot": "todo_moon",
+     "shot": "mo_fame",
      "type": "HOST",
      "text": "The story goes that when one famous New",
      "date": null
     },
     {
      "id": "c615",
-     "shot": "todo_moon",
+     "shot": "mo_fame",
      "type": "HOST",
      "text": "York songwriter tried to hire the Black musicians",
      "date": null
     },
     {
      "id": "c616",
-     "shot": "todo_moon",
+     "shot": "mo_fame",
      "type": "HOST",
      "text": "he'd heard on those records, he was told",
      "date": null
     },
     {
      "id": "c617",
-     "shot": "todo_moon",
+     "shot": "mo_fame",
      "type": "HOST",
      "text": "they were four white guys from Alabama.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "stamp",
+       "w:white",
+       0.5
+      ]
+     ]
     },
     {
      "id": "c618",
-     "shot": "todo_moon",
+     "shot": "mo_fame",
      "type": "HOST",
      "text": "And in December 1969, five months after the",
      "date": null
     },
     {
      "id": "c619",
-     "shot": "todo_moon",
+     "shot": "mo_fame",
      "type": "HOST",
      "text": "moon landing, the Rolling Stones quietly drove into",
      "date": null
     },
     {
      "id": "c620",
-     "shot": "todo_moon",
+     "shot": "mo_fame",
      "type": "HOST",
      "text": "town and recorded Brown Sugar and Wild Horses",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "pop",
+       "w:Sugar",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c621",
-     "shot": "todo_moon",
+     "shot": "mo_fame",
      "type": "HOST",
      "text": "there.",
      "date": null
     },
     {
      "id": "c622",
-     "shot": "todo_moon",
+     "shot": "mo_fame",
      "type": "HOST",
      "text": "Most of the locals had no idea.",
      "date": null
     },
     {
      "id": "c623",
-     "shot": "todo_moon",
+     "shot": "mo_wallace",
      "type": "HOST",
      "text": "And the five blocks have one more stop.",
      "date": null
     },
     {
      "id": "c624",
-     "shot": "todo_moon",
+     "shot": "mo_wallace",
      "type": "HOST",
      "text": "1979.",
      "date": null
     },
     {
      "id": "c625",
-     "shot": "todo_moon",
+     "shot": "mo_wallace",
      "type": "HOST",
      "text": "George Wallace, the man who promised segregation forever,",
      "date": null
     },
     {
      "id": "c626",
-     "shot": "todo_moon",
+     "shot": "mo_wallace",
      "type": "HOST",
      "text": "now in a wheelchair after an assassination attempt,",
      "date": null
     },
     {
      "id": "c627",
-     "shot": "todo_moon",
+     "shot": "mo_wallace",
      "type": "HOST",
      "text": "asked to be wheeled into Dr. King's old",
      "date": null
     },
     {
      "id": "c628",
-     "shot": "todo_moon",
+     "shot": "mo_wallace",
      "type": "HOST",
      "text": "church on Dexter Avenue.",
      "date": null
     },
     {
      "id": "c629",
-     "shot": "todo_moon",
+     "shot": "mo_wallace",
      "type": "HOST",
      "text": "In front of the congregation, he apologized.",
      "date": null
     },
     {
      "id": "c630",
-     "shot": "todo_moon",
+     "shot": "mo_wallace",
      "type": "HOST",
      "text": "He said he had learned what suffering means.",
      "date": null
     },
     {
      "id": "c631",
-     "shot": "todo_moon",
+     "shot": "mo_wallace",
      "type": "HOST",
      "text": "And he asked for their forgiveness.",
      "date": null
     },
     {
      "id": "c632",
-     "shot": "todo_moon",
+     "shot": "mo_wallace",
      "type": "HOST",
      "text": "Some people forgave him.",
      "date": null
     },
     {
      "id": "c633",
-     "shot": "todo_moon",
+     "shot": "mo_wallace",
      "type": "HOST",
      "text": "Some never did.",
      "date": null
     },
     {
      "id": "c634",
-     "shot": "todo_moon",
+     "shot": "mo_wallace",
      "type": "HOST",
      "text": "Both are fair.",
      "date": null
     },
     {
      "id": "c635",
-     "shot": "todo_moon",
+     "shot": "mo_wallace",
      "type": "HOST",
      "text": "But he went back.",
      "date": null
     },
     {
      "id": "c636",
-     "shot": "todo_moon",
+     "shot": "mo_wallace",
      "type": "HOST",
      "text": "And he asked, on that same street.",
      "date": null

@@ -45,8 +45,43 @@ SHOTS = [
     (69, 71, 'em_follow', 'STORY', {'amb': 'wind'}),
     (72, 78, 'em_mabila', 'STORY', {'quiet': True}),
     (79, 80, 'em_unknown', 'INSERT', {'quiet': True}),
+    # Empires: the French, Mardi Gras, four flags
+    (81, 82, 'em_quiet', 'HOST', {}), (83, 88, 'em_french', 'INSERT', {'amb': 'waves'}), (89, 96, 'em_party', 'HOST', {}),
+    (97, 105, 'em_flags', 'HOST', {}), (106, 107, 'em_inland', 'HOST', {}),
+    # Statehood
+    (108, 114, 'st_split', 'STORY', {'amb': 'birds'}), (115, 118, 'st_mims', 'STORY', {'quiet': True}), (119, 125, 'st_horseshoe', 'STORY', {'quiet': True}),
+    (126, 130, 'st_treaty', 'INSERT', {'quiet': True}), (131, 139, 'st_fever', 'INSERT', {}), (140, 141, 'st_state', 'HOST', {}),
+    (142, 153, 'st_capitals', 'HOST', {}), (154, 162, 'st_street', 'HOST', {}), (163, 167, 'st_rest', 'HOST', {}),
+    (168, 175, 'st_removal', 'STORY', {'quiet': True}), (176, 178, 'st_poarch', 'STORY', {'quiet': True}),
+    # Cotton
+    (179, 184, 'co_belt', 'INSERT', {}), (185, 191, 'co_river', 'INSERT', {'amb': 'waves'}), (192, 195, 'co_pick', 'HOST', {}),
+    (196, 202, 'co_street', 'HOST', {}), (203, 206, 'co_belt2', 'INSERT', {}), (207, 220, 'co_clotilda', 'STORY', {'quiet': True}),
+    # War
+    (221, 224, 'wa_secede', 'HOST', {}), (225, 235, 'wa_street', 'HOST', {}), (236, 246, 'wa_telegram', 'HOST', {}),
+    (247, 249, 'wa_richmond', 'INSERT', {}), (250, 256, 'wa_sea', 'INSERT', {'amb': 'waves'}), (257, 264, 'wa_bay', 'INSERT', {'amb': 'waves'}),
+    (265, 268, 'wa_raid', 'INSERT', {}), (269, 270, 'wa_free', 'HOST', {}),
+    # Iron and peanuts
+    (271, 275, 'ir_turner', 'HOST', {}), (276, 289, 'ir_const', 'HOST', {}), (290, 299, 'ir_iron', 'HOST', {}), (300, 304, 'ir_magic', 'INSERT', {}),
+    (305, 316, 'ir_vulcan', 'HOST', {}), (317, 325, 'ir_lease', 'STORY', {'quiet': True}), (326, 339, 'ir_carver', 'HOST', {}),
+    (340, 348, 'ir_weevil', 'STORY', {'amb': 'birds'}), (349, 358, 'ir_monument', 'HOST', {}), (359, 366, 'ir_wright', 'HOST', {}),
+    (367, 381, 'ir_keller', 'HOST', {}), (382, 389, 'ir_names', 'HOST', {}), (390, 395, 'ir_migration', 'INSERT', {}),
+    (396, 413, 'ir_scottsboro', 'STORY', {'quiet': True}), (414, 423, 'ir_redtails', 'STORY', {'amb': 'wind'}), (424, 433, 'ir_study', 'STORY', {'quiet': True}),
+    # Rocket City
+    (434, 441, 'rc_arsenal', 'INSERT', {}), (442, 450, 'rc_germans', 'HOST', {}), (451, 462, 'rc_past', 'STORY', {'quiet': True}),
+    (463, 466, 'rc_explorer', 'STORY', {}), (467, 474, 'rc_saturn', 'HOST', {}), (475, 481, 'rc_boom', 'HOST', {}),
+    # Five blocks
+    (482, 487, 'fb_king', 'HOST', {}), (488, 497, 'fb_bus', 'STORY', {}), (498, 505, 'fb_parks', 'HOST', {}), (506, 516, 'fb_boycott', 'HOST', {}),
+    (517, 525, 'fb_wallace', 'HOST', {}), (526, 530, 'fb_children', 'STORY', {}), (531, 539, 'fb_church', 'STORY', {'quiet': True}),
+    (540, 549, 'fb_selma', 'INSERT', {}), (550, 559, 'fb_bridge', 'STORY', {'quiet': True}), (560, 563, 'fb_march', 'INSERT', {}),
+    (564, 571, 'fb_up', 'HOST', {}), (572, 577, 'fb_answer', 'HOST', {}),
+    # Moon
+    (578, 585, 'mo_launch', 'STORY', {}), (586, 597, 'mo_answer', 'HOST', {}), (598, 601, 'mo_song', 'INSERT', {}), (602, 622, 'mo_fame', 'HOST', {}),
+    (623, 636, 'mo_wallace', 'HOST', {}),
+    # Today
+    (637, 645, 'td_cars', 'INSERT', {}), (646, 657, 'td_bags', 'HOST', {}), (658, 664, 'td_now', 'INSERT', {}), (665, 671, 'td_africatown', 'INSERT', {'quiet': True, 'amb': 'waves'}),
+    (672, 680, 'td_artemis', 'STORY', {}), (681, 687, 'td_ironbowl', 'HOST', {}), (688, 697, 'td_name', 'HOST', {}), (698, 707, 'td_path', 'HOST', {}),
 ]
-DRAWN_TO = 80
+DRAWN_TO = 707
 for name, a, b in ERAS:
     a = max(a, DRAWN_TO + 1)
     if a <= b:
@@ -83,6 +118,36 @@ SFX = {
     60: [['bleat', 'w:pigs.', 0.5]],
     62: [['boing', 'w:any.', 0.5]],
     71: [['thud', 'w:Mabila.', 0.4]],
+    83: [['ding', 0, 0.4]], 85: [['pop', 'w:fort', 0.5]], 87: [['scribble', 'w:Louisiana,', 0.4]], 91: [['pops', 'w:party.', 0.5]], 92: [['ding', 0, 0.4]],
+    95: [['drum', 'w:ox', 0.4]], 96: [['tick', 'w:1718.', 0.5]], 97: [['boing', 'w:potato.', 0.4]], 98: [['pop', 'w:Britain', 0.5]], 99: [['pop', 'w:Spain', 0.5]],
+    102: [['pop', 'w:Mobile.', 0.5]], 103: [['ticks', 0, 0.4]], 104: [['swish', 'w:rental', 0.6]], 105: [['ding', 0, 0.5]], 107: [['whoosh', 'w:inland.', 0.4]],
+    110: [['slam', 'w:Red', 0.4]], 114: [['drum', 'w:United', 0.4]], 133: [['ding', 'w:Fever.', 0.5]], 137: [['ticks', 'w:10,000', 0.4]], 139: [['ticks', 'w:125,000.', 0.5]],
+    141: [['ding', 'w:22nd', 0.6]], 145: [['pop', 'w:Cahawba.', 0.5]], 146: [['boing', 'w:flooding.', 0.4]], 147: [['pop', 'w:Tuscaloosa.', 0.5]], 153: [['ding', 'w:Montgomery.', 0.5]],
+    154: [['pop', 'w:Capitol', 0.5]], 159: [['tick', 0, 0.5]], 164: [['ding', 'w:rest.', 0.4]], 166: [['clang', 'w:Experts', 0.4]], 167: [['stamp', 'w:word', 0.6]],
+    182: [['scribble', 'w:Black', 0.4]], 185: [['whoosh', 'w:Steamboats', 0.4]], 188: [['whoosh', 'w:England', 0.4]],
+    228: [['paper', 'w:new', 0.4]], 239: [['blip', 'w:telegram', 0.6]], 242: [['drum', 'w:guns', 0.6]], 248: [['whoosh', 'w:Richmond,', 0.4]],
+    253: [['whoosh', 'w:CSS', 0.4]], 258: [['rumble', 'w:Union', 0.5]], 261: [['slam', 'w:damn', 0.4]], 264: [['ding', 'w:bay.', 0.4]], 266: [['gallop', 0, 0.4]], 270: [['ding', 'w:free.', 0.5]],
+    273: [['ding', 'w:Turner', 0.5]], 275: [['thud', 'w:last.', 0.4]], 282: [['stamp', 'w:Poll', 0.5]], 286: [['ticks', 'w:amended', 0.4]], 288: [['thud', 'w:longest', 0.5]], 289: [['boing', 'w:novels.', 0.4]],
+    293: [['swish', 'w:iron', 0.4]], 294: [['swish', 'w:coal.', 0.4]], 295: [['swish', 'w:limestone.', 0.4]], 297: [['anvil', 'w:iron.', 0.5]], 299: [['stamp', 'w:rare.', 0.5]], 302: [['ding', 'w:Birmingham.', 0.5]],
+    306: [['clang', 'w:Vulcan,', 0.5]], 311: [['kaching', 'w:pay', 0.4]], 313: [['clang', 'w:pieces', 0.5]], 315: [['boing', 'w:backside', 0.5]],
+    332: [['pop', 'w:peanuts.', 0.5]], 335: [['tick', 'w:Dyes,', 0.5], ['tick', 'w:milk,', 0.5], ['tick', 'w:plastics,', 0.5], ['tick', 'w:cosmetics.', 0.5]], 336: [['stamp', 'w:peanut', 0.5]], 337: [['boing', 0, 0.4]],
+    342: [['pops', 'w:weevil.', 0.4]], 346: [['pop', 'w:peanuts.', 0.4]], 352: [['thud', 'w:monument.', 0.6]], 353: [['ding', 'w:bug.', 0.5]], 357: [['stamp', 'w:only', 0.5]],
+    360: [['whoosh', 'w:Wright', 0.5]], 377: [['tick', 0, 0.4], ['tick', 8, 0.4], ['tick', 16, 0.4], ['tick', 24, 0.4], ['tick', 32, 0.4]], 378: [['ding', 'w:Helen', 0.5]],
+    383: [['pop', 'w:Owens,', 0.5]], 385: [['pop', 'w:Louis,', 0.5]], 386: [['pop', 'w:Aaron', 0.5], ['pop', 'w:Mays,', 0.5]], 388: [['pop', 'w:Cole,', 0.5], ['pop', 'w:Williams,', 0.5]], 389: [['ding', 'w:born', 0.5]],
+    394: [['whoosh', 'w:Chicago,', 0.4]], 416: [['whoosh', 'w:Tuskegee,', 0.4]], 420: [['ticks', 'w:thousand', 0.4]], 422: [['whoosh', 'w:red,', 0.5]],
+    438: [['ding', 'w:Huntsville.', 0.4]], 442: [['whoosh', 'w:1950,', 0.4]], 447: [['rumble', 'w:rockets.', 0.4]], 465: [['rumble', 'w:launches', 0.6]], 466: [['blip', 'w:Explorer', 0.6]],
+    471: [['slide_down', 'w:drawing', 0.5]], 478: [['ticks', 0, 0.4]], 479: [['ding', 'w:Rocket', 0.5]],
+    487: [['ding', 'w:King', 0.4]], 497: [['thud', 'w:arrested.', 0.4]], 503: [['ding', 'w:Parks.', 0.4]], 505: [['stamp', 'w:no.', 0.5]],
+    514: [['ticks', 'w:381', 0.4]], 516: [['stamp', 'w:Constitution.', 0.5]], 521: [['stamp', 'w:forever.', 0.4]],
+    547: [['whoosh', 'w:54', 0.4]], 565: [['tick', 'w:fountain', 0.4]], 566: [['tick', 'w:bus', 0.4]], 568: [['tick', 'w:church,', 0.4]], 569: [['ding', 'w:Confederacy', 0.4]], 570: [['stamp', 'w:Voting', 0.5]],
+    580: [['rumble', 'w:lifts', 0.6]], 582: [['whoosh', 0, 0.4]], 583: [['ding', 'w:moon.', 0.5]],
+    594: [['pop', 'w:engineering.', 0.4]], 595: [['pop', 'w:feet.', 0.4]], 597: [['ding', 'w:song.', 0.5]],
+    603: [['pop', 'w:FAME', 0.4]], 609: [['ding', 'w:Swampers.', 0.4]], 617: [['stamp', 'w:white', 0.5]], 620: [['pop', 'w:Sugar', 0.4]],
+    638: [['pop', 'w:Mercedes-Benz', 0.4]], 641: [['pops', 'w:Honda,', 0.4]], 643: [['kaching', 'w:million', 0.4]],
+    651: [['ding', 'w:Unclaimed', 0.4]], 652: [['ticks', 'w:million', 0.4]], 657: [['boing', 'w:shelf', 0.4]],
+    673: [['rumble', 'w:lifted', 0.6]], 680: [['ding', 'w:Again.', 0.5]], 685: [['clang', 'w:Iron', 0.5]], 686: [['blip', 0, 0.4]],
+    693: [['stamp', 'w:language.', 0.4]], 698: [['swish', 'w:path', 0.6]],
+    700: [['pop', 'w:fire.', 0.4]], 701: [['pop', 'w:peanut.', 0.4]], 702: [['pop', 'w:rocket.', 0.4]], 703: [['pop', 'w:seat.', 0.4]], 704: [['pop', 'w:bridge.', 0.4]], 707: [['ding', 'w:path.', 0.5]],
 }
 
 

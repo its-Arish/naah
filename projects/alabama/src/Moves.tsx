@@ -145,3 +145,59 @@ export const Heli: React.FC<{ t: number; X: number; talking: Talk }> = ({ t, X, 
     </>
   );
 };
+
+/** Laser pointer: aims the staff at each target and taps on its frame (local). targets: { x, y, at }. */
+export const Laser: React.FC<{ f: number; X: number; targets: { x: number; y: number; at: number }[]; talking: Talk; keys: Key[] }> = ({ f, X, targets, talking, keys }) => {
+  const cur = targets.reduce((acc, t, i) => (f >= t.at - 6 ? i : acc), -1);
+  if (cur < 0) return <Host x={X} keys={keys} talking={talking} />;
+  const arm: [number, number] = [96, 6];
+  const h = hostLeftHand(X, Y, 1, arm);
+  const angs = targets.map((t) => aimAt(h.x, h.y, t.x, t.y));
+  const t0 = targets[cur].at - 6, prev = cur > 0 ? angs[cur - 1] : -10;
+  const ang = interpolate(f, [t0, t0 + 6], [prev, angs[cur]], Easing.out);
+  const dist = Math.hypot(targets[cur].x - h.x, targets[cur].y - h.y);
+  const tap = f - targets[cur].at;
+  const grip = Math.min(560, dist - 18) - (tap >= 0 && tap < 8 ? Math.sin((tap / 8) * Math.PI) * 26 : 0);
+  return <><Host x={X} keys={[{ at: 0, arm: 'present', expr: 'proud' }]} talking={talking} staffMode="none" leftArm={arm} /><Staff hx={h.x} hy={h.y} ang={ang} gripTop={grip} /></>;
+};
+const aimAt = (x1: number, y1: number, x2: number, y2: number) => (Math.atan2(x2 - x1, -(y2 - y1)) * 180) / Math.PI;
+
+/** Sword sweep: two-handed swing at local frame S (wind-up 12 f before). Use sweptPos for the cards it hits. */
+export const Sweep: React.FC<{ f: number; S: number; X: number; talking: Talk; keys: Key[] }> = ({ f, S, X, talking, keys }) => {
+  if (f < S - 14 || f > S + 30) return <Host x={X} keys={keys} talking={talking} />;
+  const ang = f < S ? interpolate(f, [S - 12, S], [0, 150], Easing.out) : interpolate(f, [S, S + 8], [150, -115], Easing.in);
+  const grip = { x: X - 40, y: Y - 430 };
+  const la = reach(X, Y, 1, -1, grip.x, grip.y), ra = reach(X, Y, 1, 1, grip.x + 10, grip.y + 30);
+  return (
+    <>
+      <Host x={X} keys={[{ at: 0, arm: 'idle', expr: 'grin' }]} talking={talking} staffMode="none" leftArm={la} rightArm={ra} />
+      <Staff hx={grip.x} hy={grip.y} ang={ang} gripTop={540} />
+      {f >= S && f < S + 10 && <path d={`M${grip.x} ${grip.y - 520} A520 520 0 0 0 ${grip.x - 500} ${grip.y + 120}`} stroke="#fff" strokeOpacity={0.6} strokeWidth={26} fill="none" strokeLinecap="round" />}
+    </>
+  );
+};
+/** Where a card swept away at frame S+5 is now (projectile + spin). i seeds its velocity. */
+export const sweptPos = (f: number, S: number, x0: number, y0: number, i: number) => {
+  const tt = f - (S + 5);
+  if (tt < 0) return { x: x0, y: y0, rot: 0, gone: false };
+  const vx = -(30 + ((i * 37) % 18)), vy = -(14 + ((i * 53) % 14));
+  return { x: x0 + vx * tt, y: y0 + vy * tt + 0.8 * tt * tt, rot: tt * (15 + i * 5), gone: tt > 40 };
+};
+
+/** Drop from the sky: falls in, tucked, lands with a squash and dust. Caller adds a camera shake at t ≈ 22. */
+export const SkyDrop: React.FC<{ t: number; X: number; talking: Talk; keys: Key[] }> = ({ t, X, talking, keys }) => {
+  if (t < 0) return null;
+  const d = gravityDrop(t, 0, { h: 900, g: 2.6, e: 0.15 });
+  const landed = t > 26;
+  return (
+    <>
+      {t > 20 && t < 50 && [...Array(6)].map((_, i) => { const u = t - 20; return <circle key={i} cx={X + (i - 2.5) * 50 * (1 + u / 12)} cy={Y - u * 0.6} r={12 + u} fill="#A8A8A8" opacity={Math.max(0, 0.5 - u / 60)} />; })}
+      <g transform={`translate(${X} ${Y + d.y}) scale(${d.sx} ${d.sy}) translate(${-X} ${-Y})`}>
+        <Host x={X} keys={landed ? keys : [{ at: 0, arm: 'wave', expr: 'shock' }]} talking={talking} legs={landed ? 'stand' : 'tuck'} />
+      </g>
+    </>
+  );
+};
+/** Pole-vault exit: vaults out of frame to the right over ~40 frames. */
+export const VaultExit: React.FC<{ t: number; X: number; talking: Talk; keys: Key[] }> = ({ t, X, talking, keys }) =>
+  t < 0 ? <Host x={X} keys={keys} talking={talking} /> : t < 60 ? <VaultMove t={t} from={X} plant={1760} to={2500} talking={talking} /> : null;

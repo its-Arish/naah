@@ -7,500 +7,639 @@
    "beats": [
     {
      "id": "c108",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_split",
+     "type": "STORY",
      "text": "The Creek Nation was splitting in two.",
-     "date": null
+     "date": null,
+     "amb": "birds"
     },
     {
      "id": "c109",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_split",
+     "type": "STORY",
      "text": "One side wanted to live alongside the Americans.",
-     "date": null
+     "date": null,
+     "amb": "birds"
     },
     {
      "id": "c110",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_split",
+     "type": "STORY",
      "text": "The other side, called the Red Sticks, wanted",
-     "date": null
+     "date": null,
+     "amb": "birds",
+     "sfx": [
+      [
+       "slam",
+       "w:Red",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c111",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_split",
+     "type": "STORY",
      "text": "the settlers out.",
-     "date": null
+     "date": null,
+     "amb": "birds"
     },
     {
      "id": "c112",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_split",
+     "type": "STORY",
      "text": "It became a civil war inside the Creek",
-     "date": null
+     "date": null,
+     "amb": "birds"
     },
     {
      "id": "c113",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_split",
+     "type": "STORY",
      "text": "Nation.",
-     "date": null
+     "date": null,
+     "amb": "birds"
     },
     {
      "id": "c114",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_split",
+     "type": "STORY",
      "text": "And then it dragged in the United States.",
-     "date": null
+     "date": null,
+     "amb": "birds",
+     "sfx": [
+      [
+       "drum",
+       "w:United",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c115",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_mims",
+     "type": "STORY",
      "text": "August 1813.",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c116",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_mims",
+     "type": "STORY",
      "text": "Red Stick warriors attack Fort Mims, north of",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c117",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_mims",
+     "type": "STORY",
      "text": "Mobile.",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c118",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_mims",
+     "type": "STORY",
      "text": "Hundreds of people inside are killed.",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c119",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_horseshoe",
+     "type": "STORY",
      "text": "March 1814.",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c120",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_horseshoe",
+     "type": "STORY",
      "text": "At a bend in the Tallapoosa River called",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c121",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_horseshoe",
+     "type": "STORY",
      "text": "Horseshoe Bend, an American general named Andrew Jackson",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c122",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_horseshoe",
+     "type": "STORY",
      "text": "attacks the Red Sticks with soldiers, militia, and",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c123",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_horseshoe",
+     "type": "STORY",
      "text": "Cherokee and Creek allies.",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c124",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_horseshoe",
+     "type": "STORY",
      "text": "More than 800 Red Stick warriors die in",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c125",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_horseshoe",
+     "type": "STORY",
      "text": "a single day.",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c126",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_treaty",
+     "type": "INSERT",
      "text": "Then Jackson made all the Creeks sign the",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c127",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_treaty",
+     "type": "INSERT",
      "text": "peace treaty, even the ones who had fought",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c128",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_treaty",
+     "type": "INSERT",
      "text": "on his side.",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c129",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_treaty",
+     "type": "INSERT",
      "text": "The Creek Nation handed over 23 million acres,",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c130",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_treaty",
+     "type": "INSERT",
      "text": "much of what is now Alabama.",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c131",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_fever",
+     "type": "INSERT",
      "text": "23 million acres of empty map.",
      "date": null
     },
     {
      "id": "c132",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_fever",
+     "type": "INSERT",
      "text": "And America went wild.",
      "date": null
     },
     {
      "id": "c133",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_fever",
+     "type": "INSERT",
      "text": "They called it Alabama Fever.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       "w:Fever.",
+       0.5
+      ]
+     ]
     },
     {
      "id": "c134",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_fever",
+     "type": "INSERT",
      "text": "Farmers sold everything they owned in Georgia, the",
      "date": null
     },
     {
      "id": "c135",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_fever",
+     "type": "INSERT",
      "text": "Carolinas, and Tennessee and rushed west for cheap",
      "date": null
     },
     {
      "id": "c136",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_fever",
+     "type": "INSERT",
      "text": "land and one crop, cotton.",
      "date": null
     },
     {
      "id": "c137",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_fever",
+     "type": "INSERT",
      "text": "In 1810, the census counted fewer than 10,000",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "ticks",
+       "w:10,000",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c138",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_fever",
+     "type": "INSERT",
      "text": "people here.",
      "date": null
     },
     {
      "id": "c139",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_fever",
+     "type": "INSERT",
      "text": "Ten years later, more than 125,000.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "ticks",
+       "w:125,000.",
+       0.5
+      ]
+     ]
     },
     {
      "id": "c140",
-     "shot": "todo_statehood",
+     "shot": "st_state",
      "type": "HOST",
      "text": "December 14, 1819.",
      "date": null
     },
     {
      "id": "c141",
-     "shot": "todo_statehood",
+     "shot": "st_state",
      "type": "HOST",
      "text": "Alabama becomes the 22nd state.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       "w:22nd",
+       0.6
+      ]
+     ]
     },
     {
      "id": "c142",
-     "shot": "todo_statehood",
+     "shot": "st_capitals",
      "type": "HOST",
      "text": "Then it needed a capital.",
      "date": null
     },
     {
      "id": "c143",
-     "shot": "todo_statehood",
+     "shot": "st_capitals",
      "type": "HOST",
      "text": "This took a while.",
      "date": null
     },
     {
      "id": "c144",
-     "shot": "todo_statehood",
+     "shot": "st_capitals",
      "type": "HOST",
      "text": "The first permanent one was a river town",
      "date": null
     },
     {
      "id": "c145",
-     "shot": "todo_statehood",
+     "shot": "st_capitals",
      "type": "HOST",
      "text": "called Cahawba.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "pop",
+       "w:Cahawba.",
+       0.5
+      ]
+     ]
     },
     {
      "id": "c146",
-     "shot": "todo_statehood",
+     "shot": "st_capitals",
      "type": "HOST",
      "text": "It kept flooding.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "boing",
+       "w:flooding.",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c147",
-     "shot": "todo_statehood",
+     "shot": "st_capitals",
      "type": "HOST",
      "text": "So they moved to Tuscaloosa.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "pop",
+       "w:Tuscaloosa.",
+       0.5
+      ]
+     ]
     },
     {
      "id": "c148",
-     "shot": "todo_statehood",
+     "shot": "st_capitals",
      "type": "HOST",
      "text": "Then they moved again.",
      "date": null
     },
     {
      "id": "c149",
-     "shot": "todo_statehood",
+     "shot": "st_capitals",
      "type": "HOST",
      "text": "Alabama had five different capitals in under 30",
      "date": null
     },
     {
      "id": "c150",
-     "shot": "todo_statehood",
+     "shot": "st_capitals",
      "type": "HOST",
      "text": "years.",
      "date": null
     },
     {
      "id": "c151",
-     "shot": "todo_statehood",
+     "shot": "st_capitals",
      "type": "HOST",
      "text": "The last one was a cotton town on",
      "date": null
     },
     {
      "id": "c152",
-     "shot": "todo_statehood",
+     "shot": "st_capitals",
      "type": "HOST",
      "text": "a bluff over the Alabama River.",
      "date": null
     },
     {
      "id": "c153",
-     "shot": "todo_statehood",
+     "shot": "st_capitals",
      "type": "HOST",
      "text": "Montgomery.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       "w:Montgomery.",
+       0.5
+      ]
+     ]
     },
     {
      "id": "c154",
-     "shot": "todo_statehood",
+     "shot": "st_street",
      "type": "HOST",
      "text": "And in 1846, Alabama built its Capitol on",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "pop",
+       "w:Capitol",
+       0.5
+      ]
+     ]
     },
     {
      "id": "c155",
-     "shot": "todo_statehood",
+     "shot": "st_street",
      "type": "HOST",
      "text": "a hill at the top of Montgomery's main",
      "date": null
     },
     {
      "id": "c156",
-     "shot": "todo_statehood",
+     "shot": "st_street",
      "type": "HOST",
      "text": "street.",
      "date": null
     },
     {
      "id": "c157",
-     "shot": "todo_statehood",
+     "shot": "st_street",
      "type": "HOST",
      "text": "The street ran straight down the hill to",
      "date": null
     },
     {
      "id": "c158",
-     "shot": "todo_statehood",
+     "shot": "st_street",
      "type": "HOST",
      "text": "a fountain in a square.",
      "date": null
     },
     {
      "id": "c159",
-     "shot": "todo_statehood",
+     "shot": "st_street",
      "type": "HOST",
      "text": "Five blocks.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "tick",
+       0,
+       0.5
+      ]
+     ]
     },
     {
      "id": "c160",
-     "shot": "todo_statehood",
+     "shot": "st_street",
      "type": "HOST",
      "text": "Remember this street.",
      "date": null
     },
     {
      "id": "c161",
-     "shot": "todo_statehood",
+     "shot": "st_street",
      "type": "HOST",
      "text": "The story of Alabama is going to keep",
      "date": null
     },
     {
      "id": "c162",
-     "shot": "todo_statehood",
+     "shot": "st_street",
      "type": "HOST",
      "text": "walking down it.",
      "date": null
     },
     {
      "id": "c163",
-     "shot": "todo_statehood",
+     "shot": "st_rest",
      "type": "HOST",
      "text": "Oh, and around this time, a newspaper announced",
      "date": null
     },
     {
      "id": "c164",
-     "shot": "todo_statehood",
+     "shot": "st_rest",
      "type": "HOST",
      "text": "that the word Alabama meant here we rest.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       "w:rest.",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c165",
-     "shot": "todo_statehood",
+     "shot": "st_rest",
      "type": "HOST",
      "text": "It sounded beautiful and it stuck for generations.",
      "date": null
     },
     {
      "id": "c166",
-     "shot": "todo_statehood",
+     "shot": "st_rest",
      "type": "HOST",
      "text": "Experts in the actual language, they never found",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "clang",
+       "w:Experts",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c167",
-     "shot": "todo_statehood",
+     "shot": "st_rest",
      "type": "HOST",
      "text": "any word like it.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "stamp",
+       "w:word",
+       0.6
+      ]
+     ]
     },
     {
      "id": "c168",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_removal",
+     "type": "STORY",
      "text": "And the native nations who had lived here",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c169",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_removal",
+     "type": "STORY",
      "text": "for 10,000 years, they were not allowed",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c170",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_removal",
+     "type": "STORY",
      "text": "to rest anywhere.",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c171",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_removal",
+     "type": "STORY",
      "text": "In the 1830s, the government forced the Creek,",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c172",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_removal",
+     "type": "STORY",
      "text": "the Cherokee, the Choctaw, and the Chickasaw to",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c173",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_removal",
+     "type": "STORY",
      "text": "leave.",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c174",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_removal",
+     "type": "STORY",
      "text": "Tens of thousands of people were marched west.",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c175",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_removal",
+     "type": "STORY",
      "text": "Thousands died on the way.",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c176",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_poarch",
+     "type": "STORY",
      "text": "A few families stayed and held on.",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c177",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_poarch",
+     "type": "STORY",
      "text": "Their descendants are the Poarch Band of Creek",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c178",
-     "shot": "todo_statehood",
-     "type": "HOST",
+     "shot": "st_poarch",
+     "type": "STORY",
      "text": "Indians, and they are still in Alabama today.",
-     "date": null
+     "date": null,
+     "quiet": true
     }
    ]
   }

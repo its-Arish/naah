@@ -215,192 +215,303 @@
     },
     {
      "id": "c081",
-     "shot": "todo_empires",
+     "shot": "em_quiet",
      "type": "HOST",
      "text": "After that, Europe went quiet for 160 years.",
      "date": null
     },
     {
      "id": "c082",
-     "shot": "todo_empires",
+     "shot": "em_quiet",
      "type": "HOST",
      "text": "Then the French arrived.",
      "date": null
     },
     {
      "id": "c083",
-     "shot": "todo_empires",
-     "type": "HOST",
+     "shot": "em_french",
+     "type": "INSERT",
      "text": "1702.",
-     "date": null
+     "date": null,
+     "amb": "waves",
+     "sfx": [
+      [
+       "ding",
+       0,
+       0.4
+      ]
+     ]
     },
     {
      "id": "c084",
-     "shot": "todo_empires",
-     "type": "HOST",
+     "shot": "em_french",
+     "type": "INSERT",
      "text": "Two French brothers, Iberville and Bienville, build a",
-     "date": null
+     "date": null,
+     "amb": "waves"
     },
     {
      "id": "c085",
-     "shot": "todo_empires",
-     "type": "HOST",
+     "shot": "em_french",
+     "type": "INSERT",
      "text": "fort on the Mobile River.",
-     "date": null
+     "date": null,
+     "amb": "waves",
+     "sfx": [
+      [
+       "pop",
+       "w:fort",
+       0.5
+      ]
+     ]
     },
     {
      "id": "c086",
-     "shot": "todo_empires",
-     "type": "HOST",
+     "shot": "em_french",
+     "type": "INSERT",
      "text": "It is the capital of a colony called",
-     "date": null
+     "date": null,
+     "amb": "waves"
     },
     {
      "id": "c087",
-     "shot": "todo_empires",
-     "type": "HOST",
+     "shot": "em_french",
+     "type": "INSERT",
      "text": "Louisiana, which in French dreams stretched from the",
-     "date": null
+     "date": null,
+     "amb": "waves",
+     "sfx": [
+      [
+       "scribble",
+       "w:Louisiana,",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c088",
-     "shot": "todo_empires",
-     "type": "HOST",
+     "shot": "em_french",
+     "type": "INSERT",
      "text": "Gulf to Canada.",
-     "date": null
+     "date": null,
+     "amb": "waves"
     },
     {
      "id": "c089",
-     "shot": "todo_empires",
+     "shot": "em_party",
      "type": "HOST",
      "text": "And what is the very first thing they",
      "date": null
     },
     {
      "id": "c090",
-     "shot": "todo_empires",
+     "shot": "em_party",
      "type": "HOST",
      "text": "do?",
      "date": null
     },
     {
      "id": "c091",
-     "shot": "todo_empires",
+     "shot": "em_party",
      "type": "HOST",
      "text": "They throw a party.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "pops",
+       "w:party.",
+       0.5
+      ]
+     ]
     },
     {
      "id": "c092",
-     "shot": "todo_empires",
+     "shot": "em_party",
      "type": "HOST",
      "text": "1703.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       0,
+       0.4
+      ]
+     ]
     },
     {
      "id": "c093",
-     "shot": "todo_empires",
+     "shot": "em_party",
      "type": "HOST",
      "text": "The settlers celebrate Mardi Gras, masks, feasts.",
      "date": null
     },
     {
      "id": "c094",
-     "shot": "todo_empires",
+     "shot": "em_party",
      "type": "HOST",
      "text": "Within a few years, there's a society parading",
      "date": null
     },
     {
      "id": "c095",
-     "shot": "todo_empires",
+     "shot": "em_party",
      "type": "HOST",
      "text": "a giant ox through the streets.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "drum",
+       "w:ox",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c096",
-     "shot": "todo_empires",
+     "shot": "em_party",
      "type": "HOST",
      "text": "New Orleans won't even be founded until 1718.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "tick",
+       "w:1718.",
+       0.5
+      ]
+     ]
     },
     {
      "id": "c097",
-     "shot": "todo_empires",
+     "shot": "em_flags",
      "type": "HOST",
      "text": "Then Alabama's coast became a hot potato.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "boing",
+       "w:potato.",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c098",
-     "shot": "todo_empires",
+     "shot": "em_flags",
      "type": "HOST",
      "text": "France lost it to Britain in 1763.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "pop",
+       "w:Britain",
+       0.5
+      ]
+     ]
     },
     {
      "id": "c099",
-     "shot": "todo_empires",
+     "shot": "em_flags",
      "type": "HOST",
      "text": "Spain grabbed it in 1780.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "pop",
+       "w:Spain",
+       0.5
+      ]
+     ]
     },
     {
      "id": "c100",
-     "shot": "todo_empires",
+     "shot": "em_flags",
      "type": "HOST",
      "text": "And in 1813, in the middle of a",
      "date": null
     },
     {
      "id": "c101",
-     "shot": "todo_empires",
+     "shot": "em_flags",
      "type": "HOST",
      "text": "war with Britain, the United States marched in",
      "date": null
     },
     {
      "id": "c102",
-     "shot": "todo_empires",
+     "shot": "em_flags",
      "type": "HOST",
      "text": "and took Mobile.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "pop",
+       "w:Mobile.",
+       0.5
+      ]
+     ]
     },
     {
      "id": "c103",
-     "shot": "todo_empires",
+     "shot": "em_flags",
      "type": "HOST",
      "text": "Four flags in 111 years.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "ticks",
+       0,
+       0.4
+      ]
+     ]
     },
     {
      "id": "c104",
-     "shot": "todo_empires",
+     "shot": "em_flags",
      "type": "HOST",
      "text": "Mobile changed owners more often than a rental",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "swish",
+       "w:rental",
+       0.6
+      ]
+     ]
     },
     {
      "id": "c105",
-     "shot": "todo_empires",
+     "shot": "em_flags",
      "type": "HOST",
      "text": "car.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       0,
+       0.5
+      ]
+     ]
     },
     {
      "id": "c106",
-     "shot": "todo_empires",
+     "shot": "em_inland",
      "type": "HOST",
      "text": "But the real fight for Alabama was happening",
      "date": null
     },
     {
      "id": "c107",
-     "shot": "todo_empires",
+     "shot": "em_inland",
      "type": "HOST",
      "text": "inland.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "whoosh",
+       "w:inland.",
+       0.4
+      ]
+     ]
     }
    ]
   }

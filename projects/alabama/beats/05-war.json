@@ -7,353 +7,438 @@
    "beats": [
     {
      "id": "c221",
-     "shot": "todo_war",
+     "shot": "wa_secede",
      "type": "HOST",
      "text": "Six months later, the whole country was coming",
      "date": null
     },
     {
      "id": "c222",
-     "shot": "todo_war",
+     "shot": "wa_secede",
      "type": "HOST",
      "text": "apart.",
      "date": null
     },
     {
      "id": "c223",
-     "shot": "todo_war",
+     "shot": "wa_secede",
      "type": "HOST",
      "text": "January 11th, 1861.",
      "date": null
     },
     {
      "id": "c224",
-     "shot": "todo_war",
+     "shot": "wa_secede",
      "type": "HOST",
      "text": "Alabama votes to leave the United States.",
      "date": null
     },
     {
      "id": "c225",
-     "shot": "todo_war",
+     "shot": "wa_street",
      "type": "HOST",
      "text": "And now, our street.",
      "date": null
     },
     {
      "id": "c226",
-     "shot": "todo_war",
+     "shot": "wa_street",
      "type": "HOST",
      "text": "February 1861.",
      "date": null
     },
     {
      "id": "c227",
-     "shot": "todo_war",
+     "shot": "wa_street",
      "type": "HOST",
      "text": "Delegates from the seceding states gather in Montgomery.",
      "date": null
     },
     {
      "id": "c228",
-     "shot": "todo_war",
+     "shot": "wa_street",
      "type": "HOST",
      "text": "They found a new country.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "paper",
+       "w:new",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c229",
-     "shot": "todo_war",
+     "shot": "wa_street",
      "type": "HOST",
      "text": "The Confederate States of America.",
      "date": null
     },
     {
      "id": "c230",
-     "shot": "todo_war",
+     "shot": "wa_street",
      "type": "HOST",
      "text": "And Montgomery is its first capital.",
      "date": null
     },
     {
      "id": "c231",
-     "shot": "todo_war",
+     "shot": "wa_street",
      "type": "HOST",
      "text": "On February 18th, at the top of the",
      "date": null
     },
     {
      "id": "c232",
-     "shot": "todo_war",
+     "shot": "wa_street",
      "type": "HOST",
      "text": "five blocks on the steps of the Capitol,",
      "date": null
     },
     {
      "id": "c233",
-     "shot": "todo_war",
+     "shot": "wa_street",
      "type": "HOST",
      "text": "Jefferson Davis is sworn in as President of",
      "date": null
     },
     {
      "id": "c234",
-     "shot": "todo_war",
+     "shot": "wa_street",
      "type": "HOST",
      "text": "the Confederacy.",
      "date": null
     },
     {
      "id": "c235",
-     "shot": "todo_war",
+     "shot": "wa_street",
      "type": "HOST",
      "text": "A bronze star still marks the spot.",
      "date": null
     },
     {
      "id": "c236",
-     "shot": "todo_war",
+     "shot": "wa_telegram",
      "type": "HOST",
      "text": "Then, April 11th.",
      "date": null
     },
     {
      "id": "c237",
-     "shot": "todo_war",
+     "shot": "wa_telegram",
      "type": "HOST",
      "text": "In an office building at the bottom of",
      "date": null
     },
     {
      "id": "c238",
-     "shot": "todo_war",
+     "shot": "wa_telegram",
      "type": "HOST",
      "text": "that same street, right on Court Square, a",
      "date": null
     },
     {
      "id": "c239",
-     "shot": "todo_war",
+     "shot": "wa_telegram",
      "type": "HOST",
      "text": "telegram is sent to Charleston.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "blip",
+       "w:telegram",
+       0.6
+      ]
+     ]
     },
     {
      "id": "c240",
-     "shot": "todo_war",
+     "shot": "wa_telegram",
      "type": "HOST",
      "text": "It authorizes the attack on a fort called",
      "date": null
     },
     {
      "id": "c241",
-     "shot": "todo_war",
+     "shot": "wa_telegram",
      "type": "HOST",
      "text": "Sumter.",
      "date": null
     },
     {
      "id": "c242",
-     "shot": "todo_war",
+     "shot": "wa_telegram",
      "type": "HOST",
      "text": "The next morning, the guns fire.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "drum",
+       "w:guns",
+       0.6
+      ]
+     ]
     },
     {
      "id": "c243",
-     "shot": "todo_war",
+     "shot": "wa_telegram",
      "type": "HOST",
      "text": "The Civil War has begun.",
      "date": null
     },
     {
      "id": "c244",
-     "shot": "todo_war",
+     "shot": "wa_telegram",
      "type": "HOST",
      "text": "And the order to start it went out",
      "date": null
     },
     {
      "id": "c245",
-     "shot": "todo_war",
+     "shot": "wa_telegram",
      "type": "HOST",
      "text": "from the same five blocks where human beings",
      "date": null
     },
     {
      "id": "c246",
-     "shot": "todo_war",
+     "shot": "wa_telegram",
      "type": "HOST",
      "text": "were sold.",
      "date": null
     },
     {
      "id": "c247",
-     "shot": "todo_war",
-     "type": "HOST",
+     "shot": "wa_richmond",
+     "type": "INSERT",
      "text": "Montgomery stayed the capital for about three months.",
      "date": null
     },
     {
      "id": "c248",
-     "shot": "todo_war",
-     "type": "HOST",
+     "shot": "wa_richmond",
+     "type": "INSERT",
      "text": "Then the Confederacy moved to Richmond, Virginia.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "whoosh",
+       "w:Richmond,",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c249",
-     "shot": "todo_war",
-     "type": "HOST",
+     "shot": "wa_richmond",
+     "type": "INSERT",
      "text": "And the war moved away with it.",
      "date": null
     },
     {
      "id": "c250",
-     "shot": "todo_war",
-     "type": "HOST",
+     "shot": "wa_sea",
+     "type": "INSERT",
      "text": "For a while, Alabama felt far from the",
-     "date": null
+     "date": null,
+     "amb": "waves"
     },
     {
      "id": "c251",
-     "shot": "todo_war",
-     "type": "HOST",
+     "shot": "wa_sea",
+     "type": "INSERT",
      "text": "fighting.",
-     "date": null
+     "date": null,
+     "amb": "waves"
     },
     {
      "id": "c252",
-     "shot": "todo_war",
-     "type": "HOST",
+     "shot": "wa_sea",
+     "type": "INSERT",
      "text": "Its men did not.",
-     "date": null
+     "date": null,
+     "amb": "waves"
     },
     {
      "id": "c253",
-     "shot": "todo_war",
-     "type": "HOST",
+     "shot": "wa_sea",
+     "type": "INSERT",
      "text": "At sea, a Confederate raider named the CSS",
-     "date": null
+     "date": null,
+     "amb": "waves",
+     "sfx": [
+      [
+       "whoosh",
+       "w:CSS",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c254",
-     "shot": "todo_war",
-     "type": "HOST",
+     "shot": "wa_sea",
+     "type": "INSERT",
      "text": "Alabama hunted Union merchant ships across the world's",
-     "date": null
+     "date": null,
+     "amb": "waves"
     },
     {
      "id": "c255",
-     "shot": "todo_war",
-     "type": "HOST",
+     "shot": "wa_sea",
+     "type": "INSERT",
      "text": "oceans, until it was sunk off the coast",
-     "date": null
+     "date": null,
+     "amb": "waves"
     },
     {
      "id": "c256",
-     "shot": "todo_war",
-     "type": "HOST",
+     "shot": "wa_sea",
+     "type": "INSERT",
      "text": "of France.",
-     "date": null
+     "date": null,
+     "amb": "waves"
     },
     {
      "id": "c257",
-     "shot": "todo_war",
-     "type": "HOST",
+     "shot": "wa_bay",
+     "type": "INSERT",
      "text": "August 1864.",
-     "date": null
+     "date": null,
+     "amb": "waves"
     },
     {
      "id": "c258",
-     "shot": "todo_war",
-     "type": "HOST",
+     "shot": "wa_bay",
+     "type": "INSERT",
      "text": "Union warships forced their way into Mobile Bay",
-     "date": null
+     "date": null,
+     "amb": "waves",
+     "sfx": [
+      [
+       "rumble",
+       "w:Union",
+       0.5
+      ]
+     ]
     },
     {
      "id": "c259",
-     "shot": "todo_war",
-     "type": "HOST",
+     "shot": "wa_bay",
+     "type": "INSERT",
      "text": "through a field of underwater mines, which back",
-     "date": null
+     "date": null,
+     "amb": "waves"
     },
     {
      "id": "c260",
-     "shot": "todo_war",
-     "type": "HOST",
+     "shot": "wa_bay",
+     "type": "INSERT",
      "text": "then were called torpedoes.",
-     "date": null
+     "date": null,
+     "amb": "waves"
     },
     {
      "id": "c261",
-     "shot": "todo_war",
-     "type": "HOST",
+     "shot": "wa_bay",
+     "type": "INSERT",
      "text": "The story goes that Admiral Farragut shouted, damn",
-     "date": null
+     "date": null,
+     "amb": "waves",
+     "sfx": [
+      [
+       "slam",
+       "w:damn",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c262",
-     "shot": "todo_war",
-     "type": "HOST",
+     "shot": "wa_bay",
+     "type": "INSERT",
      "text": "the torpedoes, full speed ahead.",
-     "date": null
+     "date": null,
+     "amb": "waves"
     },
     {
      "id": "c263",
-     "shot": "todo_war",
-     "type": "HOST",
+     "shot": "wa_bay",
+     "type": "INSERT",
      "text": "Whether he said it or not, he won",
-     "date": null
+     "date": null,
+     "amb": "waves"
     },
     {
      "id": "c264",
-     "shot": "todo_war",
-     "type": "HOST",
+     "shot": "wa_bay",
+     "type": "INSERT",
      "text": "the bay.",
-     "date": null
+     "date": null,
+     "amb": "waves",
+     "sfx": [
+      [
+       "ding",
+       "w:bay.",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c265",
-     "shot": "todo_war",
-     "type": "HOST",
+     "shot": "wa_raid",
+     "type": "INSERT",
      "text": "And in the spring of 1865, Union cavalry",
      "date": null
     },
     {
      "id": "c266",
-     "shot": "todo_war",
-     "type": "HOST",
+     "shot": "wa_raid",
+     "type": "INSERT",
      "text": "swept across Alabama.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "gallop",
+       0,
+       0.4
+      ]
+     ]
     },
     {
      "id": "c267",
-     "shot": "todo_war",
-     "type": "HOST",
+     "shot": "wa_raid",
+     "type": "INSERT",
      "text": "They burned ironworks and arsenals.",
      "date": null
     },
     {
      "id": "c268",
-     "shot": "todo_war",
-     "type": "HOST",
+     "shot": "wa_raid",
+     "type": "INSERT",
      "text": "They burned most of the University of Alabama.",
      "date": null
     },
     {
      "id": "c269",
-     "shot": "todo_war",
+     "shot": "wa_free",
      "type": "HOST",
      "text": "Spring 1865, the war ends, and 435,000",
      "date": null
     },
     {
      "id": "c270",
-     "shot": "todo_war",
+     "shot": "wa_free",
      "type": "HOST",
      "text": "people in Alabama are free.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       "w:free.",
+       0.5
+      ]
+     ]
     }
    ]
   }

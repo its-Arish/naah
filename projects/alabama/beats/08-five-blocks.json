@@ -7,672 +7,782 @@
    "beats": [
     {
      "id": "c482",
-     "shot": "todo_five_blocks",
+     "shot": "fb_king",
      "type": "HOST",
      "text": "1954.",
      "date": null
     },
     {
      "id": "c483",
-     "shot": "todo_five_blocks",
+     "shot": "fb_king",
      "type": "HOST",
      "text": "A young preacher arrives to lead a small",
      "date": null
     },
     {
      "id": "c484",
-     "shot": "todo_five_blocks",
+     "shot": "fb_king",
      "type": "HOST",
      "text": "brick church on Dexter Avenue, one block down",
      "date": null
     },
     {
      "id": "c485",
-     "shot": "todo_five_blocks",
+     "shot": "fb_king",
      "type": "HOST",
      "text": "the hill from the Capitol.",
      "date": null
     },
     {
      "id": "c486",
-     "shot": "todo_five_blocks",
+     "shot": "fb_king",
      "type": "HOST",
      "text": "He is 25 years old.",
      "date": null
     },
     {
      "id": "c487",
-     "shot": "todo_five_blocks",
+     "shot": "fb_king",
      "type": "HOST",
      "text": "His name is Martin Luther King Jr. In",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       "w:King",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c488",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_bus",
+     "type": "STORY",
      "text": "Montgomery, the city buses had a rule.",
      "date": null
     },
     {
      "id": "c489",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_bus",
+     "type": "STORY",
      "text": "Black passengers paid at the front, got off,",
      "date": null
     },
     {
      "id": "c490",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_bus",
+     "type": "STORY",
      "text": "walked around, and got back on at the",
      "date": null
     },
     {
      "id": "c491",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_bus",
+     "type": "STORY",
      "text": "back door.",
      "date": null
     },
     {
      "id": "c492",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_bus",
+     "type": "STORY",
      "text": "And if a white passenger needed a seat,",
      "date": null
     },
     {
      "id": "c493",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_bus",
+     "type": "STORY",
      "text": "a Black passenger had to stand.",
      "date": null
     },
     {
      "id": "c494",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_bus",
+     "type": "STORY",
      "text": "In March 1955, a 15-year-old girl",
      "date": null
     },
     {
      "id": "c495",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_bus",
+     "type": "STORY",
      "text": "named Claudette Colvin refused to give up her",
      "date": null
     },
     {
      "id": "c496",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_bus",
+     "type": "STORY",
      "text": "seat.",
      "date": null
     },
     {
      "id": "c497",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_bus",
+     "type": "STORY",
      "text": "She was arrested.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "thud",
+       "w:arrested.",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c498",
-     "shot": "todo_five_blocks",
+     "shot": "fb_parks",
      "type": "HOST",
      "text": "Nine months later, on December 1st, a seamstress",
      "date": null
     },
     {
      "id": "c499",
-     "shot": "todo_five_blocks",
+     "shot": "fb_parks",
      "type": "HOST",
      "text": "finished work at a department store and walked",
      "date": null
     },
     {
      "id": "c500",
-     "shot": "todo_five_blocks",
+     "shot": "fb_parks",
      "type": "HOST",
      "text": "to the bus stop, right at the bottom",
      "date": null
     },
     {
      "id": "c501",
-     "shot": "todo_five_blocks",
+     "shot": "fb_parks",
      "type": "HOST",
      "text": "of our five blocks, on Court Square, where people",
      "date": null
     },
     {
      "id": "c502",
-     "shot": "todo_five_blocks",
+     "shot": "fb_parks",
      "type": "HOST",
      "text": "had once been sold.",
      "date": null
     },
     {
      "id": "c503",
-     "shot": "todo_five_blocks",
+     "shot": "fb_parks",
      "type": "HOST",
      "text": "Her name was Rosa Parks.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       "w:Parks.",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c504",
-     "shot": "todo_five_blocks",
+     "shot": "fb_parks",
      "type": "HOST",
      "text": "When the driver told her to stand up,",
      "date": null
     },
     {
      "id": "c505",
-     "shot": "todo_five_blocks",
+     "shot": "fb_parks",
      "type": "HOST",
      "text": "she said, no.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "stamp",
+       "w:no.",
+       0.5
+      ]
+     ]
     },
     {
      "id": "c506",
-     "shot": "todo_five_blocks",
+     "shot": "fb_boycott",
      "type": "HOST",
      "text": "Four days later, Black Montgomery stopped riding the",
      "date": null
     },
     {
      "id": "c507",
-     "shot": "todo_five_blocks",
+     "shot": "fb_boycott",
      "type": "HOST",
      "text": "buses.",
      "date": null
     },
     {
      "id": "c508",
-     "shot": "todo_five_blocks",
+     "shot": "fb_boycott",
      "type": "HOST",
      "text": "People walked to work, miles, every day, in",
      "date": null
     },
     {
      "id": "c509",
-     "shot": "todo_five_blocks",
+     "shot": "fb_boycott",
      "type": "HOST",
      "text": "the rain.",
      "date": null
     },
     {
      "id": "c510",
-     "shot": "todo_five_blocks",
+     "shot": "fb_boycott",
      "type": "HOST",
      "text": "They organized carpools.",
      "date": null
     },
     {
      "id": "c511",
-     "shot": "todo_five_blocks",
+     "shot": "fb_boycott",
      "type": "HOST",
      "text": "And the boycott was planned in that little",
      "date": null
     },
     {
      "id": "c512",
-     "shot": "todo_five_blocks",
+     "shot": "fb_boycott",
      "type": "HOST",
      "text": "church on Dexter Avenue, with a 26-year-old",
      "date": null
     },
     {
      "id": "c513",
-     "shot": "todo_five_blocks",
+     "shot": "fb_boycott",
      "type": "HOST",
      "text": "Dr. King as its leader.",
      "date": null
     },
     {
      "id": "c514",
-     "shot": "todo_five_blocks",
+     "shot": "fb_boycott",
      "type": "HOST",
      "text": "They kept it up for 381 days.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "ticks",
+       "w:381",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c515",
-     "shot": "todo_five_blocks",
+     "shot": "fb_boycott",
      "type": "HOST",
      "text": "And in the end, the Supreme Court ruled",
      "date": null
     },
     {
      "id": "c516",
-     "shot": "todo_five_blocks",
+     "shot": "fb_boycott",
      "type": "HOST",
      "text": "that Montgomery's segregated buses were against the Constitution.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "stamp",
+       "w:Constitution.",
+       0.5
+      ]
+     ]
     },
     {
      "id": "c517",
-     "shot": "todo_five_blocks",
+     "shot": "fb_wallace",
      "type": "HOST",
      "text": "The bus boycott was only the first round.",
      "date": null
     },
     {
      "id": "c518",
-     "shot": "todo_five_blocks",
+     "shot": "fb_wallace",
      "type": "HOST",
      "text": "In 1963, Alabama's new governor, George Wallace, stood",
      "date": null
     },
     {
      "id": "c519",
-     "shot": "todo_five_blocks",
+     "shot": "fb_wallace",
      "type": "HOST",
      "text": "on the Capitol steps, on the same spot",
      "date": null
     },
     {
      "id": "c520",
-     "shot": "todo_five_blocks",
+     "shot": "fb_wallace",
      "type": "HOST",
      "text": "where Jefferson Davis had been sworn in, and",
      "date": null
     },
     {
      "id": "c521",
-     "shot": "todo_five_blocks",
+     "shot": "fb_wallace",
      "type": "HOST",
      "text": "promised, quote, segregation forever.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "stamp",
+       "w:forever.",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c522",
-     "shot": "todo_five_blocks",
+     "shot": "fb_wallace",
      "type": "HOST",
      "text": "That summer, he stood in a doorway at",
      "date": null
     },
     {
      "id": "c523",
-     "shot": "todo_five_blocks",
+     "shot": "fb_wallace",
      "type": "HOST",
      "text": "the University of Alabama to block two Black",
      "date": null
     },
     {
      "id": "c524",
-     "shot": "todo_five_blocks",
+     "shot": "fb_wallace",
      "type": "HOST",
      "text": "students from enrolling.",
      "date": null
     },
     {
      "id": "c525",
-     "shot": "todo_five_blocks",
+     "shot": "fb_wallace",
      "type": "HOST",
      "text": "He stepped aside that same day.",
      "date": null
     },
     {
      "id": "c526",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_children",
+     "type": "STORY",
      "text": "In Birmingham, thousands of children, some still in",
      "date": null
     },
     {
      "id": "c527",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_children",
+     "type": "STORY",
      "text": "grade school, marched for their rights.",
      "date": null
     },
     {
      "id": "c528",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_children",
+     "type": "STORY",
      "text": "The police met them with dogs and fire",
      "date": null
     },
     {
      "id": "c529",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_children",
+     "type": "STORY",
      "text": "hoses.",
      "date": null
     },
     {
      "id": "c530",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_children",
+     "type": "STORY",
      "text": "The pictures went around the world.",
      "date": null
     },
     {
      "id": "c531",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_church",
+     "type": "STORY",
      "text": "September 15, 1963.",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c532",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_church",
+     "type": "STORY",
      "text": "A Sunday morning in Birmingham.",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c533",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_church",
+     "type": "STORY",
      "text": "A bomb, planted by Ku Klux Klan members,",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c534",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_church",
+     "type": "STORY",
      "text": "exploded at the 16th Street Baptist Church.",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c535",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_church",
+     "type": "STORY",
      "text": "Four girls were killed.",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c536",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_church",
+     "type": "STORY",
      "text": "Addie Mae Collins, Carole Robertson, Cynthia Wesley, Denise",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c537",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_church",
+     "type": "STORY",
      "text": "McNair.",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c538",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_church",
+     "type": "STORY",
      "text": "Denise was 11.",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c539",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_church",
+     "type": "STORY",
      "text": "The others were 14.",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c540",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_selma",
+     "type": "INSERT",
      "text": "Then came Selma.",
      "date": null
     },
     {
      "id": "c541",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_selma",
+     "type": "INSERT",
      "text": "In Dallas County, around Selma, more than half",
      "date": null
     },
     {
      "id": "c542",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_selma",
+     "type": "INSERT",
      "text": "the people were Black, but only about two",
      "date": null
     },
     {
      "id": "c543",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_selma",
+     "type": "INSERT",
      "text": "out of every hundred eligible Black voters were",
      "date": null
     },
     {
      "id": "c544",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_selma",
+     "type": "INSERT",
      "text": "registered.",
      "date": null
     },
     {
      "id": "c545",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_selma",
+     "type": "INSERT",
      "text": "Every time people lined up at the courthouse",
      "date": null
     },
     {
      "id": "c546",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_selma",
+     "type": "INSERT",
      "text": "to register, they were turned away, or arrested.",
      "date": null
     },
     {
      "id": "c547",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_selma",
+     "type": "INSERT",
      "text": "So they decided to march, 54 miles, from",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "whoosh",
+       "w:54",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c548",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_selma",
+     "type": "INSERT",
      "text": "Selma all the way to Montgomery, to the",
      "date": null
     },
     {
      "id": "c549",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_selma",
+     "type": "INSERT",
      "text": "Capitol, to the top of our five blocks.",
      "date": null
     },
     {
      "id": "c550",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_bridge",
+     "type": "STORY",
      "text": "Sunday, March 7, 1965.",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c551",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_bridge",
+     "type": "STORY",
      "text": "About 600 marchers walk out of Selma, two",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c552",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_bridge",
+     "type": "STORY",
      "text": "by two, and climb the Edmund Pettus Bridge.",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c553",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_bridge",
+     "type": "STORY",
      "text": "At the bottom, state troopers are waiting.",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c554",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_bridge",
+     "type": "STORY",
      "text": "The troopers charge with clubs and tear gas.",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c555",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_bridge",
+     "type": "STORY",
      "text": "A young organizer named John Lewis has his",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c556",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_bridge",
+     "type": "STORY",
      "text": "skull fractured.",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c557",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_bridge",
+     "type": "STORY",
      "text": "That night, the whole country saw it on",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c558",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_bridge",
+     "type": "STORY",
      "text": "television.",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c559",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_bridge",
+     "type": "STORY",
      "text": "It became known as Bloody Sunday.",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c560",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_march",
+     "type": "INSERT",
      "text": "Two weeks later, they tried again, this time",
      "date": null
     },
     {
      "id": "c561",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_march",
+     "type": "INSERT",
      "text": "protected by federal troops.",
      "date": null
     },
     {
      "id": "c562",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_march",
+     "type": "INSERT",
      "text": "Five days, 54 miles.",
      "date": null
     },
     {
      "id": "c563",
-     "shot": "todo_five_blocks",
-     "type": "HOST",
+     "shot": "fb_march",
+     "type": "INSERT",
      "text": "They slept in fields along the highway.",
      "date": null
     },
     {
      "id": "c564",
-     "shot": "todo_five_blocks",
+     "shot": "fb_up",
      "type": "HOST",
      "text": "And on March 25, around 25,000 people",
      "date": null
     },
     {
      "id": "c565",
-     "shot": "todo_five_blocks",
+     "shot": "fb_up",
      "type": "HOST",
      "text": "marched up Dexter Avenue, past the fountain where",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "tick",
+       "w:fountain",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c566",
-     "shot": "todo_five_blocks",
+     "shot": "fb_up",
      "type": "HOST",
      "text": "people were once sold, past the bus stop",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "tick",
+       "w:bus",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c567",
-     "shot": "todo_five_blocks",
+     "shot": "fb_up",
      "type": "HOST",
      "text": "where Rosa Parks said no, past Dr. King's",
      "date": null
     },
     {
      "id": "c568",
-     "shot": "todo_five_blocks",
+     "shot": "fb_up",
      "type": "HOST",
      "text": "church, up the hill to the steps where",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "tick",
+       "w:church,",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c569",
-     "shot": "todo_five_blocks",
+     "shot": "fb_up",
      "type": "HOST",
      "text": "the Confederacy was born.",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       "w:Confederacy",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c570",
-     "shot": "todo_five_blocks",
+     "shot": "fb_up",
      "type": "HOST",
      "text": "That August, the president signed the Voting Rights",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "stamp",
+       "w:Voting",
+       0.5
+      ]
+     ]
     },
     {
      "id": "c571",
-     "shot": "todo_five_blocks",
+     "shot": "fb_up",
      "type": "HOST",
      "text": "Act.",
      "date": null
     },
     {
      "id": "c572",
-     "shot": "todo_five_blocks",
+     "shot": "fb_answer",
      "type": "HOST",
      "text": "Five blocks.",
      "date": null
     },
     {
      "id": "c573",
-     "shot": "todo_five_blocks",
+     "shot": "fb_answer",
      "type": "HOST",
      "text": "Slavery at the bottom, the Confederacy at the",
      "date": null
     },
     {
      "id": "c574",
-     "shot": "todo_five_blocks",
+     "shot": "fb_answer",
      "type": "HOST",
      "text": "top.",
      "date": null
     },
     {
      "id": "c575",
-     "shot": "todo_five_blocks",
+     "shot": "fb_answer",
      "type": "HOST",
      "text": "And a hundred years later, the people the",
      "date": null
     },
     {
      "id": "c576",
-     "shot": "todo_five_blocks",
+     "shot": "fb_answer",
      "type": "HOST",
      "text": "Confederacy was built to keep down walked up",
      "date": null
     },
     {
      "id": "c577",
-     "shot": "todo_five_blocks",
+     "shot": "fb_answer",
      "type": "HOST",
      "text": "those same five blocks and took the steps.",
      "date": null

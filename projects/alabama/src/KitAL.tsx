@@ -9,7 +9,7 @@ const NB = nb as Record<string, string>;
 export const NAVY = '#26343A';
 
 // ------------------------------------------------------------------ the running thread: FIVE BLOCKS
-export type StreetPin = { label: string; year: string; block: number; side?: 1 | -1; at: number; c?: string };
+export type StreetPin = { label: string; year: string; block: number; side?: 1 | -1; at: number; c?: string; dy?: number };
 /**
  * Dexter Avenue as a small street map: Court Square fountain at the bottom, the Capitol at the top,
  * five blocks between. Drawn around (x, y) = middle of the street, height 600 at s = 1.
@@ -54,12 +54,12 @@ export const FiveBlocks: React.FC<{ x: number; y: number; s?: number; k?: number
       {title && <text y={top - 96} textAnchor="middle" fontFamily="TagBold" fontSize={26} fill="#5A4A3A">{draw > 0.98 ? 'CAPITOL' : ''}</text>}
       {pins.map((p, i) => {
         const a = springPop(f, p.at); if (a <= 0) return null;
-        const side = p.side ?? (i % 2 ? 1 : -1), py = p.block >= 5 ? top - 30 : p.block <= 0 ? bot + 44 : yb(p.block);
+        const side = 1, py = p.block >= 5 ? top - 30 : p.block <= 0 ? bot + 44 : yb(p.block), dy = p.dy ?? 0;
         return (
           <g key={i} transform={`translate(0 ${py})`}>
-            <line x1={0} y1={0} x2={side * 250} y2={0} stroke={OL} strokeWidth={3} strokeDasharray="6 6" opacity={Math.min(1, a)} />
+            <path d={`M0 0 L${side * 120} ${dy} H${side * 190}`} stroke={OL} strokeWidth={3} strokeDasharray="6 6" fill="none" opacity={Math.min(1, a)} />
             <g transform={`scale(${a})`}><circle r={14} fill={p.c ?? RED} stroke={OL} strokeWidth={3.5} /></g>
-            <g transform={`translate(${side * 250} 0) scale(${a})`}>
+            <g transform={`translate(${side * 190} ${dy}) scale(${a})`}>
               <rect x={side > 0 ? 0 : -260} y={-34} width={260} height={68} rx={10} fill={NAVY} stroke={OL} strokeWidth={4} />
               <text x={side > 0 ? 130 : -130} y={-6} textAnchor="middle" fontFamily="TagBold" fontSize={24} fill={GOLD}>{p.year}</text>
               <text x={side > 0 ? 130 : -130} y={22} textAnchor="middle" fontFamily="TagBold" fontSize={19} fill="#F4ECD8">{p.label}</text>

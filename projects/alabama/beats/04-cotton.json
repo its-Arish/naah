@@ -7,297 +7,339 @@
    "beats": [
     {
      "id": "c179",
-     "shot": "todo_cotton",
-     "type": "HOST",
+     "shot": "co_belt",
+     "type": "INSERT",
      "text": "Here is what all that land was for.",
      "date": null
     },
     {
      "id": "c180",
-     "shot": "todo_cotton",
-     "type": "HOST",
+     "shot": "co_belt",
+     "type": "INSERT",
      "text": "Across the middle of the state runs a",
      "date": null
     },
     {
      "id": "c181",
-     "shot": "todo_cotton",
-     "type": "HOST",
+     "shot": "co_belt",
+     "type": "INSERT",
      "text": "strip of dark, rich soil.",
      "date": null
     },
     {
      "id": "c182",
-     "shot": "todo_cotton",
-     "type": "HOST",
+     "shot": "co_belt",
+     "type": "INSERT",
      "text": "People called it the Black Belt because of",
-     "date": null
+     "date": null,
+     "sfx": [
+      [
+       "scribble",
+       "w:Black",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c183",
-     "shot": "todo_cotton",
-     "type": "HOST",
+     "shot": "co_belt",
+     "type": "INSERT",
      "text": "the color of the dirt.",
      "date": null
     },
     {
      "id": "c184",
-     "shot": "todo_cotton",
-     "type": "HOST",
+     "shot": "co_belt",
+     "type": "INSERT",
      "text": "Cotton grew there like nowhere else.",
      "date": null
     },
     {
      "id": "c185",
-     "shot": "todo_cotton",
-     "type": "HOST",
+     "shot": "co_river",
+     "type": "INSERT",
      "text": "Steamboats piled with bales floated down the rivers",
-     "date": null
+     "date": null,
+     "amb": "waves",
+     "sfx": [
+      [
+       "whoosh",
+       "w:Steamboats",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c186",
-     "shot": "todo_cotton",
-     "type": "HOST",
+     "shot": "co_river",
+     "type": "INSERT",
      "text": "to Mobile, which became one of the biggest",
-     "date": null
+     "date": null,
+     "amb": "waves"
     },
     {
      "id": "c187",
-     "shot": "todo_cotton",
-     "type": "HOST",
+     "shot": "co_river",
+     "type": "INSERT",
      "text": "cotton ports in the country.",
-     "date": null
+     "date": null,
+     "amb": "waves"
     },
     {
      "id": "c188",
-     "shot": "todo_cotton",
-     "type": "HOST",
+     "shot": "co_river",
+     "type": "INSERT",
      "text": "That cotton went onto the mills of England",
-     "date": null
+     "date": null,
+     "amb": "waves",
+     "sfx": [
+      [
+       "whoosh",
+       "w:England",
+       0.4
+      ]
+     ]
     },
     {
      "id": "c189",
-     "shot": "todo_cotton",
-     "type": "HOST",
+     "shot": "co_river",
+     "type": "INSERT",
      "text": "and New England.",
-     "date": null
+     "date": null,
+     "amb": "waves"
     },
     {
      "id": "c190",
-     "shot": "todo_cotton",
-     "type": "HOST",
+     "shot": "co_river",
+     "type": "INSERT",
      "text": "In other words, a shirt worn in England",
-     "date": null
+     "date": null,
+     "amb": "waves"
     },
     {
      "id": "c191",
-     "shot": "todo_cotton",
-     "type": "HOST",
+     "shot": "co_river",
+     "type": "INSERT",
      "text": "might have started life in an Alabama field.",
-     "date": null
+     "date": null,
+     "amb": "waves"
     },
     {
      "id": "c192",
-     "shot": "todo_cotton",
+     "shot": "co_pick",
      "type": "HOST",
      "text": "But someone had to pick it.",
      "date": null
     },
     {
      "id": "c193",
-     "shot": "todo_cotton",
+     "shot": "co_pick",
      "type": "HOST",
      "text": "In 1860, Alabama had about 960,000 people.",
      "date": null
     },
     {
      "id": "c194",
-     "shot": "todo_cotton",
+     "shot": "co_pick",
      "type": "HOST",
      "text": "435,000 of them were enslaved.",
      "date": null
     },
     {
      "id": "c195",
-     "shot": "todo_cotton",
+     "shot": "co_pick",
      "type": "HOST",
      "text": "Almost half the state.",
      "date": null
     },
     {
      "id": "c196",
-     "shot": "todo_cotton",
+     "shot": "co_street",
      "type": "HOST",
      "text": "And remember our street in Montgomery?",
      "date": null
     },
     {
      "id": "c197",
-     "shot": "todo_cotton",
+     "shot": "co_street",
      "type": "HOST",
      "text": "At the bottom of those five blocks, around",
      "date": null
     },
     {
      "id": "c198",
-     "shot": "todo_cotton",
+     "shot": "co_street",
      "type": "HOST",
      "text": "the fountain in Court Square, enslaved people were",
      "date": null
     },
     {
      "id": "c199",
-     "shot": "todo_cotton",
+     "shot": "co_street",
      "type": "HOST",
      "text": "sold.",
      "date": null
     },
     {
      "id": "c200",
-     "shot": "todo_cotton",
+     "shot": "co_street",
      "type": "HOST",
      "text": "Men, women, and children.",
      "date": null
     },
     {
      "id": "c201",
-     "shot": "todo_cotton",
+     "shot": "co_street",
      "type": "HOST",
      "text": "Auctioned in the open.",
      "date": null
     },
     {
      "id": "c202",
-     "shot": "todo_cotton",
+     "shot": "co_street",
      "type": "HOST",
      "text": "A short walk from the Capitol.",
      "date": null
     },
     {
      "id": "c203",
-     "shot": "todo_cotton",
-     "type": "HOST",
+     "shot": "co_belt2",
+     "type": "INSERT",
      "text": "That is why the Black Belt later got",
      "date": null
     },
     {
      "id": "c204",
-     "shot": "todo_cotton",
-     "type": "HOST",
+     "shot": "co_belt2",
+     "type": "INSERT",
      "text": "its second meaning.",
      "date": null
     },
     {
      "id": "c205",
-     "shot": "todo_cotton",
-     "type": "HOST",
+     "shot": "co_belt2",
+     "type": "INSERT",
      "text": "It became the part of Alabama where most",
      "date": null
     },
     {
      "id": "c206",
-     "shot": "todo_cotton",
-     "type": "HOST",
+     "shot": "co_belt2",
+     "type": "INSERT",
      "text": "Black Alabamians lived.",
      "date": null
     },
     {
      "id": "c207",
-     "shot": "todo_cotton",
-     "type": "HOST",
+     "shot": "co_clotilda",
+     "type": "STORY",
      "text": "By 1860, bringing people from Africa to the",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c208",
-     "shot": "todo_cotton",
-     "type": "HOST",
+     "shot": "co_clotilda",
+     "type": "STORY",
      "text": "United States had been illegal for more than",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c209",
-     "shot": "todo_cotton",
-     "type": "HOST",
+     "shot": "co_clotilda",
+     "type": "STORY",
      "text": "50 years.",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c210",
-     "shot": "todo_cotton",
-     "type": "HOST",
+     "shot": "co_clotilda",
+     "type": "STORY",
      "text": "That summer, a ship called the Clotilda slipped",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c211",
-     "shot": "todo_cotton",
-     "type": "HOST",
+     "shot": "co_clotilda",
+     "type": "STORY",
      "text": "into Mobile Bay at night.",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c212",
-     "shot": "todo_cotton",
-     "type": "HOST",
+     "shot": "co_clotilda",
+     "type": "STORY",
      "text": "On board were 110 people taken from West",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c213",
-     "shot": "todo_cotton",
-     "type": "HOST",
+     "shot": "co_clotilda",
+     "type": "STORY",
      "text": "Africa.",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c214",
-     "shot": "todo_cotton",
-     "type": "HOST",
+     "shot": "co_clotilda",
+     "type": "STORY",
      "text": "The story goes, it was all because of",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c215",
-     "shot": "todo_cotton",
-     "type": "HOST",
+     "shot": "co_clotilda",
+     "type": "STORY",
      "text": "a bet.",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c216",
-     "shot": "todo_cotton",
-     "type": "HOST",
+     "shot": "co_clotilda",
+     "type": "STORY",
      "text": "The men behind it hid the people in the swamps.",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c217",
-     "shot": "todo_cotton",
-     "type": "HOST",
+     "shot": "co_clotilda",
+     "type": "STORY",
      "text": "Then they burned the ship to hide the",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c218",
-     "shot": "todo_cotton",
-     "type": "HOST",
+     "shot": "co_clotilda",
+     "type": "STORY",
      "text": "crime.",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c219",
-     "shot": "todo_cotton",
-     "type": "HOST",
+     "shot": "co_clotilda",
+     "type": "STORY",
      "text": "It was the last known slave ship to",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c220",
-     "shot": "todo_cotton",
-     "type": "HOST",
+     "shot": "co_clotilda",
+     "type": "STORY",
      "text": "reach America.",
-     "date": null
+     "date": null,
+     "quiet": true
     }
    ]
   }
