@@ -53,6 +53,8 @@ Session: https://claude.ai/code/session_01FRB8kZECC6NSaxCugaPgpN
 
 19. Creator: "Make a thumbnail of alabama map, Written text '13000 History of California in 13 Minutes'". The request named the Alabama map but California text, so Claude asked; the creator chose the **California film**. Text written as "13,000 YEARS OF CALIFORNIA IN 13 MINUTES". Source: `projects/california-thumb/shots.tsx` (render with `studio stills california-thumb 45`, then scale to 1280×720).
 
+20. The first thumbnail used a hand-drawn California outline. Creator: "do not draw map by yourself use gis", then "never draw map by yourself, always use gis". The thumbnail was redrawn from the Natural Earth state borders through `WorldMap`, and the rule is now in `docs/PLAYBOOK.md`, `CLAUDE.md` and the qgis-maps skill. Audit of the film: the California outline (`src/ca.json`) is exported from the GIS data, but the old chart in the hook showing California as an island (`src/Hook.tsx`, `IslandMap`, about 0:25 to 0:30) is drawn by hand. It is not changed yet; ask the creator.
+
 ## Mistakes to avoid next time
 
 | What happened | What to do instead |
@@ -62,6 +64,7 @@ Session: https://claude.ai/code/session_01FRB8kZECC6NSaxCugaPgpN
 | "Stay to the end" (twice, across two scripts) | Never. Ask the open question and move on. |
 | Chapter headings that Gemini spoke aloud | Headings are paste breaks only; tell the creator to paste the lines under them. |
 | Maps hidden inside a scene table | Give a separate list of map scenes with times and styles. |
+| A map or outline drawn by hand (first thumbnail) | Never. Use the GIS data for every map and outline, thumbnails included. |
 | Calendar default colour crashed the page (blank frames) | Fixed in `engine/fx/Infographics.tsx`. Read the stills log for `pageerror`. |
 | Claude cannot hear audio | Always list timestamps where a mispronunciation is possible, and say the mix is unchecked. |
 

@@ -57,6 +57,7 @@ python3 -I tools/fix_srt.py original.srt voiceover.srt
 - **Music:** no music bed. Pick tracks, have the creator preview them, then follow `docs/MUSIC.md`.
 - **Bigger narrator moves:** the lever, helicopter and baton twirl planned for the railroad, aqueduct and Silicon Valley scenes were not built. He points, rides his staff over maps and holds it level at the border.
 - **Possible mispronunciations to listen for:** 2:46 "Rush number one", 5:42 "A genocide", 8:24 and 8:37 "Mulholland", 8:44 "Owens Lake". The captions are correct; if the voice is wrong, regenerate that line in Gemini.
+- **One hand-drawn map:** the old chart showing California as an island (`src/Hook.tsx`, `IslandMap`, about 0:25 to 0:30) is drawn by hand, against the rule to always use GIS. Waiting on the creator's decision.
 - **The mix was never heard by Claude.** Sound-effect levels against the voice need a listen.
 
 ## Fact check

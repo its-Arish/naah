@@ -5,6 +5,8 @@ description: "Pick and make map scenes for History Cartoon Studio films: choropl
 
 # QGIS map styles (History Cartoon Studio, repo its-Arish/naah)
 
+**Never draw a map by hand. Always use GIS.** Every map, coastline, border, state or country outline (thumbnails included) comes from the GIS data: the QGIS kit (`assets/qgis/world_map.gpkg` exported with `scripts/qgis_export.py`, drawn with `engine/qgis/QgisMap.tsx`) or a Mapimator map built on it. If a scene seems to need a map the GIS data cannot give (for example an old chart with false geography), ask the creator before drawing anything.
+
 Use this when a film needs a map beyond the standard Mapimator scene: shading countries by a number, zooming into a country's states/provinces, showing disputed borders, a spinning globe, or arcs linking places in order. Built and approved Nov 2026 (`projects/qgis-showcase`, watch `out/qgis-showcase.mp4`: six styles; first demo `projects/qgis-demo`).
 
 **Pick a different style per video** to fit the story (the creator wants variety across films). Don't reuse the same style back to back in one film unless the story needs it.

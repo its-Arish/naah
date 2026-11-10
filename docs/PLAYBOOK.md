@@ -67,6 +67,8 @@ To reuse: copy the file into the new project's `src/`, edit `ERAS` (names must e
 - Maps: `OldWorld` (coastlines only, for scenes before modern borders; pass dark `land` / `sea` for the documentary look), `Rider` / `FlyIn` for the narrator on his staff, `Tag` (a `MapTag` with enough room for wide capitals).
 - Layout: HOST narration owns the left of the frame up to x ≈ 910. Keep props between x ≈ 930 and 1450 and the narrator at x ≈ 1600 to 1760. Keep labels above y ≈ 850 (captions).
 
+**Never draw a map by hand. Always use GIS.** Every map, coastline, border, state or country outline (thumbnails included) comes from the GIS data: the QGIS kit (`assets/qgis/world_map.gpkg` exported with `scripts/qgis_export.py`, drawn with `engine/qgis/QgisMap.tsx`) or a Mapimator map built on it. If a scene seems to need a map the GIS data cannot give (for example an old chart with false geography), ask the creator before drawing anything.
+
 Standing rules for every film: narrator on screen in most shots and never redesigned; use the QGIS map kit and a different map style per era, never the heatmap; captions in Times Roman (`"captionFont": "serif"`); voice louder than effects; one narrator move every minute or two and none beside a tragedy.
 
 ## 8. Check, pilot, render, deliver
