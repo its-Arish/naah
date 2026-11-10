@@ -11,6 +11,49 @@ const big = (size: number, color = '#fff', stroke = 14): React.CSSProperties => 
 
 const CAM = camAt(-123.0, 37.4, 15.5);
 
+const Map: React.FC<{ island?: boolean }> = ({ island }) => {
+  const ca = D.provinces.USA.filter((p) => p.name === 'California');
+  return (
+    <WorldMap data={D} cam={CAM} sea="#1C4A6E" grid={false} sw={2.2} fill={(c) => (c.iso === 'MEX' ? '#4A5E66' : c.iso === 'USA' ? '#55707A' : '#4A5E66')}>
+      {D.provinces.USA.filter((p) => p.name !== 'California').map((p) => <path key={p.name} d={p.d} fill="#55707A" stroke="#14100C" strokeWidth={2 / CAM.z} strokeLinejoin="round" />)}
+      {/* island version: California's own GIS border, widened into water on every side */}
+      {island && ca.map((p) => <path key={'w' + p.name} d={p.d} fill="none" stroke="#14100C" strokeWidth={84 / CAM.z} strokeLinejoin="round" />)}
+      {island && ca.map((p) => <path key={'s' + p.name} d={p.d} fill="none" stroke="#1C4A6E" strokeWidth={76 / CAM.z} strokeLinejoin="round" />)}
+      {ca.map((p) => <path key={p.name} d={p.d} fill="#F6B73C" stroke="#14100C" strokeWidth={7 / CAM.z} strokeLinejoin="round" />)}
+    </WorldMap>
+  );
+};
+const Shade = () => (
+  <svg style={{ position: 'absolute', inset: 0 }} width={1920} height={1080}>
+    <defs><linearGradient id="thShade" x1="0" x2="1"><stop offset="0" stopColor="#0B1B2A" stopOpacity="0.75" /><stop offset="0.5" stopColor="#0B1B2A" stopOpacity="0" /></linearGradient></defs>
+    <rect width={1920} height={1080} fill="url(#thShade)" />
+  </svg>
+);
+const Banner: React.FC<{ text: string; top: number; size?: number }> = ({ text, top, size = 112 }) => (
+  <div style={{ position: 'absolute', left: 56, top, transform: 'rotate(-3deg)', transformOrigin: 'left center' }}>
+    <div style={{ display: 'inline-block', background: '#D93A2B', border: '8px solid #14100C', borderRadius: 18, padding: '18px 34px 10px', boxShadow: '0 10px 0 rgba(0,0,0,0.35)', ...big(size, '#FFFFFF', 12) }}>{text}</div>
+  </div>
+);
+
+/** Idea 1: California as the island the old maps drew. Text: one question. */
+const Island: React.FC<SP> = () => (
+  <>
+    <Map island />
+    <Shade />
+    <div style={{ position: 'absolute', left: 50, top: 270, width: 900, ...big(205, '#FFD84A', 19) }}>AN<br />ISLAND?</div>
+  </>
+);
+
+/** Idea 2: the original, with fewer words. */
+const Short: React.FC<SP> = () => (
+  <>
+    <Map />
+    <Shade />
+    <div style={{ position: 'absolute', left: 56, top: 150, width: 900, ...big(230, '#FFD84A', 20) }}>13,000<br />YEARS</div>
+    <Banner text="IN 13 MIN" top={660} size={140} />
+  </>
+);
+
 const Thumb: React.FC<SP> = () => (
   <>
     <WorldMap data={D} cam={CAM} sea="#1C4A6E" grid={false} sw={2.2} fill={(c) => (c.iso === 'MEX' ? '#4A5E66' : c.iso === 'USA' ? '#55707A' : '#4A5E66')}>
@@ -34,4 +77,4 @@ const Thumb: React.FC<SP> = () => (
   </>
 );
 
-export const SHOTS: ShotMap = { opening: makeOpening('thumb', ''), thumb: Thumb, end: makeEnd('thumb') };
+export const SHOTS: ShotMap = { opening: makeOpening('thumb', ''), thumb: Thumb, island: Island, short: Short, end: makeEnd('thumb') };

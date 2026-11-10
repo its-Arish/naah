@@ -86,6 +86,8 @@ Standing rules for every film: narrator on screen in most shots and never redesi
 - **As simple as possible:** the GIS map with the film's place highlighted, plus the title text. No icons, badges, sparkles or extra props.
 - **No narrator** on thumbnails.
 - The map comes from GIS like every other map (never drawn by hand). Example: `projects/california-thumb/shots.tsx` (render with `studio stills california-thumb 45`, then scale to 1280×720 with ffmpeg).
+- Three or four words beat six. Add one question or surprise from the film's hook when it fits ("AN ISLAND?"), and offer two versions to compare with YouTube's Test & Compare.
+- To make a place look like an island without drawing, widen its own GIS border into water (`island` shot in `projects/california-thumb/shots.tsx`).
 - If the creator's request mixes up films or wording (a different state's map, a number with no unit), ask before making it.
 
 ## 10. Known traps

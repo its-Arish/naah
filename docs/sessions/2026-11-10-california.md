@@ -57,6 +57,8 @@ Session: https://claude.ai/code/session_01FRB8kZECC6NSaxCugaPgpN
 
 21. Creator: "do not put narrator there and for thumbnail, simplify it as much as possible". The thumbnail is now only the GIS map, California in gold and the title. Thumbnail rules added to `docs/PLAYBOOK.md` §9.
 
+22. Creator asked whether it was clickable. Claude: clear but safe, with no curiosity and six words. Two ideas made at the creator's go-ahead, both simple, no narrator, GIS only: **"AN ISLAND?"**, where California's own GIS border is widened into water so the state looks like the island the old maps drew (no hand-drawn channel), and **"13,000 YEARS / IN 13 MIN"** (fewer words). Shots `island` and `short` in `projects/california-thumb` (stills at frames 120 and 180). Suggested comparing them with YouTube's Test & Compare.
+
 ## Mistakes to avoid next time
 
 | What happened | What to do instead |
