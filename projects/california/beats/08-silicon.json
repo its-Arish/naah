@@ -1,0 +1,296 @@
+{
+ "title": "Silicon",
+ "sections": [
+  {
+   "title": "Silicon",
+   "card": false,
+   "beats": [
+    {
+     "id": "c216",
+     "shot": "si_farm",
+     "type": "STORY",
+     "text": "Remember Stanford's farm?",
+     "date": null,
+     "amb": "birds"
+    },
+    {
+     "id": "c217",
+     "shot": "si_farm",
+     "type": "STORY",
+     "text": "By the 1930s, the valley around it was famous for one thing.",
+     "date": null,
+     "amb": "birds"
+    },
+    {
+     "id": "c218",
+     "shot": "si_farm",
+     "type": "STORY",
+     "text": "Fruit.",
+     "date": null,
+     "amb": "birds"
+    },
+    {
+     "id": "c219",
+     "shot": "si_farm",
+     "type": "STORY",
+     "text": "Plums, cherries, apricots.",
+     "date": null,
+     "amb": "birds"
+    },
+    {
+     "id": "c220",
+     "shot": "si_farm",
+     "type": "STORY",
+     "text": "People called it the Valley of Heart's Delight.",
+     "date": null,
+     "amb": "birds"
+    },
+    {
+     "id": "c221",
+     "shot": "si_garage",
+     "type": "STORY",
+     "text": "Then two Stanford graduates started a company in a garage.",
+     "date": null
+    },
+    {
+     "id": "c222",
+     "shot": "si_garage",
+     "type": "STORY",
+     "text": "Hewlett and Packard.",
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       "w:Hewlett",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c223",
+     "shot": "si_eight",
+     "type": "HOST",
+     "text": "In 1956, one of the inventors of the transistor moved to the valley,",
+     "date": null
+    },
+    {
+     "id": "c224",
+     "shot": "si_eight",
+     "type": "HOST",
+     "text": "to be near his mother. He hired eight brilliant young engineers.",
+     "date": null
+    },
+    {
+     "id": "c225",
+     "shot": "si_eight",
+     "type": "HOST",
+     "text": "He was such a difficult boss that all eight quit together.",
+     "date": null,
+     "sfx": [
+      [
+       "steps",
+       "w:quit",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c226",
+     "shot": "si_eight",
+     "type": "HOST",
+     "text": "They started their own company.",
+     "date": null
+    },
+    {
+     "id": "c227",
+     "shot": "si_eight",
+     "type": "HOST",
+     "text": "Then their people left and started more.",
+     "date": null
+    },
+    {
+     "id": "c228",
+     "shot": "si_eight",
+     "type": "HOST",
+     "text": "One of those was Intel.",
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       "w:Intel.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c229",
+     "shot": "si_sand",
+     "type": "HOST",
+     "text": "The chips were made of silicon, which comes from sand.",
+     "date": null
+    },
+    {
+     "id": "c230",
+     "shot": "si_sand",
+     "type": "HOST",
+     "text": "Somebody called the place Silicon Valley.",
+     "date": null,
+     "sfx": [
+      [
+       "stamp",
+       "w:Silicon",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c231",
+     "shot": "si_sand",
+     "type": "HOST",
+     "text": "And the fruit trees never came back.",
+     "date": null
+    },
+    {
+     "id": "c232",
+     "shot": "si_net",
+     "type": "INSERT",
+     "text": "October 1969.",
+     "date": null
+    },
+    {
+     "id": "c233",
+     "shot": "si_net",
+     "type": "INSERT",
+     "text": "A computer in Los Angeles sends the first message on the network that will become the internet.",
+     "date": null,
+     "sfx": [
+      [
+       "blip",
+       "w:sends",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "c234",
+     "shot": "si_screen",
+     "type": "INSERT",
+     "text": "The message was supposed to be the word login.",
+     "date": null,
+     "sfx": [
+      [
+       "blip",
+       "w:login.",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "c235",
+     "shot": "si_screen",
+     "type": "INSERT",
+     "text": "The system crashed after two letters.",
+     "date": null,
+     "sfx": [
+      [
+       "glitch",
+       "w:crashed",
+       0.7
+      ]
+     ]
+    },
+    {
+     "id": "c236",
+     "shot": "si_screen",
+     "type": "INSERT",
+     "text": "So the first word ever sent online was... *lo.*",
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       "w:lo.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c237",
+     "shot": "si_garages",
+     "type": "HOST",
+     "text": "1976.",
+     "date": null
+    },
+    {
+     "id": "c238",
+     "shot": "si_garages",
+     "type": "HOST",
+     "text": "Two friends named Steve, and another garage.",
+     "date": null
+    },
+    {
+     "id": "c239",
+     "shot": "si_garages",
+     "type": "HOST",
+     "text": "Apple.",
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       "w:Apple.",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c240",
+     "shot": "si_garages",
+     "type": "HOST",
+     "text": "1998.",
+     "date": null
+    },
+    {
+     "id": "c241",
+     "shot": "si_garages",
+     "type": "HOST",
+     "text": "Two students, and another garage.",
+     "date": null
+    },
+    {
+     "id": "c242",
+     "shot": "si_garages",
+     "type": "HOST",
+     "text": "Google.",
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       "w:Google.",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c243",
+     "shot": "si_gold",
+     "type": "HOST",
+     "text": "California had found gold again.",
+     "date": null
+    },
+    {
+     "id": "c244",
+     "shot": "si_gold",
+     "type": "HOST",
+     "text": "This time, it was made of sand.",
+     "date": null,
+     "sfx": [
+      [
+       "sparkle",
+       "w:sand.",
+       0.5
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

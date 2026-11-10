@@ -1,0 +1,282 @@
+{
+ "title": "Spain",
+ "sections": [
+  {
+   "title": "Spain",
+   "card": false,
+   "beats": [
+    {
+     "id": "c025",
+     "shot": "sp_cabrillo",
+     "type": "INSERT",
+     "text": "1542. A captain named Cabrillo sails up the coast for Spain.",
+     "date": null,
+     "amb": "waves",
+     "sfx": [
+      [
+       "tick",
+       0,
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c026",
+     "shot": "sp_cabrillo",
+     "type": "INSERT",
+     "text": "He's the first European to see it.",
+     "date": null,
+     "amb": "waves"
+    },
+    {
+     "id": "c027",
+     "shot": "sp_react",
+     "type": "HOST",
+     "text": "And Spain's reaction?",
+     "date": null
+    },
+    {
+     "id": "c028",
+     "shot": "sp_react",
+     "type": "HOST",
+     "text": "Nice. We'll get back to you.",
+     "date": null,
+     "sfx": [
+      [
+       "boing",
+       "w:Nice.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c029",
+     "shot": "sp_wait",
+     "type": "HOST",
+     "text": "They did.",
+     "date": null
+    },
+    {
+     "id": "c030",
+     "shot": "sp_wait",
+     "type": "HOST",
+     "text": "*227* years later.",
+     "date": null,
+     "sfx": [
+      [
+       "ticks",
+       0,
+       0.5
+      ],
+      [
+       "stamp",
+       "w:later.",
+       0.7
+      ]
+     ]
+    },
+    {
+     "id": "c031",
+     "shot": "sp_drake",
+     "type": "STORY",
+     "text": "In between, the English sea captain Francis Drake stopped by in 1579.",
+     "date": null,
+     "amb": "waves"
+    },
+    {
+     "id": "c032",
+     "shot": "sp_drake",
+     "type": "STORY",
+     "text": "He fixed his ship, claimed the whole place for his queen, and left.",
+     "date": null,
+     "amb": "waves",
+     "sfx": [
+      [
+       "pop",
+       "w:claimed",
+       0.5
+      ],
+      [
+       "whoosh",
+       "w:left.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c033",
+     "shot": "sp_woke",
+     "type": "HOST",
+     "text": "So what finally woke Spain up?",
+     "date": null
+    },
+    {
+     "id": "c034",
+     "shot": "sp_woke",
+     "type": "HOST",
+     "text": "*Russia.*",
+     "date": null,
+     "sfx": [
+      [
+       "slam",
+       "w:Russia.",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "c035",
+     "shot": "sp_russia",
+     "type": "INSERT",
+     "text": "Russian fur hunters were creeping down from Alaska,",
+     "date": null
+    },
+    {
+     "id": "c036",
+     "shot": "sp_russia",
+     "type": "INSERT",
+     "text": "and suddenly that quiet coast looked worth keeping.",
+     "date": null
+    },
+    {
+     "id": "c037",
+     "shot": "sp_missions",
+     "type": "INSERT",
+     "text": "So in 1769, soldiers and priests marched north.",
+     "date": null
+    },
+    {
+     "id": "c038",
+     "shot": "sp_missions",
+     "type": "INSERT",
+     "text": "Over the next 54 years, they built *21* missions,",
+     "date": null
+    },
+    {
+     "id": "c039",
+     "shot": "sp_missions",
+     "type": "INSERT",
+     "text": "from San Diego to Sonoma, linked by one road. El Camino Real, the Royal Road.",
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       "w:Royal",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c040",
+     "shot": "sp_cities",
+     "type": "HOST",
+     "text": "San Diego.",
+     "date": null,
+     "sfx": [
+      [
+       "swish",
+       0,
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c041",
+     "shot": "sp_cities",
+     "type": "HOST",
+     "text": "Santa Barbara. San Francisco.",
+     "date": null,
+     "sfx": [
+      [
+       "swish",
+       0,
+       0.5
+      ],
+      [
+       "swish",
+       "w:San",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c042",
+     "shot": "sp_cities",
+     "type": "HOST",
+     "text": "Every one of those cities began as a mission.",
+     "date": null
+    },
+    {
+     "id": "c043",
+     "shot": "sp_cities",
+     "type": "HOST",
+     "text": "You have been reading Spain's to-do list on road signs your *whole* life.",
+     "date": null,
+     "sfx": [
+      [
+       "kaching",
+       "w:to-do",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c044",
+     "shot": "sp_walls",
+     "type": "STORY",
+     "text": "But inside the mission walls, it was a different story.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c045",
+     "shot": "sp_walls",
+     "type": "STORY",
+     "text": "Native families were brought in to work and to pray.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c046",
+     "shot": "sp_walls",
+     "type": "STORY",
+     "text": "Many were not free to leave, and the diseases that came with the newcomers",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c047",
+     "shot": "sp_walls",
+     "type": "STORY",
+     "text": "moved faster than any priest.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c048",
+     "shot": "sp_walls",
+     "type": "STORY",
+     "text": "Tens of thousands died.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c049",
+     "shot": "sp_rush1",
+     "type": "HOST",
+     "text": "Rush number one was for souls and for empire.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c050",
+     "shot": "sp_rush1",
+     "type": "HOST",
+     "text": "It would not be the last.",
+     "date": null,
+     "quiet": true
+    }
+   ]
+  }
+ ]
+}

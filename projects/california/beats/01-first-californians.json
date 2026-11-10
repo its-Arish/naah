@@ -1,0 +1,139 @@
+{
+ "title": "First Californians",
+ "sections": [
+  {
+   "title": "First Californians",
+   "card": false,
+   "beats": [
+    {
+     "id": "c013",
+     "shot": "fc_cane",
+     "type": "HOST",
+     "text": "Let's go back 13,000 years. Long before the name, people were already here.",
+     "date": null,
+     "sfx": [
+      [
+       "tick",
+       0,
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c014",
+     "shot": "fc_map",
+     "type": "INSERT",
+     "text": "By the time Europe showed up, there were around 300,000 of them,",
+     "date": null
+    },
+    {
+     "id": "c015",
+     "shot": "fc_map",
+     "type": "INSERT",
+     "text": "speaking close to *100* different languages.",
+     "date": null,
+     "sfx": [
+      [
+       "pops",
+       0,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c016",
+     "shot": "fc_map",
+     "type": "INSERT",
+     "text": "A hundred! In one state.",
+     "date": null
+    },
+    {
+     "id": "c017",
+     "shot": "fc_map",
+     "type": "INSERT",
+     "text": "No kings, no empire, just hundreds of small nations.",
+     "date": null,
+     "sfx": [
+      [
+       "pop",
+       "w:kings,",
+       0.5
+      ],
+      [
+       "pop",
+       "w:empire,",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c018",
+     "shot": "fc_canoe",
+     "type": "STORY",
+     "text": "On the coast, the Chumash built plank canoes and paddled out to the islands.",
+     "date": null,
+     "amb": "waves"
+    },
+    {
+     "id": "c019",
+     "shot": "fc_acorn",
+     "type": "STORY",
+     "text": "In the oak valleys, families ground acorns into flour,",
+     "date": null,
+     "amb": "birds"
+    },
+    {
+     "id": "c020",
+     "shot": "fc_fire",
+     "type": "STORY",
+     "text": "and they lit small, careful fires to keep the forest healthy.",
+     "date": null,
+     "amb": "birds"
+    },
+    {
+     "id": "c021",
+     "shot": "fc_fire",
+     "type": "STORY",
+     "text": "Hold on to those fires. California is going to need them.",
+     "date": null,
+     "amb": "birds",
+     "sfx": [
+      [
+       "ding",
+       "w:fires.",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c022",
+     "shot": "fc_river",
+     "type": "STORY",
+     "text": "And the gold? It was lying right there in the riverbeds.",
+     "date": null,
+     "sfx": [
+      [
+       "sparkle",
+       "w:gold?",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c023",
+     "shot": "fc_river",
+     "type": "STORY",
+     "text": "For 13,000 years, people stepped over it, and *nobody* rushed anywhere.",
+     "date": null
+    },
+    {
+     "id": "c024",
+     "shot": "fc_change",
+     "type": "HOST",
+     "text": "That was about to change.",
+     "date": null
+    }
+   ]
+  }
+ ]
+}

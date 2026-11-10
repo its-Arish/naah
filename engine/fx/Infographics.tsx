@@ -31,7 +31,7 @@ export const Card: React.FC<{ at: number; left: number; top: number; text: strin
   return k > 0 ? <div style={{ position: 'absolute', left, top, transform: `translate(-50%,-50%) scale(${k}) rotate(${rot}deg)`, background: bg, border: '6px solid #1A1410', borderRadius: 14, padding: '10px 30px', boxShadow: '8px 10px 0 rgba(0,0,0,0.3)', textAlign: 'center', whiteSpace: 'nowrap' }}><div style={{ fontFamily: 'TagBold', fontSize: size, color }}>{text}</div>{sub && <div style={{ fontFamily: 'TagBold', fontSize: size * 0.45, color: '#5A4A3A' }}>{sub}</div>}</div> : null;
 };
 /** A wall calendar page that can flip from another date. */
-export const Calendar: React.FC<{ x: number; y: number; s?: number; month: string; day: string | number; year?: string | number; flipAt?: number; from?: { month: string; day: string | number }; glow?: number; color?: string }> = ({ x, y, s = 1, month, day, year, flipAt, from, glow = 0, color = NORTH }) => {
+export const Calendar: React.FC<{ x: number; y: number; s?: number; month: string; day: string | number; year?: string | number; flipAt?: number; from?: { month: string; day: string | number }; glow?: number; color?: string }> = ({ x, y, s = 1, month, day, year, flipAt, from, glow = 0, color = "#2F4A7A" }) => {
   const f = useCurrentFrame();
   const k = flipAt == null ? 1 : interpolate(f, [flipAt, flipAt + 10], [0, 1], Easing.inOut);
   const show = k < 0.5 && from ? from : { month, day };

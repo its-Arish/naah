@@ -1,0 +1,190 @@
+{
+ "title": "Hook",
+ "sections": [
+  {
+   "title": "Hook",
+   "card": false,
+   "beats": [
+    {
+     "id": "c001",
+     "shot": "h_room",
+     "type": "HOST",
+     "text": "The entire history of California is sitting in your room right now.",
+     "date": null
+    },
+    {
+     "id": "c002",
+     "shot": "h_things",
+     "type": "HOST",
+     "text": "The jeans you're wearing, the phone in your hand, the app you're watching this on,",
+     "date": null,
+     "sfx": [
+      [
+       "tick",
+       "w:jeans",
+       0.5
+      ],
+      [
+       "tick",
+       "w:phone",
+       0.5
+      ],
+      [
+       "tick",
+       "w:app",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c003",
+     "shot": "h_things",
+     "type": "HOST",
+     "text": "the movies you grew up with, even the almonds in your kitchen.",
+     "date": null,
+     "sfx": [
+      [
+       "tick",
+       "w:movies",
+       0.5
+      ],
+      [
+       "tick",
+       "w:almonds",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c004",
+     "shot": "h_globe",
+     "type": "INSERT",
+     "text": "All of it came from one strip of coast, a coast named after an island that *never* existed.",
+     "date": null
+    },
+    {
+     "id": "c005",
+     "shot": "h_novel",
+     "type": "INSERT",
+     "text": "No really, the name comes from a Spanish adventure novel from 1510",
+     "date": null,
+     "sfx": [
+      [
+       "paper",
+       4,
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c006",
+     "shot": "h_novel",
+     "type": "INSERT",
+     "text": "about an island of warrior women where the only metal was gold.",
+     "date": null,
+     "sfx": [
+      [
+       "sparkle",
+       "w:gold.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c007",
+     "shot": "h_island",
+     "type": "INSERT",
+     "text": "And for more than 100 years, real map makers drew California as an island.",
+     "date": null,
+     "sfx": [
+      [
+       "scribble",
+       10,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c008",
+     "shot": "h_decree",
+     "type": "HOST",
+     "text": "A king of Spain finally had to announce it officially, California is *not* an island.",
+     "date": null,
+     "sfx": [
+      [
+       "stamp",
+       "w:not",
+       0.7
+      ],
+      [
+       "clang",
+       "end",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c009",
+     "shot": "h_econ",
+     "type": "INSERT",
+     "text": "Today, that not-island has one of the *five* biggest economies on Earth.",
+     "date": null,
+     "sfx": [
+      [
+       "pops",
+       6,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c010",
+     "shot": "h_board",
+     "type": "HOST",
+     "text": "But the man who found California's gold died poor, so did the man who owned the land,",
+     "date": null,
+     "sfx": [
+      [
+       "thud",
+       "w:poor,",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c011",
+     "shot": "h_board",
+     "type": "HOST",
+     "text": "so did the first millionaire the gold ever made.",
+     "date": null,
+     "sfx": [
+      [
+       "thud",
+       "w:millionaire",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c012",
+     "shot": "h_board",
+     "type": "HOST",
+     "text": "So who actually got *rich?*",
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       "w:rich?",
+       0.5
+      ],
+      [
+       "tick",
+       "end",
+       0.5
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -5,7 +5,7 @@ description: Turn a script (and optional voiceover) into an animated history exp
 
 # Make a history video
 
-Follow `CLAUDE.md` at the repo root step by step. It is the full procedure, and this skill is the checklist.
+Read `docs/PLAYBOOK.md` first (the creator's standing rules and shortcuts, with `projects/california` as the worked example), then follow `CLAUDE.md` at the repo root step by step. `CLAUDE.md` is the full procedure, and this skill is the checklist. For a voiced film from Gemini TTS, follow PLAYBOOK §4 to §8 instead of steps 3 to 5 below. At the end, update `docs/sessions/` and push.
 
 1. `node scripts/studio.mjs doctor`: fix the environment first (CLAUDE.md §0).
 2. Settle the brief: target length, whether to fact-check (default yes), whether a voiceover is coming, and a pilot first for long films (§1).

@@ -2,6 +2,8 @@
 
 You are working in **History Cartoon Studio**. A person gives you a **script** (text, .md, .pdf or .docx) and sometimes a **voiceover** recording. You turn it into a finished MP4 in this repo's house style: the recurring turbaned narrator on a grey stage, storybook scenes, handwritten captions, physics-based motion and synthesised sound effects. There are no stock images, no AI art and no music, unless the person asks.
 
+**Start here (the creator's standing rules):** read `docs/PLAYBOOK.md` first. It holds the script rules (familiar-thing hook, three flowing facts, never "stay to the end", no chapter cards), how to write for Gemini TTS, how to fix a Gemini voiceover and its `.srt`, the timeline bar, and the delivery checklist. The worked example is `projects/california`. Past sessions, with the creator's instructions in their own words, are in `docs/sessions/`. When a session ends, add or update its log there and push, so nothing depends on chat memory.
+
 Read these before your first video: `docs/STYLE.md` (the look and the rules), `docs/PHYSICS.md` (how things move), `docs/SCENES.md` (every ready-made character, scene and prop) and, if there is a voiceover, `docs/VOICEOVER.md`. Then look at `projects/physics-demo/shots.tsx` and a few shots in `projects/india-1000-years/src/ShotsIndia.tsx` for idioms.
 
 ## 0. Environment
@@ -148,5 +150,8 @@ engine/            shared by every film (don't fork it per project; improve it)
   kit.tsx            hostShot, Drop, PopProp, Rider, Card, makeOpening, makeEnd, wordAt
   runtime/           the page that plays a timeline (built per project)
 projects/<slug>/   script.md, project.json, beats/*.json, shots.tsx, src/, voiceover.* → build/, out/
+  california/        worked example of a voiced long film: tools/fix_srt.py, tools/make_beats.py, src/Timeline.tsx, src/Kit*.tsx
+docs/PLAYBOOK.md   the creator's rules and shortcuts, topic to delivery (read first)
+docs/sessions/     one log per session: what was asked, made and learned
 scripts/studio.mjs the CLI; build_timeline.mjs, script_to_beats.py, align_voiceover.py, sfx.py do the work
 ```

@@ -1,0 +1,13 @@
+{
+  "title": "The Entire History of California",
+  "fps": 30,
+  "wordsPerSecond": 3.2,
+  "openingSeconds": 0.2,
+  "cardSeconds": 2.2,
+  "endSeconds": 4,
+  "dateTag": false,
+  "captionFont": "serif",
+  "voMaxPause": 1.6,
+  "mix": { "voice": 1.0, "sfx": 0.35, "music": 0, "duck": true, "loudness": -14 },
+  "mapSfx": "tech"
+}

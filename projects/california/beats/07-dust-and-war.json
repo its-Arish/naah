@@ -1,0 +1,307 @@
+{
+ "title": "Dust and war",
+ "sections": [
+  {
+   "title": "Dust and war",
+   "card": false,
+   "beats": [
+    {
+     "id": "c186",
+     "shot": "dw_dust",
+     "type": "STORY",
+     "text": "The 1930s.",
+     "date": null,
+     "amb": "wind"
+    },
+    {
+     "id": "c187",
+     "shot": "dw_dust",
+     "type": "STORY",
+     "text": "The middle of America turns to dust.",
+     "date": null,
+     "amb": "wind"
+    },
+    {
+     "id": "c188",
+     "shot": "dw_dust",
+     "type": "STORY",
+     "text": "Farms blow away.",
+     "date": null,
+     "amb": "wind"
+    },
+    {
+     "id": "c189",
+     "shot": "dw_road",
+     "type": "INSERT",
+     "text": "More than 300,000 people load everything onto old cars and drive west,",
+     "date": null
+    },
+    {
+     "id": "c190",
+     "shot": "dw_road",
+     "type": "INSERT",
+     "text": "to the place from the posters.",
+     "date": null
+    },
+    {
+     "id": "c191",
+     "shot": "dw_border",
+     "type": "STORY",
+     "text": "California did not roll out a welcome mat.",
+     "date": null,
+     "amb": "wind"
+    },
+    {
+     "id": "c192",
+     "shot": "dw_border",
+     "type": "STORY",
+     "text": "In 1936, Los Angeles sent its own police to the state border to turn poor families around.",
+     "date": null,
+     "amb": "wind",
+     "sfx": [
+      [
+       "thud",
+       "w:police",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c193",
+     "shot": "dw_border",
+     "type": "STORY",
+     "text": "The state built by newcomers tried to close the door.",
+     "date": null,
+     "amb": "wind"
+    },
+    {
+     "id": "c194",
+     "shot": "dw_fruit",
+     "type": "STORY",
+     "text": "Those who got in picked fruit for pennies,",
+     "date": null,
+     "amb": "birds"
+    },
+    {
+     "id": "c195",
+     "shot": "dw_fruit",
+     "type": "STORY",
+     "text": "on land owned by somebody else.",
+     "date": null,
+     "amb": "birds"
+    },
+    {
+     "id": "c196",
+     "shot": "dw_bridge",
+     "type": "STORY",
+     "text": "Then in 1937, an impossible bridge opened across the Golden Gate.",
+     "date": null,
+     "amb": "waves",
+     "sfx": [
+      [
+       "riser",
+       0,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c197",
+     "shot": "dw_bridge",
+     "type": "STORY",
+     "text": "And four years later, everything changed again.",
+     "date": null,
+     "amb": "waves"
+    },
+    {
+     "id": "c198",
+     "shot": "dw_war",
+     "type": "INSERT",
+     "text": "War.",
+     "date": null,
+     "sfx": [
+      [
+       "drum",
+       0,
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "c199",
+     "shot": "dw_war",
+     "type": "INSERT",
+     "text": "California became America's factory on the Pacific.",
+     "date": null
+    },
+    {
+     "id": "c200",
+     "shot": "dw_war",
+     "type": "INSERT",
+     "text": "Planes in the south, ships in the north.",
+     "date": null
+    },
+    {
+     "id": "c201",
+     "shot": "dw_yard",
+     "type": "STORY",
+     "text": "The shipyards of one town near San Francisco built *747* ships.",
+     "date": null,
+     "amb": "waves",
+     "sfx": [
+      [
+       "ticks",
+       0,
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c202",
+     "shot": "dw_yard",
+     "type": "STORY",
+     "text": "One of them was put together in under five days.",
+     "date": null,
+     "amb": "waves",
+     "sfx": [
+      [
+       "ding",
+       "w:five",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c203",
+     "shot": "dw_growth",
+     "type": "HOST",
+     "text": "Millions came for the work.",
+     "date": null
+    },
+    {
+     "id": "c204",
+     "shot": "dw_growth",
+     "type": "HOST",
+     "text": "Between 1940 and 1950, the population jumped from under 7 million to over 10.",
+     "date": null,
+     "sfx": [
+      [
+       "riser",
+       0,
+       0.3
+      ]
+     ]
+    },
+    {
+     "id": "c205",
+     "shot": "dw_quiet",
+     "type": "STORY",
+     "text": "But in 1942, the government forced about 120,000 people of Japanese descent out of their homes",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c206",
+     "shot": "dw_quiet",
+     "type": "STORY",
+     "text": "on the West Coast and into camps behind barbed wire.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c207",
+     "shot": "dw_quiet",
+     "type": "STORY",
+     "text": "Two out of three were American citizens.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c208",
+     "shot": "dw_quiet",
+     "type": "STORY",
+     "text": "They lost farms, shops, and homes.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c209",
+     "shot": "dw_quiet",
+     "type": "STORY",
+     "text": "The official apology came 46 years later.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c210",
+     "shot": "dw_after",
+     "type": "STORY",
+     "text": "After the war, the soldiers who had passed through remembered the weather.",
+     "date": null,
+     "amb": "birds"
+    },
+    {
+     "id": "c211",
+     "shot": "dw_after",
+     "type": "STORY",
+     "text": "They came back with families.",
+     "date": null,
+     "amb": "birds"
+    },
+    {
+     "id": "c212",
+     "shot": "dw_after",
+     "type": "STORY",
+     "text": "Freeways.",
+     "date": null,
+     "amb": "birds",
+     "sfx": [
+      [
+       "whoosh",
+       0,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c213",
+     "shot": "dw_after",
+     "type": "STORY",
+     "text": "Suburbs.",
+     "date": null,
+     "amb": "birds",
+     "sfx": [
+      [
+       "pops",
+       0,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c214",
+     "shot": "dw_after",
+     "type": "STORY",
+     "text": "A theme park in an orange grove.",
+     "date": null,
+     "amb": "birds",
+     "sfx": [
+      [
+       "pop",
+       0,
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c215",
+     "shot": "dw_after",
+     "type": "STORY",
+     "text": "By the early 1960s, California had more people than any other state.",
+     "date": null,
+     "amb": "birds"
+    }
+   ]
+  }
+ ]
+}

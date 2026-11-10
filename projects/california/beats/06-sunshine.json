@@ -1,0 +1,346 @@
+{
+ "title": "Sunshine",
+ "sections": [
+  {
+   "title": "Sunshine",
+   "card": false,
+   "beats": [
+    {
+     "id": "c148",
+     "shot": "su_ads",
+     "type": "HOST",
+     "text": "Now the trains needed passengers.",
+     "date": null
+    },
+    {
+     "id": "c149",
+     "shot": "su_ads",
+     "type": "HOST",
+     "text": "So the railroads did something new.",
+     "date": null
+    },
+    {
+     "id": "c150",
+     "shot": "su_ads",
+     "type": "HOST",
+     "text": "They advertised a place.",
+     "date": null
+    },
+    {
+     "id": "c151",
+     "shot": "su_ads",
+     "type": "HOST",
+     "text": "Posters.",
+     "date": null,
+     "sfx": [
+      [
+       "paper",
+       0,
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c152",
+     "shot": "su_ads",
+     "type": "HOST",
+     "text": "Orange crates painted like paradise.",
+     "date": null,
+     "sfx": [
+      [
+       "paper",
+       0,
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c153",
+     "shot": "su_ads",
+     "type": "HOST",
+     "text": "Come to California.",
+     "date": null
+    },
+    {
+     "id": "c154",
+     "shot": "su_ads",
+     "type": "HOST",
+     "text": "Where it is summer all year.",
+     "date": null
+    },
+    {
+     "id": "c155",
+     "shot": "su_ticket",
+     "type": "HOST",
+     "text": "During one price war,",
+     "date": null
+    },
+    {
+     "id": "c156",
+     "shot": "su_ticket",
+     "type": "HOST",
+     "text": "a ticket from Kansas City to Los Angeles dropped to one dollar.",
+     "date": null,
+     "sfx": [
+      [
+       "kaching",
+       "w:one",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c157",
+     "shot": "su_la",
+     "type": "HOST",
+     "text": "In 1870, Los Angeles had under 6,000 people.",
+     "date": null
+    },
+    {
+     "id": "c158",
+     "shot": "su_la",
+     "type": "HOST",
+     "text": "By 1930, it had over a million.",
+     "date": null,
+     "sfx": [
+      [
+       "riser",
+       0,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c159",
+     "shot": "su_quake",
+     "type": "STORY",
+     "text": "Up north, San Francisco learned what the ground could do.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c160",
+     "shot": "su_quake",
+     "type": "STORY",
+     "text": "April 18th, 1906.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c161",
+     "shot": "su_quake",
+     "type": "STORY",
+     "text": "An earthquake.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c162",
+     "shot": "su_quake",
+     "type": "STORY",
+     "text": "Then three days of fire.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c163",
+     "shot": "su_quake",
+     "type": "STORY",
+     "text": "About 3,000 dead.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c164",
+     "shot": "su_quake",
+     "type": "STORY",
+     "text": "Most of the city gone.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c165",
+     "shot": "su_quake",
+     "type": "STORY",
+     "text": "They rebuilt it in under 10 years.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c166",
+     "shot": "su_water",
+     "type": "HOST",
+     "text": "Down south, Los Angeles had a different problem.",
+     "date": null
+    },
+    {
+     "id": "c167",
+     "shot": "su_water",
+     "type": "HOST",
+     "text": "A million people were coming to a place with almost no water.",
+     "date": null
+    },
+    {
+     "id": "c168",
+     "shot": "su_aqueduct",
+     "type": "INSERT",
+     "text": "So the city's water chief, William Mulholland, built an aqueduct.",
+     "date": null
+    },
+    {
+     "id": "c169",
+     "shot": "su_aqueduct",
+     "type": "INSERT",
+     "text": "*233* miles long.",
+     "date": null,
+     "sfx": [
+      [
+       "stamp",
+       "w:233",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "c170",
+     "shot": "su_aqueduct",
+     "type": "INSERT",
+     "text": "It reached into a farming valley called Owens Valley",
+     "date": null
+    },
+    {
+     "id": "c171",
+     "shot": "su_aqueduct",
+     "type": "INSERT",
+     "text": "and drank the river.",
+     "date": null
+    },
+    {
+     "id": "c172",
+     "shot": "su_speech",
+     "type": "STORY",
+     "text": "When the water arrived in 1913,",
+     "date": null
+    },
+    {
+     "id": "c173",
+     "shot": "su_speech",
+     "type": "STORY",
+     "text": "Mulholland gave a speech. Five words.",
+     "date": null
+    },
+    {
+     "id": "c174",
+     "shot": "su_speech",
+     "type": "STORY",
+     "text": "There it is.",
+     "date": null
+    },
+    {
+     "id": "c175",
+     "shot": "su_speech",
+     "type": "STORY",
+     "text": "Take it.",
+     "date": null,
+     "sfx": [
+      [
+       "thud",
+       "w:Take",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c176",
+     "shot": "su_owens",
+     "type": "STORY",
+     "text": "Owens Lake dried into a bowl of dust.",
+     "date": null,
+     "amb": "wind"
+    },
+    {
+     "id": "c177",
+     "shot": "su_insiders",
+     "type": "HOST",
+     "text": "And a small group of insiders, who had quietly bought the empty land where the water would arrive?",
+     "date": null
+    },
+    {
+     "id": "c178",
+     "shot": "su_insiders",
+     "type": "HOST",
+     "text": "They got very, very rich.",
+     "date": null,
+     "sfx": [
+      [
+       "coins",
+       "w:rich.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c179",
+     "shot": "su_hollywood",
+     "type": "STORY",
+     "text": "Around the same time, some people with cameras showed up.",
+     "date": null,
+     "amb": "birds"
+    },
+    {
+     "id": "c180",
+     "shot": "su_hollywood",
+     "type": "STORY",
+     "text": "They wanted sunshine almost every day,",
+     "date": null,
+     "amb": "birds"
+    },
+    {
+     "id": "c181",
+     "shot": "su_hollywood",
+     "type": "STORY",
+     "text": "with mountains, desert, and ocean all a short drive apart.",
+     "date": null,
+     "amb": "birds"
+    },
+    {
+     "id": "c182",
+     "shot": "su_hollywood",
+     "type": "STORY",
+     "text": "They set up in a quiet suburb.",
+     "date": null,
+     "amb": "birds"
+    },
+    {
+     "id": "c183",
+     "shot": "su_hollywood",
+     "type": "STORY",
+     "text": "It was called *Hollywood.*",
+     "date": null,
+     "amb": "birds",
+     "sfx": [
+      [
+       "sparkle",
+       "w:Hollywood.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c184",
+     "shot": "su_rule",
+     "type": "HOST",
+     "text": "New rush. Same rule.",
+     "date": null
+    },
+    {
+     "id": "c185",
+     "shot": "su_rule",
+     "type": "HOST",
+     "text": "And the next crowd arrived with nothing left to lose.",
+     "date": null
+    }
+   ]
+  }
+ ]
+}

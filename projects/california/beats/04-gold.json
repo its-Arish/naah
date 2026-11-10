@@ -1,0 +1,495 @@
+{
+ "title": "Gold",
+ "sections": [
+  {
+   "title": "Gold",
+   "card": false,
+   "beats": [
+    {
+     "id": "c072",
+     "shot": "gd_mill",
+     "type": "STORY",
+     "text": "January 24th, 1848.",
+     "date": null,
+     "amb": "birds"
+    },
+    {
+     "id": "c073",
+     "shot": "gd_mill",
+     "type": "STORY",
+     "text": "James Marshall is building a sawmill for his boss, John Sutter.",
+     "date": null,
+     "amb": "birds"
+    },
+    {
+     "id": "c074",
+     "shot": "gd_mill",
+     "type": "STORY",
+     "text": "In the water, something shines.",
+     "date": null,
+     "amb": "birds",
+     "sfx": [
+      [
+       "sparkle",
+       "w:shines.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c075",
+     "shot": "gd_mill",
+     "type": "STORY",
+     "text": "*Gold.*",
+     "date": null,
+     "amb": "birds",
+     "sfx": [
+      [
+       "ding",
+       "w:Gold.",
+       0.6
+      ],
+      [
+       "hit",
+       "w:Gold.",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c076",
+     "shot": "gd_novel",
+     "type": "HOST",
+     "text": "Remember the novel?",
+     "date": null
+    },
+    {
+     "id": "c077",
+     "shot": "gd_novel",
+     "type": "HOST",
+     "text": "The island where the only metal was gold?",
+     "date": null
+    },
+    {
+     "id": "c078",
+     "shot": "gd_novel",
+     "type": "HOST",
+     "text": "338 years later, the made-up story came true.",
+     "date": null,
+     "sfx": [
+      [
+       "stamp",
+       "w:338",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "c079",
+     "shot": "gd_secret",
+     "type": "HOST",
+     "text": "Sutter begged everyone to keep it secret.",
+     "date": null
+    },
+    {
+     "id": "c080",
+     "shot": "gd_secret",
+     "type": "HOST",
+     "text": "It stayed secret for about five minutes.",
+     "date": null,
+     "sfx": [
+      [
+       "ticks",
+       0,
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c081",
+     "shot": "gd_brannan",
+     "type": "HOST",
+     "text": "Because a shopkeeper named Sam Brannan heard the news,",
+     "date": null
+    },
+    {
+     "id": "c082",
+     "shot": "gd_brannan",
+     "type": "HOST",
+     "text": "and before he told a single person, he quietly bought up every pick,",
+     "date": null,
+     "sfx": [
+      [
+       "pop",
+       "w:pick,",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c083",
+     "shot": "gd_brannan",
+     "type": "HOST",
+     "text": "pan, and shovel he could find.",
+     "date": null,
+     "sfx": [
+      [
+       "pop",
+       "w:pan,",
+       0.5
+      ],
+      [
+       "pop",
+       "w:shovel",
+       0.5
+      ],
+      [
+       "kaching",
+       "end",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c084",
+     "shot": "gd_shout",
+     "type": "STORY",
+     "text": "Then, the story goes, he ran through the streets of San Francisco,",
+     "date": null
+    },
+    {
+     "id": "c085",
+     "shot": "gd_shout",
+     "type": "STORY",
+     "text": "waving a bottle of gold dust and shouting,",
+     "date": null
+    },
+    {
+     "id": "c086",
+     "shot": "gd_shout",
+     "type": "STORY",
+     "text": "Gold! Gold from the American River!",
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       "w:Gold!",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c087",
+     "shot": "gd_boom",
+     "type": "HOST",
+     "text": "San Francisco had about 1,000 people.",
+     "date": null
+    },
+    {
+     "id": "c088",
+     "shot": "gd_boom",
+     "type": "HOST",
+     "text": "Two years later, it had *25,000.*",
+     "date": null,
+     "sfx": [
+      [
+       "pops",
+       0,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c089",
+     "shot": "gd_ships",
+     "type": "STORY",
+     "text": "Sailors jumped off their ships and ran for the hills.",
+     "date": null,
+     "amb": "waves"
+    },
+    {
+     "id": "c090",
+     "shot": "gd_ships",
+     "type": "STORY",
+     "text": "Hundreds of empty ships sat rotting in the bay.",
+     "date": null,
+     "amb": "waves"
+    },
+    {
+     "id": "c091",
+     "shot": "gd_ships",
+     "type": "STORY",
+     "text": "Some were dragged ashore and turned into hotels.",
+     "date": null,
+     "amb": "waves",
+     "sfx": [
+      [
+       "pop",
+       "w:hotels.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c092",
+     "shot": "gd_world",
+     "type": "INSERT",
+     "text": "They came from everywhere.",
+     "date": null
+    },
+    {
+     "id": "c093",
+     "shot": "gd_world",
+     "type": "INSERT",
+     "text": "China, Chile, Mexico, Australia, France,",
+     "date": null,
+     "sfx": [
+      [
+       "tick",
+       "w:China,",
+       0.5
+      ],
+      [
+       "tick",
+       "w:Chile,",
+       0.5
+      ],
+      [
+       "tick",
+       "w:Mexico,",
+       0.5
+      ],
+      [
+       "tick",
+       "w:Australia,",
+       0.5
+      ],
+      [
+       "tick",
+       "w:France,",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c094",
+     "shot": "gd_world",
+     "type": "INSERT",
+     "text": "around *300,000* people in seven years.",
+     "date": null
+    },
+    {
+     "id": "c095",
+     "shot": "gd_prices",
+     "type": "HOST",
+     "text": "An egg could cost a dollar.",
+     "date": null,
+     "sfx": [
+      [
+       "kaching",
+       "w:dollar.",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c096",
+     "shot": "gd_prices",
+     "type": "HOST",
+     "text": "A shovel could cost a small fortune.",
+     "date": null
+    },
+    {
+     "id": "c097",
+     "shot": "gd_state",
+     "type": "HOST",
+     "text": "California skipped the waiting line completely.",
+     "date": null,
+     "sfx": [
+      [
+       "boing",
+       10,
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c098",
+     "shot": "gd_state",
+     "type": "HOST",
+     "text": "In 1850, it became the 31st state.",
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       "w:31st",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c099",
+     "shot": "gd_quiet",
+     "type": "STORY",
+     "text": "But the hills were not empty.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c100",
+     "shot": "gd_quiet",
+     "type": "STORY",
+     "text": "Around 150,000 Native people lived in California when the gold was found.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c101",
+     "shot": "gd_quiet",
+     "type": "STORY",
+     "text": "By 1870, about 30,000 were left.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c102",
+     "shot": "gd_quiet",
+     "type": "STORY",
+     "text": "Disease, hunger, and killing that the new state paid for.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c103",
+     "shot": "gd_quiet",
+     "type": "STORY",
+     "text": "Its first governor told lawmakers to expect a war of extermination.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c104",
+     "shot": "gd_quiet",
+     "type": "STORY",
+     "text": "In 2019, the governor of California stood in front of tribal leaders",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c105",
+     "shot": "gd_quiet",
+     "type": "STORY",
+     "text": "and called it what it was.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c106",
+     "shot": "gd_quiet",
+     "type": "STORY",
+     "text": "A genocide.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c107",
+     "shot": "gd_quiet",
+     "type": "STORY",
+     "text": "And he apologized.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c108",
+     "shot": "gd_men",
+     "type": "HOST",
+     "text": "And the men who started it all?",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c109",
+     "shot": "gd_men",
+     "type": "HOST",
+     "text": "Sutter's workers ran off to dig.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c110",
+     "shot": "gd_men",
+     "type": "HOST",
+     "text": "Strangers took over his land.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c111",
+     "shot": "gd_men",
+     "type": "HOST",
+     "text": "He died still asking Congress for help.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c112",
+     "shot": "gd_men",
+     "type": "HOST",
+     "text": "Marshall, the man who saw the gold first,",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c113",
+     "shot": "gd_men",
+     "type": "HOST",
+     "text": "ended up selling his own autograph to get by.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c114",
+     "shot": "gd_who",
+     "type": "HOST",
+     "text": "So if the finder didn't get rich,",
+     "date": null
+    },
+    {
+     "id": "c115",
+     "shot": "gd_who",
+     "type": "HOST",
+     "text": "and the landowner didn't get rich,",
+     "date": null
+    },
+    {
+     "id": "c116",
+     "shot": "gd_who",
+     "type": "HOST",
+     "text": "who did?",
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       "w:who",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c117",
+     "shot": "gd_who",
+     "type": "HOST",
+     "text": "Remember the shopkeeper.",
+     "date": null
+    },
+    {
+     "id": "c118",
+     "shot": "gd_who",
+     "type": "HOST",
+     "text": "We'll come back to him.",
+     "date": null
+    }
+   ]
+  }
+ ]
+}

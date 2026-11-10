@@ -1,0 +1,402 @@
+{
+ "title": "Today",
+ "sections": [
+  {
+   "title": "Today",
+   "card": false,
+   "beats": [
+    {
+     "id": "c245",
+     "shot": "td_nine",
+     "type": "HOST",
+     "text": "Add up every one of those rushes.",
+     "date": null
+    },
+    {
+     "id": "c246",
+     "shot": "td_nine",
+     "type": "HOST",
+     "text": "And today about one in every nine Americans lives in California.",
+     "date": null,
+     "sfx": [
+      [
+       "pops",
+       0,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c247",
+     "shot": "td_bill",
+     "type": "HOST",
+     "text": "And the bill has arrived.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c248",
+     "shot": "td_bill",
+     "type": "HOST",
+     "text": "A typical home costs about twice the American average.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c249",
+     "shot": "td_bill",
+     "type": "HOST",
+     "text": "More people sleep on the street here than in any other state.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c250",
+     "shot": "td_fire",
+     "type": "STORY",
+     "text": "And the fires keep getting bigger.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c251",
+     "shot": "td_fire",
+     "type": "STORY",
+     "text": "In 2018, a single fire erased a town called Paradise.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c252",
+     "shot": "td_fire",
+     "type": "STORY",
+     "text": "In January 2025, fires burned into Los Angeles itself and took more than 16,000 buildings.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c253",
+     "shot": "td_fire",
+     "type": "STORY",
+     "text": "Remember the small, careful fires from the very beginning?",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c254",
+     "shot": "td_fire",
+     "type": "STORY",
+     "text": "California is now working with the tribes to bring those fires back.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c255",
+     "shot": "td_ai",
+     "type": "INSERT",
+     "text": "And there is a new rush.",
+     "date": null
+    },
+    {
+     "id": "c256",
+     "shot": "td_ai",
+     "type": "INSERT",
+     "text": "Artificial intelligence.",
+     "date": null,
+     "sfx": [
+      [
+       "riser",
+       0,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c257",
+     "shot": "td_ai",
+     "type": "INSERT",
+     "text": "Once again, the world is running to San Francisco.",
+     "date": null
+    },
+    {
+     "id": "c258",
+     "shot": "td_board",
+     "type": "HOST",
+     "text": "So. The question I promised you at the start.",
+     "date": null
+    },
+    {
+     "id": "c259",
+     "shot": "td_board",
+     "type": "HOST",
+     "text": "Who actually gets rich in California?",
+     "date": null
+    },
+    {
+     "id": "c260",
+     "shot": "td_board",
+     "type": "HOST",
+     "text": "Not the man who found the gold.",
+     "date": null,
+     "sfx": [
+      [
+       "thud",
+       "w:gold.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c261",
+     "shot": "td_board",
+     "type": "HOST",
+     "text": "Not the man who owned the land.",
+     "date": null,
+     "sfx": [
+      [
+       "thud",
+       "w:land.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c262",
+     "shot": "td_board",
+     "type": "HOST",
+     "text": "Sam Brannan, the shopkeeper with the shovels? He became California's first millionaire.",
+     "date": null
+    },
+    {
+     "id": "c263",
+     "shot": "td_board",
+     "type": "HOST",
+     "text": "Then he lost it all and died with almost nothing.",
+     "date": null,
+     "sfx": [
+      [
+       "thud",
+       "w:lost",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c264",
+     "shot": "td_board",
+     "type": "HOST",
+     "text": "The railroad? Four shopkeepers.",
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       "w:shopkeepers.",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c265",
+     "shot": "td_board",
+     "type": "HOST",
+     "text": "The water? The men who bought the land first.",
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       "w:land",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c266",
+     "shot": "td_levi",
+     "type": "HOST",
+     "text": "And one more shopkeeper.",
+     "date": null
+    },
+    {
+     "id": "c267",
+     "shot": "td_levi",
+     "type": "HOST",
+     "text": "He arrived in San Francisco in 1853.",
+     "date": null
+    },
+    {
+     "id": "c268",
+     "shot": "td_levi",
+     "type": "HOST",
+     "text": "He never dug for gold.",
+     "date": null
+    },
+    {
+     "id": "c269",
+     "shot": "td_levi",
+     "type": "HOST",
+     "text": "Not once.",
+     "date": null
+    },
+    {
+     "id": "c270",
+     "shot": "td_levi",
+     "type": "HOST",
+     "text": "He sold cloth.",
+     "date": null
+    },
+    {
+     "id": "c271",
+     "shot": "td_levi",
+     "type": "HOST",
+     "text": "Then in 1873, he and a tailor put metal rivets on a pair of work pants.",
+     "date": null,
+     "sfx": [
+      [
+       "anvil",
+       "w:rivets",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c272",
+     "shot": "td_levi",
+     "type": "HOST",
+     "text": "His name was *Levi* Strauss.",
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       "w:Levi",
+       0.6
+      ],
+      [
+       "sparkle",
+       "w:Strauss.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c273",
+     "shot": "td_chips",
+     "type": "HOST",
+     "text": "And in today's rush? One of the most valuable companies on Earth is not digging for AI gold at all.",
+     "date": null
+    },
+    {
+     "id": "c274",
+     "shot": "td_chips",
+     "type": "HOST",
+     "text": "It sits in Santa Clara and it sells the chips.",
+     "date": null
+    },
+    {
+     "id": "c275",
+     "shot": "td_chips",
+     "type": "HOST",
+     "text": "The shovels.",
+     "date": null,
+     "sfx": [
+      [
+       "kaching",
+       "w:shovels.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c276",
+     "shot": "td_gone",
+     "type": "HOST",
+     "text": "The gold ran out.",
+     "date": null,
+     "sfx": [
+      [
+       "thud",
+       "end",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c277",
+     "shot": "td_gone",
+     "type": "HOST",
+     "text": "The grizzly is gone.",
+     "date": null,
+     "sfx": [
+      [
+       "thud",
+       "end",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c278",
+     "shot": "td_gone",
+     "type": "HOST",
+     "text": "The island never existed.",
+     "date": null,
+     "sfx": [
+      [
+       "thud",
+       "end",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c279",
+     "shot": "td_jeans",
+     "type": "HOST",
+     "text": "But look down.",
+     "date": null
+    },
+    {
+     "id": "c280",
+     "shot": "td_jeans",
+     "type": "HOST",
+     "text": "The jeans are *still* here.",
+     "date": null,
+     "sfx": [
+      [
+       "sparkle",
+       "w:jeans",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c281",
+     "shot": "td_end",
+     "type": "HOST",
+     "text": "That is the entire history of California.",
+     "date": null
+    },
+    {
+     "id": "c282",
+     "shot": "td_end",
+     "type": "HOST",
+     "text": "Everybody comes for the gold.",
+     "date": null
+    },
+    {
+     "id": "c283",
+     "shot": "td_end",
+     "type": "HOST",
+     "text": "The smart ones sell the *shovels.*",
+     "date": null,
+     "sfx": [
+      [
+       "kaching",
+       "w:shovels.",
+       0.5
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

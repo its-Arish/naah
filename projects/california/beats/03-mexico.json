@@ -1,0 +1,210 @@
+{
+ "title": "Mexico",
+ "sections": [
+  {
+   "title": "Mexico",
+   "card": false,
+   "beats": [
+    {
+     "id": "c051",
+     "shot": "mx_flag",
+     "type": "HOST",
+     "text": "1821, Mexico wins its independence from Spain,",
+     "date": null
+    },
+    {
+     "id": "c052",
+     "shot": "mx_flag",
+     "type": "HOST",
+     "text": "and California changes flags without a battle.",
+     "date": null,
+     "sfx": [
+      [
+       "slide_down",
+       "w:changes",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c053",
+     "shot": "mx_ranch",
+     "type": "STORY",
+     "text": "Mexico closes the missions and hands out the land as giant ranches.",
+     "date": null,
+     "amb": "birds"
+    },
+    {
+     "id": "c054",
+     "shot": "mx_ranch",
+     "type": "STORY",
+     "text": "The business is cattle.",
+     "date": null,
+     "amb": "birds"
+    },
+    {
+     "id": "c055",
+     "shot": "mx_ranch",
+     "type": "STORY",
+     "text": "Cow hides were worth so much that sailors called them California banknotes.",
+     "date": null,
+     "amb": "birds",
+     "sfx": [
+      [
+       "kaching",
+       "w:banknotes.",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c056",
+     "shot": "mx_trickle",
+     "type": "INSERT",
+     "text": "Then the Americans began to trickle in.",
+     "date": null
+    },
+    {
+     "id": "c057",
+     "shot": "mx_trickle",
+     "type": "INSERT",
+     "text": "First by ship, then in 1841 by wagon, straight over the mountains.",
+     "date": null
+    },
+    {
+     "id": "c058",
+     "shot": "mx_sonoma",
+     "type": "STORY",
+     "text": "And in June of 1846, about 30 of them marched into the little town of Sonoma,",
+     "date": null
+    },
+    {
+     "id": "c059",
+     "shot": "mx_sonoma",
+     "type": "STORY",
+     "text": "arrested a Mexican general in his own house, and declared a brand new country.",
+     "date": null
+    },
+    {
+     "id": "c060",
+     "shot": "mx_sonoma",
+     "type": "STORY",
+     "text": "The California *Republic.*",
+     "date": null,
+     "sfx": [
+      [
+       "ding",
+       "w:Republic.",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c061",
+     "shot": "mx_paint",
+     "type": "HOST",
+     "text": "They needed a flag, so they painted a grizzly bear on a piece of cotton.",
+     "date": null
+    },
+    {
+     "id": "c062",
+     "shot": "mx_paint",
+     "type": "HOST",
+     "text": "People said it looked more like a pig.",
+     "date": null,
+     "sfx": [
+      [
+       "boing",
+       "w:pig.",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c063",
+     "shot": "mx_days",
+     "type": "HOST",
+     "text": "The Republic lasted 25 days.",
+     "date": null,
+     "sfx": [
+      [
+       "ticks",
+       0,
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c064",
+     "shot": "mx_days",
+     "type": "HOST",
+     "text": "Then the United States Navy arrived and said, thanks, we'll take it from here.",
+     "date": null
+    },
+    {
+     "id": "c065",
+     "shot": "mx_grizzly",
+     "type": "HOST",
+     "text": "By the way, that bear is still on the state flag.",
+     "date": null
+    },
+    {
+     "id": "c066",
+     "shot": "mx_grizzly",
+     "type": "HOST",
+     "text": "And the California grizzly? Extinct.",
+     "date": null,
+     "sfx": [
+      [
+       "stamp",
+       "w:Extinct.",
+       0.7
+      ]
+     ]
+    },
+    {
+     "id": "c067",
+     "shot": "mx_grizzly",
+     "type": "HOST",
+     "text": "The last one was shot in 1922.",
+     "date": null
+    },
+    {
+     "id": "c068",
+     "shot": "mx_dates",
+     "type": "HOST",
+     "text": "Now watch the dates, because this is the worst timing in history.",
+     "date": null
+    },
+    {
+     "id": "c069",
+     "shot": "mx_cession",
+     "type": "INSERT",
+     "text": "February 2nd, 1848, Mexico signs a treaty and hands California to the United States.",
+     "date": null
+    },
+    {
+     "id": "c070",
+     "shot": "mx_nine",
+     "type": "HOST",
+     "text": "Nine days earlier, on a river in the California hills,",
+     "date": null,
+     "sfx": [
+      [
+       "paper",
+       "w:Nine",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c071",
+     "shot": "mx_nine",
+     "type": "HOST",
+     "text": "a carpenter had looked down into the water.",
+     "date": null
+    }
+   ]
+  }
+ ]
+}

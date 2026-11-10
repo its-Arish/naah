@@ -1,0 +1,270 @@
+{
+ "title": "Railroad",
+ "sections": [
+  {
+   "title": "Railroad",
+   "card": false,
+   "beats": [
+    {
+     "id": "c119",
+     "shot": "rr_problem",
+     "type": "HOST",
+     "text": "But first, everyone had the same problem.",
+     "date": null
+    },
+    {
+     "id": "c120",
+     "shot": "rr_problem",
+     "type": "HOST",
+     "text": "Getting there.",
+     "date": null,
+     "sfx": [
+      [
+       "slam",
+       "w:Getting",
+       0.5
+      ]
+     ]
+    },
+    {
+     "id": "c121",
+     "shot": "rr_routes",
+     "type": "INSERT",
+     "text": "By wagon, it took four to six months.",
+     "date": null
+    },
+    {
+     "id": "c122",
+     "shot": "rr_routes",
+     "type": "INSERT",
+     "text": "By ship around the bottom of South America,",
+     "date": null
+    },
+    {
+     "id": "c123",
+     "shot": "rr_routes",
+     "type": "INSERT",
+     "text": "about the same.",
+     "date": null
+    },
+    {
+     "id": "c124",
+     "shot": "rr_routes",
+     "type": "INSERT",
+     "text": "People died doing both.",
+     "date": null
+    },
+    {
+     "id": "c125",
+     "shot": "rr_crazy",
+     "type": "INSERT",
+     "text": "So America decided to do something crazy.",
+     "date": null
+    },
+    {
+     "id": "c126",
+     "shot": "rr_crazy",
+     "type": "INSERT",
+     "text": "Build a railroad across the entire continent.",
+     "date": null,
+     "sfx": [
+      [
+       "scribble",
+       "w:railroad",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c127",
+     "shot": "rr_four",
+     "type": "HOST",
+     "text": "On the California side, the bosses were four men from Sacramento.",
+     "date": null
+    },
+    {
+     "id": "c128",
+     "shot": "rr_four",
+     "type": "HOST",
+     "text": "Four shopkeepers.",
+     "date": null,
+     "sfx": [
+      [
+       "pops",
+       0,
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c129",
+     "shot": "rr_four",
+     "type": "HOST",
+     "text": "They had made their money selling supplies to gold miners.",
+     "date": null
+    },
+    {
+     "id": "c130",
+     "shot": "rr_four",
+     "type": "HOST",
+     "text": "Starting to see a pattern?",
+     "date": null
+    },
+    {
+     "id": "c131",
+     "shot": "rr_workers",
+     "type": "STORY",
+     "text": "The men who actually built it were mostly Chinese.",
+     "date": null,
+     "amb": "wind"
+    },
+    {
+     "id": "c132",
+     "shot": "rr_workers",
+     "type": "STORY",
+     "text": "At the peak, about nine out of every ten workers on the western half.",
+     "date": null,
+     "amb": "wind"
+    },
+    {
+     "id": "c133",
+     "shot": "rr_workers",
+     "type": "STORY",
+     "text": "More than 12,000 men cutting through solid mountain granite",
+     "date": null,
+     "amb": "wind"
+    },
+    {
+     "id": "c134",
+     "shot": "rr_workers",
+     "type": "STORY",
+     "text": "through winters with snow deeper than a house",
+     "date": null,
+     "amb": "wind"
+    },
+    {
+     "id": "c135",
+     "shot": "rr_workers",
+     "type": "STORY",
+     "text": "for less pay than the white workers beside them.",
+     "date": null,
+     "amb": "wind"
+    },
+    {
+     "id": "c136",
+     "shot": "rr_meet",
+     "type": "INSERT",
+     "text": "May 10th, 1869.",
+     "date": null
+    },
+    {
+     "id": "c137",
+     "shot": "rr_meet",
+     "type": "INSERT",
+     "text": "The two tracks meet.",
+     "date": null,
+     "sfx": [
+      [
+       "anvil",
+       "w:meet.",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "c138",
+     "shot": "rr_meet",
+     "type": "INSERT",
+     "text": "Six months becomes *one* week.",
+     "date": null,
+     "sfx": [
+      [
+       "stamp",
+       "w:one",
+       0.6
+      ]
+     ]
+    },
+    {
+     "id": "c139",
+     "shot": "rr_quiet",
+     "type": "STORY",
+     "text": "And the thanks?",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c140",
+     "shot": "rr_quiet",
+     "type": "STORY",
+     "text": "In 1882, the United States passed a law",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c141",
+     "shot": "rr_quiet",
+     "type": "STORY",
+     "text": "banning Chinese workers from entering the country.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c142",
+     "shot": "rr_quiet",
+     "type": "STORY",
+     "text": "It was the first time America shut its door on one nationality.",
+     "date": null,
+     "quiet": true
+    },
+    {
+     "id": "c143",
+     "shot": "rr_stanford",
+     "type": "STORY",
+     "text": "One of those four shopkeepers was named Leland Stanford.",
+     "date": null,
+     "amb": "birds"
+    },
+    {
+     "id": "c144",
+     "shot": "rr_stanford",
+     "type": "STORY",
+     "text": "He spent part of his fortune on a new university.",
+     "date": null,
+     "amb": "birds"
+    },
+    {
+     "id": "c145",
+     "shot": "rr_stanford",
+     "type": "STORY",
+     "text": "Built on his horse farm south of San Francisco.",
+     "date": null,
+     "amb": "birds"
+    },
+    {
+     "id": "c146",
+     "shot": "rr_stanford",
+     "type": "STORY",
+     "text": "Remember that farm.",
+     "date": null,
+     "amb": "birds",
+     "sfx": [
+      [
+       "ding",
+       "w:farm.",
+       0.4
+      ]
+     ]
+    },
+    {
+     "id": "c147",
+     "shot": "rr_stanford",
+     "type": "STORY",
+     "text": "It is going to matter.",
+     "date": null,
+     "amb": "birds"
+    }
+   ]
+  }
+ ]
+}
