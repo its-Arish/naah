@@ -49,6 +49,10 @@ Session: https://claude.ai/code/session_01FRB8kZECC6NSaxCugaPgpN
 
 18. Creator: "push everything, every thing to create video including script, into repo … you can even export our convo in repo so that it becomes easy for any claude to understand". This file, `docs/PLAYBOOK.md`, `projects/california/README.md` and the skill copy are the result.
 
+### 6. Thumbnail (11 November)
+
+19. Creator: "Make a thumbnail of alabama map, Written text '13000 History of California in 13 Minutes'". The request named the Alabama map but California text, so Claude asked; the creator chose the **California film**. Text written as "13,000 YEARS OF CALIFORNIA IN 13 MINUTES". Source: `projects/california-thumb/shots.tsx` (render with `studio stills california-thumb 45`, then scale to 1280×720).
+
 ## Mistakes to avoid next time
 
 | What happened | What to do instead |
