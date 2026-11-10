@@ -63,14 +63,18 @@ const HALF_L = 'polygon(0 0, 958px 0, 958px 1080px, 0 1080px)';
 const HALF_R = 'polygon(962px 0, 1920px 0, 1920px 1080px, 962px 1080px)';
 const Z = 23;
 const camFor = (screenX: number) => camAt(-86.75 - (screenX - 960) / ((1920 / 360) * Z), 32.75 - 40 / ((1920 / 360) * Z), Z);
-const Half: React.FC<{ clip: string; sx: number; al: string; glow: string; icon?: React.ReactNode }> = ({ clip, sx, al, glow, icon }) => {
+type Pal = { sea: string; land: string; line: string; al: string; edge: string; vignette: string };
+const GRIM: Pal = { sea: '#1F2A36', land: '#5E6268', line: '#8A8F96', al: '#E3242B', edge: '#FFFFFF', vignette: 'rgba(0,0,0,0.55)' };
+const BRIGHT: Pal = { sea: '#0F6FD6', land: '#EDE3CB', line: '#FFFFFF', al: '#FFC21A', edge: '#1A1410', vignette: 'rgba(0,30,80,0.35)' };
+const Half: React.FC<{ clip: string; sx: number; pal: Pal; icon?: React.ReactNode }> = ({ clip, sx, pal, icon }) => {
   const cam = camFor(sx);
   return (
     <div style={{ position: 'absolute', inset: 0, clipPath: clip }}>
-      <WorldMap data={D} cam={cam} sea="#2F6FA8" stroke="#8E7A55" fill={(c) => (c.iso === 'USA' ? '#D8C49A' : '#CDB98E')}>
-        {STATES.map((st, i) => st.name === 'Alabama' ? null : <path key={i} d={st.d} fill="#D8C49A" stroke="#FFFFFF" strokeOpacity={0.75} strokeWidth={2} vectorEffect="non-scaling-stroke" />)}
-        <path d={AL_D} fill={al} stroke="#FFFFFF" strokeWidth={5} vectorEffect="non-scaling-stroke" strokeLinejoin="round" />
+      <WorldMap data={D} cam={cam} sea={pal.sea} stroke={pal.line} fill={() => pal.land}>
+        {STATES.map((st, i) => st.name === 'Alabama' ? null : <path key={i} d={st.d} fill={pal.land} stroke={pal.line} strokeOpacity={0.8} strokeWidth={2} vectorEffect="non-scaling-stroke" />)}
+        <path d={AL_D} fill={pal.al} stroke={pal.edge} strokeWidth={6} vectorEffect="non-scaling-stroke" strokeLinejoin="round" />
       </WorldMap>
+      <div style={{ position: 'absolute', inset: 0, background: `radial-gradient(ellipse at ${sx}px 480px, rgba(0,0,0,0) 35%, ${pal.vignette} 100%)` }} />
       {icon && <svg width={1920} height={1080} style={{ position: 'absolute', inset: 0 }}>{icon}</svg>}
     </div>
   );
@@ -84,8 +88,8 @@ const Split: React.FC<{ icons: boolean; bottom: string }> = ({ icons, bottom }) 
   return (
     <>
       <div style={{ position: 'absolute', inset: 0, background: '#fff' }} />
-      <Half clip={HALF_L} sx={480} al="#B3261E" glow="#B3261E" icon={icons ? <g transform={`translate(${sel.x + 10} ${sel.y + 10})`}><ArchBridge s={0.22} c="#FFFFFF" light="#F2D6D2" /></g> : undefined} />
-      <Half clip={HALF_R} sx={1440} al="#F3B562" glow="#FFD27A" icon={icons ? <g transform={`translate(${hsv.x} ${hsv.y + 230}) scale(0.42)`}><Rocket /></g> : undefined} />
+      <Half clip={HALF_L} sx={480} pal={GRIM} icon={icons ? <g transform={`translate(${sel.x + 10} ${sel.y + 10})`}><ArchBridge s={0.22} c="#FFFFFF" light="#FFD9D9" /></g> : undefined} />
+      <Half clip={HALF_R} sx={1440} pal={BRIGHT} icon={icons ? <g transform={`translate(${hsv.x} ${hsv.y + 230}) scale(0.42)`}><Rocket /></g> : undefined} />
       {box(480, '1965')}
       {box(1440, '1969')}
       <div style={{ position: 'absolute', left: 0, right: 0, bottom: 40, textAlign: 'center', ...big(190, '#FFFFFF', 22) }}>{bottom}</div>
