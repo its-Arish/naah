@@ -32,7 +32,7 @@ Each new state: `node scripts/studio.mjs new <state> "The Entire History of <Sta
 | 15 | Tennessee | **script written** (`projects/tennessee`, ~1423 words, ~9 min) | Mountain Dew = moonshine → Jack Daniel's dry county → vote decided by a mom's letter → secret city → A-bomb fuel; "a river that kept flooding" |
 | 16 | Washington | **script written** (`projects/washington`, ~1433 words, ~10 min) | Starbucks/Amazon/Costco/Boeing → Pig War → volcano lost 1,300 ft → Nagasaki plutonium; "a ship carrying a ton of gold" |
 | 17 | Colorado | **script written** (`projects/colorado`, ~1332 words, ~9 min) | Chipotle/cheeseburger → 697-sided 'rectangle' → America the Beautiful → Sand Creek → gold rush at the wrong mountain; "a mountain an explorer swore no one would ever climb" |
-| 18 | Illinois | | Chicago, deep dish, the Great Fire… |
+| 18 | Illinois | **script written** (`projects/illinois`, ~1413 words, ~9 min) | Ferris wheel/Twinkies → river flows backwards → named after a wild onion → Great Fire → 200 to a million in 57 years; "a few miles of mud between two rivers" |
 | 19 | Michigan | | The car in your driveway (Detroit, Ford)… |
 | 20 | Ohio | | The Wright brothers… and the most presidents' birthplaces after Virginia |
 | 21 | New Jersey | | The light bulb lab, the boardwalk… |
