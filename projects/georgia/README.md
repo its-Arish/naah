@@ -1,6 +1,6 @@
 # The Entire History of Georgia
 
-Script: `script.md` (about 1,285 spoken words, roughly 8–10 minutes voiced; can be expanded). Status: **script written, not yet recorded.**
+Script: `script.md` (about 2,575 spoken words, roughly 13–15 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
 
 - **Title:** The Entire History of Georgia: The Colony That Banned Slavery
 - **Thumbnail** (split template, QGIS map, no characters): left **1735**, pale green Georgia "SLAVERY BANNED"; right **1860**, dark Georgia "462,000 ENSLAVED"; bottom **"What Happened?!"**
@@ -33,3 +33,29 @@ Mound Builders 10,000 BC–1733 · The Experiment 1733–1751 · Colony and Revo
 | 5 | "Resurgens" and phoenix | ✓ | |
 | 5B | MLK born 1929, Auburn Avenue | ✓ | NPS |
 | 5C | Hank Aaron 715, Apr 8 1974; Carter 1977; Olympics 1996 | ✓ | |
+| 1 | Etowah marble statue pair, copper plates; Okefenokee ("trembling earth"); Stone Mountain | ✓ | |
+| 1B | Spanish Guale missions (c. 1560s–1680s) | ✓ | |
+| 2 | Castell placed with a smallpox patient (1728); Oglethorpe's prison committee freed many debtors | ✓ | NGE |
+| 2B | Trustees' motto *Non sibi sed aliis*; ~114 settlers; Mary Musgrove; Tomochichi in London 1734 | ✓ | |
+| 2C | 42 Jewish settlers July 1733; Salzburgers; Highlanders at Darien; John Wesley left Savannah 1737 | ✓ | |
+| 2D | Rum ban (1735–42) | ✓ | |
+| 2E | Battle of Bloody Marsh July 1742 | ✓ | NPS |
+| 2F | "Malcontents"; slavery legal 1751 | ✓ | |
+| 3 | Siege of Savannah 1779, Chasseurs-Volontaires de Saint-Domingue (incl. Henri Christophe); Haitian monument | ✓ | |
+| 3 | Button Gwinnett killed in a duel 1777; rare autograph | ✓ | |
+| 3B | Yazoo Land Fraud 1795; Rescinding Act burned with a magnifying glass (1796) | ✓ | |
+| 3C | Gin cleaned ~50 lb/day; Whitney's patent troubles | ✓ | |
+| 3D–3E | Sequoyah's syllabary; John Ross; Dahlonega mint 1838; land lotteries 1832 | ✓ | |
+| 3F | Treaty of New Echota 1835 (minority signers) | ✓ | |
+| 4B | Andersonville commander Henry Wirz executed 1865 | ✓ | |
+| 4C | "Sherman's neckties" | ✓ | |
+| 4D | Special Field Order No. 15 (Jan 16 1865); reversed by Johnson | ✓ | |
+| 5 | Coca-Cola ~9 glasses a day in year one; Candler's coupons; vault at World of Coca-Cola | ✓ | |
+| 5 | Juliette Gordon Low, Girl Scouts, Savannah 1912 | ✓ | |
+| 5B | 1906 Atlanta race massacre; Klan revived at Stone Mountain 1915 | ✓ | |
+| 5C | Atlanta University Center; King Nobel 1964 (aged 35); Maynard Jackson 1973 | ✓ | |
+| 5D | Albany Movement 1961–62 | ✓ | |
+| 5E | King's funeral, mule-drawn wagon, Apr 9 1968 | ✓ | |
+| 6 | Aaron's hate mail; "Georgia on My Mind" state song 1979; Masters | ✓ | |
+| 6C | Centennial Olympic Park bombing July 27 1996 | ✓ | |
+| 6D | Georgia ~half of US peanuts; Vidalia onion law; film tax credit (2008) | ✓ | |
