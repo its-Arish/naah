@@ -1,0 +1,11 @@
+{
+  "base": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/",
+  "tracks": {
+    "tension": { "file": "Darkest%20Child.mp3", "title": "Darkest Child", "by": "Kevin MacLeod", "license": "CC BY 4.0", "heard": false },
+    "sombre":  { "file": "Lightless%20Dawn.mp3", "title": "Lightless Dawn", "by": "Kevin MacLeod", "license": "CC BY 4.0", "heard": false }
+  },
+  "cues": [
+    { "from": "s00b01", "to": "s00b03.end", "track": "tension", "volume": 0.8 },
+    { "from": "s01b01", "to": "s01b09.end", "track": "sombre", "volume": 0.7 }
+  ]
+}
