@@ -1,6 +1,6 @@
 # The Entire History of Illinois
 
-Script: `script.md` (about 1,413 spoken words, roughly 9–11 minutes voiced; can be expanded). Status: **script written, not yet recorded.**
+Script: `script.md` (about 2,177 spoken words, roughly 11–13 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
 
 - **Title:** The Entire History of Illinois: The Swamp That Became Chicago
 - **Thumbnail** (split template, QGIS map, no characters): left **1833**, swampy green Illinois "200 PEOPLE"; right **1890**, lit-up Illinois with Chicago glowing "1,000,000"; bottom **"57 Years?!"**
@@ -32,3 +32,21 @@ Cahokia 1050–1350 · The Portage 1673–1818 · Prairie State 1818–1848 · B
 | 5B | Haymarket 1886 and May Day; Jane Addams, Hull House 1889, Nobel 1931 | ✓ | |
 | 5D | Chicago Pile-1, Dec 2 1942, squash court under Stagg Field | ✓ | |
 | 6 | Kroc's Des Plaines McDonald's 1955; Sears Tower 1973; Obama 2008; Cubs 2016 (first since 1908) | ✓ | |
+| 1 | Cahokia larger than London c. 1250 (claim); Woodhenge | ✓ | UNESCO |
+| 1 | Starved Rock legend | ✓ (legend) | |
+| 2B | Kaskaskia, Fort de Chartres | ✓ | |
+| 2C | Fort Dearborn attack Aug 15 1812 | ✓ | |
+| 2E | Lincoln's "bloody struggles with the mosquitoes" (1848 speech) | ✓ | |
+| 2F | Elijah Lovejoy killed Nov 7 1837, Alton | ✓ | |
+| 2G | Nauvoo; Joseph Smith killed at Carthage June 27 1844 | ✓ | |
+| 3B | John Deere's steel plough, Grand Detour 1837 | ✓ | |
+| 3D | "House Divided" speech June 16 1858; Wigwam convention 1860 | ✓ | |
+| 3 | Pullman sleeping cars; Brotherhood of Sleeping Car Porters | ✓ | |
+| 3E | "Everything but the squeal" | ✓ | |
+| 4C | Cracker Jack and Juicy Fruit at the 1893 fair; Burnham's 1909 Plan; A. Montgomery Ward's lakefront lawsuits | ✓ | |
+| 5 | Missouri v. Illinois (St. Louis sued) | ✓ | |
+| 5B | Pullman Strike 1894; Jane Addams Nobel 1931 (first American woman) | ✓ | |
+| 5C | Chicago Defender; Armstrong to Chicago 1922; Chess Records; Gwendolyn Brooks Pulitzer 1950 | ✓ | |
+| 5D | 1919 race riot (Eugene Williams), 38 killed | ✓ | |
+| 5E | Capone convicted of tax evasion 1931; Twinkie 1930; deep dish 1943; "Windy City" origin debated | ✓ hedged | |
+| 6 | Bulls six titles; Oprah 1986–2011; river dyed green since 1962; Route 66 start; IL top soybean producer | ✓ | |
