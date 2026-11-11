@@ -19,7 +19,7 @@ Each new state: `node scripts/studio.mjs new <state> "The Entire History of <Sta
 | # | State | Status | Hook seed (familiar thing → twist) |
 |---|---|---|---|
 | 4 | Florida | **script written** (`projects/florida`, branch `fifty-states`) | Gatorade → Disney's secret land → older than the Mayflower → fewer people than Boston in 1900 |
-| 5 | New York | | The Statue of Liberty, the Big Apple… and the city was briefly called New Orange |
+| 5 | New York | **script written** (`projects/new-york`) | Wall Street → Dutch words → $24 myth → New Orange → slave market; "a ditch, four feet deep" |
 | 6 | Hawaii | | The pineapple on your pizza, the ukulele… and it was a kingdom with its own royal palace |
 | 7 | Alaska | | Bought from Russia for about 2 cents an acre: "Seward's Folly" |
 | 8 | Louisiana | | Mardi Gras, jazz, gumbo… and its law still descends from the Napoleonic tradition |
