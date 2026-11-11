@@ -1,6 +1,6 @@
 # The Entire History of Arkansas
 
-Script: `script.md` (about 1,159 spoken words, roughly 7–9 minutes voiced; can be expanded). Status: **script written, not yet recorded.**
+Script: `script.md` (about 2,087 spoken words, roughly 11–13 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
 
 - **Title:** The Entire History of Arkansas: How a Dime Store Took Over the World
 - **Thumbnail** (split template, QGIS map, no characters): left **1950**, green rural Arkansas with a tiny dot at Bentonville "ONE DIME STORE"; right **TODAY**, a world map with Arkansas glowing "#1 COMPANY ON EARTH"; bottom **"From Here?!"**
@@ -26,3 +26,18 @@ First Peoples 10,000 BC–1686 · Arkansas Post 1686–1836 · Statehood 1836–
 | 4B | Dyess Colony (1934); Johnny Cash (J.R.) grew up there | ✓ | |
 | 6 | Walton's Bentonville 5&10, 1950; Bentonville ~2,900 people | ✓ | |
 | 6C | Tyson (Springdale), J.B. Hunt (Lowell); Clinton born in Hope, president 1993 | ✓ | |
+| 1 | Toltec Mounds solar alignments; Ozark bluff-shelter finds (baskets, seeds) | ✓ | Arkansas Archeological Survey |
+| 1B | De Soto's pigs and winter in Arkansas (1541–42); Marquette & Jolliet turned back at the Quapaw villages 1673; Colbert's raid on Arkansas Post Apr 1783 | ✓ | NPS Arkansas Post |
+| 2 | Bowie knife and James Black of Washington, AR | ✓ hedged ("is said to") | |
+| 2B | La Harpe's "La Petite Roche" 1722; Little Rock territorial capital 1821; "The Arkansas Traveler" | ✓ | Encyclopedia of Arkansas |
+| 2C | Babe Ruth's ~573-ft homer into the alligator farm pond, Mar 1918 | ✓ "reportedly" | |
+| 2F | Judge Parker: ~160 death sentences, 79 hanged | ✓ | NPS Fort Smith |
+| 3 | Pea Ridge Mar 7–8 1862; Little Rock taken Sept 1863 | ✓ | |
+| 3C | Brooks–Baxter War 1874, "Lady Baxter" cannon; Grant decided | ✓ | |
+| 3D | Moore v. Dempsey (1923) | ✓ | |
+| 3E | Southern Tenant Farmers' Union 1934, biracial | ✓ | |
+| 4 | Uncle Sam diamond 40.23 ct (1924), largest US diamond; Huddleston the "Diamond King" | ✓ | Arkansas State Parks |
+| 4C | England food riot Jan 1931; Hattie Caraway first woman elected to the Senate (1932); King Biscuit Time since Nov 1941; Maya Angelou in Stamps | ✓ | |
+| 5 | Daisy Bates; Elizabeth Eckford alone (Sept 4 1957); Ernest Green's graduation May 1958 with MLK present; Lost Year 1958–59 | ✓ | NPS |
+| 6B | Walton's pickup and bird dogs; Forbes richest American 1985 | ✓ | |
+| 6C | Hot Springs casinos closed 1967 (Gov. Rockefeller); Arkansas ~half of US rice; Crystal Bridges 2011; Razorbacks' "Woo Pig Sooie" | ✓ | USDA |

@@ -49,7 +49,7 @@ Each new state: `node scripts/studio.mjs new <state> "The Entire History of <Sta
 | 32 | Oklahoma | **script written** (`projects/oklahoma`, ~2158 words, ~12 min) | shopping cart/parking meter/yield sign → land run → Tulsa 1921; "as long as the grass grows, and the water runs" (v2) |
 | 33 | Kansas | **script written** (`projects/kansas`, ~2116 words, ~11 min) | Pizza Hut/White Castle/flatter than a pancake/Air Capital → Bleeding Kansas; "crates of rifles, labelled Bibles" (v2) |
 | 34 | Missouri | **script written** (`projects/missouri`, ~2230 words, ~12 min) | iced tea/ice cream cone/Arch/trails → Dred Scott; "a fourteen-year-old boy and a crew of thirty men" (v2) |
-| 35 | Arkansas | **script written** (`projects/arkansas`, ~1159 words, ~8 min) | Walmart → keep-what-you-find diamond mine → pronunciation law → Little Rock Nine; "a little dime store on a town square" |
+| 35 | Arkansas | **script written** (`projects/arkansas`, ~2087 words, ~11 min) | Walmart/finders-keepers diamonds/pronunciation law → Little Rock Nine; "a little dime store on a town square" (v2) |
 | 36 | Minnesota | **script written** (`projects/minnesota`, ~1175 words, ~8 min) | Cheerios/Spam/Scotch tape → 11,000+ lakes → mall with a theme park → 38 hanged at Mankato; "the only great waterfall on the Mississippi River" |
 | 37 | Wisconsin | **script written** (`projects/wisconsin`, ~1087 words, ~7 min) | QWERTY keyboard → Harley + first kindergarten → quarter of US cheese → Peshtigo, the forgotten fire; "a tiny bug" |
 | 38 | Iowa | **script written** (`projects/iowa`, ~1167 words, ~8 min) | 7 pigs per person → first electronic computer → Field of Dreams → the day the music died → candidates flock here first; "a slow copy machine" |
