@@ -25,7 +25,7 @@ Each new state: `node scripts/studio.mjs new <state> "The Entire History of <Sta
 | 8 | Louisiana | **script written** (`projects/louisiana`, ~1677 words, ~11 min) | Jazz → Tabasco → Purchase was 15 states → parishes; "a river that refuses to stay still" |
 | 9 | Nevada | **script written** (`projects/nevada`, ~1283 words, ~9 min) | Vegas was a railroad stop → Area 51 → atomic parties → statehood by telegram; "it starts with that telegram" |
 | 10 | Arizona | **script written** (`projects/arizona`, ~1482 words, ~10 min) | London Bridge in the desert → not at the O.K. Corral → DST donut → 2-billion-year rocks; "canals nobody had used for four hundred years" |
-| 11 | Massachusetts | | Thanksgiving, Harvard, the Tea Party… |
+| 11 | Massachusetts | **script written** (`projects/massachusetts`, ~1624 words, ~11 min) | basketball + volleyball + cookie → molasses wave → Salem; "a law about the Devil" |
 | 12 | Pennsylvania | | The Liberty Bell, Hershey's chocolate… |
 | 13 | Virginia | | Jamestown, eight presidents… |
 | 14 | Georgia | | Coca-Cola, peaches… |
