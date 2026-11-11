@@ -53,7 +53,7 @@ Each new state: `node scripts/studio.mjs new <state> "The Entire History of <Sta
 | 36 | Minnesota | **script written** (`projects/minnesota`, ~1175 words, ~8 min) | Cheerios/Spam/Scotch tape → 11,000+ lakes → mall with a theme park → 38 hanged at Mankato; "the only great waterfall on the Mississippi River" |
 | 37 | Wisconsin | **script written** (`projects/wisconsin`, ~1087 words, ~7 min) | QWERTY keyboard → Harley + first kindergarten → quarter of US cheese → Peshtigo, the forgotten fire; "a tiny bug" |
 | 38 | Iowa | **script written** (`projects/iowa`, ~1167 words, ~8 min) | 7 pigs per person → first electronic computer → Field of Dreams → the day the music died → candidates flock here first; "a slow copy machine" |
-| 39 | Indiana | | The Indy 500… |
+| 39 | Indiana | **script written** (`projects/indiana`, ~1080 words, ~7 min) | Indy 500 → Lincoln grew up here → pi = 3.2 bill → Santa Claus, Indiana → 1920s Klan; "a race track paved with three million bricks" |
 | 40 | Maryland | | The national anthem (Fort McHenry)… |
 | 41 | Connecticut | | Hamburgers, Yale, the insurance capital… |
 | 42 | Rhode Island | | The smallest state with the longest official name |
