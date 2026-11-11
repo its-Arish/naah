@@ -51,7 +51,7 @@ Each new state: `node scripts/studio.mjs new <state> "The Entire History of <Sta
 | 34 | Missouri | **script written** (`projects/missouri`, ~1220 words, ~8 min) | iced tea + ice cream cone → Arch twice the Statue of Liberty → every trail west starts here → Dred Scott; "a fourteen-year-old boy and a crew of thirty men" |
 | 35 | Arkansas | **script written** (`projects/arkansas`, ~1159 words, ~8 min) | Walmart → keep-what-you-find diamond mine → pronunciation law → Little Rock Nine; "a little dime store on a town square" |
 | 36 | Minnesota | **script written** (`projects/minnesota`, ~1175 words, ~8 min) | Cheerios/Spam/Scotch tape → 11,000+ lakes → mall with a theme park → 38 hanged at Mankato; "the only great waterfall on the Mississippi River" |
-| 37 | Wisconsin | | Cheese, Harley-Davidson… |
+| 37 | Wisconsin | **script written** (`projects/wisconsin`, ~1087 words, ~7 min) | QWERTY keyboard → Harley + first kindergarten → quarter of US cheese → Peshtigo, the forgotten fire; "a tiny bug" |
 | 38 | Iowa | | Corn, the caucuses… |
 | 39 | Indiana | | The Indy 500… |
 | 40 | Maryland | | The national anthem (Fort McHenry)… |
