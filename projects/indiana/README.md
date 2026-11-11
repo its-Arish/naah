@@ -1,6 +1,6 @@
 # The Entire History of Indiana
 
-Script: `script.md` (about 1,080 spoken words, roughly 7–9 minutes voiced; can be expanded). Status: **script written, not yet recorded.**
+Script: `script.md` (about 2,136 spoken words, roughly 11–13 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
 
 - **Title:** The Entire History of Indiana: Pi, Bricks and the Indy 500
 - **Thumbnail** (QGIS map, no characters): Indiana with an oval drawn around Indianapolis; box **"3.2 MILLION BRICKS"**; bottom **"π = 3.2?!"**
@@ -31,3 +31,24 @@ First Peoples 10,000 BC–1732 · Frontier 1732–1816 · Hoosiers 1816–1865 �
 | 4B | First 500 May 30 1911, 40 cars, ~74.6 mph; yard of bricks | ✓ | |
 | 5C | Milan 1954 (161 students) → *Hoosiers* | ✓ | |
 | 5D | Jackson 5 (Gary); Purdue "Cradle of Astronauts"; statewide DST 2006 | ✓ | |
+| 1 | Indiana Dunes up to ~200 ft; Henry Cowles and the birth of ecology | ✓ | NPS Indiana Dunes |
+| 1B | Clark's ~170 men, Feb 1779, flooded march; flag trick behind a rise | ✓ | NPS George Rogers Clark |
+| 1C | St. Clair's Defeat Nov 1791 (~630 soldiers killed), Little Turtle and Blue Jacket | ✓ | |
+| 2 | Harrison: longest inaugural, died after 31 days | ✓ | |
+| 2B | Corydon first capital; Lincoln's flatboat trip to New Orleans 1828 | ✓ | NPS |
+| 2C | Sarah Lincoln Grigsby died in childbirth Jan 1828 | ✓ | |
+| 2D | New Harmony 1825, "Boatload of Knowledge" 1826; Johnny Appleseed d. 1845 near Fort Wayne (tin-pot hat is legend) | ✓ hedged | |
+| 2E | Levi and Catharine Coffin (Newport/Fountain City), 1,000+ helped; Morgan's Raid July 1863; Lew Wallace, Ben-Hur (1880) | ✓ | |
+| 3 | "Hoosier" theories incl. Riley's "Whose ear?" joke | ✓ told as theories | |
+| 3B | Gas flambeaux; boom ended c. 1900–05; Elwood Haynes's car, Kokomo, July 4 1894 | ✓ | |
+| 3C | Gary founded 1906; Madam C.J. Walker, first self-made female millionaire (Guinness); Indiana limestone in the Empire State Building, Pentagon, National Cathedral; Elkhart instruments and RVs | ✓ | |
+| 4B | Five deaths in the Aug 1909 races | ✓ | |
+| 4C | Speedway infield fits Churchill Downs, Yankee Stadium, Rose Bowl, Colosseum and Vatican City (IMS claim) | ✓ | IMS |
+| 4C | Harroun's rear-view mirror (1911) | ✓ "one of the first" | |
+| 4D | Winner's milk since Louis Meyer, 1936 | ✓ | |
+| 5 | Klan ~30% of native-born white men | ✓ "maybe a third" | |
+| 5B | Dillinger's wooden gun, Crown Point, Mar 3 1934; sheriff's car | ✓ | |
+| 5C | Ernie Pyle (Dana), killed on Ie Shima Apr 18 1945 | ✓ | |
+| 5D | Milan's last-second shot (Bobby Plump); Larry Bird (French Lick); Notre Dame under Rockne | ✓ | |
+| 5E | Wilbur Wright b. near Millville; Armstrong and Cernan (Purdue); Vonnegut, James Dean (Fairmount), Letterman's weather segment | ✓ | |
+| 5F | RFK's Indianapolis speech Apr 4 1968; Indianapolis largely calm | ✓ | |
