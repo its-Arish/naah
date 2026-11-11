@@ -42,7 +42,7 @@ Each new state: `node scripts/studio.mjs new <state> "The Entire History of <Sta
 | 25 | Kentucky | **script written** (`projects/kentucky`, ~1327 words, ~9 min) | KFC → Happy Birthday → more bourbon barrels than people → longest cave → Lincoln and Davis both born here; "a gap in the mountains" |
 | 26 | Utah | **script written** (`projects/utah`, ~1385 words, ~9 min) | Jell-O → seagull in a desert → float like a cork → Mountain Meadows → rejected for statehood 6 times; "a plague of crickets" |
 | 27 | Oregon | **script written** (`projects/oregon`, ~1285 words, ~9 min) | You have died of dysentery → Nike waffle iron → coin-toss Portland → two-sided flag → Black exclusion clause; "a hat" |
-| 28 | New Mexico | | Roswell, the first atomic bomb (Trinity)… |
+| 28 | New Mexico | **script written** (`projects/new-mexico`, ~1299 words, ~9 min) | Microsoft/Roswell → mistaken for a foreign country → capital before the Pilgrims → Trinity, families never warned; "a boys' school on a lonely mountain mesa" |
 | 29 | Montana | | Little Bighorn, Yellowstone… |
 | 30 | Wyoming | | First state to let women vote… |
 | 31 | Idaho | | The potato on your plate… |
