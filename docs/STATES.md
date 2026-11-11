@@ -47,7 +47,7 @@ Each new state: `node scripts/studio.mjs new <state> "The Entire History of <Sta
 | 30 | Wyoming | **script written** (`projects/wyoming`, ~2087 words, ~11 min) | Yellowstone/Devils Tower/fewest people → Rock Springs → women's vote first; "six men for every woman" (v2) |
 | 31 | Idaho | **script written** (`projects/idaho`, ~2105 words, ~11 min) | a third of US potatoes/made-up name/TV in a potato field → SL-1 → first nuclear town; "a desert so empty the Navy used it for target practice" (v2) |
 | 32 | Oklahoma | **script written** (`projects/oklahoma`, ~2158 words, ~12 min) | shopping cart/parking meter/yield sign → land run → Tulsa 1921; "as long as the grass grows, and the water runs" (v2) |
-| 33 | Kansas | **script written** (`projects/kansas`, ~1131 words, ~8 min) | Pizza Hut/White Castle → flatter than a pancake → Air Capital → Bleeding Kansas; "crates of rifles, labelled Bibles" |
+| 33 | Kansas | **script written** (`projects/kansas`, ~2116 words, ~11 min) | Pizza Hut/White Castle/flatter than a pancake/Air Capital → Bleeding Kansas; "crates of rifles, labelled Bibles" (v2) |
 | 34 | Missouri | **script written** (`projects/missouri`, ~1220 words, ~8 min) | iced tea + ice cream cone → Arch twice the Statue of Liberty → every trail west starts here → Dred Scott; "a fourteen-year-old boy and a crew of thirty men" |
 | 35 | Arkansas | **script written** (`projects/arkansas`, ~1159 words, ~8 min) | Walmart → keep-what-you-find diamond mine → pronunciation law → Little Rock Nine; "a little dime store on a town square" |
 | 36 | Minnesota | **script written** (`projects/minnesota`, ~1175 words, ~8 min) | Cheerios/Spam/Scotch tape → 11,000+ lakes → mall with a theme park → 38 hanged at Mankato; "the only great waterfall on the Mississippi River" |
