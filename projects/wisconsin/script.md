@@ -171,7 +171,7 @@ In eighteen fifty-six, in Watertown, a German immigrant named Margarethe Schurz 
 
 In eighteen sixty-eight, in Milwaukee, a printer named Christopher Sholes invents a practical typewriter. He arranges the keys in a strange order. Q, W, E, R, T, Y.
 
-One popular story says he did it to slow typists down, so the keys wouldn't jam. <chuckle> He sells the design to a gun maker, Remington, which starts building typewriters. <chuckle> It's still on your keyboard.
+One popular story says he did it to slow typists down, so the keys wouldn't jam. <short pause> He sells the design to a gun maker, Remington, which starts building typewriters. <chuckle> And that strange order is still on your keyboard.
 
 <chuckle> And in Baraboo, five brothers named Ringling start a little travelling show, in eighteen eighty-four, with a few acts and a trained horse. <gasp> It grows into the biggest circus in the world. Ringling Brothers. For decades, it spends every winter in Baraboo.
 
