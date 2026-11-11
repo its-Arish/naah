@@ -64,7 +64,7 @@ Each new state: `node scripts/studio.mjs new <state> "The Entire History of <Sta
 | 47 | West Virginia | **script written** (`projects/west-virginia`, ~1980 words, ~11 min) | Mother's Day/Golden Delicious/Country Roads/split from Virginia → Blair Mountain; "a black rock that burns" (v2) |
 | 48 | Nebraska | **script written** (`projects/nebraska`, ~2011 words, ~11 min) | Kool-Aid/TV dinner/Arbor Day/one-house legislature → Standing Bear; "a newspaper editor who missed his trees" (v2) |
 | 49 | South Dakota | **script written** (`projects/south-dakota`, ~1966 words, ~11 min) | Rushmore/Wall Drug/Corn Palace → Wounded Knee → $2 billion refused; "a general who went looking for gold" (v2) |
-| 50 | North Dakota | **script written** (`projects/north-dakota`, ~1227 words, ~8 min) | #1 honey → -60° and 121° in one year → only state-owned bank → least visited → Grand Forks flooded and burned → oil giant; "a farmer named Henry Bakken" |
+| 50 | North Dakota | **script written** (`projects/north-dakota`, ~2001 words, ~11 min) | honey/−60 and 121 in one year/state bank/least visited → Grand Forks flood-fire → oil; "a farmer named Henry Bakken" (v2) |
 
 ## Series rules
 
