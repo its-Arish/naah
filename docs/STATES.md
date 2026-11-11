@@ -29,7 +29,7 @@ Each new state: `node scripts/studio.mjs new <state> "The Entire History of <Sta
 | 12 | Pennsylvania | **script written** (`projects/pennsylvania`, ~1455 words, ~10 min) | Hershey/Crayola/Slinky/groundhog → Centralia fire → Gettysburg → state born from a debt; "a king who owed a man sixteen thousand pounds" |
 | 13 | Virginia | **script written** (`projects/virginia`, ~1320 words, ~9 min) | 8 presidents/Pentagon/CIA → Lee's front yard → Starving Time → 1619 assembly + 1619 Africans; "a plant the king of England hated" |
 | 14 | Georgia | **script written** (`projects/georgia`, ~1285 words, ~9 min) | Coca-Cola as medicine → not top peach grower → Atlanta burned → only colony to ban slavery; "a man whose friend died in a debtors' prison" |
-| 15 | Tennessee | | Elvis, Graceland, Nashville, Jack Daniel's… |
+| 15 | Tennessee | **script written** (`projects/tennessee`, ~1423 words, ~9 min) | Mountain Dew = moonshine → Jack Daniel's dry county → vote decided by a mom's letter → secret city → A-bomb fuel; "a river that kept flooding" |
 | 16 | Washington | | Starbucks, Amazon, Microsoft… |
 | 17 | Colorado | | Ski slopes, the Rockies… |
 | 18 | Illinois | | Chicago, deep dish, the Great Fire… |
