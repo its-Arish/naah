@@ -45,7 +45,7 @@ Each new state: `node scripts/studio.mjs new <state> "The Entire History of <Sta
 | 28 | New Mexico | **script written** (`projects/new-mexico`, ~1299 words, ~9 min) | Microsoft/Roswell → mistaken for a foreign country → capital before the Pilgrims → Trinity, families never warned; "a boys' school on a lonely mountain mesa" |
 | 29 | Montana | **script written** (`projects/montana`, ~1264 words, ~8 min) | more cows than people → no speed limit → first T. rex → first woman in Congress → toxic lake killed thousands of geese; "a hill everyone thought was worn out" |
 | 30 | Wyoming | **script written** (`projects/wyoming`, ~1141 words, ~8 min) | Yellowstone → Devils Tower → fewer people than D.C. → Rock Springs → women voted 50 years early; "a territory that had six men for every woman" |
-| 31 | Idaho | | The potato on your plate… |
+| 31 | Idaho | **script written** (`projects/idaho`, ~1267 words, ~8 min) | a third of US potatoes → made-up name → TV dreamed up in a potato field → SL-1 → first town lit by the atom; "a desert so empty the Navy used it for target practice" |
 | 32 | Oklahoma | | The musical, the Dust Bowl, the land run… |
 | 33 | Kansas | | The Wizard of Oz, tornado alley… |
 | 34 | Missouri | | The Gateway Arch, Mark Twain… |
