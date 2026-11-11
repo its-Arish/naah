@@ -1,6 +1,6 @@
 # The Entire History of Mississippi
 
-Script: `script.md` (about 1,465 spoken words, roughly 9–11 minutes voiced; can be expanded). Status: **script written, not yet recorded.**
+Script: `script.md` (about 2,321 spoken words, roughly 12–14 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
 
 - **Title:** The Entire History of Mississippi: Where the Blues Was Born
 - **Thumbnail** (split template, QGIS map, no characters): left **1860**, dark Mississippi with a white cotton-coloured Delta "COTTON"; right **1954**, deep-blue Mississippi with the Delta glowing "THE BLUES"; bottom **"From This?!"**
@@ -36,3 +36,24 @@ Mound Builders 10,000 BC–1699 · French and Spanish 1699–1798 · Cotton King
 | 5D | Medgar Evers June 12 1963; Chaney, Goodman, Schwerner June 1964 | ✓ | |
 | 6 | Flag with Confederate emblem retired 2020; magnolia flag 2021 | ✓ | |
 | 6B | Katrina: ~238 Mississippi deaths | ✓ | |
+| Hook, 4H | Jim Henson grew up in Leland; Kermit's name linked locally to boyhood friend Kermit Scott (Henson's camp disputed it) | ✓ hedged ("many people in Leland say") | |
+| Hook, 4D | First bottled Coca-Cola: Biedenharn, Vicksburg, 1894 | ✓ | Biedenharn Museum |
+| 1 | Delta ~200 miles long; alluvium dozens of feet deep | ✓ | |
+| 1B | Emerald Mound ~8 acres, 2nd-largest Mississippian mound; Great Sun on a litter; de Soto's body sunk in the river; Nanih Waiya origin story | ✓ | NPS Natchez Trace |
+| 2 | Flatboats sold for timber; Natchez Trace walk home; Natchez-Under-the-Hill | ✓ | NPS |
+| 2B | Dancing Rabbit Creek ~11 million acres; thousands died on removal | ✓ | |
+| 3B | Grant's canal, Yazoo Pass and Steele's Bayou attempts; gunboats ran the batteries Apr 16 1863 | ✓ | NPS |
+| 3C | 1866: about 20% of the state budget on artificial limbs | ✓ | MS Dept. of Archives & History |
+| 3D | Benjamin Montgomery bought Davis Bend (Hurricane & Brierfield) 1866; Blanche K. Bruce 1875–81, first full term | ✓ | Senate Historical Office |
+| 3E | Ida B. Wells b. Holly Springs 1862; Memphis Free Speech office destroyed 1892 | ✓ | |
+| 4 | W. C. Handy at Tutwiler, 1903; "weirdest music" (his autobiography) | ✓ | |
+| 4B | Patton's showmanship; Robert Johnson 29 songs, died at 27 | ✓ | |
+| 4C | Bear was tied to a tree; Morris Michtom, Brooklyn shopkeeper | ✓ | |
+| 4D | Barq's root beer, Biloxi, 1898 | ✓ | |
+| 4F | B.B. King b. near Itta Bena 1925; Lucille fire story (Twist, Arkansas, 1949) | ✓ | |
+| 4G | Elvis wanted a rifle for his 11th birthday (Jan 1946), got a guitar | ✓ | |
+| 4H | Faulkner's Yoknapatawpha, Nobel 1949 | ✓ | |
+| 5C | Ole Miss riot: 2 killed; tens of thousands of troops; Hamer evicted after 18 years, Winona jail beating 1963, DNC testimony 1964 | ✓ | |
+| 6 | James Hardy, first human lung transplant, June 1963, UMMC | ✓ | UMMC |
+| 6 | Walter Payton (Columbia), Jerry Rice (Crawford/Starkville); Oprah b. Kosciusko 1954, spoke in church at 3 | ✓ | |
+| 6B | Katrina surge ~28 ft in Mississippi | ✓ "nearly thirty feet" | NOAA |
