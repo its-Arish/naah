@@ -191,6 +191,10 @@ Minnesota also gives the world some remarkable people. <chuckle> Judy Garland, w
 
 And the pilot Charles Lindbergh, who grows up on a farm by the Mississippi.
 
+<short pause> In the late eighteen-hundreds, hundreds of thousands of Norwegians, Swedes, Germans and Finns pour into Minnesota. The cold, the lakes and the forests remind them of home. <chuckle> Many towns still hold lutefisk dinners, dried cod soaked in lye until it turns to jelly. Even many Minnesotans admit it's an acquired taste.
+
+<short pause> In nineteen forty-eight, the young mayor of Minneapolis, Hubert Humphrey, stands up at his party's national convention, and tells it to stop hiding behind states' rights, and walk into the bright sunshine of human rights. <gasp> Part of the convention walks out. But civil rights becomes part of the national debate.
+
 ## Part 5B
 
 In nineteen sixty-two, a Minneapolis department store company opens a new discount store, with a red bullseye. Target.
@@ -204,6 +208,8 @@ In nineteen sixty-two, a Minneapolis department store company opens a new discou
 <laugh> Minnesotans are crazy about hockey, too. In nineteen-eighty, a team of young American college players, coached by a man from St. Paul, Herb Brooks, and full of Minnesotans, beats the mighty Soviet Union at the Olympics. The Miracle on Ice.
 
 <chuckle> In nineteen ninety-one, on Halloween, a blizzard dumps more than two feet of snow on Minneapolis. Kids go trick-or-treating in snowsuits.
+
+<short pause> In Duluth, at the tip of Lake Superior, giant ships carry iron ore and grain out to the ocean, more than two thousand miles away. <chuckle> Because of the Great Lakes and the St. Lawrence Seaway, Duluth is a seaport. In the middle of the continent.
 
 ## Part 5C (quiet style)
 

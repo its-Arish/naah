@@ -1,6 +1,6 @@
 # The Entire History of Minnesota
 
-Script: `script.md` (about 2,021 spoken words, roughly 10–12 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
+Script: `script.md` (about 2,167 spoken words, roughly 11–13 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
 
 - **Title:** The Entire History of Minnesota: How a Waterfall Made Breakfast
 - **Thumbnail** (QGIS map, no characters): icy-blue Minnesota with a bright dot at Minneapolis on the Mississippi; box **"1 WATERFALL"** → **"AMERICA'S BREAKFAST"**; bottom **"How?!"**
@@ -47,3 +47,5 @@ First Peoples 10,000 BC–1680 · Fur and Forts 1680–1858 · Statehood and War
 | 4C | Bakken's battery pacemaker 1957; first successful open-heart surgery Sept 2 1952 (U of M, hypothermia, 5-year-old) | ✓ | |
 | 5 | Garland (Grand Rapids), Dylan (Hibbing, Nobel 2016), Prince, Fitzgerald, Schulz, Lindbergh (Little Falls) | ✓ | |
 | 5B | Target 1962 (Roseville); 1991 Halloween blizzard (28 in); State Fair ~2 million, butter heads; 1980 Miracle on Ice, coach Herb Brooks | ✓ | |
+| 5 | Scandinavian immigration; lutefisk; Humphrey's 1948 DNC civil-rights speech ("bright sunshine of human rights"), Dixiecrat walkout | ✓ | |
+| 5B | Duluth as a seaport via the St. Lawrence Seaway (~2,300 mi to the Atlantic) | ✓ | |
