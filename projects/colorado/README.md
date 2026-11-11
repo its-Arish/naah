@@ -1,6 +1,6 @@
 # The Entire History of Colorado
 
-Script: `script.md` (about 1,332 spoken words, roughly 8–10 minutes voiced; can be expanded). Status: **script written, not yet recorded.**
+Script: `script.md` (about 2,289 spoken words, roughly 12–14 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
 
 - **Title:** The Entire History of Colorado: The Gold Rush at the Wrong Mountain
 - **Thumbnail** (split template, QGIS map, no characters): Colorado outline with Pikes Peak and Denver dots ~80 miles apart, arrow between them; left box **"GOLD HERE"** (Denver), right box **"NAMED HERE"** (Pikes Peak); bottom **"Wrong Mountain?!"**
@@ -33,3 +33,23 @@ Cliff Dwellers 10,000 BC–1300 · Plains and Mountains 1300–1806 · Explorers
 | 6B | NORAD Cheyenne Mountain (1966); Santa tracker | ✓ | |
 | 6C | Columbine, Apr 20 1999, 13 killed | ✓ | |
 | 6D | Most fourteeners of any state; 2012 legalisation with Washington | ✓ | |
+| 1 | Stegosaurus found near Morrison 1877 (state fossil); Dinosaur Ridge tracks | ✓ | |
+| 1B | Wetherills found Cliff Palace Dec 1888; Mesa Verde NP 1906, first to protect cultural sites | ✓ | NPS |
+| 1C | Great Sand Dunes ~750 ft, tallest in North America | ✓ | NPS |
+| 2 | Pike arrested by Spanish soldiers 1807 | ✓ | |
+| 2B | Bent's Fort (1833), billiard table; William Bent and Owl Woman | ✓ | NPS |
+| 3 | Central City "richest square mile on Earth" | ✓ | |
+| 3C | Glorieta Pass Mar 1862, supply train burned | ✓ | NPS |
+| 3D | Denver Pacific Railway 1870; Coors 1873 | ✓ | |
+| 3E | Silas Soule murdered Apr 1865 | ✓ | |
+| 3F | Ouray; Ute removal 1881 | ✓ | |
+| 4 | Leadville >10,000 ft; Oscar Wilde 1882 "Please do not shoot the pianist"; Doc Holliday d. 1887, "This is funny" (tradition) | ✓ | |
+| 4B | Margaret "Molly" Brown, Titanic lifeboat 6 | ✓ | |
+| 4C | Baby Doe Tabor found frozen 1935 | ✓ | |
+| 5B | Rockefeller's 1915 visit; Ivy Lee | ✓ | |
+| 5C | Rocky Mountain Arsenal → National Wildlife Refuge | ✓ | USFWS |
+| 6 | Hunter S. Thompson's 1970 sheriff run; Beatles at Red Rocks Aug 26 1964 | ✓ | |
+| 6B | NORAD Santa tracking from 1955 misprinted Sears ad (Col. Harry Shoup); 25-ton blast doors | ✓ | NORAD |
+| 6C | Denver awarded 1976 Games, voters rejected funding 1972 → Innsbruck | ✓ | |
+| 6D | Marshall Fire Dec 30 2021, ~1,000+ homes | ✓ | |
+| 6E | Colorado River serves ~40 million; "Blucifer" fell on sculptor Luis Jiménez (2006) | ✓ | |
