@@ -1,6 +1,6 @@
 # The Entire History of Nevada
 
-Script: `script.md` (see word count in the commit; roughly 11–13 minutes voiced; can be expanded). Status: **script written, not yet recorded.**
+Script: `script.md` (about 1,283 spoken words, roughly 8–10 minutes voiced; can be expanded). Status: **script written, not yet recorded.**
 
 - **Title:** The Entire History of Nevada: The State That Said Yes
 - **Thumbnail** (split template, QGIS map, no characters): left **1864**, a pale empty Nevada with "40,000 PEOPLE"; right **TODAY**, neon Nevada with "40 MILLION VISITORS"; bottom **"How?!"**
