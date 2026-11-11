@@ -1,6 +1,6 @@
 # The Entire History of Alaska
 
-Narration script, written to be voiced with **Gemini TTS** and then animated. About 3,700 spoken words, so roughly 19 to 21 minutes when recorded (California ran 2,600 words to 13:50).
+Narration script, written to be voiced with **Gemini TTS** and then animated. About 3,400 spoken words, so roughly 18 to 19 minutes when recorded (California ran 2,600 words to 13:50).
 
 How to use it (the full rules are in `docs/PLAYBOOK.md` and `docs/HOOKS.md`):
 
