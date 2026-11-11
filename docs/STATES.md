@@ -63,7 +63,7 @@ Each new state: `node scripts/studio.mjs new <state> "The Entire History of <Sta
 | 46 | Maine | **script written** (`projects/maine`, ~1229 words, ~8 min) | most US lobsters → borders one state → earmuffs by a 15-year-old → part of Massachusetts → Malaga Island → lobster was prison food; "lobsters piled two feet high on the beach" |
 | 47 | West Virginia | **script written** (`projects/west-virginia`, ~1303 words, ~9 min) | Mother's Day (founder tried to cancel it) → Golden Delicious → Country Roads by people who'd never been → split from Virginia → Blair Mountain bombs; "a black rock that burns" |
 | 48 | Nebraska | **script written** (`projects/nebraska`, ~1203 words, ~8 min) | Kool-Aid/TV dinner → Arbor Day million trees → one-house legislature → Standing Bear had to prove he was a person → hand-planted forest; "a newspaper editor who missed his trees" |
-| 49 | South Dakota | | Mount Rushmore… |
+| 49 | South Dakota | **script written** (`projects/south-dakota`, ~1184 words, ~8 min) | Rushmore → Wall Drug free ice water → Corn Palace → Wounded Knee → $2 billion nobody will take; "a general who went looking for gold" |
 | 50 | North Dakota | | The geographic centre of North America… |
 
 ## Series rules
