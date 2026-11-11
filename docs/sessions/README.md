@@ -9,3 +9,4 @@ One file per working session: what the creator asked for, in their words, what w
 | Date | Project | Log |
 | --- | --- | --- |
 | 2026-11-10 | The Entire History of California | [2026-11-10-california.md](2026-11-10-california.md) |
+| 2026-11-11 | Alabama hook + thumbnail; scripts for all 50 states | [2026-11-11-fifty-states.md](2026-11-11-fifty-states.md) |
