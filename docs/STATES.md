@@ -20,7 +20,7 @@ Each new state: `node scripts/studio.mjs new <state> "The Entire History of <Sta
 |---|---|---|---|
 | 4 | Florida | **script written** (`projects/florida`, ~3865 words, ~21 min) | Gatorade → secret Disney land → St. Augustine older than the Mayflower → Spanish longer than American → fewer people than Boston in 1900; "a doctor, a block of ice and a mosquito" (v2: full tag pass) |
 | 5 | New York | **script written** (`projects/new-york`, ~3716 words, ~20 min) | Wall Street was a real wall → cookie/boss/Santa are Dutch → $24 that wasn't a sale → New Orange → slave market on Wall Street; "a ditch, four feet deep" (v2: full tag pass, expanded) |
-| 6 | Hawaii | **script written** (`projects/hawaii`, ~1806 words, ~12 min) | Hawaiian pizza is Canadian → ukulele → palace lit before the White House → overthrow; "a spoonful of sugar" |
+| 6 | Hawaii | **script written** (`projects/hawaii`, ~3567 words, ~19 min) | pineapple pizza is Canadian → Portuguese ukulele → surfing kings → palace lit before the White House → queen overthrown; "a spoonful of sugar" (v2: full length, full tags) |
 | 7 | Alaska | **script written** (`projects/alaska`, ~1659 words, ~11 min) | Balto vs Togo → bigger than TX+CA+MT → easternmost too → paid to live there; "it starts with a fur coat" |
 | 8 | Louisiana | **script written** (`projects/louisiana`, ~1677 words, ~11 min) | Jazz → Tabasco → Purchase was 15 states → parishes; "a river that refuses to stay still" |
 | 9 | Nevada | **script written** (`projects/nevada`, ~1283 words, ~9 min) | Vegas was a railroad stop → Area 51 → atomic parties → statehood by telegram; "it starts with that telegram" |
