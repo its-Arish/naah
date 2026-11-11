@@ -27,7 +27,7 @@ Each new state: `node scripts/studio.mjs new <state> "The Entire History of <Sta
 | 10 | Arizona | **script written** (`projects/arizona`, ~1482 words, ~10 min) | London Bridge in the desert → not at the O.K. Corral → DST donut → 2-billion-year rocks; "canals nobody had used for four hundred years" |
 | 11 | Massachusetts | **script written** (`projects/massachusetts`, ~1624 words, ~11 min) | basketball + volleyball + cookie → molasses wave → Salem; "a law about the Devil" |
 | 12 | Pennsylvania | **script written** (`projects/pennsylvania`, ~1455 words, ~10 min) | Hershey/Crayola/Slinky/groundhog → Centralia fire → Gettysburg → state born from a debt; "a king who owed a man sixteen thousand pounds" |
-| 13 | Virginia | | Jamestown, eight presidents… |
+| 13 | Virginia | **script written** (`projects/virginia`, ~1320 words, ~9 min) | 8 presidents/Pentagon/CIA → Lee's front yard → Starving Time → 1619 assembly + 1619 Africans; "a plant the king of England hated" |
 | 14 | Georgia | | Coca-Cola, peaches… |
 | 15 | Tennessee | | Elvis, Graceland, Nashville, Jack Daniel's… |
 | 16 | Washington | | Starbucks, Amazon, Microsoft… |
