@@ -1,6 +1,6 @@
 # The Entire History of Illinois
 
-Narration script, written to be voiced with **Gemini TTS** and then animated. About 2,300 spoken words, so roughly 12 to 13 minutes when recorded (California ran 2,600 words to 13:50).
+Narration script, written to be voiced with **Gemini TTS** and then animated. About 2,400 spoken words, so roughly 13 minutes when recorded (California ran 2,600 words to 13:50).
 
 How to use it (the full rules are in `docs/PLAYBOOK.md` and `docs/HOOKS.md`):
 
@@ -156,7 +156,17 @@ In eighteen fifty-eight, he debates Senator Stephen Douglas across Illinois abou
 
 Two years later, the Republicans meet in Chicago, in a wooden hall called the Wigwam, and pick him for president.
 
-## Part 3E
+<short pause> In the war that follows, the Union's greatest general also comes from Illinois. A former leather-store clerk from Galena, Ulysses S. Grant.
+
+## Part 3E (quiet style)
+
+In April eighteen sixty-five, days after the war ends, Lincoln is assassinated.
+
+<breath> A funeral train carries his body back home, slowly, through city after city. Millions of people line the tracks, day and night.
+
+<long pause> In May, it reaches Springfield. He's buried there, in the prairie he came from.
+
+## Part 3F
 
 In eighteen sixty-five, the Union Stock Yards open in Chicago. Millions of cattle and hogs arrive by train every year, to be slaughtered, packed and shipped east, later in refrigerated rail cars.
 
@@ -236,6 +246,8 @@ In the summer of nineteen nineteen, a Black teenager named Eugene Williams swims
 
 In the nineteen-twenties, alcohol is banned. And Chicago's gangsters, like Al Capone, get rich selling it anyway. <chuckle> Capone is finally sent to prison... for not paying his taxes.
 
+<sigh> Before that, in February nineteen twenty-nine, his rivals are lined up against a garage wall and shot. Seven men. The Saint Valentine's Day Massacre.
+
 <short pause> Chicago's food gets famous too. In nineteen thirty, a bakery manager in a Chicago suburb invents a little sponge cake with cream inside, to sell during the strawberry off-season. <chuckle> The Twinkie. And in nineteen forty-three, a Chicago restaurant bakes pizza in a deep pan, piled high with cheese and sauce. Deep dish.
 
 <chuckle> People say Chicago is called the Windy City because of the wind off the lake. But many historians think it's really because of its boastful politicians. Full of hot air.
@@ -253,6 +265,8 @@ After the war, in nineteen fifty-five, a milkshake-machine salesman named Ray Kr
 In the nineteen-nineties, Michael Jordan and the Chicago Bulls win six championships.
 
 In two thousand eight, a former Chicago community organiser, Barack Obama, is elected the first Black president of the United States.
+
+<short pause> Forty years earlier, in nineteen sixty-eight, Chicago hosted a very different political moment. During the Democratic convention, police and anti-war protesters clash in the streets, live on television. <short pause> The whole world is watching.
 
 <short pause> For twenty-five years, Oprah Winfrey films her talk show in Chicago, and becomes one of the most famous people on Earth.
 

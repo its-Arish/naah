@@ -1,6 +1,6 @@
 # The Entire History of Illinois
 
-Script: `script.md` (about 2,177 spoken words, roughly 11–13 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
+Script: `script.md` (about 2,304 spoken words, roughly 12–14 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
 
 - **Title:** The Entire History of Illinois: The Swamp That Became Chicago
 - **Thumbnail** (split template, QGIS map, no characters): left **1833**, swampy green Illinois "200 PEOPLE"; right **1890**, lit-up Illinois with Chicago glowing "1,000,000"; bottom **"57 Years?!"**
@@ -50,3 +50,6 @@ Cahokia 1050–1350 · The Portage 1673–1818 · Prairie State 1818–1848 · B
 | 5D | 1919 race riot (Eugene Williams), 38 killed | ✓ | |
 | 5E | Capone convicted of tax evasion 1931; Twinkie 1930; deep dish 1943; "Windy City" origin debated | ✓ hedged | |
 | 6 | Bulls six titles; Oprah 1986–2011; river dyed green since 1962; Route 66 start; IL top soybean producer | ✓ | |
+| 3D–3E | Grant from Galena; Lincoln funeral train, buried Springfield May 1865 | ✓ | |
+| 5E | St. Valentine's Day Massacre 1929 | ✓ | |
+| 6 | 1968 DNC protests | ✓ (neutral) | |
