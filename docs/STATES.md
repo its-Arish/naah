@@ -39,7 +39,7 @@ Each new state: `node scripts/studio.mjs new <state> "The Entire History of <Sta
 | 22 | North Carolina | **script written** (`projects/north-carolina`, ~1450 words, ~10 min) | Pepsi/Krispy Kreme → First in Flight (Wrights from Ohio) → Blackbeard → 115 colonists vanished; "one word, carved into a post" |
 | 23 | South Carolina | **script written** (`projects/south-carolina`, ~1350 words, ~9 min) | first golf club/sweet tea → Fort Sumter → enslaved majority → city built on rice; "a handful of seed rice from the other side of the world" |
 | 24 | Mississippi | **script written** (`projects/mississippi`, ~1465 words, ~10 min) | teddy bear → Elvis + the blues → 13th Amendment filed in 2013 → Emmett Till → poorest state; "some of the richest soil on Earth" |
-| 25 | Kentucky | | Fried chicken, the Derby, bourbon… |
+| 25 | Kentucky | **script written** (`projects/kentucky`, ~1327 words, ~9 min) | KFC → Happy Birthday → more bourbon barrels than people → longest cave → Lincoln and Davis both born here; "a gap in the mountains" |
 | 26 | Utah | | Mormon pioneers, the golden spike… |
 | 27 | Oregon | | The Oregon Trail (the game you played at school)… |
 | 28 | New Mexico | | Roswell, the first atomic bomb (Trinity)… |
