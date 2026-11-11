@@ -1,6 +1,6 @@
 # The Entire History of Massachusetts
 
-Script: `script.md` (about 1,624 spoken words, roughly 10–12 minutes voiced; can be expanded). Status: **script written, not yet recorded.**
+Script: `script.md` (about 3,015 spoken words, roughly 16–18 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
 
 - **Title:** The Entire History of Massachusetts: From Witch Trials to Harvard
 - **Thumbnail** (split template, QGIS map, no characters): left **1692**, dark Massachusetts with a noose-free "WITCHES?!" in red; right **TODAY**, bright Massachusetts, "GENIUSES?!"; bottom **"Same State?!"**
@@ -37,3 +37,24 @@ First Peoples 10,000 BC–1620 · Pilgrims 1620–1630 · Puritans 1630–1692 �
 | 5B | Same-sex marriage May 2004 (first state); Red Sox 2004, first title since 1918 | ✓ | |
 | 5C | Boston Marathon bombing 2013: 3 killed, hundreds injured | ✓ | |
 | 5D | "the first college in America" | Changed to "its oldest college" (Spanish-American universities are older) | |
+| 1B | Gosnold named Cape Cod 1602; Sacred Cod in the State House (since 1784), stolen 1933, House refused to sit | ✓ | |
+| 2 | Plymouth Rock first identified 1741 by Thomas Faunce (94) | ✓ | |
+| 2B | Samoset's "Welcome, Englishmen"; Squanto taken to Spain then England; fish fertiliser | ✓ | |
+| 2C | Boston Latin 1635 (oldest US school); John Harvard's books and half his estate; first press at Cambridge 1638–39 | ✓ | |
+| 2D | Anne Hutchinson banished 1638; Roger Williams | ✓ | |
+| 2E | Metacom's head displayed at Plymouth for ~20+ years | ✓ | |
+| 2G | 1721 smallpox inoculation, Onesimus, Cotton Mather, firebomb, Zabdiel Boylston | ✓ | |
+| 3 | Liberty Tree | ✓ | |
+| 3E | Dorchester Heights Mar 4–5 1776; Knox's cannon (~300 mi); Evacuation Day Mar 17 | ✓ | NPS |
+| 3F | Elizabeth "Mum Bett" Freeman's 1781 suit | ✓ | |
+| 3G | Shays' Rebellion 1786–87; Springfield armoury Jan 1787 | ✓ | |
+| 4B | Essex sunk by a whale 1820 → Moby-Dick | ✓ | |
+| 4C | Thoreau at Walden 1845–47 | ✓ | |
+| 4D | Horace Mann, Board of Education 1837; first compulsory attendance law 1852 | ✓ | |
+| 4E | 54th at Fort Wagner July 1863 (~42% casualties) | ✓ | |
+| 5 | Ether Dome, Oct 16 1846; first US subway (Tremont St) and first Boston Marathon 1897; Gibb 1966, Switzer 1967 | ✓ | |
+| 5C | Fig Newtons 1891 (named for Newton, MA) | ✓ | |
+| 5D | Gillette safety razor 1901; Land's Polaroid (idea 1943, camera 1948) | ✓ | |
+| 5F | Sacco and Vanzetti executed 1927; Dukakis proclamation 1977 | ✓ | |
+| 6 | First successful organ transplant (kidney, identical twins), Boston, Dec 1954 | ✓ | |
+| 6B | Big Dig | ✓ | |
