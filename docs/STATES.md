@@ -23,7 +23,7 @@ Each new state: `node scripts/studio.mjs new <state> "The Entire History of <Sta
 | 6 | Hawaii | **script written** (`projects/hawaii`) | Hawaiian pizza is Canadian → ukulele → palace lit before the White House → overthrow; "a spoonful of sugar" |
 | 7 | Alaska | **script written** (`projects/alaska`) | Balto vs Togo → bigger than TX+CA+MT → easternmost too → paid to live there; "it starts with a fur coat" |
 | 8 | Louisiana | **script written** (`projects/louisiana`) | Jazz → Tabasco → Purchase was 15 states → parishes; "a river that refuses to stay still" |
-| 9 | Nevada | | Las Vegas, slot machines… and the atomic tests you could watch from a hotel roof |
+| 9 | Nevada | **script written** (`projects/nevada`) | Vegas was a railroad stop → Area 51 → atomic parties → statehood by telegram; "it starts with that telegram" |
 | 10 | Arizona | | The Grand Canyon… and the state that doesn't change its clocks |
 | 11 | Massachusetts | | Thanksgiving, Harvard, the Tea Party… |
 | 12 | Pennsylvania | | The Liberty Bell, Hershey's chocolate… |
