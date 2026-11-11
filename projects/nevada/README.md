@@ -1,6 +1,6 @@
 # The Entire History of Nevada
 
-Script: `script.md` (about 1,283 spoken words, roughly 8–10 minutes voiced; can be expanded). Status: **script written, not yet recorded.**
+Script: `script.md` (about 3,225 spoken words, roughly 17–19 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
 
 - **Title:** The Entire History of Nevada: The State That Said Yes
 - **Thumbnail** (split template, QGIS map, no characters): left **1864**, a pale empty Nevada with "40,000 PEOPLE"; right **TODAY**, neon Nevada with "40 MILLION VISITORS"; bottom **"How?!"**
@@ -29,3 +29,30 @@ First Nevadans 10,000 BC–1826 · Trails 1826–1859 · Silver 1859–1880 · B
 | 5 | Howard Hughes bought the Desert Inn after being asked to leave (1967) | ✓ | |
 | 5B | Oct 1, 2017: 60 killed | ✓ | |
 | 6 | ~80% of Nevada federally owned; ~40 million Las Vegas visitors a year | ✓ | |
+| 1 | Great Basin (no outlet); Lake Lahontan nearly Lake Erie's size | ✓ | USGS |
+| 1B | Spirit Cave Man (found 1940, ~10,600 years), repatriated 2016 after DNA showed Native ancestry | ✓ | |
+| 1C | Lake Tahoe clarity and volume (would cover California ~14 in.); Pyramid Lake named by Frémont 1844; Lovelock Cave decoys ~2,000 years | ✓ | |
+| 2 | Jedediah Smith crossed the Great Basin 1827; Forty Mile Desert | ✓ | |
+| 2B | Comstock 1859, "blue stuff", Henry Comstock sold cheap | ✓ | |
+| 2C | Deep-mine heat, tons of ice per day; Deidesheimer's square-set timbering (1860) | ✓ | |
+| 2C | Camels used for freight; 1875 law banned them from public roads | ✓ | |
+| 2D | "Mark Twain" first used Feb 1863 in the *Territorial Enterprise*; left Nevada 1864 after a duel challenge | ✓ | |
+| 2E | Pony Express 1860–61, shut two days after the transcontinental telegraph | ✓ | NPS |
+| 2F | Pyramid Lake War 1860 | ✓ | |
+| 2G | Sarah Winnemucca, *Life Among the Piutes* (1883); statue in the Capitol (2005) | ✓ | |
+| 3 | ~40,000 people vs ~127,000 normally required | ✓ | |
+| 3B | Constitution telegram ~16,500 words, ~$4,300, ~2 days; Rep. Worthington voted for the 13th Amendment (Jan 1865) | ✓ | Nevada State Archives |
+| 3C | 1900 population ~42,000; Jim Butler and Tonopah (1900); Goldfield | ✓ | |
+| 3D | Wovoka's 1889 vision (eclipse); Ghost Dance → Wounded Knee | ✓ | |
+| 3E | Women's suffrage 1914 (Anne Martin); her 1918 Senate run | ✓ | |
+| 3F | Reno arch slogan; Harolds Club signs | ✓ | |
+| 4 | May 15 1905 auction; Boulder City still bans gambling | ✓ | |
+| 4B | Hoover Dam: 96 official deaths | ✓ | Bureau of Reclamation |
+| 4C | El Rancho Vegas 1941; Flamingo Dec 1946; Siegel killed June 1947; Nellis (Las Vegas Army Air Field gunnery school) | ✓ | |
+| 4D | 100 atmospheric + 828 underground tests; Miss Atomic Bomb (1957) | ✓ | DOE |
+| 4E | Area 51 acknowledged via 2013 CIA release; 2019 "Storm Area 51" (~150 turned up) | ✓ | |
+| 5 | "Mississippi of the West"; Moulin Rouge 1955; 1960 desegregation agreement | ✓ | |
+| 5B | Hughes bought the Desert Inn 1967; Elvis's 636 consecutive sold-out shows 1969–76 | ✓ | |
+| 5C | Mirage 1989; Neon Boneyard; Las Vegas ~25,000 (1950) → ~2.3M metro; Burning Man in the Black Rock Desert since 1990 | ✓ | |
+| 6 | Golden Knights Stanley Cup 2023 (6th season); Yucca Mountain fight | ✓ | |
+| 6B | Lake Mead barrel body, May 2022 | ✓ | |
