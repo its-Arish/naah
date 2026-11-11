@@ -1,6 +1,6 @@
 # The Entire History of New Mexico
 
-Script: `script.md` (about 1,299 spoken words, roughly 8–10 minutes voiced; can be expanded). Status: **script written, not yet recorded.**
+Script: `script.md` (about 2,207 spoken words, roughly 11–13 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
 
 - **Title:** The Entire History of New Mexico: The Oldest Capital and the First Atomic Bomb
 - **Thumbnail** (split template, QGIS map, no characters): left **1610**, adobe-coloured New Mexico with a dot at Santa Fe "OLDEST CAPITAL"; right **1945**, blinding-white New Mexico with a dot at Trinity "FIRST A-BOMB"; bottom **"Same State?!"**
@@ -31,3 +31,23 @@ First Peoples 11,000 BC–1540 · New Spain 1540–1680 · Pueblo Revolt 1680–
 | 6 | Roswell 1947 "flying disc" → weather balloon → Project Mogul (1994 USAF report) | ✓ | |
 | 6 | Smokey Bear cub, Capitan Mountains, 1950 | ✓ | |
 | 6 | Albuquerque International Balloon Fiesta, largest in the world; Spaceport America | ✓ | |
+| 1 | Carlsbad Caverns explored by 16-year-old Jim White from 1898, following bats; White Sands gypsum | ✓ | NPS |
+| 1B | George McJunkin found the Folsom bones after the 1908 flood; 1927 point among Bison antiquus ribs | ✓ | |
+| 1C | Mimbres bowls placed over the dead, "killed" with a hole | ✓ | |
+| 1D | Chaco roads up to ~30 ft wide with cut stairways; macaw remains | ✓ | NPS |
+| 2 | Esteban killed at Hawikuh (Zuni) 1539; Camino Real ~1,600 mi | ✓ hedged ("probably the first") | |
+| 2B | Acoma mesa ~367 ft; Oñate convicted in 1614 | ✓ | |
+| 2C | Supply caravans every ~3 years; chile introduced from Mexico | ✓ | |
+| 3 | Runners captured Aug 9 1680, revolt moved up a day | ✓ | |
+| 3B | Santa Fe Trail ~900 mi; Kit Carson in Taos; Kearny took Santa Fe without firing | ✓ | |
+| 3C | Glorieta Pass Mar 1862; Chivington destroyed ~80 supply wagons; "Gettysburg of the West" | ✓ | NPS |
+| 3D | Long Walk 1864, 8,000+ Navajo, thousands of deaths; Treaty of 1868 | ✓ | |
+| 4 | Billy the Kid's "21 men" myth (~8–9 actual); railroad 1879–80; Harvey Girls | ✓ | |
+| 4B | Columbus raid "often called" the last foreign invasion of the mainland | ✓ hedged | |
+| 4D | Navajo code words: tortoise = tank, iron fish = submarine; never broken | ✓ | |
+| 4E | 200th/515th Coast Artillery ~1,800 New Mexicans, about half died | ✓ | NM Bataan Memorial Museum |
+| 5 | Ranch School boys wore shorts year-round, slept on porches | ✓ | |
+| 5C | Fermi as "Henry Farmer"; Feynman's safecracking notes; Fuchs, Hall, Greenglass spies | ✓ | |
+| 5D | Trinity flash reportedly seen by a blind woman ~120 mi away; 2025 RECA expansion covers NM downwinders | ✓ | Axios, Source NM, Albuquerque Journal (Jul 2025) |
+| 6B | Church Rock spill July 16 1979, ~94 million gallons, largest radioactive release in US history | ✓ | |
+| 6C | Virgin Galactic Unity 22 crew (incl. Branson), July 11 2021; Truth or Consequences renamed 1950; "Red or green?" state question 1996; Very Large Array | ✓ | |
