@@ -1,6 +1,6 @@
 # The Entire History of Michigan
 
-Script: `script.md` (about 1,297 spoken words, roughly 8–10 minutes voiced; can be expanded). Status: **script written, not yet recorded.**
+Script: `script.md` (about 2,256 spoken words, roughly 12–14 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
 
 - **Title:** The Entire History of Michigan: How Motor City Went Broke
 - **Thumbnail** (split template, QGIS map, no characters): left **1950**, chrome-bright Michigan, Detroit dot "1.85 MILLION"; right **2013**, rust-grey Michigan "BANKRUPT"; bottom **"What Happened?!"**
@@ -30,3 +30,23 @@ Three Fires 10,000 BC–1701 · French and British 1701–1796 · Wolverines 179
 | Hook, 5E | Bankruptcy July 18 2013, ~$18 billion, largest municipal; exited Dec 2014 | ✓ | |
 | 5F | Flint switched water source Apr 2014; lead | ✓ | |
 | 6B | Mackinac Island motor-vehicle ban since 1898 | ✓ | |
+| 1 | 3,000+ mi freshwater coastline; Isle Royale wolf–moose study (since 1958) | ✓ | NPS |
+| 1B | Old Copper Complex, 5,000+ years | ✓ | |
+| 1C | Three Fires roles; megis-shell migration story | ✓ | |
+| 2 | Sault Ste. Marie 1668, oldest city in Michigan | ✓ | |
+| 2B | Fort Michilimackinac lacrosse ruse, June 2 1763 | ✓ | |
+| 2C | Detroit fire 1805; motto *Speramus meliora; resurget cineribus* | ✓ | |
+| 3 | Keweenaw copper rush 1840s; Michigan led US copper to the 1880s; pasties | ✓ | |
+| 3B | Italian Hall, Calumet, Dec 24 1913, 73 dead | ✓ | NPS |
+| 3C | Detroit code name "Midnight"; Sojourner Truth in Battle Creek; "Under the Oaks" Jackson July 6 1854 | ✓ | |
+| 3D | Post cereals; Vernors 1866 | ✓ | |
+| 4 | Ford at Edison Illuminating; Quadricycle too wide for the door | ✓ | The Henry Ford |
+| 4B | Olds Curved Dash (1901), first mass-produced; "any colour... black"; River Rouge | ✓ | |
+| 4C | Ford Sociological Department; Rosa Parks moved to Detroit 1957 | ✓ | |
+| 4D | Flint sit-down strike 1936–37 (44 days) | ✓ | |
+| 4E | 1943 riot, 34 killed | ✓ | |
+| 5 | Joe Louis champion 1937–49; Aretha Franklin; Detroit techno | ✓ | |
+| 5B | Mackinac Bridge 1957 (~5 mi); octopus tradition 1952 | ✓ | |
+| 5E | Edmund Fitzgerald Nov 10 1975, 29 lost | ✓ | |
+| 5F | Gerald Ford, Grand Rapids; never elected president or VP | ✓ | |
+| 6 | Grand Bargain (2014) saved DIA collection and pensions; Eminem | ✓ | |
