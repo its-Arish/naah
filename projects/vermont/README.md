@@ -1,6 +1,6 @@
 # The Entire History of Vermont
 
-Script: `script.md` (about 1,985 spoken words, roughly 10–12 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
+Script: `script.md` (about 2,072 spoken words, roughly 11–13 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
 
 - **Title:** The Entire History of Vermont: The State That Was Its Own Country
 - **Thumbnail** (split template, QGIS map, no characters): Vermont in deep green standing apart from a grey US; box **"1777–1791"**; bottom **"Its Own Country?!"**
@@ -46,3 +46,6 @@ First Peoples 10,000 BC–1749 · The Grants 1749–1775 · Green Mountain Boys 
 | 5 | First rope tow (Model T engine), 1934; von Trapps at Stowe (1942); Frost's grave in Bennington | ✓ | |
 | 5B | Act 250 (1970); Cohen's anosmia; Flavor Graveyard; sugar on snow with doughnuts and pickles; Montpelier smallest capital (~8,000) | ✓ | |
 | 5C | Irene Aug 2011; July 2023 Montpelier floods | ✓ | |
+| 2B | Allens' Onion River Land Company holdings in the Grants | ✓ | |
+| 4B | Hope Cemetery, Barre (granite armchair, race car memorials); Italian and Scottish carvers | ✓ | |
+| 5B | IBM Essex Junction plant (1957), long the state's largest private employer | ✓ | |

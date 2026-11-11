@@ -77,6 +77,8 @@ When New York sends sheriffs and surveyors, the Green Mountain Boys chase them o
 
 <laugh> He's basically an outlaw. And very popular.
 
+<tsk> It helps that Allen and his brothers own a land company, with tens of thousands of acres of New Hampshire grants. If New York wins, they lose everything. <short pause> Fighting for their neighbours is also fighting for their own fortune.
+
 ## Part 2C
 
 Then, the Revolution.
@@ -138,6 +140,8 @@ Vermont stays a land of small farms, sheep, dairy cows and stone.
 <laugh> Then, in the eighteen-twenties and thirties, Vermont goes crazy for sheep. Fine-wooled merino sheep, from Spain. At the peak, there are about six sheep for every person in the state.
 
 Its quarries ship marble and granite across America. Barre, Vermont, becomes the granite capital of the world, cutting gravestones and monuments.
+
+<short pause> Stonecutters come from Italy and Scotland to carve it. <chuckle> In Barre's cemetery, their gravestones are works of art. One is a granite armchair. Another is a life-size racing car.
 
 ## Part 4C
 
@@ -206,6 +210,8 @@ In nineteen sixty-eight, Vermont bans billboards, to protect its views.
 <chuckle> In maple season, Vermonters pour boiling syrup onto fresh snow, where it hardens into chewy, sticky taffy. Sugar on snow. <laugh> Traditionally, it's served with a plain doughnut... and a sour pickle, to cut the sweetness.
 
 <short pause> Montpelier, with fewer than nine thousand people, is the smallest state capital in America.
+
+<short pause> And in nineteen fifty-seven, IBM builds a computer chip factory near Burlington. For decades, it's Vermont's biggest private employer.
 
 And in two thousand, Vermont becomes the first state to create civil unions for same-sex couples.
 
