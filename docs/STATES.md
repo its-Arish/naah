@@ -55,7 +55,7 @@ Each new state: `node scripts/studio.mjs new <state> "The Entire History of <Sta
 | 38 | Iowa | **script written** (`projects/iowa`, ~1167 words, ~8 min) | 7 pigs per person → first electronic computer → Field of Dreams → the day the music died → candidates flock here first; "a slow copy machine" |
 | 39 | Indiana | **script written** (`projects/indiana`, ~1080 words, ~7 min) | Indy 500 → Lincoln grew up here → pi = 3.2 bill → Santa Claus, Indiana → 1920s Klan; "a race track paved with three million bricks" |
 | 40 | Maryland | **script written** (`projects/maryland`, ~1305 words, ~9 min) | Ouija board → D.C. carved from Maryland → state song called Lincoln a despot → Antietam → anthem to a drinking song; "a flag sewn so big, the enemy couldn't miss it" |
-| 41 | Connecticut | | Hamburgers, Yale, the insurance capital… |
+| 41 | Connecticut | **script written** (`projects/connecticut`, ~1150 words, ~8 min) | Frisbee → first hamburger (no ketchup) → phone book with no numbers → Mystic massacre → insurance capital; "ships that never came home" |
 | 42 | Rhode Island | | The smallest state with the longest official name |
 | 43 | Delaware | | The first state… |
 | 44 | New Hampshire | | "Live Free or Die", the first primary… |
