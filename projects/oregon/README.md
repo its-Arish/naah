@@ -1,6 +1,6 @@
 # The Entire History of Oregon
 
-Script: `script.md` (about 1,285 spoken words, roughly 8–10 minutes voiced; can be expanded). Status: **script written, not yet recorded.**
+Script: `script.md` (about 2,287 spoken words, roughly 12–14 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
 
 - **Title:** The Entire History of Oregon: Why They Walked 2,000 Miles
 - **Thumbnail** (QGIS map, no characters): US map with a dotted trail line from Missouri to Oregon, Oregon glowing green; box **"2,000 MILES"**; bottom **"For a Hat?!"**
@@ -32,3 +32,24 @@ First Peoples 14,000 BC–1805 · Beaver Country 1805–1840 · The Trail 1840�
 | 5B | Vanport flood May 30 1948, 15 dead | ✓ | |
 | 5C | Exploding whale, Florence, Nov 12 1970, ~half a ton of dynamite, car crushed | ✓ | |
 | 5E | Bottle bill 1971 (first); all-mail voting; no sales tax | ✓ | |
+| 1B | Mazama eruption ~7,700 years ago, ash in 8 states and 3 provinces; Fort Rock sandals under the ash; Crater Lake 1,943 ft; Klamath Llao–Skell story | ✓ | NPS Crater Lake |
+| 1C | "skookum" from Chinook Jargon | ✓ | |
+| 2 | Robert Gray named the Columbia, May 1792 | ✓ | |
+| 2B | "Ocean in view! O! the joy" (Nov 7 1805), actually the estuary; Nov 24 1805 vote incl. York and Sacagawea; spoiled elk at Christmas; Salt Works (~3.5 bushels) | ✓ | NPS Lewis & Clark NHP |
+| 2D | John McLoughlin at Fort Vancouver; "Father of Oregon" | ✓ | |
+| 3 | Promoters' "pigs already cooked" (Peter Burnett); wagon beds ~4×10 ft; Independence Rock by July 4 | ✓ | NPS |
+| 3B | Barlow Road 1846, $5 per wagon; McLoughlin's credit to settlers | ✓ | |
+| 3C | Graves averaged roughly 10 per mile | ✓ "every few hundred feet" | |
+| 3D | Measles 1847 killed about half the Cayuse; Whitmans + 11 killed; five Cayuse hanged 1850 | ✓ | NPS Whitman Mission |
+| 3E | "Fifty-four forty or fight"; Oregon Treaty 1846 | ✓ | |
+| 3F | Stumptown nickname | ✓ | |
+| 4D | Nez Perce war 1877, caught ~40 mi from Canada; surrender speech as reported | ✓ hedged | NPS Nez Perce NHP |
+| 4E | 1922 Compulsory Education Act struck down, Pierce v. Society of Sisters (1925); Klan backing; Duniway and 1912 suffrage (6th attempt), she wrote and signed the proclamation | ✓ | Oregon Encyclopedia |
+| 5 | Guthrie hired May 1941, 26 songs; "Roll On, Columbia" Washington's state folk song | ✓ | |
+| 5 | Fujita's raids Sept 1942 near Brookings; sword gift 1962 | ✓ | |
+| 5B | Bly balloon bomb May 5 1945, 6 killed | ✓ | |
+| 5C | Celilo Falls flooded by The Dalles Dam, Mar 10 1957 | ✓ | |
+| 6 | D. B. Cooper Nov 24 1971, $200,000, Portland–Seattle flight | ✓ | FBI |
+| 6B | Bowerman ruined the waffle iron | ✓ | |
+| 6C | Beach Bill 1967; McCall quote 1971; urban growth boundaries (1973 law) | ✓ | |
+| 6C | The Goonies (1985) filmed in Astoria | ✓ | |
