@@ -50,7 +50,7 @@ Each new state: `node scripts/studio.mjs new <state> "The Entire History of <Sta
 | 33 | Kansas | **script written** (`projects/kansas`, ~1131 words, ~8 min) | Pizza Hut/White Castle → flatter than a pancake → Air Capital → Bleeding Kansas; "crates of rifles, labelled Bibles" |
 | 34 | Missouri | **script written** (`projects/missouri`, ~1220 words, ~8 min) | iced tea + ice cream cone → Arch twice the Statue of Liberty → every trail west starts here → Dred Scott; "a fourteen-year-old boy and a crew of thirty men" |
 | 35 | Arkansas | **script written** (`projects/arkansas`, ~1159 words, ~8 min) | Walmart → keep-what-you-find diamond mine → pronunciation law → Little Rock Nine; "a little dime store on a town square" |
-| 36 | Minnesota | | 10,000 lakes, the Mall of America… |
+| 36 | Minnesota | **script written** (`projects/minnesota`, ~1175 words, ~8 min) | Cheerios/Spam/Scotch tape → 11,000+ lakes → mall with a theme park → 38 hanged at Mankato; "the only great waterfall on the Mississippi River" |
 | 37 | Wisconsin | | Cheese, Harley-Davidson… |
 | 38 | Iowa | | Corn, the caucuses… |
 | 39 | Indiana | | The Indy 500… |
