@@ -1,6 +1,6 @@
 # The Entire History of Idaho
 
-Script: `script.md` (about 1,267 spoken words, roughly 8–10 minutes voiced; can be expanded). Status: **script written, not yet recorded.**
+Script: `script.md` (about 2,105 spoken words, roughly 11–13 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
 
 - **Title:** The Entire History of Idaho: Potatoes, a Fake Name and the Atom
 - **Thumbnail** (split template, QGIS map, no characters): left, earthy-brown Idaho "POTATOES"; right, glowing Idaho with a dot at Arco "NUCLEAR POWER"; bottom **"Same State?!"**
@@ -28,3 +28,21 @@ First Peoples 10,000 BC–1805 · Trails 1805–1860 · Gold and Name 1860–189
 | 4C | Simplot dehydrated potatoes (WWII), frozen fries, handshake deal with Kroc | ✓ | |
 | 5 | WWII Naval Proving Ground → National Reactor Testing Station (1949); 52 reactors | ✓ | INL |
 | 6 | Apollo training at Craters of the Moon (1969); Knievel jump 1974; Sun Valley first chairlift 1936; Micron 1978 in a dentist's basement | ✓ | |
+| 1 | Snake River Plain as the Yellowstone hotspot track; Shoshone Falls (212 ft) taller than Niagara (~167 ft) | ✓ | USGS |
+| 1B | Hagerman horse (Equus simplicidens, ~3.5 Mya), 100+ individuals; state fossil | ✓ | NPS Hagerman |
+| 1C | Appaloosa named after the Palouse | ✓ | |
+| 2 | Sacagawea born in the Lemhi Valley; Lolo Trail hunger (candles, horses) | ✓ | L&C journals |
+| 2B | Watkuweis ("Do them no harm") | ✓ told as Nez Perce tradition | NPS Nez Perce NHP |
+| 2C | Fort Hall 1834 (Wyeth); Spaldings at Lapwai 1836, press 1839, potatoes 1837 | ✓ | |
+| 3 | Idaho City (1863) said to exceed Portland; Chinese ~28.5% of Idaho Territory, 1870 census | ✓ hedged | Idaho State Historical Society |
+| 3 | Polly Bemis (Lalu Nathoy), Warren and the Salmon River; poker story she denied | ✓ | |
+| 4B | Steunenberg bomb Dec 30 1905; Orchard; Haywood trial 1907, Darrow's ~11-hour closing; acquittal | ✓ | |
+| 4C | Big Burn winds; Pulaski and ~45 men in the War Eagle mine (5 died); Pulaski tool | ✓ | USFS |
+| 5 | Russet Burbank | ✓ | |
+| 5B | Farnsworth's sketch for teacher Justin Tolman | ✓ | |
+| 5D | Farragut Naval Training Station (~293,000 trained); Navy Acoustic Research Detachment, Bayview | ✓ | US Navy |
+| 5E | Minidoka ~13,000; volunteers from the camp | ✓ | NPS |
+| 6B | EBR-I chalk signatures; Nautilus S1W prototype tested at NRTS in a hull in a water tank | ✓ | INL |
+| 6D | Teton Dam June 5 1976, 11 dead, failed on first filling | ✓ | USBR |
+| 6E | Knievel's broken nose (Sept 8 1974) | ✓ | |
+| 6F | Sun Valley chairlift from banana-loading hoists (James Curran); Boise State blue turf 1986; Napoleon Dynamite filmed in Preston | ✓ | |
