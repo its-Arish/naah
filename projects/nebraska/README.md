@@ -1,6 +1,6 @@
 # The Entire History of Nebraska
 
-Script: `script.md` (about 1,203 spoken words, roughly 8–10 minutes voiced; can be expanded). Status: **script written, not yet recorded.**
+Script: `script.md` (about 2,011 spoken words, roughly 10–12 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
 
 - **Title:** The Entire History of Nebraska: How the Great American Desert Turned Green
 - **Thumbnail** (split template, QGIS map, no characters): left **1820**, sand-coloured Nebraska "GREAT AMERICAN DESERT"; right **TODAY**, Nebraska covered in green centre-pivot circles "FARM GIANT"; bottom **"How?!"**
@@ -29,3 +29,19 @@ First Peoples 10,000 BC–1804 · The Desert 1804–1862 · Homesteaders 1862–
 | 4B | Timber Culture Act 1873 | ✓ | |
 | 4C | Ogallala Aquifer; Zybach's centre pivot (1940s, patent 1952) | ✓ | |
 | 5 | Buffett's 1958 Omaha house | ✓ | |
+| 1 | Ashfall Fossil Beds (~12 Mya, Bruneau-Jarbidge eruption); mammoth state fossil, "Archie" at Morrill Hall; Sandhills dune field | ✓ | UNL State Museum |
+| 1B | Platte "a mile wide and an inch deep"; ~80% of the world's sandhill cranes; Pawnee lodges aligned to the stars | ✓ | |
+| 2 | Winter Quarters 1846–47 (~350+ deaths); Scotts Bluff | ✓ | |
+| 2B | Omaha stockyards; Reuben sandwich claim | ✓ hedged | |
+| 2C | Cow chips; Speese family photo (Solomon Butcher, 1888); Kinkaid Act 1904 | ✓ | Nebraska State Historical Society |
+| 2D | Locusts halted trains | ✓ | |
+| 2E | Old Glory Blowout July 4 1882; Wild West 1883–1913; Queen Victoria's 1887 attendance | ✓ | |
+| 2F | Children's Blizzard Jan 12 1888 (~235 deaths) | ✓ | |
+| 3B | Thomas Tibbles publicised the case | ✓ | |
+| 3C | Crazy Horse killed at Fort Robinson Sept 5 1877 | ✓ | |
+| 3D | Susette La Flesche (Bright Eyes); Susan La Flesche Picotte MD 1889, first Native American woman doctor | ✓ | |
+| 4 | "Tree Planters State" (former nickname) | ✓ | |
+| 4C | Willa Cather, My Ántonia (1918), Pulitzer 1923; Boys Town 1917 | ✓ | |
+| 4E | North Platte Canteen Dec 1941–Apr 1946, ~6 million served | ✓ | |
+| 5 | Swanson leftover-turkey story (disputed, "the story goes") | ✓ hedged | |
+| 5B | Ford, Malcolm X, Astaire, Brando born in Omaha; Carhenge (1987); Runza; Offutt on 9/11; Huskers sellout streak since 1962 | ✓ | |
