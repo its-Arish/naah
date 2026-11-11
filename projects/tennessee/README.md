@@ -1,6 +1,6 @@
 # The Entire History of Tennessee
 
-Script: `script.md` (about 1,423 spoken words, roughly 9–11 minutes voiced; can be expanded). Status: **script written, not yet recorded.**
+Script: `script.md` (about 2,562 spoken words, roughly 13–15 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
 
 - **Title:** The Entire History of Tennessee: Moonshine to the Atomic Bomb
 - **Thumbnail** (split template, QGIS map, no characters): left **1933**, muddy brown flooded Tennessee "MOONSHINE"; right **1945**, glowing Tennessee with a dot at Oak Ridge "ATOMIC BOMB"; bottom **"Same State?!"**
@@ -33,3 +33,26 @@ First Peoples 10,000 BC–1760 · Frontier 1760–1796 · Volunteers 1796–1860
 | 7B | Nashville sit-ins Feb–May 1960 | ✓ | |
 | 7C | MLK killed Apr 4 1968, Lorraine Motel | ✓ | |
 | 7D | Dolly Parton one of 12 children; Dollywood 1986; Imagination Library | ✓ | |
+| 1B | Chota, Cherokee "mother town" and city of refuge; Pinson Mounds | ✓ | |
+| 1C | Smokies most visited national park; Elkmont synchronous fireflies | ✓ | NPS |
+| 1B | Nancy Ward (Nanyehi), Ghigau | ✓ | |
+| 2 | Watauga Association 1772 | ✓ | |
+| 2B | Kings Mountain Oct 7 1780; Jefferson's "turn of the tide" | ✓ | NPS |
+| 2C | Nashville 1779–80; Donelson flotilla ~1,000 mi, Rachel Donelson aboard; Memphis laid out 1819 | ✓ | |
+| 2D | State of Franklin salaries in skins (raccoon 1s 3d) | ✓ | |
+| 2E | Jackson–Dickinson duel 1806; bullet stayed in his chest | ✓ | |
+| 2F | Crockett's "go to hell... I will go to Texas"; Sam Houston governor 1827–29 | ✓ | |
+| 3 | Red Clay councils 1832–37 | ✓ | |
+| 4B | Battle of Franklin Nov 30 1864, six Confederate generals killed | ✓ | NPS |
+| 4C | Andrew Johnson impeached 1868, acquitted by one vote | ✓ | |
+| 4E | Fisk Jubilee Singers 1871; sang for Grant and Queen Victoria | ✓ | Fisk University |
+| 4F | Memphis yellow fever 1878, 5,000+ dead; charter surrendered 1879 | ✓ | |
+| 4G | Ida B. Wells' *Free Speech* destroyed 1892 | ✓ | |
+| 5B | Alvin York, Oct 8 1918, 132 prisoners | ✓ | |
+| 5C | Chattanooga Coca-Cola bottling rights for $1 (1899); Moon Pie 1917 | ✓ | |
+| 5D | Nathan "Nearest" Green, Jack Daniel's first master distiller | ✓ | Brown-Forman (2016) |
+| 6 | Norris all-electric model town | ✓ | TVA |
+| 6C | Oak Ridge billboards; "Calutron girls" | ✓ | DOE |
+| 7 | 1927 Bristol Sessions | ✓ | |
+| 7B | Highlander Folk School: Rosa Parks (1955); "We Shall Overcome" | ✓ | |
+| 7D | Wilma Rudolph, three golds 1960; Graceland (bought 1957); FedEx Memphis hub 1973 | ✓ | |
