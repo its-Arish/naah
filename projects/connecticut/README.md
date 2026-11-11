@@ -1,6 +1,6 @@
 # The Entire History of Connecticut
 
-Script: `script.md` (about 1,150 spoken words, roughly 7–9 minutes voiced; can be expanded). Status: **script written, not yet recorded.**
+Script: `script.md` (about 2,139 spoken words, roughly 11–13 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
 
 - **Title:** The Entire History of Connecticut: How a Tiny State Insured the World
 - **Thumbnail** (QGIS map, no characters): tiny Connecticut glowing gold on a world map, lines radiating out; box **"INSURANCE CAPITAL"**; bottom **"This Tiny State?!"**
@@ -31,3 +31,24 @@ First Peoples 10,000 BC–1614 · Puritan River Towns 1614–1700 · Revolution 
 | 5C | Travelers' first accident policy 1864, 2 cents (James Bolter); early auto policy 1897 | ✓ | Travelers |
 | 5D | Twain and Stowe neighbours at Nook Farm; USS Nautilus launched Groton Jan 1954 | ✓ | |
 | 5E | Sandy Hook, Dec 14 2012: 20 children, 6 adults | ✓ | |
+| 1 | Dinosaur tracks found 1966 in Rocky Hill; state building moved; Dinosaur State Park | ✓ | CT DEEP |
+| 1B | Wampum from whelk and quahog shells | ✓ | |
+| 2 | Hooker's 1636 trek, wife carried on a litter | ✓ | |
+| 2C | Mashantucket Pequot Museum; Foxwoods | ✓ | |
+| 2D | Alse Young hanged May 26 1647, first colonial witchcraft execution | ✓ | |
+| 2E | Charter Oak fell Aug 21 1856; souvenirs | ✓ | |
+| 2F | Yale 1701, named for Elihu Yale's 1718 gift; Hartford Courant 1764 | ✓ | |
+| 3 | Hale's words "as remembered"; Bushnell's Turtle 1776 (Ezra Lee), first submarine attack; Putnam's "whites of their eyes" (attributed) | ✓ hedged | |
+| 3B | "Provision State" | ✓ | |
+| 3C | Sherman signed the Continental Association, Declaration, Articles and Constitution | ✓ | |
+| 3D | Webster's 1828 dictionary (~70,000 words); Hartford Convention 1814–15 | ✓ | |
+| 4 | Eli Terry's mass-produced clocks; Colt's onion dome; Goodyear's vulcanisation (~1839), debtors' prison, died in debt | ✓ | |
+| 4B | Prudence Crandall 1833–34; state heroine 1995 | ✓ | |
+| 4C | Amistad crew steered north at night | ✓ | |
+| 4D | Charles W. Morgan (1841), 37 voyages, last wooden whaleship | ✓ | Mystic Seaport |
+| 5B | Eliphalet Terry's sleigh trip; Wadsworth Atheneum 1842 | ✓ | |
+| 5C | Hartford richest US city per capita after the Civil War | ✓ hedged | |
+| 5D | Twain's losses on the Paige compositor (~18,000 parts); bankruptcy 1894 | ✓ | |
+| 5E | Pez (Orange); Subway (DeLuca, 17, Bridgeport 1965); ESPN (Bristol 1979); Barnum and Tom Thumb; Gillette Castle; Sikorsky VS-300 1939; Lyme disease (1975) | ✓ | |
+| 5F | Nautilus under the North Pole Aug 1958 | ✓ | |
+| 5G | Hartford circus fire July 6 1944, 167 dead | ✓ | |
