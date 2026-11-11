@@ -1,6 +1,6 @@
 # The Entire History of Alaska
 
-Narration script for **Gemini TTS**. About 2,000 spoken words, roughly 13–15 minutes when recorded. Rules: `docs/PLAYBOOK.md`, `docs/HOOKS.md`. Paste only the lines under each `##` heading.
+Narration script for **Gemini TTS**. About 1,650 spoken words, roughly 11–13 minutes when recorded. Rules: `docs/PLAYBOOK.md`, `docs/HOOKS.md`. Paste only the lines under each `##` heading.
 
 | Part | Style line |
 | --- | --- |

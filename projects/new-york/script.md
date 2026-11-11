@@ -1,6 +1,6 @@
 # The Entire History of New York
 
-Narration script, written to be voiced with **Gemini TTS** and then animated. About 3,500 spoken words, so roughly 22 to 25 minutes when recorded.
+Narration script, written to be voiced with **Gemini TTS** and then animated. About 2,450 spoken words, so roughly 17 to 19 minutes when recorded.
 
 How to use it (the full rules are in `docs/PLAYBOOK.md` and `docs/HOOKS.md`):
 

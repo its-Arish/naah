@@ -1,6 +1,6 @@
 # The Entire History of Hawaii
 
-Narration script for **Gemini TTS**. About 2,700 spoken words, roughly 18–20 minutes when recorded. Rules: `docs/PLAYBOOK.md`, `docs/HOOKS.md`. Paste only the lines under each `##` heading; headings are never spoken or shown.
+Narration script for **Gemini TTS**. About 1,800 spoken words, roughly 12–14 minutes when recorded. Rules: `docs/PLAYBOOK.md`, `docs/HOOKS.md`. Paste only the lines under each `##` heading; headings are never spoken or shown.
 
 | Part | Style line |
 | --- | --- |
