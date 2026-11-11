@@ -40,7 +40,7 @@ Each new state: `node scripts/studio.mjs new <state> "The Entire History of <Sta
 | 23 | South Carolina | **script written** (`projects/south-carolina`, ~1350 words, ~9 min) | first golf club/sweet tea → Fort Sumter → enslaved majority → city built on rice; "a handful of seed rice from the other side of the world" |
 | 24 | Mississippi | **script written** (`projects/mississippi`, ~1465 words, ~10 min) | teddy bear → Elvis + the blues → 13th Amendment filed in 2013 → Emmett Till → poorest state; "some of the richest soil on Earth" |
 | 25 | Kentucky | **script written** (`projects/kentucky`, ~1327 words, ~9 min) | KFC → Happy Birthday → more bourbon barrels than people → longest cave → Lincoln and Davis both born here; "a gap in the mountains" |
-| 26 | Utah | | Mormon pioneers, the golden spike… |
+| 26 | Utah | **script written** (`projects/utah`, ~1385 words, ~9 min) | Jell-O → seagull in a desert → float like a cork → Mountain Meadows → rejected for statehood 6 times; "a plague of crickets" |
 | 27 | Oregon | | The Oregon Trail (the game you played at school)… |
 | 28 | New Mexico | | Roswell, the first atomic bomb (Trinity)… |
 | 29 | Montana | | Little Bighorn, Yellowstone… |
