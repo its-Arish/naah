@@ -1,6 +1,6 @@
 # The Entire History of Oklahoma
 
-Script: `script.md` (about 1,337 spoken words, roughly 8–10 minutes voiced; can be expanded). Status: **script written, not yet recorded.**
+Script: `script.md` (about 2,158 spoken words, roughly 11–13 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
 
 - **Title:** The Entire History of Oklahoma: The Land Given Away in a Race
 - **Thumbnail** (split template, QGIS map, no characters): left **1830**, Oklahoma in deep red "PROMISED FOREVER"; right **1889**, Oklahoma cut into a patchwork grid "RACE FOR IT"; bottom **"Forever?!"**
@@ -27,3 +27,22 @@ First Peoples 10,000 BC–1830 · Indian Territory 1830–1866 · Land Runs 1889
 | 6B | OKC bombing Apr 19 1995: 168 killed incl. 19 children | ✓ | |
 | 6C | McGirt v. Oklahoma (July 9 2020); McGirt is a Seminole citizen; quote "Because Congress has not said otherwise, we hold the government to its word." | ✓ (draft said "Muscogee man" and misquoted; fixed) | Supreme Court opinion |
 | 6D | 39 tribal nations headquartered in Oklahoma | ✓ | |
+| 1 | Spiro looted by the Pocola Mining Co. (1933–35), dynamite; "King Tut of the Midwest" | ✓ | Oklahoma Historical Society |
+| 1B | Comanche horse empire | ✓ | |
+| 2B | "Trail of tears and death" attributed to a Choctaw chief (1831) | ✓ | |
+| 2C | Sequoyah's syllabary (85 symbols); Cherokee Female Seminary 1851 | ✓ | |
+| 2D | Choctaw gift of ~$170 for the Irish famine, 1847; "Kindred Spirits" sculpture 2017; Irish donations to Navajo and Hopi relief, 2020 | ✓ | |
+| 2E | 1866 treaties required freeing enslaved people | ✓ | |
+| 2F | Geronimo died a prisoner at Fort Sill, Feb 1909 | ✓ | |
+| 3 | Bass Reeves: escaped slavery, deputy US marshal 1875, ~3,000 arrests (claimed), arrested his son; Lone Ranger theory (Art Burton) | ✓ hedged | |
+| 3D | Allotment losses; Sequoyah constitution 1905; seal moved to OKC June 1910 (laundry-bag legend) | ✓ | |
+| 4 | Capitol oil well (Petunia #1), "said to be" the only one; Cyrus Avery and Route 66 (1926); most drivable miles of old 66 | ✓ | |
+| 4B | Will Rogers quote; Jim Thorpe 1912 golds, stripped 1913, restored as sole champion July 2022 | ✓ | IOC |
+| 4C | Osage murders incl. by husbands (Burkhart) | ✓ | FBI |
+| 4D | Planes over Greenwood; 2001 Commission report; Greenwood Rising (2021) | ✓ | |
+| 5 | Great Plains Shelterbelt, ~220 million trees | ✓ | USFS |
+| 5 | Woody Guthrie b. Okemah; "This Land Is Your Land" | ✓ | |
+| 5B | "Oklahoma!" (1943) title song is the state song (1953) | ✓ | |
+| 6 | Bridge Creek–Moore tornado May 3 1999, ~300 mph winds | ✓ "some of the fastest" | NOAA |
+| 6B | Field of Empty Chairs; daycare in the Murrah Building | ✓ | |
+| 6C | Oklahoma v. Castro-Huerta (2022) | ✓ | Supreme Court |
