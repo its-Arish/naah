@@ -1,6 +1,6 @@
 # The Entire History of Vermont
 
-Script: `script.md` (about 1,075 spoken words, roughly 7–9 minutes voiced; can be expanded). Status: **script written, not yet recorded.**
+Script: `script.md` (about 1,985 spoken words, roughly 10–12 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
 
 - **Title:** The Entire History of Vermont: The State That Was Its Own Country
 - **Thumbnail** (split template, QGIS map, no characters): Vermont in deep green standing apart from a grey US; box **"1777–1791"**; bottom **"Its Own Country?!"**
@@ -29,3 +29,20 @@ First Peoples 10,000 BC–1749 · The Grants 1749–1775 · Green Mountain Boys 
 | 4C | Coolidge sworn in by his father by kerosene lamp, Aug 3 1923 | ✓ | |
 | 4D | Nov 1927 flood, 84 dead | ✓ | |
 | 5 | First US rope tow, Woodstock, 1934; civil unions 2000 | ✓ | |
+| 1 | Charlotte beluga (found 1849), state fossil; Champ sightings | ✓ | Vermont State Geologist |
+| 1B | ~40:1 sap to syrup; Abenaki bands recognised 2011–12 | ✓ | |
+| 2 | Bennington named after Wentworth (1749); "beech seal" | ✓ | |
+| 2C | Witnesses' ruder version of Allen's words; Allen captured near Montreal 1775, ~3 years prisoner | ✓ | |
+| 2D | Hubbardton July 7 1777 (only Revolutionary battle in VT); Bennington Aug 16 1777, Bennington Battle Day; monument (~306 ft) tallest structure in VT | ✓ | |
+| 3 | Lemuel Haynes (Rutland), ordained 1785 | ✓ | |
+| 3B | Vermont coppers (sun over mountains) | ✓ | |
+| 4 | 1816 "Eighteen Hundred and Froze to Death" after Tambora | ✓ | |
+| 4B | Joseph Smith (Sharon), Brigham Young (Whitingham), John Deere (Rutland), Elisha Otis (Halifax) born in VT; Alexander Twilight (Middlebury 1823; legislature 1836); merino peak ~6 sheep per person (1840); Barre granite | ✓ | |
+| 4C | Phineas Gage, Cavendish, Sept 13 1848 | ✓ | |
+| 4D | Stannard's Vermont brigade flanked Pickett's Charge; St. Albans raiders tried to burn the town | ✓ | NPS |
+| 4E | Snowflake Bentley (5,000+ photographs from 1885); Kipling's Naulakha (1892–96), The Jungle Book | ✓ | |
+| 4F | Coolidge went back to bed | ✓ | |
+| 4G | Lt. Gov. S. Hollister Jackson drowned in the 1927 flood | ✓ | |
+| 5 | First rope tow (Model T engine), 1934; von Trapps at Stowe (1942); Frost's grave in Bennington | ✓ | |
+| 5B | Act 250 (1970); Cohen's anosmia; Flavor Graveyard; sugar on snow with doughnuts and pickles; Montpelier smallest capital (~8,000) | ✓ | |
+| 5C | Irene Aug 2011; July 2023 Montpelier floods | ✓ | |
