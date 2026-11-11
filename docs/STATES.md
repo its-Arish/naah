@@ -58,7 +58,7 @@ Each new state: `node scripts/studio.mjs new <state> "The Entire History of <Sta
 | 41 | Connecticut | **script written** (`projects/connecticut`, ~1150 words, ~8 min) | Frisbee → first hamburger (no ketchup) → phone book with no numbers → Mystic massacre → insurance capital; "ships that never came home" |
 | 42 | Rhode Island | **script written** (`projects/rhode-island`, ~1216 words, ~8 min) | smallest state, longest name → not an island → Mr. Potato Head → first to declare, last to join → slave-trade voyages; "a man thrown out of Massachusetts, in the middle of winter" |
 | 43 | Delaware | **script written** (`projects/delaware`, ~1058 words, ~7 min) | first state → more companies than people → one building, 285,000 companies → nylon → 13th Amendment approved in 1901; "a mistake made by its neighbour" |
-| 44 | New Hampshire | | "Live Free or Die", the first primary… |
+| 44 | New Hampshire | **script written** (`projects/new-hampshire`, ~1193 words, ~8 min) | Live Free or Die plates made by prisoners → 400 lawmakers paid $100 → 231-mph wind → Christa McAuliffe; "a town meeting" |
 | 45 | Vermont | | Maple syrup, Ben & Jerry's… and it was briefly its own country |
 | 46 | Maine | | Lobster, lighthouses… |
 | 47 | West Virginia | | "Take Me Home, Country Roads"… |
