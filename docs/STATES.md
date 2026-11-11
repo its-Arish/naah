@@ -51,7 +51,7 @@ Each new state: `node scripts/studio.mjs new <state> "The Entire History of <Sta
 | 34 | Missouri | **script written** (`projects/missouri`, ~2230 words, ~12 min) | iced tea/ice cream cone/Arch/trails → Dred Scott; "a fourteen-year-old boy and a crew of thirty men" (v2) |
 | 35 | Arkansas | **script written** (`projects/arkansas`, ~2087 words, ~11 min) | Walmart/finders-keepers diamonds/pronunciation law → Little Rock Nine; "a little dime store on a town square" (v2) |
 | 36 | Minnesota | **script written** (`projects/minnesota`, ~2167 words, ~12 min) | Cheerios/Spam/Scotch tape/11,000 lakes/Mall of America → Mankato 1862; "the only great waterfall on the Mississippi" (v2) |
-| 37 | Wisconsin | **script written** (`projects/wisconsin`, ~1087 words, ~7 min) | QWERTY keyboard → Harley + first kindergarten → quarter of US cheese → Peshtigo, the forgotten fire; "a tiny bug" |
+| 37 | Wisconsin | **script written** (`projects/wisconsin`, ~2150 words, ~12 min) | QWERTY/Harley/first kindergarten/cheeseheads → Peshtigo; "a tiny bug" (v2) |
 | 38 | Iowa | **script written** (`projects/iowa`, ~1167 words, ~8 min) | 7 pigs per person → first electronic computer → Field of Dreams → the day the music died → candidates flock here first; "a slow copy machine" |
 | 39 | Indiana | **script written** (`projects/indiana`, ~1080 words, ~7 min) | Indy 500 → Lincoln grew up here → pi = 3.2 bill → Santa Claus, Indiana → 1920s Klan; "a race track paved with three million bricks" |
 | 40 | Maryland | **script written** (`projects/maryland`, ~1305 words, ~9 min) | Ouija board → D.C. carved from Maryland → state song called Lincoln a despot → Antietam → anthem to a drinking song; "a flag sewn so big, the enemy couldn't miss it" |
