@@ -1,6 +1,6 @@
 # The Entire History of West Virginia
 
-Script: `script.md` (about 1,303 spoken words, roughly 8–10 minutes voiced; can be expanded). Status: **script written, not yet recorded.**
+Script: `script.md` (about 1,980 spoken words, roughly 10–12 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
 
 - **Title:** The Entire History of West Virginia: Born From One War, Fighting Another
 - **Thumbnail** (split template, QGIS map, no characters): left **1863**, West Virginia breaking off from grey Virginia "SPLIT"; right **1921**, coal-black West Virginia with a red dot at Blair Mountain "10,000 MINERS"; bottom **"Another War?!"**
@@ -30,3 +30,22 @@ First Peoples 10,000 BC–1750 · Western Virginia 1750–1861 · New State 1861
 | 5 | Yeager (b. Myra), Oct 14 1947; Katherine Johnson; Greenbrier bunker revealed 1992 | ✓ | |
 | 5C | Upper Big Branch Apr 5 2010, 29 killed | ✓ | |
 | 5D | New River Gorge National Park, Dec 2020 | ✓ | NPS |
+| 1 | New River among the oldest rivers (claimed); Grave Creek Mound ~62 ft | ✓ hedged | NPS |
+| 1B | Kanawha salt works; gas and oil hit while drilling for brine | ✓ | |
+| 2 | Washington's western land holdings; Point Pleasant Oct 10 1774; Cornstalk murdered 1777 at Fort Randolph; Anne Bailey's 1791 ride for powder | ✓ | WV Encyclopedia |
+| 2B | Booker T. Washington at Malden salt furnaces and mines | ✓ | |
+| 2C | Heyward Shepherd first killed in the raid | ✓ | NPS |
+| 2D | Motto "Montani Semper Liberi"; WV men in Confederate service | ✓ | |
+| 3 | Immigrant coal camps; pepperoni roll state food (2013) | ✓ | |
+| 3B | Many Monongah victims Italian | ✓ | |
+| 3D | Golden Delicious: Mullins tree, Clay County; Stark Bros paid $5,000, caged with an alarm | ✓ | |
+| 4 | Mother Jones, "most dangerous woman in America" (prosecutor Reese Blizzard) | ✓ | |
+| 4B | "Redneck" link to the red bandanas | ✓ hedged ("some say") | |
+| 5 | Pearl Buck (b. Hillsboro), Nobel 1938; Yeager's broken ribs and broomstick | ✓ | |
+| 5B | Katherine Johnson: high school at 10, WVU grad school 1939, Glenn's request | ✓ | NASA |
+| 5C | Green Bank Observatory; National Radio Quiet Zone | ✓ | |
+| 5D | Mothman sightings Nov 1966; statue and festival | ✓ | |
+| 5E | Silver Bridge Dec 15 1967, 46 killed | ✓ | |
+| 5F | Jerry West (Chelyan), NBA logo (widely believed); Mary Lou Retton (Fairmont) 1984 | ✓ | |
+| 5G | Buffalo Creek Feb 26 1972, 125 killed | ✓ | |
+| 5H | Capitol dome ~4.5 ft taller than the US Capitol's; New River Gorge Bridge ~876 ft; Bridge Day | ✓ | |
