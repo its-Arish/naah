@@ -1,6 +1,6 @@
 # The Entire History of Maryland
 
-Script: `script.md` (about 1,305 spoken words, roughly 8–10 minutes voiced; can be expanded). Status: **script written, not yet recorded.**
+Script: `script.md` (about 2,200 spoken words, roughly 11–13 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
 
 - **Title:** The Entire History of Maryland: The Night That Made the Anthem
 - **Thumbnail** (QGIS map, no characters): dark Maryland with Baltimore harbour glowing red and a star at Fort McHenry; box **"SEPT 13, 1814"**; bottom **"O Say Can You See?"**
@@ -31,3 +31,25 @@ First Peoples 10,000 BC–1634 · Lord Baltimore 1634–1763 · Revolution 1763�
 | 6 | Babe Ruth; Thurgood Marshall; Johns Hopkins; Poe died Oct 1849 | ✓ | |
 | 6B | Key Bridge collapse Mar 26 2024, six workers killed | ✓ | NTSB |
 | 6C | Star-Spangled Banner flag at the National Museum of American History (on the Mall, formerly Maryland land) | ✓ | |
+| 1 | Chesapeake Bay impact crater (~35 Mya) shaped the bay; 17th-century oyster reefs were navigation hazards; oysters now ~1–2% of historic levels | ✓ | USGS; NOAA |
+| 1B | Smith's stingray (1608), grave dug, ate the ray; Stingray Point; Susquehannock "giants" | ✓ | Smith's Generall Historie |
+| 2 | George Calvert died 1632 before the charter | ✓ | |
+| 2B | Margaret Brent's vote request, Jan 1648; Protestant takeover 1689, Catholics barred | ✓ | |
+| 2C | Tobacco used as currency | ✓ | |
+| 2D | Cresap's War; Mason–Dixon survey 1763–67, mile markers | ✓ | |
+| 3 | Maryland 400 at Brooklyn, Aug 1776; "Old Line State" attributed to Washington | ✓ hedged | |
+| 3B | Peggy Stewart burned at Annapolis, Oct 19 1774 | ✓ | |
+| 3C | Banneker on the 1791 DC survey; wooden clock; letter to Jefferson (1791) | ✓ | |
+| 3D | Baltimore "nest of pirates"; Pickersgill's helpers (daughter Caroline, nieces, Grace Wisher); flag finished on a brewery floor | ✓ | Smithsonian |
+| 3E | Gen. Ross killed at North Point, Sept 12 1814 | ✓ | |
+| 3F | Souvenir snippings; one star missing | ✓ | Smithsonian |
+| 4 | Charles Carroll laid the B&O first stone, July 4 1828; Baltimore clippers; Morse's 1844 line | ✓ | |
+| 4B | Douglass traded bread for reading lessons | ✓ | Narrative (1845) |
+| 4C | Tubman "never lost a passenger" | ✓ | |
+| 5 | Baltimore Plot, Feb 1861; Lincoln's night passage in a soft hat | ✓ | |
+| 5B | Clara Barton's sleeve at Antietam | ✓ | NPS |
+| 5C | Johns Hopkins bequest (~$7 million), 1873/76 | ✓ | |
+| 6 | Ouija name legend; Ruth at St. Mary's Industrial School; Murray v. Pearson (1936) | ✓ | |
+| 6 | Cal Ripken Jr., 2,632 consecutive games | ✓ | MLB |
+| 6B | Henrietta Lacks, HeLa (1951), polio vaccine work | ✓ | Johns Hopkins |
+| 6C | Jousting state sport (1962); Naval Academy; Camp David | ✓ | |
