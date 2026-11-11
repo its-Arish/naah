@@ -1,6 +1,6 @@
 # The Entire History of Arizona
 
-Script: `script.md` (about 1,482 spoken words, roughly 9–11 minutes voiced; can be expanded). Status: **script written, not yet recorded.**
+Script: `script.md` (about 3,157 spoken words, roughly 16–18 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
 
 - **Title:** The Entire History of Arizona: The City That Rose From Ruins
 - **Thumbnail** (split template, QGIS map, no characters): left **1450**, sand-coloured Arizona with faint canal lines, "ABANDONED"; right **TODAY**, Phoenix lit up, "5TH BIGGEST CITY"; bottom **"In a Desert?!"**
@@ -37,3 +37,28 @@ First Arizonans 11,000 BC–1450 · Gold Seekers 1540–1821 · Mexico 1821–18
 | 6 | Phoenix ~107,000 (1950) → ~1.6 million today | ✓ | Census |
 | 6 | Sandra Day O'Connor, first woman on the Supreme Court, 1981 | ✓ | |
 | 6B | Colorado River shortage cuts to Arizona since 2022 | ✓ | Reclamation |
+| 1 | Meteor Crater ~50,000 years, astronaut training; Petrified Forest protected 1906 | ✓ | NPS |
+| 1B | San Pedro Valley Clovis mammoth sites (~13,000 years); Montezuma Castle misnamed (Sinagua) | ✓ | NPS |
+| 1C | Hohokam canals (hundreds of miles, some ~10 ft deep); ball courts; Casa Grande alignments | ✓ | NPS |
+| 2 | Esteban and Fray Marcos 1539; Coronado's ~350 Spaniards and ~1,300 Native allies | ✓ | |
+| 2B | Cárdenas party spent three days trying to descend | ✓ | NPS |
+| 2C | Kino (from 1687); proved Baja California a peninsula; San Xavier rebuilt 1783–97 | ✓ | |
+| 2D | Tubac 1752; Tucson presidio 1775, sited by Hugo O'Conor | ✓ | |
+| 2E | Mormon Battalion's "Battle of the Bulls" Dec 1846; Gadsden Purchase $10M | ✓ | |
+| 3 | US Camel Corps; Hi Jolly's tomb at Quartzsite | ✓ | |
+| 3B | Picacho Pass Apr 15 1862, westernmost battle; "capital on wheels" | ✓ | |
+| 3D | Camp Grant Massacre Apr 30 1871 (~144 killed); acquittal after ~19 minutes | ✓ | |
+| 4D | Jerome jail slid ~225 ft | ✓ | |
+| 4E | Bisbee Deportation July 12 1917 (~1,200 deported) | ✓ | |
+| 4D | T. Roosevelt 1903 "Leave it as it is"; Grand Canyon NP 1919 | ✓ | |
+| 4C | Wyatt Earp d. 1929, Hollywood adviser | ✓ | |
+| 5 | Women's suffrage Nov 1912 (same election that restored recall) | ✓ | |
+| 5B | Roosevelt Dam tallest masonry dam (1911); "Arizona Navy" 1934; Arizona v. California 1963 | ✓ | |
+| 5C | 29 original Code Talkers, ~400 total, declassified 1968; Ira Hayes | ✓ | |
+| 5D | Papago Park escape Dec 23 1944 (25 POWs), dry Gila River | ✓ | |
+| 6 | Sun City opened Jan 1960 | ✓ | |
+| 6B | Miranda arrested 1963; Miranda v. Arizona 1966 | ✓ | |
+| 6C | London Bridge / Tower Bridge myth denied by McCulloch; Biosphere 2 (1991–93) | ✓ | |
+| 6D | Cesar Chavez born near Yuma; 1972 Phoenix fast (24 days); Huerta's "Sí, se puede" | ✓ | |
+| 6E | Yarnell Hill fire June 30 2013, 19 Hotshots killed | ✓ | |
+| 6F | Phoenix 31 consecutive days ≥110°F (July 2023); Cactus League | ✓ | NWS |
