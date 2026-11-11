@@ -1,6 +1,6 @@
 # The Entire History of Utah
 
-Script: `script.md` (about 1,385 spoken words, roughly 9–11 minutes voiced; can be expanded). Status: **script written, not yet recorded.**
+Script: `script.md` (about 2,264 spoken words, roughly 12–14 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
 
 - **Title:** The Entire History of Utah: The Desert Nobody Wanted
 - **Thumbnail** (split template, QGIS map, no characters): left **1847**, sand-coloured Utah "EMPTY DESERT"; right **TODAY**, green-and-blue Utah "3.4 MILLION"; bottom **"How?!"**
@@ -31,3 +31,21 @@ Ancient Utah 10,000 BC–1776 · Explorers 1776–1847 · Deseret 1847–1857 ·
 | 6B | Bingham Canyon; the Mighty Five parks; Philo Farnsworth born in Beaver, Utah | ✓ | |
 | 6C | Topaz camp | ✓ | |
 | 6D | 2002 Olympics; youngest median age; "Silicon Slopes" | ✓ | |
+| 1 | 2,000+ arches (Arches NP); Douglass 1909, ~1,500 bones in the Quarry wall; Utahraptor claw ~9 in | ✓ | NPS |
+| 1 | Lake Bonneville ~ size of Lake Michigan; Bonneville Flood at Red Rock Pass ~14,500 years ago; shoreline terraces | ✓ | Utah Geological Survey |
+| 1B | Fremont granaries and rock art; Newspaper Rock | ✓ | BLM |
+| 1C | Domínguez–Escalante turned back for winter; rendezvous | ✓ | |
+| 1D | Donner Party took the Hastings Cutoff 1846; ~half died | ✓ | |
+| 2C | Exodus from Nauvoo Feb 1846; 1847 pioneers used the Donner road through the Wasatch; Young ill with mountain fever | ✓ | |
+| 3C | Wide streets for turning ox teams; Salt Lake Temple 1853–1893; Tabernacle pin-drop acoustics | ✓ | |
+| 3D | Willie and Martin handcart companies 1856, ~200+ deaths in Wyoming | ✓ | |
+| 4 | Brigham Young had dozens of wives (~55) | ✓ | |
+| 4C | Utah War: Lot Smith burned supply trains; winter at Fort Bridger; "Buchanan's Blunder" | ✓ | |
+| 4D | Bear River, Jan 29 1863, women and children among the dead | ✓ | NPS |
+| 5 | Pony Express ~10 days; telegraph joined in SLC Oct 24 1861, Pony Express ended two days later | ✓ | |
+| 5B | Parallel grading by the rival railroads; 10 miles of track in one day, Apr 28 1869 | ✓ | NPS Golden Spike |
+| 5C | Stanford's missed swing (story, hedged); Chinese workers largely absent from the official photo | ✓ | |
+| 5E | Butch Cassidy raised in Circleville; Robbers Roost; John M. Browning of Ogden | ✓ | |
+| 6B | Bingham ~0.75 mi deep, 2.5 mi wide; Campbell 301 mph at Bonneville, Sept 1935; Farnsworth's furrow idea (he was then in Idaho) | ✓ | |
+| 6C | Topaz peak ~8,100; James Wakasa shot April 1943 | ✓ | NPS |
+| 6D | Spiral Jetty (1970); Great Salt Lake record low 2022 | ✓ | USGS |
