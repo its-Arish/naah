@@ -35,7 +35,7 @@ Each new state: `node scripts/studio.mjs new <state> "The Entire History of <Sta
 | 18 | Illinois | **script written** (`projects/illinois`, ~1413 words, ~9 min) | Ferris wheel/Twinkies → river flows backwards → named after a wild onion → Great Fire → 200 to a million in 57 years; "a few miles of mud between two rivers" |
 | 19 | Michigan | **script written** (`projects/michigan`, ~1297 words, ~9 min) | Corn Flakes → 6 miles from water → lost a war to Ohio, won a peninsula → Motor City bankrupt; "a farm boy who hated farming" |
 | 20 | Ohio | **script written** (`projects/ohio`, ~1309 words, ~9 min) | 7 presidents → swallowtail flag → statehood paperwork finished 1953 → Kent State → first plane + first Moonwalker; "a toy helicopter" |
-| 21 | New Jersey | | The light bulb lab, the boardwalk… |
+| 21 | New Jersey | **script written** (`projects/new-jersey`, ~1271 words, ~8 min) | light bulb/drive-in/Monopoly → can't pump your own gas → first movie studio → Hamilton shot, Hindenburg; "a waterfall Alexander Hamilton wanted to put to work" |
 | 22 | North Carolina | | First flight (Kitty Hawk), Pepsi… |
 | 23 | South Carolina | | Where the Civil War's first shots were fired (Fort Sumter) |
 | 24 | Mississippi | | The blues, Elvis's birthplace… |
