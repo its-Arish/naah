@@ -21,7 +21,7 @@ Each new state: `node scripts/studio.mjs new <state> "The Entire History of <Sta
 | 4 | Florida | **script written** (`projects/florida`, branch `fifty-states`) | Gatorade → Disney's secret land → older than the Mayflower → fewer people than Boston in 1900 |
 | 5 | New York | **script written** (`projects/new-york`) | Wall Street → Dutch words → $24 myth → New Orange → slave market; "a ditch, four feet deep" |
 | 6 | Hawaii | **script written** (`projects/hawaii`) | Hawaiian pizza is Canadian → ukulele → palace lit before the White House → overthrow; "a spoonful of sugar" |
-| 7 | Alaska | | Bought from Russia for about 2 cents an acre: "Seward's Folly" |
+| 7 | Alaska | **script written** (`projects/alaska`) | Balto vs Togo → bigger than TX+CA+MT → easternmost too → paid to live there; "it starts with a fur coat" |
 | 8 | Louisiana | | Mardi Gras, jazz, gumbo… and its law still descends from the Napoleonic tradition |
 | 9 | Nevada | | Las Vegas, slot machines… and the atomic tests you could watch from a hotel roof |
 | 10 | Arizona | | The Grand Canyon… and the state that doesn't change its clocks |
