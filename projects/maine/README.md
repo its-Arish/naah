@@ -1,6 +1,6 @@
 # The Entire History of Maine
 
-Script: `script.md` (about 1,229 spoken words, roughly 8–10 minutes voiced; can be expanded). Status: **script written, not yet recorded.**
+Script: `script.md` (about 2,034 spoken words, roughly 10–12 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
 
 - **Title:** The Entire History of Maine: From Prison Food to Luxury
 - **Thumbnail** (split template, QGIS map, no characters): left **1650**, pale Maine coast "PRISON FOOD"; right **TODAY**, deep-red Maine "$$$ LUXURY"; bottom **"Lobster?!"**
@@ -30,3 +30,19 @@ Dawnland 10,000 BC–1607 · Popham and the Frontier 1607–1775 · District of 
 | 4C | L.L. Bean Maine Hunting Shoe 1912 | ✓ | |
 | 5 | Margaret Chase Smith, Declaration of Conscience June 1 1950 | ✓ | |
 | 5B | Lewiston, Oct 25 2023, 18 killed | ✓ | |
+| 1 | Cadillac Mountain first US sunrise (Oct–Mar); ~228 mi straight coastline vs ~3,400 mi tidal; ~89% forest; most moose of the lower 48 | ✓ | Maine DACF; NPS |
+| 1B | "Red Paint People" burials; Maine Penny (Goddard site), Norwegian, c. 1065–80 | ✓ | Maine State Museum |
+| 2 | George Popham died; colony abandoned 1608 | ✓ | |
+| 2B | Castine under four flags | ✓ | |
+| 2C | Penobscot Expedition 1779 (~44 vessels), worst US naval defeat before Pearl Harbor; Revere court-martialled (acquitted) | ✓ | |
+| 3 | Portland Head Light, first lit Jan 1791 | ✓ | |
+| 3C | Bangor river crowded with ships; 31-ft Paul Bunyan statue; Kennebec ice trade; Bath Iron Works | ✓ | |
+| 3D | Neal Dow; Portland Rum Riot June 2 1855, one killed | ✓ | |
+| 3E | Hannibal Hamlin; Chamberlain's salute at Appomattox, Apr 12 1865 | ✓ | NPS |
+| 4 | Sieur de Monts NM 1916 → Lafayette NP 1919 (Acadia), first east of the Mississippi; Poland Spring 1845; Katahdin AT terminus | ✓ | |
+| 4C | Chester Greenwood Day | ✓ | |
+| 4D | L.L. Bean: 90 of first 100 pairs returned; Moxie state soft drink (2005); "As Maine goes, so goes Vermont" (1936) | ✓ | |
+| 5 | German spies landed at Hancock Point Nov 29 1944, spotted by a teenager | ✓ | FBI |
+| 5B | Oct 1947 fires, Bar Harbor; 16 deaths statewide | ✓ | |
+| 5C | Longfellow (Portland); Wyeth's Christina's World (Cushing); wild blueberries; whoopie pie state treat (2011); 1980 Maine Indian Claims Settlement ($81.5m); ranked-choice voting 2018 | ✓ | |
+| 5E | Gulf of Maine warming among the fastest on Earth; right whale trap-line rules | ✓ | Gulf of Maine Research Institute |
