@@ -1,6 +1,6 @@
 # The Entire History of New Jersey
 
-Script: `script.md` (about 1,271 spoken words, roughly 8–10 minutes voiced; can be expanded). Status: **script written, not yet recorded.**
+Script: `script.md` (about 2,321 spoken words, roughly 12–14 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
 
 - **Title:** The Entire History of New Jersey: The State That Invented the Future
 - **Thumbnail** (split template, QGIS map, no characters): left **1791**, blue-grey New Jersey with a dot at Paterson "A WATERFALL"; right **TODAY**, lit-up New Jersey "THE MODERN WORLD"; bottom **"How?!"**
@@ -33,3 +33,14 @@ Lenapehoking 10,000 BC–1664 · Colony 1664–1775 · Crossroads 1775–1787 ·
 | 6 | Transistor 1947 (Murray Hill); CMB 1964 (Holmdel), Nobel 1978; Einstein in Princeton 1933–55 | ✓ (draft "twenty years" → "twenty-two") | |
 | 6B | Newark 1967, 26 dead | ✓ | |
 | 6C | Most densely populated state | ✓ | Census |
+| 1E | Jersey Devil legend: Mother Leeds, 13th child, 1735; NJ Devils hockey team named after it | ✓ told as legend | Pine Barrens folklore |
+| 2 | Paine's "The American Crisis" (Dec 1776) begun on the retreat; "drum head" told as "the story goes"; read to troops before Trenton | ✓ | |
+| 2D | Women and Black property holders voted 1776–1807 | ✓ | NJ constitution 1776; 1807 law |
+| 3B | Morris Canal: inclined planes, water-powered; summit rise ~914 ft from Newark | ✓ "more than nine hundred feet" | |
+| 3D | Campbell (Camden) founded 1869 canning tomatoes; condensed soup 1897 | ✓ "almost thirty years later" | |
+| 3D | Paterson silk strike 1913: ~24,000 workers, Feb–Jul, for an eight-hour day; lost | ✓ | |
+| 5F | Lindbergh baby kidnapped Mar 1 1932 near Hopewell; ladder; ransom paid; body found May 12; Lindbergh Law | ✓ "weeks later" | |
+| 6 | Ideal-X, Apr 26 1956, 58 containers, Port Newark → Houston | ✓ | |
+| 6C | Paul Robeson: born Princeton 1898, father escaped slavery, All-American at Rutgers, passport revoked 1950 (restored 1958) | ✓ | |
+| 6C | Elizabeth White & Frederick Coville, first cultivated blueberries sold 1916 (Whitesbog) | ✓ | |
+| 6C | New Jersey v. New York (1998): Supreme Court gave NJ the landfilled ~90% of Ellis Island | ✓ "most of it" | |
