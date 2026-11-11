@@ -1,6 +1,6 @@
 # The Entire History of Wyoming
 
-Script: `script.md` (about 1,141 spoken words, roughly 7–9 minutes voiced; can be expanded). Status: **script written, not yet recorded.**
+Script: `script.md` (about 2,087 spoken words, roughly 11–13 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
 
 - **Title:** The Entire History of Wyoming: Why the Wild West Let Women Vote First
 - **Thumbnail** (split template, QGIS map, no characters): Wyoming bright gold "1869", rest of the US grey "1920"; bottom **"51 Years Early?!"**
@@ -31,3 +31,21 @@ First Peoples 10,000 BC–1807 · Mountain Men 1807–1840 · The Trails 1840–
 | 5C | Heart Mountain | ✓ | |
 | 5D | Powder River Basin ~40% of US coal | ✓ ("a huge share") | EIA |
 | 5E | Matthew Shepard 1998; 2009 federal hate crimes act | ✓ | |
+| 1 | Green River Formation (~50 Mya) fish, crocodiles, palms; Como Bluff 1877; Fossil Cabin (1932) | ✓ | NPS Fossil Butte |
+| 1B | Colby site Clovis mammoth meat caches, one unopened | ✓ | Univ. of Wyoming |
+| 1B | Pronghorn fastest in North America; Medicine Wheel solstice alignment; Bear Lodge story | ✓ | |
+| 2B | Bridger's petrified-birds tale; Fort Bridger 1843 | ✓ | |
+| 2C | Register Cliff | ✓ | |
+| 2D | 1851 Fort Laramie Treaty; Bozeman Trail forts; Fetterman Fight Dec 21 1866, 81 killed; forts abandoned and burned 1868 | ✓ | |
+| 3 | "Hell on Wheels" towns | ✓ | |
+| 3C | Louisa Swain (aged 69) voted Sept 6 1870, Laramie; jury cartoons | ✓ | |
+| 3D | Old Faithful ~17 eruptions/day; Lava Creek eruption ~631,000 years ago | ✓ | USGS |
+| 3E | Jackson's all-woman council 1920; no state income tax | ✓ | |
+| 4 | Cheyenne Club; The Virginian (1902); Cody founded 1896; Frontier Days 1897; Steamboat; bucking horse plate since 1936 | ✓ | |
+| 4B | Johnson County invaders killed Champion and Ray, besieged at the TA Ranch, rescued by cavalry, none convicted; Cassidy in Wyoming prison 1894–96 | ✓ | |
+| 4C | Troops stayed in Rock Springs until 1898 | ✓ | |
+| 4D | Devils Tower first ascent July 4 1893 by stake ladder, ~1,000 spectators; Close Encounters (1977) | ✓ | NPS |
+| 5 | J.C. Penney's Golden Rule store, Kemmerer, 1902; 1,000+ stores by c. 1929 | ✓ | |
+| 5B | Ross directed the Mint 1933–53 | ✓ | |
+| 5C | Heart Mountain peak ~10,700, third-largest town in WY; draft resisters imprisoned | ✓ | Heart Mountain Wyoming Foundation |
+| 6 | Rockefeller's Snake River Land Co. purchases; land donated, park expanded 1950; 1988 fires ~1/3 of Yellowstone; F. E. Warren AFB missiles | ✓ | NPS |
