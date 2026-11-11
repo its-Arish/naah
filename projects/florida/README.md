@@ -1,6 +1,6 @@
 # The Entire History of Florida
 
-Script: `script.md` (about 3,865 spoken words, roughly 25–27 minutes voiced; can be expanded). Status: **script written, not yet recorded.** v2 (Nov 11): full Gemini tag pass (~110 tags), plus Everglades thread (7C, 12B), frozen OJ (9C), missile crisis (10).
+Script: `script.md` (about 3,865 spoken words, roughly 20–22 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): full Gemini tag pass (~110 tags), plus Everglades thread (7C, 12B), frozen OJ (9C), missile crisis (10).
 
 ## Title, thumbnail, hook
 
