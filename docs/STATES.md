@@ -52,7 +52,7 @@ Each new state: `node scripts/studio.mjs new <state> "The Entire History of <Sta
 | 35 | Arkansas | **script written** (`projects/arkansas`, ~1159 words, ~8 min) | Walmart → keep-what-you-find diamond mine → pronunciation law → Little Rock Nine; "a little dime store on a town square" |
 | 36 | Minnesota | **script written** (`projects/minnesota`, ~1175 words, ~8 min) | Cheerios/Spam/Scotch tape → 11,000+ lakes → mall with a theme park → 38 hanged at Mankato; "the only great waterfall on the Mississippi River" |
 | 37 | Wisconsin | **script written** (`projects/wisconsin`, ~1087 words, ~7 min) | QWERTY keyboard → Harley + first kindergarten → quarter of US cheese → Peshtigo, the forgotten fire; "a tiny bug" |
-| 38 | Iowa | | Corn, the caucuses… |
+| 38 | Iowa | **script written** (`projects/iowa`, ~1167 words, ~8 min) | 7 pigs per person → first electronic computer → Field of Dreams → the day the music died → candidates flock here first; "a slow copy machine" |
 | 39 | Indiana | | The Indy 500… |
 | 40 | Maryland | | The national anthem (Fort McHenry)… |
 | 41 | Connecticut | | Hamburgers, Yale, the insurance capital… |
