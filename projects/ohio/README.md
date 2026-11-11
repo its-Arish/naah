@@ -1,6 +1,6 @@
 # The Entire History of Ohio
 
-Script: `script.md` (about 1,309 spoken words, roughly 8–10 minutes voiced; can be expanded). Status: **script written, not yet recorded.**
+Script: `script.md` (about 2,215 spoken words, roughly 11–13 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
 
 - **Title:** The Entire History of Ohio: From a Toy to the Moon
 - **Thumbnail** (split template, QGIS map, no characters): left **1878**, plain Ohio with a dot at Dayton "A TOY"; right **1969**, dark-blue Ohio with a crescent Moon dot at Wapakoneta "THE MOON"; bottom **"How?!"**
@@ -30,3 +30,20 @@ Mound Builders 1000 BC–1700 · Ohio Country 1700–1803 · Free State 1803–1
 | 5C | Great Dayton Flood Mar 1913, hundreds dead; Wright negatives damaged but survived | ✓ | |
 | 6 | Cuyahoga fire June 1969 (one of ~13); EPA 1970, Clean Water Act 1972; Alan Freed | ✓ | |
 | 7 | Glenn orbit Feb 20 1962; Apollo 11 July 20 1969 | ✓ | |
+| 1 | Newark Earthworks octagon aligned to the 18.6-year lunar cycle; partly a golf course | ✓ | |
+| 1B | Serpent Mound head toward summer-solstice sunset; SunWatch (Fort Ancient) | ✓ | |
+| 2B | St. Clair's Defeat Nov 1791 (~600+ killed), Little Turtle and Blue Jacket; the Prophet | ✓ | |
+| 2C | John Chapman ("Johnny Appleseed"); tin-pot hat is legend | ✓ hedged | |
+| 2E | Ohio canals; Porkopolis; Procter & Gamble 1837 | ✓ | |
+| 3 | John Parker of Ripley | ✓ | |
+| 3B | Oberlin–Wellington Rescue Sept 1858 | ✓ | |
+| 3C | Victoria Woodhull 1872 (jailed over election day); Annie Oakley | ✓ | |
+| 4 | Standard Oil ~90% of refining, broken up 1911 (34 companies); Goodyear blimps; Cincinnati Red Stockings 1869 | ✓ | |
+| 4B | Kettering's electric self-starter (1912 Cadillac); first electric traffic light, Cleveland Aug 1914 | ✓ | |
+| 5 | Paul Laurence Dunbar, Orville's classmate; Wrights printed his paper | ✓ | |
+| 5B | Wind tunnel ~200 wing shapes; Katharine Wright | ✓ | |
+| 6 | NFL founded at Canton 1920; Toledo "Glass City" | ✓ | |
+| 6B | Jesse Owens May 25 1935 (3 records + 1 tie in ~45 min); 4 golds Berlin 1936 | ✓ | |
+| 6C | Cleveland default Dec 1978; Superman (Siegel & Shuster), rights sold for $130 | ✓ | |
+| 7 | Glenn on STS-95 at 77; ~25 Ohio astronauts; Ohio as bellwether | ✓ | |
+| 7B | Toni Morrison Nobel 1993; Cavaliers 2016 | ✓ | |
