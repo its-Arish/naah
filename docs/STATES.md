@@ -24,7 +24,7 @@ Each new state: `node scripts/studio.mjs new <state> "The Entire History of <Sta
 | 7 | Alaska | **script written** (`projects/alaska`, ~1659 words, ~11 min) | Balto vs Togo → bigger than TX+CA+MT → easternmost too → paid to live there; "it starts with a fur coat" |
 | 8 | Louisiana | **script written** (`projects/louisiana`, ~1677 words, ~11 min) | Jazz → Tabasco → Purchase was 15 states → parishes; "a river that refuses to stay still" |
 | 9 | Nevada | **script written** (`projects/nevada`, ~1283 words, ~9 min) | Vegas was a railroad stop → Area 51 → atomic parties → statehood by telegram; "it starts with that telegram" |
-| 10 | Arizona | | The Grand Canyon… and the state that doesn't change its clocks |
+| 10 | Arizona | **script written** (`projects/arizona`, ~1482 words, ~10 min) | London Bridge in the desert → not at the O.K. Corral → DST donut → 2-billion-year rocks; "canals nobody had used for four hundred years" |
 | 11 | Massachusetts | | Thanksgiving, Harvard, the Tea Party… |
 | 12 | Pennsylvania | | The Liberty Bell, Hershey's chocolate… |
 | 13 | Virginia | | Jamestown, eight presidents… |
