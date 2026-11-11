@@ -1,6 +1,6 @@
 # The Entire History of Tennessee
 
-Narration script, written to be voiced with **Gemini TTS** and then animated. About 2,700 spoken words, so roughly 14 to 15 minutes when recorded (California ran 2,600 words to 13:50).
+Narration script, written to be voiced with **Gemini TTS** and then animated. About 2,550 spoken words, so roughly 14 minutes when recorded (California ran 2,600 words to 13:50).
 
 How to use it (the full rules are in `docs/PLAYBOOK.md` and `docs/HOOKS.md`):
 

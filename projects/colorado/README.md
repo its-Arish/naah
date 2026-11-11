@@ -1,6 +1,6 @@
 # The Entire History of Colorado
 
-Script: `script.md` (about 2,289 spoken words, roughly 12–14 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
+Script: `script.md` (about 2,289 spoken words, roughly 12–13 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
 
 - **Title:** The Entire History of Colorado: The Gold Rush at the Wrong Mountain
 - **Thumbnail** (split template, QGIS map, no characters): Colorado outline with Pikes Peak and Denver dots ~80 miles apart, arrow between them; left box **"GOLD HERE"** (Denver), right box **"NAMED HERE"** (Pikes Peak); bottom **"Wrong Mountain?!"**

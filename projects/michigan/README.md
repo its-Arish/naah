@@ -1,6 +1,6 @@
 # The Entire History of Michigan
 
-Script: `script.md` (about 2,256 spoken words, roughly 12–14 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
+Script: `script.md` (about 2,256 spoken words, roughly 12–13 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
 
 - **Title:** The Entire History of Michigan: How Motor City Went Broke
 - **Thumbnail** (split template, QGIS map, no characters): left **1950**, chrome-bright Michigan, Detroit dot "1.85 MILLION"; right **2013**, rust-grey Michigan "BANKRUPT"; bottom **"What Happened?!"**

@@ -1,6 +1,6 @@
 # The Entire History of Louisiana
 
-Script: `script.md` (about 3,392 spoken words, roughly 18–20 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
+Script: `script.md` (about 3,178 spoken words, roughly 17–18 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
 
 - **Title:** The Entire History of Louisiana: The State Built by a River
 - **Thumbnail** (split template, QGIS map, no characters): left **1803**, the huge Louisiana Purchase shaded across the US with "3¢ AN ACRE"; right **TODAY**, the small state of Louisiana; bottom **"Wait… That?!"**

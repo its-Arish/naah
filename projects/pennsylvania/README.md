@@ -1,6 +1,6 @@
 # The Entire History of Pennsylvania
 
-Script: `script.md` (about 2,813 spoken words, roughly 15–17 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
+Script: `script.md` (about 2,813 spoken words, roughly 15–16 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
 
 - **Title:** The Entire History of Pennsylvania: The State Born From a Debt
 - **Thumbnail** (split template, QGIS map, no characters): left **1681**, parchment-coloured Pennsylvania with "£16,000 DEBT"; right **1776**, bright Pennsylvania with a star on Philadelphia, "USA"; bottom **"How?!"**

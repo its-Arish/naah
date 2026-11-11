@@ -1,6 +1,6 @@
 # The Entire History of Ohio
 
-Script: `script.md` (about 2,215 spoken words, roughly 11–13 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
+Script: `script.md` (about 2,215 spoken words, roughly 11–12 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
 
 - **Title:** The Entire History of Ohio: From a Toy to the Moon
 - **Thumbnail** (split template, QGIS map, no characters): left **1878**, plain Ohio with a dot at Dayton "A TOY"; right **1969**, dark-blue Ohio with a crescent Moon dot at Wapakoneta "THE MOON"; bottom **"How?!"**

@@ -1,6 +1,6 @@
 # The Entire History of New York
 
-Script: `script.md` (about 3,716 spoken words, roughly 19–21 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): full Gemini tag pass, expanded with Haudenosaunee, religious freedom, Zenger, the canal's construction, Draft Riots, Brooklyn Bridge, tenements, Tweed, Kodak, Moses, Love Canal, Sandy.
+Script: `script.md` (about 3,460 spoken words, roughly 18–19 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): full Gemini tag pass, expanded with Haudenosaunee, religious freedom, Zenger, the canal's construction, Draft Riots, Brooklyn Bridge, tenements, Tweed, Kodak, Moses, Love Canal, Sandy.
 
 - **Title:** The Entire History of New York: How a Ditch Built the Capital of the World
 - **Thumbnail** (split template, QGIS map, no characters): left **1626**, a small dark Manhattan, "60 GUILDERS"; right **TODAY**, bright Manhattan; bottom **"Worth It?!"**

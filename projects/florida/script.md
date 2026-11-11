@@ -1,6 +1,6 @@
 # The Entire History of Florida
 
-Narration script, written to be voiced with **Gemini TTS** and then animated. About 3,900 spoken words, so roughly 21 to 23 minutes when recorded (California ran 2,600 words to 13:50).
+Narration script, written to be voiced with **Gemini TTS** and then animated. About 3,900 spoken words, so roughly 20 to 22 minutes when recorded (California ran 2,600 words to 13:50).
 
 How to use it (the full rules are in `docs/PLAYBOOK.md` and `docs/HOOKS.md`):
 

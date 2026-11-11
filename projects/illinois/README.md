@@ -1,6 +1,6 @@
 # The Entire History of Illinois
 
-Script: `script.md` (about 2,304 spoken words, roughly 12–14 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
+Script: `script.md` (about 2,304 spoken words, roughly 12–13 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
 
 - **Title:** The Entire History of Illinois: The Swamp That Became Chicago
 - **Thumbnail** (split template, QGIS map, no characters): left **1833**, swampy green Illinois "200 PEOPLE"; right **1890**, lit-up Illinois with Chicago glowing "1,000,000"; bottom **"57 Years?!"**

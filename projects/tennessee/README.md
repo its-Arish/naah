@@ -1,6 +1,6 @@
 # The Entire History of Tennessee
 
-Script: `script.md` (about 2,562 spoken words, roughly 13–15 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
+Script: `script.md` (about 2,562 spoken words, roughly 13–14 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
 
 - **Title:** The Entire History of Tennessee: Moonshine to the Atomic Bomb
 - **Thumbnail** (split template, QGIS map, no characters): left **1933**, muddy brown flooded Tennessee "MOONSHINE"; right **1945**, glowing Tennessee with a dot at Oak Ridge "ATOMIC BOMB"; bottom **"Same State?!"**

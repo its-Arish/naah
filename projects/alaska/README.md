@@ -1,6 +1,6 @@
 # The Entire History of Alaska
 
-Script: `script.md` (about 3,480 spoken words, roughly 18–20 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
+Script: `script.md` (about 3,270 spoken words, roughly 17–18 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
 
 - **Title:** The Entire History of Alaska: Sold for 2 Cents an Acre
 - **Thumbnail** (split template, QGIS map, no characters): left **1867**, Alaska in pale grey with "2¢ AN ACRE"; right **TODAY**, Alaska in bright gold with "$ EVERY YEAR"; bottom **"Who Won?!"**

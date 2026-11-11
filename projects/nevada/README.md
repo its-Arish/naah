@@ -1,6 +1,6 @@
 # The Entire History of Nevada
 
-Script: `script.md` (about 3,225 spoken words, roughly 17–19 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
+Script: `script.md` (about 3,016 spoken words, roughly 16–17 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
 
 - **Title:** The Entire History of Nevada: The State That Said Yes
 - **Thumbnail** (split template, QGIS map, no characters): left **1864**, a pale empty Nevada with "40,000 PEOPLE"; right **TODAY**, neon Nevada with "40 MILLION VISITORS"; bottom **"How?!"**

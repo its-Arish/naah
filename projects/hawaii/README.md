@@ -1,6 +1,6 @@
 # The Entire History of Hawaii
 
-Script: `script.md` (about 3,567 spoken words, roughly 19–21 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
+Script: `script.md` (about 3,354 spoken words, roughly 18–19 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
 
 - **Title:** The Entire History of Hawaii: How a Kingdom Became the 50th State
 - **Thumbnail** (split template, QGIS map, no characters): left **1893**, islands in royal gold with "KINGDOM"; right **1959**, islands in US blue with "50TH STATE"; bottom **"What Happened?!"**

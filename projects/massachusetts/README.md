@@ -1,6 +1,6 @@
 # The Entire History of Massachusetts
 
-Script: `script.md` (about 3,015 spoken words, roughly 16–18 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
+Script: `script.md` (about 2,835 spoken words, roughly 15–16 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
 
 - **Title:** The Entire History of Massachusetts: From Witch Trials to Harvard
 - **Thumbnail** (split template, QGIS map, no characters): left **1692**, dark Massachusetts with a noose-free "WITCHES?!" in red; right **TODAY**, bright Massachusetts, "GENIUSES?!"; bottom **"Same State?!"**

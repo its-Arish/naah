@@ -1,6 +1,6 @@
 # The Entire History of Washington State
 
-Script: `script.md` (about 2,451 spoken words, roughly 13–15 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
+Script: `script.md` (about 2,451 spoken words, roughly 13–14 minutes voiced, at the pace California was recorded). Status: **script written, not yet recorded.** v2 (Nov 11): rewritten to full length with Gemini tags throughout.
 
 - **Title:** The Entire History of Washington: The State That Sold the Shovels
 - **Thumbnail** (split template, QGIS map, no characters): left **1897**, sepia Washington with a gold dot at Seattle, "1 TON OF GOLD"; right **TODAY**, bright Washington, "$ TRILLIONS"; bottom **"How?!"**
