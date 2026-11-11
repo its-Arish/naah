@@ -48,7 +48,7 @@ Each new state: `node scripts/studio.mjs new <state> "The Entire History of <Sta
 | 31 | Idaho | **script written** (`projects/idaho`, ~1267 words, ~8 min) | a third of US potatoes → made-up name → TV dreamed up in a potato field → SL-1 → first town lit by the atom; "a desert so empty the Navy used it for target practice" |
 | 32 | Oklahoma | **script written** (`projects/oklahoma`, ~1337 words, ~9 min) | shopping cart/parking meter/yield sign → 'red people' → Land Run → Tulsa 1921; "As long as the grass grows, and the water runs" |
 | 33 | Kansas | **script written** (`projects/kansas`, ~1131 words, ~8 min) | Pizza Hut/White Castle → flatter than a pancake → Air Capital → Bleeding Kansas; "crates of rifles, labelled Bibles" |
-| 34 | Missouri | | The Gateway Arch, Mark Twain… |
+| 34 | Missouri | **script written** (`projects/missouri`, ~1220 words, ~8 min) | iced tea + ice cream cone → Arch twice the Statue of Liberty → every trail west starts here → Dred Scott; "a fourteen-year-old boy and a crew of thirty men" |
 | 35 | Arkansas | | Walmart was born here… |
 | 36 | Minnesota | | 10,000 lakes, the Mall of America… |
 | 37 | Wisconsin | | Cheese, Harley-Davidson… |
