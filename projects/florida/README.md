@@ -1,6 +1,6 @@
 # The Entire History of Florida
 
-Script: `script.md` (about 3,550 spoken words, roughly 22–25 minutes when voiced with Gemini). Status: **script written, not yet recorded.**
+Script: `script.md` (about 3,865 spoken words, roughly 25–27 minutes voiced; can be expanded). Status: **script written, not yet recorded.** v2 (Nov 11): full Gemini tag pass (~110 tags), plus Everglades thread (7C, 12B), frozen OJ (9C), missile crisis (10).
 
 ## Title, thumbnail, hook
 
@@ -71,5 +71,11 @@ Quiet parts (no gags, no narrator tricks, restrained visuals): 2B Matanzas, 2D t
 | Part 11B | Mariel boatlift 1980: about 125,000 in six months | ✓ | |
 | Part 12 | 2000 presidential election decided by 537 votes in Florida | ✓ (neutral wording) | |
 | Part 12 | Artemis II launched from Florida in April 2026 | ✓ (as in the Alabama film) | NASA |
+| Part 7B | Seven Mile Bridge on the Overseas Railroad | ✓ | |
+| Part 7C | Gov. Napoleon B. Broward (took office 1905) campaigned to drain the Everglades; "land by the acre" sales of flooded lots | ✓ | |
+| Part 9C | Frozen orange juice concentrate developed in Florida in the mid-1940s (Florida Citrus Commission / USDA, Lake Alfred) | ✓ | |
+| Part 10 | Cuban Missile Crisis Oct 1962, ~90 miles from Key West, 13 days | ✓ | |
+| Part 11B | First Gatorade batch tasted bad; lemon added | ✓ (Cade's own account, "reportedly") | |
+| Part 12B | Marjory Stoneman Douglas, *The Everglades: River of Grass* (1947); Everglades NP dedicated Dec 1947; died 1998 aged 108; restoration plan (CERP) costs billions | ✓ | NPS |
 
 **To recheck just before recording:** Florida's current population (we say "around twenty-three million") and anything that happened after November 2026.
