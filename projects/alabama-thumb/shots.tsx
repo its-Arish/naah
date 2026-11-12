@@ -99,4 +99,34 @@ const Split: React.FC<{ icons: boolean; bottom: string }> = ({ icons, bottom }) 
 const SplitA: React.FC<SP> = () => <Split icons bottom="Same State?!" />;
 const SplitB: React.FC<SP> = () => <Split icons={false} bottom="Same State?!" />;
 
-export const SHOTS: ShotMap = { opening: makeOpening('thumb', ''), thumb_a: ThumbA, thumb_b: ThumbB, split_a: SplitA, split_b: SplitB, end: makeEnd('thumb') };
+
+// ---- "10,000 Years History of Alabama": GIS outline of the state (Natural Earth), text only, no characters
+type OPal = { bg: string; sea: string; land: string; line: string; fill: string; edge: string; glow: string; t1: string; t2: string; ink: string };
+const NIGHT: OPal = { bg: '#0E1620', sea: '#0E1620', land: '#16212C', line: '#2A3A48', fill: 'rgba(243,181,98,0.10)', edge: '#F3B562', glow: '#F3B562', t1: '#F3B562', t2: '#FFFFFF', ink: '#0E141A' };
+const PAPER: OPal = { bg: '#F2E6CC', sea: '#BFD8E3', land: '#F2E6CC', line: '#D5C6A6', fill: 'rgba(178,34,34,0.10)', edge: '#B22222', glow: '#B22222', t1: '#B22222', t2: '#1B1B1B', ink: '#F2E6CC' };
+const OZ = 34;
+const oCam = (sx: number, sy: number) => camAt(-86.75 - (sx - 960) / ((1920 / 360) * OZ), 32.6 + (sy - 540) / ((1920 / 360) * OZ), OZ);
+const Outline: React.FC<{ pal: OPal; count: string }> = ({ pal, count }) => {
+  const cam = oCam(500, 540);
+  return (
+    <>
+      <div style={{ position: 'absolute', inset: 0, background: pal.bg }} />
+      <WorldMap data={D} cam={cam} sea={pal.sea} stroke={pal.line} fill={() => pal.land}>
+        {STATES.map((st, i) => st.name === 'Alabama' ? null : <path key={i} d={st.d} fill={pal.land} stroke={pal.line} strokeWidth={2} vectorEffect="non-scaling-stroke" />)}
+        {[60, 34, 18].map((w, i) => <path key={w} d={AL_D} fill="none" stroke={pal.glow} strokeOpacity={[0.07, 0.13, 0.22][i]} strokeWidth={w} vectorEffect="non-scaling-stroke" strokeLinejoin="round" />)}
+        <path d={AL_D} fill={pal.fill} stroke={pal.edge} strokeWidth={9} vectorEffect="non-scaling-stroke" strokeLinejoin="round" />
+      </WorldMap>
+      <div style={{ position: 'absolute', inset: 0, background: `radial-gradient(ellipse at 500px 540px, rgba(0,0,0,0) 40%, ${pal === NIGHT ? 'rgba(0,0,0,0.55)' : 'rgba(90,60,20,0.25)'} 100%)` }} />
+      <div style={{ position: 'absolute', left: 930, right: 50, top: 150, textAlign: 'left' }}>
+        <div style={{ ...big(250, pal.t1, 18), WebkitTextStroke: `18px ${pal.ink}` }}>{count}</div>
+        <div style={{ ...big(150, pal.t1, 14), WebkitTextStroke: `14px ${pal.ink}`, marginTop: 6 }}>YEARS</div>
+        <div style={{ ...big(92, pal.t2, 12), WebkitTextStroke: `12px ${pal.ink}`, marginTop: 40 }}>HISTORY OF</div>
+        <div style={{ ...big(176, pal.t2, 16), WebkitTextStroke: `16px ${pal.ink}`, marginTop: 8 }}>ALABAMA</div>
+      </div>
+    </>
+  );
+};
+const OutlineNight: React.FC<SP> = () => <Outline pal={NIGHT} count="10,000" />;
+const OutlinePaper: React.FC<SP> = () => <Outline pal={PAPER} count="10,000" />;
+
+export const SHOTS: ShotMap = { opening: makeOpening('thumb', ''), thumb_a: ThumbA, thumb_b: ThumbB, split_a: SplitA, split_b: SplitB, outline_night: OutlineNight, outline_paper: OutlinePaper, end: makeEnd('thumb') };

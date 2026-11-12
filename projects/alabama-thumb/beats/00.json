@@ -40,6 +40,24 @@
      "text": "",
      "quiet": true,
      "hold": 2
+    },
+    {
+     "id": "outline_night",
+     "shot": "outline_night",
+     "type": "INSERT",
+     "date": null,
+     "text": "",
+     "quiet": true,
+     "hold": 2
+    },
+    {
+     "id": "outline_paper",
+     "shot": "outline_paper",
+     "type": "INSERT",
+     "date": null,
+     "text": "",
+     "quiet": true,
+     "hold": 2
     }
    ]
   }
