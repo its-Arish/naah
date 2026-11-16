@@ -121,6 +121,10 @@ const commands = {
     const mapsLink = path.join(dist, 'maps');
     fs.rmSync(mapsLink, { recursive: true, force: true });
     if (fs.existsSync(path.join(BUILD, 'maps'))) fs.symlinkSync('../maps', mapsLink);
+    // Real photographs and documents for <Evidence> (projects/<slug>/evidence/), served at evidence/<file>
+    const evLink = path.join(dist, 'evidence');
+    fs.rmSync(evLink, { recursive: true, force: true });
+    if (fs.existsSync(path.join(P, 'evidence'))) fs.symlinkSync(path.join(P, 'evidence'), evLink);
     fs.cpSync(path.join(ROOT, 'assets', 'fonts'), path.join(dist, 'fonts'), { recursive: true });
     const env = path.join(BUILD, 'vo_env.js');
     fs.writeFileSync(path.join(dist, 'vo_env.js'), fs.existsSync(env) ? fs.readFileSync(env) : '/* no voiceover */');

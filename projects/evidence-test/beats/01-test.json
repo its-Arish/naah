@@ -1,0 +1,5 @@
+{ "title": "Evidence test", "sections": [ { "title": "Test", "card": false, "beats": [
+ { "id": "t1", "shot": "tel", "type": "STORY", "date": 870, "text": "First Saul, then *David*, who captures a hill town called Jerusalem.", "hold": 3 },
+ { "id": "t2", "shot": "mer", "type": "STORY", "text": "One of them is called *Israel*, the oldest mention outside the Bible.", "hold": 3 },
+ { "id": "t3", "shot": "jac", "type": "STORY", "date": 1898, "text": "A French officer named Alfred *Dreyfus*, a Jew, is falsely convicted.", "hold": 3 }
+] } ] }
