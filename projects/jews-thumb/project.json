@@ -1,0 +1,11 @@
+{
+ "title": "Thumbnail",
+ "fps": 30,
+ "wordsPerSecond": 3.2,
+ "openingSeconds": 0,
+ "cardSeconds": 2.2,
+ "endSeconds": 0,
+ "dateTag": false,
+ "captionFont": "serif",
+ "mapSfx": "tech"
+}
