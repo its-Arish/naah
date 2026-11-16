@@ -8,8 +8,8 @@ description: "Find, log, conform and composite real-life footage (stock, archive
 Use with `mrbeast-hooks-and-cuts` (which sets the shot lengths) and `make-history-video` (which makes the drawn world). The workflow is: Claude finds the links, the creator downloads, Claude edits.
 
 ## 0. When real footage is used
-- **First minute:** real footage per the cut sheet in `mrbeast-hooks-and-cuts`.
-- **After the first minute: evidence only.** Real material appears only when it proves or shows a fact: an ancient artefact (a stele, a tablet, a scroll, a coin), an archaeological site, a historical document, or an archive photograph or film of the event itself. Never decorative stock or b-roll, because it pulls attention off the story.
+- **Real materials can go anywhere in the film, the first minute included.** The creator decides where. Nothing forces the first 30 seconds to be all real, and the first minute can freely mix real material with maps, graphics and the narrator.
+- **Whatever the position, real material must be factual:** it proves or shows what the words say: an ancient artefact (a stele, a tablet, a scroll, a coin), an archaeological site, a historical document, or an archive photograph or film of the event itself. Never decorative stock or b-roll that does not show what is being said, because it pulls attention off the story. Pictures of things the sentence names (a phone, a map app) are fine in the hook, because they show the words.
 - Ancient periods have no film. For them use the surviving artefacts, sites, manuscripts and maps, shown in the studio's drawn style with the real object as a short insert.
 - Keep every real insert short (2.5 seconds at most), label what it is on screen, and go back to the drawn story straight after.
 - The studio's drawn scenes carry the story. Real material is a proof point, not a replacement.
@@ -59,4 +59,4 @@ ffmpeg -i shots/07.mp4 -loop 1 -i overlays/07.png -filter_complex "[0:v][1:v]ove
 ## 7. Assemble
 - Join shots with the concat demuxer (`-f concat -safe 0 -i list.txt -c copy`) so cuts stay frame-exact; do not re-encode between shots.
 - Deliver video, voiceover, music and SFX as separate tracks of identical length (per `video-deliverables`), plus a preview with everything mixed. Voiceover louder than music and SFX. Add a short SFX hit on each cut in the first minute.
-- Final check: total length of the first minute is 60.0 s, every shot is its slot length, shots 1 to 17 are all real-life footage, and the footage log has a cleared "yes" for every clip used.
+- Final check: total length of the first minute is 60.0 s, every shot is its slot length, every real clip shows what its words say, and the footage log has a cleared "yes" for every clip used.

@@ -1,6 +1,6 @@
 # Footage list: first minute (33 shots)
 
-This list covers the first minute only. After the first minute, real material is evidence only (see `script.md`).
+This list covers the first minute only. Real materials can go anywhere in the film, so any shot here can be swapped for a different real item, and the evidence items for the rest of the film are in `script.md`.
 
 How to use: open the main link, pick a clip that matches the note, download it, trim to 5 to 10 seconds, and name the file by shot number (`01.mp4` … `33.mp4`, or `photo` as `.jpg`). Send me the files and I'll cut them to the 1.8-second slots. Rules are in the `real-footage-editing` skill.
 

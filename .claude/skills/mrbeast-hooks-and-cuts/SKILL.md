@@ -22,7 +22,7 @@ The hook is the main factor for everything. Viewers decide in the first 30 secon
 7. Stakes escalate: familiar → surprising → strange → the open question. No sentence repeats the title.
 
 ## 3. Real-life footage in the hook
-The first 30 seconds are **real-life footage only**: no cartoon, no narrator, no animation. Real means filmed or photographed, not generated.
+Real materials (filmed or photographed, not generated) can appear anywhere in the film, the first minute included. The hook should **lead with real material**, but it is not exclusive: the first 30 seconds can mix real clips with GIS maps, graphics and the narrator. Where a shot is real, it must show what the words say.
 - One shot per phrase. The picture must show the phrase, not decorate it.
 - Modern things (apps, chips, food, streets) come from clean stock footage. Historical things come from archives.
 - Sources, in order of preference: Wikimedia Commons, Library of Congress, US National Archives (NARA), national and state archives, Imperial War Museum and similar public collections, then free stock sites (Pexels, Pixabay). Government press office footage and museum collections often need permission: read the terms.
@@ -33,7 +33,7 @@ The first 30 seconds are **real-life footage only**: no cartoon, no narrator, no
 
 ## 4. The first minute: a new frame every 1.8 seconds
 - 1.8 s is **54 frames at 30 fps** (45 at 25 fps; avoid 24 fps, which gives 43.2). Set the composition to 30 fps.
-- 60 s = **32 shots of 1.8 s + one closing shot of 2.4 s** (57.6 + 2.4 = 60.0). Shot 17 ends at 30.6 s, so shots 1 to 17 are the real-footage hook.
+- 60 s = **32 shots of 1.8 s + one closing shot of 2.4 s** (57.6 + 2.4 = 60.0). Shot 17 ends at 30.6 s, which is the end of the hook.
 - **Every shot is a different picture.** Never reuse a shot in the first minute, never hold one past 1.8 s, and never put two shots of the same type back to back (two phone shots, two maps).
 - Cut **on the spoken word**: each cut lands on the first syllable of its phrase, with no gap and no hold after the phrase ends.
 - Words per shot: about 3 to 7, averaging about 4.7 (a 150-word first minute at 2.5 words per second). One idea per shot. Cut a phrase in the middle only if the picture changes meaning with the second half.
@@ -62,7 +62,7 @@ Write the hook and first minute as a table in `script.md`, above the body:
 - `type` is one of: `real`, `archive`, `GIS`, `overlay`.
 - `start` is a multiple of 1.8 s.
 - Then give the same words as clean text for the voiceover, with no shot numbers.
-- Check before handing over: every shot 1.8 s except the last (2.4 s); total 60.0 s; shots 1 to 17 all `real` or `archive`; no shot repeated; word count 140 to 165.
+- Check before handing over: every shot 1.8 s except the last (2.4 s); total 60.0 s; no shot repeated; the hook leads with real material; word count 140 to 165.
 
 ## 6. Voiceover and banned phrases
 Follow `history-script-writing` for Gemini TTS: angle-bracket tags such as `<short pause>`, only the supported tags, no emotion tags, years and numbers spelled out. Fast, bright style line for the first minute, then the normal style line.

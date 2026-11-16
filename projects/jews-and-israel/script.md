@@ -38,7 +38,7 @@ The title promises the whole history and the film delivers it. The first spoken 
 
 ## The first minute: cut sheet
 
-33 shots: 32 at 1.8 s (54 frames at 30 fps) and a closing shot of 2.4 s. Shots 1 to 17 (0:00 to 0:30.6) are real-life footage only. Types: `real` = filmed footage, `archive` = historical footage or photograph, `GIS` = QGIS map, `overlay` = narrator over footage. Source names point to where to look; every clip must be licence-checked before use, and the fallback is a different clip from a clean stock site.
+33 shots: 32 at 1.8 s (54 frames at 30 fps) and a closing shot of 2.4 s. Shots 1 to 17 (0:00 to 0:30.6) are the hook and lead with real material. Real material can go in any shot, and any shot can be swapped for a different real item. Types: `real` = filmed footage, `archive` = historical footage or photograph, `GIS` = QGIS map, `overlay` = narrator over footage. Source names point to where to look; every clip must be licence-checked before use, and the fallback is a different clip from a clean stock site.
 
 | # | start | words | visual | type | source | fallback |
 |---|-------|-------|--------|------|--------|----------|
@@ -228,9 +228,9 @@ Four thousand years ago, a man walked into Canaan with a promise. A people lost 
 
 ---
 
-## Real material after the first minute: evidence only
+## Real materials through the film
 
-The body is drawn in the studio style, with something changing every 2.5 seconds (new shot, zoom, angle, narrator action, pop-in). Real material appears only as a short proof insert, 2.5 seconds at most, labelled on screen. Nothing decorative. Items to look for, with licences checked when links are found:
+Real materials can go anywhere, the first minute included. The body is drawn in the studio style, with something changing every 2.5 seconds (new shot, zoom, angle, narrator action, pop-in), and real material comes in as short factual inserts, 2.5 seconds at most, labelled on screen. Nothing decorative. Items to look for, with licences checked when links are found:
 
 | Era | Evidence insert |
 |---|---|
