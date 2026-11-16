@@ -22,6 +22,7 @@ export type Part = {
   z?: [number, number]; focus?: [number, number]; pan?: [[number, number], [number, number]];
   bg?: 'grey' | 'dark';
   nar?: NarOpt;
+  narNode?: (a: PartArgs) => React.ReactNode;
 };
 
 const Body: React.FC<{ p: Part; s: Shot; st: number; i: number }> = ({ p, s, st, i }) => {
@@ -29,7 +30,7 @@ const Body: React.FC<{ p: Part; s: Shot; st: number; i: number }> = ({ p, s, st,
   const quiet = !!(s as any).quiet;
   const a: PartArgs = { s, t, w: (word) => wordAt(s, word) - st, pk: (at) => quiet ? Math.min(1, Math.max(0, (t - at) / 12)) : Math.max(0, springPop(t, at)) };
   const host = s.kind === 'HOST';
-  const n = p.nar === false ? null : (
+  const n = p.narNode ? p.narNode(a) : p.nar === false ? null : (
     <Host x={p.nar?.x ?? (host ? 1500 : 1690)} y={p.nar?.y ?? (host ? 960 : 1010)} scale={p.nar?.scale ?? (host ? 1 : 0.5)}
       keys={[{ at: 0, arm: p.nar?.arm ?? (host ? 'present' : 'idle'), expr: p.nar?.expr ?? 'smile' }]} talking={talk(s)} />
   );
