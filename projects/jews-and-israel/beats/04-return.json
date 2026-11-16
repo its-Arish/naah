@@ -7,57 +7,57 @@
    "beats": [
     {
      "id": "c085",
-     "shot": "g_return",
-     "type": "HOST",
+     "shot": "g85",
+     "type": "INSERT",
      "text": "In 539 BCE, Persia conquers Babylon",
      "date": null
     },
     {
      "id": "c086",
-     "shot": "g_return",
-     "type": "HOST",
+     "shot": "g86",
+     "type": "INSERT",
      "text": "and King Cyrus lets the exiles go home.",
      "date": null
     },
     {
      "id": "c087",
-     "shot": "g_return",
+     "shot": "g87",
      "type": "HOST",
      "text": "Some go, many stay.",
      "date": null
     },
     {
      "id": "c088",
-     "shot": "g_return",
-     "type": "HOST",
+     "shot": "g88",
+     "type": "INSERT",
      "text": "The ones who return build a second temple",
      "date": null
     },
     {
      "id": "c089",
-     "shot": "g_return",
-     "type": "HOST",
+     "shot": "g89",
+     "type": "INSERT",
      "text": "and for the next few centuries,",
      "date": null
     },
     {
      "id": "c090",
-     "shot": "g_return",
+     "shot": "g90",
      "type": "HOST",
      "text": "Judea is a small province under one empire after another.",
      "date": null
     },
     {
      "id": "c091",
-     "shot": "g_return",
-     "type": "HOST",
+     "shot": "g91",
+     "type": "INSERT",
      "text": "First Persia, then in 332, Alexander the Great",
      "date": null
     },
     {
      "id": "c092",
-     "shot": "g_return",
-     "type": "HOST",
+     "shot": "g92",
+     "type": "INSERT",
      "text": "and after him, Greek language, Greek gods and Greek gyms.",
      "date": null
     }

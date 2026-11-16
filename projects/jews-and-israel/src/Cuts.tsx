@@ -26,7 +26,8 @@ export type Part = {
 
 const Body: React.FC<{ p: Part; s: Shot; st: number; i: number }> = ({ p, s, st, i }) => {
   const t = useCurrentFrame();
-  const a: PartArgs = { s, t, w: (word) => wordAt(s, word) - st, pk: (at) => Math.max(0, springPop(t, at)) };
+  const quiet = !!(s as any).quiet;
+  const a: PartArgs = { s, t, w: (word) => wordAt(s, word) - st, pk: (at) => quiet ? Math.min(1, Math.max(0, (t - at) / 12)) : Math.max(0, springPop(t, at)) };
   const host = s.kind === 'HOST';
   const n = p.nar === false ? null : (
     <Host x={p.nar?.x ?? (host ? 1500 : 1690)} y={p.nar?.y ?? (host ? 960 : 1010)} scale={p.nar?.scale ?? (host ? 1 : 0.5)}
@@ -41,10 +42,10 @@ const Body: React.FC<{ p: Part; s: Shot; st: number; i: number }> = ({ p, s, st,
     );
   }
   const zin = i % 2 === 0;
-  const [z0, z1] = p.z ?? (zin ? [1, 1.1] : [1.1, 1]);
+  const [z0, z1] = p.z ?? (quiet ? [1, 1] : zin ? [1, 1.1] : [1.1, 1]);
   return (
     <CameraRig move={{ zoomFrom: z0, zoomTo: z1, focus: p.focus ?? [960, 520], panFrom: p.pan?.[0], panTo: p.pan?.[1] }} seed={s.id + i}>
-      {p.bg === 'dark' ? <rect x={-300} y={-300} width={2600} height={1700} fill="#1B1F26" /> : <GreyStage />}
+      {(p.bg === 'dark' || (quiet && p.bg !== 'grey')) ? <rect x={-300} y={-300} width={2600} height={1700} fill="#1B1F26" /> : <GreyStage />}
       <Layer depth={1}>{p.draw?.(a)}{n}</Layer>
     </CameraRig>
   );

@@ -7,561 +7,570 @@
    "beats": [
     {
      "id": "c515",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g515",
+     "type": "INSERT",
      "text": "Israel in early 2023 is deeply divided",
      "date": null
     },
     {
      "id": "c516",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g516",
+     "type": "INSERT",
      "text": "with months of mass protests over a plan to weaken the courts.",
      "date": null
     },
     {
      "id": "c517",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g517",
+     "type": "INSERT",
      "text": "Then on the morning of October 7th, 2023,",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c518",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g518",
+     "type": "INSERT",
      "text": "a Saturday and a Jewish holiday,",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c519",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g519",
+     "type": "INSERT",
      "text": "Hamas led fighters break through the Gaza border fence.",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c520",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g520",
+     "type": "INSERT",
      "text": "They kill about 1200 people, most of them civilians",
      "date": null,
      "quiet": true
     },
     {
      "id": "c521",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g521",
+     "type": "INSERT",
      "text": "in farming communities and at a music festival,",
      "date": null,
      "quiet": true
     },
     {
      "id": "c522",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g522",
+     "type": "INSERT",
      "text": "it is the deadliest single day for Jews",
      "date": null,
      "quiet": true
     },
     {
      "id": "c523",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g523",
+     "type": "INSERT",
      "text": "since the Holocaust.",
      "date": null,
      "quiet": true
     },
     {
      "id": "c524",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g524",
+     "type": "INSERT",
      "text": "And they take 251 people hostage into Gaza.",
      "date": null,
      "quiet": true
     },
     {
      "id": "c525",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g525",
+     "type": "INSERT",
      "text": "Israel declares war on Hamas.",
      "date": null,
      "quiet": true
     },
     {
      "id": "c526",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g526",
+     "type": "INSERT",
      "text": "The campaign that follows is the most destructive",
      "date": null,
      "quiet": true
     },
     {
      "id": "c527",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g527",
+     "type": "INSERT",
      "text": "in Gaza's history.",
      "date": null,
      "quiet": true
     },
     {
      "id": "c528",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g528",
+     "type": "INSERT",
      "text": "According to Gaza's health ministry,",
      "date": null,
      "quiet": true
     },
     {
      "id": "c529",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g529",
+     "type": "INSERT",
      "text": "part of the Hamas run government,",
      "date": null,
      "quiet": true
     },
     {
      "id": "c530",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g530",
+     "type": "INSERT",
      "text": "more than 74,000 Palestinians have been killed",
      "date": null,
      "quiet": true
     },
     {
      "id": "c531",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g531",
+     "type": "INSERT",
      "text": "about half of them women and children.",
      "date": null,
      "quiet": true
     },
     {
      "id": "c532",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g532",
+     "type": "INSERT",
      "text": "The ministry does not separate civilians from fighters.",
      "date": null,
      "quiet": true
     },
     {
      "id": "c533",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g533",
+     "type": "INSERT",
      "text": "UN agencies generally consider its counts reliable.",
      "date": null,
      "quiet": true
     },
     {
      "id": "c534",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g534",
+     "type": "INSERT",
      "text": "Israel disputes them.",
      "date": null,
      "quiet": true
     },
     {
      "id": "c535",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g535",
+     "type": "INSERT",
      "text": "Most of Gaza's two million people have been displaced,",
      "date": null,
      "quiet": true
     },
     {
      "id": "c536",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g536",
+     "type": "INSERT",
      "text": "many of them more than once",
      "date": null,
      "quiet": true
     },
     {
      "id": "c537",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g537",
+     "type": "INSERT",
      "text": "and much of its housing, hospitals and water systems",
      "date": null,
      "quiet": true
     },
     {
      "id": "c538",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g538",
+     "type": "INSERT",
      "text": "are destroyed.",
      "date": null,
      "quiet": true
     },
     {
      "id": "c539",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g539",
+     "type": "INSERT",
      "text": "Israel says it is fighting an enemy",
      "date": null,
      "quiet": true
     },
     {
      "id": "c540",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g540",
+     "type": "INSERT",
      "text": "that hides among civilians",
      "date": null,
      "quiet": true
     },
     {
      "id": "c541",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g541",
+     "type": "INSERT",
      "text": "and that its goal is to destroy Hamas",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c542",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g542",
+     "type": "INSERT",
      "text": "and bring the hostages home.",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c543",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g543",
+     "type": "INSERT",
      "text": "Its critics say the cost to civilians",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c544",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g544",
+     "type": "INSERT",
      "text": "is far beyond what any goal can justify.",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c545",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g545",
+     "type": "INSERT",
      "text": "Courts and scholars are still weighing the gravest charges",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c546",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g546",
+     "type": "INSERT",
      "text": "and a film cannot settle that for them.",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c547",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g547",
+     "type": "INSERT",
      "text": "The war spreads.",
      "date": null
     },
     {
      "id": "c548",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g548",
+     "type": "INSERT",
      "text": "Hezbollah in Lebanon fires on Northern Israel",
      "date": null
     },
     {
      "id": "c549",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g549",
+     "type": "INSERT",
      "text": "and in 2024, Israel and Hezbollah fight a war",
      "date": null
     },
     {
      "id": "c550",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g550",
+     "type": "INSERT",
      "text": "that ends in a ceasefire that November.",
      "date": null
     },
     {
      "id": "c551",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g551",
+     "type": "INSERT",
      "text": "In June 2025, Israel and Iran trade strikes",
      "date": null
     },
     {
      "id": "c552",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g552",
+     "type": "INSERT",
      "text": "for 12 days with the United States",
      "date": null
     },
     {
      "id": "c553",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g553",
+     "type": "INSERT",
      "text": "joining in against Iran's nuclear sites.",
      "date": null
     },
     {
      "id": "c554",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g554",
+     "type": "INSERT",
      "text": "In October 2025, after two years of war,",
      "date": null
     },
     {
      "id": "c555",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g555",
+     "type": "INSERT",
      "text": "a ceasefire brokered by the United States takes hold",
      "date": null
     },
     {
      "id": "c556",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g556",
+     "type": "INSERT",
      "text": "and the remaining hostages are returned.",
      "date": null
     },
     {
      "id": "c557",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g557",
+     "type": "INSERT",
      "text": "But a year later, its hardest parts are stuck.",
      "date": null
     },
     {
      "id": "c558",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g558",
+     "type": "INSERT",
      "text": "Who governs Gaza, whether Hamas disarms",
      "date": null
     },
     {
      "id": "c559",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g559",
+     "type": "INSERT",
      "text": "and when Israeli forces withdraw?",
      "date": null
     },
     {
      "id": "c560",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g560",
+     "type": "INSERT",
      "text": "Most people in Gaza are still living in tents and rubble",
      "date": null
     },
     {
      "id": "c561",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g561",
+     "type": "INSERT",
      "text": "and in Israel, an election in October, 2026",
      "date": null
     },
     {
      "id": "c562",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g562",
+     "type": "INSERT",
      "text": "has left the political picture unsettled",
      "date": null
     },
     {
      "id": "c563",
-     "shot": "g_today",
+     "shot": "g563",
      "type": "HOST",
      "text": "as this is written.",
      "date": null
     },
     {
      "id": "c564",
-     "shot": "g_today",
+     "shot": "g564",
      "type": "HOST",
      "text": "So where does that leave us?",
      "date": null
     },
     {
      "id": "c565",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g565",
+     "type": "INSERT",
      "text": "Israel today is a country of about 10 million people.",
      "date": null
     },
     {
      "id": "c566",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g566",
+     "type": "INSERT",
      "text": "Roughly three in four are Jewish and about one in five",
      "date": null
     },
     {
      "id": "c567",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g567",
+     "type": "INSERT",
      "text": "is Arab.",
      "date": null
     },
     {
      "id": "c568",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g568",
+     "type": "INSERT",
      "text": "The world has about 15 million Jews",
      "date": null
     },
     {
      "id": "c569",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g569",
+     "type": "INSERT",
      "text": "with Israel and the United States",
      "date": null
     },
     {
      "id": "c570",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g570",
+     "type": "INSERT",
      "text": "each home to six or seven million.",
      "date": null
     },
     {
      "id": "c571",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g571",
+     "type": "INSERT",
      "text": "Millions of Palestinians live in the West Bank",
      "date": null
     },
     {
      "id": "c572",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g572",
+     "type": "INSERT",
      "text": "in Gaza and in Jordan, Lebanon and beyond.",
      "date": null
     },
     {
      "id": "c573",
-     "shot": "g_today",
+     "shot": "g573",
      "type": "HOST",
      "text": "Remember the question from the beginning,",
      "date": null
     },
     {
      "id": "c574",
-     "shot": "g_today",
+     "shot": "g574",
      "type": "HOST",
      "text": "why does almost nobody have the whole story",
      "date": null
     },
     {
      "id": "c575",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g575",
+     "type": "INSERT",
      "text": "because it is two true stories?",
      "date": null
     },
     {
      "id": "c576",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g576",
+     "type": "INSERT",
      "text": "One is about a people who were driven from their home,",
      "date": null
     },
     {
      "id": "c577",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g577",
+     "type": "INSERT",
      "text": "scattered, hunted, nearly erased",
      "date": null
     },
     {
      "id": "c578",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g578",
+     "type": "INSERT",
      "text": "and who rebuilt a country in a land",
      "date": null
     },
     {
      "id": "c579",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g579",
+     "type": "INSERT",
      "text": "they never stopped praying toward.",
      "date": null
     },
     {
      "id": "c580",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g580",
+     "type": "INSERT",
      "text": "The other is about a people who were living on that land",
      "date": null
     },
     {
      "id": "c581",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g581",
+     "type": "INSERT",
      "text": "whose homes and villages were lost in the making of that country",
      "date": null
     },
     {
      "id": "c582",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g582",
+     "type": "INSERT",
      "text": "and who still have no state of their own.",
      "date": null
     },
     {
      "id": "c583",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g583",
+     "type": "INSERT",
      "text": "Each story is true and for the people who live it,",
      "date": null
     },
     {
      "id": "c584",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g584",
+     "type": "INSERT",
      "text": "each one is a story of survival.",
      "date": null
     },
     {
      "id": "c585",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g585",
+     "type": "INSERT",
      "text": "4,000 years ago, a man walked into Canaan with a promise.",
      "date": null
     },
     {
      "id": "c586",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g586",
+     "type": "INSERT",
      "text": "A people lost their home, kept their book",
      "date": null
     },
     {
      "id": "c587",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g587",
+     "type": "INSERT",
      "text": "and found each other again.",
      "date": null
     },
     {
      "id": "c588",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g588",
+     "type": "INSERT",
      "text": "Another people have held on to their homes,",
      "date": null
     },
     {
      "id": "c589",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g589",
+     "type": "INSERT",
      "text": "their keys and their names through exile and occupation.",
      "date": null
     },
     {
      "id": "c590",
-     "shot": "g_today",
+     "shot": "g590",
      "type": "HOST",
      "text": "Whether those two stories can be lived side by side",
      "date": null
     },
     {
      "id": "c591",
-     "shot": "g_today",
-     "type": "HOST",
+     "shot": "g591",
+     "type": "INSERT",
      "text": "is the one page nobody has written yet.",
      "date": null
     }

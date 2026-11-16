@@ -7,197 +7,202 @@
    "beats": [
     {
      "id": "c452",
-     "shot": "g_oslo",
-     "type": "HOST",
+     "shot": "g452",
+     "type": "INSERT",
      "text": "In 1982, Israel invades Lebanon to drive out the PLO",
      "date": null
     },
     {
      "id": "c453",
-     "shot": "g_oslo",
-     "type": "HOST",
+     "shot": "g453",
+     "type": "INSERT",
      "text": "and ends up occupying the south of the country for 18 years.",
      "date": null
     },
     {
      "id": "c454",
-     "shot": "g_oslo",
-     "type": "HOST",
+     "shot": "g454",
+     "type": "INSERT",
      "text": "Out of that occupation grows a new enemy,",
      "date": null
     },
     {
      "id": "c455",
-     "shot": "g_oslo",
-     "type": "HOST",
+     "shot": "g455",
+     "type": "INSERT",
      "text": "Hezbollah backed by Iran.",
      "date": null
     },
     {
      "id": "c456",
-     "shot": "g_oslo",
-     "type": "HOST",
+     "shot": "g456",
+     "type": "INSERT",
      "text": "Then in 1987, a Palestinian uprising",
      "date": null
     },
     {
      "id": "c457",
-     "shot": "g_oslo",
-     "type": "HOST",
+     "shot": "g457",
+     "type": "INSERT",
      "text": "begins in Gaza and spreads.",
      "date": null
     },
     {
      "id": "c458",
-     "shot": "g_oslo",
-     "type": "HOST",
+     "shot": "g458",
+     "type": "INSERT",
      "text": "The First Intifada, mostly stones, strikes and clashes",
      "date": null
     },
     {
      "id": "c459",
-     "shot": "g_oslo",
-     "type": "HOST",
+     "shot": "g459",
+     "type": "INSERT",
      "text": "met by heavy Israeli force.",
      "date": null
     },
     {
      "id": "c460",
-     "shot": "g_oslo",
+     "shot": "g460",
      "type": "HOST",
      "text": "Both sides strangely are exhausted.",
      "date": null
     },
     {
      "id": "c461",
-     "shot": "g_oslo",
-     "type": "HOST",
+     "shot": "g461",
+     "type": "INSERT",
      "text": "In 1993, secret talks in Oslo lead",
      "date": null
     },
     {
      "id": "c462",
-     "shot": "g_oslo",
-     "type": "HOST",
+     "shot": "g462",
+     "type": "INSERT",
      "text": "to a famous handshake on the White House lawn",
      "date": null
     },
     {
      "id": "c463",
-     "shot": "g_oslo",
-     "type": "HOST",
+     "shot": "g463",
+     "type": "INSERT",
      "text": "between Israel's prime minister Yitzhak Rabin",
      "date": null
     },
     {
      "id": "c464",
-     "shot": "g_oslo",
-     "type": "HOST",
+     "shot": "g464",
+     "type": "INSERT",
      "text": "and the Palestinian leader Yasser Arafat.",
      "date": null
     },
     {
      "id": "c465",
-     "shot": "g_oslo",
-     "type": "HOST",
+     "shot": "g465",
+     "type": "INSERT",
      "text": "Israel and the PLO recognize each other.",
      "date": null
     },
     {
      "id": "c466",
-     "shot": "g_oslo",
-     "type": "HOST",
+     "shot": "g466",
+     "type": "INSERT",
      "text": "A Palestinian authority is created",
      "date": null
     },
     {
      "id": "c467",
-     "shot": "g_oslo",
-     "type": "HOST",
+     "shot": "g467",
+     "type": "INSERT",
      "text": "to govern parts of the West Bank and Gaza,",
      "date": null
     },
     {
      "id": "c468",
-     "shot": "g_oslo",
-     "type": "HOST",
+     "shot": "g468",
+     "type": "INSERT",
      "text": "while the hardest questions are left for later,",
      "date": null
     },
     {
      "id": "c469",
-     "shot": "g_oslo",
-     "type": "HOST",
+     "shot": "g469",
+     "type": "INSERT",
      "text": "Jerusalem, borders, refugees, settlements.",
      "date": null
     },
     {
      "id": "c470",
-     "shot": "g_oslo",
-     "type": "HOST",
+     "shot": "g470",
+     "type": "INSERT",
      "text": "Then the opponents on both sides go to work.",
      "date": null
     },
     {
      "id": "c471",
-     "shot": "g_oslo",
-     "type": "HOST",
+     "shot": "g471",
+     "type": "INSERT",
      "text": "Hamas, a Palestinian Islamist group",
      "date": null
     },
     {
      "id": "c472",
-     "shot": "g_oslo",
-     "type": "HOST",
+     "shot": "g472",
+     "type": "INSERT",
      "text": "that rejects Israel's existence,",
      "date": null
     },
     {
      "id": "c473",
-     "shot": "g_oslo",
-     "type": "HOST",
+     "shot": "g473",
+     "type": "INSERT",
      "text": "sends suicide bombers onto Israeli buses",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c474",
-     "shot": "g_oslo",
-     "type": "HOST",
+     "shot": "g474",
+     "type": "INSERT",
      "text": "and into cafes.",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c475",
-     "shot": "g_oslo",
-     "type": "HOST",
+     "shot": "g475",
+     "type": "INSERT",
      "text": "And on November 4th, 1995,",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c476",
-     "shot": "g_oslo",
-     "type": "HOST",
+     "shot": "g476",
+     "type": "INSERT",
      "text": "Rabin is assassinated at a peace rally",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c477",
-     "shot": "g_oslo",
-     "type": "HOST",
+     "shot": "g477",
+     "type": "INSERT",
      "text": "by a Jewish Israeli extremist who opposed the deal.",
-     "date": null
+     "date": null,
+     "quiet": true
     },
     {
      "id": "c478",
-     "shot": "g_oslo",
-     "type": "HOST",
+     "shot": "g478",
+     "type": "INSERT",
      "text": "In 2000, talks at Camp David Collapse",
      "date": null
     },
     {
      "id": "c479",
-     "shot": "g_oslo",
-     "type": "HOST",
+     "shot": "g479",
+     "type": "INSERT",
      "text": "and each side blames the other.",
      "date": null
     }
