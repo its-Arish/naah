@@ -62,3 +62,6 @@ ffmpeg -i shots/07.mp4 -loop 1 -i overlays/07.png -filter_complex "[0:v][1:v]ove
 - Join shots with the concat demuxer (`-f concat -safe 0 -i list.txt -c copy`) so cuts stay frame-exact; do not re-encode between shots.
 - Deliver video, voiceover, music and SFX as separate tracks of identical length (per `video-deliverables`), plus a preview with everything mixed. Voiceover louder than music and SFX. Add a short SFX hit on each cut in the first minute.
 - Final check: total length of the first minute is 60.0 s, every shot is its slot length, every real clip shows what its words say, and the footage log has a cleared "yes" for every clip used.
+
+## Evidence component (added Nov 2026)
+Show real photos with `<Evidence src aspect at x y h label quiet len zoom focus />` (`engine/fx/Evidence.tsx`), before `<Teach>` in the same SVG layer. Folder `projects/<slug>/evidence/`. Label = what it is plus its date, no more than the file page supports. See `docs/PLAYBOOK.md` 7b and the project's `evidence-log.md`.

@@ -71,6 +71,16 @@ To reuse: copy the file into the new project's `src/`, edit `ERAS` (names must e
 
 Standing rules for every film: narrator on screen in most shots and never redesigned; use the QGIS map kit and a different map style per era, never the heatmap; captions in Times Roman (`"captionFont": "serif"`); voice louder than effects; one narrator move every minute or two and none beside a tragedy.
 
+## 7b. Real pictures, frame-change pacing and `cuts()` (added Nov 2026, Jews and Israel film)
+
+- **Evidence pictures:** real photos and documents (stelae, manuscripts, newspapers) are shown with `<Evidence>` (`engine/fx/Evidence.tsx`), placed in a `Layer` before `<Teach>` so the narrator's staff touches them. Files go in `projects/<slug>/evidence/` (the build links the folder into `dist/`). Label every picture with what it **is** and its date; never claim more than the file page says (for example "widely read as naming the House of David"). Max 2.5 s on screen. Quiet beats use `quiet` (fade, no bounce). The creator must verify Commons licences; the workspace cannot read them. Keep `evidence-log.md` and `evidence-placement.md` in the project.
+- **Pacing:** the first minute changes picture every 1.8 s (54 frames); afterwards something changes every 2.5 s (75 frames). Use `cuts([...])` from `projects/<slug>/src/Cuts.tsx`: each part starts at a frame or a spoken word, gets its own camera move and the narrator. Maps inside a part come from the GIS kit (`full:`). Tragedy beats: fade or cut only, no gags.
+- **Hook:** MrBeast-style, with familiar things first (Amen, Hallelujah, candles, Christmas tree, Waze, a chip), then the surprise. See skill `mrbeast-hooks-and-cuts`.
+- **Timeline bar, no chapter titles:** an era bar at the top (`src/Timeline.tsx`), nothing spoken or shown as "Part N".
+- **Voiced pipeline in order:** fix the `.srt` in `tools/fix_srt.py` (a dict of caption number to corrected text; list pronunciations to verify, since audio cannot be heard) → `studio align` (expect 100 % matched) → `tools/make_beats.py` (one beat per caption, a SHOTS table, QUIET ranges) → draw shots in `src/<Era>.tsx` → `check`, `stills --section N` (look at every sheet; run one section at a time, each run overwrites the last) → pilot → full render.
+- **Caption zone:** HOST beats put props at x≈1190 or more, because the caption and narrator own the sides; map tags sit at y≈220 and must be short (about 24 characters at size 48).
+- **A still that shows a black picture** can be a loading race in the contact sheet; render the single frame to confirm before changing anything.
+
 ## 8. Check, pilot, render, deliver
 
 1. `studio check <slug>`, then `studio stills <slug> --section N` for every section. Open every contact sheet. Look for text under props, labels behind the timeline pill, clipped tags and anything in the caption zone.
