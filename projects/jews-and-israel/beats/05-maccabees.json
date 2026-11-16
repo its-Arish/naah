@@ -1,0 +1,67 @@
+{
+ "title": "Maccabees",
+ "sections": [
+  {
+   "title": "Maccabees",
+   "card": false,
+   "beats": [
+    {
+     "id": "c093",
+     "shot": "g_maccabees",
+     "type": "HOST",
+     "text": "Which brings us to a king named Antiochus,",
+     "date": null
+    },
+    {
+     "id": "c094",
+     "shot": "g_maccabees",
+     "type": "HOST",
+     "text": "who in 167 BCE bans Jewish practice",
+     "date": null
+    },
+    {
+     "id": "c095",
+     "shot": "g_maccabees",
+     "type": "HOST",
+     "text": "and sets up an idol in the temple",
+     "date": null
+    },
+    {
+     "id": "c096",
+     "shot": "g_maccabees",
+     "type": "HOST",
+     "text": "a family called the Maccabees rebels, and wins.",
+     "date": null
+    },
+    {
+     "id": "c097",
+     "shot": "g_maccabees",
+     "type": "HOST",
+     "text": "They rededicate the temple. That is Hanukkah,",
+     "date": null
+    },
+    {
+     "id": "c098",
+     "shot": "g_maccabees",
+     "type": "HOST",
+     "text": "the festival of lights.",
+     "date": null
+    },
+    {
+     "id": "c099",
+     "shot": "g_maccabees",
+     "type": "HOST",
+     "text": "And for roughly 80 years,",
+     "date": null
+    },
+    {
+     "id": "c100",
+     "shot": "g_maccabees",
+     "type": "HOST",
+     "text": "the Jews have their own kingdom again.",
+     "date": null
+    }
+   ]
+  }
+ ]
+}

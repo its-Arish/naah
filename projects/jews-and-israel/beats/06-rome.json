@@ -1,0 +1,158 @@
+{
+ "title": "Rome",
+ "sections": [
+  {
+   "title": "Rome",
+   "card": false,
+   "beats": [
+    {
+     "id": "c101",
+     "shot": "g_rome",
+     "type": "HOST",
+     "text": "Then Rome arrives.",
+     "date": null
+    },
+    {
+     "id": "c102",
+     "shot": "g_rome",
+     "type": "HOST",
+     "text": "In 63 BCE, the general Pompey marches into Jerusalem.",
+     "date": null
+    },
+    {
+     "id": "c103",
+     "shot": "g_rome",
+     "type": "HOST",
+     "text": "Rome backs a king named Herod,",
+     "date": null
+    },
+    {
+     "id": "c104",
+     "shot": "g_rome",
+     "type": "HOST",
+     "text": "who rebuilds the temple on a spectacular scale.",
+     "date": null
+    },
+    {
+     "id": "c105",
+     "shot": "g_rome",
+     "type": "HOST",
+     "text": "The huge stones of its retaining wall still stand today.",
+     "date": null
+    },
+    {
+     "id": "c106",
+     "shot": "g_rome",
+     "type": "HOST",
+     "text": "It's the Western wall.",
+     "date": null
+    },
+    {
+     "id": "c107",
+     "shot": "g_rome",
+     "type": "HOST",
+     "text": "Under Rome, Judea simmers, taxes, rebels, rival sects.",
+     "date": null
+    },
+    {
+     "id": "c108",
+     "shot": "g_rome",
+     "type": "HOST",
+     "text": "One of them gathers around a Jewish teacher",
+     "date": null
+    },
+    {
+     "id": "c109",
+     "shot": "g_rome",
+     "type": "HOST",
+     "text": "from Galilee named Jesus,",
+     "date": null
+    },
+    {
+     "id": "c110",
+     "shot": "g_rome",
+     "type": "HOST",
+     "text": "who is executed by Roman authority around the year 30.",
+     "date": null
+    },
+    {
+     "id": "c111",
+     "shot": "g_rome",
+     "type": "HOST",
+     "text": "His followers start a movement",
+     "date": null
+    },
+    {
+     "id": "c112",
+     "shot": "g_rome",
+     "type": "HOST",
+     "text": "that will much later become Christianity.",
+     "date": null
+    },
+    {
+     "id": "c113",
+     "shot": "g_rome",
+     "type": "HOST",
+     "text": "In 66 CE, the Jews rise up against Rome.",
+     "date": null
+    },
+    {
+     "id": "c114",
+     "shot": "g_rome",
+     "type": "HOST",
+     "text": "It is a catastrophe.",
+     "date": null
+    },
+    {
+     "id": "c115",
+     "shot": "g_rome",
+     "type": "HOST",
+     "text": "In 70, the Roman general Titus besieges Jerusalem",
+     "date": null
+    },
+    {
+     "id": "c116",
+     "shot": "g_rome",
+     "type": "HOST",
+     "text": "and burns the second temple.",
+     "date": null
+    },
+    {
+     "id": "c117",
+     "shot": "g_rome",
+     "type": "HOST",
+     "text": "Hundreds of thousands die.",
+     "date": null
+    },
+    {
+     "id": "c118",
+     "shot": "g_rome",
+     "type": "HOST",
+     "text": "The arch of Titus in Rome, still standing,",
+     "date": null
+    },
+    {
+     "id": "c119",
+     "shot": "g_rome",
+     "type": "HOST",
+     "text": "shows soldiers carrying off the temple's golden menorah.",
+     "date": null
+    },
+    {
+     "id": "c120",
+     "shot": "g_rome",
+     "type": "HOST",
+     "text": "The last rebels hold out in the desert fortress of Masada",
+     "date": null
+    },
+    {
+     "id": "c121",
+     "shot": "g_rome",
+     "type": "HOST",
+     "text": "until about 73.",
+     "date": null
+    }
+   ]
+  }
+ ]
+}

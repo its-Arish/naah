@@ -1,0 +1,158 @@
+{
+ "title": "Hook",
+ "sections": [
+  {
+   "title": "Hook",
+   "card": false,
+   "beats": [
+    {
+     "id": "c001",
+     "shot": "k01",
+     "type": "HOST",
+     "text": "You say the word Amen. You shout Hallelujah.",
+     "date": null
+    },
+    {
+     "id": "c002",
+     "shot": "k02",
+     "type": "INSERT",
+     "text": "Both Hebrew. You plan your week in seven days",
+     "date": null
+    },
+    {
+     "id": "c003",
+     "shot": "k03",
+     "type": "INSERT",
+     "text": "with one day of rest.",
+     "date": null
+    },
+    {
+     "id": "c004",
+     "shot": "k04",
+     "type": "INSERT",
+     "text": "That rhythm comes from the Hebrew Bible.",
+     "date": null
+    },
+    {
+     "id": "c005",
+     "shot": "k05",
+     "type": "INSERT",
+     "text": "Christmas, built around a Jewish teacher.",
+     "date": null
+    },
+    {
+     "id": "c006",
+     "shot": "k06",
+     "type": "INSERT",
+     "text": "Your map app, Waze, was built by Israelis.",
+     "date": null
+    },
+    {
+     "id": "c007",
+     "shot": "k07",
+     "type": "INSERT",
+     "text": "Your laptop's processor may have been designed in Haifa.",
+     "date": null
+    },
+    {
+     "id": "c008",
+     "shot": "k08",
+     "type": "HOST",
+     "text": "Now here's the strange part.",
+     "date": null
+    },
+    {
+     "id": "c009",
+     "shot": "k09",
+     "type": "INSERT",
+     "text": "All of it came from a people who for nearly 2,000 years",
+     "date": null
+    },
+    {
+     "id": "c010",
+     "shot": "k10",
+     "type": "INSERT",
+     "text": "had no country at all, scattered across every continent,",
+     "date": null
+    },
+    {
+     "id": "c011",
+     "shot": "k11",
+     "type": "INSERT",
+     "text": "expelled again and again.",
+     "date": null
+    },
+    {
+     "id": "c012",
+     "shot": "k12",
+     "type": "INSERT",
+     "text": "Then in 1948, they had one.",
+     "date": null
+    },
+    {
+     "id": "c013",
+     "shot": "k13",
+     "type": "INSERT",
+     "text": "A land the size of New Jersey,",
+     "date": null
+    },
+    {
+     "id": "c014",
+     "shot": "k14",
+     "type": "HOST",
+     "text": "and nearly everyone on earth has an opinion about it.",
+     "date": null
+    },
+    {
+     "id": "c015",
+     "shot": "k15",
+     "type": "HOST",
+     "text": "Almost nobody has the whole story.",
+     "date": null
+    },
+    {
+     "id": "c016",
+     "shot": "k16",
+     "type": "HOST",
+     "text": "So where does it begin?",
+     "date": null
+    },
+    {
+     "id": "c017",
+     "shot": "k17",
+     "type": "INSERT",
+     "text": "4,000 years ago in a hot dry land called Canaan.",
+     "date": null
+    },
+    {
+     "id": "c018",
+     "shot": "k18",
+     "type": "INSERT",
+     "text": "And why does it still burn?",
+     "date": null
+    },
+    {
+     "id": "c019",
+     "shot": "k19",
+     "type": "INSERT",
+     "text": "4,000 years, 30 minutes.",
+     "date": null
+    },
+    {
+     "id": "c020",
+     "shot": "k20",
+     "type": "INSERT",
+     "text": "Each side's story, told fairly.",
+     "date": null
+    },
+    {
+     "id": "c021",
+     "shot": "k21",
+     "type": "HOST",
+     "text": "Let's go.",
+     "date": null
+    }
+   ]
+  }
+ ]
+}
