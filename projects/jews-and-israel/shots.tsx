@@ -11,6 +11,10 @@ import { ERA3 } from './src/Era3';
 import { ERA4 } from './src/Era4';
 import { ERA5 } from './src/Era5';
 import { SC1 } from './src/Sc1';
+import { SC2 } from './src/Sc2';
+import { SC3 } from './src/Sc3';
+import { SC4 } from './src/Sc4';
+import { SC5 } from './src/Sc5';
 import { ERAS } from './src/Timeline';
 
 export { Overlay } from './src/Timeline';
@@ -23,7 +27,7 @@ export const SHOTS: ShotMap = {
   end: makeEnd('The Entire History of Jews and Israel'),
   ...HOOK,
   ...ANCIENT,
-  ...ERA1, ...ERA2, ...ERA3, ...ERA4, ...ERA5, ...SC1,
+  ...ERA1, ...ERA2, ...ERA3, ...ERA4, ...ERA5, ...SC1, ...SC2, ...SC3, ...SC4, ...SC5,
   g_canaan: era('Canaan'),
   g_kingdoms: era('Kingdoms'),
   g_exile: era('Exile'),

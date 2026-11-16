@@ -7,3 +7,10 @@
 **Learned:** see PLAYBOOK 7b. Pronunciations and a possible spoken chuckle at caption 53 cannot be checked without hearing the audio. Timeline 25:07 vs audio 25:01.
 
 **Open:** evidence still missing (Great Isaiah Scroll, Arch of Titus, Western Wall, Alhambra Decree, Der Judenstaat, Tel Aviv 1909, Balfour); licence check; remaining eras drawn after the pilot.
+
+## Story-scene rewrite (creator feedback)
+- Creator: the first draft was "just captions popping, no story telling" and lacked the narrator's playful stunts.
+- Rule: every caption is a scene (place + characters acting + props); text is only a small chip (date/name). Never repeat the caption as a sign.
+- Narrator stunts: every third story beat and every HOST beat (fly, vault, twirl, cane, catch, heli, drop, peek, slack), rotating. None on quiet/tragedy beats.
+- Quiet beats: dark or fade, no perpetrators drawn, no violence, attributed figures, no gags.
+- Code: projects/jews-and-israel/src/Story.tsx, Stunts.tsx, ScKit.tsx, Sc1–Sc5.tsx.
