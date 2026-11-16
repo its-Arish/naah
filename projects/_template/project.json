@@ -5,5 +5,7 @@
   "openingSeconds": 4.5,
   "cardSeconds": 2.2,
   "endSeconds": 4.5,
-  "dateTag": true
+  "dateTag": true,
+  "captionFont": "serif",
+  "mapSfx": "tech"
 }
