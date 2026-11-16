@@ -1,11 +1,18 @@
 ---
 name: "real-footage-editing"
-description: "Find, log, conform and composite real-life footage (stock, archive, photographs) into a film from this studio: sourcing links per shot, the handover folder, ffmpeg recipes for exact-length shots, motion-graphics overlays, and the licence log. Use whenever a film or cut sheet needs real footage, especially the first-minute cut sheet from mrbeast-hooks-and-cuts."
+description: "Find, log, conform and composite real-life footage (stock, archive, photographs) into a film from this studio. Real footage is used in the first minute, and after that only as evidence for a fact: sourcing links per shot, the handover folder, ffmpeg recipes for exact-length shots, motion-graphics overlays, and the licence log. Use whenever a film or cut sheet needs real footage, especially the first-minute cut sheet from mrbeast-hooks-and-cuts."
 ---
 
 # Real-footage editing
 
 Use with `mrbeast-hooks-and-cuts` (which sets the shot lengths) and `make-history-video` (which makes the drawn world). The workflow is: Claude finds the links, the creator downloads, Claude edits.
+
+## 0. When real footage is used
+- **First minute:** real footage per the cut sheet in `mrbeast-hooks-and-cuts`.
+- **After the first minute: evidence only.** Real material appears only when it proves or shows a fact: an ancient artefact (a stele, a tablet, a scroll, a coin), an archaeological site, a historical document, or an archive photograph or film of the event itself. Never decorative stock or b-roll, because it pulls attention off the story.
+- Ancient periods have no film. For them use the surviving artefacts, sites, manuscripts and maps, shown in the studio's drawn style with the real object as a short insert.
+- Keep every real insert short (2.5 seconds at most), label what it is on screen, and go back to the drawn story straight after.
+- The studio's drawn scenes carry the story. Real material is a proof point, not a replacement.
 
 ## 1. What can and cannot be done from the workspace
 - **Cannot:** download from stock or archive sites. The workspace network only reaches package registries and GitHub, so every download is done by the creator. Do not try curl, wget or mirrors.

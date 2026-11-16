@@ -228,20 +228,22 @@ Four thousand years ago, a man walked into Canaan with a promise. A people lost 
 
 ---
 
-## Real-footage plan after the first minute
+## Real material after the first minute: evidence only
 
-| Era | What to film or source |
+The body is drawn in the studio style, with something changing every 2.5 seconds (new shot, zoom, angle, narrator action, pop-in). Real material appears only as a short proof insert, 2.5 seconds at most, labelled on screen. Nothing decorative. Items to look for, with licences checked when links are found:
+
+| Era | Evidence insert |
 |---|---|
-| Canaan to Babylon | Drone footage of the Judean hills, Tel Megiddo and the City of David dig, Merneptah Stele (museum photo, public domain), cuneiform tablets |
-| Rome | Arch of Titus, Masada from the air, Western Wall stones close up |
-| Diaspora | Córdoba synagogue and the Alhambra, Prague's Old Jewish Cemetery, manuscript pages (public domain), Pale of Settlement photographs |
-| Zionism | Herzl photographs, Basel, first Tel Aviv photographs (1909), Library of Congress American Colony collection |
-| Mandate | British Mandate newsreels, kibbutz film, 1929 and 1936 photographs from archives |
-| Holocaust | Restraint rule: places, documents, survivor testimony, memorial sites. Nothing graphic. NARA and USHMM material only with permission |
-| 1948 to 1979 | Ben-Gurion declaration film, 1948 refugee photographs (UNRWA archive), 1967 Western Wall photographs, Sadat in Jerusalem film (check terms) |
-| 1987 to 2023 | News archives where licensed; otherwise stills and map animation. Oct 7 and Gaza: no graphic imagery, no unverified footage |
+| Canaan to Babylon | Merneptah Stele (Cairo), Tel Dan Stele (Israel Museum), Sennacherib's Taylor Prism (British Museum), Babylonian Chronicle tablet, Cyrus Cylinder (British Museum) |
+| Second Temple to Rome | Dead Sea Scrolls (Great Isaiah Scroll), the Western Wall's Herodian stones, relief of the menorah on the Arch of Titus, a "Judaea Capta" coin, Bar Kokhba coins, Masada |
+| Diaspora | Cairo Geniza fragments, a Maimonides manuscript page, the Alhambra Decree, the Venice Ghetto (place) |
+| Zionism | Herzl photograph, the 1897 Basel congress photograph, the title page of "The Jewish State", Degania and early Tel Aviv photographs |
+| Mandate | The Balfour letter (British Library), Peel Commission map (redrawn in GIS) |
+| Holocaust | Documents, memorial sites and survivor testimony with consent. Nothing graphic |
+| 1947 to 1979 | The UN vote, the 1948 declaration photograph, the ship Exodus, the 1967 Western Wall photograph, the 1978 Camp David photograph |
+| 1987 to 2025 | The 1993 Oslo handshake photograph, documents and maps. News footage only where licensed. Oct 7 and Gaza: no graphic imagery, no unverified footage |
 
-Two-sides rule: when a shot shows one side's grief or pride, the next shot shows the other side's.
+Two-sides rule: when one insert shows one side's grief or pride, the next shows the other side's.
 
 ---
 

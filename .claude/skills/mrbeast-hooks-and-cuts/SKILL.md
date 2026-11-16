@@ -38,7 +38,20 @@ The first 30 seconds are **real-life footage only**: no cartoon, no narrator, no
 - Cut **on the spoken word**: each cut lands on the first syllable of its phrase, with no gap and no hold after the phrase ends.
 - Words per shot: about 3 to 7, averaging about 4.7 (a 150-word first minute at 2.5 words per second). One idea per shot. Cut a phrase in the middle only if the picture changes meaning with the second half.
 - Movement inside each shot (slow push-in, pan, handheld) so no frame is dead for 1.8 s. Add a small sound hit on cuts, and keep the voice louder than music and SFX.
-- After 1:00, return to the normal pace: a new picture every 3 to 5 seconds.
+- After 1:00, the pace relaxes to a change every **2.5 seconds** (section 4b), never longer.
+
+## 4b. After the first minute: something changes every 2.5 seconds
+Attention is short, so the picture never sits still for more than 2.5 seconds (75 frames at 30 fps, about 6 spoken words). When a shot has to stay on one idea (an explanation, a map, a document), keep the idea and change the frame with one of these, in order of preference:
+1. **A new shot** of the same story (a different scene, a close-up of a prop, a cut-away).
+2. **Camera move:** slow zoom in or zoom out, or a pan to a new focus point. A move must visibly change the framing, for example zoom 1.0 to 1.12, not a drift.
+3. **Angle change:** cut to a closer, wider or different framing of the same scene.
+4. **Narrator action:** a pose change, a point with the staff, or occasionally a stunt from the `narrator-moves` skill.
+5. **Something appears:** a label, counter, stamp or prop pops in on the spoken word.
+Rules:
+- Do not use the same type of change twice in a row (two zooms, two cuts), and do not hold a push-in longer than 2.5 s without another change.
+- Put the change on a spoken word, not between words.
+- **Quiet beats** (massacres, famine, war dead, the Holocaust): slow zoom or a cut only. No stunts, no gags, no pop-ins that bounce.
+- Check at the pilot: scan the stills and the video; any stretch over 2.5 s with the same framing gets a change.
 
 ## 5. Output: the cut sheet
 Write the hook and first minute as a table in `script.md`, above the body:

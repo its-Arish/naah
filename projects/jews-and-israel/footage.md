@@ -1,5 +1,7 @@
 # Footage list: first minute (33 shots)
 
+This list covers the first minute only. After the first minute, real material is evidence only (see `script.md`).
+
 How to use: open the main link, pick a clip that matches the note, download it, trim to 5 to 10 seconds, and name the file by shot number (`01.mp4` … `33.mp4`, or `photo` as `.jpg`). Send me the files and I'll cut them to the 1.8-second slots. Rules are in the `real-footage-editing` skill.
 
 **Licence notes.** I could not open the Pexels, Pixabay or other licence pages from my workspace, so read the licence on each file's page. As I remember them: Pexels and Pixabay allow free commercial use and editing without credit, but not reselling unchanged files, implying endorsement, or showing identifiable people in a bad light. Wikimedia Commons licences differ per file: read the file page, and credit anything marked CC BY or CC BY-SA. Titles below are what the search results said; I could not watch the clips, so check each one is what its title says.

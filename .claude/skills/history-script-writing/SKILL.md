@@ -36,7 +36,7 @@ Based on the MrBeast retention framework (target: about 70% average retention). 
 
 ### 3. The body: keep the retention curve flat
 - **No chapter cards and no spoken chapter names.** Chapters lower retention. The narration runs as one continuous story, and each new era is shown only on a thin timeline across the top of the screen: the marker slides and the label changes while the narrator keeps talking. Write every join so it continues the previous thought. Any headings in the script are paste breaks only, never spoken or shown. Give a table of timeline labels and years with the script.
-- **Visual variety:** write so a new picture is possible every 3–5 s. Avoid paragraphs that would hold one map for long.
+- **Visual variety:** write so something changes every 2.5 s: a new picture, a camera move, an angle change or a narrator action (see `mrbeast-hooks-and-cuts`). Avoid paragraphs that would hold one map for long.
 - **Consistent contrast:** give the film a side story or second thread to cut away to (e.g. one family across the centuries, or the narrator's running gag), so the main storyline never drags.
 - **Running thread:** invent one motif that recurs and pays off (e.g. "the bill": a receipt that prints a new line each time the country spends its people, paid off in the final chapter).
 - **Energy cycles:** high-energy new thing → calmer exploration → next new thing. Cycles of about 2–4 min, **shorter at the front, longer at the back**. Lighter content early; save slow emotional material for the last 20%.
