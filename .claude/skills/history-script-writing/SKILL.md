@@ -15,7 +15,7 @@ First decide the format:
 
 ## Part A: Long-form history film
 
-Based on the MrBeast retention framework (target: about 70% average retention).
+Based on the MrBeast retention framework (target: about 70% average retention). For films that open on real footage, also follow the `mrbeast-hooks-and-cuts` skill (30-second hook, new frame every 1.8 s for the first minute, cut sheet).
 
 ### 1. First 5 seconds: title, thumbnail and first line are one promise
 - Title must be clickable **and true**. Never claim something that hasn't happened ("Russia attacks NATO") and never put invented quotes in a real person's mouth. Overselling kills retention when viewers feel tricked.
