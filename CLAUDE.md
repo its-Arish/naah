@@ -6,6 +6,14 @@ You are working in **History Cartoon Studio**. A person gives you a **script** (
 
 Read these before your first video: `docs/STYLE.md` (the look and the rules), `docs/PHYSICS.md` (how things move), `docs/SCENES.md` (every ready-made character, scene and prop) and, if there is a voiceover, `docs/VOICEOVER.md`. Then look at `projects/physics-demo/shots.tsx` and a few shots in `projects/india-1000-years/src/ShotsIndia.tsx` for idioms.
 
+## Standing pacing and style rules (creator's, Nov 2026; details in docs/PLAYBOOK.md §7b, §7c, §9)
+- **Pacing:** the first minute changes picture every **1.8 s** (54 frames); afterwards something changes every **2.5 s** (75 frames). Use `cuts([...])`. Skill: `mrbeast-hooks-and-cuts`.
+- **Hook:** MrBeast-style, a familiar thing first; never "stay to the end"; no "Part N" or chapter cards (thin era timeline bar only).
+- **Story, not captions:** every caption is a scene (place, characters acting, props); text is only a small chip. The narrator does varied playful stunts on every HOST beat and about every third story beat (`narrator-moves`). No stunts or gags on quiet/tragedy beats, nothing graphic.
+- **Real pictures:** only as labelled evidence, 2.5 s at most, narrator points with the staff (`real-footage-editing`).
+- **Maps:** always GIS, never drawn by hand (`qgis-maps`).
+- **Real people:** labelled silhouette, never a caricature or villainising image.
+
 ## 0. Environment
 
 ```

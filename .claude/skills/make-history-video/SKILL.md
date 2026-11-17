@@ -18,3 +18,11 @@ Read `docs/PLAYBOOK.md` first (the creator's standing rules and shortcuts, with 
 9. `studio all <slug>` (a pilot range first for long films), then deliver `out/<slug>.mp4` with a note of the fact fixes (§7).
 
 Story scenes and narrator stunts (PLAYBOOK §7c): every caption is a scene with characters and props, not a sign; the narrator does varied playful stunts on every HOST beat and about every third story beat; quiet beats get no stunts or gags. Thumbnails: PLAYBOOK §9.
+
+## Standing pacing and style rules (creator's, Nov 2026; details in docs/PLAYBOOK.md §7b, §7c, §9)
+- **Pacing:** the first minute changes picture every **1.8 s** (54 frames); afterwards something changes every **2.5 s** (75 frames). Use `cuts([...])`. Skill: `mrbeast-hooks-and-cuts`.
+- **Hook:** MrBeast-style, a familiar thing first; never "stay to the end"; no "Part N" or chapter cards (thin era timeline bar only).
+- **Story, not captions:** every caption is a scene (place, characters acting, props); text is only a small chip. The narrator does varied playful stunts on every HOST beat and about every third story beat (`narrator-moves`). No stunts or gags on quiet/tragedy beats, nothing graphic.
+- **Real pictures:** only as labelled evidence, 2.5 s at most, narrator points with the staff (`real-footage-editing`).
+- **Maps:** always GIS, never drawn by hand (`qgis-maps`).
+- **Real people:** labelled silhouette, never a caricature or villainising image.
