@@ -16,3 +16,5 @@ Read `docs/PLAYBOOK.md` first (the creator's standing rules and shortcuts, with 
 7. `studio check`, then `studio stills --section N`. Look at every contact sheet, fix, and repeat (§6).
 8. Voiceover? Run `studio align <slug>` before checking (§8).
 9. `studio all <slug>` (a pilot range first for long films), then deliver `out/<slug>.mp4` with a note of the fact fixes (§7).
+
+Story scenes and narrator stunts (PLAYBOOK §7c): every caption is a scene with characters and props, not a sign; the narrator does varied playful stunts on every HOST beat and about every third story beat; quiet beats get no stunts or gags. Thumbnails: PLAYBOOK §9.

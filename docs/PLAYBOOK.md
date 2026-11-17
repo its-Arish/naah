@@ -81,6 +81,14 @@ Standing rules for every film: narrator on screen in most shots and never redesi
 - **Caption zone:** HOST beats put props at x≈1190 or more, because the caption and narrator own the sides; map tags sit at y≈220 and must be short (about 24 characters at size 48).
 - **A still that shows a black picture** can be a loading race in the contact sheet; render the single frame to confirm before changing anything.
 
+## 7c. Story scenes and narrator stunts (added Nov 2026, Jews and Israel film)
+The creator's verdict on a draft made of signs and icons: "just captions popping, no story telling". Rules since:
+- **Every caption is a scene**: a place, characters acting and moving, props. Text is only a small date or name chip. Never repeat the caption as a sign, icon row or counter. Maps still come from GIS.
+- **The narrator's playful stunts are what hook viewers.** Use them often and vary them (fly, vault, twirl, cane, catch, helicopter, drop, peek, slack): one on every HOST beat and about every third story beat, never twice in a row the same. Library: `projects/jews-and-israel/src/Stunts.tsx`.
+- **Quiet beats** (tragedy, killings, Holocaust, Oct 7, war dead): dark or faded background, no stunts, no gags, no perpetrators drawn, no violence, nothing graphic. Attribute disputed numbers on screen.
+- Toolkit to copy: `src/Story.tsx` (backdrops, `P1`, `Walk`, `Crowd`, `March`, `Burn`, `Prop`, `Boat`, `Chip`, `Doc`), `src/ScKit.tsx` (`S`, `H`, costumes), `Sc1`–`Sc5.tsx`.
+- Check stills for every section before rendering. A render takes about 50 minutes for 25 minutes of film; render only the changed frame range, then concat, `sfx`, `mux`, `stems`.
+
 ## 8. Check, pilot, render, deliver
 
 1. `studio check <slug>`, then `studio stills <slug> --section N` for every section. Open every contact sheet. Look for text under props, labels behind the timeline pill, clipped tags and anything in the caption zone.
@@ -98,6 +106,7 @@ Standing rules for every film: narrator on screen in most shots and never redesi
 - The map comes from GIS like every other map (never drawn by hand). Example: `projects/california-thumb/shots.tsx` (render with `studio stills california-thumb 45`, then scale to 1280×720 with ffmpeg).
 - Three or four words beat six. Add one question or surprise from the film's hook when it fits ("AN ISLAND?"), and offer two versions to compare with YouTube's Test & Compare.
 - To make a place look like an island without drawing, widen its own GIS border into water (`island` shot in `projects/california-thumb/shots.tsx`).
+- **A real person on a thumbnail** (e.g. a prime minister): the house way is a labelled silhouette card (`engine/cast/Silhouette.tsx`), never a drawn likeness. The creator found map plus silhouette plain and wants more eye-catching thumbnails, so ask for a calm, neutral portrait (AI or photo he has rights to) and composite it over the GIS map with big title text. Never use or edit a villainising or caricatured image of a real person (glowing red eyes, sinister smirk, next to religious symbols); say so and ask for a neutral one. The engine cannot generate portrait art. Example: `projects/jews-thumb`.
 - If the creator's request mixes up films or wording (a different state's map, a number with no unit), ask before making it.
 
 ## 10. Known traps
