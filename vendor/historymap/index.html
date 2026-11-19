@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>History Map Studio</title>
+<meta name="description" content="Animated history maps: coloured countries and provinces, cinematic camera moves, 60 fps MP4 export." />
+<meta name="theme-color" content="#0a0c0f" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%23ff5a3c'/%3E%3Ccircle cx='7' cy='17' r='2.4' fill='white'/%3E%3Ccircle cx='17' cy='7' r='2.2' fill='none' stroke='white' stroke-width='1.6'/%3E%3Cpath d='M9 15.4C13.4 13.4 10.6 10.2 15 8.2' fill='none' stroke='white' stroke-width='1.6' stroke-dasharray='2 2.2' stroke-linecap='round'/%3E%3C/svg%3E" />
+<link href="https://unpkg.com/maplibre-gl@5.6.0/dist/maplibre-gl.css" rel="stylesheet" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div id="app">
+  <!-- ====================== SIDEBAR ====================== -->
+  <aside id="sidebar">
+    <header class="brand">
+      <div class="logo" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="20" height="20">
+          <circle cx="6.6" cy="17.4" r="2.5" fill="#fff"/>
+          <circle cx="17.4" cy="6.6" r="2.3" fill="none" stroke="#fff" stroke-width="1.7"/>
+          <path d="M8.9 15.6 C13.6 13.5 10.6 10.3 15.1 8.3" fill="none" stroke="#fff" stroke-width="1.7" stroke-dasharray="2.2 2.4" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <div class="brand-text">
+        <h1>History Map</h1>
+        <span class="tag">Map Studio</span>
+      </div>
+      <button id="nav-close" class="nav-close" aria-label="Close panel">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6 18 18 M18 6 6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+    </header>
+
+    <div class="scroll">
+      <!-- Story -->
+      <details class="sec" open>
+        <summary><span class="sec-title">Story</span><svg class="chev" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5"/></svg></summary>
+        <div class="sec-body">
+          <label class="field">
+            <span class="lbl">Title</span>
+            <input id="inp-title" type="text" placeholder="The Maurya Empire" value="" />
+          </label>
+          <label class="field">
+            <span class="lbl">Subtitle</span>
+            <input id="inp-subtitle" type="text" placeholder="322 – 185 BC" value="" />
+          </label>
+        </div>
+      </details>
+
+      <!-- Itinerary -->
+      <details class="sec" open>
+        <summary><span class="sec-title">Places</span><span id="stop-count" class="pill">0</span><svg class="chev" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5"/></svg></summary>
+        <div class="sec-body">
+          <div class="search">
+            <div class="search-field">
+              <svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M16 16 20 20" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+              <input id="inp-search" type="text" placeholder="Search a place, e.g. Pataliputra" autocomplete="off" />
+            </div>
+            <button id="btn-add" class="btn btn-accent">Add</button>
+            <div id="search-results" class="results hidden"></div>
+          </div>
+          <p class="hint">Or click the map to drop a place. The camera visits them in order. Drag a number to reorder, click a name to rename.</p>
+          <ol id="stops" class="stops"></ol>
+          <div class="sec-foot">
+            <button id="btn-clear" class="link-btn">Clear all</button>
+          </div>
+        </div>
+      </details>
+
+      <!-- Map colours -->
+      <details class="sec" open>
+        <summary><span class="sec-title">Map colours</span><span id="region-count" class="pill">0</span><svg class="chev" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5"/></svg></summary>
+        <div class="sec-body">
+          <div class="search">
+            <div class="search-field">
+              <svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M16 16 20 20" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+              <input id="inp-region" type="text" placeholder="Country or province, e.g. Nepal, Bihar" autocomplete="off" />
+            </div>
+            <div id="region-results" class="results hidden"></div>
+          </div>
+          <p class="hint">Coloured areas stay on the map for the whole video. Click a swatch to change its colour.</p>
+          <ul id="regions" class="regions"></ul>
+          <label class="field">
+            <span class="lbl">Fill strength <em id="fill-val" class="val">45%</em></span>
+            <input id="rng-fill" type="range" min="0.15" max="0.85" step="0.05" value="0.45" />
+          </label>
+          <div class="switches">
+            <label class="switch-row"><span>Borders</span><input id="chk-borders" type="checkbox" class="switch" checked /></label>
+          </div>
+          <p class="hint">Today's borders: Natural Earth 1:10m. Historical borders (search a name or a year, e.g. 1941): Cliopatria, Seshat Global History Databank, CC BY 4.0. Credit it in the video description.</p>
+        </div>
+      </details>
+
+      <!-- Arrows -->
+      <details class="sec" open>
+        <summary><span class="sec-title">Arrows</span><span id="arrow-count" class="pill">0</span><svg class="chev" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5"/></svg></summary>
+        <div class="sec-body">
+          <button id="btn-arrow" class="btn btn-ghost btn-block">
+            <svg class="ic" viewBox="0 0 24 24"><path d="M4 18 C9 16 13 12 17 7 M12.5 6.5 17.5 6.5 17.5 11.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span id="btn-arrow-label">Add arrow</span>
+          </button>
+          <p class="hint">Click <b>Add arrow</b>, then click where it starts and where it ends on the map. Each arrow draws itself when the camera reaches the place you choose, and stays.</p>
+          <ul id="arrows" class="regions"></ul>
+        </div>
+      </details>
+
+      <!-- Route tools -->
+      <details class="sec">
+        <summary><span class="sec-title">Build &amp; share</span><svg class="chev" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5"/></svg></summary>
+        <div class="sec-body">
+          <label class="field">
+            <span class="lbl">List places <em>replaces current places</em></span>
+            <textarea id="inp-trip" rows="3" placeholder="Lumbini, Kathmandu, Lhasa&#10;or one place per line"></textarea>
+          </label>
+          <button id="btn-build" class="btn btn-accent btn-block">
+            <svg class="ic" viewBox="0 0 24 24"><path d="M12 3 13.8 9.2 20 11 13.8 12.8 12 19 10.2 12.8 4 11 10.2 9.2 Z" fill="currentColor"/><path d="M18.5 3.2 19.2 5.5 21.5 6.2 19.2 6.9 18.5 9.2 17.8 6.9 15.5 6.2 17.8 5.5 Z" fill="currentColor"/></svg>
+            Build from text
+          </button>
+          <div class="divider"><span>Project file</span></div>
+          <div class="btnrow">
+            <button id="btn-import" class="btn btn-ghost">
+              <svg class="ic" viewBox="0 0 24 24"><path d="M12 15 V4 M7.5 8.5 12 4 16.5 8.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M5 14 V18.5 C5 19.3 5.7 20 6.5 20 H17.5 C18.3 20 19 19.3 19 18.5 V14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+              Import
+            </button>
+            <button id="btn-export" class="btn btn-ghost">
+              <svg class="ic" viewBox="0 0 24 24"><path d="M12 4 V15 M7.5 10.5 12 15 16.5 10.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M5 14 V18.5 C5 19.3 5.7 20 6.5 20 H17.5 C18.3 20 19 19.3 19 18.5 V14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+              Export
+            </button>
+          </div>
+          <p class="hint">Import GPX, KML or GeoJSON. Export saves stops, notes, photos and look as GeoJSON you can re-import.</p>
+        </div>
+      </details>
+
+      <!-- Look -->
+      <details class="sec" open>
+        <summary><span class="sec-title">Look</span><svg class="chev" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5"/></svg></summary>
+        <div class="sec-body">
+          <div class="field">
+            <span class="lbl">Map style</span>
+            <select id="sel-style">
+              <option value="satellite">Satellite — real imagery</option>
+              <option value="https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json">Voyager — colorful</option>
+              <option value="https://tiles.versatiles.org/assets/styles/eclipse/style.json">Eclipse — dark &amp; colorful</option>
+              <option value="https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json">Dark Matter — minimal dark</option>
+              <option value="https://tiles.openfreemap.org/styles/liberty">Liberty — classic color</option>
+              <option value="https://tiles.openfreemap.org/styles/fiord">Fiord — deep blue</option>
+              <option value="https://basemaps.cartocdn.com/gl/positron-gl-style/style.json">Positron — light minimal</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <span class="lbl">Frame</span>
+            <select id="sel-aspect" class="sr-only" tabindex="-1" aria-hidden="true">
+              <option value="16:9">16:9</option>
+              <option value="9:16">9:16</option>
+              <option value="1:1">1:1</option>
+              <option value="4:5">4:5</option>
+            </select>
+            <div class="seg seg-aspect" data-for="sel-aspect" role="radiogroup" aria-label="Aspect ratio">
+              <button type="button" data-value="16:9" title="YouTube / landscape"><i style="--w:18px;--h:10px"></i>16:9</button>
+              <button type="button" data-value="9:16" title="Reels / TikTok / Shorts"><i style="--w:9px;--h:16px"></i>9:16</button>
+              <button type="button" data-value="1:1" title="Square"><i style="--w:13px;--h:13px"></i>1:1</button>
+              <button type="button" data-value="4:5" title="Instagram portrait"><i style="--w:11px;--h:14px"></i>4:5</button>
+            </div>
+          </div>
+
+          <div class="field">
+            <span class="lbl">Accent</span>
+            <div class="swatches" role="radiogroup" aria-label="Accent color">
+              <button type="button" data-color="#ff5a3c" style="--c:#ff5a3c" title="Ember"></button>
+              <button type="button" data-color="#ffb020" style="--c:#ffb020" title="Amber"></button>
+              <button type="button" data-color="#2dd4a3" style="--c:#2dd4a3" title="Mint"></button>
+              <button type="button" data-color="#3b9eff" style="--c:#3b9eff" title="Sky"></button>
+              <button type="button" data-color="#8b5cf6" style="--c:#8b5cf6" title="Violet"></button>
+              <button type="button" data-color="#ff4d8d" style="--c:#ff4d8d" title="Rose"></button>
+              <label class="swatch-custom" title="Custom color">
+                <input id="inp-accent" type="color" value="#ff5a3c" />
+              </label>
+            </div>
+          </div>
+
+          <div class="switches">
+            <label class="switch-row"><span>Start from space <em>globe fly-in</em></span><input id="chk-space" type="checkbox" class="switch" checked /></label>
+            <label class="switch-row"><span>Zoom out between places <em>camera rises, then dives in</em></span><input id="chk-hop" type="checkbox" class="switch" checked /></label>
+            <label class="switch-row"><span>Globe view</span><input id="chk-globe" type="checkbox" class="switch" /></label>
+            <label class="switch-row"><span>3D tilt</span><input id="chk-pitch" type="checkbox" class="switch" /></label>
+            <label class="switch-row"><span>Place labels</span><input id="chk-labels" type="checkbox" class="switch" checked /></label>
+          </div>
+
+          <label class="field">
+            <span class="lbl">Pace <em id="pace-val" class="val">Normal</em></span>
+            <input id="rng-pace" type="range" min="0.4" max="2.2" step="0.1" value="1" />
+            <span class="range-ends"><span>Cinematic</span><span>Snappy</span></span>
+          </label>
+        </div>
+      </details>
+
+      <!-- Export -->
+      <details class="sec" open>
+        <summary><span class="sec-title">Video</span><svg class="chev" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5"/></svg></summary>
+        <div class="sec-body">
+          <div class="row2">
+            <div class="field">
+              <span class="lbl">Format</span>
+              <select id="sel-format" class="sr-only" tabindex="-1" aria-hidden="true">
+                <option value="mp4">MP4</option>
+                <option value="webm">WebM</option>
+              </select>
+              <div class="seg" data-for="sel-format" role="radiogroup" aria-label="Format">
+                <button type="button" data-value="mp4">MP4</button>
+                <button type="button" data-value="webm">WebM</button>
+              </div>
+            </div>
+            <div class="field">
+              <span class="lbl">Quality</span>
+              <select id="sel-quality" class="sr-only" tabindex="-1" aria-hidden="true">
+                <option value="1">30 fps</option>
+                <option value="2" selected>60 fps</option>
+              </select>
+              <div class="seg" data-for="sel-quality" role="radiogroup" aria-label="Quality">
+                <button type="button" data-value="1" title="Standard · 30 fps">30 fps</button>
+                <button type="button" data-value="2" title="High · 2× · 60 fps">60 fps</button>
+              </div>
+            </div>
+          </div>
+          <div class="field">
+            <span class="lbl">Music <em id="music-name">none</em></span>
+            <div class="btnrow">
+              <button id="btn-music" class="btn btn-ghost">
+                <svg class="ic" viewBox="0 0 24 24"><path d="M9 17.2 V6.2 L19 4 v11.2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="6.8" cy="17.4" r="2.3" fill="currentColor"/><circle cx="16.8" cy="15.4" r="2.3" fill="currentColor"/></svg>
+                Add music
+              </button>
+              <button id="btn-music-clear" class="btn btn-ghost hidden">
+                <svg class="ic" viewBox="0 0 24 24"><path d="M7 7 17 17 M17 7 7 17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                Remove
+              </button>
+            </div>
+          </div>
+          <label class="field">
+            <span class="lbl">Watermark <em>optional</em></span>
+            <input id="inp-watermark" type="text" placeholder="@yourhandle" />
+          </label>
+        </div>
+      </details>
+    </div>
+
+    <footer class="side-foot">
+      <span id="save-state" class="save-state">Autosave on</span>
+      <span class="credits">© Natural Earth · Cliopatria (CC BY) · OSM · Esri · CARTO</span>
+    </footer>
+  </aside>
+
+  <!-- ====================== STAGE ====================== -->
+  <main id="stage">
+    <div id="stage-inner">
+      <div id="mapbox">
+        <div id="map"></div>
+        <canvas id="output" aria-hidden="true"></canvas>
+      </div>
+    </div>
+
+    <div id="toolbar">
+      <button id="nav-toggle" class="tbtn icon-only" aria-label="Toggle panel" title="Toggle panel">
+        <svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="14" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M9.5 5.5 V18.5" stroke="currentColor" stroke-width="1.7"/></svg>
+      </button>
+      <span class="tsep" aria-hidden="true"></span>
+      <button id="btn-play" class="tbtn">
+        <svg class="ic" viewBox="0 0 24 24"><path d="M8 5.5 18 12 8 18.5 Z" fill="currentColor"/></svg>
+        Preview
+      </button>
+      <button id="btn-record" class="tbtn rec">
+        <span class="rec-dot"></span>
+        Record video
+      </button>
+      <button id="btn-stop" class="tbtn" disabled>
+        <svg class="ic" viewBox="0 0 24 24"><rect x="7" y="7" width="10" height="10" rx="1.5" fill="currentColor"/></svg>
+        Stop
+      </button>
+      <a id="btn-download" class="tbtn dl hidden" download="historymap.mp4">
+        <svg class="ic" viewBox="0 0 24 24"><path d="M12 4 V14.5 M7.5 10.5 12 15 16.5 10.5" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/><path d="M5 19 H19" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg>
+        <span id="dl-label">Download video</span>
+      </a>
+    </div>
+
+    <div id="loading" class="overlay hidden"><div class="loading-card"><div class="spinner"></div><span id="loading-text">Working…</span></div></div>
+    <div id="toast" class="toast hidden"></div>
+  </main>
+
+  <div id="menu" class="menu hidden" role="listbox"></div>
+
+  <div id="scrim"></div>
+</div>
+
+<!-- hidden file inputs -->
+<input id="file-photo" type="file" accept="image/*" class="hidden" />
+<input id="file-route" type="file" accept=".gpx,.kml,.geojson,.json" class="hidden" />
+<input id="file-music" type="file" accept="audio/*" class="hidden" />
+<audio id="music" loop class="hidden"></audio>
+
+<script src="https://unpkg.com/maplibre-gl@5.6.0/dist/maplibre-gl.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

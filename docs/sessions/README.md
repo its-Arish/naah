@@ -9,3 +9,4 @@ One file per working session: what the creator asked for, in their words, what w
 | Date | Project | Log |
 | --- | --- | --- |
 | 2026-11-10 | The Entire History of California | [2026-11-10-california.md](2026-11-10-california.md) |
+| 2026-11-19 | History Map (TripTrail fork for history maps) | [2026-11-19-history-map.md](2026-11-19-history-map.md) |
