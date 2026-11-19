@@ -63,3 +63,19 @@ A project can draw extra studio art over a map by exporting `MapExtras` from `sh
 - Pulsing effects render as still frames (Mapimator's exporter freezes CSS animation); movement comes from pins popping, fades, routes and camera moves.
 - Countries colour whole. To show a split country, use a `line`, labels and pins (as the Geneva example does).
 - Text and effect sizes are fixed at the zoom where they appear; if the camera zooms in later they grow with the map.
+
+## TripTrail (third map engine, Nov 2026)
+
+[TripTrail](https://github.com/Fangyuan025/triptrail) (MIT licence; a git submodule in `vendor/triptrail`) is a browser tool that animates a journey on a satellite globe with real roads, sea lanes and rail, and exports an MP4 (30 or 60 fps, no watermark). Use it for long journeys and real terrain: pilgrim routes, explorers, trade voyages, armies on the march. Keep the QGIS kit for numbers, states and disputed borders, and Mapimator for pins, coloured countries and arrows timed to words.
+
+```
+git submodule update --init vendor/triptrail
+cd vendor/triptrail && python3 -m http.server 8742      # then open http://localhost:8742 in Chrome
+```
+It needs the internet (map tiles from Esri and OpenFreeMap, routes from OSRM, search from Nominatim), so it cannot render in the sandbox; the creator exports each clip on their computer.
+
+1. A route is a GeoJSON file of Points in order, each with `name` and `mode` (`plane car train bus boat bike walk camper motorcycle tuktuk`) and an optional `note`. Settings ride in a `triptrail` member (`style`, `aspect`, `title`, `pace`, `globe`, `pitch` and so on). Example: `projects/map-comparison/triptrail/nepal-route.geojson`.
+2. In TripTrail: Import → pick the file → set the aspect to 16:9 and the title and watermark empty → Export MP4.
+3. Put the clip in `projects/<slug>/clips/<name>.mp4` and splice it over the beat's frames (same length as the beat, `-c:v libx264 -r 30`), then add captions, the era bar and narrator on top as usual.
+
+Comparison film: `projects/map-comparison` (engines 1 and 2 are rendered; engine 3 is a labelled slot until its clip is exported).

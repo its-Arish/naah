@@ -1,3 +1,6 @@
 [submodule "vendor/Mapimator"]
 	path = vendor/Mapimator
 	url = https://github.com/miladtz/Mapimator.git
+[submodule "vendor/triptrail"]
+	path = vendor/triptrail
+	url = https://github.com/Fangyuan025/triptrail.git

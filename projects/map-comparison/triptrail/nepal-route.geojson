@@ -1,0 +1,70 @@
+{
+ "type": "FeatureCollection",
+ "name": "Nepal: Lumbini to Kathmandu to Lhasa",
+ "triptrail": {
+  "version": 1,
+  "settings": {
+   "style": "satellite",
+   "aspect": "16:9",
+   "accent": "#ff5a3c",
+   "globe": true,
+   "pitch": true,
+   "labels": true,
+   "roads": true,
+   "glow": true,
+   "pace": 1,
+   "title": "",
+   "subtitle": "",
+   "watermark": "",
+   "format": "mp4",
+   "quality": 2
+  }
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Lumbini",
+    "mode": "walk",
+    "note": "Where the Buddha was born"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     83.276,
+     27.469
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Kathmandu",
+    "mode": "car",
+    "note": "Capital of Nepal"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     85.324,
+     27.717
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Lhasa",
+    "mode": "plane",
+    "note": "Tibet"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.117,
+     29.65
+    ]
+   }
+  }
+ ]
+}

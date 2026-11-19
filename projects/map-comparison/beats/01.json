@@ -1,0 +1,12 @@
+{
+ "title": "Map engines compared",
+ "sections": [
+  { "title": "Compare", "card": false, "beats": [
+   { "id": "m1", "shot": "m_intro", "type": "HOST", "text": "Three map engines, one route: from *Lumbini*, where the Buddha was born, to Kathmandu, and on to Lhasa.", "hold": 6, "sfx": [["pops", 30, 0.5]] },
+   { "id": "m2", "shot": "m_qgis", "type": "INSERT", "text": "Engine one: the *QGIS* kit, flat and clean.", "hold": 8, "date": null },
+   { "id": "m3", "shot": "map:nepal-route", "type": "INSERT", "text": "Engine two: *Mapimator*, dark and documentary.", "hold": 8, "date": null },
+   { "id": "m4", "shot": "m_trip", "type": "INSERT", "text": "Engine three: *TripTrail*, with real satellite imagery.", "hold": 6, "date": null },
+   { "id": "m5", "shot": "m_verdict", "type": "HOST", "text": "Use the kit for numbers and borders, Mapimator for routes, and *TripTrail* for real terrain and long journeys.", "hold": 8, "sfx": [["ding", "w:TripTrail", 0.5]] }
+  ] }
+ ]
+}
