@@ -89,6 +89,15 @@ The creator's verdict on a draft made of signs and icons: "just captions popping
 - Toolkit to copy: `src/Story.tsx` (backdrops, `P1`, `Walk`, `Crowd`, `March`, `Burn`, `Prop`, `Boat`, `Chip`, `Doc`), `src/ScKit.tsx` (`S`, `H`, costumes), `Sc1`–`Sc5.tsx`.
 - Check stills for every section before rendering. A render takes about 50 minutes for 25 minutes of film; render only the changed frame range, then concat, `sfx`, `mux`, `stems`.
 
+## 7d. History Map is the map style (creator's rule, Nov 19 2026)
+The creator loves the satellite look of History Map, so it is the default for every map shot.
+- **Use it for:** every place, route, border, war and empire map. Coloured regions and arrows carry the story; the narrator and captions go on top in the studio.
+- **War scenes:** small army icons or little characters move along the arrows (German army attacking Russia, and so on). Keep it neutral and non-graphic; no Nazi symbols or flags; name sides by region.
+- **Camera:** globe start, then zoom in on the place, zoom out for the big picture, again and again. Each zoom gets an SFX (whoosh, soft impact on arrival). Time the SFX to the clip's camera moves in `beats/*.json`.
+- **Recording:** `cd vendor/historymap && python3 -m http.server 8743`, open it in a browser with internet (Brave, or the Claude desktop app's built-in browser), load the project GeoJSON, Record video. Tested Nov 19 2026: H.264 1080p60 works. Output is about 1078 px tall, so pad/scale to 1080 before splicing.
+- **Pipeline:** write one project file per map beat, record to `projects/<slug>/clips/<beat_id>.mp4`, conform to 1920x1080, 30 fps and the beat's exact frame count, splice by frame range (CLAUDE.md section 7). Do a pilot of about 10 maps first.
+- **Known gaps:** army icons are not built into History Map yet (add them there, not as one-off overlays); Cliopatria borders cover 1941 only so far (credit Cliopatria, CC BY 4.0, in descriptions).
+
 ## 8. Check, pilot, render, deliver
 
 1. `studio check <slug>`, then `studio stills <slug> --section N` for every section. Open every contact sheet. Look for text under props, labels behind the timeline pill, clipped tags and anything in the caption zone.

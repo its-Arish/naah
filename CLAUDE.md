@@ -11,8 +11,14 @@ Read these before your first video: `docs/STYLE.md` (the look and the rules), `d
 - **Hook:** MrBeast-style, a familiar thing first; never "stay to the end"; no "Part N" or chapter cards (thin era timeline bar only).
 - **Story, not captions:** every caption is a scene (place, characters acting, props); text is only a small chip. The narrator does varied playful stunts on every HOST beat and about every third story beat (`narrator-moves`). No stunts or gags on quiet/tragedy beats, nothing graphic.
 - **Real pictures:** only as labelled evidence, 2.5 s at most, narrator points with the staff (`real-footage-editing`).
-- **Maps:** always GIS, never drawn by hand (`qgis-maps`).
+- **Maps:** always GIS, never drawn by hand (`qgis-maps`). **Map shots are History Map clips** (satellite globe, `vendor/historymap`, creator's rule Nov 19 2026): see the next section.
 - **Real people:** labelled silhouette, never a caricature or villainising image.
+
+## Standing map rule: History Map (creator's, Nov 19 2026; details in docs/PLAYBOOK.md §7d)
+- Every map shot in a history film is a **History Map clip** (`vendor/historymap`): satellite imagery, coloured countries/provinces, arrows, place labels. QGIS and Mapimator stay as fallbacks for charts, thumbnails and data shapes the clip cannot show.
+- **War scenes:** show the armies as small icons or little characters moving on the map (for example the German army advancing on Russia), with the arrows and coloured regions under them. Nothing graphic, no gore, no swastikas or party flags; label sides by region name ("German-controlled Europe").
+- **Camera:** often zoom in to the place and zoom out to the whole picture, and give every zoom a sound (whoosh in/out, impact on arrival) timed to the clip's camera moves. Open with the globe-start camera.
+- Clips are recorded in a browser with internet (the sandbox blocks the tile servers), named by beat id, 1920x1080 at 30 fps, exact frame count. See docs/PLAYBOOK.md §7d.
 
 ## 0. Environment
 
